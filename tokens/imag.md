@@ -2,7 +2,7 @@
 |---------------|-------|
 | Summary       | Returns the imaginary part of a number |
 | Syntax        | `imag(value`|
-| Menu Location | [MATH][RIGHT][RIGHT][1]|
+| Menu Location | [MATH][RIGHT][RIGHT][3]|
 | Hex Value     |`$BB27`|
 
 # imag(
