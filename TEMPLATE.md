@@ -20,6 +20,7 @@ Explanation 2
 ```ti-basic
 code 2
 ```
+## Error Conditions
 
 ## Advanced Notes
 
