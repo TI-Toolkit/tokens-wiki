@@ -9,7 +9,7 @@
 ## Command Description
 In an expression, the `conj(` command returns the complex conjugate of its argument. The complex conjugate of a number `X+Yi` is `X-Yi`.
 
-This command [vectorizes](vectorizes.md) on its argument.
+This command [vectorizes](vectorizes.md) over its argument.
 
 ## Example
 
