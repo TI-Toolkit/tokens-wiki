@@ -3,7 +3,6 @@
 | Summary       |       |
 | Syntax        |       |
 | Menu Location |       |
-| Compatibility |       |
 | Hex Value     |`$aabb`|
 
 # name
@@ -23,6 +22,11 @@ code 2
 ## Error Conditions
 
 ## Advanced Notes
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| TI-XX      | 5.0.0.π    | name was added |
 
 ## Related Commands
 - [command]()
