@@ -7,9 +7,9 @@
 
 # ►DMS
 ## Command Description
-On the homescreen or in a [`Disp `](tokens/disp.md) or [`Pause `](tokens/pause.md) statement, the `►DMS` command can be used to reformat a number (presumably, an angle in degrees) in degrees, arcminutes, and arcseconds.
+On the homescreen or in a [`Disp `](disp.md) or [`Pause `](pause.md) statement, the `►DMS` command can be used to reformat a number (presumably, an angle in degrees) in degrees, arcminutes, and arcseconds.
 
-It cannot be used with [`Output(`](tokens/output.md) or other display commands, as it throws a syntax error.
+It cannot be used with [`Output(`](output.md) or other display commands, as it throws a syntax error.
 
 ## Example
 ```ti-basic
@@ -18,8 +18,8 @@ It cannot be used with [`Output(`](tokens/output.md) or other display commands, 
 ```
 
 ## Error Conditions
-- [**SYNTAX**](errors/syntax.md) when used in an invalid context (i.e. an [`Output(`](tokens/output.md) command.)
-- [**DATATYPE**](errors/datatype.md) when used on anything besides a real.
+- [**SYNTAX**](../errors/syntax.md) when used in an invalid context (i.e. an [`Output(`](output.md) command.)
+- [**DATATYPE**](../errors/datatype.md) when used on anything besides a real.
 
 ## Advanced Notes
 - Each degree (represented by `°`) is 1/360th of a circle, each arcminute (represented by `'`) is 1/60th of a degree, and each arcsecond (represented by `"`) is 1/60th of an arcminute.
@@ -30,5 +30,5 @@ It cannot be used with [`Output(`](tokens/output.md) or other display commands, 
 | TI-82      | 1.0 | `►DMS` token added. |
 
 ## Related Commands
-- [`°`](tokens/degree-symbol.md)
-- [`r`](tokens/r-symbol.md)
+- [`°`](degree-symbol.md)
+- [`r`](r-symbol.md)
