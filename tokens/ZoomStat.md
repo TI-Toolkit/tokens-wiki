@@ -1,0 +1,49 @@
+| Property      | Value |
+|---------------|-------|
+| Hex Value     | `$8F`|
+| Categories    | <ul><li>Catalog\Z</li></ul> |
+
+# `ZoomStat`
+
+## Description
+Redefines the viewing window so that all statistical data points are displayed.
+
+
+<b>Availability</b>: Token only available from within the Basic editor.
+
+## Syntax
+`ZoomStat`
+
+## Description
+Redefines the viewing window so that all statistical data points are displayed.
+
+## Location
+<kbd>zoom</kbd>, `ZOOM`, `9:ZoomStat`
+<hr>
+
+## Examples
+
+Explanation 1
+```ti-basic
+code 1
+```
+---
+Explanation 2
+```ti-basic
+code 2
+```
+
+## Error Conditions
+
+
+## Advanced Notes
+
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| <b>TI-82</b> | 1.0 | Added
+
+## Related Commands
+
+    

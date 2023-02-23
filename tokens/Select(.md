@@ -1,0 +1,59 @@
+| Property      | Value |
+|---------------|-------|
+| Hex Value     | `$BB58`|
+| Categories    | <ul><li>List\Ops</li><li>Catalog\S</li></ul> |
+
+# `Select(`
+
+## Description
+Selects one or more specific data points from a scatter plot or xyLine plot (only), and then store's the selected data points to two new lists, Xlistname and Ylistname.
+
+
+<b>Availability</b>: Token available everywhere.
+
+## Syntax
+`Select(Xlistname,Ylistname)`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>Xlistname</td><td>list</td><td>false</td></tr>
+
+<tr><td>Ylistname</td><td>list</td><td>false</td></tr>
+
+</table>
+
+## Description
+Selects one or more specific data points from a scatter plot or xyLine plot (only), and then store's the selected data points to two new lists, Xlistname and Ylistname.
+
+## Location
+<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `8:Select(`
+<hr>
+
+## Examples
+
+Explanation 1
+```ti-basic
+code 1
+```
+---
+Explanation 2
+```ti-basic
+code 2
+```
+
+## Error Conditions
+
+
+## Advanced Notes
+
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| <b>TI-83</b> | 1.010 | Added
+
+## Related Commands
+
+    

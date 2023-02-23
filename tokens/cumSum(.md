@@ -1,0 +1,81 @@
+| Property      | Value |
+|---------------|-------|
+| Hex Value     | `$BB29`|
+| Categories    | <ul><li>List\Ops</li><li>Catalog\C</li></ul> |
+
+# `cumSum(`
+
+## Description
+Returns a list of the cumulative sums of the elements in list, starting with the first element.
+
+
+<b>Availability</b>: Token available everywhere.
+
+## Syntax
+`cumSum(list)`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>list</td><td>list</td><td>false</td></tr>
+
+</table>
+
+## Description
+Returns a list of the cumulative sums of the elements in list, starting with the first element.
+
+## Location
+<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `6:cumSum(`
+<hr>
+
+## Description
+Returns a matrix of the cumulative sums of matrix elements. Each element in the returned matrix is a cumulative sum of a matrix column from top to bottom.
+
+
+<b>Availability</b>: Token available everywhere.
+
+## Syntax
+`cumSum(matrix)`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>matrix</td><td></td><td>false</td></tr>
+
+</table>
+
+## Description
+Returns a matrix of the cumulative sums of matrix elements. Each element in the returned matrix is a cumulative sum of a matrix column from top to bottom.
+
+## Location
+<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `0:cumSum(`
+<hr>
+
+## Examples
+
+Explanation 1
+```ti-basic
+code 1
+```
+---
+Explanation 2
+```ti-basic
+code 2
+```
+
+## Error Conditions
+
+
+## Advanced Notes
+
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| <b>TI-83</b> | 1.010 | Added
+
+## Related Commands
+
+    

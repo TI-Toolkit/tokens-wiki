@@ -1,0 +1,61 @@
+| Property      | Value |
+|---------------|-------|
+| Hex Value     | `$EF65`|
+| Categories    | <ul></ul> |
+
+# `GraphColor(`
+
+## Description
+Sets the color for function#.
+Color#: 10 - 24 or color name pasted from [vars] COLOR.
+
+
+<b>Availability</b>: Token only available from within the Basic editor.
+
+## Syntax
+`GraphColor(function#,color#)`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>function#</td><td></td><td>false</td></tr>
+
+<tr><td>color#</td><td></td><td>false</td></tr>
+
+</table>
+
+## Description
+Sets the color for function#.
+Color#: 10 - 24 or color name pasted from [vars] COLOR.
+
+## Location
+<kbd>prgm</kbd>, `CTL`, `H:GraphColor(`
+<hr>
+
+## Examples
+
+Explanation 1
+```ti-basic
+code 1
+```
+---
+Explanation 2
+```ti-basic
+code 2
+```
+
+## Error Conditions
+
+
+## Advanced Notes
+
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| <b>TI-84+CSE</b> | 4.0 | Added
+
+## Related Commands
+
+    

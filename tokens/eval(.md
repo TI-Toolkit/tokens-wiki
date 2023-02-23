@@ -1,0 +1,90 @@
+| Property      | Value |
+|---------------|-------|
+| Hex Value     | `$EF98`|
+| Categories    | <ul></ul> |
+
+# `eval(`
+
+## Description
+Returns an evaluated expression as a string with 8 significant digits.  The expression must be real.
+
+<b>Comment</b>:undefined
+
+<b>Availability</b>: Token only available from within the Basic editor.
+
+## Syntax
+`eval(expression)`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>eval</td><td></td><td>false</td></tr>
+
+<tr><td>expression</td><td></td><td>false</td></tr>
+
+</table>
+
+## Description
+Returns an evaluated expression as a string with 8 significant digits.  The expression must be real.
+
+## Location
+<kbd>prgm</kbd>, `I/O`, `C:eval(`
+<hr>
+
+## Description
+Returns an evaluated expression as a string with 8 significant digits.  The expression must simplify to a real expression.
+
+<b>Comment</b>:undefined
+
+<b>Availability</b>: Token only available from within the Basic editor.
+
+## Syntax
+`eval(expression)`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>eval</td><td></td><td>false</td></tr>
+
+<tr><td>expression</td><td></td><td>false</td></tr>
+
+</table>
+
+## Description
+Returns an evaluated expression as a string with 8 significant digits.  The expression must simplify to a real expression.
+
+## Location
+<kbd>prgm</kbd>, `6:eval(`
+## Special Category
+TI-Innovator™ Hub
+
+<hr>
+
+## Examples
+
+Explanation 1
+```ti-basic
+code 1
+```
+---
+Explanation 2
+```ti-basic
+code 2
+```
+
+## Error Conditions
+
+
+## Advanced Notes
+
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| <b>TI-84+CE</b> | 5.2.0 | Added
+
+## Related Commands
+
+    

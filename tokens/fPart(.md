@@ -1,0 +1,57 @@
+| Property      | Value |
+|---------------|-------|
+| Hex Value     | `$BA`|
+| Categories    | <ul><li>Math\Number</li><li>Catalog\F</li></ul> |
+
+# `fPart(`
+
+## Description
+Returns the fractional part or parts of a real or complex number, expression, list, or matrix.
+
+
+<b>Availability</b>: Token available everywhere.
+
+## Syntax
+`fPart(value)`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>value</td><td></td><td>false</td></tr>
+
+</table>
+
+## Description
+Returns the fractional part or parts of a real or complex number, expression, list, or matrix.
+
+## Location
+<kbd>math</kbd>, `NUM`, `4:fPart(`
+<hr>
+
+## Examples
+
+Explanation 1
+```ti-basic
+code 1
+```
+---
+Explanation 2
+```ti-basic
+code 2
+```
+
+## Error Conditions
+
+
+## Advanced Notes
+
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| <b>TI-83</b> | 1.010 | Added
+
+## Related Commands
+
+    

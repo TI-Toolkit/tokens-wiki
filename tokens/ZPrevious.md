@@ -1,0 +1,49 @@
+| Property      | Value |
+|---------------|-------|
+| Hex Value     | `$8D`|
+| Categories    | <ul><li>Catalog\Z</li></ul> |
+
+# `ZPrevious`
+
+## Description
+Replots the graph using the window variables of the graph that was displayed before you executed the last ZOOM instruction.
+
+
+<b>Availability</b>: Token only available from within the Basic editor.
+
+## Syntax
+`ZPrevious`
+
+## Description
+Replots the graph using the window variables of the graph that was displayed before you executed the last ZOOM instruction.
+
+## Location
+<kbd>zoom</kbd>, `MEMORY`, `1:ZPrevious`
+<hr>
+
+## Examples
+
+Explanation 1
+```ti-basic
+code 1
+```
+---
+Explanation 2
+```ti-basic
+code 2
+```
+
+## Error Conditions
+
+
+## Advanced Notes
+
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| <b>TI-82</b> | 1.0 | Added
+
+## Related Commands
+
+    

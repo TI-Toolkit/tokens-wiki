@@ -1,0 +1,65 @@
+| Property      | Value |
+|---------------|-------|
+| Hex Value     | `$25`|
+| Categories    | <ul><li>Catalog\N</li><li>Math\Math</li></ul> |
+
+# `nDeriv(`
+
+## Description
+When command is used in Classic mode, returns approximate numerical derivative of expression with respect to variable at value, with specific tolerance H.
+In MathPrint mode, numeric derivative template pastes and uses default tolerance H.
+
+
+<b>Availability</b>: Token available everywhere.
+
+## Syntax
+`nDeriv(expression,variable,value[,H])`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>expression</td><td></td><td>false</td></tr>
+
+<tr><td>variable</td><td></td><td>false</td></tr>
+
+<tr><td>value</td><td></td><td>false</td></tr>
+
+<tr><td>H</td><td></td><td>true</td></tr>
+
+</table>
+
+## Description
+When command is used in Classic mode, returns approximate numerical derivative of expression with respect to variable at value, with specific tolerance H.
+In MathPrint mode, numeric derivative template pastes and uses default tolerance H.
+
+## Location
+<kbd>math</kbd>, `MATH`, `8:nDeriv(`
+<hr>
+
+## Examples
+
+Explanation 1
+```ti-basic
+code 1
+```
+---
+Explanation 2
+```ti-basic
+code 2
+```
+
+## Error Conditions
+
+
+## Advanced Notes
+
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| <b>TI-82</b> | 1.0 | Added
+
+## Related Commands
+
+    

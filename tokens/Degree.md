@@ -1,0 +1,49 @@
+| Property      | Value |
+|---------------|-------|
+| Hex Value     | `$65`|
+| Categories    | <ul><li>Catalog\D</li><li>Mode</li></ul> |
+
+# `Degree`
+
+## Description
+Sets degree angle mode.
+
+
+<b>Availability</b>: Token only available from within the Basic editor.
+
+## Syntax
+`Degree`
+
+## Description
+Sets degree angle mode.
+
+## Location
+<kbd>mode</kbd>, `Degree`
+<hr>
+
+## Examples
+
+Explanation 1
+```ti-basic
+code 1
+```
+---
+Explanation 2
+```ti-basic
+code 2
+```
+
+## Error Conditions
+
+
+## Advanced Notes
+
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| <b>TI-82</b> | 1.0 | Added
+
+## Related Commands
+
+    
