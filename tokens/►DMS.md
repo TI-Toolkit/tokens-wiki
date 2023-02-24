@@ -7,7 +7,7 @@
 # `►DMS`
 
 ## Description
-Displays value in DMS format.
+Displays `value` in DMS format.
 
 
 <b>Availability</b>: Token available everywhere.

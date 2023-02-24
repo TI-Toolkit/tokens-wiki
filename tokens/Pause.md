@@ -20,7 +20,7 @@ Suspends program execution until you press Í.
 <hr>
 
 ## Description
-Displays value; suspends program execution until you press Í.
+Displays `value`; suspends program execution until you press Í.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
@@ -41,8 +41,8 @@ Displays value; suspends program execution until you press Í.
 <hr>
 
 ## Description
-Displays value on the current home screen and execution of the program continues after the time period specified. For time only, use Pause “”,time where the value is a blank string. Time is in seconds.
-Pause value,time.
+Displays value on the current home screen and execution of the program continues after the time period specified. For time only, use Pause `“”,time` where the value is a blank string. Time is in seconds.
+Pause `value,time`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

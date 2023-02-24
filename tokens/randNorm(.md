@@ -7,7 +7,7 @@
 # `randNorm(`
 
 ## Description
-Generates and displays a random real number from a specified Normal distribution specified by m and s for a specified number of trials numtrials.
+Generates and displays a random real number from a specified Normal distribution specified by m and s for a specified number of trials `numtrials`.
 
 
 <b>Availability</b>: Token available everywhere.

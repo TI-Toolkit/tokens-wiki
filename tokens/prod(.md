@@ -7,7 +7,7 @@
 # `prod(`
 
 ## Description
-Returns product of list elements between start and end
+Returns product of `list` elements between `start` and `end`
 
 
 <b>Availability</b>: Token available everywhere.

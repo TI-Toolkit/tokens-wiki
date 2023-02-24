@@ -7,7 +7,7 @@
 # `ZInterval `
 
 ## Description
-Computes a z confidence interval.
+Computes a `z` confidence interval.
 
 <b>Comment</b>:undefined
 
@@ -37,7 +37,7 @@ Computes a z confidence interval.
 <hr>
 
 ## Description
-Computes a z confidence interval.
+Computes a `z` confidence interval.
 
 <b>Comment</b>:undefined
 

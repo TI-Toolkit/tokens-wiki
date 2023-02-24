@@ -7,7 +7,7 @@
 # `nDeriv(`
 
 ## Description
-When command is used in Classic mode, returns approximate numerical derivative of expression with respect to variable at value, with specific tolerance H.
+When command is used in Classic mode, returns approximate numerical derivative of `expression` with respect to `variable` at `value`, with specific tolerance H.
 In MathPrint mode, numeric derivative template pastes and uses default tolerance H.
 
 

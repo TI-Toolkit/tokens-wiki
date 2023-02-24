@@ -291,6 +291,13 @@ for(let i = 0; i < 26; i++)
             //console.log(idx, argName, arguments[idx][1])
         }
 
+        let description = "";
+        {
+            const descRaw = Array.from(token.querySelectorAll('tbody p.CmdDesc'));
+            descRaw.forEach((el) => { el.innerHTML = el.innerHTML.replace(/<span class="(?:Function|Variable)">([^<]+)<\/span>/g, '`$1`'); });
+            description = descRaw.map(el => el.textContent.trim()).join("\n");
+        }
+
         const rawLocation = token.querySelector('tbody p.MenuName > span')?.parentElement;
         const location = [ ...(rawLocation?.children ?? []) ]
                          .map(el => el.textContent.trim())
@@ -305,11 +312,13 @@ for(let i = 0; i < 26; i++)
                                       .replace(/^N$/, '[catalog]').replace(/^<$/, '[draw]').replace(/^,$/, '[stat plot]').replace(/^Z$/, '[ans]')
                                       .replace(/^½$/, '[vars]').replace(/^æ$/, 'I%').replace(/^Ú$/, '𝗡').replace(/^ä$/, '*').replace(/^@$/, 'Δ'));
 
+        let specificName = undefined;
         if (!bytes) {
             bytes = {
                 'If Then End':      name2bytes['If '],
                 'If Then Else End': name2bytes['If '],
             }[name];
+            specificName = name;
             if (!bytes) {
                 throw `bytes not defined for token name: [${name}]`;
             }
@@ -324,10 +333,11 @@ for(let i = 0; i < 26; i++)
             since: tkXML[bytes]?.since,
             until: tkXML[bytes]?.until,
         }).syntaxes.push({
+            specificName: specificName,
             syntax: wholeSyntaxLine,
             comment: comment,
             arguments: args,
-            description: Array.from(token.querySelectorAll('tbody p.CmdDesc')).map(el => el.textContent.trim()).join("\n"),
+            description: description,
             inEditorOnly: (token.querySelector('tbody p.MenuName')?.textContent ?? '').includes('†'),
             location: location.length > 1 ? location : [`[${name.replace(/\($/,'')}]`],
             specialCategory: specialCategory.length ? specialCategory : undefined,

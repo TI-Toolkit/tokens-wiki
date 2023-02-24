@@ -7,7 +7,7 @@
 # `1-Var Stats `
 
 ## Description
-Performs one-variable analysis on the data in Xlistname with frequency freqlist.
+Performs one-variable analysis on the data in `Xlistname` with frequency `freqlist`.
 
 
 <b>Availability</b>: Token available everywhere.

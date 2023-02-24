@@ -7,7 +7,7 @@
 # ` nCr `
 
 ## Description
-Returns the number of combinations of valueA taken valueB at a time.
+Returns the number of combinations of `valueA` taken `valueB` at a time.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -30,7 +30,7 @@ Returns the number of combinations of valueA taken valueB at a time.
 <hr>
 
 ## Description
-Returns a list of the combinations of value taken each element in list at a time.
+Returns a list of the combinations of `value` taken each element in `list` at a time.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -53,7 +53,7 @@ Returns a list of the combinations of value taken each element in list at a time
 <hr>
 
 ## Description
-Returns a list of the combinations of each element in list taken value at a time.
+Returns a list of the combinations of each element in `list` taken `value` at a time.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -76,7 +76,7 @@ Returns a list of the combinations of each element in list taken value at a time
 <hr>
 
 ## Description
-Returns a list of the combinations of each element in listA taken each element in listB at a time.
+Returns a list of the combinations of each element in `listA` taken each element in `listB` at a time.
 
 
 <b>Availability</b>: Token available everywhere.

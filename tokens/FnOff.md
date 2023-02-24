@@ -7,7 +7,7 @@
 # `FnOff `
 
 ## Description
-Deselects all Y= functions or specified Y= functions.
+Deselects all `Y=` functions or specified `Y=` functions.
 
 
 <b>Availability</b>: Token available everywhere.

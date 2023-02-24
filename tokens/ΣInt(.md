@@ -7,7 +7,7 @@
 # `ΣInt(`
 
 ## Description
-Computes the sum, rounded to roundvalue, of the interest amount between pmt1 and pmt2 for an amortization schedule.
+Computes the sum, rounded to `roundvalue`, of the interest amount between `pmt1` and `pmt2` for an amortization schedule.
 
 
 <b>Availability</b>: Token available everywhere.

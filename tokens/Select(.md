@@ -7,7 +7,7 @@
 # `Select(`
 
 ## Description
-Selects one or more specific data points from a scatter plot or xyLine plot (only), and then store's the selected data points to two new lists, Xlistname and Ylistname.
+Selects one or more specific data points from a scatter plot or xyLine plot (only), and then store's the selected data points to two new lists, `Xlistname` and `Ylistname`.
 
 
 <b>Availability</b>: Token available everywhere.

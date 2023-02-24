@@ -7,7 +7,7 @@
 # `Fill(`
 
 ## Description
-Stores value to each element in matrixname.
+Stores `value` to each element in `matrixname`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -30,7 +30,7 @@ Stores value to each element in matrixname.
 <hr>
 
 ## Description
-Stores value to each element in listname.
+Stores `value` to each element in `listname`.
 
 
 <b>Availability</b>: Token available everywhere.

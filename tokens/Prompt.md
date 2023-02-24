@@ -7,7 +7,7 @@
 # `Prompt `
 
 ## Description
-Prompts for value for variableA, then variableB, and so on.
+Prompts for value for `variableA`, then `variableB`, and so on.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

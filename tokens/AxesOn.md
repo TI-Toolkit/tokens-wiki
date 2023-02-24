@@ -7,7 +7,7 @@
 # `AxesOn `
 
 ## Description
-Turns on the graph axes with color. The color option allows the color of the axes to be specified.
+Turns on the graph axes with color. The `color `option allows the color of the axes to be specified.
 Color#: 10 - 24 or color name pasted from [vars] COLOR..
 
 

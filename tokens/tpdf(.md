@@ -7,7 +7,7 @@
 # `tpdf(`
 
 ## Description
-Computes the probability density function (pdf) for the Student-t distribution at a specified x value with specified degrees of freedom df.
+Computes the probability density function (pdf) for the Student-`t` distribution at a specified `x` value with specified degrees of freedom `df`.
 
 
 <b>Availability</b>: Token available everywhere.

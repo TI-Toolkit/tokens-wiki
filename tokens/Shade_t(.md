@@ -7,7 +7,7 @@
 # `Shade_t(`
 
 ## Description
-Draws the density function for the Student-t distribution specified by degrees of freedom df, and shades or colors the area between lowerbound and upperbound.
+Draws the density function for the Student-t distribution specified by degrees of freedom df, and shades or colors the area between `lowerbound` and `upperbound`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

@@ -7,7 +7,7 @@
 # `inString(`
 
 ## Description
-Returns the character position in string of the first character of substring beginning at start.
+Returns the character position in `string` of the first character of `substring `beginning at `start`.
 
 
 <b>Availability</b>: Token available everywhere.

@@ -26,6 +26,13 @@ for (const [bytes, token] of Object.entries(tokens)) {
 `;
 
     for (const info of token.syntaxes) {
+
+        if (info.specificName && info.specificName.length) {
+            page += `
+# \`${info.specificName}\`
+`;
+        }
+
         page += `
 ## Description
 ${info.description}

@@ -7,7 +7,7 @@
 # `ZSquare`
 
 ## Description
-Adjusts the X or Y window settings so that each pixel represents an equal width and height in the coordinate system, and updates the viewing window.
+Adjusts the `X` or `Y` window settings so that each pixel represents an equal width and height in the coordinate system, and updates the viewing window.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

@@ -7,7 +7,7 @@
 # `2-SampZInt(`
 
 ## Description
-Computes a two-sample z confidence interval.
+Computes a two-sample `z` confidence interval.
 
 <b>Comment</b>:undefined
 
@@ -47,7 +47,7 @@ Computes a two-sample z confidence interval.
 <hr>
 
 ## Description
-Computes a two-sample z confidence interval.
+Computes a two-sample `z` confidence interval.
 
 <b>Comment</b>:undefined
 

@@ -7,7 +7,7 @@
 # `Else`
 
 ## Description
-See If:Then:Else
+`See `If:Then:Else
 
 
 <b>Availability</b>: Token available everywhere.

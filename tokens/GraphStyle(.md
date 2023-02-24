@@ -7,7 +7,7 @@
 # `GraphStyle(`
 
 ## Description
-Sets a graphstyle for function#.
+Sets a `graphstyle` for `function#`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

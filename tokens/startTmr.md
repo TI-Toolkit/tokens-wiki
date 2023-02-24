@@ -7,7 +7,7 @@
 # `startTmr`
 
 ## Description
-Starts the clock timer. Store or note the displayed value, and use it as the argument for checkTmr( ) to check the elapsed time.
+Starts the clock timer. Store or note the displayed value, and use it as the argument for `checkTmr( )` to check the elapsed time.
 
 
 <b>Availability</b>: Token available everywhere.

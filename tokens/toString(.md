@@ -7,7 +7,7 @@
 # `toString(`
 
 ## Description
-Converts value to a string where value can be real, complex, an evaluated expression, list, or matrix.  String value displays in classic format (0) following the mode setting AUTO/DEC or in decimal format (1).
+Converts value to a string where `value` can be real, complex, an evaluated expression, list, or matrix.  String `value` displays in classic `format` (0) following the mode setting AUTO/DEC or in decimal `format` (1).
 
 <b>Comment</b>:undefined
 

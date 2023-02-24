@@ -7,7 +7,7 @@
 # `►Rect`
 
 ## Description
-Displays complex value or list in rectangular format.
+Displays `complex value` or list in rectangular format.
 
 
 <b>Availability</b>: Token available everywhere.

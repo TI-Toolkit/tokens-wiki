@@ -7,7 +7,7 @@
 # `dbd(`
 
 ## Description
-Calculates the number of days between date1 and date2 using the actual-day-count method.
+Calculates the number of days between `date1` and `date2` using the actual-day-count method.
 
 
 <b>Availability</b>: Token available everywhere.

@@ -7,7 +7,7 @@
 # `FnOn `
 
 ## Description
-Selects all Y= functions or specified Y= functions.
+Selects all `Y=` functions or specified `Y=` functions.
 
 
 <b>Availability</b>: Token available everywhere.

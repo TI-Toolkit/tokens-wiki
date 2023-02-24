@@ -7,7 +7,7 @@
 # `*row+(`
 
 ## Description
-Returns a matrix with rowA of matrix multiplied by value, added to rowB, and stored in rowB.
+Returns a matrix with `rowA` of `matrix` multiplied by `value`, added to `rowB`, and stored in `rowB`.
 
 
 <b>Availability</b>: Token available everywhere.

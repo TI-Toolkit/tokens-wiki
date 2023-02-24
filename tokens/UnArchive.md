@@ -8,7 +8,7 @@
 
 ## Description
 Moves the specified variables from the user data archive memory to RAM.
-To archive variables, use Archive.
+To archive variables, use `Archive`.
 
 
 <b>Availability</b>: Token available everywhere.

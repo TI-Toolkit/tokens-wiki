@@ -7,7 +7,7 @@
 # `not(`
 
 ## Description
-Returns 0 if value is  0. value can be a real number, expression, or list.
+Returns `0` if `value` is  0. `value` can be a real number, expression, or list.
 
 
 <b>Availability</b>: Token available everywhere.

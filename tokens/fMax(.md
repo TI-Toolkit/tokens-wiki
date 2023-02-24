@@ -7,7 +7,7 @@
 # `fMax(`
 
 ## Description
-Returns the value of variable where the local maximum of expression occurs, between lower and upper,with specified tolerance.
+Returns the value of `variable` where the local maximum of `expression` occurs, between `lower` and `upper`,with specified `tolerance`.
 
 
 <b>Availability</b>: Token available everywhere.

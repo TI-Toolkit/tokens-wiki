@@ -7,7 +7,7 @@
 # `Matr►list(`
 
 ## Description
-Fills each listname with elements from each column in matrix.
+Fills each `listname` with elements from each column in `matrix`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -36,7 +36,7 @@ Fills each listname with elements from each column in matrix.
 <hr>
 
 ## Description
-Fills a listname with elements from a specified column# in matrix.
+Fills a `listname` with elements from a specified `column#` in `matrix`.
 
 
 <b>Availability</b>: Token available everywhere.

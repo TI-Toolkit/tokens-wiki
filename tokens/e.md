@@ -7,7 +7,7 @@
 # `e`
 
 ## Description
-Returns decimal approximation of the constant e.
+Returns decimal approximation of the constant `e`.
 
 
 <b>Availability</b>: Token available everywhere.

@@ -7,7 +7,7 @@
 # `poissonpdf(`
 
 ## Description
-Computes a probability at x for the discrete Poisson distribution with the specified mean m.
+Computes a probability at `x` for the discrete Poisson distribution with the specified mean m.
 
 
 <b>Availability</b>: Token available everywhere.

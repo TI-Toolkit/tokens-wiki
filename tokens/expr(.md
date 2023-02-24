@@ -7,7 +7,7 @@
 # `expr(`
 
 ## Description
-Converts the character string contained in string to an expression and executes the expression. string can be a string or a string variable.
+Converts the character string contained in `string` to an expression and executes the expression. `string` can be a string or a string variable.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

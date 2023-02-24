@@ -7,7 +7,7 @@
 # `e^(`
 
 ## Description
-Returns e raised to power.
+Returns `e` raised to `power`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -28,7 +28,7 @@ Returns e raised to power.
 <hr>
 
 ## Description
-Returns a list of e raised to a list of powers.
+Returns a list of `e` raised to a `list` of powers.
 
 
 <b>Availability</b>: Token available everywhere.

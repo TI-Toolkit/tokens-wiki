@@ -7,7 +7,7 @@
 # `stdDev(`
 
 ## Description
-Returns the standard deviation of the elements in list with frequency freqlist.
+Returns the standard deviation of the elements in `list` with frequency `freqlist`.
 
 
 <b>Availability</b>: Token available everywhere.

@@ -7,7 +7,7 @@
 # `geometcdf(`
 
 ## Description
-Computes a cumulative probability at x, the number of the trial on which the first success occurs, for the discrete geometric distribution with the specified probability of success p.
+Computes a cumulative probability at `x`, the number of the trial on which the first success occurs, for the discrete geometric distribution with the specified probability of success `p.`
 
 
 <b>Availability</b>: Token available everywhere.

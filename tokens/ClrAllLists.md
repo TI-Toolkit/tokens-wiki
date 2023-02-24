@@ -7,7 +7,7 @@
 # `ClrAllLists`
 
 ## Description
-Sets to 0 the dimension of all lists in memory.
+Sets to `0` the dimension of all lists in memory.
 
 
 <b>Availability</b>: Token available everywhere.

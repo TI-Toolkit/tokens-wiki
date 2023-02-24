@@ -7,7 +7,7 @@
 # `ZFrac1⁄8`
 
 ## Description
-Sets the window variables so that you can trace in increments of , if possible. Sets TraceStep to  and ΔX and ΔY to .
+Sets the window variables so that you can trace in increments of , if possible. Sets `TraceStep `to  and Δ`X` and Δ`Y `to .
 
 
 <b>Availability</b>: Token available everywhere.

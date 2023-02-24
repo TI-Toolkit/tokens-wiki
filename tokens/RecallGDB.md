@@ -7,7 +7,7 @@
 # `RecallGDB `
 
 ## Description
-Restores all settings stored in the graph database variable GDBn.
+Restores all settings stored in the graph database variable `GDB``n`.
 
 
 <b>Availability</b>: Token available everywhere.

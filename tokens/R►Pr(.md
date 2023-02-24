@@ -7,7 +7,7 @@
 # `R►Pr(`
 
 ## Description
-Returns R, given rectangular coordinates x and y or a list of rectangular coordinates.
+Returns `R`, given rectangular coordinates `x` and `y` or a list of rectangular coordinates.
 
 
 <b>Availability</b>: Token available everywhere.

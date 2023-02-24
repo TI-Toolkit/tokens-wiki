@@ -7,7 +7,7 @@
 # `StorePic `
 
 ## Description
-Stores current picture in picture Picn.
+Stores current picture in picture `Pic``n`.
 
 
 <b>Availability</b>: Token available everywhere.

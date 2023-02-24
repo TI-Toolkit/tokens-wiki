@@ -7,7 +7,7 @@
 # `seq(`
 
 ## Description
-Returns list created by evaluating expression with regard to variable, from begin to end by increment.
+Returns list created by evaluating `expression` with regard to `variable`, from `begin` to `end` by `increment.`
 
 
 <b>Availability</b>: Token available everywhere.

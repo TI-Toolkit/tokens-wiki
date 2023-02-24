@@ -7,7 +7,7 @@
 # `DrawF `
 
 ## Description
-Draws expression (in terms of X) on the graph with specified
+Draws `expression` (in terms of `X`) on the graph with specified
 Color#:10 - 24 or color name pasted from [vars] COLOR.
 
 

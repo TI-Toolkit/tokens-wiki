@@ -7,7 +7,7 @@
 # `randInt(`
 
 ## Description
-Generates and displays a random integer within a range specified by lower and upper integer bounds for a specified number of trials numtrials.
+Generates and displays a random integer within a range specified by `lower` and `upper` integer bounds for a specified number of trials `numtrials`.
 
 
 <b>Availability</b>: Token available everywhere.

@@ -7,7 +7,7 @@
 # `P►Rx(`
 
 ## Description
-Returns X, given polar coordinates r and θ or a list of polar coordinates.
+Returns `X`, given polar coordinates `r` and θ or a list of polar coordinates.
 
 
 <b>Availability</b>: Token available everywhere.

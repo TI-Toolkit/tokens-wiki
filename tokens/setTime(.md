@@ -7,7 +7,7 @@
 # `setTime(`
 
 ## Description
-Sets the time using an hour, minute, second format. The hour must be in 24 hour format, in which 13 = 1 p.m.
+Sets the time using an hour, minute, second format. The `hour` must be in 24 hour format, in which 13 = 1 p.m.
 
 
 <b>Availability</b>: Token available everywhere.

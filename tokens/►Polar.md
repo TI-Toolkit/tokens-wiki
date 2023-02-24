@@ -7,7 +7,7 @@
 # `►Polar`
 
 ## Description
-Displays complex value in polar format.
+Displays `complex value` in polar format.
 
 
 <b>Availability</b>: Token available everywhere.

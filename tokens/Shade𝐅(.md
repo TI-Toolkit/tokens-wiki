@@ -7,7 +7,7 @@
 # `Shade𝐅(`
 
 ## Description
-Draws the density function for the Û distribution specified by numerator df and denominator df and shades and colors the area between lowerbound and upperbound.
+Draws the density function for the Û` `distribution specified by `numerator df` and `denominator df` and shades and colors the area between `lowerbound` and `upperbound`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

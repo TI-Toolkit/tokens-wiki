@@ -7,7 +7,7 @@
 # `2-Var Stats `
 
 ## Description
-Performs two-variable analysis on the data in Xlistname and Ylistname with frequency freqlist.
+Performs two-variable analysis on the data in `Xlistname` and `Ylistname` with frequency `freqlist`.
 
 
 <b>Availability</b>: Token available everywhere.

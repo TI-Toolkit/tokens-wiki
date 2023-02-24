@@ -7,7 +7,7 @@
 # `P►Ry(`
 
 ## Description
-Returns Y, given polar coordinates r and θ or a list of polar coordinates.
+Returns `Y`, given polar coordinates `r` and θ or a list of polar coordinates.
 
 
 <b>Availability</b>: Token available everywhere.

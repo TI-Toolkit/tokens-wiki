@@ -7,7 +7,7 @@
 # `cumSum(`
 
 ## Description
-Returns a list of the cumulative sums of the elements in list, starting with the first element.
+Returns a list of the cumulative sums of the elements in `list`, starting with the first element.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -28,7 +28,7 @@ Returns a list of the cumulative sums of the elements in list, starting with the
 <hr>
 
 ## Description
-Returns a matrix of the cumulative sums of matrix elements. Each element in the returned matrix is a cumulative sum of a matrix column from top to bottom.
+Returns a matrix of the cumulative sums of `matrix` elements. Each element in the returned matrix is a cumulative sum of a `matrix` column from top to bottom.
 
 
 <b>Availability</b>: Token available everywhere.

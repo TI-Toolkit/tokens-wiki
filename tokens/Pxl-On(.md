@@ -7,7 +7,7 @@
 # `Pxl-On(`
 
 ## Description
-Draws pixel on the graph area at (row,column) in the specified color.
+Draws pixel on the graph area at (`row`,`column`) in the specified color.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

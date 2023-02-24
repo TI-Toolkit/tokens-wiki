@@ -7,7 +7,7 @@
 # `uvAxes`
 
 ## Description
-Sets sequence graphs to plot u(n) on the x-axis and v(n) on the y-axis.
+Sets sequence graphs to plot `u(``n``)` on the x-axis and `v(``n``)` on the y-axis.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

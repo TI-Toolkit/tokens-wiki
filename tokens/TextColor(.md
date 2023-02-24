@@ -7,7 +7,7 @@
 # `TextColor(`
 
 ## Description
-Set text color prior to using the Text( command.
+Set text color prior to using the `Text( `command.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

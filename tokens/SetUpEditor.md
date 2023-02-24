@@ -7,7 +7,7 @@
 # `SetUpEditor `
 
 ## Description
-Removes all list names from the stat list editor, and then restores list names L1 through L6 to columns 1 through 6.
+Removes all list names from the stat list editor, and then restores list names `L1` through `L6` to columns `1` through `6`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -20,7 +20,7 @@ Removes all list names from the stat list editor, and then restores list names L
 <hr>
 
 ## Description
-Removes all list names from the stat list editor, then sets it up to display one or more listnames in the specified order, starting with column 1.
+Removes all list names from the stat list editor, then sets it up to display one or more `listnames` in the specified order, starting with column `1`.
 
 
 <b>Availability</b>: Token available everywhere.

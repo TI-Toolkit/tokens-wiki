@@ -7,7 +7,7 @@
 # `checkTmr(`
 
 ## Description
-Returns the number of seconds since you used startTmr to start the timer. The starttime is the value displayed by startTmr.
+Returns the number of seconds since you used `startTmr` to start the timer. The `starttime` is the value displayed by `startTmr`.
 
 
 <b>Availability</b>: Token available everywhere.

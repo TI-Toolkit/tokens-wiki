@@ -7,7 +7,7 @@
 # `randM(`
 
 ## Description
-Returns a random matrix of rows × columns.
+Returns a random matrix of `rows` × `columns`.
 Max rows x columns = 400 matrix elements.
 
 

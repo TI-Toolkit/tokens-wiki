@@ -7,7 +7,7 @@
 # `1-PropZInt(`
 
 ## Description
-Computes a one-proportion z confidence interval.
+Computes a one-proportion `z` confidence interval.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

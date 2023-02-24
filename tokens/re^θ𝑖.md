@@ -7,7 +7,7 @@
 # `re^θ𝑖`
 
 ## Description
-Sets the mode to polar complex number mode (re^θi).
+Sets the mode to polar complex number mode (`r``e``^`θ`i`).
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

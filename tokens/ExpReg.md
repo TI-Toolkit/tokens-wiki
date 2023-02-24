@@ -7,7 +7,7 @@
 # `ExpReg `
 
 ## Description
-Fits an exponential regression model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
+Fits an exponential regression model to `Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.
 
 
 <b>Availability</b>: Token available everywhere.

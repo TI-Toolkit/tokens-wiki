@@ -7,7 +7,7 @@
 # `max(`
 
 ## Description
-Returns the larger of valueA and valueB.
+Returns the larger of `valueA` and `valueB`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -30,7 +30,7 @@ Returns the larger of valueA and valueB.
 <hr>
 
 ## Description
-Returns the larger of valueA and valueB.
+Returns the larger of `valueA` and `valueB`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -51,7 +51,7 @@ Returns the larger of valueA and valueB.
 <hr>
 
 ## Description
-Returns largest real or complex element in list.
+Returns largest real or complex element in `list`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -72,7 +72,7 @@ Returns largest real or complex element in list.
 <hr>
 
 ## Description
-Returns a real or complex list of the larger of each pair of elements in listA and listB.
+Returns a real or complex list of the larger of each pair of elements in `listA` and `listB`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -95,7 +95,7 @@ Returns a real or complex list of the larger of each pair of elements in listA a
 <hr>
 
 ## Description
-Returns a real or complex list of the larger of value or each list element.
+Returns a real or complex list of the larger of `value` or each `list` element.
 
 
 <b>Availability</b>: Token available everywhere.

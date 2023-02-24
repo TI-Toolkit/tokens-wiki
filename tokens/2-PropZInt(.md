@@ -7,7 +7,7 @@
 # `2-PropZInt(`
 
 ## Description
-Computes a two-proportion z confidence interval.
+Computes a two-proportion `z` confidence interval.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

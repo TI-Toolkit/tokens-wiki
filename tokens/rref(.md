@@ -7,7 +7,7 @@
 # `rref(`
 
 ## Description
-Returns the reduced row-echelon form of a matrix.
+Returns the reduced row-echelon form of a `matrix`.
 
 
 <b>Availability</b>: Token available everywhere.

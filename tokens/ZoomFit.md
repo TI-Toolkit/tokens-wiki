@@ -7,7 +7,7 @@
 # `ZoomFit`
 
 ## Description
-Recalculates Ymin and Ymax to include the minimum and maximum Y values, between Xmin and Xmax, of the selected functions and replots the functions.
+Recalculates `Ymin` and `Ymax` to include the minimum and maximum `Y` values, between `Xmin` and `Xmax`, of the selected functions and replots the functions.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

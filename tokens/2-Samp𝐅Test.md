@@ -7,7 +7,7 @@
 # `2-Samp𝐅Test `
 
 ## Description
-Performs a two-sample Û test. alternative=-1 is <; alternative=0 is ; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
+Performs a two-sample Û test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 
@@ -43,7 +43,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <hr>
 
 ## Description
-Performs a two-sample Û test. alternative=-1 is <; alternative=0 is ; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
+Performs a two-sample Û test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

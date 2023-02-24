@@ -7,7 +7,7 @@
 # `Horizontal `
 
 ## Description
-Draws a horizontal line at y in a specified
+Draws a horizontal line at `y` in a specified
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 line style #: 1-4.
 

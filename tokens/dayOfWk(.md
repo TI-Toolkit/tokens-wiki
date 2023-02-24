@@ -7,7 +7,7 @@
 # `dayOfWk(`
 
 ## Description
-Returns an integer from 1 to 7, with each integer representing a day of the week. Use dayOfWk( to determine on which day of the week a particular date would occur. The year must be 4 digits; month and day can be 1 or 2 digits.
+Returns an integer from 1 to 7, with each integer representing a day of the week. Use `dayOfWk(` to determine on which day of the week a particular date would occur. The `year` must be 4 digits; `month` and `day` can be 1 or 2 digits.
 
 
 <b>Availability</b>: Token available everywhere.

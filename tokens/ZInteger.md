@@ -7,7 +7,7 @@
 # `ZInteger`
 
 ## Description
-Redefines the viewing window using the following dimensions: TraceStep=1, ΔX=0.5, Xscl=10, ΔY=1, Yscl=10.
+Redefines the viewing window using the following dimensions: `TraceStep=1, `Δ`X=0.5, Xscl=10, `Δ`Y=1, Yscl=10.`
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

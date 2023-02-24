@@ -7,7 +7,7 @@
 # `sum(`
 
 ## Description
-Returns the sum of elements of list from start to end.
+Returns the sum of elements of `list` from `start` to `end`.
 
 
 <b>Availability</b>: Token available everywhere.

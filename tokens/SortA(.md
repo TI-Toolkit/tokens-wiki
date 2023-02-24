@@ -7,7 +7,7 @@
 # `SortA(`
 
 ## Description
-Sorts elements of listname in ascending order.
+Sorts elements of `listname` in ascending order.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -28,7 +28,7 @@ Sorts elements of listname in ascending order.
 <hr>
 
 ## Description
-Sorts elements of keylistname in ascending order, then sorts each dependlist as a dependent list.
+Sorts elements of `keylistname` in ascending order, then sorts each `dependlist` as a dependent list.
 
 
 <b>Availability</b>: Token available everywhere.

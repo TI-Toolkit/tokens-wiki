@@ -7,7 +7,7 @@
 # `Tangent(`
 
 ## Description
-Draws a line tangent to expression at X=value with specified color #: 10-24 and line style linestyle #: 1-2.
+Draws a line tangent to `expression` at `X`=`value` with specified `color` #: 10-24 and line style `linestyle #: `1-2.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

@@ -7,7 +7,7 @@
 # `PlotsOn `
 
 ## Description
-Selects all stat plots or one or more specified stat plots (1, 2, or 3).
+Selects all stat plots or one or more specified stat plots (`1`, `2`, or `3`).
 
 
 <b>Availability</b>: Token available everywhere.

@@ -7,7 +7,7 @@
 # `lcm(`
 
 ## Description
-Returns the least common multiple of valueA and valueB, which can be real numbers or lists.
+Returns the least common multiple of `valueA` and `valueB`, which can be real numbers or lists.
 
 
 <b>Availability</b>: Token available everywhere.

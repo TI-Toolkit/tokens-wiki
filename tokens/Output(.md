@@ -7,7 +7,7 @@
 # `Output(`
 
 ## Description
-Displays text beginning at specified row and column of the home screen.
+Displays `text` beginning at specified `row` and `column `of the home screen.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
@@ -32,7 +32,7 @@ Displays text beginning at specified row and column of the home screen.
 <hr>
 
 ## Description
-Displays value beginning at specified row and column of the home screen.
+Displays `value` beginning at specified `row` and `column `of the home screen.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

@@ -7,7 +7,7 @@
 # `CubicReg `
 
 ## Description
-Fits a cubic regression model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
+Fits a cubic regression model to `Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.
 
 
 <b>Availability</b>: Token available everywhere.

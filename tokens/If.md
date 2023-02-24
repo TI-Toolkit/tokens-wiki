@@ -7,7 +7,7 @@
 # `If `
 
 ## Description
-If condition = 0 (false), skips commandA.
+If `condition` = 0 (false), skips `commandA`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
@@ -31,8 +31,10 @@ If condition = 0 (false), skips commandA.
 <kbd>prgm</kbd>, `CTL`, `1:If`
 <hr>
 
+# `If Then End`
+
 ## Description
-Executes commands from Then to End if condition = 1 (true).
+Executes `commands` from `Then` to `End` if `condition` = 1 (true).
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
@@ -58,8 +60,10 @@ Executes commands from Then to End if condition = 1 (true).
 <kbd>prgm</kbd>, `CTL`, `2:Then`
 <hr>
 
+# `If Then Else End`
+
 ## Description
-Executes commands from Then to Else if condition = 1 (true); from Else to End if condition = 0 (false).
+Executes `commands` from `Then` to `Else` if `condition` = 1 (true); from `Else` to `End` if `condition` = 0 (false).
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

@@ -7,7 +7,7 @@
 # `ShadeNorm(`
 
 ## Description
-Draws the normal density function specified by m and s and shades and colors the area between lowerbound and upperbound.
+Draws the normal density function specified by m and s and shades and colors the area between `lowerbound` and `upperbound`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

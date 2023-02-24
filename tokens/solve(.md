@@ -7,7 +7,7 @@
 # `solve(`
 
 ## Description
-Solves expression for variable, given an initial guess and lower and upper bounds within which the solution is sought.
+Solves `expression` for `variable`, given an initial `guess` and `lower` and `upper` bounds within which the solution is sought.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

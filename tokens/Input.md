@@ -20,7 +20,7 @@ Displays graph.
 <hr>
 
 ## Description
-Prompts for value to store to variable.
+Prompts for value to store to `variable`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
@@ -41,7 +41,7 @@ Prompts for value to store to variable.
 <hr>
 
 ## Description
-Displays Strn and stores entered value to variable.
+Displays `Str``n` and stores entered value to `variable`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

@@ -7,7 +7,7 @@
 # `rowSwap(`
 
 ## Description
-Returns a matrix with rowA of matrix swapped with rowB.
+Returns a matrix with `rowA` of `matrix` swapped with `rowB`.
 
 
 <b>Availability</b>: Token available everywhere.

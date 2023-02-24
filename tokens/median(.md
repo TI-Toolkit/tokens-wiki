@@ -7,7 +7,7 @@
 # `median(`
 
 ## Description
-Returns the median of list with frequency freqlist.
+Returns the median of `list` with frequency `freqlist`.
 
 
 <b>Availability</b>: Token available everywhere.

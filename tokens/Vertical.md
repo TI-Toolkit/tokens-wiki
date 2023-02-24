@@ -7,7 +7,7 @@
 # `Vertical `
 
 ## Description
-Draws a vertical line at x with specified color and line style.
+Draws a vertical line at `x `with specified color and line style.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 line style #: 1-4.
 

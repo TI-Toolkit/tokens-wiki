@@ -7,7 +7,7 @@
 # `Shade(`
 
 ## Description
-Draws lowerfunc and upperfunc in terms of X on the current graph and uses pattern and patres to shade and color the area bounded by lowerfunc, upperfunc, Xleft, and Xright. lowerfunc and upperfunc are shaded in the same specified color.
+Draws `lowerfunc` and `upperfunc` in terms of `X` on the current graph and uses `pattern` and `patres` to shade and color the area bounded by `lowerfunc`, `upperfunc`, `Xleft`, and `Xright`. `lowerfunc `and `upperfunc `are shaded in the same specified color.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

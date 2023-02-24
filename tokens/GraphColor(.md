@@ -7,7 +7,7 @@
 # `GraphColor(`
 
 ## Description
-Sets the color for function#.
+Sets the color for `function#`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

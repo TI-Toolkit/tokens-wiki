@@ -7,7 +7,7 @@
 # `Shadeχ²(`
 
 ## Description
-Draws the density function for the χ² distribution specified by degrees of freedom df, and shades and colors the area between lowerbound and upperbound.
+Draws the density function for the χ² distribution specified by degrees of freedom `df`, and shades and colors the area between `lowerbound` and `upperbound`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

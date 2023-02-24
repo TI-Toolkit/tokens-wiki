@@ -7,7 +7,7 @@
 # `SinReg `
 
 ## Description
-Attempts iterations times to fit a sinusoidal regression model to Xlistname and Ylistname using a period guess, and stores the regression equation to regequ.
+Attempts `iterations` times to fit a sinusoidal regression model to `Xlistname` and `Ylistname` using a `period` guess, and stores the regression equation to `regequ`.
 
 
 <b>Availability</b>: Token available everywhere.

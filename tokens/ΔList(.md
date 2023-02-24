@@ -7,7 +7,7 @@
 # `ΔList(`
 
 ## Description
-Returns a list containing the differences between consecutive elements in list.
+Returns a list containing the differences between consecutive elements in `list`.
 
 
 <b>Availability</b>: Token available everywhere.

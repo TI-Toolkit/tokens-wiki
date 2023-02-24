@@ -7,7 +7,7 @@
 # `getTmStr(`
 
 ## Description
-Returns a string of the current clock time in the format specified by integer, where:
+Returns a string of the current clock time in the format specified by `integer`, where:
 12 = 12 hour format24 = 24 hour format
 
 

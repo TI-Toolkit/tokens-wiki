@@ -7,7 +7,7 @@
 # `rand`
 
 ## Description
-Returns a random number between 0 and 1 for a specified number of trials numtrials.
+Returns a random number between 0 and 1 for a specified number of trials `numtrials`.
 
 
 <b>Availability</b>: Token available everywhere.

@@ -7,7 +7,7 @@
 # `setDate(`
 
 ## Description
-Sets the date using a year, month, day format. The year must be 4 digits; month and day can be 1 or 2 digit.
+Sets the date using a year, month, day format. The `year` must be 4 digits; `month` and `day` can be 1 or 2 digit.
 
 <b>Comment</b>:undefined
 

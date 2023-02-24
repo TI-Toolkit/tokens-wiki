@@ -7,7 +7,7 @@
 # `RecallPic `
 
 ## Description
-Displays the graph and adds the picture stored in Picn.
+Displays the graph and adds the picture stored in `Pic``n`.
 
 
 <b>Availability</b>: Token available everywhere.

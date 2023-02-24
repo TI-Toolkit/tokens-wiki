@@ -7,7 +7,7 @@
 # `a+b𝑖`
 
 ## Description
-Sets the mode to rectangular complex number format (a+bi).
+Sets the mode to rectangular complex number format (a+b`i`).
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

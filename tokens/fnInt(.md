@@ -7,7 +7,7 @@
 # `fnInt(`
 
 ## Description
-Returns the function integral of expression with respect to variable, between lower and upper, with specified tolerance.
+Returns the function integral of `expression` with respect to `variable`, between `lower` and `upper`, with specified `tolerance`.
 
 
 <b>Availability</b>: Token available everywhere.

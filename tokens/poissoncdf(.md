@@ -7,7 +7,7 @@
 # `poissoncdf(`
 
 ## Description
-Computes a cumulative probability at x for the discrete Poisson distribution with specified mean m.
+Computes a cumulative probability at `x` for the discrete Poisson distribution with specified mean m.
 
 
 <b>Availability</b>: Token available everywhere.

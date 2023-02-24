@@ -7,7 +7,7 @@
 # `End`
 
 ## Description
-Identifies end of For(, If-Then-Else, Repeat, or While loop.
+Identifies end of` For(`, `If`-`Then`-`Else`, `Repeat`, or `While` loop.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

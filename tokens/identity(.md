@@ -7,7 +7,7 @@
 # `identity(`
 
 ## Description
-Returns the identity matrix of dimension rows x dimension columns.
+Returns the identity matrix of `dimension` rows x `dimension` columns.
 
 
 <b>Availability</b>: Token available everywhere.

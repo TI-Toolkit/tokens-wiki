@@ -7,7 +7,7 @@
 # `DiagnosticOn`
 
 ## Description
-Sets diagnostics-on mode; r, r², and R² are displayed as regression model results.
+Sets diagnostics-on mode; `r`, `r`², and `R`² are displayed as regression model results.
 
 
 <b>Availability</b>: Token available everywhere.

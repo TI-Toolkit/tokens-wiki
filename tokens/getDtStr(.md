@@ -7,7 +7,7 @@
 # `getDtStr(`
 
 ## Description
-Returns a string of the current date in the format specified by integer, where:
+Returns a string of the current date in the format specified by `integer`, where:
 1 = M/D/Y2 = D/M/Y3 = Y/M/D
 
 

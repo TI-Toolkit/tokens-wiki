@@ -7,7 +7,7 @@
 # `Equ►String(`
 
 ## Description
-Converts the contents of a Y= var to a string and stores it in Strn
+Converts the contents of a `Y=`` var` to a string and stores it in `Str``n`
 
 
 <b>Availability</b>: Token available everywhere.

@@ -7,7 +7,7 @@
 # `Lbl `
 
 ## Description
-Creates a label of one or two characters.
+Creates a `label` of one or two characters.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

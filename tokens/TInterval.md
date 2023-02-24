@@ -7,7 +7,7 @@
 # `TInterval `
 
 ## Description
-Computes a t confidence interval.
+Computes a `t` confidence interval.
 
 <b>Comment</b>:undefined
 
@@ -35,7 +35,7 @@ Computes a t confidence interval.
 <hr>
 
 ## Description
-Computes a t confidence interval.
+Computes a `t` confidence interval.
 
 <b>Comment</b>:undefined
 

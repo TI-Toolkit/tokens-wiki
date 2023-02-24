@@ -7,7 +7,7 @@
 # `*row(`
 
 ## Description
-Returns a matrix with row of matrix multiplied by value and stored in row.
+Returns a matrix with `row` of `matrix` multiplied by `value` and stored in `row`.
 
 
 <b>Availability</b>: Token available everywhere.

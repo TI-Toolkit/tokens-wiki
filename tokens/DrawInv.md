@@ -7,7 +7,7 @@
 # `DrawInv `
 
 ## Description
-Draws the inverse of expression by plotting X values on the y-axis and Y values on the x-axis with specified
+Draws the inverse of `expression` by plotting `X` values on the y-axis and `Y` values on the x-axis with specified
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

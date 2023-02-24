@@ -7,7 +7,7 @@
 # `augment(`
 
 ## Description
-Returns a matrix, which is matrixB appended to matrixA as new columns.
+Returns a matrix, which is `matrixB` appended to `matrixA` as new columns.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -30,7 +30,7 @@ Returns a matrix, which is matrixB appended to matrixA as new columns.
 <hr>
 
 ## Description
-Returns a list, which is listB concatenated to the end of listA.
+Returns a list, which is `listB` concatenated to the end of `listA`.
 
 
 <b>Availability</b>: Token available everywhere.

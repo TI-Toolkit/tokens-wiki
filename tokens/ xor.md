@@ -7,7 +7,7 @@
 # ` xor `
 
 ## Description
-Returns 1 if only valueA or valueB = 0. valueA and valueB can be real numbers, expressions, or lists.
+Returns 1 if only `valueA` or `valueB` = 0. `valueA` and `valueB` can be real numbers, expressions, or lists.
 
 
 <b>Availability</b>: Token available everywhere.

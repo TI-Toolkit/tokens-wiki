@@ -7,7 +7,7 @@
 # `randIntNoRep(`
 
 ## Description
-Returns a random ordered list of integers from a lower integer to an upper integer which may include the lower integer and upper integer. If the optional argument numelements is specified, the first numelements are listed. The first numelements term in the list of random integers are displayed.
+Returns a random ordered list of integers from a lower integer to an upper integer which may include the lower integer and upper integer. If the optional argument `numelements` is specified, the first `numelements` are listed. The first `numelements` term in the list of random integers are displayed.
 
 
 <b>Availability</b>: Token available everywhere.

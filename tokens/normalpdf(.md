@@ -7,7 +7,7 @@
 # `normalpdf(`
 
 ## Description
-Computes the probability density function for the normal distribution at a specified x value for the specified m and s.
+Computes the probability density function for the normal distribution at a specified `x` value for the specified m and s.
 
 
 <b>Availability</b>: Token available everywhere.

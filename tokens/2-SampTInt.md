@@ -7,7 +7,7 @@
 # `2-SampTInt `
 
 ## Description
-Computes a two-sample t confidence interval. pooled=1 pools variances; pooled=0 does not pool variances.
+Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.
 
 <b>Comment</b>:undefined
 
@@ -41,7 +41,7 @@ Computes a two-sample t confidence interval. pooled=1 pools variances; pooled=0 
 <hr>
 
 ## Description
-Computes a two-sample t confidence interval. pooled=1 pools variances; pooled=0 does not pool variances.
+Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.
 
 <b>Comment</b>:undefined
 

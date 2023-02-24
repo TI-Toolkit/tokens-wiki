@@ -7,7 +7,7 @@
 # `Circle(`
 
 ## Description
-Draws a circle with center (X,Y) and radius with specified
+Draws a circle with center (`X`,`Y`) and `radius` with specified
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 linestyle#: 1-2.
 

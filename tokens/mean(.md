@@ -7,7 +7,7 @@
 # `mean(`
 
 ## Description
-Returns the mean of list with frequency freqlist.
+Returns the mean of `list` with frequency `freqlist`.
 
 
 <b>Availability</b>: Token available everywhere.

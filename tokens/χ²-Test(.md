@@ -7,7 +7,7 @@
 # `χ²-Test(`
 
 ## Description
-Performs a chi-square test. drawflag=1 draws results; drawflag=0 calculates results.
+Performs a chi-square test. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

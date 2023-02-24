@@ -7,7 +7,7 @@
 # `variance(`
 
 ## Description
-Returns the variance of the elements in list with frequency freqlist.
+Returns the variance of the elements in `list` with frequency `freqlist`.
 
 
 <b>Availability</b>: Token available everywhere.

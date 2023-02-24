@@ -7,7 +7,7 @@
 # `Logistic `
 
 ## Description
-Fits a logistic regression model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
+Fits a logistic regression model to` Xlistname `and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.
 
 
 <b>Availability</b>: Token available everywhere.

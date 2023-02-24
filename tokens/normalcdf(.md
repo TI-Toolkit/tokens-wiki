@@ -7,7 +7,7 @@
 # `normalcdf(`
 
 ## Description
-Computes the normal distribution probability between lowerbound and upperbound for the specified m and s.
+Computes the normal distribution probability between `lowerbound` and `upperbound` for the specified m and s.
 
 
 <b>Availability</b>: Token available everywhere.

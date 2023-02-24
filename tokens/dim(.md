@@ -7,7 +7,7 @@
 # `dim(`
 
 ## Description
-Returns the dimension of listname.
+Returns the dimension of `listname`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -28,7 +28,7 @@ Returns the dimension of listname.
 <hr>
 
 ## Description
-Returns the dimension of matrixname as a list.
+Returns the dimension of `matrixname` as a list.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -49,7 +49,7 @@ Returns the dimension of matrixname as a list.
 <hr>
 
 ## Description
-Assigns a new dimension (length) to a new or existing listname.
+Assigns a new dimension (`length`) to a new or existing `listname`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -74,7 +74,7 @@ Assigns a new dimension (length) to a new or existing listname.
 <hr>
 
 ## Description
-Assigns new dimensions to a new or existing matrixname.
+Assigns new dimensions to a new or existing `matrixname`.
 
 
 <b>Availability</b>: Token available everywhere.

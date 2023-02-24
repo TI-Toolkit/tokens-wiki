@@ -7,7 +7,7 @@
 # `While `
 
 ## Description
-Executes commands while condition is true.
+Executes `commands` while `condition` is true.
 
 <b>Comment</b>:undefined
 

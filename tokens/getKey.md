@@ -7,7 +7,7 @@
 # `getKey`
 
 ## Description
-Returns the key code for the current keystroke, or 0, if no key is pressed.
+Returns the key code for the current keystroke, or `0`, if no key is pressed.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

@@ -7,7 +7,7 @@
 # `prgm`
 
 ## Description
-Executes the program name.
+Executes the program `name`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

@@ -7,7 +7,7 @@
 # `min(`
 
 ## Description
-Returns smaller of valueA and valueB.
+Returns smaller of `valueA` and `valueB`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -30,7 +30,7 @@ Returns smaller of valueA and valueB.
 <hr>
 
 ## Description
-Returns smallest real or complex element in list.
+Returns smallest real or complex element in `list`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -51,7 +51,7 @@ Returns smallest real or complex element in list.
 <hr>
 
 ## Description
-Returns real or complex list of the smaller of each pair of elements in listA and listB.
+Returns real or complex list of the smaller of each pair of elements in `listA` and `listB`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -74,7 +74,7 @@ Returns real or complex list of the smaller of each pair of elements in listA an
 <hr>
 
 ## Description
-Returns a real or complex list of the smaller of value or each list element.
+Returns a real or complex list of the smaller of `value` or each `list` element.
 
 
 <b>Availability</b>: Token available everywhere.

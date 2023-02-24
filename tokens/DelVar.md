@@ -7,7 +7,7 @@
 # `DelVar `
 
 ## Description
-Deletes from memory the contents of variable.
+Deletes from memory the contents of `variable`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

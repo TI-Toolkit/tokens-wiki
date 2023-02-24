@@ -7,7 +7,7 @@
 # `gcd(`
 
 ## Description
-Returns the greatest common divisor of valueA and valueB, which can be real numbers or lists.
+Returns the greatest common divisor of `valueA` and `valueB`, which can be real numbers or lists.
 
 
 <b>Availability</b>: Token available everywhere.

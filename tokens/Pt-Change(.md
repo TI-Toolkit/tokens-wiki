@@ -7,7 +7,7 @@
 # `Pt-Change(`
 
 ## Description
-Toggles a point on or off at (x,y) on the graph area. Off will be in the Background color and On will be the specified
+Toggles a point on or off at (`x`,`y`) on the graph area. Off will be in the Background color and On will be the specified
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

@@ -7,7 +7,7 @@
 # `Pt-On(`
 
 ## Description
-Draws a point at (x,y) on the graph area using mark and the specified color#.
+Draws a point at (`x`,`y`) on the graph area using `mark `and the specified `color#`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

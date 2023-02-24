@@ -7,7 +7,7 @@
 # `ZDecimal`
 
 ## Description
-Adjusts the viewing window so that TraceStep=0.1, ΔX=0.5 and ΔY=0.5, and displays the graph screen with the origin centered on the screen.
+Adjusts the viewing window so that `TraceStep=0.1`, Δ`X=0.5` and Δ`Y=0.5`, and displays the graph screen with the origin centered on the screen.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

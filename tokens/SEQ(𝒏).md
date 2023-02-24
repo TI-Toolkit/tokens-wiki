@@ -7,7 +7,7 @@
 # `SEQ(𝒏)`
 
 ## Description
-In sequence mode, SEQ(n) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable n.   Can also be set from the Y= editor in SEQ mode.
+In sequence mode, SEQ(`n`) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable `n`.   Can also be set from the Y= editor in SEQ mode.
 
 <b>Comment</b>:undefined
 

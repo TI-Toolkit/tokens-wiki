@@ -7,7 +7,7 @@
 # `Pt-Off(`
 
 ## Description
-Erases a point at (x,y) on the graph area using mark. The Off state may be the background color determined by the ImageVar or color setting.
+Erases a point at (`x`,`y`) on the graph area using `mark`. The Off state may be the background color determined by the `ImageVar` or `color` setting.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 

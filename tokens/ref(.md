@@ -7,7 +7,7 @@
 # `ref(`
 
 ## Description
-Returns the row-echelon form of a matrix.
+Returns the row-echelon form of a `matrix`.
 
 
 <b>Availability</b>: Token available everywhere.

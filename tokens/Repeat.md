@@ -7,7 +7,7 @@
 # `Repeat `
 
 ## Description
-Executes commands until condition is true.
+Executes `commands` until `condition` is true.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

@@ -7,7 +7,7 @@
 # `Text(`
 
 ## Description
-Writes text on graph beginning at pixel (row,column), where 0  row  164 and 0  column  264.
+Writes `text` on graph beginning at pixel (`row`,`column`), where 0  `row`  164 and 0  `column`  264.
 Full mode, row must be <=148; column must be 256
 Horiz mode, row must be row<=66 and column must be <=256
 G-T mode, row must be row <=126; column must be 176

@@ -7,7 +7,7 @@
 # `round(`
 
 ## Description
-Returns a number, expression, list, or matrix rounded to #decimals ( 9).
+Returns a number, expression, list, or matrix rounded to `#decimals` ( 9).
 
 
 <b>Availability</b>: Token available everywhere.

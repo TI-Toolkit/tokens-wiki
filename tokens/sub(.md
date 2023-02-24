@@ -7,7 +7,7 @@
 # `sub(`
 
 ## Description
-Returns a string that is a subset of another string, from begin to length.
+Returns a string that is a subset of another `string`, from `begin` to `length`.
 
 
 <b>Availability</b>: Token available everywhere.

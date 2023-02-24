@@ -7,7 +7,7 @@
 # `StoreGDB `
 
 ## Description
-Stores current graph in database GDBn.
+Stores current graph in database `GDB``n`.
 
 
 <b>Availability</b>: Token available everywhere.

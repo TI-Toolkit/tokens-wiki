@@ -7,7 +7,7 @@
 # `List►matr(`
 
 ## Description
-Fills matrixname column by column with the elements from each specified listname.
+Fills `matrixname` column by column with the elements from each specified `listname`.
 
 
 <b>Availability</b>: Token available everywhere.

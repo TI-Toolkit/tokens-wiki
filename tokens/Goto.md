@@ -7,7 +7,7 @@
 # `Goto `
 
 ## Description
-Transfers control to label.
+Transfers control to `label`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

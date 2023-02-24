@@ -7,7 +7,7 @@
 # `String►Equ(`
 
 ## Description
-Converts string into an equation and stores it in Y= var.
+Converts `string` into an equation and stores it in `Y=`` var`.
 string can be a string or string variable.
 String►Equ( is the inverse of Equ►String(.
 

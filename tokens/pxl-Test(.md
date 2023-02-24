@@ -7,7 +7,7 @@
 # `pxl-Test(`
 
 ## Description
-Returns 1 if pixel (row, column) is on, 0 if it is off;
+Returns 1 if pixel (`row`, `column`) is on, 0 if it is off;
 
 
 <b>Availability</b>: Token available everywhere.

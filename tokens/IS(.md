@@ -7,7 +7,7 @@
 # `IS>(`
 
 ## Description
-Increments variable by 1; skips commandA if variable>value.
+Increments `variable` by 1; skips `commandA` if `variable`>`value`.
 
 <b>Comment</b>:undefined
 

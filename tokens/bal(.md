@@ -7,7 +7,7 @@
 # `bal(`
 
 ## Description
-Computes the balance at npmt for an amortization schedule using stored values for PV, I%, and PMT and rounds the computation to roundvalue.
+Computes the balance at `npmt `for an amortization schedule using stored values for `PV`, I%, and `PMT` and rounds the computation to `roundvalue.`
 
 
 <b>Availability</b>: Token available everywhere.

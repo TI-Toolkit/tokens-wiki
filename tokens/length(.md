@@ -7,7 +7,7 @@
 # `length(`
 
 ## Description
-Returns the number of characters in string.
+Returns the number of characters in `string`.
 
 
 <b>Availability</b>: Token available everywhere.

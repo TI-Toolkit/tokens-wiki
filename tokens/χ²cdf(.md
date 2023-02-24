@@ -7,7 +7,7 @@
 # `χ²cdf(`
 
 ## Description
-Computes the χ²distribution probability between lowerbound and upperbound for the specified degrees of freedom df.
+Computes the χ²distribution probability between `lowerbound` and` upperbound` for the specified degrees of freedom `df`.
 
 
 <b>Availability</b>: Token available everywhere.

@@ -7,7 +7,7 @@
 # `det(`
 
 ## Description
-Returns determinant of matrix.
+Returns determinant of `matrix`.
 
 
 <b>Availability</b>: Token available everywhere.

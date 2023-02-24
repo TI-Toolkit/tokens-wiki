@@ -7,7 +7,7 @@
 # `DS<(`
 
 ## Description
-Decrements variable by 1; skips commandA if variable < value.
+Decrements `variable` by 1; skips `commandA` if `variable `< `value`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

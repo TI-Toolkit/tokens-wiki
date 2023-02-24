@@ -7,7 +7,7 @@
 # `𝐅cdf(`
 
 ## Description
-Computes the Û distribution probability between lowerbound and upperbound for the specified numerator df (degrees of freedom) and denominator df.
+Computes the Û distribution probability between `lowerbound `and `upperbound` for the specified `numerator df` (degrees of freedom) and `denominator df`.
 
 
 <b>Availability</b>: Token available everywhere.

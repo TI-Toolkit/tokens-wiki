@@ -7,7 +7,7 @@
 # `For(`
 
 ## Description
-Executes commands through End, incrementing variable from begin by increment  until variable>end.
+Executes `commands` through `End`, incrementing `variable` from `begin` by `increment`  until `variable`>`end`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

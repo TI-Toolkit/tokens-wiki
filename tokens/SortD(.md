@@ -7,7 +7,7 @@
 # `SortD(`
 
 ## Description
-Sorts elements of listname in descending order.
+Sorts elements of `listname` in descending order.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -28,7 +28,7 @@ Sorts elements of listname in descending order.
 <hr>
 
 ## Description
-Sorts elements of keylistname in descending order, then sorts each dependlist as a dependent list.
+Sorts elements of `keylistname` in descending order, then sorts each `dependlist` as a dependent list.
 
 
 <b>Availability</b>: Token available everywhere.

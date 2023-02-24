@@ -7,7 +7,7 @@
 # `binomcdf(`
 
 ## Description
-Computes a cumulative probability at x for the discrete binomial distribution with the specified numtrials and probability p of success on each trial.
+Computes a cumulative probability at `x` for the discrete binomial distribution with the specified `numtrials` and probability `p` of success on each trial.
 
 
 <b>Availability</b>: Token available everywhere.

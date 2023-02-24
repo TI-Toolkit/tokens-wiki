@@ -7,7 +7,7 @@
 # `Archive `
 
 ## Description
-Moves the specified variable from RAM to the user data archive memory.
+Moves the specified `variable` from RAM to the user data archive memory.
 
 
 <b>Availability</b>: Token available everywhere.

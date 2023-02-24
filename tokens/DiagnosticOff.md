@@ -7,7 +7,7 @@
 # `DiagnosticOff`
 
 ## Description
-Sets diagnostics-off mode; r, r², and R² are not displayed as regression model results.
+Sets diagnostics-off mode; `r`, `r`², and `R`² are not displayed as regression model results.
 
 
 <b>Availability</b>: Token available everywhere.

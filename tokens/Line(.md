@@ -7,7 +7,7 @@
 # `Line(`
 
 ## Description
-Draws a line from (X1,Y1) to (X2,Y2) with the following options: erase #: 1,0, color #: 10-24, and line style #: 1-4.
+Draws a line from (`X1`,`Y1`) to (`X2`,`Y2`) with the following options: erase #: 1,0, color #: 10-24, and line style #: 1-4.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -40,7 +40,7 @@ Draws a line from (X1,Y1) to (X2,Y2) with the following options: erase #: 1,0,
 <hr>
 
 ## Description
-Erases a line (erase #: 1,0) from (X1,Y1) to (X2,Y2).
+Erases a line (erase #: 1,0) from (`X1`,`Y1`) to (`X2`,`Y2`).
 
 
 <b>Availability</b>: Token available everywhere.
