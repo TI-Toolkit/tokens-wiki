@@ -9,7 +9,7 @@
 ## Description
 Resets all Y=editor line-style settings to Thick.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:Alias ?
 
 <b>Availability</b>: Token only available from within the Basic editor.
 

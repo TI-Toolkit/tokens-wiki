@@ -9,7 +9,7 @@
 ## Description
 Computes the future value.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:pre-CE french was vat_vacq
 
 <b>Availability</b>: Token available everywhere.
 

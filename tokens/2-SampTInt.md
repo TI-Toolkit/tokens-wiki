@@ -9,7 +9,7 @@
 ## Description
 Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:(Data list input)
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
@@ -43,7 +43,7 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 ## Description
 Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:(Summary stats input)
 
 <b>Availability</b>: Token only available from within the Basic editor.
 

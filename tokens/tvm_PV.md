@@ -9,7 +9,7 @@
 ## Description
 Computes the present value.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:pre-CE french was vat_Vact
 
 <b>Availability</b>: Token available everywhere.
 

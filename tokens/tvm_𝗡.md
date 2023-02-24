@@ -9,7 +9,7 @@
 ## Description
 Computes the number of payment periods.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:pre-CE french was vat_𝗡
 
 <b>Availability</b>: Token available everywhere.
 

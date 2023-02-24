@@ -10,7 +10,7 @@
 CENTER is a tail argument for the invNorm( command where the optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.
 See also invNorm(.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:CE OS 5.2+
 
 <b>Availability</b>: Token available everywhere.
 

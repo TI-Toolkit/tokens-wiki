@@ -9,7 +9,7 @@
 ## Description
 Increments `variable` by 1; skips `commandA` if `variable`>`value`.
 
-<b>Comment</b>:undefined
+<b>Comment</b>::commandA,:commands
 
 <b>Availability</b>: Token only available from within the Basic editor.
 

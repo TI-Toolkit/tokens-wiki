@@ -9,7 +9,7 @@
 ## Description
 Sets the date using a year, month, day format. The `year` must be 4 digits; `month` and `day` can be 1 or 2 digit.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:EFXX tokens are TI-84+ and later only
 
 <b>Availability</b>: Token available everywhere.
 

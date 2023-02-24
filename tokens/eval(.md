@@ -9,7 +9,7 @@
 ## Description
 Returns an evaluated expression as a string with 8 significant digits.  The expression must be real.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:CE OS 5.2+
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
@@ -33,7 +33,7 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 ## Description
 Returns an evaluated expression as a string with 8 significant digits.  The expression must simplify to a real expression.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:CE OS 5.2+
 
 <b>Availability</b>: Token only available from within the Basic editor.
 

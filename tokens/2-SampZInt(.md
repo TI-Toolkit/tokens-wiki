@@ -9,7 +9,7 @@
 ## Description
 Computes a two-sample `z` confidence interval.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:(Data list input)
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
@@ -49,7 +49,7 @@ Computes a two-sample `z` confidence interval.
 ## Description
 Computes a two-sample `z` confidence interval.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:(Summary stats input)
 
 <b>Availability</b>: Token only available from within the Basic editor.
 

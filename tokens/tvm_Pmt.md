@@ -9,7 +9,7 @@
 ## Description
 Computes the amount of each payment.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:pre-CE french was vatPmt
 
 <b>Availability</b>: Token available everywhere.
 

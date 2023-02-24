@@ -37,7 +37,7 @@ for (const [bytes, token] of Object.entries(tokens)) {
 ## Description
 ${info.description}
 
-${info.comment ? ('<b>Comment</b>:' + token.comment + '\n') : ''}
+${info.comment ? ('<b>Comment</b>:' + info.comment + '\n') : ''}
 <b>Availability</b>: ${info.inEditorOnly ? 'Token only available from within the Basic editor.' : 'Token available everywhere.'}
 
 ## Syntax

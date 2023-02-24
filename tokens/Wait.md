@@ -9,7 +9,7 @@
 ## Description
 Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:CE OS 5.2+
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
@@ -31,7 +31,7 @@ Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 ## Description
 Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 
-<b>Comment</b>:undefined
+<b>Comment</b>:CE OS 5.2+
 
 <b>Availability</b>: Token only available from within the Basic editor.
 

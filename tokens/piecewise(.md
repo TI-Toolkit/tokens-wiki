@@ -9,7 +9,7 @@
 ## Description
 New piecewise function to support entry of functions as they are seen in textbook. This command can be found in » MATH `B:piecewise(`
 
-<b>Comment</b>:undefined
+<b>Comment</b>:CE OS 5.3+
 
 <b>Availability</b>: Token available everywhere.
 

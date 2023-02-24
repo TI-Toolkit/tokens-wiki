@@ -16,7 +16,7 @@ Alternate Method:
 Set Y1=binomcdf(30,0.5,X) and use the table of values (starting at 0 and increment by 1) to find when the cumulative probability is at or just above the given cumulative probability.  This gives you a view of all values to make decisions.  For this example, search in the table to find the cumulative probability just larger than 0.95.  Again, the number of successes is 19.
 
 
-<b>Comment</b>:undefined
+<b>Comment</b>:CE OS 5.2+
 
 <b>Availability</b>: Token available everywhere.
 
