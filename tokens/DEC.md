@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF3C`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `DEC`</li></ul> |
 
 # `DEC`
 
@@ -13,9 +14,6 @@ Displays answers as integers or decimal numbers.
 
 ## Syntax
 `DEC`
-
-## Description
-Displays answers as integers or decimal numbers.
 
 ## Location
 <kbd>mode</kbd>, `Answers: DEC`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$93`|
 | Categories    | <ul><li>Catalog\T</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Texte(`</li></ul> |
 
 # `Text(`
 
@@ -34,12 +35,6 @@ G-T mode, row must be row <=126; column must be 176
 <tr><td>text n</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Writes text on graph beginning at pixel (row,column), where 0  row  164 and 0  column  264.
-Full mode, row must be <=148; column must be 256
-Horiz mode, row must be row<=66 and column must be <=256
-G-T mode, row must be row <=126; column must be 176
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `0:Text(`

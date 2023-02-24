@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$1F`|
 | Categories    | <ul><li>List\Math</li><li>Catalog\M</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `médianne`</li></ul> |
 
 # `median(`
 
@@ -23,9 +24,6 @@ Returns the median of list with frequency freqlist.
 <tr><td>freqlist</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns the median of list with frequency freqlist.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `4:median(`

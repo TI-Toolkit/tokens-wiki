@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$92`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `SauveFen`</li></ul> |
 
 # `ZoomSto`
 
@@ -13,9 +14,6 @@ Immediately stores the current viewing window.
 
 ## Syntax
 `ZoomSto`
-
-## Description
-Immediately stores the current viewing window.
 
 ## Location
 <kbd>zoom</kbd>, `MEMORY`, `2:ZoomSto`

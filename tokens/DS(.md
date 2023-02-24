@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$DB`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\D</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `DS<(`</li></ul> |
 
 # `DS<(`
 
@@ -27,9 +28,6 @@ Decrements variable by 1; skips commandA if variable < value.
 <tr><td>commands</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Decrements variable by 1; skips commandA if variable < value.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `B:DS<(`

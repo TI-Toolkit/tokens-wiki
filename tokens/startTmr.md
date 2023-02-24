@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF0B`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `actMintr `</li></ul> |
 
 # `startTmr`
 
@@ -13,9 +14,6 @@ Starts the clock timer. Store or note the displayed value, and use it as the arg
 
 ## Syntax
 `startTmr`
-
-## Description
-Starts the clock timer. Store or note the displayed value, and use it as the argument for checkTmr( ) to check the elapsed time.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `startTmr`

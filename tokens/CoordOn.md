@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E04`|
 | Categories    | <ul><li>Catalog\C</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `CoordAff`</li></ul> |
 
 # `CoordOn`
 
@@ -13,9 +14,6 @@ Turns on cursor coordinate value display.
 
 ## Syntax
 `CoordOn`
-
-## Description
-Turns on cursor coordinate value display.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `CoordOn`

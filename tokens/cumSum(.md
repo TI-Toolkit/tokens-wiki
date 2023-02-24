@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB29`|
 | Categories    | <ul><li>List\Ops</li><li>Catalog\C</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `somCum(`</li></ul> |
 
 # `cumSum(`
 
@@ -21,9 +22,6 @@ Returns a list of the cumulative sums of the elements in list, starting with the
 <tr><td>list</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a list of the cumulative sums of the elements in list, starting with the first element.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `6:cumSum(`
@@ -45,9 +43,6 @@ Returns a matrix of the cumulative sums of matrix elements. Each element in the 
 <tr><td>matrix</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a matrix of the cumulative sums of matrix elements. Each element in the returned matrix is a cumulative sum of a matrix column from top to bottom.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `0:cumSum(`

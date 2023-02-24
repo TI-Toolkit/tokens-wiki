@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$B5`|
 | Categories    | <ul><li>List\Ops</li><li>Catalog\D</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `dim(`</li></ul> |
 
 # `dim(`
 
@@ -21,9 +22,6 @@ Returns the dimension of listname.
 <tr><td>listname</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the dimension of listname.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `3:dim(`
@@ -45,9 +43,6 @@ Returns the dimension of matrixname as a list.
 <tr><td>matrixname</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the dimension of matrixname as a list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `3:dim(`
@@ -73,9 +68,6 @@ Assigns a new dimension (length) to a new or existing listname.
 <tr><td>listname</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Assigns a new dimension (length) to a new or existing listname.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `3:dim(`
@@ -103,9 +95,6 @@ Assigns new dimensions to a new or existing matrixname.
 <tr><td>matrixname</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Assigns new dimensions to a new or existing matrixname.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `3:dim(`

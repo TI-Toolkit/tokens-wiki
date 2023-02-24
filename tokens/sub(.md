@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB0C`|
 | Categories    | <ul><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Sous-chaine(`</li></ul> |
 
 # `sub(`
 
@@ -25,9 +26,6 @@ Returns a string that is a subset of another string, from begin to length.
 <tr><td>length</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a string that is a subset of another string, from begin to length.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `sub(`

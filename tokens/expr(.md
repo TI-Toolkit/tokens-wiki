@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB2A`|
 | Categories    | <ul><li>Catalog\E</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `expr(`</li></ul> |
 
 # `expr(`
 
@@ -21,9 +22,6 @@ Converts the character string contained in string to an expression and executes 
 <tr><td>string</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Converts the character string contained in string to an expression and executes the expression. string can be a string or a string variable.
 
 ## Location
 <kbd>expr</kbd>

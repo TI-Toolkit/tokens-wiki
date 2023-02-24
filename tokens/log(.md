@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$C0`|
 | Categories    | <ul><li>Catalog\L</li><li>Keypad</li><li>Math\Math</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `log(`</li></ul> |
 
 # `log(`
 
@@ -21,9 +22,6 @@ Returns logarithm of a real or complex number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns logarithm of a real or complex number, expression, or list.
 
 ## Location
 <kbd>log</kbd>

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$40`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: ` et `</li></ul> |
 
 # ` and `
 
@@ -26,12 +27,6 @@ Notice the token is "_and_" where "_" is a space.
 <tr><td>valueB</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns 1 (true) when both valueA and valueB are true.  Otherwise, return is 0 (false).
-valueA and valueB can be real numbers, expressions, or lists.
-TI Connect™ Program Editor Tip:
-Notice the token is "_and_" where "_" is a space.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>test</kbd>, `LOGIC`, `1:and`

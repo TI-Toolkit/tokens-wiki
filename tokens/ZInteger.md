@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$8C`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ZintConf`</li></ul> |
 
 # `ZInteger`
 
@@ -13,9 +14,6 @@ Redefines the viewing window using the following dimensions: TraceStep=1, ΔX=0.
 
 ## Syntax
 `ZInteger`
-
-## Description
-Redefines the viewing window using the following dimensions: TraceStep=1, ΔX=0.5, Xscl=10, ΔY=1, Yscl=10.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `8:ZInteger`

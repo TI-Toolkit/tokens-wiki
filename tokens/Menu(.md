@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$E6`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\M</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Menu(`</li></ul> |
 
 # `Menu(`
 
@@ -31,9 +32,6 @@ Generates a menu of up to seven items during program execution.
 <tr><td>label7</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Generates a menu of up to seven items during program execution.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `C:Menu(`

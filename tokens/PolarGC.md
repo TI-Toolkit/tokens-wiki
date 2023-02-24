@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E02`|
 | Categories    | <ul><li>Catalog\P</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `CoordPol`</li></ul> |
 
 # `PolarGC`
 
@@ -13,9 +14,6 @@ Sets polar graphing coordinates format.
 
 ## Syntax
 `PolarGC`
-
-## Description
-Sets polar graphing coordinates format.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `PolarGC`

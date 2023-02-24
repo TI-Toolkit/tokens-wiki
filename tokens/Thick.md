@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E06`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `Thick`</li></ul> |
 
 # `Thick`
 
@@ -14,9 +15,6 @@ Resets all Y=editor line-style settings to Thick.
 
 ## Syntax
 `Thick`
-
-## Description
-Resets all Y=editor line-style settings to Thick.
 
 ## Location
 `zT`, `Thick`

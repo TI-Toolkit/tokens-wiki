@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E07`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `Dot-Thick`</li></ul> |
 
 # `Dot-Thick`
 
@@ -14,9 +15,6 @@ Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thick.
 
 ## Syntax
 `Dot-Thick`
-
-## Description
-Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thick.
 
 ## Location
 <kbd>mode</kbd>, `Dot-Thick`

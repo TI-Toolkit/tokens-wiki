@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$3`|
 | Categories    | <ul><li>Catalog\F</li><li>Math\Math</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `►Frac`</li></ul> |
 
 # `►Frac`
 
@@ -23,9 +24,6 @@ Displays a real or complex number, expression, list, or matrix as a fraction sim
 <tr><td>►</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Displays a real or complex number, expression, list, or matrix as a fraction simplified to its simplest terms.
 
 ## Location
 <kbd>math</kbd>, `MATH`, `1:`, `Frac`

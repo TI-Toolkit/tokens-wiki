@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$A5`|
 | Categories    | <ul><li>Catalog\C</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Cercle(`</li></ul> |
 
 # `Circle(`
 
@@ -31,11 +32,6 @@ linestyle#: 1-2.
 <tr><td>linestyle#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws a circle with center (X,Y) and radius with specified
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
-linestyle#: 1-2.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `9:Circle(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB20`|
 | Categories    | <ul><li>Finance\Calc</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `tvm_Pmt`</li></ul> |
 
 # `tvm_Pmt`
 
@@ -32,9 +33,6 @@ Computes the amount of each payment.
 <tr><td>C/Y</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes the amount of each payment.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `2:tvm_Pmt`

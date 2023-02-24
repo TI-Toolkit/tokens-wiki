@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF6B`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `DétectAsymDés`</li></ul> |
 
 # `DetectAsymOff`
 
@@ -13,9 +14,6 @@ Turns off checks for rational function asymptotes when graphing. Impacts graph s
 
 ## Syntax
 `DetectAsymOff`
-
-## Description
-Turns off checks for rational function asymptotes when graphing. Impacts graph speed. Does not perform extra calculations to detect asymptotes pixel to pixel while graphing.  Pixels will connect across the screen even across an asymptote.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `DetectAsymOff`

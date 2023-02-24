@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB52`|
 | Categories    | <ul><li>Catalog\C</li><li>Memory</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `EffToutListes`</li></ul> |
 
 # `ClrAllLists`
 
@@ -13,9 +14,6 @@ Sets to 0 the dimension of all lists in memory.
 
 ## Syntax
 `ClrAllLists`
-
-## Description
-Sets to 0 the dimension of all lists in memory.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>mem</kbd>, `MEMORY`, `4:ClrAllLists`

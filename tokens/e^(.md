@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BF`|
 | Categories    | <ul><li>Catalog\Misc</li><li>Keypad</li><li>Math\Math</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `e^(`</li></ul> |
 
 # `e^(`
 
@@ -21,9 +22,6 @@ Returns e raised to power.
 <tr><td>power</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns e raised to power.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>eˣ</kbd>
@@ -45,9 +43,6 @@ Returns a list of e raised to a list of powers.
 <tr><td>list</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a list of e raised to a list of powers.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>eˣ</kbd>

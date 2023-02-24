@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB12`|
 | Categories    | <ul><li>Catalog\T</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `studentFRép(`</li></ul> |
 
 # `tcdf(`
 
@@ -25,9 +26,6 @@ Computes the Student-t distribution probability between lowerbound and upperboun
 <tr><td>df</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes the Student-t distribution probability between lowerbound and upperbound for the specified degrees of freedom df.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `6:tcdf(`

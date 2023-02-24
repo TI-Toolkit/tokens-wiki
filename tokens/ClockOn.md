@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF10`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `HorlAff`</li></ul> |
 
 # `ClockOn`
 
@@ -13,9 +14,6 @@ Turns on the clock display in the mode screen.
 
 ## Syntax
 `ClockOn`
-
-## Description
-Turns on the clock display in the mode screen.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `ClockOn`

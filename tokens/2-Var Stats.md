@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$F3`|
 | Categories    | <ul><li>Catalog\V</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Stats 2-Var `</li></ul> |
 
 # `2-Var Stats `
 
@@ -25,9 +26,6 @@ Performs two-variable analysis on the data in Xlistname and Ylistname with frequ
 <tr><td>freqlist</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs two-variable analysis on the data in Xlistname and Ylistname with frequency freqlist.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `2:2-Var Stats`

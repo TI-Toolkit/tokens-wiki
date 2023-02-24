@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB37`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Ombreχ²(`</li></ul> |
 
 # `Shadeχ²(`
 
@@ -30,10 +31,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws the density function for the χ² distribution specified by degrees of freedom df, and shades and colors the area between lowerbound and upperbound.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DRAW`, `3:Shade`, `(`

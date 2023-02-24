@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$64`|
 | Categories    | <ul><li>Catalog\R</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Radian`</li></ul> |
 
 # `Radian`
 
@@ -13,9 +14,6 @@ Sets radian angle mode.
 
 ## Syntax
 `Radian`
-
-## Description
-Sets radian angle mode.
 
 ## Location
 <kbd>mode</kbd>, `Radian`

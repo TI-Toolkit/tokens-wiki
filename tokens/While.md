@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$D1`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\W</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `While `</li></ul> |
 
 # `While `
 
@@ -27,9 +28,6 @@ Executes commands while condition is true.
 <tr><td>command</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Executes commands while condition is true.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `5:While`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$CC`|
 | Categories    | <ul><li>Catalog\T</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `th(`</li></ul> |
 
 # `tanh(`
 
@@ -21,9 +22,6 @@ Returns hyperbolic tangent of a real number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns hyperbolic tangent of a real number, expression, or list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `tanh(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF0A`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `affHeure`</li></ul> |
 
 # `getTime`
 
@@ -13,9 +14,6 @@ Returns a list giving the time according to the current value of the clock. The 
 
 ## Syntax
 `getTime`
-
-## Description
-Returns a list giving the time according to the current value of the clock. The list is in {hour,minute,second} format. The time is returned in the 24 hour format.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `getTime`

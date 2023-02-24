@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$86`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ZStandard`</li></ul> |
 
 # `ZStandard`
 
@@ -13,9 +14,6 @@ Replots the functions immediately, updating the window variables to the default 
 
 ## Syntax
 `ZStandard`
-
-## Description
-Replots the functions immediately, updating the window variables to the default values.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `6:ZStandard`

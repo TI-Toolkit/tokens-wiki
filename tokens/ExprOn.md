@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB50`|
 | Categories    | <ul><li>Catalog\E</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ExpAff`</li></ul> |
 
 # `ExprOn`
 
@@ -13,9 +14,6 @@ Turns on the expression display during TRACE.
 
 ## Syntax
 `ExprOn`
-
-## Description
-Turns on the expression display during TRACE.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `ExprOn`

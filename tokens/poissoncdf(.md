@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB18`|
 | Categories    | <ul><li>Catalog\P</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `poissonFRép(`</li></ul> |
 
 # `poissoncdf(`
 
@@ -23,9 +24,6 @@ Computes a cumulative probability at x for the discrete Poisson distribution wit
 <tr><td>x</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes a cumulative probability at x for the discrete Poisson distribution with specified mean m.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `D:poissoncdf(`

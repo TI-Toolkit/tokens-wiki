@@ -4,14 +4,26 @@ import { JSDOM } from 'jsdom';
 import { XMLParser } from 'fast-xml-parser';
 import { parse as CSVParse } from 'csv-parse/sync';
 
-// guide xml input is done later, in a loop
-const tkXml= {}; // input
+// eGuide xml input is done later, in a loop
+const tkXML= {}; // input
 const csv  = {}; // input
 const dict = {}; // input
 const json = {}; // output
 
+// tmp map used for manual matching of extra catalog entries
+const name2bytes = {}
+
+/***
+Processing notes:
+ - `adriweb_tokens.csv` is parsed as a map<name,props> ('csv'): EN+FR names, bytes, type, comment
+ - `ti_pe_83PlusDictionary.xml` is parsed as a map<name,props> ('dict'): EN name, bytes, categories, etc.
+ - `eGuide pages` are parsed: EN name, description, comment, syntax (+arguments), menu location, inEdtorOnly, special category
+ - `ti-toolkit_tokens_8X.xml` is parsed as a map<bytes,props> ('tkXML'): EN name, since+until info
+ - all this gets merged together in a json object <bytes,props>
+***/
+
 try {
-    const fileContents = fs.readFileSync('./adriweb_tokens.csv', 'utf8');
+    const fileContents = fs.readFileSync('./input/adriweb_tokens.csv', 'utf8');
     const records = CSVParse(fileContents, { columns: true, skip_empty_lines: true });
     for (const tok of records) {
         csv[tok['Readable Name']] = {
@@ -27,7 +39,7 @@ try {
 }
 
 try {
-    const fileContents = fs.readFileSync('./83PlusDictionary.xml', 'utf16le');
+    const fileContents = fs.readFileSync('./input/ti_pe_83PlusDictionary.xml', 'utf16le');
     const {dictionary} = new XMLParser({ignoreAttributes: false, trimValues: false, attributeNamePrefix: "__"}).parse(fileContents);
     for (const tok of dictionary["function"]) {
         if (!tok.categories) {
@@ -47,7 +59,16 @@ try {
 }
 
 try {
-    const fileContents = fs.readFileSync('./ti-toolkit_tokens_8X.xml', 'utf8');
+    const fileContents = fs.readFileSync('./input/ti-toolkit_tokens_8X.xml', 'utf8');
+
+    const fillTkXML = function(bytes, data) {
+        tkXML[bytes] = {
+            enName: data.lang[0].name[0],
+            since: data.since ? { [data.since.model]: data.since.version } : undefined,
+            until: data.until ? { [data.until.model]: data.until.version } : undefined,
+        };
+    }
+
     const isArray = (name, jpath, isLeafNode, isAttribute) => {
 
         const alwaysArray = [ "tokens.byte.token", "tokens.byte.byte.token",
@@ -64,26 +85,18 @@ try {
                 for (const {token, __value} of tok.byte) {
                     for (const tokAlt of token) {
                         const bytes = `0x${tok.__value.substring(1)}${__value.substring(1)}`;
-                        tkXml[bytes] = {
-                            enName: tokAlt.lang[0].name[0],
-                            since: tokAlt.since ? { [tokAlt.since.model]: tokAlt.since.version } : undefined,
-                            until: tokAlt.until ? { [tokAlt.until.model]: tokAlt.until.version } : undefined,
-                        };
+                        fillTkXML(bytes, tokAlt);
                     }
                 }
             } else {
                 for (const tokAlt of tok.token) {
                     const bytes = `0x${tok.__value.substring(1)}`;
-                    tkXml[bytes] = {
-                        enName: tokAlt.lang[0].name[0],
-                        since: tokAlt.since ? { [tokAlt.since.model]: tokAlt.since.version } : undefined,
-                        until: tokAlt.until ? { [tokAlt.until.model]: tokAlt.until.version } : undefined,
-                    };
+                    fillTkXML(bytes, tokAlt);
                 }
             }
         }
     } else {
-        throw "wut";
+        throw "ti-toolkit_tokens_8X.xml not in the expected format?";
     }
 } catch (e) {
     console.error(e);
@@ -92,7 +105,7 @@ try {
 for(let i = 0; i < 26; i++)
 {
     const letter = (i+10).toString(36);
-    const folderPath = './e-guide_ref84plus_en/content/m_appxa/';
+    const folderPath = './input/ti_eGuide/';
 
     let fileContents;
     try {
@@ -140,7 +153,7 @@ for(let i = 0; i < 26; i++)
 
             // Some special cases... :-|
             name = name.replace(/(^:|\)$)/, '').replaceAll('/','⁄');
-            if (name === '1-VarStats')      { name = '1-Var Stats'; }
+            if      (name === '1-VarStats') { name = '1-Var Stats'; }
             else if (name === '2-VarStats') { name = '2-Var Stats'; }
             else if (name === 'Store →')    { name = '→'; }
             else if (name === 'piecewise')  { name = 'piecewise('; }
@@ -153,16 +166,19 @@ for(let i = 0; i < 26; i++)
             else if (name === '►n⁄d ◄►Un⁄d'){ name = '►n⁄d◄►Un⁄d'; }
             else if (name === 'i')          { name = '𝑖'; }
             else if (name === 'SEQ(n')      { name = 'SEQ(𝒏)'; }
+            else if (name === 'SEQ(n+1')    { name = 'SEQ(𝒏+1)'; }
+            else if (name === 'SEQ(n+2')    { name = 'SEQ(𝒏+2)'; }
             else if (name === 'DEC Answers'){ name = 'DEC'; }
             else if (name === 'AUTO Answer'){ name = 'AUTO'; }
+            else if (name === 'Plot1( Plot2( Plot3(') { name = 'Plot1('; }
         } catch (e) {
             console.log(e)
             continue;
         }
         console.log(`processing ${name}...`);
 
-        let type = "?";
-        let bytes = "?";
+        let type = null;
+        let bytes = null;
         let categories = [];
         let localizations = {};
         let comment = undefined;
@@ -189,7 +205,7 @@ for(let i = 0; i < 26; i++)
                 type = dictMatch.__token ?? 'function';
             }
             bytes = dictMatch.__tag;
-            const cats = dictMatch.categories.category;
+            const cats = dictMatch.categories?.category;
             if (typeof(cats) === 'string') {
                 categories.push(cats)
             } else {
@@ -204,7 +220,7 @@ for(let i = 0; i < 26; i++)
                 console.warn(`   *****  adjusting  name from [${name}] to [${csvMatch.enName}]`);
                 name = csvMatch.enName;
             }
-            localizations.fr = csvMatch.frName;
+            localizations.FR = csvMatch.frName;
             if (!bytes || bytes === '?') {
                 bytes = csvMatch.bytes;
             }
@@ -251,14 +267,14 @@ for(let i = 0; i < 26; i++)
 
         {
             let newArgs = [];
-            for (const [idx, [argName, type, optional]] of Object.entries(args)) {
+            for (const [idx, [argName, argType, isOptional]] of Object.entries(args)) {
                 if (argName.includes(',')) {
                     // console.warn(`    arg ${idx} wasn't split correctly: "${argName}". args was: ${JSON.stringify(args)}`);
                     for (const [idx2, arg] of Object.entries(argName.split(','))) {
-                        newArgs.push([arg.replace(/^\(/, '').trim(), type, optional])
+                        newArgs.push([arg.replace(/^\(/, '').trim(), argType, isOptional])
                     }
                 } else {
-                    newArgs.push([argName, type, optional]);
+                    newArgs.push([argName, argType, isOptional]);
                 }
             }
             args = newArgs;
@@ -289,14 +305,24 @@ for(let i = 0; i < 26; i++)
                                       .replace(/^N$/, '[catalog]').replace(/^<$/, '[draw]').replace(/^,$/, '[stat plot]').replace(/^Z$/, '[ans]')
                                       .replace(/^½$/, '[vars]').replace(/^æ$/, 'I%').replace(/^Ú$/, '𝗡').replace(/^ä$/, '*').replace(/^@$/, 'Δ'));
 
-        (json[name] ??= {
-            bytes: bytes,
+        if (!bytes) {
+            bytes = {
+                'If Then End':      name2bytes['If '],
+                'If Then Else End': name2bytes['If '],
+            }[name];
+            if (!bytes) {
+                throw `bytes not defined for token name: [${name}]`;
+            }
+        }
+
+        (json[bytes] ??= {
+            name: name,
             type: type,
             categories: categories,
             syntaxes: [],
             localizations: localizations,
-            since: tkXml[bytes]?.since,
-            until: tkXml[bytes]?.until,
+            since: tkXML[bytes]?.since,
+            until: tkXML[bytes]?.until,
         }).syntaxes.push({
             syntax: wholeSyntaxLine,
             comment: comment,
@@ -306,7 +332,9 @@ for(let i = 0; i < 26; i++)
             location: location.length > 1 ? location : [`[${name.replace(/\($/,'')}]`],
             specialCategory: specialCategory.length ? specialCategory : undefined,
         });
+
+        name2bytes[name] = bytes;
     }
 }
 
-fs.writeFileSync('TI-84_Plus_CE_catalog-tokens.json', JSON.stringify(json, null, 2));
+fs.writeFileSync('output/TI-84_Plus_CE_catalog-tokens.json', JSON.stringify(json, null, 2));

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB30`|
 | Categories    | <ul><li>Math\Complex</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `►Polaire`</li></ul> |
 
 # `►Polar`
 
@@ -23,9 +24,6 @@ Displays complex value in polar format.
 <tr><td>►</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Displays complex value in polar format.
 
 ## Location
 <kbd>math</kbd>, `CMPLX`, `7:`, `Polar`

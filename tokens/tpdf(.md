@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB1C`|
 | Categories    | <ul><li>Catalog\T</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `StudentFdp(`</li></ul> |
 
 # `tpdf(`
 
@@ -23,9 +24,6 @@ Computes the probability density function (pdf) for the Student-t distribution a
 <tr><td>df</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes the probability density function (pdf) for the Student-t distribution at a specified x value with specified degrees of freedom df.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `5:tpdf(`

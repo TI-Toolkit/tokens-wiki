@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$F8`|
 | Categories    | <ul><li>Catalog\M</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Med-Med `</li></ul> |
 
 # `Med-Med `
 
@@ -27,9 +28,6 @@ Fits a median-median model to Xlistname and Ylistname with frequency freqlist, a
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Fits a median-median model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `3:Med-Med`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB33`|
 | Categories    | <ul><li>Catalog\L</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Logistique `</li></ul> |
 
 # `Logistic `
 
@@ -27,9 +28,6 @@ Fits a logistic regression model to Xlistname and Ylistname with frequency freql
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Fits a logistic regression model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
 
 ## Location
 `CALC`, `B:Logistic`

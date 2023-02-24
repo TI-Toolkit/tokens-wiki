@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB0F`|
 | Categories    | <ul><li>Catalog\I</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `carChaine(`</li></ul> |
 
 # `inString(`
 
@@ -25,9 +26,6 @@ Returns the character position in string of the first character of substring beg
 <tr><td>start</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns the character position in string of the first character of substring beginning at start.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `inString(`

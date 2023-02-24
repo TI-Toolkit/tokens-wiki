@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF40`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `STATWIZARD OFF`</li></ul> |
 
 # `STATWIZARD OFF`
 
@@ -13,9 +14,6 @@ Disables wizard syntax help for statistical commands, distributions, and seq(.
 
 ## Syntax
 `STATWIZARD OFF`
-
-## Description
-Disables wizard syntax help for statistical commands, distributions, and seq(.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `STATWIZARD OFF`

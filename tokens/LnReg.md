@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$F6`|
 | Categories    | <ul><li>Catalog\L</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `RegLn `</li></ul> |
 
 # `LnReg `
 
@@ -27,9 +28,6 @@ Fits a logarithmic regression model to Xlistname and Ylistname with frequency fr
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Fits a logarithmic regression model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `9:LnReg`

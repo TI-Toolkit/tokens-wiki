@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7B`|
 | Categories    | <ul><li>Catalog\I</li><li>Table Settings</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ValeursDem`</li></ul> |
 
 # `IndpntAsk`
 
@@ -13,9 +14,6 @@ Sets table to ask for independent-variable values.
 
 ## Syntax
 `IndpntAsk`
-
-## Description
-Sets table to ask for independent-variable values.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>tblset</kbd>, `Indpnt: Ask`

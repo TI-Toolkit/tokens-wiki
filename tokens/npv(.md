@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB00`|
 | Categories    | <ul><li>Finance\Calc</li><li>Catalog\N</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `vactNet(`</li></ul> |
 
 # `npv(`
 
@@ -27,9 +28,6 @@ Computes the sum of the present values for cash inflows and outflows.
 <tr><td>CFFreq</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes the sum of the present values for cash inflows and outflows.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `7:npv(`

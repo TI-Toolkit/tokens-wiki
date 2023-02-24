@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$A9`|
 | Categories    | <ul><li>Catalog\D</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `DessFonct `</li></ul> |
 
 # `DrawF `
 
@@ -24,10 +25,6 @@ Color#:10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws expression (in terms of X) on the graph with specified
-Color#:10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `6:DrawF`

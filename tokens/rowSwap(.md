@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$15`|
 | Categories    | <ul><li>Matrix\Math</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `permutLigne(`</li></ul> |
 
 # `rowSwap(`
 
@@ -25,9 +26,6 @@ Returns a matrix with rowA of matrix swapped with rowB.
 <tr><td>rowB</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a matrix with rowA of matrix swapped with rowB.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `C:rowSwap(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$A8`|
 | Categories    | <ul><li>Catalog\D</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `DessRecip `</li></ul> |
 
 # `DrawInv `
 
@@ -24,10 +25,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws the inverse of expression by plotting X values on the y-axis and Y values on the x-axis with specified
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `8:DrawInv`

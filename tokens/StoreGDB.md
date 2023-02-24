@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$9A`|
 | Categories    | <ul><li>Catalog\S</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `SauveBDG `</li></ul> |
 
 # `StoreGDB `
 
@@ -21,9 +22,6 @@ Stores current graph in database GDBn.
 <tr><td>n</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Stores current graph in database GDBn.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `STO`, `3:StoreGDB`

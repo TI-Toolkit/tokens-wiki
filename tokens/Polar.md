@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$78`|
 | Categories    | <ul><li>Catalog\P</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Polaire`</li></ul> |
 
 # `Polar`
 
@@ -13,9 +14,6 @@ Sets polar graphing mode.
 
 ## Syntax
 `Polar`
-
-## Description
-Sets polar graphing mode.
 
 ## Location
 <kbd>mode</kbd>, `Polar`

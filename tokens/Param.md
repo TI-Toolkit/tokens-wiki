@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$77`|
 | Categories    | <ul><li>Catalog\P</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Param`</li></ul> |
 
 # `Param`
 
@@ -13,9 +14,6 @@ Sets parametric graphing mode.
 
 ## Syntax
 `Param`
-
-## Description
-Sets parametric graphing mode.
 
 ## Location
 <kbd>mode</kbd>, `Par`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$D6`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\L</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Lbl `</li></ul> |
 
 # `Lbl `
 
@@ -21,9 +22,6 @@ Creates a label of one or two characters.
 <tr><td>label</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Creates a label of one or two characters.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `9:Lbl`

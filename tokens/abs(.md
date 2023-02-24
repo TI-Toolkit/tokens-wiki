@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$B2`|
 | Categories    | <ul><li>Math\Number</li><li>Catalog\A</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `abs(`</li></ul> |
 
 # `abs(`
 
@@ -21,9 +22,6 @@ Returns the absolute value of a real number, expression, list, or matrix.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the absolute value of a real number, expression, list, or matrix.
 
 ## Location
 <kbd>math</kbd>, `NUM`, `1:abs(`
@@ -45,9 +43,6 @@ Returns the magnitude of a complex number or list.
 <tr><td>complex value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the magnitude of a complex number or list.
 
 ## Location
 <kbd>math</kbd>, `CMPLX`, `5:abs(`

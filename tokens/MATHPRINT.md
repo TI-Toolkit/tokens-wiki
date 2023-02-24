@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF37`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `MATHPRINT`</li></ul> |
 
 # `MATHPRINT`
 
@@ -13,9 +14,6 @@ Displays most entries and answers the way they are displayed in textbooks, such 
 
 ## Syntax
 `MATHPRINT`
-
-## Description
-Displays most entries and answers the way they are displayed in textbooks, such as .
 
 ## Location
 <kbd>MATHPRINT</kbd>

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB2B`|
 | Categories    | <ul><li>Catalog\L</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `longueur(`</li></ul> |
 
 # `length(`
 
@@ -21,9 +22,6 @@ Returns the number of characters in string.
 <tr><td>string</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the number of characters in string.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `length(`

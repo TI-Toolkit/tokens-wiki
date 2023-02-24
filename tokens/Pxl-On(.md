@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$A1`|
 | Categories    | <ul><li>Catalog\P</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Pxl-Aff(`</li></ul> |
 
 # `Pxl-On(`
 
@@ -26,10 +27,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws pixel on the graph area at (row,column) in the specified color.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `POINTS`, `4:Pxl-On(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$A2`|
 | Categories    | <ul><li>Catalog\P</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Pxl-Naff(`</li></ul> |
 
 # `Pxl-Off(`
 
@@ -23,9 +24,6 @@ The Off state will display the set Background Image Var or COLOR.
 <tr><td>column</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-The Off state will display the set Background Image Var or COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `POINTS`, `5:Pxl-Off(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB1A`|
 | Categories    | <ul><li>Catalog\G</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `géomtFRép(`</li></ul> |
 
 # `geometcdf(`
 
@@ -23,9 +24,6 @@ Computes a cumulative probability at x, the number of the trial on which the fir
 <tr><td>x</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes a cumulative probability at x, the number of the trial on which the first success occurs, for the discrete geometric distribution with the specified probability of success p.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `F:geometcdf(`

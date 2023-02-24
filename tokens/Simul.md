@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E01`|
 | Categories    | <ul><li>Catalog\S</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Simul`</li></ul> |
 
 # `Simul`
 
@@ -13,9 +14,6 @@ Sets mode to graph functions simultaneously.
 
 ## Syntax
 `Simul`
-
-## Description
-Sets mode to graph functions simultaneously.
 
 ## Location
 <kbd>mode</kbd>, `Simul`

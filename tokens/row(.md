@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$17`|
 | Categories    | <ul><li>Matrix\Math</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `*ligne(`</li></ul> |
 
 # `*row(`
 
@@ -27,9 +28,6 @@ Returns a matrix with row of matrix multiplied by value and stored in row.
 <tr><td>row</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a matrix with row of matrix multiplied by value and stored in row.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `E:`, `row(`

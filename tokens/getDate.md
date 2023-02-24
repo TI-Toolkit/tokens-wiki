@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF09`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `affDate`</li></ul> |
 
 # `getDate`
 
@@ -13,9 +14,6 @@ Returns a list giving the date according to the current value of the clock. The 
 
 ## Syntax
 `getDate`
-
-## Description
-Returns a list giving the date according to the current value of the clock. The list is in {year,month,day} format.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `getDate`

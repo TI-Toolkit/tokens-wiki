@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB24`|
 | Categories    | <ul><li>Finance\Calc</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `tvm_VAC`</li></ul> |
 
 # `tvm_FV`
 
@@ -32,9 +33,6 @@ Computes the future value.
 <tr><td>C/Y</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes the future value.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `6:tvm_FV`

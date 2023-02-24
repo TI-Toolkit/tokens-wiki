@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB10`|
 | Categories    | <ul><li>Catalog\N</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `normalFRép(`</li></ul> |
 
 # `normalcdf(`
 
@@ -27,9 +28,6 @@ Computes the normal distribution probability between lowerbound and upperbound f
 <tr><td>s</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes the normal distribution probability between lowerbound and upperbound for the specified m and s.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `2:normalcdf(`

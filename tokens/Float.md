@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$69`|
 | Categories    | <ul><li>Catalog\F</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Flottant`</li></ul> |
 
 # `Float`
 
@@ -13,9 +14,6 @@ Sets floating decimal mode.
 
 ## Syntax
 `Float`
-
-## Description
-Sets floating decimal mode.
 
 ## Location
 <kbd>mode</kbd>, `Float`

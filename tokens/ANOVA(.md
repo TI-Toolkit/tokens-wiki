@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB59`|
 | Categories    | <ul><li>Catalog\A</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ANUVA(`</li></ul> |
 
 # `ANOVA(`
 
@@ -29,9 +30,6 @@ Performs a one-way analysis of variance for comparing the means of two to 20 pop
 <tr><td>list20</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs a one-way analysis of variance for comparing the means of two to 20 populations.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `H:ANOVA(`

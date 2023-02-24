@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF1D`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `ZFrac1⁄10`</li></ul> |
 
 # `ZFrac1⁄10`
 
@@ -13,9 +14,6 @@ Sets the window variables so that you can trace in increments of , if possible. 
 
 ## Syntax
 `ZFrac1/10`
-
-## Description
-Sets the window variables so that you can trace in increments of , if possible. Sets TraceStep to  and ΔX and ΔY to .
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `G:ZFrac1/10`

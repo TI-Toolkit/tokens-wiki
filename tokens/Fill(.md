@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$E2`|
 | Categories    | <ul><li>Matrix\Math</li><li>Catalog\F</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Remplir(`</li></ul> |
 
 # `Fill(`
 
@@ -23,9 +24,6 @@ Stores value to each element in matrixname.
 <tr><td>matrixname</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Stores value to each element in matrixname.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `4:Fill(`
@@ -49,9 +47,6 @@ Stores value to each element in listname.
 <tr><td>listname</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Stores value to each element in listname.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `4:Fill(`

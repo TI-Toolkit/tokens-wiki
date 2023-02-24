@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BE`|
 | Categories    | <ul><li>Catalog\L</li><li>Keypad</li><li>Math\Math</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ln(`</li></ul> |
 
 # `ln(`
 
@@ -21,9 +22,6 @@ Returns the natural logarithm of a real or complex number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the natural logarithm of a real or complex number, expression, or list.
 
 ## Location
 <kbd>ln</kbd>

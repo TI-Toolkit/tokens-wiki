@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$B4`|
 | Categories    | <ul><li>Matrix\Math</li><li>Catalog\I</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `identité(`</li></ul> |
 
 # `identity(`
 
@@ -21,9 +22,6 @@ Returns the identity matrix of dimension rows x dimension columns.
 <tr><td>dimension</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the identity matrix of dimension rows x dimension columns.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `5:identity(`

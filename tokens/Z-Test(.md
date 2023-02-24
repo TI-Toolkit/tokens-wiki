@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB3B`|
 | Categories    | <ul><li>Catalog\Z</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Z-Test(`</li></ul> |
 
 # `Z-Test(`
 
@@ -39,10 +40,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>(Data list input</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs a z test with frequency freqlist. alternative= -1 is <; alternative=0 is ; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `1:Z-Test(`
@@ -82,10 +79,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>(Summary stats input</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs a z test. alternative=-1 is <; alternative=0 is ; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `1:Z-Test(`

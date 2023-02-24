@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$D8`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Pause `</li></ul> |
 
 # `Pause `
 
@@ -13,9 +14,6 @@ Suspends program execution until you press Í.
 
 ## Syntax
 `Pause`
-
-## Description
-Suspends program execution until you press Í.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `8:Pause`
@@ -37,9 +35,6 @@ Displays value; suspends program execution until you press Í.
 <tr><td>value</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Displays value; suspends program execution until you press Í.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `8:Pause`
@@ -64,10 +59,6 @@ Pause value,time.
 <tr><td>time</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Displays value on the current home screen and execution of the program continues after the time period specified. For time only, use Pause “”,time where the value is a blank string. Time is in seconds.
-Pause value,time.
 
 ## Location
 <kbd>prgm</kbd>, `8:Pause`

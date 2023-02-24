@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF0E`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `actHorl`</li></ul> |
 
 # `isClockOn`
 
@@ -13,9 +14,6 @@ Identifies if clock is ON or OFF. Returns 1 if the clock is ON. Returns 0 if the
 
 ## Syntax
 `isClockOn`
-
-## Description
-Identifies if clock is ON or OFF. Returns 1 if the clock is ON. Returns 0 if the clock is OFF.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `isClockOn`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB1D`|
 | Categories    | <ul><li>Catalog\P</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Χ²Fdp(`</li></ul> |
 
 # `χ²pdf(`
 
@@ -25,9 +26,6 @@ Computes the probability density function (pdf) for the χ² distribution at a s
 <tr><td>df</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes the probability density function (pdf) for the χ² distribution at a specified x value for the specified degrees of freedom df.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `7:`, `pdf(`

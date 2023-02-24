@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF98`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `eval(`</li></ul> |
 
 # `eval(`
 
@@ -24,9 +25,6 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 <tr><td>expression</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns an evaluated expression as a string with 8 significant digits.  The expression must be real.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `C:eval(`
@@ -51,9 +49,6 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 <tr><td>expression</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns an evaluated expression as a string with 8 significant digits.  The expression must simplify to a real expression.
 
 ## Location
 <kbd>prgm</kbd>, `6:eval(`

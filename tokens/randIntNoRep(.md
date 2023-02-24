@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF35`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `randIntNoRep(`</li></ul> |
 
 # `randIntNoRep(`
 
@@ -25,9 +26,6 @@ Returns a random ordered list of integers from a lower integer to an upper integ
 <tr><td>numelements</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns a random ordered list of integers from a lower integer to an upper integer which may include the lower integer and upper integer. If the optional argument numelements is specified, the first numelements are listed. The first numelements term in the list of random integers are displayed.
 
 ## Location
 <kbd>math</kbd>, `PRB`, `8:randIntNoRep(`

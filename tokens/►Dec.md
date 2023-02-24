@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$2`|
 | Categories    | <ul><li>Catalog\D</li><li>Math\Math</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `►Dec`</li></ul> |
 
 # `►Dec`
 
@@ -23,9 +24,6 @@ Displays a real or complex number, expression, list, or matrix in decimal format
 <tr><td>►</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Displays a real or complex number, expression, list, or matrix in decimal format.
 
 ## Location
 <kbd>math</kbd>, `MATH`, `2:`, `Dec`

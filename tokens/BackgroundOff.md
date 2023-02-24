@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF64`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `ArrPlanNAff`</li></ul> |
 
 # `BackgroundOff`
 
@@ -13,9 +14,6 @@ Turns off background image in the graph area.
 
 ## Syntax
 `BackgroundOff`
-
-## Description
-Turns off background image in the graph area.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `BACKGROUND`, `2:BackgroundOff:`

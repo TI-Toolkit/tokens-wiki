@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$19`|
 | Categories    | <ul><li>Math\Number</li><li>Catalog\M</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `max(`</li></ul> |
 
 # `max(`
 
@@ -24,9 +25,6 @@ Returns the larger of valueA and valueB.
 
 </table>
 
-## Description
-Returns the larger of valueA and valueB.
-
 ## Location
 <kbd>math</kbd>, `NUM`, `7:max(`
 <hr>
@@ -48,9 +46,6 @@ Returns the larger of valueA and valueB.
 
 </table>
 
-## Description
-Returns the larger of valueA and valueB.
-
 ## Location
 <kbd>math</kbd>, `NUM`, `7:max(`
 <hr>
@@ -71,9 +66,6 @@ Returns largest real or complex element in list.
 <tr><td>list</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns largest real or complex element in list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `2:max(`
@@ -98,9 +90,6 @@ Returns a real or complex list of the larger of each pair of elements in listA a
 
 </table>
 
-## Description
-Returns a real or complex list of the larger of each pair of elements in listA and listB.
-
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `2:max(`
 <hr>
@@ -123,9 +112,6 @@ Returns a real or complex list of the larger of value or each list element.
 <tr><td>list</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a real or complex list of the larger of value or each list element.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `2:max(`

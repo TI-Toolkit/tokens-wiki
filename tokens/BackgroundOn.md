@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF5B`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `ArrPlanAff `</li></ul> |
 
 # `BackgroundOn `
 
@@ -13,9 +14,6 @@ Displays a menu the Background Image Var n (Image#n) specified in the graph area
 
 ## Syntax
 `BackgroundOn n`
-
-## Description
-Displays a menu the Background Image Var n (Image#n) specified in the graph area.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `BACKGROUND`, `1:BackgroundOn`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF34`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `logBASE(`</li></ul> |
 
 # `logBASE(`
 
@@ -23,9 +24,6 @@ Returns the logarithm of a specifed value determined from a specified base: logB
 <tr><td>base</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the logarithm of a specifed value determined from a specified base: logBASE(value, base).
 
 ## Location
 <kbd>logBASE</kbd>

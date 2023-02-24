@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$67`|
 | Categories    | <ul><li>Catalog\S</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Sci`</li></ul> |
 
 # `Sci`
 
@@ -13,9 +14,6 @@ Sets scientific notation display mode.
 
 ## Syntax
 `Sci`
-
-## Description
-Sets scientific notation display mode.
 
 ## Location
 <kbd>mode</kbd>, `Sci`

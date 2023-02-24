@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB4A`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ListesDéfaut `</li></ul> |
 
 # `SetUpEditor `
 
@@ -13,9 +14,6 @@ Removes all list names from the stat list editor, and then restores list names L
 
 ## Syntax
 `SetUpEditor`
-
-## Description
-Removes all list names from the stat list editor, and then restores list names L1 through L6 to columns 1 through 6.
 
 ## Location
 <kbd>stat</kbd>, `EDIT`, `5:SetUpEditor`
@@ -43,9 +41,6 @@ Removes all list names from the stat list editor, then sets it up to display one
 <tr><td>listname20</td><td>listName</td><td>true</td></tr>
 
 </table>
-
-## Description
-Removes all list names from the stat list editor, then sets it up to display one or more listnames in the specified order, starting with column 1.
 
 ## Location
 <kbd>stat</kbd>, `EDIT`, `5:SetUpEditor`

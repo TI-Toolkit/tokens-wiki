@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$B8`|
 | Categories    | <ul><li>Catalog\N</li><li>Test</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `non(`</li></ul> |
 
 # `not(`
 
@@ -21,9 +22,6 @@ Returns 0 if value is  0. value can be a real number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns 0 if value is  0. value can be a real number, expression, or list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>test</kbd>, `LOGIC`, `4:not(`

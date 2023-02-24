@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB42`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `2-CompZIntC(`</li></ul> |
 
 # `2-SampZInt(`
 
@@ -40,9 +41,6 @@ Computes a two-sample z confidence interval.
 <tr><td>(Data list input</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a two-sample z confidence interval.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `9:2-SampZInt(`
@@ -87,9 +85,6 @@ Computes a two-sample z confidence interval.
 <tr><td>(Summary stats input</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a two-sample z confidence interval.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `9:2-SampZInt(`

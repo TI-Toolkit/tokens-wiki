@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$79`|
 | Categories    | <ul><li>Catalog\S</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Suite`</li></ul> |
 
 # `Seq`
 
@@ -13,9 +14,6 @@ Sets sequence graphing mode.
 
 ## Syntax
 `Seq`
-
-## Description
-Sets sequence graphing mode.
 
 ## Location
 <kbd>mode</kbd>, `Seq`

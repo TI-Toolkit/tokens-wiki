@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$76`|
 | Categories    | <ul><li>Catalog\F</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Fonct`</li></ul> |
 
 # `Func`
 
@@ -13,9 +14,6 @@ Sets function graphing mode.
 
 ## Syntax
 `Func`
-
-## Description
-Sets function graphing mode.
 
 ## Location
 <kbd>mode</kbd>, `Func`

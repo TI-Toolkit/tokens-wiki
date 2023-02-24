@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$DE`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\D</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Disp `</li></ul> |
 
 # `Disp `
 
@@ -13,9 +14,6 @@ Displays the home screen.
 
 ## Syntax
 `Disp`
-
-## Description
-Displays the home screen.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `3:Disp`
@@ -45,9 +43,6 @@ Displays each value.
 <tr><td>value n</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Displays each value.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `3:Disp`

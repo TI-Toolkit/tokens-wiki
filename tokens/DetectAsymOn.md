@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF6A`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `DétectAsymAct`</li></ul> |
 
 # `DetectAsymOn`
 
@@ -13,9 +14,6 @@ Turns on checks for rational function asymptotes when graphing. Impacts graph sp
 
 ## Syntax
 `DetectAsymOn`
-
-## Description
-Turns on checks for rational function asymptotes when graphing. Impacts graph speed. Performs more calculations and will not connect pixels across an asymptote on a graph.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>

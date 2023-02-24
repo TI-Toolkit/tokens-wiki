@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$621A`|
 | Categories    | <ul><li>Statistics\EQ</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `e`</li></ul> |
 
 # `e`
 
@@ -13,9 +14,6 @@ Returns decimal approximation of the constant e.
 
 ## Syntax
 `e`
-
-## Description
-Returns decimal approximation of the constant e.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>e</kbd>

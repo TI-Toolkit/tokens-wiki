@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF30`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `►n⁄d◄►Un⁄d`</li></ul> |
 
 # `►n⁄d◄►Un⁄d`
 
@@ -23,9 +24,6 @@ Converts the results from a fraction to mixed number or from a mixed number to a
 <tr><td>◄►</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Converts the results from a fraction to mixed number or from a mixed number to a fraction, if applicable.
 
 ## Location
 <kbd>alpha</kbd>, <kbd>F1</kbd>, `3:`, `n/d`, `Un/d`

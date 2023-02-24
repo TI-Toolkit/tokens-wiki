@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$9F`|
 | Categories    | <ul><li>Catalog\P</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Pt-Naff(`</li></ul> |
 
 # `Pt-Off(`
 
@@ -26,10 +27,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>mark</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Erases a point at (x,y) on the graph area using mark. The Off state may be the background color determined by the ImageVar or color setting.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `POINTS`, `2:Pt-Off(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$9E`|
 | Categories    | <ul><li>Catalog\P</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Pt-Aff(`</li></ul> |
 
 # `Pt-On(`
 
@@ -28,10 +29,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws a point at (x,y) on the graph area using mark and the specified color#.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `POINTS`, `1:Pt-On(`

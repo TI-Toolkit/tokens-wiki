@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$14`|
 | Categories    | <ul><li>Matrix\Math</li><li>Catalog\A</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `chaîne(`</li></ul> |
 
 # `augment(`
 
@@ -23,9 +24,6 @@ Returns a matrix, which is matrixB appended to matrixA as new columns.
 <tr><td>matrixB</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a matrix, which is matrixB appended to matrixA as new columns.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `7:augment(`
@@ -49,9 +47,6 @@ Returns a list, which is listB concatenated to the end of listA.
 <tr><td>listB</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a list, which is listB concatenated to the end of listA.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `9:augment(`

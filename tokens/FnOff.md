@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$97`|
 | Categories    | <ul><li>Y= Functions\On/Off</li><li>Catalog\F</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `FonctNAff `</li></ul> |
 
 # `FnOff `
 
@@ -25,9 +26,6 @@ Deselects all Y= functions or specified Y= functions.
 <tr><td>function n</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Deselects all Y= functions or specified Y= functions.
 
 ## Location
 <kbd>vars</kbd>, `Y-VARS`, `4:On/Off2:FnOff`

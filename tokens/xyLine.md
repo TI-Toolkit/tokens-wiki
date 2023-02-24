@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$FD`|
 | Categories    | <ul><li>Stat Plot\Type</li><li>Catalog\X</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Polygone`</li></ul> |
 
 # `xyLine`
 
@@ -28,10 +29,6 @@ Where # gives Plot1, Plot2 or Plot3.
 <tr><td>color#</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Used as the "type" argument in the command
-Where # gives Plot1, Plot2 or Plot3.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>stat plot</kbd>, `TYPE`

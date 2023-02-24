@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB36`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Ombre_t(`</li></ul> |
 
 # `Shade_t(`
 
@@ -28,10 +29,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws the density function for the Student-t distribution specified by degrees of freedom df, and shades or colors the area between lowerbound and upperbound.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DRAW`, `2:Shade_t(`

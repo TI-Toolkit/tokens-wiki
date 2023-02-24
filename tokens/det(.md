@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$B3`|
 | Categories    | <ul><li>Matrix\Math</li><li>Catalog\D</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `dét(`</li></ul> |
 
 # `det(`
 
@@ -21,9 +22,6 @@ Returns determinant of matrix.
 <tr><td>matrix</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns determinant of matrix.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `1:det(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E0F`|
 | Categories    | <ul><li>Catalog\T</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `f(n)`</li></ul> |
 
 # `Time`
 
@@ -13,9 +14,6 @@ Sets sequence graphs to plot with respect to time.
 
 ## Syntax
 `Time`
-
-## Description
-Sets sequence graphs to plot with respect to time.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `Time`

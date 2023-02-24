@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB06`|
 | Categories    | <ul><li>Finance\Calc</li><li>Catalog\E</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `►Eff(`</li></ul> |
 
 # `►Eff(`
 
@@ -26,9 +27,6 @@ Computes the effective interest rate.
 <tr><td>compounding periods</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes the effective interest rate.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `C:`, `Eff(`

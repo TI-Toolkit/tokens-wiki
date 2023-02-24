@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF0D`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `affFmtHr`</li></ul> |
 
 # `getTmFmt`
 
@@ -14,10 +15,6 @@ Returns an integer representing the clock time format that is currently set on t
 
 ## Syntax
 `getTmFmt`
-
-## Description
-Returns an integer representing the clock time format that is currently set on the device.
-12 = 12 hour format24 = 24 hour format
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `getTmFmt`

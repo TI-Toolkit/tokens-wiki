@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB34`|
 | Categories    | <ul><li>Catalog\L</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `RegLinTTest `</li></ul> |
 
 # `LinRegTTest `
 
@@ -29,9 +30,6 @@ Performs a linear regression and a t-test. alternative=-1 is <; alternative=0 is
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs a linear regression and a t-test. alternative=-1 is <; alternative=0 is ; alternative=1 is >.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `F:LinRegTTest`

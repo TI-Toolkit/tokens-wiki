@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB3F`|
 | Categories    | <ul><li>Catalog\P</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `2-PropZTest(`</li></ul> |
 
 # `2-PropZTest(`
 
@@ -34,10 +35,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a two-proportion z test. alternative=-1 is <; alternative=0 is ; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `6:2-PropZTest(`

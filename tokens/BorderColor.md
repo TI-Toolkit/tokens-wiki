@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF6C`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `CouleurBord `</li></ul> |
 
 # `BorderColor `
 
@@ -21,9 +22,6 @@ Turns on a border color surrounding the graph area with the specified color. Col
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Turns on a border color surrounding the graph area with the specified color. Color #:1-4.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `BorderColor`

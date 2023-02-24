@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$C4`|
 | Categories    | <ul><li>Catalog\C</li><li>Keypad</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `cos(`</li></ul> |
 
 # `cos(`
 
@@ -21,9 +22,6 @@ Returns cosine of a real number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns cosine of a real number, expression, or list.
 
 ## Location
 <kbd>cos</kbd>

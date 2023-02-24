@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$A3`|
 | Categories    | <ul><li>Catalog\P</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Pxl-Change(`</li></ul> |
 
 # `Pxl-Change(`
 
@@ -26,10 +27,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Toggles Off to On in the graph area: with specified color# Toggles On to Off in the graph area: Off will display the set Background Image Var or Color.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `POINTS`, `6:Pxl-Change(`

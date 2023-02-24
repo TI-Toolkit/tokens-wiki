@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$C5`|
 | Categories    | <ul><li>Catalog\C</li><li>Keypad</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Arccos(`</li></ul> |
 
 # `cos⁻¹(`
 
@@ -23,9 +24,6 @@ Returns arccosine of a real number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns arccosine of a real number, expression, or list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>cos⁻¹</kbd>

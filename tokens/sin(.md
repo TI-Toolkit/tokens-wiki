@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$C2`|
 | Categories    | <ul><li>Catalog\S</li><li>Keypad</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `sin(`</li></ul> |
 
 # `sin(`
 
@@ -21,9 +22,6 @@ Returns the sine of a real number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the sine of a real number, expression, or list.
 
 ## Location
 <kbd>sin</kbd>

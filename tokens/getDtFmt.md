@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF0C`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `affFmtDt`</li></ul> |
 
 # `getDtFmt`
 
@@ -14,10 +15,6 @@ Returns an integer representing the date format that is currently set on the dev
 
 ## Syntax
 `getDtFmt`
-
-## Description
-Returns an integer representing the date format that is currently set on the device.
-1 = M/D/Y2 = D/M/Y3 = Y/M/D
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `getDtFmt`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7C`|
 | Categories    | <ul><li>Catalog\D</li><li>Table Settings</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `CalculsAuto`</li></ul> |
 
 # `DependAuto`
 
@@ -13,9 +14,6 @@ Sets table to generate dependent-variable values automatically.
 
 ## Syntax
 `DependAuto`
-
-## Description
-Sets table to generate dependent-variable values automatically.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>tblset</kbd>, `Depend: Auto`

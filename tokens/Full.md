@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$75`|
 | Categories    | <ul><li>Catalog\F</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `PleinEcr`</li></ul> |
 
 # `Full`
 
@@ -13,9 +14,6 @@ Sets full screen mode.
 
 ## Syntax
 `Full`
-
-## Description
-Sets full screen mode.
 
 ## Location
 <kbd>mode</kbd>, `Full`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB4C`|
 | Categories    | <ul><li>Finance\Calc</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Pmt_Déb`</li></ul> |
 
 # `Pmt_Bgn`
 
@@ -13,9 +14,6 @@ Specifies an annuity due, where payments occur at the beginning of each payment 
 
 ## Syntax
 `Pmt_Bgn`
-
-## Description
-Specifies an annuity due, where payments occur at the beginning of each payment period.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `F:Pmt_Bgn`

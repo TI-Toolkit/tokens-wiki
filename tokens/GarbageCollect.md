@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BBCB`|
 | Categories    | <ul><li>Catalog\G</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `RéorganiserMém`</li></ul> |
 
 # `GarbageCollect`
 
@@ -13,9 +14,6 @@ Displays the garbage collection menu to allow cleanup of unused archive memory.
 
 ## Syntax
 `GarbageCollect`
-
-## Description
-Displays the garbage collection menu to allow cleanup of unused archive memory.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `GarbageCollect`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB04`|
 | Categories    | <ul><li>Finance\Calc</li><li>Catalog\I</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ΣInt(`</li></ul> |
 
 # `ΣInt(`
 
@@ -27,9 +28,6 @@ Computes the sum, rounded to roundvalue, of the interest amount between pmt1 and
 <tr><td>roundvalue</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes the sum, rounded to roundvalue, of the interest amount between pmt1 and pmt2 for an amortization schedule.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `A:`, `Int(`

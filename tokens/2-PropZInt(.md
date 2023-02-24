@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB44`|
 | Categories    | <ul><li>Catalog\P</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `2-PropZInt(`</li></ul> |
 
 # `2-PropZInt(`
 
@@ -29,9 +30,6 @@ Computes a two-proportion z confidence interval.
 <tr><td>confidence level</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a two-proportion z confidence interval.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `B:2-PropZInt(`

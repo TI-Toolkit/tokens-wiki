@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E12`|
 | Categories    | <ul><li>Catalog\U</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `uwAxes`</li></ul> |
 
 # `uwAxes`
 
@@ -13,9 +14,6 @@ Sets sequence graphs to plot u(n) on the x-axis and w(n) on the y-axis.
 
 ## Syntax
 `uwAxes`
-
-## Description
-Sets sequence graphs to plot u(n) on the x-axis and w(n) on the y-axis.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `uw`

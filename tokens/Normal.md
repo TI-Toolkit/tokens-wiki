@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$66`|
 | Categories    | <ul><li>Catalog\N</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Normal`</li></ul> |
 
 # `Normal`
 
@@ -13,9 +14,6 @@ Sets normal display mode.
 
 ## Syntax
 `Normal`
-
-## Description
-Sets normal display mode.
 
 ## Location
 <kbd>mode</kbd>, `Normal`

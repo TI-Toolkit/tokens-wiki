@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF3A`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `Un⁄d`</li></ul> |
 
 # `Un⁄d`
 
@@ -13,9 +14,6 @@ Displays results as a mixed number, if applicable.
 
 ## Syntax
 `Un/d`
-
-## Description
-Displays results as a mixed number, if applicable.
 
 ## Location
 <kbd>math</kbd>, `NUMC: Un/d`

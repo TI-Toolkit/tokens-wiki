@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$5`|
 | Categories    | <ul><li>Stat Plot\Type</li><li>Catalog\B</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Carré`</li></ul> |
 
 # `Boxplot`
 
@@ -27,9 +28,6 @@ Defines Plot# (1, 2, or 3) of type
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Defines Plot# (1, 2, or 3) of type
 
 ## Location
 <kbd>2nd</kbd>, <kbd>stat plot</kbd>

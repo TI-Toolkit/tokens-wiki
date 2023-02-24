@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB1F`|
 | Categories    | <ul><li>Math\Probability</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `normAléat(`</li></ul> |
 
 # `randNorm(`
 
@@ -25,9 +26,6 @@ Generates and displays a random real number from a specified Normal distribution
 <tr><td>numtrials</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Generates and displays a random real number from a specified Normal distribution specified by m and s for a specified number of trials numtrials.
 
 ## Location
 <kbd>math</kbd>, `PRB`, `6:randNorm(`

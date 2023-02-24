@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E0D`|
 | Categories    | <ul><li>Catalog\L</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `EtiqNAff`</li></ul> |
 
 # `LabelOff`
 
@@ -13,9 +14,6 @@ Turns off axes labels.
 
 ## Syntax
 `LabelOff`
-
-## Description
-Turns off axes labels.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `LabelOff`

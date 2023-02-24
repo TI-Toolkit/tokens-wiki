@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB47`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `2-Comp𝐅Test( `</li></ul> |
 
 # `2-Samp𝐅Test `
 
@@ -36,10 +37,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs a two-sample Û test. alternative=-1 is <; alternative=0 is ; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `E:2-Samp`, `Test`
@@ -76,10 +73,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs a two-sample Û test. alternative=-1 is <; alternative=0 is ; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `E:2-Samp`, `Test`

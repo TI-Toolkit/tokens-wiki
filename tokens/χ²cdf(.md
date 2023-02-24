@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB13`|
 | Categories    | <ul><li>Catalog\C</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `X²FRép(	`</li></ul> |
 
 # `χ²cdf(`
 
@@ -27,9 +28,6 @@ Computes the χ²distribution probability between lowerbound and upperbound for 
 <tr><td>df</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes the χ²distribution probability between lowerbound and upperbound for the specified degrees of freedom df.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `8:`, `cdf(`

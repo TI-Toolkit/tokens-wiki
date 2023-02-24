@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$23`|
 | Categories    | <ul><li>List\Ops</li><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `suite(`</li></ul> |
 
 # `seq(`
 
@@ -29,9 +30,6 @@ Returns list created by evaluating expression with regard to variable, from begi
 <tr><td>increment</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns list created by evaluating expression with regard to variable, from begin to end by increment.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `5:seq(`

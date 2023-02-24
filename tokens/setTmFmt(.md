@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF04`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `défFmtHr(`</li></ul> |
 
 # `setTmFmt(`
 
@@ -22,10 +23,6 @@ Sets the time format.
 <tr><td>integer</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sets the time format.
-12 = 12 hour format24 = 24 hour format
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `setTmFmt(`

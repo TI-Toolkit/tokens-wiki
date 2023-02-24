@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$F5`|
 | Categories    | <ul><li>Catalog\E</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `RegExp `</li></ul> |
 
 # `ExpReg `
 
@@ -27,9 +28,6 @@ Fits an exponential regression model to Xlistname and Ylistname with frequency f
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Fits an exponential regression model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `0:ExpReg`

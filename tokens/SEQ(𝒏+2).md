@@ -1,38 +1,31 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$`|
+| Hex Value     | `$EF91`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `SUITE(𝒏+2)`</li></ul> |
 
-# `If Then End`
+# `SEQ(𝒏+2)`
 
 ## Description
-Executes commands from Then to End if condition = 1 (true).
+In sequence mode, SEQ(`n+2`) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable `n+2`.   Can also be set from the Y= editor in SEQ mode.
 
+<b>Comment</b>:undefined
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`If:conditionThen:commandsEnd:commands`
+`Seq(n+2)`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>:</td><td></td><td>false</td></tr>
-
-<tr><td>condition</td><td></td><td>false</td></tr>
-
-<tr><td>commands</td><td></td><td>false</td></tr>
-
-<tr><td>commands</td><td></td><td>false</td></tr>
+<tr><td>n+2</td><td></td><td>false</td></tr>
 
 </table>
 
-## Description
-Executes commands from Then to End if condition = 1 (true).
-
 ## Location
-<kbd>prgm</kbd>, `CTL`, `2:Then`
+<kbd>mode</kbd>, `SEQ(n+2)`
 <hr>
 
 ## Examples
@@ -56,7 +49,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-
+| <b>TI-84+CE</b> | 5.0.0 | Added
 
 ## Related Commands
 

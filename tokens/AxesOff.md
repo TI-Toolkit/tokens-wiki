@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E09`|
 | Categories    | <ul><li>Catalog\A</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `AxesNAff`</li></ul> |
 
 # `AxesOff`
 
@@ -13,9 +14,6 @@ Turns off the graph axes.
 
 ## Syntax
 `AxesOff`
-
-## Description
-Turns off the graph axes.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `AxesOff`

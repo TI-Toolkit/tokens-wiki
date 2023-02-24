@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF65`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `CouleurGraph(`</li></ul> |
 
 # `GraphColor(`
 
@@ -24,10 +25,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sets the color for function#.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `H:GraphColor(`

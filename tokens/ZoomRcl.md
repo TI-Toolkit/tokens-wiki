@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$90`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ZoomRpl`</li></ul> |
 
 # `ZoomRcl`
 
@@ -13,9 +14,6 @@ Graphs the selected functions in a user-defined viewing window.
 
 ## Syntax
 `ZoomRcl`
-
-## Description
-Graphs the selected functions in a user-defined viewing window.
 
 ## Location
 <kbd>zoom</kbd>, `MEMORY`, `3:ZoomRcl`

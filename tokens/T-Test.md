@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB3C`|
 | Categories    | <ul><li>Catalog\T</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `T-Test `</li></ul> |
 
 # `T-Test `
 
@@ -38,10 +39,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 </table>
 
-## Description
-Performs a t test with frequency freqlist. alternative=-1 is <; alternative=0 is ; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
-
 ## Location
 <kbd>stat</kbd>, `TESTS`, `2:T-Test`
 <hr>
@@ -77,10 +74,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs a t test with frequency freqlist. alternative=-1 is < ; alternative=0 is Ä; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `2:T-Test`

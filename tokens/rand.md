@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$AB`|
 | Categories    | <ul><li>Math\Probability</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `NbrAléat`</li></ul> |
 
 # `rand`
 
@@ -21,9 +22,6 @@ Returns a random number between 0 and 1 for a specified number of trials numtria
 <tr><td>numtrials</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns a random number between 0 and 1 for a specified number of trials numtrials.
 
 ## Location
 <kbd>math</kbd>, `PRB`, `1:rand`

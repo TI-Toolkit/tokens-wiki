@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF97`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `versChaîne(`</li></ul> |
 
 # `toString(`
 
@@ -24,9 +25,6 @@ Converts value to a string where value can be real, complex, an evaluated expres
 <tr><td>format</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Converts value to a string where value can be real, complex, an evaluated expression, list, or matrix.  String value displays in classic format (0) following the mode setting AUTO/DEC or in decimal format (1).
 
 ## Location
 <kbd>prgm</kbd>, `E:toString(`, `C:toString(`

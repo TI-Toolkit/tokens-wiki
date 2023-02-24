@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB05`|
 | Categories    | <ul><li>Finance\Calc</li><li>Catalog\N</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `►Nom(`</li></ul> |
 
 # `►Nom(`
 
@@ -26,9 +27,6 @@ Computes the nominal interest rate.
 <tr><td>compounding periods</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes the nominal interest rate.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `B:`, `Nom(`

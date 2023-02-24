@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF0F`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `HorlNAff`</li></ul> |
 
 # `ClockOff`
 
@@ -13,9 +14,6 @@ Turns off the clock display in the mode screen.
 
 ## Syntax
 `ClockOff`
-
-## Description
-Turns off the clock display in the mode screen.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `ClockOff`

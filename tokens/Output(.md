@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$E0`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\O</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Output(`</li></ul> |
 
 # `Output(`
 
@@ -25,9 +26,6 @@ Displays text beginning at specified row and column of the home screen.
 <tr><td>text</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Displays text beginning at specified row and column of the home screen.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `6:Output(`
@@ -53,9 +51,6 @@ Displays value beginning at specified row and column of the home screen.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Displays value beginning at specified row and column of the home screen.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `6:Output(`

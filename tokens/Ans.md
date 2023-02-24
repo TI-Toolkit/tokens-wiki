@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$72`|
 | Categories    | <ul><li>Catalog\A</li><li>Keypad</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Rep`</li></ul> |
 
 # `Ans`
 
@@ -13,9 +14,6 @@ Returns the last answer.
 
 ## Syntax
 `Ans`
-
-## Description
-Returns the last answer.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>ans</kbd>

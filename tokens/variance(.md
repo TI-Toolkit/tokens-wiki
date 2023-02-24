@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB0E`|
 | Categories    | <ul><li>List\Math</li><li>Catalog\V</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `variance(`</li></ul> |
 
 # `variance(`
 
@@ -23,9 +24,6 @@ Returns the variance of the elements in list with frequency freqlist.
 <tr><td>freqlist</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns the variance of the elements in list with frequency freqlist.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `8:variance(`

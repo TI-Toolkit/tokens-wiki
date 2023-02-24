@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$1`|
 | Categories    | <ul><li>Catalog\D</li><li>Angle</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `►DMS`</li></ul> |
 
 # `►DMS`
 
@@ -23,9 +24,6 @@ Displays value in DMS format.
 <tr><td>►</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Displays value in DMS format.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>angle</kbd>, `ANGLE`, `4:`, `DMS`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$D7`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\G</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Goto `</li></ul> |
 
 # `Goto `
 
@@ -21,9 +22,6 @@ Transfers control to label.
 <tr><td>label</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Transfers control to label.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `0:Goto`

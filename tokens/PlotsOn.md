@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$E9`|
 | Categories    | <ul><li>Stat Plot\Plots</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `GraphAff `</li></ul> |
 
 # `PlotsOn `
 
@@ -13,9 +14,6 @@ Selects all stat plots or one or more specified stat plots (1, 2, or 3).
 
 ## Syntax
 `PlotsOn [1,2,3]`
-
-## Description
-Selects all stat plots or one or more specified stat plots (1, 2, or 3).
 
 ## Location
 <kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `5:PlotsOn`

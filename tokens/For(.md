@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$D3`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\F</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `For(`</li></ul> |
 
 # `For(`
 
@@ -31,9 +32,6 @@ Executes commands through End, incrementing variable from begin by increment  un
 <tr><td>commands</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Executes commands through End, incrementing variable from begin by increment  until variable>end.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `4:For(`

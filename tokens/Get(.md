@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$E8`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\G</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Capt(`</li></ul> |
 
 # `Get(`
 
@@ -22,10 +23,6 @@ Note: See also Send( and eval(
 <tr><td>variable</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Retrieves a value from a connected TI-Innovator™ Hub and stores the data to a variable on the receiving CE calculator.
-Note: See also Send( and eval(
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `A:Get(`
@@ -50,10 +47,6 @@ Note: See also Send( and eval(
 <tr><td>variable</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Retrieves a value from a connected TI-Innovator™ Hub and stores the data to a variable on the receiving CE calculator.
-Note: See also Send( and eval(
 
 ## Location
 <kbd>prgm</kbd>, `HUB`, `5:Get`

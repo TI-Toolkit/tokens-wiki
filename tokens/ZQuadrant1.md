@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF17`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `ZQuadrant1`</li></ul> |
 
 # `ZQuadrant1`
 
@@ -13,9 +14,6 @@ Displays the portion of the graph that is in quadrant 1.
 
 ## Syntax
 `ZQuadrant1`
-
-## Description
-Displays the portion of the graph that is in quadrant 1.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `A:ZQuadrant1`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$1D`|
 | Categories    | <ul><li>Catalog\P</li><li>Angle</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `P►Rx(`</li></ul> |
 
 # `P►Rx(`
 
@@ -25,9 +26,6 @@ Returns X, given polar coordinates r and θ or a list of polar coordinates.
 <tr><td>θ</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns X, given polar coordinates r and θ or a list of polar coordinates.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>angle</kbd>, `ANGLE`, `7:P`, `Rx(`

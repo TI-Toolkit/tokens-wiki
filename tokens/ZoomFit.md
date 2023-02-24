@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB65`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ZminMax`</li></ul> |
 
 # `ZoomFit`
 
@@ -13,9 +14,6 @@ Recalculates Ymin and Ymax to include the minimum and maximum Y values, between 
 
 ## Syntax
 `ZoomFit`
-
-## Description
-Recalculates Ymin and Ymax to include the minimum and maximum Y values, between Xmin and Xmax, of the selected functions and replots the functions.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `0:ZoomFit`

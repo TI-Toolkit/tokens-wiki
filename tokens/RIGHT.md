@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF94`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `DROITE`</li></ul> |
 
 # `RIGHT`
 
@@ -23,10 +24,6 @@ See also invNorm(.
 <tr><td>RIGHT</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-RIGHT is a tail argument for the invNorm( command where the optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.
-See also invNorm(.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>

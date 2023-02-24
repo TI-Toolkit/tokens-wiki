@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$D0`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\E</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Else`</li></ul> |
 
 # `Else`
 
@@ -13,9 +14,6 @@ See If:Then:Else
 
 ## Syntax
 `Else`
-
-## Description
-See If:Then:Else
 
 ## Location
 <kbd>Else</kbd>

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB51`|
 | Categories    | <ul><li>Catalog\E</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ExpNAff`</li></ul> |
 
 # `ExprOff`
 
@@ -13,9 +14,6 @@ Turns off the expression display during TRACE.
 
 ## Syntax
 `ExprOff`
-
-## Description
-Turns off the expression display during TRACE.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `ExprOff`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$89`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Zoom +`</li></ul> |
 
 # `Zoom In`
 
@@ -13,9 +14,6 @@ Magnifies the part of the graph that surrounds the cursor location.
 
 ## Syntax
 `Zoom In`
-
-## Description
-Magnifies the part of the graph that surrounds the cursor location.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `2:Zoom In`

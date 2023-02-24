@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF67`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `CouleurTexte(`</li></ul> |
 
 # `TextColor(`
 
@@ -22,10 +23,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Set text color prior to using the Text( command.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `A:TextColor(`

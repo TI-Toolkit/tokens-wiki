@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB17`|
 | Categories    | <ul><li>Catalog\P</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `poissonFdp(`</li></ul> |
 
 # `poissonpdf(`
 
@@ -23,9 +24,6 @@ Computes a probability at x for the discrete Poisson distribution with the speci
 <tr><td>x</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes a probability at x for the discrete Poisson distribution with the specified mean m.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `C:poissonpdf(`

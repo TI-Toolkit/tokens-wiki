@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E11`|
 | Categories    | <ul><li>Catalog\V</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `vwAxes`</li></ul> |
 
 # `vwAxes`
 
@@ -13,9 +14,6 @@ Sets sequence graphs to plot v(n) on the x-axis and w(n) on the y-axis.
 
 ## Syntax
 `vwAxes`
-
-## Description
-Sets sequence graphs to plot v(n) on the x-axis and w(n) on the y-axis.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `vw`

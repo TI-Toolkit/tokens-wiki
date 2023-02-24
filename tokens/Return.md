@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$D5`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Return`</li></ul> |
 
 # `Return`
 
@@ -13,9 +14,6 @@ Returns to the calling program.
 
 ## Syntax
 `Return`
-
-## Description
-Returns to the calling program.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `E:Return`

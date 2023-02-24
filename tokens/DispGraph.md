@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$DF`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\D</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `AffGraph`</li></ul> |
 
 # `DispGraph`
 
@@ -13,9 +14,6 @@ Displays the graph.
 
 ## Syntax
 `DispGraph`
-
-## Description
-Displays the graph.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `4:DispGraph`

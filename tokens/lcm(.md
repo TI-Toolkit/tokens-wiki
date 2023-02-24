@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB08`|
 | Categories    | <ul><li>Math\Number</li><li>Catalog\L</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ppcm(`</li></ul> |
 
 # `lcm(`
 
@@ -23,9 +24,6 @@ Returns the least common multiple of valueA and valueB, which can be real number
 <tr><td>valueB</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the least common multiple of valueA and valueB, which can be real numbers or lists.
 
 ## Location
 <kbd>math</kbd>, `NUM`, `8:lcm(`

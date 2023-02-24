@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$1A`|
 | Categories    | <ul><li>Math\Number</li><li>Catalog\M</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `min(`</li></ul> |
 
 # `min(`
 
@@ -24,9 +25,6 @@ Returns smaller of valueA and valueB.
 
 </table>
 
-## Description
-Returns smaller of valueA and valueB.
-
 ## Location
 <kbd>math</kbd>, `NUM`, `6:min(`
 <hr>
@@ -47,9 +45,6 @@ Returns smallest real or complex element in list.
 <tr><td>list</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns smallest real or complex element in list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `1:min(`
@@ -74,9 +69,6 @@ Returns real or complex list of the smaller of each pair of elements in listA an
 
 </table>
 
-## Description
-Returns real or complex list of the smaller of each pair of elements in listA and listB.
-
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `1:min(`
 <hr>
@@ -99,9 +91,6 @@ Returns a real or complex list of the smaller of value or each list element.
 <tr><td>list</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a real or complex list of the smaller of value or each list element.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `1:min(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E10`|
 | Categories    | <ul><li>Catalog\U</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `uvAxes`</li></ul> |
 
 # `uvAxes`
 
@@ -13,9 +14,6 @@ Sets sequence graphs to plot u(n) on the x-axis and v(n) on the y-axis.
 
 ## Syntax
 `uvAxes`
-
-## Description
-Sets sequence graphs to plot u(n) on the x-axis and v(n) on the y-axis.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `uv`

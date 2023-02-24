@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB46`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `2-CompTTest( `</li></ul> |
 
 # `2-SampTTest `
 
@@ -36,10 +37,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a two-sample t test. alternative=-1 is <; alternative=0 is ; alternative=1 is >. pooled=1 pools variances; pooled=0 does not pool variances. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `4:2-SampTTest`
@@ -82,10 +79,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a two-sample t test. alternative=-1 is <; alternative=0 is ; alternative=1 is >. pooled=1 pools variances; pooled=0 does not pool variances. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `4:2-SampTTest`

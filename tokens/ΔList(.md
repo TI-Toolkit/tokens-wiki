@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB2C`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `Δliste(`</li></ul> |
 
 # `ΔList(`
 
@@ -23,9 +24,6 @@ Returns a list containing the differences between consecutive elements in list.
 <tr><td>list</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a list containing the differences between consecutive elements in list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `7:`, `List(`

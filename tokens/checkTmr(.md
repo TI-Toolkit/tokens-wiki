@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF02`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `AffMintr(`</li></ul> |
 
 # `checkTmr(`
 
@@ -21,9 +22,6 @@ Returns the number of seconds since you used startTmr to start the timer. The st
 <tr><td>starttime</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the number of seconds since you used startTmr to start the timer. The starttime is the value displayed by startTmr.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `checkTmr(`

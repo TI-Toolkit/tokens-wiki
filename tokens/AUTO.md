@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF3B`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `AUTO`</li></ul> |
 
 # `AUTO`
 
@@ -13,9 +14,6 @@ Displays answers in a similar format as the input.
 
 ## Syntax
 `AUTO`
-
-## Description
-Displays answers in a similar format as the input.
 
 ## Location
 <kbd>mode</kbd>, `Answers: AUTO`

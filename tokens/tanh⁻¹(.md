@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$CD`|
 | Categories    | <ul><li>Catalog\T</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Argth(`</li></ul> |
 
 # `tanh⁻¹(`
 
@@ -23,9 +24,6 @@ Returns the hyperbolic arctangent of a real number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the hyperbolic arctangent of a real number, expression, or list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `tanh`

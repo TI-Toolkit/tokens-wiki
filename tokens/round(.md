@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$12`|
 | Categories    | <ul><li>Math\Number</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `arrondi(`</li></ul> |
 
 # `round(`
 
@@ -23,9 +24,6 @@ Returns a number, expression, list, or matrix rounded to #decimals ( 9).
 <tr><td>#decimals</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns a number, expression, list, or matrix rounded to #decimals ( 9).
 
 ## Location
 <kbd>math</kbd>, `NUM`, `2:round(`

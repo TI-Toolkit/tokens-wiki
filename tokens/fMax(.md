@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$28`|
 | Categories    | <ul><li>Catalog\F</li><li>Math\Math</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `fMax(`</li></ul> |
 
 # `fMax(`
 
@@ -29,9 +30,6 @@ Returns the value of variable where the local maximum of expression occurs, betw
 <tr><td>tolerance</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns the value of variable where the local maximum of expression occurs, between lower and upper,with specified tolerance.
 
 ## Location
 <kbd>math</kbd>, `MATH`, `7:fMax(`

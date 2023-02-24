@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB4D`|
 | Categories    | <ul><li>Catalog\R</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Réel`</li></ul> |
 
 # `Real`
 
@@ -13,9 +14,6 @@ Sets mode to display complex results only when you enter complex numbers.
 
 ## Syntax
 `Real`
-
-## Description
-Sets mode to display complex results only when you enter complex numbers.
 
 ## Location
 <kbd>mode</kbd>, `Real`

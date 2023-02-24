@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$F4`|
 | Categories    | <ul><li>Catalog\L</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `RegLin(a+bx) `</li></ul> |
 
 # `LinReg(a+bx) `
 
@@ -27,9 +28,6 @@ Fits a linear regression model to Xlistname and Ylistname with frequency freqlis
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Fits a linear regression model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `8:LinReg(a+bx)`

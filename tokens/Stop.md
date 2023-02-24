@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$D9`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Stop`</li></ul> |
 
 # `Stop`
 
@@ -13,9 +14,6 @@ Ends program execution; returns to home screen.
 
 ## Syntax
 `Stop`
-
-## Description
-Ends program execution; returns to home screen.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `F:Stop`

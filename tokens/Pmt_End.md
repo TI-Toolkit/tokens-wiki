@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB4B`|
 | Categories    | <ul><li>Finance\Calc</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Pmt_Fin`</li></ul> |
 
 # `Pmt_End`
 
@@ -13,9 +14,6 @@ Specifies an ordinary annuity, where payments occur at the end of each payment p
 
 ## Syntax
 `Pmt_End`
-
-## Description
-Specifies an ordinary annuity, where payments occur at the end of each payment period.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `E:Pmt_End`

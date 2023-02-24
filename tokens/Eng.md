@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$68`|
 | Categories    | <ul><li>Catalog\E</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Ing`</li></ul> |
 
 # `Eng`
 
@@ -13,9 +14,6 @@ Sets engineering display mode.
 
 ## Syntax
 `Eng`
-
-## Description
-Sets engineering display mode.
 
 ## Location
 <kbd>mode</kbd>, `Eng`

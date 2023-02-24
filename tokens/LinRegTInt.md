@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF15`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `LinRegTInt `</li></ul> |
 
 # `LinRegTInt `
 
@@ -29,9 +30,6 @@ Performs a linear regression and computes the t confidence interval for the slop
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs a linear regression and computes the t confidence interval for the slope coefficient b.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `G:LinRegTInt`

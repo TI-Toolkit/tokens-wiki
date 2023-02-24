@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$96`|
 | Categories    | <ul><li>Y= Functions\On/Off</li><li>Catalog\F</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `FonctAff `</li></ul> |
 
 # `FnOn `
 
@@ -25,9 +26,6 @@ Selects all Y= functions or specified Y= functions.
 <tr><td>function n</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Selects all Y= functions or specified Y= functions.
 
 ## Location
 <kbd>vars</kbd>, `Y-VARS`, `4:On/Off1:FnOn`

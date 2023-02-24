@@ -1,32 +1,31 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$`|
+| Hex Value     | `$EF90`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `SUITE(𝒏+1)`</li></ul> |
 
-# `SEQ(n+2`
+# `SEQ(𝒏+1)`
 
 ## Description
-In sequence mode, SEQ(n+2) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable n+2.   Can also be set from the Y= editor in SEQ mode.
+In sequence mode, SEQ(`n+1`) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable `n+1`.   Can also be set from the Y= editor in SEQ mode.
 
+<b>Comment</b>:undefined
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`Seq(n+2)`
+`Seq(n+1)`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>n+2</td><td></td><td>false</td></tr>
+<tr><td>n+1</td><td></td><td>false</td></tr>
 
 </table>
 
-## Description
-In sequence mode, SEQ(n+2) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable n+2.   Can also be set from the Y= editor in SEQ mode.
-
 ## Location
-<kbd>mode</kbd>, `SEQ(n+2)`
+<kbd>mode</kbd>, `SEQ(n+1)`
 <hr>
 
 ## Examples
@@ -50,7 +49,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-
+| <b>TI-84+CE</b> | 5.0.0 | Added
 
 ## Related Commands
 

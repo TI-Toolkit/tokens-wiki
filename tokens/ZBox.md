@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$88`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Zboîte`</li></ul> |
 
 # `ZBox`
 
@@ -13,9 +14,6 @@ Displays a graph, lets you draw a box that defines a new viewing window, and upd
 
 ## Syntax
 `ZBox`
-
-## Description
-Displays a graph, lets you draw a box that defines a new viewing window, and updates the window.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `1:ZBox`

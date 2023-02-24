@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB02`|
 | Categories    | <ul><li>Finance\Calc</li><li>Catalog\B</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `paSolde(`</li></ul> |
 
 # `bal(`
 
@@ -23,9 +24,6 @@ Computes the balance at npmt for an amortization schedule using stored values fo
 <tr><td>roundvalue</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes the balance at npmt for an amortization schedule using stored values for PV, I%, and PMT and rounds the computation to roundvalue.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `9:bal(`

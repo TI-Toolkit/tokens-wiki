@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB25`|
 | Categories    | <ul><li>Math\Complex</li><li>Catalog\C</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `conj(`</li></ul> |
 
 # `conj(`
 
@@ -21,9 +22,6 @@ Returns the complex conjugate of a complex number or list of complex numbers.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the complex conjugate of a complex number or list of complex numbers.
 
 ## Location
 <kbd>math</kbd>, `CMPLX`, `1:conj(`

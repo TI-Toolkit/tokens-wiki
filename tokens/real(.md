@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB26`|
 | Categories    | <ul><li>Math\Complex</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `reel(`</li></ul> |
 
 # `real(`
 
@@ -21,9 +22,6 @@ Returns the real part of a complex number or list of complex numbers.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the real part of a complex number or list of complex numbers.
 
 ## Location
 <kbd>math</kbd>, `CPLX`, `2:real(`

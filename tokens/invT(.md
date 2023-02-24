@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF13`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `invT(`</li></ul> |
 
 # `invT(`
 
@@ -23,9 +24,6 @@ Computes the inverse cumulative student-t probability function specified by degr
 <tr><td>df</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes the inverse cumulative student-t probability function specified by degree of freedom, df for a given area under the curve.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `4:invT(`

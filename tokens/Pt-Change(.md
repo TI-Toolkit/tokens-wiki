@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$A0`|
 | Categories    | <ul><li>Catalog\P</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Pt-Change(`</li></ul> |
 
 # `Pt-Change(`
 
@@ -26,10 +27,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Toggles a point on or off at (x,y) on the graph area. Off will be in the Background color and On will be the specified
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `POINTS`, `3:Pt-Change(`

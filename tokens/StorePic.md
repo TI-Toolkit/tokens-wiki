@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$98`|
 | Categories    | <ul><li>Catalog\S</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `SauveImage `</li></ul> |
 
 # `StorePic `
 
@@ -21,9 +22,6 @@ Stores current picture in picture Picn.
 <tr><td>n</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Stores current picture in picture Picn.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `STO`, `1:StorePic`

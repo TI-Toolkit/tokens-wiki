@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB28`|
 | Categories    | <ul><li>Math\Complex</li><li>Catalog\A</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `argument(`</li></ul> |
 
 # `angle(`
 
@@ -21,9 +22,6 @@ Returns the polar angle of a complex number or list of complex numbers.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the polar angle of a complex number or list of complex numbers.
 
 ## Location
 <kbd>math</kbd>, `CMPLX`, `4:angle(`

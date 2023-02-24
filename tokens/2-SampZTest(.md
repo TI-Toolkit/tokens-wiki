@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB3D`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `2-CompZTest(`</li></ul> |
 
 # `2-SampZTest(`
 
@@ -42,10 +43,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a two-sample z test. alternative=-1 is <; alternative=0 is ; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `3:2-SampZTest(`
@@ -92,10 +89,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a two-sample z test. alternative=-1 is <; alternative=0 is ; alternative=1 is >. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `3:2-SampZTest(`

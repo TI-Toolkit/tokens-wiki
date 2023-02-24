@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF16`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `Manual-Fit `</li></ul> |
 
 # `Manual-Fit `
 
@@ -27,11 +28,6 @@ line style #: 1-4.
 <tr><td>line style#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Fits a linear equation to a scatter plot with specified color and line style.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
-line style #: 1-4.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `D:Manual-Fit`

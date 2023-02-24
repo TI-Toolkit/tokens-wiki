@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF07`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `AffChDt(`</li></ul> |
 
 # `getDtStr(`
 
@@ -22,10 +23,6 @@ Returns a string of the current date in the format specified by integer, where:
 <tr><td>integer</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a string of the current date in the format specified by integer, where:
-1 = M/D/Y2 = D/M/Y3 = Y/M/D
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `getDtStr(`

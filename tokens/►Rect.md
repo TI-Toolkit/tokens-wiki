@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB2F`|
 | Categories    | <ul><li>Math\Complex</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `►Rect`</li></ul> |
 
 # `►Rect`
 
@@ -23,9 +24,6 @@ Displays complex value or list in rectangular format.
 <tr><td>►</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Displays complex value or list in rectangular format.
 
 ## Location
 <kbd>math</kbd>, `CMPLX`, `6:`, `Rect`

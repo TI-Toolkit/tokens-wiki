@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB2D`|
 | Categories    | <ul><li>Matrix\Math</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Gauss(`</li></ul> |
 
 # `ref(`
 
@@ -21,9 +22,6 @@ Returns the row-echelon form of a matrix.
 <tr><td>matrix</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the row-echelon form of a matrix.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `A:ref(`

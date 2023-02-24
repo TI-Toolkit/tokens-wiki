@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB55`|
 | Categories    | <ul><li>Catalog\E</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Equ►Chaine(`</li></ul> |
 
 # `Equ►String(`
 
@@ -25,9 +26,6 @@ Converts the contents of a Y= var to a string and stores it in Strn
 <tr><td>n</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Converts the contents of a Y= var to a string and stores it in Strn
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `Equ`, `String(`

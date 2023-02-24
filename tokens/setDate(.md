@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF00`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `défDate(`</li></ul> |
 
 # `setDate(`
 
@@ -26,9 +27,6 @@ Sets the date using a year, month, day format. The year must be 4 digits; month 
 <tr><td>day</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sets the date using a year, month, day format. The year must be 4 digits; month and day can be 1 or 2 digit.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `setDate(`

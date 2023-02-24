@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$0`|
 | Categories    | <ul><li>Catalog\C</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `RegCubique `</li></ul> |
 
 # `CubicReg `
 
@@ -27,9 +28,6 @@ Fits a cubic regression model to Xlistname and Ylistname with frequency freqlist
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Fits a cubic regression model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `6:CubicReg`

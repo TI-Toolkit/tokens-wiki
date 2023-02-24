@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$1C`|
 | Categories    | <ul><li>Catalog\R</li><li>Angle</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `R►Pθ(`</li></ul> |
 
 # `R►Pθ(`
 
@@ -27,9 +28,6 @@ Returns θ, given rectangular coordinates x and y or a list of rectangular coord
 <tr><td>y</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns θ, given rectangular coordinates x and y or a list of rectangular coordinates.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>angle</kbd>, `ANGLE`

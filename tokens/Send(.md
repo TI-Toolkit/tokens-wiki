@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$E7`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Envoi(`</li></ul> |
 
 # `Send(`
 
@@ -24,12 +25,6 @@ TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2
 <tr><td>string</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sends one or more TI-Innovator™ Hub commands to a connected hub.
-Notes:
-See also eval( and Get( command related to the Send( command.
-TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2 program editor.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `B:Send(`
@@ -54,12 +49,6 @@ TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2
 <tr><td>string</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sends one or more TI-Innovator™ Hub commands to a connected hub.
-Notes:
-See also eval( and Get( command related to the Send( command.
-TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2 program editor.
 
 ## Location
 <kbd>prgm</kbd>, `HUB`

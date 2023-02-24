@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB03`|
 | Categories    | <ul><li>Finance\Calc</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `paSomPrinc(`</li></ul> |
 
 # `ΣPrn(`
 
@@ -27,9 +28,6 @@ Computes the sum, rounded to roundvalue, of the principal amount between pmt1 an
 <tr><td>roundvalue</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes the sum, rounded to roundvalue, of the principal amount between pmt1 and pmt2 for an amortization schedule.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `0:`, `Prn(`

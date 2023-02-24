@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$8F`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ZoomStat`</li></ul> |
 
 # `ZoomStat`
 
@@ -13,9 +14,6 @@ Redefines the viewing window so that all statistical data points are displayed.
 
 ## Syntax
 `ZoomStat`
-
-## Description
-Redefines the viewing window so that all statistical data points are displayed.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `9:ZoomStat`

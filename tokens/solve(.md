@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$22`|
 | Categories    | <ul><li>Catalog\S</li><li>Math\Math</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `résoudre(`</li></ul> |
 
 # `solve(`
 
@@ -29,9 +30,6 @@ Solves expression for variable, given an initial guess and lower and upper bound
 <tr><td>upper</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Solves expression for variable, given an initial guess and lower and upper bounds within which the solution is sought.
 
 ## Location
 <kbd>math</kbd>, `MATH`, `0:solve(`

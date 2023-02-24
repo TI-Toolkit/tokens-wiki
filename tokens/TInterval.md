@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB48`|
 | Categories    | <ul><li>Catalog\T</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `TintConf `</li></ul> |
 
 # `TInterval `
 
@@ -28,9 +29,6 @@ Computes a t confidence interval.
 <tr><td>(Data list input</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a t confidence interval.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `8:TInterval`
@@ -61,9 +59,6 @@ Computes a t confidence interval.
 <tr><td>(Summary stats input</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a t confidence interval.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `8:TInterval`

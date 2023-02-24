@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$73`|
 | Categories    | <ul><li>Catalog\F</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Fixe `</li></ul> |
 
 # `Fix `
 
@@ -21,9 +22,6 @@ Sets fixed-decimal mode for # of decimal places.
 <tr><td>#</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sets fixed-decimal mode for # of decimal places.
 
 ## Location
 <kbd>mode</kbd>, `0123456789`

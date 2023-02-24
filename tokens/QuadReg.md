@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$F9`|
 | Categories    | <ul><li>Catalog\Q</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `RegQuad `</li></ul> |
 
 # `QuadReg `
 
@@ -27,9 +28,6 @@ Fits a quadratic regression model to Xlistname and Ylistname with frequency freq
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Fits a quadratic regression model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `5:QuadReg`

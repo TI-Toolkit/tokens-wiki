@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB0D`|
 | Categories    | <ul><li>List\Math</li><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Ecart-type(`</li></ul> |
 
 # `stdDev(`
 
@@ -23,9 +24,6 @@ Returns the standard deviation of the elements in list with frequency freqlist.
 <tr><td>freqlist</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns the standard deviation of the elements in list with frequency freqlist.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `7:stdDev(`

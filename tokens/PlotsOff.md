@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EA`|
 | Categories    | <ul><li>Stat Plot\Plots</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `GraphNAff `</li></ul> |
 
 # `PlotsOff `
 
@@ -13,9 +14,6 @@ Deselects all stat plots or one or more specified stat plots (1, 2, or 3).
 
 ## Syntax
 `PlotsOff [1,2,3]`
-
-## Description
-Deselects all stat plots or one or more specified stat plots (1, 2, or 3).
 
 ## Location
 <kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `4:PlotsOff`

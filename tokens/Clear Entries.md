@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB57`|
 | Categories    | <ul><li>Catalog\C</li><li>Memory</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Efface entrées`</li></ul> |
 
 # `Clear Entries`
 
@@ -13,9 +14,6 @@ Clears the contents of the Last Entry storage area.
 
 ## Syntax
 `Clear Entries`
-
-## Description
-Clears the contents of the Last Entry storage area.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>mem</kbd>, `MEMORY`, `3:Clear Entries`

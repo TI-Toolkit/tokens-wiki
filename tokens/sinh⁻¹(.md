@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$C9`|
 | Categories    | <ul><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Argsh(`</li></ul> |
 
 # `sinh⁻¹(`
 
@@ -23,9 +24,6 @@ Returns the hyperbolic arcsine of a real number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the hyperbolic arcsine of a real number, expression, or list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `sinh`

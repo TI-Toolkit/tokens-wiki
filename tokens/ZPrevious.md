@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$8D`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Zprécédent`</li></ul> |
 
 # `ZPrevious`
 
@@ -13,9 +14,6 @@ Replots the graph using the window variables of the graph that was displayed bef
 
 ## Syntax
 `ZPrevious`
-
-## Description
-Replots the graph using the window variables of the graph that was displayed before you executed the last ZOOM instruction.
 
 ## Location
 <kbd>zoom</kbd>, `MEMORY`, `1:ZPrevious`

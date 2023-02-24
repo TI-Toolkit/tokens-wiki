@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB32`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `RegSin `</li></ul> |
 
 # `SinReg `
 
@@ -29,9 +30,6 @@ Attempts iterations times to fit a sinusoidal regression model to Xlistname and 
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Attempts iterations times to fit a sinusoidal regression model to Xlistname and Ylistname using a period guess, and stores the regression equation to regequ.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `C:SinReg`

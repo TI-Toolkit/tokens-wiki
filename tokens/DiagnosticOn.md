@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB66`|
 | Categories    | <ul><li>Catalog\D</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `CorrelAff`</li></ul> |
 
 # `DiagnosticOn`
 
@@ -13,9 +14,6 @@ Sets diagnostics-on mode; r, r², and R² are displayed as regression model resu
 
 ## Syntax
 `DiagnosticOn`
-
-## Description
-Sets diagnostics-on mode; r, r², and R² are displayed as regression model results.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `DiagnosticOn`

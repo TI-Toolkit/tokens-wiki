@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF32`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `remainder(`</li></ul> |
 
 # `remainder(`
 
@@ -23,9 +24,6 @@ Reports the remainder as a whole number from a division of two whole numbers whe
 <tr><td>divisor</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Reports the remainder as a whole number from a division of two whole numbers where the divisor is not zero.
 
 ## Location
 <kbd>math</kbd>, `NUM`, `0:remainder(`
@@ -50,9 +48,6 @@ Reports the remainder as a whole number from a division of two lists where the d
 
 </table>
 
-## Description
-Reports the remainder as a whole number from a division of two lists where the divisor is not zero.
-
 ## Location
 <kbd>math</kbd>, `NUM`, `0:remainder(`
 <hr>
@@ -76,9 +71,6 @@ Reports the remainder as a whole number from a division of two whole numbers whe
 
 </table>
 
-## Description
-Reports the remainder as a whole number from a division of two whole numbers where the divisor is a list.
-
 ## Location
 <kbd>math</kbd>, `NUM`, `0:remainder(`
 <hr>
@@ -101,9 +93,6 @@ Reports the remainder as a whole number from a division of two lists.
 <tr><td>list</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Reports the remainder as a whole number from a division of two lists.
 
 ## Location
 <kbd>math</kbd>, `NUM`, `0:remainder(`

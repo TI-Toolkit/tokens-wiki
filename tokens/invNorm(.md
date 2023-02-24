@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB11`|
 | Categories    | <ul><li>Catalog\I</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `FracNormale(`</li></ul> |
 
 # `invNorm(`
 
@@ -30,10 +31,6 @@ The tokens LEFT, CENTER and RIGHT can be found in [catalog].
 <tr><td>tail</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes the inverse cumulative normal distribution function for a given area under the normal distribution curve specified by m and s.. The optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.
-The tokens LEFT, CENTER and RIGHT can be found in [catalog].
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `3:invNorm(`

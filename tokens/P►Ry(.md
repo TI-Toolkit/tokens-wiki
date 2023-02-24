@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$1E`|
 | Categories    | <ul><li>Catalog\P</li><li>Angle</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `P►Ry(`</li></ul> |
 
 # `P►Ry(`
 
@@ -25,9 +26,6 @@ Returns Y, given polar coordinates r and θ or a list of polar coordinates.
 <tr><td>θ</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns Y, given polar coordinates r and θ or a list of polar coordinates.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>angle</kbd>, `ANGLE`, `8:P`, `Ry(`

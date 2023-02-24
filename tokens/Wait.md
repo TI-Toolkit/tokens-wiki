@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF96`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `Wait `</li></ul> |
 
 # `Wait `
 
@@ -22,9 +23,6 @@ Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 <tr><td>time</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 
 ## Location
 <kbd>prgm</kbd>, `A:Wait`
@@ -47,9 +45,6 @@ Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 <tr><td>time</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 
 ## Location
 <kbd>prgm</kbd>, `4:Wait`

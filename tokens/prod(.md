@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$B7`|
 | Categories    | <ul><li>List\Math</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `prod(`</li></ul> |
 
 # `prod(`
 
@@ -25,9 +26,6 @@ Returns product of list elements between start and end
 <tr><td>end</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns product of list elements between start and end
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `6:prod(`

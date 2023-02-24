@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EFA6`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `parmorceaux(`</li></ul> |
 
 # `piecewise(`
 
@@ -22,9 +23,6 @@ New piecewise function to support entry of functions as they are seen in textboo
 <tr><td>piecewise</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-New piecewise function to support entry of functions as they are seen in textbook. This command can be found in » MATH B:piecewise(
 
 ## Location
 <kbd>piecewise</kbd>

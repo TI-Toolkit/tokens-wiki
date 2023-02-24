@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF75`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `Point fin`</li></ul> |
 
 # `Dot-Thin`
 
@@ -13,9 +14,6 @@ Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thin.
 
 ## Syntax
 `Dot-Thin`
-
-## Description
-Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thin.
 
 ## Location
 <kbd>mode</kbd>, `Dot-Thin`

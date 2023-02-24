@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7D`|
 | Categories    | <ul><li>Catalog\D</li><li>Table Settings</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `CalculsDem`</li></ul> |
 
 # `DependAsk`
 
@@ -13,9 +14,6 @@ Sets table to ask for dependent-variable values.
 
 ## Syntax
 `DependAsk`
-
-## Description
-Sets table to ask for dependent-variable values.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>tblset</kbd>, `Depend: Ask`

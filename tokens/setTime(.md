@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF01`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `défHeure(`</li></ul> |
 
 # `setTime(`
 
@@ -25,9 +26,6 @@ Sets the time using an hour, minute, second format. The hour must be in 24 hour 
 <tr><td>second</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sets the time using an hour, minute, second format. The hour must be in 24 hour format, in which 13 = 1 p.m.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `setTime(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB4F`|
 | Categories    | <ul><li>Catalog\A</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `a+b𝑖`</li></ul> |
 
 # `a+b𝑖`
 
@@ -21,9 +22,6 @@ Sets the mode to rectangular complex number format (a+bi).
 <tr><td>i</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sets the mode to rectangular complex number format (a+bi).
 
 ## Location
 <kbd>mode</kbd>, `a+b`, `𝑖`

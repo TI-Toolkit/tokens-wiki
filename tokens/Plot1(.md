@@ -1,14 +1,15 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$`|
-| Categories    | <ul></ul> |
+| Hex Value     | `$EC`|
+| Categories    | <ul><li>Stat Plot\Plots</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Graph1(`</li></ul> |
 
-# `Plot1( Plot2( Plot3(`
+# `Plot1(`
 
 ## Description
-Defines Plot# (1, 2, or 3) of type Scatter or xyLine for Xlist and Ylist using mark and color.
+Defines `Plot``#` (`1`, `2`, or `3`) of `type` `Scatter` or `xyLine` for `Xlist` and `Ylist` using `mark `and `color. `
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
-Note: Xlist and Ylist represent the Xlist and Ylist names.
+Note: `Xlist `and `Ylist `represent the Xlist and Ylist names.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
@@ -34,19 +35,14 @@ Note: Xlist and Ylist represent the Xlist and Ylist names.
 
 </table>
 
-## Description
-Defines Plot# (1, 2, or 3) of type Scatter or xyLine for Xlist and Ylist using mark and color.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
-Note: Xlist and Ylist represent the Xlist and Ylist names.
-
 ## Location
 <kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
 
 ## Description
-Defines Plot# (1, 2, or 3) of type  Histogram or Boxplot for Xlist with frequency freqlist and color #.
+Defines `Plot``#` (`1`, `2`, or `3`) of `type` ` Histogram` or `Boxplot` for `Xlist` with frequency `freqlist `and color #.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
-Note: Xlist represents the Xlist name.
+Note: `Xlist `represents the Xlist name.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
@@ -70,19 +66,14 @@ Note: Xlist represents the Xlist name.
 
 </table>
 
-## Description
-Defines Plot# (1, 2, or 3) of type  Histogram or Boxplot for Xlist with frequency freqlist and color #.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
-Note: Xlist represents the Xlist name.
-
 ## Location
 <kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
 
 ## Description
-Defines Plot# (1, 2, or 3) of type  ModBoxplot for Xlist with frequency freqlist using mark and color #.
+Defines `Plot``#` (`1`, `2`, or `3`) of `type` ` ModBoxplot` for `Xlist` with frequency `freqlist` using `mark `and `color #`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
-Note: Xlist represents the Xlist name.
+Note: `Xlist `represents the Xlist name.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
@@ -108,19 +99,14 @@ Note: Xlist represents the Xlist name.
 
 </table>
 
-## Description
-Defines Plot# (1, 2, or 3) of type  ModBoxplot for Xlist with frequency freqlist using mark and color #.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
-Note: Xlist represents the Xlist name.
-
 ## Location
 <kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
 
 ## Description
-Defines Plot# (1, 2, or 3) of type  NormProbPlot for datalist on data axis using mark and color # data axis can be X or Y.
+Defines `Plot``#` (`1`, `2`, or `3`) of `type` ` NormProbPlot` for `datalist` on `data axis` using `mark `and `color #` `data axis` can be `X` or `Y`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
-Note: datalist represents the datalist name.
+Note: `datalist `represents the datalist name.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
@@ -145,11 +131,6 @@ Note: datalist represents the datalist name.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Defines Plot# (1, 2, or 3) of type  NormProbPlot for datalist on data axis using mark and color # data axis can be X or Y.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
-Note: datalist represents the datalist name.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
@@ -176,7 +157,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-
+| <b>TI-82</b> | 1.0 | Added
 
 ## Related Commands
 

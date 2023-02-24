@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB3A`|
 | Categories    | <ul><li>List\Ops</li><li>Catalog\L</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `List►matr(`</li></ul> |
 
 # `List►matr(`
 
@@ -29,9 +30,6 @@ Fills matrixname column by column with the elements from each specified listname
 <tr><td>matrixname</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Fills matrixname column by column with the elements from each specified listname.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `0:List`, `matr(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$87`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ZTrig`</li></ul> |
 
 # `ZTrig`
 
@@ -13,9 +14,6 @@ Replots the functions immediately, updating the window variables to preset value
 
 ## Syntax
 `ZTrig`
-
-## Description
-Replots the functions immediately, updating the window variables to preset values for plotting trig functions.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `7:ZTrig`

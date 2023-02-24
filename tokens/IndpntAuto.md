@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7A`|
 | Categories    | <ul><li>Catalog\I</li><li>Table Settings</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ValeursAuto`</li></ul> |
 
 # `IndpntAuto`
 
@@ -13,9 +14,6 @@ Sets table to generate independent-variable values automatically.
 
 ## Syntax
 `IndpntAuto`
-
-## Description
-Sets table to generate independent-variable values automatically.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>tblset</kbd>, `Indpnt: Auto`

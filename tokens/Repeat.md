@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$D2`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Repeat `</li></ul> |
 
 # `Repeat `
 
@@ -25,9 +26,6 @@ Executes commands until condition is true.
 <tr><td>commands</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Executes commands until condition is true.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `6:Repeat`

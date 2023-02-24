@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E0C`|
 | Categories    | <ul><li>Catalog\L</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `EtiqAff`</li></ul> |
 
 # `LabelOn`
 
@@ -13,9 +14,6 @@ Turns on axes labels.
 
 ## Syntax
 `LabelOn`
-
-## Description
-Turns on axes labels.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `LabelOn`

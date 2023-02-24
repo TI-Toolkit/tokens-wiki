@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF31`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `►F◄►D`</li></ul> |
 
 # `►F◄►D`
 
@@ -23,9 +24,6 @@ Converts an answer from a fraction to a decimal or from a decimal to a fraction.
 <tr><td>◄►</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Converts an answer from a fraction to a decimal or from a decimal to a fraction. Fraction and or decimal may be an approximation.
 
 ## Location
 <kbd>alpha</kbd>, <kbd>F1</kbd>, `4:`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB43`|
 | Categories    | <ul><li>Catalog\P</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `1-PropZInt(`</li></ul> |
 
 # `1-PropZInt(`
 
@@ -25,9 +26,6 @@ Computes a one-proportion z confidence interval.
 <tr><td>confidence level</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a one-proportion z confidence interval.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `A:1-PropZInt(`

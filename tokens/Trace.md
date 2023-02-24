@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$84`|
 | Categories    | <ul><li>Catalog\T</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Trace`</li></ul> |
 
 # `Trace`
 
@@ -13,9 +14,6 @@ Displays the graph and enters TRACE mode.
 
 ## Syntax
 `Trace`
-
-## Description
-Displays the graph and enters TRACE mode.
 
 ## Location
 <kbd>Trace</kbd>

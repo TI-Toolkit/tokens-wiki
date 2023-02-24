@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$74`|
 | Categories    | <ul><li>Catalog\H</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Horiz`</li></ul> |
 
 # `Horiz`
 
@@ -13,9 +14,6 @@ Sets horizontal split-screen mode.
 
 ## Syntax
 `Horiz`
-
-## Description
-Sets horizontal split-screen mode.
 
 ## Location
 <kbd>mode</kbd>, `Horiz`

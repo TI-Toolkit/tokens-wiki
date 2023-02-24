@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$DD`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Prompt `</li></ul> |
 
 # `Prompt `
 
@@ -27,9 +28,6 @@ Prompts for value for variableA, then variableB, and so on.
 <tr><td>variable n</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Prompts for value for variableA, then variableB, and so on.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `2:Prompt`

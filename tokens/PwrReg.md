@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$F7`|
 | Categories    | <ul><li>Catalog\P</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `RegPuiss `</li></ul> |
 
 # `PwrReg `
 
@@ -27,9 +28,6 @@ Fits a power regression model to Xlistname and Ylistname with frequency freqlist
 <tr><td>regequ</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Fits a power regression model to Xlistname and Ylistname with frequency freqlist, and stores the regression equation to regequ.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `A:PwrReg`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$1B`|
 | Categories    | <ul><li>Catalog\R</li><li>Angle</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `R►Pr(`</li></ul> |
 
 # `R►Pr(`
 
@@ -25,9 +26,6 @@ Returns R, given rectangular coordinates x and y or a list of rectangular coordi
 <tr><td>y</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns R, given rectangular coordinates x and y or a list of rectangular coordinates.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>angle</kbd>, `ANGLE`, `5:R`, `Pr(`

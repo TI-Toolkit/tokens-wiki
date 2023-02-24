@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB56`|
 | Categories    | <ul><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Chaine►Equ(`</li></ul> |
 
 # `String►Equ(`
 
@@ -27,11 +28,6 @@ String►Equ( is the inverse of Equ►String(.
 <tr><td>var</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Converts string into an equation and stores it in Y= var.
-string can be a string or string variable.
-String►Equ( is the inverse of Equ►String(.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `D:String>Equ(`, `F:String>Equ(`

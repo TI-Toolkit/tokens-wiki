@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$CE`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\I</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `If `</li></ul> |
 
 # `If `
 
@@ -26,11 +27,62 @@ If condition = 0 (false), skips commandA.
 
 </table>
 
-## Description
-If condition = 0 (false), skips commandA.
-
 ## Location
 <kbd>prgm</kbd>, `CTL`, `1:If`
+<hr>
+
+## Description
+Executes commands from Then to End if condition = 1 (true).
+
+
+<b>Availability</b>: Token only available from within the Basic editor.
+
+## Syntax
+`If:conditionThen:commandsEnd:commands`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>:</td><td></td><td>false</td></tr>
+
+<tr><td>condition</td><td></td><td>false</td></tr>
+
+<tr><td>commands</td><td></td><td>false</td></tr>
+
+<tr><td>commands</td><td></td><td>false</td></tr>
+
+</table>
+
+## Location
+<kbd>prgm</kbd>, `CTL`, `2:Then`
+<hr>
+
+## Description
+Executes commands from Then to Else if condition = 1 (true); from Else to End if condition = 0 (false).
+
+
+<b>Availability</b>: Token only available from within the Basic editor.
+
+## Syntax
+`If:conditionThen:commandsElse:commandsEnd:commands`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>condition</td><td></td><td>false</td></tr>
+
+<tr><td>commands</td><td></td><td>false</td></tr>
+
+<tr><td>commands</td><td></td><td>false</td></tr>
+
+<tr><td>commands</td><td></td><td>false</td></tr>
+
+</table>
+
+## Location
+<kbd>prgm</kbd>, `CTL`, `3:Else`
 <hr>
 
 ## Examples

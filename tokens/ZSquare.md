@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$8B`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Zorthonormal`</li></ul> |
 
 # `ZSquare`
 
@@ -13,9 +14,6 @@ Adjusts the X or Y window settings so that each pixel represents an equal width 
 
 ## Syntax
 `ZSquare`
-
-## Description
-Adjusts the X or Y window settings so that each pixel represents an equal width and height in the coordinate system, and updates the viewing window.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `5:ZSquare`

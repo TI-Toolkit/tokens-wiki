@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$CF`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\T</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Then`</li></ul> |
 
 # `Then`
 

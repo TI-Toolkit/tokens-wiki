@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$99`|
 | Categories    | <ul><li>Catalog\R</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `RappelImage `</li></ul> |
 
 # `RecallPic `
 
@@ -21,9 +22,6 @@ Displays the graph and adds the picture stored in Picn.
 <tr><td>n</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Displays the graph and adds the picture stored in Picn.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `STO`, `2:RecallPic`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB49`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `2-CompTIntC( `</li></ul> |
 
 # `2-SampTInt `
 
@@ -34,9 +35,6 @@ Computes a two-sample t confidence interval. pooled=1 pools variances; pooled=0 
 <tr><td>(Data list input</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a two-sample t confidence interval. pooled=1 pools variances; pooled=0 does not pool variances.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `0:2-SampTInt`
@@ -81,9 +79,6 @@ Computes a two-sample t confidence interval. pooled=1 pools variances; pooled=0 
 <tr><td>(Summary stats input</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a two-sample t confidence interval. pooled=1 pools variances; pooled=0 does not pool variances.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `0:2-SampTInt`

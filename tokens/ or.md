@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$3C`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: ` ou `</li></ul> |
 
 # ` or `
 
@@ -23,9 +24,6 @@ Returns 1 if valueA or valueB is  0. valueA and valueB can be real numbers, ex
 <tr><td>valueB</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns 1 if valueA or valueB is  0. valueA and valueB can be real numbers, expressions, or lists.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>test</kbd>, `LOGIC`, `2:or`

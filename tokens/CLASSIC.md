@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF38`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `CLASSIC`</li></ul> |
 
 # `CLASSIC`
 
@@ -13,9 +14,6 @@ Displays inputs and outputs on a single line, such as 1/2+3/4.
 
 ## Syntax
 `CLASSIC`
-
-## Description
-Displays inputs and outputs on a single line, such as 1/2+3/4.
 
 ## Location
 <kbd>mode</kbd>, `CLASSIC`

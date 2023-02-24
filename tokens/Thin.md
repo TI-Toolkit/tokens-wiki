@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF74`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `Fin`</li></ul> |
 
 # `Thin`
 
@@ -13,9 +14,6 @@ Resets all Y=editor line-style settings to Thin.
 
 ## Syntax
 `Thin`
-
-## Description
-Resets all Y=editor line-style settings to Thin.
 
 ## Location
 `zT`, `Thin`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF11`|
 | Categories    | <ul><li>Libraries</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `OuvrirBiblio(`</li></ul> |
 
 # `OpenLib(`
 
@@ -21,9 +22,6 @@ Extends TI-Basic. (Not available.)
 <tr><td>OpenLib</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Extends TI-Basic. (Not available.)
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `J:OpenLib(`

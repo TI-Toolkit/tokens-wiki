@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB01`|
 | Categories    | <ul><li>Finance\Calc</li><li>Catalog\I</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `tauxRi(`</li></ul> |
 
 # `irr(`
 
@@ -25,9 +26,6 @@ Returns the interest rate at which the net present value of the cash flow is equ
 <tr><td>CFFreq</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns the interest rate at which the net present value of the cash flow is equal to zero.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `8:irr(`

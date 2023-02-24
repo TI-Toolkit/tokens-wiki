@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$85`|
 | Categories    | <ul><li>Catalog\C</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `EffDessin`</li></ul> |
 
 # `ClrDraw`
 
@@ -13,9 +14,6 @@ Clears all drawn elements from a graph or drawing.
 
 ## Syntax
 `ClrDraw`
-
-## Description
-Clears all drawn elements from a graph or drawing.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `1:ClrDraw`

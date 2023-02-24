@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB40`|
 | Categories    | <ul><li>Catalog\T</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `χ²-Test(`</li></ul> |
 
 # `χ²-Test(`
 
@@ -30,10 +31,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs a chi-square test. drawflag=1 draws results; drawflag=0 calculates results.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `C:`, `Test(`

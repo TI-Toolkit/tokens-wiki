@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB1E`|
 | Categories    | <ul><li>Catalog\P</li><li>Catalog\F</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `𝐅fdp(`</li></ul> |
 
 # `𝐅pdf(`
 
@@ -27,9 +28,6 @@ Computes the Û distribution probability between lowerbound and upperbound for t
 <tr><td>denominator df</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Computes the Û distribution probability between lowerbound and upperbound for the specified numerator df (degrees of freedom) and denominator df.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `9:`, `pdf(`

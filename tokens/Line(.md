@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$9C`|
 | Categories    | <ul><li>Catalog\L</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Ligne(`</li></ul> |
 
 # `Line(`
 
@@ -34,9 +35,6 @@ Draws a line from (X1,Y1) to (X2,Y2) with the following options: erase #: 1,0,
 
 </table>
 
-## Description
-Draws a line from (X1,Y1) to (X2,Y2) with the following options: erase #: 1,0, color #: 10-24, and line style #: 1-4.
-
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `2:Line(`
 <hr>
@@ -65,9 +63,6 @@ Erases a line (erase #: 1,0) from (X1,Y1) to (X2,Y2).
 <tr><td>line#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Erases a line (erase #: 1,0) from (X1,Y1) to (X2,Y2).
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `2:Line(`

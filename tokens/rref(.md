@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB2E`|
 | Categories    | <ul><li>Matrix\Math</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Gauss-Jordan(`</li></ul> |
 
 # `rref(`
 
@@ -21,9 +22,6 @@ Returns the reduced row-echelon form of a matrix.
 <tr><td>matrix</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the reduced row-echelon form of a matrix.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `B:rref(`

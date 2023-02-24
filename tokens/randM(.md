@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$20`|
 | Categories    | <ul><li>Matrix\Math</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `MatAléat(`</li></ul> |
 
 # `randM(`
 
@@ -24,10 +25,6 @@ Max rows x columns = 400 matrix elements.
 <tr><td>columns</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a random matrix of rows × columns.
-Max rows x columns = 400 matrix elements.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `6:randM(`

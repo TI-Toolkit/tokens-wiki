@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$5F`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\P</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `prgm`</li></ul> |
 
 # `prgm`
 
@@ -21,9 +22,6 @@ Executes the program name.
 <tr><td>name</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Executes the program name.
 
 ## Location
 <kbd>prgm</kbd>, `CTRL`, `D:prgm`

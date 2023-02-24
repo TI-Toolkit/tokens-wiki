@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E0E`|
 | Categories    | <ul><li>Catalog\W</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Toile`</li></ul> |
 
 # `Web`
 
@@ -13,9 +14,6 @@ Sets sequence graphs to trace as webs.
 
 ## Syntax
 `Web`
-
-## Description
-Sets sequence graphs to trace as webs.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `Web`

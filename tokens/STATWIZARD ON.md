@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF3F`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `STATWIZARD ON`</li></ul> |
 
 # `STATWIZARD ON`
 
@@ -13,9 +14,6 @@ Enables wizard syntax help for statistical commands, distributions, and seq(.
 
 ## Syntax
 `STATWIZARD ON`
-
-## Description
-Enables wizard syntax help for statistical commands, distributions, and seq(.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `STATWIZARD ON(`

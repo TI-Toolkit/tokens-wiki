@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB41`|
 | Categories    | <ul><li>Catalog\Z</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ZintConf `</li></ul> |
 
 # `ZInterval `
 
@@ -30,9 +31,6 @@ Computes a z confidence interval.
 <tr><td>(Data list input</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a z confidence interval.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `7:ZInterval`
@@ -63,9 +61,6 @@ Computes a z confidence interval.
 <tr><td>(Summary stats input</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a z confidence interval.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `7:ZInterval`

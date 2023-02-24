@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$25`|
 | Categories    | <ul><li>Catalog\N</li><li>Math\Math</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `nDeriv(`</li></ul> |
 
 # `nDeriv(`
 
@@ -28,10 +29,6 @@ In MathPrint mode, numeric derivative template pastes and uses default tolerance
 <tr><td>H</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-When command is used in Classic mode, returns approximate numerical derivative of expression with respect to variable at value, with specific tolerance H.
-In MathPrint mode, numeric derivative template pastes and uses default tolerance H.
 
 ## Location
 <kbd>math</kbd>, `MATH`, `8:nDeriv(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E03`|
 | Categories    | <ul><li>Catalog\R</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `CoordRect`</li></ul> |
 
 # `RectGC`
 
@@ -13,9 +14,6 @@ Sets rectangular graphing coordinates format.
 
 ## Syntax
 `RectGC`
-
-## Description
-Sets rectangular graphing coordinates format.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `RectGC`

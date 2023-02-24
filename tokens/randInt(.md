@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB0A`|
 | Categories    | <ul><li>Math\Probability</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `entAléat(`</li></ul> |
 
 # `randInt(`
 
@@ -25,9 +26,6 @@ Generates and displays a random integer within a range specified by lower and up
 <tr><td>numtrials</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Generates and displays a random integer within a range specified by lower and upper integer bounds for a specified number of trials numtrials.
 
 ## Location
 <kbd>math</kbd>, `PRB`, `5:randInt(`

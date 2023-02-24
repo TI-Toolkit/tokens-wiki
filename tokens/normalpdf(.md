@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB1B`|
 | Categories    | <ul><li>Catalog\N</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `normalFdp(`</li></ul> |
 
 # `normalpdf(`
 
@@ -25,9 +26,6 @@ Computes the probability density function for the normal distribution at a speci
 <tr><td>s</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes the probability density function for the normal distribution at a specified x value for the specified m and s.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `1:normalpdf(`

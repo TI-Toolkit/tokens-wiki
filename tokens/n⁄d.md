@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF39`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `n⁄d`</li></ul> |
 
 # `n⁄d`
 
@@ -13,9 +14,6 @@ Displays results as a simple fraction.
 
 ## Syntax
 `n/d`
-
-## Description
-Displays results as a simple fraction.
 
 ## Location
 <kbd>alpha</kbd>, <kbd>F1</kbd>, `1:`, `n/d`

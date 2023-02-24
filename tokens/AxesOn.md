@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E08`|
 | Categories    | <ul><li>Catalog\A</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `AxesAff `</li></ul> |
 
 # `AxesOn `
 
@@ -22,10 +23,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR..
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Turns on the graph axes with color. The color option allows the color of the axes to be specified.
-Color#: 10 - 24 or color name pasted from [vars] COLOR..
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `AxesOn`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$FA`|
 | Categories    | <ul><li>Catalog\C</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `EffListe `</li></ul> |
 
 # `ClrList `
 
@@ -25,9 +26,6 @@ Sets the dimension of one or more listnames to 0.
 <tr><td>listname n</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Sets the dimension of one or more listnames to 0.
 
 ## Location
 <kbd>stat</kbd>, `EDIT`, `4:ClrList`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$94`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: ` Arrangement`</li></ul> |
 
 # ` nPr `
 
@@ -23,9 +24,6 @@ Returns the number of permutations of valueA taken valueB at a time.
 <tr><td>valueB</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the number of permutations of valueA taken valueB at a time.
 
 ## Location
 <kbd>math</kbd>, `PRB`, `2:nPr`
@@ -50,9 +48,6 @@ Returns a list of the permutations of value taken each element in list at a time
 
 </table>
 
-## Description
-Returns a list of the permutations of value taken each element in list at a time.
-
 ## Location
 <kbd>math</kbd>, `PRB`, `2:nPr`
 <hr>
@@ -76,9 +71,6 @@ Returns a list of the permutations of each element in list taken value at a time
 
 </table>
 
-## Description
-Returns a list of the permutations of each element in list taken value at a time.
-
 ## Location
 <kbd>math</kbd>, `PRB`, `2:nPr`
 <hr>
@@ -101,9 +93,6 @@ Returns a list of the permutations of each element in listA taken each element i
 <tr><td>listB</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a list of the permutations of each element in listA taken each element in listB at a time.
 
 ## Location
 <kbd>math</kbd>, `PRB`, `2:nPr`

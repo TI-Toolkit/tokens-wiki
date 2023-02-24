@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB35`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `OmbreNorm(`</li></ul> |
 
 # `ShadeNorm(`
 
@@ -32,10 +33,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws the normal density function specified by m and s and shades and colors the area between lowerbound and upperbound.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DRAW`, `1:ShadeNorm(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$65`|
 | Categories    | <ul><li>Catalog\D</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Degré`</li></ul> |
 
 # `Degree`
 
@@ -13,9 +14,6 @@ Sets degree angle mode.
 
 ## Syntax
 `Degree`
-
-## Description
-Sets degree angle mode.
 
 ## Location
 <kbd>mode</kbd>, `Degree`

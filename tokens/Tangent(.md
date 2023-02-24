@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$A7`|
 | Categories    | <ul><li>Catalog\T</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Tangente(`</li></ul> |
 
 # `Tangent(`
 
@@ -28,10 +29,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>linestyle#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws a line tangent to expression at X=value with specified color #: 10-24 and line style linestyle #: 1-2.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `5:Tangent(`

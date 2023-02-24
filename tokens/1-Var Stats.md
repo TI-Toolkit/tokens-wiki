@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$F2`|
 | Categories    | <ul><li>Catalog\V</li><li>Statistics\Operations</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Stats 1-Var `</li></ul> |
 
 # `1-Var Stats `
 
@@ -23,9 +24,6 @@ Performs one-variable analysis on the data in Xlistname with frequency freqlist.
 <tr><td>freqlist</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs one-variable analysis on the data in Xlistname with frequency freqlist.
 
 ## Location
 <kbd>stat</kbd>, `CALC`, `1:1-Var Stats`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF03`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `défFmtDt(`</li></ul> |
 
 # `setDtFmt(`
 
@@ -22,10 +23,6 @@ Sets the date format.
 <tr><td>integer</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sets the date format.
-1 = M/D/Y2 = D/M/Y3 = Y/M/D
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `setDtFmt(`

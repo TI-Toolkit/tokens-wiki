@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$B1`|
 | Categories    | <ul><li>Math\Number</li><li>Catalog\I</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `partEnt(`</li></ul> |
 
 # `int(`
 
@@ -21,9 +22,6 @@ Returns the largest integer  a real or complex number, expression, list, or ma
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the largest integer  a real or complex number, expression, list, or matrix.
 
 ## Location
 <kbd>math</kbd>, `NUM`, `5:int(`

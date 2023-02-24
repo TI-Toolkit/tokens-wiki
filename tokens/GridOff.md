@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E0B`|
 | Categories    | <ul><li>Catalog\G</li><li>Window</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `QuadNAff`</li></ul> |
 
 # `GridOff`
 
@@ -13,9 +14,6 @@ Turns off grid format.
 
 ## Syntax
 `GridOff`
-
-## Description
-Turns off grid format.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `GridOff`

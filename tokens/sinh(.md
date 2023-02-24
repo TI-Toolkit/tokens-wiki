@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$C8`|
 | Categories    | <ul><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `sh(`</li></ul> |
 
 # `sinh(`
 
@@ -21,9 +22,6 @@ Returns the hyperbolic sine of a real number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the hyperbolic sine of a real number, expression, or list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `sinh(`

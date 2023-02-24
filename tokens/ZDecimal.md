@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$8E`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Zdécimal`</li></ul> |
 
 # `ZDecimal`
 
@@ -13,9 +14,6 @@ Adjusts the viewing window so that TraceStep=0.1, ΔX=0.5 and ΔY=0.5, and displ
 
 ## Syntax
 `ZDecimal`
-
-## Description
-Adjusts the viewing window so that TraceStep=0.1, ΔX=0.5 and ΔY=0.5, and displays the graph screen with the origin centered on the screen.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `4:ZDecimal`

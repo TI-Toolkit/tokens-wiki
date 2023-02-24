@@ -2,21 +2,27 @@
 import * as fs from 'fs';
 import sanitize from 'sanitize-filename';
 
-const tokens = JSON.parse(fs.readFileSync('./TI-84_Plus_CE_catalog-tokens.json', 'utf8'));
+const tokens = JSON.parse(fs.readFileSync('./output/TI-84_Plus_CE_catalog-tokens.json', 'utf8'));
 
-for (const [tokName, token] of Object.entries(tokens)) {
+for (const [bytes, token] of Object.entries(tokens)) {
     let categories = '';
     for (const category of token.categories) {
         categories += `<li>${category}</li>`;
     }
 
+    let localizations = '';
+    for (const [lang, name] of Object.entries(token.localizations)) {
+        localizations += `<li><b>${lang}</b>: \`${name}\`</li>`;
+    }
+
     let page = `
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | \`\$${token.bytes.substring(2)}\`|
+| Hex Value     | \`\$${bytes.substring(2)}\`|
 | Categories    | <ul>${categories}</ul> |
+| Localizations | <ul>${localizations}</ul> |
 
-# \`${tokName}\`
+# \`${token.name}\`
 `;
 
     for (const info of token.syntaxes) {
@@ -46,13 +52,6 @@ ${info.comment ? ('<b>Comment</b>:' + token.comment + '\n') : ''}
             page += `
 </table>
 `
-        }
-
-        if (info.description && info.description.length) {
-            page += `
-## Description
-${info.description}
-`;
         }
 
         if (info.location && info.location.length) {
@@ -115,5 +114,5 @@ code 2
 
     `;
 
-    fs.writeFileSync(`tokens/${sanitize(tokName)}.md`, page.trimStart());
+    fs.writeFileSync(`output/wikipages/${sanitize(token.name)}.md`, page.trimStart());
 }

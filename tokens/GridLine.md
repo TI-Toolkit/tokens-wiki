@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF5A`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `LigneAff `</li></ul> |
 
 # `GridLine `
 
@@ -22,10 +23,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Turns on grid lines in the graph area in the specified color.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>format</kbd>, `GridLine`

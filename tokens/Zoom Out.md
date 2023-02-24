@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$8A`|
 | Categories    | <ul><li>Catalog\Z</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Zoom -`</li></ul> |
 
 # `Zoom Out`
 
@@ -13,9 +14,6 @@ Displays a greater portion of the graph, centered on the cursor location.
 
 ## Syntax
 `Zoom Out`
-
-## Description
-Displays a greater portion of the graph, centered on the cursor location.
 
 ## Location
 <kbd>zoom</kbd>, `ZOOM`, `3:Zoom Out`

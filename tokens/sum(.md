@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$B6`|
 | Categories    | <ul><li>List\Math</li><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `somme(`</li></ul> |
 
 # `sum(`
 
@@ -25,9 +26,6 @@ Returns the sum of elements of list from start to end.
 <tr><td>end</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns the sum of elements of list from start to end.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `5:sum(`

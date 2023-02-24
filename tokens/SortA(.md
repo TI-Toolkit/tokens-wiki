@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$E3`|
 | Categories    | <ul><li>List\Ops</li><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Tricroi(`</li></ul> |
 
 # `SortA(`
 
@@ -21,9 +22,6 @@ Sorts elements of listname in ascending order.
 <tr><td>listname</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Sorts elements of listname in ascending order.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `1:SortA(`
@@ -51,9 +49,6 @@ Sorts elements of keylistname in ascending order, then sorts each dependlist as 
 <tr><td>dependlist n</td><td>list</td><td>true</td></tr>
 
 </table>
-
-## Description
-Sorts elements of keylistname in ascending order, then sorts each dependlist as a dependent list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `1:SortA(`

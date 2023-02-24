@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF12`|
 | Categories    | <ul><li>Libraries</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ExécBiblio`</li></ul> |
 
 # `ExecLib`
 
@@ -13,9 +14,6 @@ Extends TI-Basic (not available)
 
 ## Syntax
 `ExecLib`
-
-## Description
-Extends TI-Basic (not available)
 
 ## Location
 <kbd>ExecLib</kbd>

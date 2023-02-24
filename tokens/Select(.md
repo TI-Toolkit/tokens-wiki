@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB58`|
 | Categories    | <ul><li>List\Ops</li><li>Catalog\S</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Sélect(`</li></ul> |
 
 # `Select(`
 
@@ -23,9 +24,6 @@ Selects one or more specific data points from a scatter plot or xyLine plot (onl
 <tr><td>Ylistname</td><td>list</td><td>false</td></tr>
 
 </table>
-
-## Description
-Selects one or more specific data points from a scatter plot or xyLine plot (only), and then store's the selected data points to two new lists, Xlistname and Ylistname.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `8:Select(`

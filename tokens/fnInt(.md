@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$24`|
 | Categories    | <ul><li>Catalog\F</li><li>Math\Math</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `fnInt(`</li></ul> |
 
 # `fnInt(`
 
@@ -29,9 +30,6 @@ Returns the function integral of expression with respect to variable, between lo
 <tr><td>tolerance</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Returns the function integral of expression with respect to variable, between lower and upper, with specified tolerance.
 
 ## Location
 <kbd>math</kbd>, `MATH`, `9:fnInt(`

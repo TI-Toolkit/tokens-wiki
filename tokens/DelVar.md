@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB54`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\D</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `EffVar `</li></ul> |
 
 # `DelVar `
 
@@ -21,9 +22,6 @@ Deletes from memory the contents of variable.
 <tr><td>variable</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Deletes from memory the contents of variable.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `G:DelVar`

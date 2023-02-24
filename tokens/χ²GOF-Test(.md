@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF14`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `χ²GOF-Test(`</li></ul> |
 
 # `χ²GOF-Test(`
 
@@ -34,10 +35,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Performs a test to confirm that sample data is from a population that conforms to a specified distribution.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>stat</kbd>, `TESTS`, `D:`, `GOF`, `Test(`

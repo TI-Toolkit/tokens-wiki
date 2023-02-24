@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF05`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `convHeur(`</li></ul> |
 
 # `timeCnv(`
 
@@ -21,9 +22,6 @@ Converts seconds to units of time that can be more easily understood for evaluat
 <tr><td>seconds</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Converts seconds to units of time that can be more easily understood for evaluation. The list is in {days,hours,minutes,seconds} format.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `timeCnv`

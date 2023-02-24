@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB38`|
 | Categories    | <ul><li>Catalog\S</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Ombre𝐅(`</li></ul> |
 
 # `Shade𝐅(`
 
@@ -32,10 +33,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws the density function for the Û distribution specified by numerator df and denominator df and shades and colors the area between lowerbound and upperbound.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DRAW`, `4:Shade`, `(`

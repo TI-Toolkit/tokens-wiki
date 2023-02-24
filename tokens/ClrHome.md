@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$E1`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\C</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `EffEcran`</li></ul> |
 
 # `ClrHome`
 
@@ -13,9 +14,6 @@ Clears the home screen.
 
 ## Syntax
 `ClrHome`
-
-## Description
-Clears the home screen.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `8:ClrHome`

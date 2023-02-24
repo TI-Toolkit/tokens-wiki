@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB09`|
 | Categories    | <ul><li>Math\Number</li><li>Catalog\G</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `pgcd(`</li></ul> |
 
 # `gcd(`
 
@@ -23,9 +24,6 @@ Returns the greatest common divisor of valueA and valueB, which can be real numb
 <tr><td>valueB</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the greatest common divisor of valueA and valueB, which can be real numbers or lists.
 
 ## Location
 <kbd>math</kbd>, `NUM`, `9:gcd(`

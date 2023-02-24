@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF08`|
 | Categories    | <ul><li>Time</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `affChHr(`</li></ul> |
 
 # `getTmStr(`
 
@@ -22,10 +23,6 @@ Returns a string of the current clock time in the format specified by integer, w
 <tr><td>integer</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a string of the current clock time in the format specified by integer, where:
-12 = 12 hour format24 = 24 hour format
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `getTmStr(`

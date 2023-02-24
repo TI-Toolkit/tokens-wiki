@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB15`|
 | Categories    | <ul><li>Catalog\B</li><li>Statistics\Distributions</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `binomfdp(`</li></ul> |
 
 # `binompdf(`
 
@@ -25,9 +26,6 @@ Computes a probability at x for the discrete binomial distribution with the spec
 <tr><td>x</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes a probability at x for the discrete binomial distribution with the specified numtrials and probability p of success on each trial.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `A:binompdf(`

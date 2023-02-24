@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$D4`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\E</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `End`</li></ul> |
 
 # `End`
 
@@ -13,9 +14,6 @@ Identifies end of For(, If-Then-Else, Repeat, or While loop.
 
 ## Syntax
 `End`
-
-## Description
-Identifies end of For(, If-Then-Else, Repeat, or While loop.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `7:End`

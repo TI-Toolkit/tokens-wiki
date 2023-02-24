@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$CA`|
 | Categories    | <ul><li>Catalog\C</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ch(`</li></ul> |
 
 # `cosh(`
 
@@ -21,9 +22,6 @@ Returns hyperbolic cosine of a real number, expression, or list.
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns hyperbolic cosine of a real number, expression, or list.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `cosh(`

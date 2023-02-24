@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$DA`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\I</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `IS>(`</li></ul> |
 
 # `IS>(`
 
@@ -28,9 +29,6 @@ Increments variable by 1; skips commandA if variable>value.
 <tr><td>commands</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Increments variable by 1; skips commandA if variable>value.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `A:IS>(`

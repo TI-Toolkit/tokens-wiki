@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$3D`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: ` ouExcl `</li></ul> |
 
 # ` xor `
 
@@ -23,9 +24,6 @@ Returns 1 if only valueA or valueB = 0. valueA and valueB can be real numbers, e
 <tr><td>valueB</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns 1 if only valueA or valueB = 0. valueA and valueB can be real numbers, expressions, or lists.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>test</kbd>, `LOGIC`, `3:xor`

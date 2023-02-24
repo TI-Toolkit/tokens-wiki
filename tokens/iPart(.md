@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$B9`|
 | Categories    | <ul><li>Math\Number</li><li>Catalog\I</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ent(`</li></ul> |
 
 # `iPart(`
 
@@ -21,9 +22,6 @@ Returns the integer part of a real or complex number, expression, list, or matri
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the integer part of a real or complex number, expression, list, or matrix.
 
 ## Location
 <kbd>math</kbd>, `NUM`, `3:iPart(`

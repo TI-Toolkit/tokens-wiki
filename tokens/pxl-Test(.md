@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$13`|
 | Categories    | <ul><li>Catalog\P</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `pxl-Test(`</li></ul> |
 
 # `pxl-Test(`
 
@@ -23,9 +24,6 @@ Returns 1 if pixel (row, column) is on, 0 if it is off;
 <tr><td>column</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns 1 if pixel (row, column) is on, 0 if it is off;
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `POINTS`, `7:pxl-Test(`

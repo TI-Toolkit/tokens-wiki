@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$7E00`|
 | Categories    | <ul><li>Catalog\S</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Séquentiel`</li></ul> |
 
 # `Sequential`
 
@@ -13,9 +14,6 @@ Sets mode to graph functions sequentially.
 
 ## Syntax
 `Sequential`
-
-## Description
-Sets mode to graph functions sequentially.
 
 ## Location
 <kbd>mode</kbd>, `Sequential`

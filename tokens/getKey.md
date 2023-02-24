@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$AD`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\G</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `codetouch(`</li></ul> |
 
 # `getKey`
 
@@ -13,9 +14,6 @@ Returns the key code for the current keystroke, or 0, if no key is pressed.
 
 ## Syntax
 `getKey`
-
-## Description
-Returns the key code for the current keystroke, or 0, if no key is pressed.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `7:getKey`

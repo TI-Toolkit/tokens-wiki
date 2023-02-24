@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB67`|
 | Categories    | <ul><li>Catalog\D</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `CorrelNAff`</li></ul> |
 
 # `DiagnosticOff`
 
@@ -13,9 +14,6 @@ Sets diagnostics-off mode; r, r², and R² are not displayed as regression model
 
 ## Syntax
 `DiagnosticOff`
-
-## Description
-Sets diagnostics-off mode; r, r², and R² are not displayed as regression model results.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>, `DiagnosticOff`

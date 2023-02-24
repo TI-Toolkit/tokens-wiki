@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$FB`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\C</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `EffTable`</li></ul> |
 
 # `ClrTable`
 
@@ -13,9 +14,6 @@ Clears all values from the table.
 
 ## Syntax
 `ClrTable`
-
-## Description
-Clears all values from the table.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `9:ClrTable`

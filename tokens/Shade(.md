@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$A4`|
 | Categories    | <ul><li>Catalog\S</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Ombre(`</li></ul> |
 
 # `Shade(`
 
@@ -34,10 +35,6 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tr><td>color#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws lowerfunc and upperfunc in terms of X on the current graph and uses pattern and patres to shade and color the area bounded by lowerfunc, upperfunc, Xleft, and Xright. lowerfunc and upperfunc are shaded in the same specified color.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `7:Shade(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$9D`|
 | Categories    | <ul><li>Catalog\V</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Verticale `</li></ul> |
 
 # `Vertical `
 
@@ -27,11 +28,6 @@ line style #: 1-4.
 <tr><td>linestyle#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws a vertical line at x with specified color and line style.
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
-line style #: 1-4.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `4:Vertical`

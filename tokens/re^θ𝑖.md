@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB4E`|
 | Categories    | <ul><li>Catalog\R</li><li>Mode</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `re^θ𝑖`</li></ul> |
 
 # `re^θ𝑖`
 
@@ -25,9 +26,6 @@ Sets the mode to polar complex number mode (re^θi).
 <tr><td>i</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sets the mode to polar complex number mode (re^θi).
 
 ## Location
 <kbd>re^θ𝑖</kbd>

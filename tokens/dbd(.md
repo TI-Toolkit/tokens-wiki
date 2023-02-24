@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB07`|
 | Categories    | <ul><li>Finance\Calc</li><li>Catalog\D</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `jed(`</li></ul> |
 
 # `dbd(`
 
@@ -23,9 +24,6 @@ Calculates the number of days between date1 and date2 using the actual-day-count
 <tr><td>date2</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Calculates the number of days between date1 and date2 using the actual-day-count method.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `D:dbd(`

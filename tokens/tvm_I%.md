@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB21`|
 | Categories    | <ul><li>Finance\Calc</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `tvm_I%`</li></ul> |
 
 # `tvm_I%`
 
@@ -34,9 +35,6 @@ Computes the annual interest rate.
 <tr><td>C/Y</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes the annual interest rate.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `3:tvm_`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB23`|
 | Categories    | <ul><li>Finance\Calc</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `tvm_𝗡`</li></ul> |
 
 # `tvm_𝗡`
 
@@ -34,9 +35,6 @@ Computes the number of payment periods.
 <tr><td>C/Y</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Computes the number of payment periods.
 
 ## Location
 <kbd>apps</kbd>, `1:Finance`, `CALC`, `5:tvm_`

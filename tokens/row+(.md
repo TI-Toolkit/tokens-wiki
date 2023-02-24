@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$18`|
 | Categories    | <ul><li>Matrix\Math</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `*ligne+(`</li></ul> |
 
 # `*row+(`
 
@@ -29,9 +30,6 @@ Returns a matrix with rowA of matrix multiplied by value, added to rowB, and sto
 <tr><td>rowB</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns a matrix with rowA of matrix multiplied by value, added to rowB, and stored in rowB.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `F:`, `row+(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB27`|
 | Categories    | <ul><li>Math\Complex</li><li>Catalog\I</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `imag(`</li></ul> |
 
 # `imag(`
 
@@ -21,9 +22,6 @@ Returns the imaginary (non-real) part of a complex number or list of complex num
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the imaginary (non-real) part of a complex number or list of complex numbers.
 
 ## Location
 <kbd>math</kbd>, `CMPLX`, `3:imag(`

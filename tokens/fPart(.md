@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BA`|
 | Categories    | <ul><li>Math\Number</li><li>Catalog\F</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `partDéc(`</li></ul> |
 
 # `fPart(`
 
@@ -21,9 +22,6 @@ Returns the fractional part or parts of a real or complex number, expression, li
 <tr><td>value</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Returns the fractional part or parts of a real or complex number, expression, list, or matrix.
 
 ## Location
 <kbd>math</kbd>, `NUM`, `4:fPart(`

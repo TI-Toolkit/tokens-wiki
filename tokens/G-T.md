@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB64`|
 | Categories    | <ul></ul> |
+| Localizations | <ul><li><b>FR</b>: `G-T`</li></ul> |
 
 # `G-T`
 
@@ -13,9 +14,6 @@ Sets graph-table vertical split-screen mode.
 
 ## Syntax
 `G-T`
-
-## Description
-Sets graph-table vertical split-screen mode.
 
 ## Location
 <kbd>mode</kbd>, `GRAPH-TABLE`

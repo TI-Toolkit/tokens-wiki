@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB45`|
 | Categories    | <ul><li>Program\Control</li><li>Catalog\G</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `GraphStyle(`</li></ul> |
 
 # `GraphStyle(`
 
@@ -23,9 +24,6 @@ Sets a graphstyle for function#.
 <tr><td>graphstyle#</td><td></td><td>false</td></tr>
 
 </table>
-
-## Description
-Sets a graphstyle for function#.
 
 ## Location
 <kbd>prgm</kbd>, `CTL`, `H:GraphStyle(`

@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$E5`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\D</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `AffTable`</li></ul> |
 
 # `DispTable`
 
@@ -13,9 +14,6 @@ Displays the table.
 
 ## Syntax
 `DispTable`
-
-## Description
-Displays the table.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `5:DispTable`

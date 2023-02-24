@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$BB0B`|
 | Categories    | <ul><li>Math\Probability</li><li>Catalog\R</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `BinAléat(`</li></ul> |
 
 # `randBin(`
 
@@ -25,9 +26,6 @@ Generates and displays a random real number from a specified Binomial distributi
 <tr><td>numsimulations</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Generates and displays a random real number from a specified Binomial distribution.
 
 ## Location
 <kbd>math</kbd>, `PRB`, `7:randBin(`

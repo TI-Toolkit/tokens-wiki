@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$DC`|
 | Categories    | <ul><li>Program\I/O</li><li>Catalog\I</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Input `</li></ul> |
 
 # `Input `
 
@@ -13,9 +14,6 @@ Displays graph.
 
 ## Syntax
 `Input`
-
-## Description
-Displays graph.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `2:Input`
@@ -37,9 +35,6 @@ Prompts for value to store to variable.
 <tr><td>variable</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Prompts for value to store to variable.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `2:Input`
@@ -63,9 +58,6 @@ Displays Strn and stores entered value to variable.
 <tr><td>variable</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Displays Strn and stores entered value to variable.
 
 ## Location
 <kbd>prgm</kbd>, `I/O`, `2:Input`

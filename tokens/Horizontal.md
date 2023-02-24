@@ -2,6 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$A6`|
 | Categories    | <ul><li>Catalog\H</li><li>Drawing</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Horizontale `</li></ul> |
 
 # `Horizontal `
 
@@ -27,11 +28,6 @@ line style #: 1-4.
 <tr><td>linestyle#</td><td></td><td>true</td></tr>
 
 </table>
-
-## Description
-Draws a horizontal line at y in a specified
-Color#: 10 - 24 or color name pasted from [vars] COLOR.
-line style #: 1-4.
 
 ## Location
 <kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `3:Horizontal`
