@@ -196,9 +196,11 @@ for(let i = 0; i < 26; i++)
         const dictMatch = dict[name] ?? dict[`${name} `] ?? dict[`${name})`] ?? dict[`${name}) `] ?? dict[name.replace(/\($/,'')];
         const csvMatch = csv[name] ?? csv[`${name} `] ?? csv[` ${name} `] ?? csv[`${name})`] ?? csv[`${name}) `] ?? csv[name.replace(/\($/,'')];
 
-        if (typeof(dictMatch) === 'object') {
+        const inDictBlackList = /(Σ\()/.test(name);
+
+        if (!inDictBlackList && typeof(dictMatch) === 'object') {
             if (name !== dictMatch.__name) {
-                console.warn(`   *****  adjusting  name from [${name}] to [${dictMatch.__name}]`);
+                console.warn(`   *****  adjusting name from [${name}] to dict-provided [${dictMatch.__name}]`);
                 name = dictMatch.__name;
             }
             if (!dictMatch.__token || dictMatch.__token.toLowerCase() !== name.toLowerCase()) {
@@ -217,7 +219,7 @@ for(let i = 0; i < 26; i++)
 
         if (typeof(csvMatch) === 'object') {
             if (name !== csvMatch.enName) {
-                console.warn(`   *****  adjusting  name from [${name}] to [${csvMatch.enName}]`);
+                console.warn(`   *****  adjusting name from [${name}] to csv-provided [${csvMatch.enName}]`);
                 name = csvMatch.enName;
             }
             localizations.FR = csvMatch.frName;

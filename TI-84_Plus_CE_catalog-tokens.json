@@ -12194,25 +12194,18 @@
       "TI-83": "1.010"
     }
   },
-  "0xBBA9": {
+  "0xEF33": {
     "name": "Σ(",
     "type": "function",
-    "categories": [
-      "Char\\Greek"
-    ],
+    "categories": [],
     "syntaxes": [
       {
         "syntax": "Σ(expression[,start,end])",
         "arguments": [
           [
-            "Σ",
-            "",
-            false
-          ],
-          [
             "expression",
             "",
-            true
+            false
           ],
           [
             "start",
@@ -12236,7 +12229,7 @@
       "FR": "Σ("
     },
     "since": {
-      "TI-83+": "1.03"
+      "TI-84+": "2.53"
     }
   },
   "0xC6": {
