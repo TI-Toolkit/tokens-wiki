@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$E2`|
-| Categories    | <ul><li>Matrix\Math</li><li>Catalog\F</li></ul> |
+| Categories    | <ul><li>Catalog\F</li><li>Matrix\Math</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Remplir(`</li></ul> |
 
 # `Fill(`

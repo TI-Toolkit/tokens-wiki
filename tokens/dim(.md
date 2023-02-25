@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$B5`|
-| Categories    | <ul><li>List\Ops</li><li>Catalog\D</li></ul> |
+| Categories    | <ul><li>Catalog\D</li><li>List\Ops</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `dim(`</li></ul> |
 
 # `dim(`

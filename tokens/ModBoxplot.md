@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB5A`|
-| Categories    | <ul><li>Stat Plot\Type</li><li>Catalog\M</li></ul> |
+| Categories    | <ul><li>Catalog\M</li><li>Stat Plot\Type</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `GraphBoitMoust`</li></ul> |
 
 # `ModBoxplot`

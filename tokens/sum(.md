@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$B6`|
-| Categories    | <ul><li>List\Math</li><li>Catalog\S</li></ul> |
+| Categories    | <ul><li>Catalog\S</li><li>List\Math</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `somme(`</li></ul> |
 
 # `sum(`

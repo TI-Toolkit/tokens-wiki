@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EC`|
-| Categories    | <ul><li>Stat Plot\Plots</li><li>Catalog\P</li></ul> |
+| Categories    | <ul><li>Catalog\P</li><li>Stat Plot\Plots</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Graph1(`</li></ul> |
 
 # `Plot1(`

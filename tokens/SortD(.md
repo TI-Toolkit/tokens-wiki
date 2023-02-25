@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$E4`|
-| Categories    | <ul><li>List\Ops</li><li>Catalog\S</li></ul> |
+| Categories    | <ul><li>Catalog\S</li><li>List\Ops</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Tridécroi(`</li></ul> |
 
 # `SortD(`

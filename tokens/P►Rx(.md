@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$1D`|
-| Categories    | <ul><li>Catalog\P</li><li>Angle</li></ul> |
+| Categories    | <ul><li>Angle</li><li>Catalog\P</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `P►Rx(`</li></ul> |
 
 # `P►Rx(`

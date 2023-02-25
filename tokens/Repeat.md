@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$D2`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\R</li></ul> |
+| Categories    | <ul><li>Catalog\R</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Repeat `</li></ul> |
 
 # `Repeat `

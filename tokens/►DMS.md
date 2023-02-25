@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$1`|
-| Categories    | <ul><li>Catalog\D</li><li>Angle</li></ul> |
+| Categories    | <ul><li>Angle</li><li>Catalog\D</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `►DMS`</li></ul> |
 
 # `►DMS`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB07`|
-| Categories    | <ul><li>Finance\Calc</li><li>Catalog\D</li></ul> |
+| Categories    | <ul><li>Catalog\D</li><li>Finance\Calc</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `jed(`</li></ul> |
 
 # `dbd(`

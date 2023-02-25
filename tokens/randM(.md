@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$20`|
-| Categories    | <ul><li>Matrix\Math</li><li>Catalog\R</li></ul> |
+| Categories    | <ul><li>Catalog\R</li><li>Matrix\Math</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `MatAléat(`</li></ul> |
 
 # `randM(`

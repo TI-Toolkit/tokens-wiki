@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$B1`|
-| Categories    | <ul><li>Math\Number</li><li>Catalog\I</li></ul> |
+| Categories    | <ul><li>Catalog\I</li><li>Math\Number</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `partEnt(`</li></ul> |
 
 # `int(`

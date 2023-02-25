@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$D1`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\W</li></ul> |
+| Categories    | <ul><li>Catalog\W</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `While `</li></ul> |
 
 # `While `

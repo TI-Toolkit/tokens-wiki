@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB54`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\D</li></ul> |
+| Categories    | <ul><li>Catalog\D</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `EffVar `</li></ul> |
 
 # `DelVar `

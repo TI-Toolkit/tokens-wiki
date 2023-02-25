@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$12`|
-| Categories    | <ul><li>Math\Number</li><li>Catalog\R</li></ul> |
+| Categories    | <ul><li>Catalog\R</li><li>Math\Number</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `arrondi(`</li></ul> |
 
 # `round(`

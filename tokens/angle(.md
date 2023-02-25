@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB28`|
-| Categories    | <ul><li>Math\Complex</li><li>Catalog\A</li></ul> |
+| Categories    | <ul><li>Catalog\A</li><li>Math\Complex</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `argument(`</li></ul> |
 
 # `angle(`

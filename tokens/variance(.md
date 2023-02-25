@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB0E`|
-| Categories    | <ul><li>List\Math</li><li>Catalog\V</li></ul> |
+| Categories    | <ul><li>Catalog\V</li><li>List\Math</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `variance(`</li></ul> |
 
 # `variance(`

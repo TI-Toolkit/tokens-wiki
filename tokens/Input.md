@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$DC`|
-| Categories    | <ul><li>Program\I/O</li><li>Catalog\I</li></ul> |
+| Categories    | <ul><li>Catalog\I</li><li>Program\I/O</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Input `</li></ul> |
 
 # `Input `

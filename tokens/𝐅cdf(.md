@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB14`|
-| Categories    | <ul><li>Catalog\F</li><li>Catalog\C</li><li>Statistics\Distributions</li></ul> |
+| Categories    | <ul><li>Catalog\C</li><li>Catalog\F</li><li>Statistics\Distributions</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `𝐅FRép(`</li></ul> |
 
 # `𝐅cdf(`

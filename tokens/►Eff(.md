@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB06`|
-| Categories    | <ul><li>Finance\Calc</li><li>Catalog\E</li></ul> |
+| Categories    | <ul><li>Catalog\E</li><li>Finance\Calc</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `►Eff(`</li></ul> |
 
 # `►Eff(`

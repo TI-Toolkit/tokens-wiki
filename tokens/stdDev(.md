@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB0D`|
-| Categories    | <ul><li>List\Math</li><li>Catalog\S</li></ul> |
+| Categories    | <ul><li>Catalog\S</li><li>List\Math</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Ecart-type(`</li></ul> |
 
 # `stdDev(`

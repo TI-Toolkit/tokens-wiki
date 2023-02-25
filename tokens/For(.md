@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$D3`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\F</li></ul> |
+| Categories    | <ul><li>Catalog\F</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `For(`</li></ul> |
 
 # `For(`

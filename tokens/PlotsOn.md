@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$E9`|
-| Categories    | <ul><li>Stat Plot\Plots</li><li>Catalog\P</li></ul> |
+| Categories    | <ul><li>Catalog\P</li><li>Stat Plot\Plots</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `GraphAff `</li></ul> |
 
 # `PlotsOn `

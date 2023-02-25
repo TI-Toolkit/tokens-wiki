@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$FC`|
-| Categories    | <ul><li>Stat Plot\Type</li><li>Catalog\H</li></ul> |
+| Categories    | <ul><li>Catalog\H</li><li>Stat Plot\Type</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Histogramme`</li></ul> |
 
 # `Histogram`

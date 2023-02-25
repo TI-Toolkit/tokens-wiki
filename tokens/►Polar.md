@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB30`|
-| Categories    | <ul><li>Math\Complex</li><li>Catalog\P</li></ul> |
+| Categories    | <ul><li>Catalog\P</li><li>Math\Complex</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `►Polaire`</li></ul> |
 
 # `►Polar`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$1B`|
-| Categories    | <ul><li>Catalog\R</li><li>Angle</li></ul> |
+| Categories    | <ul><li>Angle</li><li>Catalog\R</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `R►Pr(`</li></ul> |
 
 # `R►Pr(`

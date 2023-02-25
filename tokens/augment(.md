@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$14`|
-| Categories    | <ul><li>Matrix\Math</li><li>Catalog\A</li></ul> |
+| Categories    | <ul><li>Catalog\A</li><li>Matrix\Math</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `chaîne(`</li></ul> |
 
 # `augment(`

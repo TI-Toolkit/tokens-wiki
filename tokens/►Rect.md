@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB2F`|
-| Categories    | <ul><li>Math\Complex</li><li>Catalog\R</li></ul> |
+| Categories    | <ul><li>Catalog\R</li><li>Math\Complex</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `►Rect`</li></ul> |
 
 # `►Rect`

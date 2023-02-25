@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$DF`|
-| Categories    | <ul><li>Program\I/O</li><li>Catalog\D</li></ul> |
+| Categories    | <ul><li>Catalog\D</li><li>Program\I/O</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `AffGraph`</li></ul> |
 
 # `DispGraph`

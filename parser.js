@@ -213,6 +213,7 @@ for(let i = 0; i < 26; i++)
             } else {
                 categories = cats;
             }
+            categories = categories.sort();
         } else {
             console.warn("   *****  no match found in dictionary")
         }

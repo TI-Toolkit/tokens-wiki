@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$B9`|
-| Categories    | <ul><li>Math\Number</li><li>Catalog\I</li></ul> |
+| Categories    | <ul><li>Catalog\I</li><li>Math\Number</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `ent(`</li></ul> |
 
 # `iPart(`

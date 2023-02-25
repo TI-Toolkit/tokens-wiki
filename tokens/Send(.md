@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$E7`|
-| Categories    | <ul><li>Program\I/O</li><li>Catalog\S</li></ul> |
+| Categories    | <ul><li>Catalog\S</li><li>Program\I/O</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Envoi(`</li></ul> |
 
 # `Send(`

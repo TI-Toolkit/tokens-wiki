@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB09`|
-| Categories    | <ul><li>Math\Number</li><li>Catalog\G</li></ul> |
+| Categories    | <ul><li>Catalog\G</li><li>Math\Number</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `pgcd(`</li></ul> |
 
 # `gcd(`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$DD`|
-| Categories    | <ul><li>Program\I/O</li><li>Catalog\P</li></ul> |
+| Categories    | <ul><li>Catalog\P</li><li>Program\I/O</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Prompt `</li></ul> |
 
 # `Prompt `

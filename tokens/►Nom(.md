@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB05`|
-| Categories    | <ul><li>Finance\Calc</li><li>Catalog\N</li></ul> |
+| Categories    | <ul><li>Catalog\N</li><li>Finance\Calc</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `►Nom(`</li></ul> |
 
 # `►Nom(`

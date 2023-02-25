@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB08`|
-| Categories    | <ul><li>Math\Number</li><li>Catalog\L</li></ul> |
+| Categories    | <ul><li>Catalog\L</li><li>Math\Number</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `ppcm(`</li></ul> |
 
 # `lcm(`

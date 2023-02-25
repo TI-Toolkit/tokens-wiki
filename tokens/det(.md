@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$B3`|
-| Categories    | <ul><li>Matrix\Math</li><li>Catalog\D</li></ul> |
+| Categories    | <ul><li>Catalog\D</li><li>Matrix\Math</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `dét(`</li></ul> |
 
 # `det(`

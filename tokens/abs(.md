@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$B2`|
-| Categories    | <ul><li>Math\Number</li><li>Catalog\A</li></ul> |
+| Categories    | <ul><li>Catalog\A</li><li>Math\Number</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `abs(`</li></ul> |
 
 # `abs(`

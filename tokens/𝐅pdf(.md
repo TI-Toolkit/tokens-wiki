@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB1E`|
-| Categories    | <ul><li>Catalog\P</li><li>Catalog\F</li><li>Statistics\Distributions</li></ul> |
+| Categories    | <ul><li>Catalog\F</li><li>Catalog\P</li><li>Statistics\Distributions</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `𝐅fdp(`</li></ul> |
 
 # `𝐅pdf(`

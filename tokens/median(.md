@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$1F`|
-| Categories    | <ul><li>List\Math</li><li>Catalog\M</li></ul> |
+| Categories    | <ul><li>Catalog\M</li><li>List\Math</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `médianne`</li></ul> |
 
 # `median(`

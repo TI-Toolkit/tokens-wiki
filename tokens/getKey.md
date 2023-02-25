@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$AD`|
-| Categories    | <ul><li>Program\I/O</li><li>Catalog\G</li></ul> |
+| Categories    | <ul><li>Catalog\G</li><li>Program\I/O</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `codetouch(`</li></ul> |
 
 # `getKey`

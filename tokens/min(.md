@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$1A`|
-| Categories    | <ul><li>Math\Number</li><li>Catalog\M</li></ul> |
+| Categories    | <ul><li>Catalog\M</li><li>Math\Number</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `min(`</li></ul> |
 
 # `min(`

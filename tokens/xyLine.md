@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$FD`|
-| Categories    | <ul><li>Stat Plot\Type</li><li>Catalog\X</li></ul> |
+| Categories    | <ul><li>Catalog\X</li><li>Stat Plot\Type</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Polygone`</li></ul> |
 
 # `xyLine`

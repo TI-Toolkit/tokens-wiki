@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$DB`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\D</li></ul> |
+| Categories    | <ul><li>Catalog\D</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `DS<(`</li></ul> |
 
 # `DS<(`

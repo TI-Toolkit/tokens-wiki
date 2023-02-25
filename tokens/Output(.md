@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$E0`|
-| Categories    | <ul><li>Program\I/O</li><li>Catalog\O</li></ul> |
+| Categories    | <ul><li>Catalog\O</li><li>Program\I/O</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Output(`</li></ul> |
 
 # `Output(`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BA`|
-| Categories    | <ul><li>Math\Number</li><li>Catalog\F</li></ul> |
+| Categories    | <ul><li>Catalog\F</li><li>Math\Number</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `partDéc(`</li></ul> |
 
 # `fPart(`

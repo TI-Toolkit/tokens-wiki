@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB4B`|
-| Categories    | <ul><li>Finance\Calc</li><li>Catalog\P</li></ul> |
+| Categories    | <ul><li>Catalog\P</li><li>Finance\Calc</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Pmt_Fin`</li></ul> |
 
 # `Pmt_End`

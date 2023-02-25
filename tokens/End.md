@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$D4`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\E</li></ul> |
+| Categories    | <ul><li>Catalog\E</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `End`</li></ul> |
 
 # `End`

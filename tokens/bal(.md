@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB02`|
-| Categories    | <ul><li>Finance\Calc</li><li>Catalog\B</li></ul> |
+| Categories    | <ul><li>Catalog\B</li><li>Finance\Calc</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `paSolde(`</li></ul> |
 
 # `bal(`

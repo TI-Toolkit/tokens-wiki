@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$CF`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\T</li></ul> |
+| Categories    | <ul><li>Catalog\T</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Then`</li></ul> |
 
 # `Then`

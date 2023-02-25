@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$B7`|
-| Categories    | <ul><li>List\Math</li><li>Catalog\P</li></ul> |
+| Categories    | <ul><li>Catalog\P</li><li>List\Math</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `prod(`</li></ul> |
 
 # `prod(`

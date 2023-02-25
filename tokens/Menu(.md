@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$E6`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\M</li></ul> |
+| Categories    | <ul><li>Catalog\M</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Menu(`</li></ul> |
 
 # `Menu(`

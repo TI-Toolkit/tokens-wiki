@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$AB`|
-| Categories    | <ul><li>Math\Probability</li><li>Catalog\R</li></ul> |
+| Categories    | <ul><li>Catalog\R</li><li>Math\Probability</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `NbrAléat`</li></ul> |
 
 # `rand`

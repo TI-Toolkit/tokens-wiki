@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$D0`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\E</li></ul> |
+| Categories    | <ul><li>Catalog\E</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Else`</li></ul> |
 
 # `Else`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB25`|
-| Categories    | <ul><li>Math\Complex</li><li>Catalog\C</li></ul> |
+| Categories    | <ul><li>Catalog\C</li><li>Math\Complex</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `conj(`</li></ul> |
 
 # `conj(`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$FE`|
-| Categories    | <ul><li>Stat Plot\Type</li><li>Catalog\S</li></ul> |
+| Categories    | <ul><li>Catalog\S</li><li>Stat Plot\Type</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Nuage`</li></ul> |
 
 # `Scatter`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$CE`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\I</li></ul> |
+| Categories    | <ul><li>Catalog\I</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `If `</li></ul> |
 
 # `If `

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$1C`|
-| Categories    | <ul><li>Catalog\R</li><li>Angle</li></ul> |
+| Categories    | <ul><li>Angle</li><li>Catalog\R</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `R►Pθ(`</li></ul> |
 
 # `R►Pθ(`

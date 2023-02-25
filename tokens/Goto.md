@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$D7`|
-| Categories    | <ul><li>Program\Control</li><li>Catalog\G</li></ul> |
+| Categories    | <ul><li>Catalog\G</li><li>Program\Control</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Goto `</li></ul> |
 
 # `Goto `

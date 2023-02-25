@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$96`|
-| Categories    | <ul><li>Y= Functions\On/Off</li><li>Catalog\F</li></ul> |
+| Categories    | <ul><li>Catalog\F</li><li>Y= Functions\On/Off</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `FonctAff `</li></ul> |
 
 # `FnOn `
