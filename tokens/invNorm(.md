@@ -20,8 +20,6 @@ The tokens LEFT, CENTER and RIGHT can be found in [catalog].
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>invNorm</td><td></td><td>false</td></tr>
-
 <tr><td>area</td><td></td><td>false</td></tr>
 
 <tr><td>µ</td><td></td><td>false</td></tr>

@@ -17,14 +17,6 @@ See also invNorm(.
 ## Syntax
 `CENTER`
 
-## Arguments
-<table>
-<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
-
-<tr><td>CENTER</td><td></td><td>false</td></tr>
-
-</table>
-
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>
 <hr>

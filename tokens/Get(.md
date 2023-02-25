@@ -42,8 +42,6 @@ Note: See also Send( and eval(
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>Get</td><td></td><td>false</td></tr>
-
 <tr><td>variable</td><td></td><td>false</td></tr>
 
 </table>

@@ -15,14 +15,6 @@ Extends TI-Basic. (Not available.)
 ## Syntax
 `OpenLib(`
 
-## Arguments
-<table>
-<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
-
-<tr><td>OpenLib</td><td></td><td>false</td></tr>
-
-</table>
-
 ## Location
 <kbd>prgm</kbd>, `CTL`, `J:OpenLib(`
 <hr>

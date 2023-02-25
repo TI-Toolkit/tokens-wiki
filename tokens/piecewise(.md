@@ -16,14 +16,6 @@ New piecewise function to support entry of functions as they are seen in textboo
 ## Syntax
 `piecewise(`
 
-## Arguments
-<table>
-<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
-
-<tr><td>piecewise</td><td></td><td>false</td></tr>
-
-</table>
-
 ## Location
 <kbd>piecewise</kbd>
 <hr>

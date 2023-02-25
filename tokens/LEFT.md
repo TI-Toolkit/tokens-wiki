@@ -17,14 +17,6 @@ See also invNorm(.
 ## Syntax
 `LEFT`
 
-## Arguments
-<table>
-<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
-
-<tr><td>LEFT</td><td></td><td>false</td></tr>
-
-</table>
-
 ## Location
 <kbd>2nd</kbd>, <kbd>catalog</kbd>
 <hr>

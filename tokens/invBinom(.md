@@ -27,8 +27,6 @@ Set Y1=binomcdf(30,0.5,X) and use the table of values (starting at 0 and increme
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>invBinom</td><td></td><td>false</td></tr>
-
 <tr><td>area</td><td></td><td>false</td></tr>
 
 <tr><td>trial</td><td></td><td>false</td></tr>

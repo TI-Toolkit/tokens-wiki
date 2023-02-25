@@ -20,8 +20,6 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>eval</td><td></td><td>false</td></tr>
-
 <tr><td>expression</td><td></td><td>false</td></tr>
 
 </table>
@@ -43,8 +41,6 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
-
-<tr><td>eval</td><td></td><td>false</td></tr>
 
 <tr><td>expression</td><td></td><td>false</td></tr>
 
