@@ -19,8 +19,6 @@ Returns `X`, given polar coordinates `r` and θ or a list of polar coordinates.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>►</td><td></td><td>false</td></tr>
-
 <tr><td>r</td><td></td><td>false</td></tr>
 
 <tr><td>θ</td><td></td><td>false</td></tr>

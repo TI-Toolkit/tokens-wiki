@@ -19,8 +19,6 @@ Converts an answer from a fraction to a decimal or from a decimal to a fraction.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>►</td><td></td><td>false</td></tr>
-
 <tr><td>◄►</td><td></td><td>false</td></tr>
 
 </table>

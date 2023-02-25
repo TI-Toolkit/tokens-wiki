@@ -19,8 +19,6 @@ Returns θ, given rectangular coordinates `x` and `y` or a list of rectangular c
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>►</td><td></td><td>false</td></tr>
-
 <tr><td>θ</td><td></td><td>false</td></tr>
 
 <tr><td>x</td><td></td><td>false</td></tr>

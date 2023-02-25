@@ -1655,11 +1655,6 @@
             "value",
             "",
             false
-          ],
-          [
-            "►",
-            "",
-            false
           ]
         ],
         "description": "Displays a real or complex number, expression, list, or matrix in decimal format.",
@@ -2168,11 +2163,6 @@
             "value",
             "",
             false
-          ],
-          [
-            "►",
-            "",
-            false
           ]
         ],
         "description": "Displays `value` in DMS format.",
@@ -2561,11 +2551,6 @@
         "comment": "compounding periods)",
         "arguments": [
           [
-            "►",
-            "",
-            false
-          ],
-          [
             "nominal rate",
             "",
             false
@@ -2682,11 +2667,6 @@
       {
         "syntax": "Equ►String(Y= var,Strn)",
         "arguments": [
-          [
-            "►",
-            "",
-            false
-          ],
           [
             "var",
             "",
@@ -2984,11 +2964,6 @@
       {
         "syntax": "►F ◄►D",
         "arguments": [
-          [
-            "►",
-            "",
-            false
-          ],
           [
             "◄►",
             "",
@@ -3531,11 +3506,6 @@
         "arguments": [
           [
             "value",
-            "",
-            false
-          ],
-          [
-            "►",
             "",
             false
           ]
@@ -4745,7 +4715,7 @@
         "arguments": [
           [
             "string",
-            "",
+            "string",
             false
           ],
           [
@@ -5335,7 +5305,7 @@
         "arguments": [
           [
             "string",
-            "",
+            "string",
             false
           ]
         ],
@@ -5705,11 +5675,6 @@
         "syntax": "List►matr(listname1,...,listname n,matrixname)",
         "arguments": [
           [
-            "►",
-            "",
-            false
-          ],
-          [
             "listname1",
             "listName",
             false
@@ -6014,11 +5979,6 @@
         "syntax": "Matr►list(matrix,listnameA,...,listname n)",
         "arguments": [
           [
-            "►",
-            "",
-            false
-          ],
-          [
             "matrix",
             "",
             false
@@ -6052,11 +6012,6 @@
       {
         "syntax": "Matr►list(matrix,column#,listname)",
         "arguments": [
-          [
-            "►",
-            "",
-            false
-          ],
           [
             "matrix",
             "",
@@ -6727,11 +6682,6 @@
         "syntax": "►n/d ◄►Un/d",
         "arguments": [
           [
-            "►",
-            "",
-            false
-          ],
-          [
             "◄►",
             "",
             false
@@ -6767,11 +6717,6 @@
         "syntax": "►Nom(effective rate,compounding periods)",
         "comment": "compounding periods)",
         "arguments": [
-          [
-            "►",
-            "",
-            false
-          ],
           [
             "effective rate",
             "",
@@ -7812,11 +7757,6 @@
             "complex value",
             "",
             false
-          ],
-          [
-            "►",
-            "",
-            false
           ]
         ],
         "description": "Displays `complex value` in polar format.",
@@ -8619,11 +8559,6 @@
         "syntax": "P►Rx(r,θ)",
         "arguments": [
           [
-            "►",
-            "",
-            false
-          ],
-          [
             "r",
             "",
             false
@@ -8663,11 +8598,6 @@
       {
         "syntax": "P►Ry(r,θ)",
         "arguments": [
-          [
-            "►",
-            "",
-            false
-          ],
           [
             "r",
             "",
@@ -9243,11 +9173,6 @@
             "complex value",
             "",
             false
-          ],
-          [
-            "►",
-            "",
-            false
           ]
         ],
         "description": "Displays `complex value` or list in rectangular format.",
@@ -9776,11 +9701,6 @@
         "syntax": "R►Pr(x,y)",
         "arguments": [
           [
-            "►",
-            "",
-            false
-          ],
-          [
             "x",
             "",
             false
@@ -9820,11 +9740,6 @@
       {
         "syntax": "R►Pθ(x,y)",
         "arguments": [
-          [
-            "►",
-            "",
-            false
-          ],
           [
             "θ",
             "",
@@ -12075,11 +11990,6 @@
       {
         "syntax": "String►Equ(string,Y= var)",
         "arguments": [
-          [
-            "►",
-            "",
-            false
-          ],
           [
             "string",
             "string",

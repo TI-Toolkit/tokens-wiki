@@ -21,8 +21,6 @@ Displays a real or complex number, expression, list, or matrix as a fraction sim
 
 <tr><td>value</td><td></td><td>false</td></tr>
 
-<tr><td>►</td><td></td><td>false</td></tr>
-
 </table>
 
 ## Location

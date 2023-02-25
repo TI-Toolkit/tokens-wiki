@@ -19,8 +19,6 @@ Returns `R`, given rectangular coordinates `x` and `y` or a list of rectangular 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>►</td><td></td><td>false</td></tr>
-
 <tr><td>x</td><td></td><td>false</td></tr>
 
 <tr><td>y</td><td></td><td>false</td></tr>

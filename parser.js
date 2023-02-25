@@ -246,7 +246,10 @@ for(let i = 0; i < 26; i++)
         let args = [...syntaxLine.childNodes]
                     .filter(el => el.nodeType !== 8 /*COMMENT_NODE*/ && (!el.classList?.contains('Function') || el.textContent === ',' || el.getAttribute("style")?.includes('font-weight: normal')) && el.textContent.trim().length)
                     .filter((el, idx) => {
-                        return (idx > 0) || (el.textContent.split(' ')[0].trim() !== name.trim());
+                        const str = el.textContent.trim();
+                        if (str === '►') { return false; }
+                        const strOrFirstPart = str.split(' ')[0];
+                        return (idx > 0) || (strOrFirstPart !== name.trim() && (strOrFirstPart + '(') !== name.trim());
                     })
                     .map((el,idx,arr) => {
                         const argStr = el.textContent.trim().replace(',[,','[,');

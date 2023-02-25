@@ -21,8 +21,6 @@ Displays `value` in DMS format.
 
 <tr><td>value</td><td></td><td>false</td></tr>
 
-<tr><td>►</td><td></td><td>false</td></tr>
-
 </table>
 
 ## Location

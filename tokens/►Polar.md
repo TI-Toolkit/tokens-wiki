@@ -21,8 +21,6 @@ Displays `complex value` in polar format.
 
 <tr><td>complex value</td><td></td><td>false</td></tr>
 
-<tr><td>►</td><td></td><td>false</td></tr>
-
 </table>
 
 ## Location

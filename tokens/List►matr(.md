@@ -19,8 +19,6 @@ Fills `matrixname` column by column with the elements from each specified `listn
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>►</td><td></td><td>false</td></tr>
-
 <tr><td>listname1</td><td>listName</td><td>false</td></tr>
 
 <tr><td>...</td><td></td><td>false</td></tr>

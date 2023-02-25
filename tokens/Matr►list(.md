@@ -19,8 +19,6 @@ Fills each `listname` with elements from each column in `matrix`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>►</td><td></td><td>false</td></tr>
-
 <tr><td>matrix</td><td></td><td>false</td></tr>
 
 <tr><td>listnameA</td><td>list</td><td>false</td></tr>
@@ -47,8 +45,6 @@ Fills a `listname` with elements from a specified `column#` in `matrix`.
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
-
-<tr><td>►</td><td></td><td>false</td></tr>
 
 <tr><td>matrix</td><td></td><td>false</td></tr>
 

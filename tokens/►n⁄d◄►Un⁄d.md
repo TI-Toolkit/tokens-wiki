@@ -19,8 +19,6 @@ Converts the results from a fraction to mixed number or from a mixed number to a
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>►</td><td></td><td>false</td></tr>
-
 <tr><td>◄►</td><td></td><td>false</td></tr>
 
 </table>
