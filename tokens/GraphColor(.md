@@ -22,7 +22,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 <tr><td>function#</td><td></td><td>false</td></tr>
 
-<tr><td>color#</td><td></td><td>false</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>false</td></tr>
 
 </table>
 

@@ -21,13 +21,13 @@ Generates a menu of up to seven items during program execution.
 
 <tr><td>title</td><td></td><td>false</td></tr>
 
-<tr><td>text1</td><td></td><td>false</td></tr>
+<tr><td>text1</td><td>string</td><td>false</td></tr>
 
 <tr><td>label1</td><td></td><td>false</td></tr>
 
 <tr><td>...</td><td></td><td>true</td></tr>
 
-<tr><td>text7</td><td></td><td>true</td></tr>
+<tr><td>text7</td><td>string</td><td>true</td></tr>
 
 <tr><td>label7</td><td></td><td>true</td></tr>
 

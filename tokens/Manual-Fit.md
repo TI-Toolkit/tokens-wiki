@@ -23,7 +23,7 @@ line style #: 1-4.
 
 <tr><td>equname</td><td></td><td>true</td></tr>
 
-<tr><td>color#</td><td></td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
 <tr><td>line style#</td><td></td><td>true</td></tr>
 

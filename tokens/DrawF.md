@@ -20,9 +20,9 @@ Color#:10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>expression</td><td></td><td>false</td></tr>
+<tr><td>expression</td><td>expression</td><td>false</td></tr>
 
-<tr><td>color#</td><td></td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
 </table>
 

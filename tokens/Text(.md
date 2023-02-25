@@ -26,13 +26,13 @@ G-T mode, row must be row <=126; column must be 176
 
 <tr><td>column</td><td></td><td>false</td></tr>
 
-<tr><td>text1</td><td></td><td>false</td></tr>
+<tr><td>text1</td><td>string</td><td>false</td></tr>
 
-<tr><td>text2</td><td></td><td>false</td></tr>
+<tr><td>text2</td><td>string</td><td>false</td></tr>
 
 <tr><td>...</td><td></td><td>false</td></tr>
 
-<tr><td>text n</td><td></td><td>false</td></tr>
+<tr><td>text n</td><td>string</td><td>false</td></tr>
 
 </table>
 

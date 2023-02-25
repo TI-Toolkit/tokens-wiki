@@ -26,7 +26,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 <tr><td>mark</td><td></td><td>true</td></tr>
 
-<tr><td>color#</td><td></td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
 </table>
 

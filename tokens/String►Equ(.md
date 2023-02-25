@@ -23,7 +23,7 @@ String►Equ( is the inverse of Equ►String(.
 
 <tr><td>►</td><td></td><td>false</td></tr>
 
-<tr><td>string</td><td></td><td>false</td></tr>
+<tr><td>string</td><td>string</td><td>false</td></tr>
 
 <tr><td>var</td><td></td><td>false</td></tr>
 

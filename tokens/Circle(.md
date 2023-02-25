@@ -27,9 +27,9 @@ linestyle#: 1-2.
 
 <tr><td>radius</td><td></td><td>false</td></tr>
 
-<tr><td>color#</td><td></td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
-<tr><td>linestyle#</td><td></td><td>true</td></tr>
+<tr><td>linestyle#</td><td>number</td><td>true</td></tr>
 
 </table>
 

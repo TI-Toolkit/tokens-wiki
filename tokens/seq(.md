@@ -19,7 +19,7 @@ Returns list created by evaluating `expression` with regard to `variable`, from 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>expression</td><td></td><td>false</td></tr>
+<tr><td>expression</td><td>expression</td><td>false</td></tr>
 
 <tr><td>variable</td><td></td><td>false</td></tr>
 

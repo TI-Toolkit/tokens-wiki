@@ -25,7 +25,7 @@ Defines Plot# (1, 2, or 3) of type
 
 <tr><td>freqlist</td><td>list</td><td>true</td></tr>
 
-<tr><td>color#</td><td></td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
 </table>
 

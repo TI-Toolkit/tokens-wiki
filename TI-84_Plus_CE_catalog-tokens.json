@@ -355,7 +355,7 @@
         "arguments": [
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -595,7 +595,7 @@
         "arguments": [
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -643,7 +643,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -819,7 +819,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -880,7 +880,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -930,12 +930,12 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ],
           [
             "linestyle#",
-            "",
+            "number",
             true
           ]
         ],
@@ -2250,12 +2250,12 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -2289,12 +2289,12 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -2726,7 +2726,7 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ]
         ],
@@ -2744,7 +2744,7 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ]
         ],
@@ -2800,7 +2800,7 @@
         "arguments": [
           [
             "string",
-            "",
+            "string",
             false
           ]
         ],
@@ -3144,7 +3144,7 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ],
           [
@@ -3197,7 +3197,7 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ],
           [
@@ -3250,7 +3250,7 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ],
           [
@@ -4080,7 +4080,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             false
           ]
         ],
@@ -4148,7 +4148,7 @@
         "arguments": [
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -4179,7 +4179,7 @@
         "arguments": [
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -4277,7 +4277,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             false
           ]
         ],
@@ -4341,12 +4341,12 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ],
           [
             "linestyle#",
-            "",
+            "number",
             true
           ]
         ],
@@ -5393,12 +5393,12 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ],
           [
             "linestyle#",
-            "",
+            "number",
             true
           ]
         ],
@@ -5955,7 +5955,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ],
           [
@@ -6354,7 +6354,7 @@
           ],
           [
             "text1",
-            "",
+            "string",
             false
           ],
           [
@@ -6369,7 +6369,7 @@
           ],
           [
             "text7",
-            "",
+            "string",
             true
           ],
           [
@@ -6524,7 +6524,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             false
           ]
         ],
@@ -6683,7 +6683,7 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ],
           [
@@ -6948,7 +6948,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             false
           ]
         ],
@@ -7237,7 +7237,7 @@
           ],
           [
             "text",
-            "",
+            "string",
             false
           ]
         ],
@@ -7436,7 +7436,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -7474,7 +7474,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -7517,7 +7517,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -7560,7 +7560,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -8172,7 +8172,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -8235,7 +8235,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -8279,7 +8279,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -8372,7 +8372,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -8464,7 +8464,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -8547,7 +8547,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -9905,7 +9905,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -9958,7 +9958,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -10164,7 +10164,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -10231,7 +10231,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -10466,7 +10466,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -10543,7 +10543,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -10591,7 +10591,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             false
           ]
         ],
@@ -10689,7 +10689,7 @@
         "arguments": [
           [
             "string",
-            "",
+            "string",
             false
           ]
         ],
@@ -10706,7 +10706,7 @@
         "arguments": [
           [
             "string",
-            "",
+            "string",
             false
           ]
         ],
@@ -10738,7 +10738,7 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ],
           [
@@ -11172,7 +11172,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -11226,7 +11226,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -11286,7 +11286,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -11395,7 +11395,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -11645,7 +11645,7 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ],
           [
@@ -12082,7 +12082,7 @@
           ],
           [
             "string",
-            "",
+            "string",
             false
           ],
           [
@@ -12120,7 +12120,7 @@
         "arguments": [
           [
             "string",
-            "",
+            "string",
             false
           ],
           [
@@ -12204,7 +12204,7 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ],
           [
@@ -12313,7 +12313,7 @@
         "arguments": [
           [
             "expression",
-            "",
+            "expression",
             false
           ],
           [
@@ -12323,12 +12323,12 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ],
           [
             "linestyle#",
-            "",
+            "number",
             true
           ]
         ],
@@ -12485,12 +12485,12 @@
           ],
           [
             "text1",
-            "",
+            "string",
             false
           ],
           [
             "text2",
-            "",
+            "string",
             false
           ],
           [
@@ -12500,7 +12500,7 @@
           ],
           [
             "text n",
-            "",
+            "string",
             false
           ]
         ],
@@ -12531,7 +12531,7 @@
         "arguments": [
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -12920,7 +12920,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ],
           [
@@ -12977,7 +12977,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ]
         ],
@@ -13550,12 +13550,12 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ],
           [
             "linestyle#",
-            "",
+            "number",
             true
           ]
         ],
@@ -13786,7 +13786,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             false
           ]
         ],
@@ -14427,7 +14427,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ],
           [
@@ -14485,7 +14485,7 @@
           ],
           [
             "color#",
-            "",
+            "colorNum",
             true
           ],
           [

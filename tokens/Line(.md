@@ -29,9 +29,9 @@ Draws a line from (`X1`,`Y1`) to (`X2`,`Y2`) with the following options: erase 
 
 <tr><td>erase#</td><td></td><td>true</td></tr>
 
-<tr><td>color#</td><td></td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
-<tr><td>linestyle#</td><td></td><td>true</td></tr>
+<tr><td>linestyle#</td><td>number</td><td>true</td></tr>
 
 </table>
 

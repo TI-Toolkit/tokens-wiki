@@ -26,7 +26,7 @@ Where # gives Plot1, Plot2 or Plot3.
 
 <tr><td>freqlist</td><td>list</td><td>false</td></tr>
 
-<tr><td>color#</td><td></td><td>false</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>false</td></tr>
 
 </table>
 

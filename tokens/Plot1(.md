@@ -31,7 +31,7 @@ Note: `Xlist `and `Ylist `represent the Xlist and Ylist names.
 
 <tr><td>mark</td><td></td><td>true</td></tr>
 
-<tr><td>color#</td><td></td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
 </table>
 
@@ -62,7 +62,7 @@ Note: `Xlist `represents the Xlist name.
 
 <tr><td>freqlist</td><td>list</td><td>true</td></tr>
 
-<tr><td>color#</td><td></td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
 </table>
 
@@ -95,7 +95,7 @@ Note: `Xlist `represents the Xlist name.
 
 <tr><td>mark</td><td></td><td>true</td></tr>
 
-<tr><td>color#</td><td></td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
 </table>
 
@@ -128,7 +128,7 @@ Note: `datalist `represents the datalist name.
 
 <tr><td>mark</td><td></td><td>true</td></tr>
 
-<tr><td>color#</td><td></td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
 </table>
 

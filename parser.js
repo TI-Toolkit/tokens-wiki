@@ -289,6 +289,14 @@ for(let i = 0; i < 26; i++)
                 args[idx][1] = 'listName'
             } else if (argName.includes('list')) {
                 args[idx][1] = 'list'
+            } else if (argName === 'string' || argName.startsWith('text')) {
+                args[idx][1] = 'string'
+            } else if (argName === 'color#') {
+                args[idx][1] = 'colorNum'
+            } else if (argName === 'linestyle#') {
+                args[idx][1] = 'number'
+            } else if (argName === 'expression') {
+                args[idx][1] = 'expression'
             }
             //console.log(idx, argName, arguments[idx][1])
         }

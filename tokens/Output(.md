@@ -23,7 +23,7 @@ Displays `text` beginning at specified `row` and `column `of the home screen.
 
 <tr><td>column</td><td></td><td>false</td></tr>
 
-<tr><td>text</td><td></td><td>false</td></tr>
+<tr><td>text</td><td>string</td><td>false</td></tr>
 
 </table>
 

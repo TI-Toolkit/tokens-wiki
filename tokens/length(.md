@@ -19,7 +19,7 @@ Returns the number of characters in `string`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>string</td><td></td><td>false</td></tr>
+<tr><td>string</td><td>string</td><td>false</td></tr>
 
 </table>
 

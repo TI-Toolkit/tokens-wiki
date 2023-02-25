@@ -19,7 +19,7 @@ Returns a string that is a subset of another `string`, from `begin` to `length`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>string</td><td></td><td>false</td></tr>
+<tr><td>string</td><td>string</td><td>false</td></tr>
 
 <tr><td>begin</td><td></td><td>false</td></tr>
 
