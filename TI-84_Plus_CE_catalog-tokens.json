@@ -9912,11 +9912,6 @@
             "pooled",
             "",
             true
-          ],
-          [
-            "(Data list input",
-            "list",
-            true
           ]
         ],
         "description": "Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.",
@@ -9983,11 +9978,6 @@
           ],
           [
             "pooled",
-            "",
-            true
-          ],
-          [
-            "(Summary stats input",
             "",
             true
           ]
@@ -10199,11 +10189,6 @@
             "confidence level",
             "",
             true
-          ],
-          [
-            "(Data list input",
-            "list",
-            true
           ]
         ],
         "description": "Computes a two-sample `z` confidence interval.",
@@ -10270,11 +10255,6 @@
           ],
           [
             "confidence level",
-            "",
-            true
-          ],
-          [
-            "(Summary stats input",
             "",
             true
           ]
@@ -12602,11 +12582,6 @@
             "confidence level",
             "",
             true
-          ],
-          [
-            "(Data list input",
-            "list",
-            true
           ]
         ],
         "description": "Computes a `t` confidence interval.",
@@ -12638,11 +12613,6 @@
           ],
           [
             "confidence level",
-            "",
-            true
-          ],
-          [
-            "(Summary stats input",
             "",
             true
           ]
@@ -12807,11 +12777,6 @@
           [
             "color#",
             "colorNum",
-            true
-          ],
-          [
-            "(Data list input",
-            "list",
             true
           ]
         ],
@@ -13944,11 +13909,6 @@
             "confidence level",
             "",
             true
-          ],
-          [
-            "(Data list input",
-            "list",
-            true
           ]
         ],
         "description": "Computes a `z` confidence interval.",
@@ -13980,11 +13940,6 @@
           ],
           [
             "confidence level",
-            "",
-            true
-          ],
-          [
-            "(Summary stats input",
             "",
             true
           ]
@@ -14314,11 +14269,6 @@
             "color#",
             "colorNum",
             true
-          ],
-          [
-            "(Data list input",
-            "list",
-            true
           ]
         ],
         "description": "Performs a `z` test with frequency `freqlist`. `alternative`= -`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
@@ -14371,11 +14321,6 @@
           [
             "color#",
             "colorNum",
-            true
-          ],
-          [
-            "(Summary stats input",
-            "",
             true
           ]
         ],

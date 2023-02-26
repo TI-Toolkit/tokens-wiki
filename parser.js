@@ -322,6 +322,11 @@ for(let i = 0; i < 26; i++)
             //console.log(idx, argName, arguments[idx][1])
         }
 
+        // remove last arg if it's just a comment that got there somehow (not an actual arg)
+        if (comment && args.length && new RegExp('^\\(?' + comment + '$').test(args[args.length-1][0])) {
+            args.pop();
+        }
+
         let description = "";
         {
             const descRaw = Array.from(token.querySelectorAll('tbody p.CmdDesc'));
