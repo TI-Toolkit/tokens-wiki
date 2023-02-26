@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF11`|
-| Categories    | <ul><li>Libraries</li></ul> |
+| Categories    | <ul><li>[Libraries](../categories/Libraries.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `OuvrirBiblio(`</li></ul> |
 
 # `OpenLib(`

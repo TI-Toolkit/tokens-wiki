@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB4E`|
-| Categories    | <ul><li>Catalog\R</li><li>Mode</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [R](../categories/Catalog.md#R)</li><li>[Mode](../categories/Mode.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `re^θ𝑖`</li></ul> |
 
 # `re^θ𝑖`

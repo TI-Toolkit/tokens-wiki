@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$19`|
-| Categories    | <ul><li>Catalog\M</li><li>Math\Number</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [M](../categories/Catalog.md#M)</li><li>[Math](../categories/Math.md) > [Number](../categories/Math.md#Number)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `max(`</li></ul> |
 
 # `max(`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB4F`|
-| Categories    | <ul><li>Catalog\A</li><li>Mode</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [A](../categories/Catalog.md#A)</li><li>[Mode](../categories/Mode.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `a+b𝑖`</li></ul> |
 
 # `a+b𝑖`

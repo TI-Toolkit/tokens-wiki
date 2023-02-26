@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$74`|
-| Categories    | <ul><li>Catalog\H</li><li>Mode</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [H](../categories/Catalog.md#H)</li><li>[Mode](../categories/Mode.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Horiz`</li></ul> |
 
 # `Horiz`

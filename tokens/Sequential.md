@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E00`|
-| Categories    | <ul><li>Catalog\S</li><li>Mode</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li><li>[Mode](../categories/Mode.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Séquentiel`</li></ul> |
 
 # `Sequential`

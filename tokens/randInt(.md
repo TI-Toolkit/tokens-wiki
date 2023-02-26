@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB0A`|
-| Categories    | <ul><li>Catalog\R</li><li>Math\Probability</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [R](../categories/Catalog.md#R)</li><li>[Math](../categories/Math.md) > [Probability](../categories/Math.md#Probability)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `entAléat(`</li></ul> |
 
 # `randInt(`

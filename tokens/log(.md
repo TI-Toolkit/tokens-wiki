@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$C0`|
-| Categories    | <ul><li>Catalog\L</li><li>Keypad</li><li>Math\Math</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [L](../categories/Catalog.md#L)</li><li>[Keypad](../categories/Keypad.md)</li><li>[Math](../categories/Math.md) > [Math](../categories/Math.md#Math)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `log(`</li></ul> |
 
 # `log(`

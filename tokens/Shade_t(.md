@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB36`|
-| Categories    | <ul><li>Catalog\S</li><li>Statistics\Distributions</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li><li>[Statistics](../categories/Statistics.md) > [Distributions](../categories/Statistics.md#Distributions)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Ombre_t(`</li></ul> |
 
 # `Shade_t(`

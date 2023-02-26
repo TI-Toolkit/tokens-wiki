@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$C4`|
-| Categories    | <ul><li>Catalog\C</li><li>Keypad</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [C](../categories/Catalog.md#C)</li><li>[Keypad](../categories/Keypad.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `cos(`</li></ul> |
 
 # `cos(`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$3`|
-| Categories    | <ul><li>Catalog\F</li><li>Math\Math</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [F](../categories/Catalog.md#F)</li><li>[Math](../categories/Math.md) > [Math](../categories/Math.md#Math)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `►Frac`</li></ul> |
 
 # `►Frac`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E0E`|
-| Categories    | <ul><li>Catalog\W</li><li>Window</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [W](../categories/Catalog.md#W)</li><li>[Window](../categories/Window.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Toile`</li></ul> |
 
 # `Web`

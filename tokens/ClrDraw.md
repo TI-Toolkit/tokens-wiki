@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$85`|
-| Categories    | <ul><li>Catalog\C</li><li>Drawing</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [C](../categories/Catalog.md#C)</li><li>[Drawing](../categories/Drawing.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `EffDessin`</li></ul> |
 
 # `ClrDraw`

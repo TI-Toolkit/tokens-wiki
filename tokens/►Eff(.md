@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB06`|
-| Categories    | <ul><li>Catalog\E</li><li>Finance\Calc</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [E](../categories/Catalog.md#E)</li><li>[Finance](../categories/Finance.md) > [Calc](../categories/Finance.md#Calc)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `►Eff(`</li></ul> |
 
 # `►Eff(`
@@ -26,7 +26,7 @@ Computes the effective interest rate.
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `C:Eff(`
+<kbd>apps</kbd>, `1:Finance`, `CALC`, `C:►Eff(`
 <hr>
 
 ## Examples

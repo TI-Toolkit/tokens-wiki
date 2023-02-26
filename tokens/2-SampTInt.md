@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB49`|
-| Categories    | <ul><li>Catalog\S</li><li>Statistics\Operations</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `2-CompTIntC( `</li></ul> |
 
 # `2-SampTInt `
@@ -31,8 +31,6 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 <tr><td>confidence level</td><td></td><td>true</td></tr>
 
 <tr><td>pooled</td><td></td><td>true</td></tr>
-
-<tr><td>(Data list input</td><td>list</td><td>true</td></tr>
 
 </table>
 
@@ -75,8 +73,6 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 <tr><td>level</td><td></td><td>true</td></tr>
 
 <tr><td>pooled</td><td></td><td>true</td></tr>
-
-<tr><td>(Summary stats input</td><td></td><td>true</td></tr>
 
 </table>
 

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB4D`|
-| Categories    | <ul><li>Catalog\R</li><li>Mode</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [R](../categories/Catalog.md#R)</li><li>[Mode](../categories/Mode.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Réel`</li></ul> |
 
 # `Real`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$F2`|
-| Categories    | <ul><li>Catalog\V</li><li>Statistics\Operations</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [V](../categories/Catalog.md#V)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Stats 1-Var `</li></ul> |
 
 # `1-Var Stats `

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB43`|
-| Categories    | <ul><li>Catalog\P</li><li>Statistics\Operations</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [P](../categories/Catalog.md#P)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `1-PropZInt(`</li></ul> |
 
 # `1-PropZInt(`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$F5`|
-| Categories    | <ul><li>Catalog\E</li><li>Statistics\Operations</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [E](../categories/Catalog.md#E)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `RegExp `</li></ul> |
 
 # `ExpReg `

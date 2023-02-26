@@ -3,8 +3,8 @@
     "name": "abs(",
     "type": "function",
     "categories": [
-      "Catalog\\A",
-      "Math\\Number"
+      "Catalog > A",
+      "Math > Number"
     ],
     "syntaxes": [
       {
@@ -89,8 +89,8 @@
     "name": "angle(",
     "type": "function",
     "categories": [
-      "Catalog\\A",
-      "Math\\Complex"
+      "Catalog > A",
+      "Math > Complex"
     ],
     "syntaxes": [
       {
@@ -122,8 +122,8 @@
     "name": "ANOVA(",
     "type": "function",
     "categories": [
-      "Catalog\\A",
-      "Statistics\\Operations"
+      "Catalog > A",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -175,7 +175,7 @@
     "name": "Ans",
     "type": "constant",
     "categories": [
-      "Catalog\\A",
+      "Catalog > A",
       "Keypad"
     ],
     "syntaxes": [
@@ -201,7 +201,7 @@
     "name": "Archive ",
     "type": "command",
     "categories": [
-      "Catalog\\A",
+      "Catalog > A",
       "Memory"
     ],
     "syntaxes": [
@@ -234,8 +234,8 @@
     "name": "augment(",
     "type": "function",
     "categories": [
-      "Catalog\\A",
-      "Matrix\\Math"
+      "Catalog > A",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -319,7 +319,7 @@
     "name": "AxesOff",
     "type": "command",
     "categories": [
-      "Catalog\\A",
+      "Catalog > A",
       "Window"
     ],
     "syntaxes": [
@@ -346,7 +346,7 @@
     "name": "AxesOn ",
     "type": "command",
     "categories": [
-      "Catalog\\A",
+      "Catalog > A",
       "Window"
     ],
     "syntaxes": [
@@ -379,7 +379,7 @@
     "name": "a+b𝑖",
     "type": "command",
     "categories": [
-      "Catalog\\A",
+      "Catalog > A",
       "Mode"
     ],
     "syntaxes": [
@@ -462,8 +462,8 @@
     "name": "bal(",
     "type": "function",
     "categories": [
-      "Catalog\\B",
-      "Finance\\Calc"
+      "Catalog > B",
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -501,8 +501,8 @@
     "name": "binomcdf(",
     "type": "function",
     "categories": [
-      "Catalog\\B",
-      "Statistics\\Distributions"
+      "Catalog > B",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -545,8 +545,8 @@
     "name": "binompdf(",
     "type": "function",
     "categories": [
-      "Catalog\\B",
-      "Statistics\\Distributions"
+      "Catalog > B",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -619,8 +619,8 @@
     "name": "Boxplot",
     "type": "constant",
     "categories": [
-      "Catalog\\B",
-      "Stat Plot\\Type"
+      "Catalog > B",
+      "Stat Plot > Type"
     ],
     "syntaxes": [
       {
@@ -695,8 +695,8 @@
     "name": "χ²cdf(",
     "type": "function",
     "categories": [
-      "Catalog\\C",
-      "Statistics\\Distributions"
+      "Catalog > C",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -744,8 +744,8 @@
     "name": "χ²pdf(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
-      "Statistics\\Distributions"
+      "Catalog > P",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -788,8 +788,8 @@
     "name": "χ²-Test(",
     "type": "function",
     "categories": [
-      "Catalog\\T",
-      "Statistics\\Operations"
+      "Catalog > T",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -903,7 +903,7 @@
     "name": "Circle(",
     "type": "function",
     "categories": [
-      "Catalog\\C",
+      "Catalog > C",
       "Drawing"
     ],
     "syntaxes": [
@@ -980,7 +980,7 @@
     "name": "Clear Entries",
     "type": "command",
     "categories": [
-      "Catalog\\C",
+      "Catalog > C",
       "Memory"
     ],
     "syntaxes": [
@@ -1060,7 +1060,7 @@
     "name": "ClrAllLists",
     "type": "command",
     "categories": [
-      "Catalog\\C",
+      "Catalog > C",
       "Memory"
     ],
     "syntaxes": [
@@ -1088,7 +1088,7 @@
     "name": "ClrDraw",
     "type": "command",
     "categories": [
-      "Catalog\\C",
+      "Catalog > C",
       "Drawing"
     ],
     "syntaxes": [
@@ -1116,8 +1116,8 @@
     "name": "ClrHome",
     "type": "command",
     "categories": [
-      "Catalog\\C",
-      "Program\\I/O"
+      "Catalog > C",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -1143,8 +1143,8 @@
     "name": "ClrList ",
     "type": "command",
     "categories": [
-      "Catalog\\C",
-      "Statistics\\Operations"
+      "Catalog > C",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -1186,8 +1186,8 @@
     "name": "ClrTable",
     "type": "command",
     "categories": [
-      "Catalog\\C",
-      "Program\\I/O"
+      "Catalog > C",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -1213,8 +1213,8 @@
     "name": "conj(",
     "type": "function",
     "categories": [
-      "Catalog\\C",
-      "Math\\Complex"
+      "Catalog > C",
+      "Math > Complex"
     ],
     "syntaxes": [
       {
@@ -1246,7 +1246,7 @@
     "name": "CoordOff",
     "type": "command",
     "categories": [
-      "Catalog\\C",
+      "Catalog > C",
       "Window"
     ],
     "syntaxes": [
@@ -1273,7 +1273,7 @@
     "name": "CoordOn",
     "type": "command",
     "categories": [
-      "Catalog\\C",
+      "Catalog > C",
       "Window"
     ],
     "syntaxes": [
@@ -1300,7 +1300,7 @@
     "name": "cos(",
     "type": "function",
     "categories": [
-      "Catalog\\C",
+      "Catalog > C",
       "Keypad"
     ],
     "syntaxes": [
@@ -1331,7 +1331,7 @@
     "name": "cos⁻¹(",
     "type": "function",
     "categories": [
-      "Catalog\\C",
+      "Catalog > C",
       "Keypad"
     ],
     "syntaxes": [
@@ -1368,7 +1368,7 @@
     "name": "cosh(",
     "type": "function",
     "categories": [
-      "Catalog\\C"
+      "Catalog > C"
     ],
     "syntaxes": [
       {
@@ -1400,7 +1400,7 @@
     "name": "cosh⁻¹(",
     "type": "function",
     "categories": [
-      "Catalog\\C"
+      "Catalog > C"
     ],
     "syntaxes": [
       {
@@ -1437,8 +1437,8 @@
     "name": "CubicReg ",
     "type": "command",
     "categories": [
-      "Catalog\\C",
-      "Statistics\\Operations"
+      "Catalog > C",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -1482,8 +1482,8 @@
     "name": "cumSum(",
     "type": "function",
     "categories": [
-      "Catalog\\C",
-      "List\\Ops"
+      "Catalog > C",
+      "List > Ops"
     ],
     "syntaxes": [
       {
@@ -1579,8 +1579,8 @@
     "name": "dbd(",
     "type": "function",
     "categories": [
-      "Catalog\\D",
-      "Finance\\Calc"
+      "Catalog > D",
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -1641,8 +1641,8 @@
     "name": "►Dec",
     "type": "conversion",
     "categories": [
-      "Catalog\\D",
-      "Math\\Math"
+      "Catalog > D",
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -1671,7 +1671,7 @@
     "name": "Degree",
     "type": "command",
     "categories": [
-      "Catalog\\D",
+      "Catalog > D",
       "Mode"
     ],
     "syntaxes": [
@@ -1697,8 +1697,8 @@
     "name": "DelVar ",
     "type": "command",
     "categories": [
-      "Catalog\\D",
-      "Program\\Control"
+      "Catalog > D",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -1730,7 +1730,7 @@
     "name": "DependAsk",
     "type": "command",
     "categories": [
-      "Catalog\\D",
+      "Catalog > D",
       "Table Settings"
     ],
     "syntaxes": [
@@ -1757,7 +1757,7 @@
     "name": "DependAuto",
     "type": "command",
     "categories": [
-      "Catalog\\D",
+      "Catalog > D",
       "Table Settings"
     ],
     "syntaxes": [
@@ -1784,8 +1784,8 @@
     "name": "det(",
     "type": "function",
     "categories": [
-      "Catalog\\D",
-      "Matrix\\Math"
+      "Catalog > D",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -1865,7 +1865,7 @@
     "name": "DiagnosticOff",
     "type": "command",
     "categories": [
-      "Catalog\\D"
+      "Catalog > D"
     ],
     "syntaxes": [
       {
@@ -1891,7 +1891,7 @@
     "name": "DiagnosticOn",
     "type": "command",
     "categories": [
-      "Catalog\\D"
+      "Catalog > D"
     ],
     "syntaxes": [
       {
@@ -1917,8 +1917,8 @@
     "name": "dim(",
     "type": "dim",
     "categories": [
-      "Catalog\\D",
-      "List\\Ops"
+      "Catalog > D",
+      "List > Ops"
     ],
     "syntaxes": [
       {
@@ -2030,8 +2030,8 @@
     "name": "Disp ",
     "type": "command",
     "categories": [
-      "Catalog\\D",
-      "Program\\I/O"
+      "Catalog > D",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -2094,8 +2094,8 @@
     "name": "DispGraph",
     "type": "command",
     "categories": [
-      "Catalog\\D",
-      "Program\\I/O"
+      "Catalog > D",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -2121,8 +2121,8 @@
     "name": "DispTable",
     "type": "command",
     "categories": [
-      "Catalog\\D",
-      "Program\\I/O"
+      "Catalog > D",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -2149,7 +2149,7 @@
     "type": "conversion",
     "categories": [
       "Angle",
-      "Catalog\\D"
+      "Catalog > D"
     ],
     "syntaxes": [
       {
@@ -2226,7 +2226,7 @@
     "name": "DrawF ",
     "type": "command",
     "categories": [
-      "Catalog\\D",
+      "Catalog > D",
       "Drawing"
     ],
     "syntaxes": [
@@ -2265,7 +2265,7 @@
     "name": "DrawInv ",
     "type": "command",
     "categories": [
-      "Catalog\\D",
+      "Catalog > D",
       "Drawing"
     ],
     "syntaxes": [
@@ -2304,8 +2304,8 @@
     "name": "DS<(",
     "type": "function",
     "categories": [
-      "Catalog\\D",
-      "Program\\Control"
+      "Catalog > D",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -2352,7 +2352,7 @@
     "name": "e",
     "type": "constant",
     "categories": [
-      "Statistics\\EQ"
+      "Statistics > EQ"
     ],
     "syntaxes": [
       {
@@ -2377,9 +2377,9 @@
     "name": "e^(",
     "type": "function",
     "categories": [
-      "Catalog\\Misc",
+      "Catalog > Misc",
       "Keypad",
-      "Math\\Math"
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -2426,9 +2426,9 @@
     "name": "ᴇ",
     "type": "function",
     "categories": [
-      "Catalog\\E",
-      "Catalog\\Misc",
-      "Char\\Other",
+      "Catalog > E",
+      "Catalog > Misc",
+      "Char > Other",
       "Keypad"
     ],
     "syntaxes": [
@@ -2537,8 +2537,8 @@
     "name": "►Eff(",
     "type": "function",
     "categories": [
-      "Catalog\\E",
-      "Finance\\Calc"
+      "Catalog > E",
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -2576,8 +2576,8 @@
     "name": "Else",
     "type": "basic instruction only",
     "categories": [
-      "Catalog\\E",
-      "Program\\Control"
+      "Catalog > E",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -2601,8 +2601,8 @@
     "name": "End",
     "type": "basic instruction only",
     "categories": [
-      "Catalog\\E",
-      "Program\\Control"
+      "Catalog > E",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -2628,7 +2628,7 @@
     "name": "Eng",
     "type": "command",
     "categories": [
-      "Catalog\\E",
+      "Catalog > E",
       "Mode"
     ],
     "syntaxes": [
@@ -2654,7 +2654,7 @@
     "name": "Equ►String(",
     "type": "function",
     "categories": [
-      "Catalog\\E"
+      "Catalog > E"
     ],
     "syntaxes": [
       {
@@ -2764,7 +2764,7 @@
     "name": "expr(",
     "type": "function",
     "categories": [
-      "Catalog\\E"
+      "Catalog > E"
     ],
     "syntaxes": [
       {
@@ -2794,8 +2794,8 @@
     "name": "ExpReg ",
     "type": "command",
     "categories": [
-      "Catalog\\E",
-      "Statistics\\Operations"
+      "Catalog > E",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -2842,7 +2842,7 @@
     "name": "ExprOff",
     "type": "command",
     "categories": [
-      "Catalog\\E",
+      "Catalog > E",
       "Window"
     ],
     "syntaxes": [
@@ -2869,7 +2869,7 @@
     "name": "ExprOn",
     "type": "command",
     "categories": [
-      "Catalog\\E",
+      "Catalog > E",
       "Window"
     ],
     "syntaxes": [
@@ -2896,9 +2896,9 @@
     "name": "𝐅cdf(",
     "type": "function",
     "categories": [
-      "Catalog\\C",
-      "Catalog\\F",
-      "Statistics\\Distributions"
+      "Catalog > C",
+      "Catalog > F",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -2981,8 +2981,8 @@
     "name": "Fill(",
     "type": "function",
     "categories": [
-      "Catalog\\F",
-      "Matrix\\Math"
+      "Catalog > F",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -3043,7 +3043,7 @@
     "name": "Fix ",
     "type": "command",
     "categories": [
-      "Catalog\\F",
+      "Catalog > F",
       "Mode"
     ],
     "syntaxes": [
@@ -3075,7 +3075,7 @@
     "name": "Float",
     "type": "command",
     "categories": [
-      "Catalog\\F",
+      "Catalog > F",
       "Mode"
     ],
     "syntaxes": [
@@ -3101,8 +3101,8 @@
     "name": "fMax(",
     "type": "function",
     "categories": [
-      "Catalog\\F",
-      "Math\\Math"
+      "Catalog > F",
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -3154,8 +3154,8 @@
     "name": "fMin(",
     "type": "function",
     "categories": [
-      "Catalog\\F",
-      "Math\\Math"
+      "Catalog > F",
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -3207,8 +3207,8 @@
     "name": "fnInt(",
     "type": "function",
     "categories": [
-      "Catalog\\F",
-      "Math\\Math"
+      "Catalog > F",
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -3260,8 +3260,8 @@
     "name": "FnOff ",
     "type": "command",
     "categories": [
-      "Catalog\\F",
-      "Y= Functions\\On/Off"
+      "Catalog > F",
+      "Y= Functions > On/Off"
     ],
     "syntaxes": [
       {
@@ -3303,8 +3303,8 @@
     "name": "FnOn ",
     "type": "command",
     "categories": [
-      "Catalog\\F",
-      "Y= Functions\\On/Off"
+      "Catalog > F",
+      "Y= Functions > On/Off"
     ],
     "syntaxes": [
       {
@@ -3346,8 +3346,8 @@
     "name": "For(",
     "type": "for",
     "categories": [
-      "Catalog\\F",
-      "Program\\Control"
+      "Catalog > F",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -3404,8 +3404,8 @@
     "name": "fPart(",
     "type": "function",
     "categories": [
-      "Catalog\\F",
-      "Math\\Number"
+      "Catalog > F",
+      "Math > Number"
     ],
     "syntaxes": [
       {
@@ -3437,9 +3437,9 @@
     "name": "𝐅pdf(",
     "type": "function",
     "categories": [
-      "Catalog\\F",
-      "Catalog\\P",
-      "Statistics\\Distributions"
+      "Catalog > F",
+      "Catalog > P",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -3487,8 +3487,8 @@
     "name": "►Frac",
     "type": "conversion",
     "categories": [
-      "Catalog\\F",
-      "Math\\Math"
+      "Catalog > F",
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -3517,7 +3517,7 @@
     "name": "Full",
     "type": "command",
     "categories": [
-      "Catalog\\F",
+      "Catalog > F",
       "Mode"
     ],
     "syntaxes": [
@@ -3543,7 +3543,7 @@
     "name": "Func",
     "type": "command",
     "categories": [
-      "Catalog\\F",
+      "Catalog > F",
       "Mode"
     ],
     "syntaxes": [
@@ -3569,7 +3569,7 @@
     "name": "GarbageCollect",
     "type": "command",
     "categories": [
-      "Catalog\\G"
+      "Catalog > G"
     ],
     "syntaxes": [
       {
@@ -3595,8 +3595,8 @@
     "name": "gcd(",
     "type": "function",
     "categories": [
-      "Catalog\\G",
-      "Math\\Number"
+      "Catalog > G",
+      "Math > Number"
     ],
     "syntaxes": [
       {
@@ -3633,8 +3633,8 @@
     "name": "geometcdf(",
     "type": "function",
     "categories": [
-      "Catalog\\G",
-      "Statistics\\Distributions"
+      "Catalog > G",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -3672,8 +3672,8 @@
     "name": "geometpdf(",
     "type": "function",
     "categories": [
-      "Catalog\\G",
-      "Statistics\\Distributions"
+      "Catalog > G",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -3711,8 +3711,8 @@
     "name": "Get(",
     "type": "function",
     "categories": [
-      "Catalog\\G",
-      "Program\\I/O"
+      "Catalog > G",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -3762,8 +3762,8 @@
     "name": "GetCalc(",
     "type": "function",
     "categories": [
-      "Catalog\\G",
-      "Program\\I/O"
+      "Catalog > G",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -3968,8 +3968,8 @@
     "name": "getKey",
     "type": "constant",
     "categories": [
-      "Catalog\\G",
-      "Program\\I/O"
+      "Catalog > G",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -3995,8 +3995,8 @@
     "name": "Goto ",
     "type": "goto",
     "categories": [
-      "Catalog\\G",
-      "Program\\Control"
+      "Catalog > G",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -4063,8 +4063,8 @@
     "name": "GraphStyle(",
     "type": "function",
     "categories": [
-      "Catalog\\G",
-      "Program\\Control"
+      "Catalog > G",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -4162,7 +4162,7 @@
     "name": "GridOff",
     "type": "command",
     "categories": [
-      "Catalog\\G",
+      "Catalog > G",
       "Window"
     ],
     "syntaxes": [
@@ -4212,8 +4212,8 @@
     "name": "Histogram",
     "type": "constant",
     "categories": [
-      "Catalog\\H",
-      "Stat Plot\\Type"
+      "Catalog > H",
+      "Stat Plot > Type"
     ],
     "syntaxes": [
       {
@@ -4260,7 +4260,7 @@
     "name": "Horiz",
     "type": "command",
     "categories": [
-      "Catalog\\H",
+      "Catalog > H",
       "Mode"
     ],
     "syntaxes": [
@@ -4286,7 +4286,7 @@
     "name": "Horizontal ",
     "type": "command",
     "categories": [
-      "Catalog\\H",
+      "Catalog > H",
       "Drawing"
     ],
     "syntaxes": [
@@ -4330,8 +4330,8 @@
     "name": "𝑖",
     "type": "constant",
     "categories": [
-      "Catalog\\I",
-      "Catalog\\Misc",
+      "Catalog > I",
+      "Catalog > Misc",
       "Keypad"
     ],
     "syntaxes": [
@@ -4358,8 +4358,8 @@
     "name": "identity(",
     "type": "function",
     "categories": [
-      "Catalog\\I",
-      "Matrix\\Math"
+      "Catalog > I",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -4392,8 +4392,8 @@
     "name": "If ",
     "type": "if",
     "categories": [
-      "Catalog\\I",
-      "Program\\Control"
+      "Catalog > I",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -4501,8 +4501,8 @@
     "name": "imag(",
     "type": "function",
     "categories": [
-      "Catalog\\I",
-      "Math\\Complex"
+      "Catalog > I",
+      "Math > Complex"
     ],
     "syntaxes": [
       {
@@ -4576,7 +4576,7 @@
     "name": "IndpntAsk",
     "type": "command",
     "categories": [
-      "Catalog\\I",
+      "Catalog > I",
       "Table Settings"
     ],
     "syntaxes": [
@@ -4603,7 +4603,7 @@
     "name": "IndpntAuto",
     "type": "command",
     "categories": [
-      "Catalog\\I",
+      "Catalog > I",
       "Table Settings"
     ],
     "syntaxes": [
@@ -4630,8 +4630,8 @@
     "name": "Input ",
     "type": "command",
     "categories": [
-      "Catalog\\I",
-      "Program\\I/O"
+      "Catalog > I",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -4696,7 +4696,7 @@
     "name": "inString(",
     "type": "function",
     "categories": [
-      "Catalog\\I"
+      "Catalog > I"
     ],
     "syntaxes": [
       {
@@ -4738,8 +4738,8 @@
     "name": "int(",
     "type": "function",
     "categories": [
-      "Catalog\\I",
-      "Math\\Number"
+      "Catalog > I",
+      "Math > Number"
     ],
     "syntaxes": [
       {
@@ -4771,8 +4771,8 @@
     "name": "ΣInt(",
     "type": "function",
     "categories": [
-      "Catalog\\I",
-      "Finance\\Calc"
+      "Catalog > I",
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -4820,8 +4820,8 @@
     "name": "invNorm(",
     "type": "function",
     "categories": [
-      "Catalog\\I",
-      "Statistics\\Distributions"
+      "Catalog > I",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -4977,8 +4977,8 @@
     "name": "iPart(",
     "type": "function",
     "categories": [
-      "Catalog\\I",
-      "Math\\Number"
+      "Catalog > I",
+      "Math > Number"
     ],
     "syntaxes": [
       {
@@ -5010,8 +5010,8 @@
     "name": "irr(",
     "type": "function",
     "categories": [
-      "Catalog\\I",
-      "Finance\\Calc"
+      "Catalog > I",
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -5080,8 +5080,8 @@
     "name": "IS>(",
     "type": "function",
     "categories": [
-      "Catalog\\I",
-      "Program\\Control"
+      "Catalog > I",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -5160,7 +5160,7 @@
     "name": "LabelOff",
     "type": "command",
     "categories": [
-      "Catalog\\L",
+      "Catalog > L",
       "Window"
     ],
     "syntaxes": [
@@ -5187,7 +5187,7 @@
     "name": "LabelOn",
     "type": "command",
     "categories": [
-      "Catalog\\L",
+      "Catalog > L",
       "Window"
     ],
     "syntaxes": [
@@ -5214,8 +5214,8 @@
     "name": "Lbl ",
     "type": "label",
     "categories": [
-      "Catalog\\L",
-      "Program\\Control"
+      "Catalog > L",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -5247,8 +5247,8 @@
     "name": "lcm(",
     "type": "function",
     "categories": [
-      "Catalog\\L",
-      "Math\\Number"
+      "Catalog > L",
+      "Math > Number"
     ],
     "syntaxes": [
       {
@@ -5285,7 +5285,7 @@
     "name": "length(",
     "type": "function",
     "categories": [
-      "Catalog\\L"
+      "Catalog > L"
     ],
     "syntaxes": [
       {
@@ -5317,7 +5317,7 @@
     "name": "Line(",
     "type": "function",
     "categories": [
-      "Catalog\\L",
+      "Catalog > L",
       "Drawing"
     ],
     "syntaxes": [
@@ -5419,8 +5419,8 @@
     "name": "LinReg(a+bx) ",
     "type": "command",
     "categories": [
-      "Catalog\\L",
-      "Statistics\\Operations"
+      "Catalog > L",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -5467,8 +5467,8 @@
     "name": "LinReg(ax+b) ",
     "type": "function",
     "categories": [
-      "Catalog\\L",
-      "Statistics\\Operations"
+      "Catalog > L",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -5565,8 +5565,8 @@
     "name": "LinRegTTest ",
     "type": "command",
     "categories": [
-      "Catalog\\L",
-      "Statistics\\Operations"
+      "Catalog > L",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -5654,8 +5654,8 @@
     "name": "List►matr(",
     "type": "function",
     "categories": [
-      "Catalog\\L",
-      "List\\Ops"
+      "Catalog > L",
+      "List > Ops"
     ],
     "syntaxes": [
       {
@@ -5704,9 +5704,9 @@
     "name": "ln(",
     "type": "function",
     "categories": [
-      "Catalog\\L",
+      "Catalog > L",
       "Keypad",
-      "Math\\Math"
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -5736,8 +5736,8 @@
     "name": "LnReg ",
     "type": "command",
     "categories": [
-      "Catalog\\L",
-      "Statistics\\Operations"
+      "Catalog > L",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -5784,9 +5784,9 @@
     "name": "log(",
     "type": "function",
     "categories": [
-      "Catalog\\L",
+      "Catalog > L",
       "Keypad",
-      "Math\\Math"
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -5849,8 +5849,8 @@
     "name": "Logistic ",
     "type": "command",
     "categories": [
-      "Catalog\\L",
-      "Statistics\\Operations"
+      "Catalog > L",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -5958,8 +5958,8 @@
     "name": "Matr►list(",
     "type": "function",
     "categories": [
-      "Catalog\\M",
-      "List\\Ops"
+      "Catalog > M",
+      "List > Ops"
     ],
     "syntaxes": [
       {
@@ -6035,8 +6035,8 @@
     "name": "max(",
     "type": "function",
     "categories": [
-      "Catalog\\M",
-      "Math\\Number"
+      "Catalog > M",
+      "Math > Number"
     ],
     "syntaxes": [
       {
@@ -6154,8 +6154,8 @@
     "name": "mean(",
     "type": "function",
     "categories": [
-      "Catalog\\M",
-      "List\\Math"
+      "Catalog > M",
+      "List > Math"
     ],
     "syntaxes": [
       {
@@ -6193,8 +6193,8 @@
     "name": "median(",
     "type": "function",
     "categories": [
-      "Catalog\\M",
-      "List\\Math"
+      "Catalog > M",
+      "List > Math"
     ],
     "syntaxes": [
       {
@@ -6232,8 +6232,8 @@
     "name": "Med-Med ",
     "type": "command",
     "categories": [
-      "Catalog\\M",
-      "Statistics\\Operations"
+      "Catalog > M",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -6280,8 +6280,8 @@
     "name": "Menu(",
     "type": "function",
     "categories": [
-      "Catalog\\M",
-      "Program\\Control"
+      "Catalog > M",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -6338,8 +6338,8 @@
     "name": "min(",
     "type": "function",
     "categories": [
-      "Catalog\\M",
-      "Math\\Number"
+      "Catalog > M",
+      "Math > Number"
     ],
     "syntaxes": [
       {
@@ -6440,8 +6440,8 @@
     "name": "ModBoxplot",
     "type": "constant",
     "categories": [
-      "Catalog\\M",
-      "Stat Plot\\Type"
+      "Catalog > M",
+      "Stat Plot > Type"
     ],
     "syntaxes": [
       {
@@ -6613,8 +6613,8 @@
     "name": "nDeriv(",
     "type": "function",
     "categories": [
-      "Catalog\\N",
-      "Math\\Math"
+      "Catalog > N",
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -6693,8 +6693,8 @@
     "name": "►Nom(",
     "type": "function",
     "categories": [
-      "Catalog\\N",
-      "Finance\\Calc"
+      "Catalog > N",
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -6732,7 +6732,7 @@
     "name": "Normal",
     "type": "command",
     "categories": [
-      "Catalog\\N",
+      "Catalog > N",
       "Mode"
     ],
     "syntaxes": [
@@ -6758,8 +6758,8 @@
     "name": "normalcdf(",
     "type": "function",
     "categories": [
-      "Catalog\\N",
-      "Statistics\\Distributions"
+      "Catalog > N",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -6807,8 +6807,8 @@
     "name": "normalpdf(",
     "type": "function",
     "categories": [
-      "Catalog\\N",
-      "Statistics\\Distributions"
+      "Catalog > N",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -6851,8 +6851,8 @@
     "name": "NormProbPlot",
     "type": "constant",
     "categories": [
-      "Catalog\\N",
-      "Stat Plot\\Type"
+      "Catalog > N",
+      "Stat Plot > Type"
     ],
     "syntaxes": [
       {
@@ -6899,7 +6899,7 @@
     "name": "not(",
     "type": "function",
     "categories": [
-      "Catalog\\N",
+      "Catalog > N",
       "Test"
     ],
     "syntaxes": [
@@ -7034,8 +7034,8 @@
     "name": "npv(",
     "type": "function",
     "categories": [
-      "Catalog\\N",
-      "Finance\\Calc"
+      "Catalog > N",
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -7145,8 +7145,8 @@
     "name": "Output(",
     "type": "function",
     "categories": [
-      "Catalog\\O",
-      "Program\\I/O"
+      "Catalog > O",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -7215,7 +7215,7 @@
     "name": "Param",
     "type": "command",
     "categories": [
-      "Catalog\\P",
+      "Catalog > P",
       "Mode"
     ],
     "syntaxes": [
@@ -7241,8 +7241,8 @@
     "name": "Pause ",
     "type": "command",
     "categories": [
-      "Catalog\\P",
-      "Program\\Control"
+      "Catalog > P",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -7329,8 +7329,8 @@
     "name": "Plot1(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
-      "Stat Plot\\Plots"
+      "Catalog > P",
+      "Stat Plot > Plots"
     ],
     "syntaxes": [
       {
@@ -7512,8 +7512,8 @@
     "name": "PlotsOff ",
     "type": "command",
     "categories": [
-      "Catalog\\P",
-      "Stat Plot\\Plots"
+      "Catalog > P",
+      "Stat Plot > Plots"
     ],
     "syntaxes": [
       {
@@ -7540,8 +7540,8 @@
     "name": "PlotsOn ",
     "type": "command",
     "categories": [
-      "Catalog\\P",
-      "Stat Plot\\Plots"
+      "Catalog > P",
+      "Stat Plot > Plots"
     ],
     "syntaxes": [
       {
@@ -7568,8 +7568,8 @@
     "name": "Pmt_Bgn",
     "type": "command",
     "categories": [
-      "Catalog\\P",
-      "Finance\\Calc"
+      "Catalog > P",
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -7596,8 +7596,8 @@
     "name": "Pmt_End",
     "type": "command",
     "categories": [
-      "Catalog\\P",
-      "Finance\\Calc"
+      "Catalog > P",
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -7624,8 +7624,8 @@
     "name": "poissoncdf(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
-      "Statistics\\Distributions"
+      "Catalog > P",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -7663,8 +7663,8 @@
     "name": "poissonpdf(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
-      "Statistics\\Distributions"
+      "Catalog > P",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -7702,7 +7702,7 @@
     "name": "Polar",
     "type": "command",
     "categories": [
-      "Catalog\\P",
+      "Catalog > P",
       "Mode"
     ],
     "syntaxes": [
@@ -7728,8 +7728,8 @@
     "name": "►Polar",
     "type": "conversion",
     "categories": [
-      "Catalog\\P",
-      "Math\\Complex"
+      "Catalog > P",
+      "Math > Complex"
     ],
     "syntaxes": [
       {
@@ -7761,7 +7761,7 @@
     "name": "PolarGC",
     "type": "command",
     "categories": [
-      "Catalog\\P",
+      "Catalog > P",
       "Window"
     ],
     "syntaxes": [
@@ -7788,8 +7788,8 @@
     "name": "prgm",
     "type": "program",
     "categories": [
-      "Catalog\\P",
-      "Program\\Control"
+      "Catalog > P",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -7821,8 +7821,8 @@
     "name": "ΣPrn(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
-      "Finance\\Calc"
+      "Catalog > P",
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -7870,8 +7870,8 @@
     "name": "prod(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
-      "List\\Math"
+      "Catalog > P",
+      "List > Math"
     ],
     "syntaxes": [
       {
@@ -7914,8 +7914,8 @@
     "name": "Prompt ",
     "type": "command",
     "categories": [
-      "Catalog\\P",
-      "Program\\I/O"
+      "Catalog > P",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -7962,8 +7962,8 @@
     "name": "1-PropZInt(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
-      "Statistics\\Operations"
+      "Catalog > P",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -8005,8 +8005,8 @@
     "name": "2-PropZInt(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
-      "Statistics\\Operations"
+      "Catalog > P",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -8058,8 +8058,8 @@
     "name": "1-PropZTest(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
-      "Statistics\\Operations"
+      "Catalog > P",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -8116,8 +8116,8 @@
     "name": "2-PropZTest(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
-      "Statistics\\Operations"
+      "Catalog > P",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -8179,7 +8179,7 @@
     "name": "Pt-Change(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
+      "Catalog > P",
       "Drawing"
     ],
     "syntaxes": [
@@ -8224,7 +8224,7 @@
     "name": "Pt-Off(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
+      "Catalog > P",
       "Drawing"
     ],
     "syntaxes": [
@@ -8268,7 +8268,7 @@
     "name": "Pt-On(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
+      "Catalog > P",
       "Drawing"
     ],
     "syntaxes": [
@@ -8317,8 +8317,8 @@
     "name": "PwrReg ",
     "type": "command",
     "categories": [
-      "Catalog\\P",
-      "Statistics\\Operations"
+      "Catalog > P",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -8365,7 +8365,7 @@
     "name": "Pxl-Change(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
+      "Catalog > P",
       "Drawing"
     ],
     "syntaxes": [
@@ -8409,7 +8409,7 @@
     "name": "Pxl-Off(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
+      "Catalog > P",
       "Drawing"
     ],
     "syntaxes": [
@@ -8448,7 +8448,7 @@
     "name": "Pxl-On(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
+      "Catalog > P",
       "Drawing"
     ],
     "syntaxes": [
@@ -8492,7 +8492,7 @@
     "name": "pxl-Test(",
     "type": "function",
     "categories": [
-      "Catalog\\P",
+      "Catalog > P",
       "Drawing"
     ],
     "syntaxes": [
@@ -8532,7 +8532,7 @@
     "type": "function",
     "categories": [
       "Angle",
-      "Catalog\\P"
+      "Catalog > P"
     ],
     "syntaxes": [
       {
@@ -8572,7 +8572,7 @@
     "type": "function",
     "categories": [
       "Angle",
-      "Catalog\\P"
+      "Catalog > P"
     ],
     "syntaxes": [
       {
@@ -8611,8 +8611,8 @@
     "name": "QuadReg ",
     "type": "command",
     "categories": [
-      "Catalog\\Q",
-      "Statistics\\Operations"
+      "Catalog > Q",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -8659,8 +8659,8 @@
     "name": "QuartReg ",
     "type": "command",
     "categories": [
-      "Catalog\\Q",
-      "Statistics\\Operations"
+      "Catalog > Q",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -8707,7 +8707,7 @@
     "name": "Radian",
     "type": "command",
     "categories": [
-      "Catalog\\R",
+      "Catalog > R",
       "Mode"
     ],
     "syntaxes": [
@@ -8733,8 +8733,8 @@
     "name": "rand",
     "type": "constant",
     "categories": [
-      "Catalog\\R",
-      "Math\\Probability"
+      "Catalog > R",
+      "Math > Probability"
     ],
     "syntaxes": [
       {
@@ -8766,8 +8766,8 @@
     "name": "randBin(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Math\\Probability"
+      "Catalog > R",
+      "Math > Probability"
     ],
     "syntaxes": [
       {
@@ -8809,8 +8809,8 @@
     "name": "randInt(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Math\\Probability"
+      "Catalog > R",
+      "Math > Probability"
     ],
     "syntaxes": [
       {
@@ -8892,8 +8892,8 @@
     "name": "randM(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Matrix\\Math"
+      "Catalog > R",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -8931,8 +8931,8 @@
     "name": "randNorm(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Math\\Probability"
+      "Catalog > R",
+      "Math > Probability"
     ],
     "syntaxes": [
       {
@@ -8974,7 +8974,7 @@
     "name": "re^θ𝑖",
     "type": "command",
     "categories": [
-      "Catalog\\R",
+      "Catalog > R",
       "Mode"
     ],
     "syntaxes": [
@@ -9015,7 +9015,7 @@
     "name": "Real",
     "type": "command",
     "categories": [
-      "Catalog\\R",
+      "Catalog > R",
       "Mode"
     ],
     "syntaxes": [
@@ -9041,8 +9041,8 @@
     "name": "real(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Math\\Complex"
+      "Catalog > R",
+      "Math > Complex"
     ],
     "syntaxes": [
       {
@@ -9074,7 +9074,7 @@
     "name": "RecallGDB ",
     "type": "command",
     "categories": [
-      "Catalog\\R",
+      "Catalog > R",
       "Drawing"
     ],
     "syntaxes": [
@@ -9108,7 +9108,7 @@
     "name": "RecallPic ",
     "type": "command",
     "categories": [
-      "Catalog\\R",
+      "Catalog > R",
       "Drawing"
     ],
     "syntaxes": [
@@ -9142,8 +9142,8 @@
     "name": "►Rect",
     "type": "conversion",
     "categories": [
-      "Catalog\\R",
-      "Math\\Complex"
+      "Catalog > R",
+      "Math > Complex"
     ],
     "syntaxes": [
       {
@@ -9175,7 +9175,7 @@
     "name": "RectGC",
     "type": "command",
     "categories": [
-      "Catalog\\R",
+      "Catalog > R",
       "Window"
     ],
     "syntaxes": [
@@ -9202,8 +9202,8 @@
     "name": "ref(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Matrix\\Math"
+      "Catalog > R",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -9337,8 +9337,8 @@
     "name": "Repeat ",
     "type": "repeat",
     "categories": [
-      "Catalog\\R",
-      "Program\\Control"
+      "Catalog > R",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -9380,8 +9380,8 @@
     "name": "Return",
     "type": "command",
     "categories": [
-      "Catalog\\R",
-      "Program\\Control"
+      "Catalog > R",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -9407,8 +9407,8 @@
     "name": "round(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Math\\Number"
+      "Catalog > R",
+      "Math > Number"
     ],
     "syntaxes": [
       {
@@ -9445,8 +9445,8 @@
     "name": "*row(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Matrix\\Math"
+      "Catalog > R",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -9494,8 +9494,8 @@
     "name": "row+(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Matrix\\Math"
+      "Catalog > R",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -9538,8 +9538,8 @@
     "name": "*row+(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Matrix\\Math"
+      "Catalog > R",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -9592,8 +9592,8 @@
     "name": "rowSwap(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Matrix\\Math"
+      "Catalog > R",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -9636,8 +9636,8 @@
     "name": "rref(",
     "type": "function",
     "categories": [
-      "Catalog\\R",
-      "Matrix\\Math"
+      "Catalog > R",
+      "Matrix > Math"
     ],
     "syntaxes": [
       {
@@ -9671,7 +9671,7 @@
     "type": "function",
     "categories": [
       "Angle",
-      "Catalog\\R"
+      "Catalog > R"
     ],
     "syntaxes": [
       {
@@ -9711,7 +9711,7 @@
     "type": "function",
     "categories": [
       "Angle",
-      "Catalog\\R"
+      "Catalog > R"
     ],
     "syntaxes": [
       {
@@ -9753,8 +9753,8 @@
     "name": "2-Samp𝐅Test ",
     "type": "command",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Operations"
+      "Catalog > S",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -9875,8 +9875,8 @@
     "name": "2-SampTInt ",
     "type": "command",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Operations"
+      "Catalog > S",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -10002,8 +10002,8 @@
     "name": "2-SampTTest ",
     "type": "command",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Operations"
+      "Catalog > S",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -10137,8 +10137,8 @@
     "name": "2-SampZInt(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Operations"
+      "Catalog > S",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -10279,8 +10279,8 @@
     "name": "2-SampZTest(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Operations"
+      "Catalog > S",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -10439,8 +10439,8 @@
     "name": "Scatter",
     "type": "constant",
     "categories": [
-      "Catalog\\S",
-      "Stat Plot\\Type"
+      "Catalog > S",
+      "Stat Plot > Type"
     ],
     "syntaxes": [
       {
@@ -10487,7 +10487,7 @@
     "name": "Sci",
     "type": "command",
     "categories": [
-      "Catalog\\S",
+      "Catalog > S",
       "Mode"
     ],
     "syntaxes": [
@@ -10513,8 +10513,8 @@
     "name": "Select(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "List\\Ops"
+      "Catalog > S",
+      "List > Ops"
     ],
     "syntaxes": [
       {
@@ -10552,8 +10552,8 @@
     "name": "Send(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "Program\\I/O"
+      "Catalog > S",
+      "Program > I/O"
     ],
     "syntaxes": [
       {
@@ -10601,8 +10601,8 @@
     "name": "seq(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "List\\Ops"
+      "Catalog > S",
+      "List > Ops"
     ],
     "syntaxes": [
       {
@@ -10745,7 +10745,7 @@
     "name": "Seq",
     "type": "command",
     "categories": [
-      "Catalog\\S",
+      "Catalog > S",
       "Mode"
     ],
     "syntaxes": [
@@ -10771,7 +10771,7 @@
     "name": "Sequential",
     "type": "command",
     "categories": [
-      "Catalog\\S",
+      "Catalog > S",
       "Mode"
     ],
     "syntaxes": [
@@ -10946,8 +10946,8 @@
     "name": "SetUpEditor ",
     "type": "command",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Operations"
+      "Catalog > S",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -11005,7 +11005,7 @@
     "name": "Shade(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
+      "Catalog > S",
       "Drawing"
     ],
     "syntaxes": [
@@ -11069,8 +11069,8 @@
     "name": "Shadeχ²(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Distributions"
+      "Catalog > S",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -11124,8 +11124,8 @@
     "name": "Shade𝐅(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Distributions"
+      "Catalog > S",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -11184,8 +11184,8 @@
     "name": "ShadeNorm(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Distributions"
+      "Catalog > S",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -11243,8 +11243,8 @@
     "name": "Shade_t(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Distributions"
+      "Catalog > S",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -11292,7 +11292,7 @@
     "name": "Simul",
     "type": "command",
     "categories": [
-      "Catalog\\S",
+      "Catalog > S",
       "Mode"
     ],
     "syntaxes": [
@@ -11318,7 +11318,7 @@
     "name": "sin(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
+      "Catalog > S",
       "Keypad"
     ],
     "syntaxes": [
@@ -11349,7 +11349,7 @@
     "name": "sin⁻¹(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
+      "Catalog > S",
       "Keypad"
     ],
     "syntaxes": [
@@ -11386,7 +11386,7 @@
     "name": "sinh(",
     "type": "function",
     "categories": [
-      "Catalog\\S"
+      "Catalog > S"
     ],
     "syntaxes": [
       {
@@ -11418,7 +11418,7 @@
     "name": "sinh⁻¹(",
     "type": "function",
     "categories": [
-      "Catalog\\S"
+      "Catalog > S"
     ],
     "syntaxes": [
       {
@@ -11455,8 +11455,8 @@
     "name": "SinReg ",
     "type": "command",
     "categories": [
-      "Catalog\\S",
-      "Statistics\\Operations"
+      "Catalog > S",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -11508,8 +11508,8 @@
     "name": "solve(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "Math\\Math"
+      "Catalog > S",
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -11561,8 +11561,8 @@
     "name": "SortA(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "List\\Ops"
+      "Catalog > S",
+      "List > Ops"
     ],
     "syntaxes": [
       {
@@ -11628,8 +11628,8 @@
     "name": "SortD(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "List\\Ops"
+      "Catalog > S",
+      "List > Ops"
     ],
     "syntaxes": [
       {
@@ -11763,8 +11763,8 @@
     "name": "stdDev(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "List\\Math"
+      "Catalog > S",
+      "List > Math"
     ],
     "syntaxes": [
       {
@@ -11802,8 +11802,8 @@
     "name": "Stop",
     "type": "command",
     "categories": [
-      "Catalog\\S",
-      "Program\\Control"
+      "Catalog > S",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -11829,9 +11829,9 @@
     "name": "→",
     "type": "store",
     "categories": [
-      "Catalog\\Misc",
+      "Catalog > Misc",
       "Keypad",
-      "Punctuation\\Operators"
+      "Punctuation > Operators"
     ],
     "syntaxes": [
       {
@@ -11873,7 +11873,7 @@
     "name": "StoreGDB ",
     "type": "command",
     "categories": [
-      "Catalog\\S",
+      "Catalog > S",
       "Drawing"
     ],
     "syntaxes": [
@@ -11907,7 +11907,7 @@
     "name": "StorePic ",
     "type": "command",
     "categories": [
-      "Catalog\\S",
+      "Catalog > S",
       "Drawing"
     ],
     "syntaxes": [
@@ -11941,7 +11941,7 @@
     "name": "String►Equ(",
     "type": "function",
     "categories": [
-      "Catalog\\S"
+      "Catalog > S"
     ],
     "syntaxes": [
       {
@@ -11979,7 +11979,7 @@
     "name": "sub(",
     "type": "function",
     "categories": [
-      "Catalog\\S"
+      "Catalog > S"
     ],
     "syntaxes": [
       {
@@ -12021,8 +12021,8 @@
     "name": "sum(",
     "type": "function",
     "categories": [
-      "Catalog\\S",
-      "List\\Math"
+      "Catalog > S",
+      "List > Math"
     ],
     "syntaxes": [
       {
@@ -12103,7 +12103,7 @@
     "name": "tan(",
     "type": "function",
     "categories": [
-      "Catalog\\T",
+      "Catalog > T",
       "Keypad"
     ],
     "syntaxes": [
@@ -12134,7 +12134,7 @@
     "name": "tan⁻¹(",
     "type": "function",
     "categories": [
-      "Catalog\\T",
+      "Catalog > T",
       "Keypad"
     ],
     "syntaxes": [
@@ -12171,7 +12171,7 @@
     "name": "Tangent(",
     "type": "function",
     "categories": [
-      "Catalog\\T",
+      "Catalog > T",
       "Drawing"
     ],
     "syntaxes": [
@@ -12220,7 +12220,7 @@
     "name": "tanh(",
     "type": "function",
     "categories": [
-      "Catalog\\T"
+      "Catalog > T"
     ],
     "syntaxes": [
       {
@@ -12252,7 +12252,7 @@
     "name": "tanh⁻¹(",
     "type": "function",
     "categories": [
-      "Catalog\\T"
+      "Catalog > T"
     ],
     "syntaxes": [
       {
@@ -12289,8 +12289,8 @@
     "name": "tcdf(",
     "type": "function",
     "categories": [
-      "Catalog\\T",
-      "Statistics\\Distributions"
+      "Catalog > T",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -12333,7 +12333,7 @@
     "name": "Text(",
     "type": "function",
     "categories": [
-      "Catalog\\T",
+      "Catalog > T",
       "Drawing"
     ],
     "syntaxes": [
@@ -12423,8 +12423,8 @@
     "name": "Then",
     "type": "basic instruction only",
     "categories": [
-      "Catalog\\T",
-      "Program\\Control"
+      "Catalog > T",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -12501,7 +12501,7 @@
     "name": "Time",
     "type": "command",
     "categories": [
-      "Catalog\\T",
+      "Catalog > T",
       "Window"
     ],
     "syntaxes": [
@@ -12560,8 +12560,8 @@
     "name": "TInterval ",
     "type": "command",
     "categories": [
-      "Catalog\\T",
-      "Statistics\\Operations"
+      "Catalog > T",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -12673,8 +12673,8 @@
     "name": "tpdf(",
     "type": "function",
     "categories": [
-      "Catalog\\T",
-      "Statistics\\Distributions"
+      "Catalog > T",
+      "Statistics > Distributions"
     ],
     "syntaxes": [
       {
@@ -12712,7 +12712,7 @@
     "name": "Trace",
     "type": "command",
     "categories": [
-      "Catalog\\T"
+      "Catalog > T"
     ],
     "syntaxes": [
       {
@@ -12736,8 +12736,8 @@
     "name": "T-Test ",
     "type": "command",
     "categories": [
-      "Catalog\\T",
-      "Statistics\\Operations"
+      "Catalog > T",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -12852,7 +12852,7 @@
     "name": "tvm_FV",
     "type": "userfunction",
     "categories": [
-      "Finance\\Calc"
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -12911,7 +12911,7 @@
     "name": "tvm_I%",
     "type": "userfunction",
     "categories": [
-      "Finance\\Calc"
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -12975,7 +12975,7 @@
     "name": "tvm_𝗡",
     "type": "userfunction",
     "categories": [
-      "Finance\\Calc"
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -13039,7 +13039,7 @@
     "name": "tvm_Pmt",
     "type": "userfunction",
     "categories": [
-      "Finance\\Calc"
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -13098,7 +13098,7 @@
     "name": "tvm_PV",
     "type": "userfunction",
     "categories": [
-      "Finance\\Calc"
+      "Finance > Calc"
     ],
     "syntaxes": [
       {
@@ -13157,7 +13157,7 @@
     "name": "UnArchive ",
     "type": "command",
     "categories": [
-      "Catalog\\U",
+      "Catalog > U",
       "Memory"
     ],
     "syntaxes": [
@@ -13213,7 +13213,7 @@
     "name": "uvAxes",
     "type": "command",
     "categories": [
-      "Catalog\\U",
+      "Catalog > U",
       "Window"
     ],
     "syntaxes": [
@@ -13240,7 +13240,7 @@
     "name": "uwAxes",
     "type": "command",
     "categories": [
-      "Catalog\\U",
+      "Catalog > U",
       "Window"
     ],
     "syntaxes": [
@@ -13267,8 +13267,8 @@
     "name": "1-Var Stats ",
     "type": "command",
     "categories": [
-      "Catalog\\V",
-      "Statistics\\Operations"
+      "Catalog > V",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -13305,8 +13305,8 @@
     "name": "2-Var Stats ",
     "type": "function",
     "categories": [
-      "Catalog\\V",
-      "Statistics\\Operations"
+      "Catalog > V",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -13348,8 +13348,8 @@
     "name": "variance(",
     "type": "function",
     "categories": [
-      "Catalog\\V",
-      "List\\Math"
+      "Catalog > V",
+      "List > Math"
     ],
     "syntaxes": [
       {
@@ -13387,7 +13387,7 @@
     "name": "Vertical ",
     "type": "command",
     "categories": [
-      "Catalog\\V",
+      "Catalog > V",
       "Drawing"
     ],
     "syntaxes": [
@@ -13431,7 +13431,7 @@
     "name": "vwAxes",
     "type": "command",
     "categories": [
-      "Catalog\\V",
+      "Catalog > V",
       "Window"
     ],
     "syntaxes": [
@@ -13506,7 +13506,7 @@
     "name": "Web",
     "type": "command",
     "categories": [
-      "Catalog\\W",
+      "Catalog > W",
       "Window"
     ],
     "syntaxes": [
@@ -13533,8 +13533,8 @@
     "name": "While ",
     "type": "while",
     "categories": [
-      "Catalog\\W",
-      "Program\\Control"
+      "Catalog > W",
+      "Program > Control"
     ],
     "syntaxes": [
       {
@@ -13612,8 +13612,8 @@
     "name": "xyLine",
     "type": "constant",
     "categories": [
-      "Catalog\\X",
-      "Stat Plot\\Type"
+      "Catalog > X",
+      "Stat Plot > Type"
     ],
     "syntaxes": [
       {
@@ -13660,7 +13660,7 @@
     "name": "ZBox",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -13686,7 +13686,7 @@
     "name": "ZDecimal",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -13856,7 +13856,7 @@
     "name": "ZInteger",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -13882,8 +13882,8 @@
     "name": "ZInterval ",
     "type": "command",
     "categories": [
-      "Catalog\\Z",
-      "Statistics\\Operations"
+      "Catalog > Z",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -13964,7 +13964,7 @@
     "name": "Zoom In",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -13990,7 +13990,7 @@
     "name": "Zoom Out",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -14016,7 +14016,7 @@
     "name": "ZoomFit",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -14042,7 +14042,7 @@
     "name": "ZoomRcl",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -14068,7 +14068,7 @@
     "name": "ZoomStat",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -14094,7 +14094,7 @@
     "name": "ZoomSto",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -14120,7 +14120,7 @@
     "name": "ZPrevious",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -14170,7 +14170,7 @@
     "name": "ZSquare",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -14196,7 +14196,7 @@
     "name": "ZStandard",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {
@@ -14222,8 +14222,8 @@
     "name": "Z-Test(",
     "type": "function",
     "categories": [
-      "Catalog\\Z",
-      "Statistics\\Operations"
+      "Catalog > Z",
+      "Statistics > Operations"
     ],
     "syntaxes": [
       {
@@ -14344,7 +14344,7 @@
     "name": "ZTrig",
     "type": "command",
     "categories": [
-      "Catalog\\Z"
+      "Catalog > Z"
     ],
     "syntaxes": [
       {

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB56`|
-| Categories    | <ul><li>Catalog\S</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Chaine►Equ(`</li></ul> |
 
 # `String►Equ(`

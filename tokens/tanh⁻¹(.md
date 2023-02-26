@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$CD`|
-| Categories    | <ul><li>Catalog\T</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [T](../categories/Catalog.md#T)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Argth(`</li></ul> |
 
 # `tanh⁻¹(`

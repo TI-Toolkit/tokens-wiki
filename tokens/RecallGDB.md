@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$9B`|
-| Categories    | <ul><li>Catalog\R</li><li>Drawing</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [R](../categories/Catalog.md#R)</li><li>[Drawing](../categories/Drawing.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `RappelBDG `</li></ul> |
 
 # `RecallGDB `

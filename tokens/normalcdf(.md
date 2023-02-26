@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB10`|
-| Categories    | <ul><li>Catalog\N</li><li>Statistics\Distributions</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [N](../categories/Catalog.md#N)</li><li>[Statistics](../categories/Statistics.md) > [Distributions](../categories/Statistics.md#Distributions)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `normalFRép(`</li></ul> |
 
 # `normalcdf(`

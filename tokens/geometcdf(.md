@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB1A`|
-| Categories    | <ul><li>Catalog\G</li><li>Statistics\Distributions</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [G](../categories/Catalog.md#G)</li><li>[Statistics](../categories/Statistics.md) > [Distributions](../categories/Statistics.md#Distributions)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `géomtFRép(`</li></ul> |
 
 # `geometcdf(`

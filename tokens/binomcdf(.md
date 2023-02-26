@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB16`|
-| Categories    | <ul><li>Catalog\B</li><li>Statistics\Distributions</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [B](../categories/Catalog.md#B)</li><li>[Statistics](../categories/Statistics.md) > [Distributions](../categories/Statistics.md#Distributions)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `binomFRép(`</li></ul> |
 
 # `binomcdf(`

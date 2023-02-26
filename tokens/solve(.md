@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$22`|
-| Categories    | <ul><li>Catalog\S</li><li>Math\Math</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li><li>[Math](../categories/Math.md) > [Math](../categories/Math.md#Math)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `résoudre(`</li></ul> |
 
 # `solve(`

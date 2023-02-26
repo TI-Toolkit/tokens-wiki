@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB05`|
-| Categories    | <ul><li>Catalog\N</li><li>Finance\Calc</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [N](../categories/Catalog.md#N)</li><li>[Finance](../categories/Finance.md) > [Calc](../categories/Finance.md#Calc)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `►Nom(`</li></ul> |
 
 # `►Nom(`
@@ -26,7 +26,7 @@ Computes the nominal interest rate.
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `B:Nom(`
+<kbd>apps</kbd>, `1:Finance`, `CALC`, `B:►Nom(`
 <hr>
 
 ## Examples

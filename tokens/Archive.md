@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB68`|
-| Categories    | <ul><li>Catalog\A</li><li>Memory</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [A](../categories/Catalog.md#A)</li><li>[Memory](../categories/Memory.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Archive `</li></ul> |
 
 # `Archive `

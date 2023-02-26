@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB3A`|
-| Categories    | <ul><li>Catalog\L</li><li>List\Ops</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [L](../categories/Catalog.md#L)</li><li>[List](../categories/List.md) > [Ops](../categories/List.md#Ops)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `List►matr(`</li></ul> |
 
 # `List►matr(`

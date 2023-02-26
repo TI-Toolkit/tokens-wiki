@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB00`|
-| Categories    | <ul><li>Catalog\N</li><li>Finance\Calc</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [N](../categories/Catalog.md#N)</li><li>[Finance](../categories/Finance.md) > [Calc](../categories/Finance.md#Calc)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `vactNet(`</li></ul> |
 
 # `npv(`

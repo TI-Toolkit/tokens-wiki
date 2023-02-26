@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF12`|
-| Categories    | <ul><li>Libraries</li></ul> |
+| Categories    | <ul><li>[Libraries](../categories/Libraries.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `ExécBiblio`</li></ul> |
 
 # `ExecLib`

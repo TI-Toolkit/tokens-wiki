@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB48`|
-| Categories    | <ul><li>Catalog\T</li><li>Statistics\Operations</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [T](../categories/Catalog.md#T)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `TintConf `</li></ul> |
 
 # `TInterval `
@@ -25,8 +25,6 @@ Computes a `t` confidence interval.
 <tr><td>freqlist</td><td>list</td><td>true</td></tr>
 
 <tr><td>confidence level</td><td></td><td>true</td></tr>
-
-<tr><td>(Data list input</td><td>list</td><td>true</td></tr>
 
 </table>
 
@@ -55,8 +53,6 @@ Computes a `t` confidence interval.
 <tr><td>n</td><td></td><td>true</td></tr>
 
 <tr><td>confidence level</td><td></td><td>true</td></tr>
-
-<tr><td>(Summary stats input</td><td></td><td>true</td></tr>
 
 </table>
 

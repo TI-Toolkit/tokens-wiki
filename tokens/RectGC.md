@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E03`|
-| Categories    | <ul><li>Catalog\R</li><li>Window</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [R](../categories/Catalog.md#R)</li><li>[Window](../categories/Window.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `CoordRect`</li></ul> |
 
 # `RectGC`

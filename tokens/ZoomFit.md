@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB65`|
-| Categories    | <ul><li>Catalog\Z</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [Z](../categories/Catalog.md#Z)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `ZminMax`</li></ul> |
 
 # `ZoomFit`

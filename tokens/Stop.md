@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$D9`|
-| Categories    | <ul><li>Catalog\S</li><li>Program\Control</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li><li>[Program](../categories/Program.md) > [Control](../categories/Program.md#Control)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Stop`</li></ul> |
 
 # `Stop`

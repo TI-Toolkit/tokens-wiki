@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E02`|
-| Categories    | <ul><li>Catalog\P</li><li>Window</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [P](../categories/Catalog.md#P)</li><li>[Window](../categories/Window.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `CoordPol`</li></ul> |
 
 # `PolarGC`

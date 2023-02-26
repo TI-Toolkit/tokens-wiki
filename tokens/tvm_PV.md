@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB22`|
-| Categories    | <ul><li>Finance\Calc</li></ul> |
+| Categories    | <ul><li>[Finance](../categories/Finance.md) > [Calc](../categories/Finance.md#Calc)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `tvm_VA`</li></ul> |
 
 # `tvm_PV`

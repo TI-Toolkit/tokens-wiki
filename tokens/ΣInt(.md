@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB04`|
-| Categories    | <ul><li>Catalog\I</li><li>Finance\Calc</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [I](../categories/Catalog.md#I)</li><li>[Finance](../categories/Finance.md) > [Calc](../categories/Finance.md#Calc)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `ΣInt(`</li></ul> |
 
 # `ΣInt(`

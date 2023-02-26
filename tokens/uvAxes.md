@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E10`|
-| Categories    | <ul><li>Catalog\U</li><li>Window</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [U](../categories/Catalog.md#U)</li><li>[Window](../categories/Window.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `uvAxes`</li></ul> |
 
 # `uvAxes`

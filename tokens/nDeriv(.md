@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$25`|
-| Categories    | <ul><li>Catalog\N</li><li>Math\Math</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [N](../categories/Catalog.md#N)</li><li>[Math](../categories/Math.md) > [Math](../categories/Math.md#Math)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `nDeriv(`</li></ul> |
 
 # `nDeriv(`

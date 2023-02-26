@@ -4,10 +4,20 @@ import sanitize from 'sanitize-filename';
 
 const tokens = JSON.parse(fs.readFileSync('./output/TI-84_Plus_CE_catalog-tokens.json', 'utf8'));
 
+const pagesByCat = {};
+
 for (const [bytes, token] of Object.entries(tokens)) {
-    let categories = '';
-    for (const category of token.categories) {
-        categories += `<li>${category}</li>`;
+    let categoriesLinks = '';
+    for (const categoryStr of token.categories) {
+        const [cat, subCat] = categoryStr.split(' > ');
+        if (!pagesByCat[cat]) { pagesByCat[cat] = {}; }
+        if (subCat) {
+            if (!pagesByCat[cat][subCat]) { pagesByCat[cat][subCat] = {}; }
+            pagesByCat[cat][subCat][token.name] = true;
+        } else {
+            pagesByCat[cat][token.name] = true;
+        }
+        categoriesLinks += `<li>[${cat}](../categories/${cat}.md)` + (subCat ? ` > [${subCat}](../categories/${cat}.md#${subCat})` : '') + '</li>';
     }
 
     let localizations = '';
@@ -19,7 +29,7 @@ for (const [bytes, token] of Object.entries(tokens)) {
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | \`\$${bytes.substring(2)}\`|
-| Categories    | <ul>${categories}</ul> |
+| Categories    | <ul>${categoriesLinks}</ul> |
 | Localizations | <ul>${localizations}</ul> |
 
 # \`${token.name}\`
@@ -121,5 +131,30 @@ code 2
 
     `;
 
-    fs.writeFileSync(`output/wikipages/${sanitize(token.name)}.md`, page.trimStart());
+    fs.writeFileSync(`output/wikipages/tokens/${sanitize(token.name)}.md`, page.trimStart());
 }
+
+let catIndexPage = '# Categories\n\n';
+for (const [ cat, entries ] of Object.entries(pagesByCat).sort((a, b) => a[0].localeCompare(b[0]))) {
+    catIndexPage += `### <a href="./categories/${sanitize(cat)}.md">${cat}</a>\n\n`;
+    let catPage = `# ${cat}\n\n`;
+    for (const [ subCatOrPage, val ] of Object.entries(entries).sort((a, b) => a[0].localeCompare(b[0]))) {
+        if (val === true) {
+            catPage += ` * <a href="../tokens/${sanitize(subCatOrPage)}.md">${subCatOrPage}</a>\n`;
+        } else if (typeof(val) === 'object') {
+            catPage += `\n## ${subCatOrPage}\n\n`
+            for (const [ tokName ] of Object.entries(val).sort((a, b) => a[0].localeCompare(b[0]))) {
+                catPage += ` * <a href="../tokens/${sanitize(tokName)}.md">${tokName}</a>\n`;
+            }
+            if (cat !== 'Catalog') {
+                catIndexPage += ` * <a href="./categories/${sanitize(cat)}.md#${subCatOrPage}">${subCatOrPage}</a>\n\n`;
+            }
+        } else {
+            throw "wut";
+        }
+    }
+    catPage += '\n';
+    fs.writeFileSync(`output/wikipages/categories/${sanitize(cat)}.md`, catPage.trimStart());
+}
+
+fs.writeFileSync(`output/wikipages/categories.md`, catIndexPage.trimStart());

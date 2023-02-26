@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB45`|
-| Categories    | <ul><li>Catalog\G</li><li>Program\Control</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [G](../categories/Catalog.md#G)</li><li>[Program](../categories/Program.md) > [Control](../categories/Program.md#Control)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `GraphStyle(`</li></ul> |
 
 # `GraphStyle(`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$A8`|
-| Categories    | <ul><li>Catalog\D</li><li>Drawing</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [D](../categories/Catalog.md#D)</li><li>[Drawing](../categories/Drawing.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `DessRecip `</li></ul> |
 
 # `DrawInv `

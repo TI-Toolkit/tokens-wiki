@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$72`|
-| Categories    | <ul><li>Catalog\A</li><li>Keypad</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [A](../categories/Catalog.md#A)</li><li>[Keypad](../categories/Keypad.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Rep`</li></ul> |
 
 # `Ans`

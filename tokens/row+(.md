@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$18`|
-| Categories    | <ul><li>Catalog\R</li><li>Matrix\Math</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [R](../categories/Catalog.md#R)</li><li>[Matrix](../categories/Matrix.md) > [Math](../categories/Matrix.md#Math)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `*ligne+(`</li></ul> |
 
 # `*row+(`

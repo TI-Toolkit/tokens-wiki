@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$9E`|
-| Categories    | <ul><li>Catalog\P</li><li>Drawing</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [P](../categories/Catalog.md#P)</li><li>[Drawing](../categories/Drawing.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Pt-Aff(`</li></ul> |
 
 # `Pt-On(`

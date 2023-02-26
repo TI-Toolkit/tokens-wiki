@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB41`|
-| Categories    | <ul><li>Catalog\Z</li><li>Statistics\Operations</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [Z](../categories/Catalog.md#Z)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `ZintConf `</li></ul> |
 
 # `ZInterval `
@@ -27,8 +27,6 @@ Computes a `z` confidence interval.
 <tr><td>freqlist</td><td>list</td><td>true</td></tr>
 
 <tr><td>confidence level</td><td></td><td>true</td></tr>
-
-<tr><td>(Data list input</td><td>list</td><td>true</td></tr>
 
 </table>
 
@@ -57,8 +55,6 @@ Computes a `z` confidence interval.
 <tr><td>n</td><td></td><td>true</td></tr>
 
 <tr><td>confidence level</td><td></td><td>true</td></tr>
-
-<tr><td>(Summary stats input</td><td></td><td>true</td></tr>
 
 </table>
 

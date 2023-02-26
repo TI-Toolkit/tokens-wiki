@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB5B`|
-| Categories    | <ul><li>Catalog\N</li><li>Stat Plot\Type</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [N](../categories/Catalog.md#N)</li><li>[Stat Plot](../categories/Stat Plot.md) > [Type](../categories/Stat Plot.md#Type)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `GraphProbNorm`</li></ul> |
 
 # `NormProbPlot`

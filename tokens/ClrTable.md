@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$FB`|
-| Categories    | <ul><li>Catalog\C</li><li>Program\I/O</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [C](../categories/Catalog.md#C)</li><li>[Program](../categories/Program.md) > [I/O](../categories/Program.md#I/O)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `EffTable`</li></ul> |
 
 # `ClrTable`

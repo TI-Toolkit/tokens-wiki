@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E0B`|
-| Categories    | <ul><li>Catalog\G</li><li>Window</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [G](../categories/Catalog.md#G)</li><li>[Window](../categories/Window.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `QuadNAff`</li></ul> |
 
 # `GridOff`

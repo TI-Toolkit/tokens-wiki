@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB12`|
-| Categories    | <ul><li>Catalog\T</li><li>Statistics\Distributions</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [T](../categories/Catalog.md#T)</li><li>[Statistics](../categories/Statistics.md) > [Distributions](../categories/Statistics.md#Distributions)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `studentFRép(`</li></ul> |
 
 # `tcdf(`

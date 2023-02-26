@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E0D`|
-| Categories    | <ul><li>Catalog\L</li><li>Window</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [L](../categories/Catalog.md#L)</li><li>[Window](../categories/Window.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `EtiqNAff`</li></ul> |
 
 # `LabelOff`

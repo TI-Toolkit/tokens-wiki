@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB39`|
-| Categories    | <ul><li>Catalog\M</li><li>List\Ops</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [M](../categories/Catalog.md#M)</li><li>[List](../categories/List.md) > [Ops](../categories/List.md#Ops)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Matr►list(`</li></ul> |
 
 # `Matr►list(`
@@ -30,7 +30,7 @@ Fills each `listname` with elements from each column in `matrix`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `A:Matr`, `list(`
+<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `A:Matr►list(`
 <hr>
 
 ## Description
@@ -55,7 +55,7 @@ Fills a `listname` with elements from a specified `column#` in `matrix`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `A:Matr`, `list(`
+<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `A:Matr►list(`
 <hr>
 
 ## Examples

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB2A`|
-| Categories    | <ul><li>Catalog\E</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [E](../categories/Catalog.md#E)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `expr(`</li></ul> |
 
 # `expr(`

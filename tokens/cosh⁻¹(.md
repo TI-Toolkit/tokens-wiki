@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$CB`|
-| Categories    | <ul><li>Catalog\C</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [C](../categories/Catalog.md#C)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Argch(`</li></ul> |
 
 # `cosh⁻¹(`

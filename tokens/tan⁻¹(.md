@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$C7`|
-| Categories    | <ul><li>Catalog\T</li><li>Keypad</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [T](../categories/Catalog.md#T)</li><li>[Keypad](../categories/Keypad.md)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Arctan(`</li></ul> |
 
 # `tan⁻¹(`

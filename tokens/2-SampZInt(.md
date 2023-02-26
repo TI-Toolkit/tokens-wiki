@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB42`|
-| Categories    | <ul><li>Catalog\S</li><li>Statistics\Operations</li></ul> |
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `2-CompZIntC(`</li></ul> |
 
 # `2-SampZInt(`
@@ -37,8 +37,6 @@ Computes a two-sample `z` confidence interval.
 <tr><td>freqlist2</td><td>list</td><td>true</td></tr>
 
 <tr><td>confidence level</td><td></td><td>true</td></tr>
-
-<tr><td>(Data list input</td><td>list</td><td>true</td></tr>
 
 </table>
 
@@ -81,8 +79,6 @@ Computes a two-sample `z` confidence interval.
 <tr><td>n2</td><td></td><td>true</td></tr>
 
 <tr><td>confidence level</td><td></td><td>true</td></tr>
-
-<tr><td>(Summary stats input</td><td></td><td>true</td></tr>
 
 </table>
 
