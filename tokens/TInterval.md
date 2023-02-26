@@ -9,12 +9,12 @@
 ## Description
 Computes a `t` confidence interval.
 
-<b>Comment</b>:(Data list input)
+<b>Comment</b>:Data list input
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`TInterval [listname,freqlist,confidence level](Data list input)`
+`TInterval [listname,freqlist,confidence level]`
 
 ## Arguments
 <table>
@@ -37,12 +37,12 @@ Computes a `t` confidence interval.
 ## Description
 Computes a `t` confidence interval.
 
-<b>Comment</b>:(Summary stats input)
+<b>Comment</b>:Summary stats input
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`TInterval v,Sx,n[,confidence level](Summary stats input)`
+`TInterval v,Sx,n[,confidence level]`
 
 ## Arguments
 <table>

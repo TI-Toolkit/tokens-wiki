@@ -2548,7 +2548,6 @@
     "syntaxes": [
       {
         "syntax": "►Eff(nominal rate,compounding periods)",
-        "comment": "compounding periods)",
         "arguments": [
           [
             "nominal rate",
@@ -6715,7 +6714,6 @@
     "syntaxes": [
       {
         "syntax": "►Nom(effective rate,compounding periods)",
-        "comment": "compounding periods)",
         "arguments": [
           [
             "effective rate",
@@ -9903,8 +9901,8 @@
     ],
     "syntaxes": [
       {
-        "syntax": "2-SampTInt[listname1,listname2,freqlist1,freqlist2,confidence level,pooled](Data list input)",
-        "comment": "(Data list input)",
+        "syntax": "2-SampTInt[listname1,listname2,freqlist1,freqlist2,confidence level,pooled]",
+        "comment": "Data list input",
         "arguments": [
           [
             "listname1",
@@ -9951,8 +9949,8 @@
         ]
       },
       {
-        "syntax": "2-SampTIntv1,Sx1,n1,v2,Sx2,n2[,confidence  level,pooled](Summary stats input)",
-        "comment": "(Summary stats input)",
+        "syntax": "2-SampTIntv1,Sx1,n1,v2,Sx2,n2[,confidence  level,pooled]",
+        "comment": "Summary stats input",
         "arguments": [
           [
             "v",
@@ -10175,8 +10173,8 @@
     ],
     "syntaxes": [
       {
-        "syntax": "2-SampZInt(s1,s2[,listname1,listname2,freqlist1,freqlist2,confidence level])(Data list input)",
-        "comment": "(Data list input)",
+        "syntax": "2-SampZInt(s1,s2[,listname1,listname2,freqlist1,freqlist2,confidence level])",
+        "comment": "Data list input",
         "arguments": [
           [
             "s",
@@ -10238,8 +10236,8 @@
         ]
       },
       {
-        "syntax": "2-SampZInt(s1,s2,v1,n1,v2,n2[,confidence level])(Summary stats input)",
-        "comment": "(Summary stats input)",
+        "syntax": "2-SampZInt(s1,s2,v1,n1,v2,n2[,confidence level])",
+        "comment": "Summary stats input",
         "arguments": [
           [
             "s",
@@ -12472,7 +12470,6 @@
     "syntaxes": [
       {
         "syntax": "ThenSee If:Then",
-        "comment": "See If:Then",
         "arguments": [
           [
             "See",
@@ -12609,8 +12606,8 @@
     ],
     "syntaxes": [
       {
-        "syntax": "TInterval [listname,freqlist,confidence level](Data list input)",
-        "comment": "(Data list input)",
+        "syntax": "TInterval [listname,freqlist,confidence level]",
+        "comment": "Data list input",
         "arguments": [
           [
             "listname",
@@ -12642,8 +12639,8 @@
         ]
       },
       {
-        "syntax": "TInterval v,Sx,n[,confidence level](Summary stats input)",
-        "comment": "(Summary stats input)",
+        "syntax": "TInterval v,Sx,n[,confidence level]",
+        "comment": "Summary stats input",
         "arguments": [
           [
             "v",
@@ -12795,8 +12792,8 @@
     ],
     "syntaxes": [
       {
-        "syntax": "T-Test m0[,listname,freqlist,alternative,drawflag,color#]) (Data list input)",
-        "comment": "(Data list input)",
+        "syntax": "T-Test m0[,listname,freqlist,alternative,drawflag,color#]) ",
+        "comment": "Data list input",
         "arguments": [
           [
             "m",
@@ -13598,7 +13595,6 @@
     "syntaxes": [
       {
         "syntax": ":Whilecondition:commands\n :End:command",
-        "comment": ":End:command",
         "arguments": [
           [
             "condition",
@@ -13947,8 +13943,8 @@
     ],
     "syntaxes": [
       {
-        "syntax": "ZIntervals[,listname,freqlist,confidence level](Data list input)",
-        "comment": "(Data list input)",
+        "syntax": "ZIntervals[,listname,freqlist,confidence level]",
+        "comment": "Data list input",
         "arguments": [
           [
             "s",
@@ -13985,8 +13981,8 @@
         ]
       },
       {
-        "syntax": "ZIntervals,v,n[,confidence level](Summary stats input)",
-        "comment": "(Summary stats input)",
+        "syntax": "ZIntervals,v,n[,confidence level]",
+        "comment": "Summary stats input",
         "arguments": [
           [
             "s",
@@ -14297,8 +14293,8 @@
     ],
     "syntaxes": [
       {
-        "syntax": "Z-Test(m0,s[,listname,freqlist,alternative,drawflag,color#])(Data list input)",
-        "comment": "(Data list input)",
+        "syntax": "Z-Test(m0,s[,listname,freqlist,alternative,drawflag,color#])",
+        "comment": "Data list input",
         "arguments": [
           [
             "m",
@@ -14355,8 +14351,8 @@
         ]
       },
       {
-        "syntax": "Z-Test(m0,s,v,n[,alternative,drawflag,color#])(Summary stats input)",
-        "comment": "(Summary stats input)",
+        "syntax": "Z-Test(m0,s,v,n[,alternative,drawflag,color#])",
+        "comment": "Summary stats input",
         "arguments": [
           [
             "m",

@@ -9,7 +9,6 @@
 ## Description
 Executes `commands` while `condition` is true.
 
-<b>Comment</b>::End:command
 
 <b>Availability</b>: Token only available from within the Basic editor.
 

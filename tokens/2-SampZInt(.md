@@ -9,12 +9,12 @@
 ## Description
 Computes a two-sample `z` confidence interval.
 
-<b>Comment</b>:(Data list input)
+<b>Comment</b>:Data list input
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`2-SampZInt(s1,s2[,listname1,listname2,freqlist1,freqlist2,confidence level])(Data list input)`
+`2-SampZInt(s1,s2[,listname1,listname2,freqlist1,freqlist2,confidence level])`
 
 ## Arguments
 <table>
@@ -49,12 +49,12 @@ Computes a two-sample `z` confidence interval.
 ## Description
 Computes a two-sample `z` confidence interval.
 
-<b>Comment</b>:(Summary stats input)
+<b>Comment</b>:Summary stats input
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`2-SampZInt(s1,s2,v1,n1,v2,n2[,confidence level])(Summary stats input)`
+`2-SampZInt(s1,s2,v1,n1,v2,n2[,confidence level])`
 
 ## Arguments
 <table>

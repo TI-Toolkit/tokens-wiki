@@ -22,6 +22,10 @@ Processing notes:
  - all this gets merged together in a json object <bytes,props>
 ***/
 
+const escapeRegExp = function(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 try {
     const fileContents = fs.readFileSync('./input/adriweb_tokens.csv', 'utf8');
     const records = CSVParse(fileContents, { columns: true, skip_empty_lines: true });
@@ -240,7 +244,16 @@ for(let i = 0; i < 26; i++)
         const specialCategory = token.querySelector('thead > tr.Head-Header1 > th.HeadD-Column2-Header1 > p.MenuName')?.textContent.trim() ?? '';
 
         const syntaxLine = token.querySelector('tbody p.SyntaxLine');
-        const wholeSyntaxLine = (syntaxLine?.textContent ?? '').replace(',[,','[,').replace(/ +/g,' ').trim();
+
+        let wholeSyntaxLine = (syntaxLine?.textContent ?? '').replace(',[,','[,').replace(/ +/g,' ').replace(/ +/g,' ').trim();
+        if (comment) {
+            if (/^\(.*\)$/.test(comment)) {
+                wholeSyntaxLine = wholeSyntaxLine.replace(new RegExp(escapeRegExp(comment) + '$'), ''); // remove potential comment at the end
+                comment = comment.substring(1, comment.length-1);
+            } else if (wholeSyntaxLine.endsWith(comment)) {
+                comment = undefined;
+            }
+        }
 
         let optionalSinceIdx = (wholeSyntaxLine.startsWith(`${name}[`) || wholeSyntaxLine.startsWith(`${name.trim()}[`)) ? 0 : null;
         let _argIdx = 0;

@@ -10,12 +10,12 @@
 Performs a `z` test with frequency `freqlist`. `alternative`= -`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
-<b>Comment</b>:(Data list input)
+<b>Comment</b>:Data list input
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`Z-Test(m0,s[,listname,freqlist,alternative,drawflag,color#])(Data list input)`
+`Z-Test(m0,s[,listname,freqlist,alternative,drawflag,color#])`
 
 ## Arguments
 <table>
@@ -49,12 +49,12 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 Performs a `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
-<b>Comment</b>:(Summary stats input)
+<b>Comment</b>:Summary stats input
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`Z-Test(m0,s,v,n[,alternative,drawflag,color#])(Summary stats input)`
+`Z-Test(m0,s,v,n[,alternative,drawflag,color#])`
 
 ## Arguments
 <table>

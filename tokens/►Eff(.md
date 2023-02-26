@@ -9,7 +9,6 @@
 ## Description
 Computes the effective interest rate.
 
-<b>Comment</b>:compounding periods)
 
 <b>Availability</b>: Token available everywhere.
 

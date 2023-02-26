@@ -9,12 +9,12 @@
 ## Description
 Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.
 
-<b>Comment</b>:(Data list input)
+<b>Comment</b>:Data list input
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`2-SampTInt[listname1,listname2,freqlist1,freqlist2,confidence level,pooled](Data list input)`
+`2-SampTInt[listname1,listname2,freqlist1,freqlist2,confidence level,pooled]`
 
 ## Arguments
 <table>
@@ -43,12 +43,12 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 ## Description
 Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.
 
-<b>Comment</b>:(Summary stats input)
+<b>Comment</b>:Summary stats input
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`2-SampTIntv1,Sx1,n1,v2,Sx2,n2[,confidence  level,pooled](Summary stats input)`
+`2-SampTIntv1,Sx1,n1,v2,Sx2,n2[,confidence  level,pooled]`
 
 ## Arguments
 <table>

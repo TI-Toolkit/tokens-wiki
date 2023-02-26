@@ -9,12 +9,12 @@
 ## Description
 Computes a `z` confidence interval.
 
-<b>Comment</b>:(Data list input)
+<b>Comment</b>:Data list input
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`ZIntervals[,listname,freqlist,confidence level](Data list input)`
+`ZIntervals[,listname,freqlist,confidence level]`
 
 ## Arguments
 <table>
@@ -39,12 +39,12 @@ Computes a `z` confidence interval.
 ## Description
 Computes a `z` confidence interval.
 
-<b>Comment</b>:(Summary stats input)
+<b>Comment</b>:Summary stats input
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`ZIntervals,v,n[,confidence level](Summary stats input)`
+`ZIntervals,v,n[,confidence level]`
 
 ## Arguments
 <table>
