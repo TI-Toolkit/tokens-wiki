@@ -4227,11 +4227,11 @@
     ],
     "syntaxes": [
       {
-        "syntax": "Histogram Plot#(type,Xlist[,freqlist,color#])",
+        "syntax": "Plot#(type,Xlist[,freqlist,color#])",
         "arguments": [
           [
-            "Plot#type",
-            "",
+            "type",
+            "Histogram token",
             false
           ],
           [
@@ -6459,11 +6459,11 @@
     ],
     "syntaxes": [
       {
-        "syntax": "ModBoxplot Plot#(type,Xlist[,freqlist,color#])",
+        "syntax": "Plot#(type,Xlist[,freqlist,color#])",
         "arguments": [
           [
-            "Plot#type",
-            "",
+            "type",
+            "ModBoxplot token",
             false
           ],
           [
@@ -6872,11 +6872,11 @@
     ],
     "syntaxes": [
       {
-        "syntax": "NormProbPlot Plot#(type,Xlist[,freqlist,color#])",
+        "syntax": "Plot#(type,Xlist[,freqlist,color#])",
         "arguments": [
           [
-            "Plot#type",
-            "",
+            "type",
+            "NormProbPlot token",
             false
           ],
           [
@@ -10485,11 +10485,11 @@
     ],
     "syntaxes": [
       {
-        "syntax": "Scatter Plot#(type,Xlist[,freqlist,color#])",
+        "syntax": "Plot#(type,Xlist[,freqlist,color#])",
         "arguments": [
           [
-            "Plot#type",
-            "",
+            "type",
+            "Scatter token",
             false
           ],
           [
@@ -13673,11 +13673,11 @@
     ],
     "syntaxes": [
       {
-        "syntax": "xyLine Plot#(type,Xlist[,freqlist,color#])",
+        "syntax": "Plot#(type,Xlist[,freqlist,color#])",
         "arguments": [
           [
-            "Plot#type",
-            "",
+            "type",
+            "xyLine token",
             false
           ],
           [

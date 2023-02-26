@@ -14,13 +14,13 @@ Where # gives Plot1, Plot2 or Plot3.
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`Scatter Plot#(type,Xlist[,freqlist,color#])`
+`Plot#(type,Xlist[,freqlist,color#])`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>Plot#type</td><td></td><td>false</td></tr>
+<tr><td>type</td><td>Scatter token</td><td>false</td></tr>
 
 <tr><td>Xlist</td><td>list</td><td>false</td></tr>
 

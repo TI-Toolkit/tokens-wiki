@@ -299,9 +299,13 @@ for(let i = 0; i < 26; i++)
             args = newArgs;
         }
 
-        // arg type determination...
+        // args misc. cleanup and type determination...
         args = args.filter(el => el && el[0].length);
         for (const [idx, [argName]] of Object.entries(args)) {
+            if (argName === "Plot#type") {
+                wholeSyntaxLine = wholeSyntaxLine.replace(new RegExp('^' + escapeRegExp(name)), '').trim();
+                args[idx] = [ 'type', `${name} token`, false ];
+            }
             if (/^listname\d/i.test(argName)) {
                 args[idx][1] = 'listName'
             } else if (argName.includes('list')) {
