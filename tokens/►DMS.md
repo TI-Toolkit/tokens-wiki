@@ -24,7 +24,7 @@ Displays `value` in DMS format.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>angle</kbd>, `ANGLE`, `4:`, `DMS`
+<kbd>2nd</kbd>, <kbd>angle</kbd>, `ANGLE`, `4:DMS`
 <hr>
 
 ## Examples

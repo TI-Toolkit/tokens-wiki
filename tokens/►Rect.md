@@ -24,7 +24,7 @@ Displays `complex value` or list in rectangular format.
 </table>
 
 ## Location
-<kbd>math</kbd>, `CMPLX`, `6:`, `Rect`
+<kbd>math</kbd>, `CMPLX`, `6:Rect`
 <hr>
 
 ## Examples

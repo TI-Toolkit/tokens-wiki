@@ -33,7 +33,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `C:`, `Test(`
+<kbd>stat</kbd>, `TESTS`, `C:Test(`
 <hr>
 
 ## Examples

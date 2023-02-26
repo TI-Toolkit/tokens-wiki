@@ -32,7 +32,7 @@ Returns a matrix with `rowA` of `matrix` multiplied by `value`, added to `rowB`,
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `F:`, `row+(`
+<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `F:row+(`
 <hr>
 
 ## Examples

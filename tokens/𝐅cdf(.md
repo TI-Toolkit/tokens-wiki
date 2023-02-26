@@ -32,7 +32,7 @@ Computes the Û distribution probability between `lowerbound `and `upperbound` f
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `0:`, `cdf(`
+<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `0:cdf(`
 <hr>
 
 ## Examples

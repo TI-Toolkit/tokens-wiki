@@ -729,8 +729,7 @@
           "[2nd]",
           "[distr]",
           "DISTR",
-          "8:",
-          "cdf("
+          "8:cdf("
         ]
       }
     ],
@@ -774,8 +773,7 @@
           "[2nd]",
           "[distr]",
           "DISTR",
-          "7:",
-          "pdf("
+          "7:pdf("
         ]
       }
     ],
@@ -828,8 +826,7 @@
         "location": [
           "[stat]",
           "TESTS",
-          "C:",
-          "Test("
+          "C:Test("
         ]
       }
     ],
@@ -1662,8 +1659,7 @@
         "location": [
           "[math]",
           "MATH",
-          "2:",
-          "Dec"
+          "2:Dec"
         ]
       }
     ],
@@ -2171,8 +2167,7 @@
           "[2nd]",
           "[angle]",
           "ANGLE",
-          "4:",
-          "DMS"
+          "4:DMS"
         ]
       }
     ],
@@ -2566,8 +2561,7 @@
           "[apps]",
           "1:Finance",
           "CALC",
-          "C:",
-          "Eff("
+          "C:►Eff("
         ]
       }
     ],
@@ -2682,8 +2676,7 @@
         "location": [
           "[2nd]",
           "[catalog]",
-          "Equ",
-          "String("
+          "Equ►String("
         ]
       }
     ],
@@ -2943,8 +2936,7 @@
           "[2nd]",
           "[distr]",
           "DISTR",
-          "0:",
-          "cdf("
+          "0:cdf("
         ]
       }
     ],
@@ -3480,8 +3472,7 @@
           "[2nd]",
           "[distr]",
           "DISTR",
-          "9:",
-          "pdf("
+          "9:pdf("
         ]
       }
     ],
@@ -3514,8 +3505,7 @@
         "location": [
           "[math]",
           "MATH",
-          "1:",
-          "Frac"
+          "1:Frac"
         ]
       }
     ],
@@ -4815,8 +4805,7 @@
           "[apps]",
           "1:Finance",
           "CALC",
-          "A:",
-          "Int("
+          "A:Int("
         ]
       }
     ],
@@ -5650,8 +5639,7 @@
           "[2nd]",
           "[list]",
           "OPS",
-          "7:",
-          "List("
+          "7:List("
         ]
       }
     ],
@@ -6004,8 +5992,7 @@
           "[2nd]",
           "[list]",
           "OPS",
-          "A:Matr",
-          "list("
+          "A:Matr►list("
         ]
       },
       {
@@ -6033,8 +6020,7 @@
           "[2nd]",
           "[list]",
           "OPS",
-          "A:Matr",
-          "list("
+          "A:Matr►list("
         ]
       }
     ],
@@ -6612,8 +6598,7 @@
         "location": [
           "[alpha]",
           "[F1]",
-          "1:",
-          "n/d"
+          "1:n/d"
         ]
       }
     ],
@@ -6732,8 +6717,7 @@
           "[apps]",
           "1:Finance",
           "CALC",
-          "B:",
-          "Nom("
+          "B:►Nom("
         ]
       }
     ],
@@ -7762,8 +7746,7 @@
         "location": [
           "[math]",
           "CMPLX",
-          "7:",
-          "Polar"
+          "7:Polar"
         ]
       }
     ],
@@ -7872,8 +7855,7 @@
           "[apps]",
           "1:Finance",
           "CALC",
-          "0:",
-          "Prn("
+          "0:Prn("
         ]
       }
     ],
@@ -9178,8 +9160,7 @@
         "location": [
           "[math]",
           "CMPLX",
-          "6:",
-          "Rect"
+          "6:Rect"
         ]
       }
     ],
@@ -9498,8 +9479,7 @@
           "[2nd]",
           "[matrix]",
           "MATH",
-          "E:",
-          "row("
+          "E:row("
         ]
       }
     ],
@@ -9597,8 +9577,7 @@
           "[2nd]",
           "[matrix]",
           "MATH",
-          "F:",
-          "row+("
+          "F:row+("
         ]
       }
     ],

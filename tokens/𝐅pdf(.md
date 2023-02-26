@@ -30,7 +30,7 @@ Computes the Û distribution probability between `lowerbound `and `upperbound` f
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `9:`, `pdf(`
+<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `9:pdf(`
 <hr>
 
 ## Examples

@@ -24,7 +24,7 @@ Displays a real or complex number, expression, list, or matrix as a fraction sim
 </table>
 
 ## Location
-<kbd>math</kbd>, `MATH`, `1:`, `Frac`
+<kbd>math</kbd>, `MATH`, `1:Frac`
 <hr>
 
 ## Examples

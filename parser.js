@@ -342,6 +342,17 @@ for(let i = 0; i < 26; i++)
                                       .replace(/^J$/, '[eˣ]').replace(/^D$/, '[ᴇᴇ]').replace(/^t$/, '[alpha]').replace(/^\^$/, '[F1]')
                                       .replace(/^N$/, '[catalog]').replace(/^<$/, '[draw]').replace(/^,$/, '[stat plot]').replace(/^Z$/, '[ans]')
                                       .replace(/^½$/, '[vars]').replace(/^æ$/, 'I%').replace(/^Ú$/, '𝗡').replace(/^ä$/, '*').replace(/^@$/, 'Δ'));
+        if (location.length >= 2) {
+            if (name.includes('►')) {
+                const [ part1, part2 ] = name.split('►');
+                if (location[location.length-1] === part2 && (new RegExp('^([A-Z\d]:)?' + escapeRegExp(part1) + '$').test(location[location.length-2]))) {
+                    location[location.length-2] += '►' + location.pop();
+                }
+            }
+            if (/^[A-Z\d]:$/.test(location[location.length-2])) {
+                location[location.length-2] += location.pop();
+            }
+        }
 
         let specificName = undefined;
         if (!bytes) {

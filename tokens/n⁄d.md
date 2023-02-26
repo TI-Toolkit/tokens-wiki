@@ -16,7 +16,7 @@ Displays results as a simple fraction.
 `n/d`
 
 ## Location
-<kbd>alpha</kbd>, <kbd>F1</kbd>, `1:`, `n/d`
+<kbd>alpha</kbd>, <kbd>F1</kbd>, `1:n/d`
 <hr>
 
 ## Examples

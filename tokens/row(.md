@@ -30,7 +30,7 @@ Returns a matrix with `row` of `matrix` multiplied by `value` and stored in `row
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `E:`, `row(`
+<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `E:row(`
 <hr>
 
 ## Examples

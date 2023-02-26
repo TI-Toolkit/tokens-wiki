@@ -30,7 +30,7 @@ Computes the χ²distribution probability between `lowerbound` and` upperbound` 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `8:`, `cdf(`
+<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `8:cdf(`
 <hr>
 
 ## Examples

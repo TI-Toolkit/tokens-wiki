@@ -24,7 +24,7 @@ Displays `complex value` in polar format.
 </table>
 
 ## Location
-<kbd>math</kbd>, `CMPLX`, `7:`, `Polar`
+<kbd>math</kbd>, `CMPLX`, `7:Polar`
 <hr>
 
 ## Examples

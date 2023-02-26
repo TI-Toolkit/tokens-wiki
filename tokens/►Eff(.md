@@ -26,7 +26,7 @@ Computes the effective interest rate.
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `C:`, `Eff(`
+<kbd>apps</kbd>, `1:Finance`, `CALC`, `C:Eff(`
 <hr>
 
 ## Examples
