@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$630E`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [T](<../categories/Catalog.md#T>)</li><li>[Variables](<../categories/Variables.md>) > [Window\T/Á](<../categories/Variables.md#Window\T/Á>)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [T](<../categories/Catalog.md#T>)</li><li>[Variables](<../categories/Variables.md>) > [Window ➤ T/θ](<../categories/Variables.md#Window ➤ T/θ>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Tmin`</li></ul> |
 
 # `Tmin`

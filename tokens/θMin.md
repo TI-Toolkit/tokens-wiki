@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6310`|
-| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window\T/Á](<../categories/Variables.md#Window\T/Á>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ T/θ](<../categories/Variables.md#Window ➤ T/θ>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `θMin`</li></ul> |
 
 # `θMin`

@@ -96,7 +96,7 @@ const mergeInfoFromDict = function(entry, dictMatch, overwriteType) {
     } else {
         entry.categories = cats;
     }
-    entry.categories = entry.categories.sort().map(cat => cat.replace('\\', ' > '));
+    entry.categories = entry.categories.sort().map(cat => cat.replace('\\', ' > ').replace('\\', ' ➤ ').replace('Á', 'θ'));
 
     // provide matched name and bytes
     return [ entry.name, dictMatch.__tag ];

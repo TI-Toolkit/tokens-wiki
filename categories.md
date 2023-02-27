@@ -124,11 +124,11 @@
 
  * <a href="./categories/Variables.md#Table">Table</a>
 
- * <a href="./categories/Variables.md#Window\T/Á">Window\T/Á</a>
+ * <a href="./categories/Variables.md#Window ➤ T/θ">Window ➤ T/θ</a>
 
- * <a href="./categories/Variables.md#Window\U/V/W">Window\U/V/W</a>
+ * <a href="./categories/Variables.md#Window ➤ U/V/W">Window ➤ U/V/W</a>
 
- * <a href="./categories/Variables.md#Window\X/Y">Window\X/Y</a>
+ * <a href="./categories/Variables.md#Window ➤ X/Y">Window ➤ X/Y</a>
 
  * <a href="./categories/Variables.md#Zoom">Zoom</a>
 

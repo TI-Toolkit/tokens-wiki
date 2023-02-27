@@ -18693,7 +18693,7 @@
     "name": "Xscl",
     "type": "variable",
     "categories": [
-      "Variables > Window\\X/Y"
+      "Variables > Window ➤ X/Y"
     ],
     "syntaxes": [
       {
@@ -18716,7 +18716,7 @@
     "name": "Yscl",
     "type": "variable",
     "categories": [
-      "Variables > Window\\X/Y"
+      "Variables > Window ➤ X/Y"
     ],
     "syntaxes": [
       {
@@ -18739,7 +18739,7 @@
     "name": "u(nMin)",
     "type": "variable",
     "categories": [
-      "Variables > Window\\U/V/W"
+      "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
@@ -18762,7 +18762,7 @@
     "name": "v(nMin)",
     "type": "variable",
     "categories": [
-      "Variables > Window\\U/V/W"
+      "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
@@ -18877,7 +18877,7 @@
     "name": "Xmin",
     "type": "variable",
     "categories": [
-      "Variables > Window\\X/Y"
+      "Variables > Window ➤ X/Y"
     ],
     "syntaxes": [
       {
@@ -18900,7 +18900,7 @@
     "name": "Xmax",
     "type": "variable",
     "categories": [
-      "Variables > Window\\X/Y"
+      "Variables > Window ➤ X/Y"
     ],
     "syntaxes": [
       {
@@ -18923,7 +18923,7 @@
     "name": "Ymin",
     "type": "variable",
     "categories": [
-      "Variables > Window\\X/Y"
+      "Variables > Window ➤ X/Y"
     ],
     "syntaxes": [
       {
@@ -18946,7 +18946,7 @@
     "name": "Ymax",
     "type": "variable",
     "categories": [
-      "Variables > Window\\X/Y"
+      "Variables > Window ➤ X/Y"
     ],
     "syntaxes": [
       {
@@ -18970,7 +18970,7 @@
     "type": "variable",
     "categories": [
       "Catalog > T",
-      "Variables > Window\\T/Á"
+      "Variables > Window ➤ T/θ"
     ],
     "syntaxes": [
       {
@@ -18994,7 +18994,7 @@
     "type": "variable",
     "categories": [
       "Catalog > T",
-      "Variables > Window\\T/Á"
+      "Variables > Window ➤ T/θ"
     ],
     "syntaxes": [
       {
@@ -19017,7 +19017,7 @@
     "name": "θMin",
     "type": "variable",
     "categories": [
-      "Variables > Window\\T/Á"
+      "Variables > Window ➤ T/θ"
     ],
     "syntaxes": [
       {
@@ -19040,7 +19040,7 @@
     "name": "θMax",
     "type": "variable",
     "categories": [
-      "Variables > Window\\T/Á"
+      "Variables > Window ➤ T/θ"
     ],
     "syntaxes": [
       {
@@ -19272,7 +19272,7 @@
     "type": "variable",
     "categories": [
       "Catalog > P",
-      "Variables > Window\\U/V/W"
+      "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
@@ -19318,7 +19318,7 @@
     "name": "nMax",
     "type": "variable",
     "categories": [
-      "Variables > Window\\U/V/W"
+      "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
@@ -19364,7 +19364,7 @@
     "name": "nMin",
     "type": "variable",
     "categories": [
-      "Variables > Window\\U/V/W"
+      "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
@@ -19433,7 +19433,7 @@
     "name": "Tstep",
     "type": "variable",
     "categories": [
-      "Variables > Window\\T/Á"
+      "Variables > Window ➤ T/θ"
     ],
     "syntaxes": [
       {
@@ -19456,7 +19456,7 @@
     "name": "θstep",
     "type": "variable",
     "categories": [
-      "Variables > Window\\T/Á"
+      "Variables > Window ➤ T/θ"
     ],
     "syntaxes": [
       {
@@ -19802,7 +19802,7 @@
     "name": "w(nMin)",
     "type": "variable",
     "categories": [
-      "Variables > Window\\U/V/W"
+      "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
@@ -19849,7 +19849,7 @@
     "type": "variable",
     "categories": [
       "Catalog > P",
-      "Variables > Window\\U/V/W"
+      "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {

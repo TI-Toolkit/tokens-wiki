@@ -46,7 +46,7 @@
  * <a href="../tokens/TblInput.md" title="0x632A">TblInput</a>
  * <a href="../tokens/TblStart.md" title="0x631A">TblStart</a>
 
-## Window\T/Á
+## Window ➤ T/θ
 
  * <a href="../tokens/Tmax.md" title="0x630F">Tmax</a>
  * <a href="../tokens/Tmin.md" title="0x630E">Tmin</a>
@@ -55,7 +55,7 @@
  * <a href="../tokens/θMin.md" title="0x6310">θMin</a>
  * <a href="../tokens/θstep.md" title="0x6323">θstep</a>
 
-## Window\U/V/W
+## Window ➤ U/V/W
 
  * <a href="../tokens/nMax.md" title="0x631D">nMax</a>
  * <a href="../tokens/nMin.md" title="0x631F">nMin</a>
@@ -65,7 +65,7 @@
  * <a href="../tokens/v(nMin).md" title="0x6305">v(nMin)</a>
  * <a href="../tokens/w(nMin).md" title="0x6332">w(nMin)</a>
 
-## Window\X/Y
+## Window ➤ X/Y
 
  * <a href="../tokens/Xmax.md" title="0x630B">Xmax</a>
  * <a href="../tokens/Xmin.md" title="0x630A">Xmin</a>

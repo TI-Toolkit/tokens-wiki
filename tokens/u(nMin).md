@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6304`|
-| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window\U/V/W](<../categories/Variables.md#Window\U/V/W>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ U/V/W](<../categories/Variables.md#Window ➤ U/V/W>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `u(nMin)`</li></ul> |
 
 # `u(nMin)`
