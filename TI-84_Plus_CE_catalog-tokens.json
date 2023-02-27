@@ -14383,5 +14383,10603 @@
     "since": {
       "TI-82": "1.0"
     }
+  },
+  "0x30": {
+    "name": "0",
+    "type": "constant",
+    "categories": [
+      "Catalog > 0"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "0",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "0"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x31": {
+    "name": "1",
+    "type": "constant",
+    "categories": [
+      "Catalog > 1"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "1",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "1"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x32": {
+    "name": "2",
+    "type": "constant",
+    "categories": [
+      "Catalog > 2"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "2",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "2"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x33": {
+    "name": "3",
+    "type": "constant",
+    "categories": [
+      "Catalog > 3"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "3",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "3"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x34": {
+    "name": "4",
+    "type": "constant",
+    "categories": [
+      "Catalog > 4"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "4",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "4"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x35": {
+    "name": "5",
+    "type": "constant",
+    "categories": [
+      "Catalog > 5"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "5",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "5"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x36": {
+    "name": "6",
+    "type": "constant",
+    "categories": [
+      "Catalog > 6"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "6",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "6"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x37": {
+    "name": "7",
+    "type": "constant",
+    "categories": [
+      "Catalog > 7"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "7",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "7"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x38": {
+    "name": "8",
+    "type": "constant",
+    "categories": [
+      "Catalog > 8"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "8",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "8"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x39": {
+    "name": "9",
+    "type": "constant",
+    "categories": [
+      "Catalog > 9"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "9",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "9"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x00": {
+    "name": "",
+    "type": "other",
+    "categories": [
+      "Catalog > "
+    ],
+    "syntaxes": [
+      {
+        "syntax": "",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": ""
+    }
+  },
+  "0x06": {
+    "name": "[",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "["
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x07": {
+    "name": "]",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ]"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x08": {
+    "name": "{",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > {"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "{",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "{"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x09": {
+    "name": "}",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > }"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "}",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "}"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x0A": {
+    "name": "ʳ",
+    "type": "postfix operator",
+    "categories": [
+      "Catalog > ʳ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ʳ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ʳ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x0B": {
+    "name": "°",
+    "type": "postfix operator",
+    "categories": [
+      "Catalog > °"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "°",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "°"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x0C": {
+    "name": "⁻¹",
+    "type": "postfix operator",
+    "categories": [
+      "Catalog > ⁻"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "⁻¹",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "⁻¹"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x0D": {
+    "name": "²",
+    "type": "postfix operator",
+    "categories": [
+      "Catalog > ²"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "²",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "²"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x0E": {
+    "name": "ᵀ",
+    "type": "postfix operator",
+    "categories": [
+      "Catalog > ᵀ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ᵀ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ᵀ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x0F": {
+    "name": "³",
+    "type": "postfix operator",
+    "categories": [
+      "Catalog > ³"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "³",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "³"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x10": {
+    "name": "(",
+    "type": "other",
+    "categories": [
+      "Catalog > ("
+    ],
+    "syntaxes": [
+      {
+        "syntax": "(",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "("
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x11": {
+    "name": ")",
+    "type": "other",
+    "categories": [
+      "Catalog > )"
+    ],
+    "syntaxes": [
+      {
+        "syntax": ")",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": ")"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x29": {
+    "name": " ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog >  "
+    ],
+    "syntaxes": [
+      {
+        "syntax": " ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": " "
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x2A": {
+    "name": "\"",
+    "type": "delimiter",
+    "categories": [
+      "Catalog > \""
+    ],
+    "syntaxes": [
+      {
+        "syntax": "\"",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "\""
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x2B": {
+    "name": ",",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ,"
+    ],
+    "syntaxes": [
+      {
+        "syntax": ",",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": ","
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x2D": {
+    "name": "!",
+    "type": "postfix operator",
+    "categories": [
+      "Catalog > !"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "!",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "!"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x3A": {
+    "name": ".",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ."
+    ],
+    "syntaxes": [
+      {
+        "syntax": ".",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "."
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x3E": {
+    "name": ":",
+    "type": "delimiter",
+    "categories": [
+      "Catalog > :"
+    ],
+    "syntaxes": [
+      {
+        "syntax": ":",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": ":"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x3F": {
+    "name": "\n",
+    "type": "delimiter",
+    "categories": [
+      "Catalog > \n"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "\n",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "\n"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x41": {
+    "name": "A",
+    "type": "variable",
+    "categories": [
+      "Catalog > A"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "A",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "A"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x42": {
+    "name": "B",
+    "type": "variable",
+    "categories": [
+      "Catalog > B"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "B",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "B"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x43": {
+    "name": "C",
+    "type": "variable",
+    "categories": [
+      "Catalog > C"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "C",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "C"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x44": {
+    "name": "D",
+    "type": "variable",
+    "categories": [
+      "Catalog > D"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "D",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "D"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x45": {
+    "name": "E",
+    "type": "variable",
+    "categories": [
+      "Catalog > E"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "E",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "E"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x46": {
+    "name": "F",
+    "type": "variable",
+    "categories": [
+      "Catalog > F"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "F",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "F"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x47": {
+    "name": "G",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "G",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "G"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x48": {
+    "name": "H",
+    "type": "variable",
+    "categories": [
+      "Catalog > H"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "H",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "H"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x49": {
+    "name": "I",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "I",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "I"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x4A": {
+    "name": "J",
+    "type": "variable",
+    "categories": [
+      "Catalog > J"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "J",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "J"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x4B": {
+    "name": "K",
+    "type": "variable",
+    "categories": [
+      "Catalog > K"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "K",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "K"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x4C": {
+    "name": "L",
+    "type": "variable",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "L",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "L"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x4D": {
+    "name": "M",
+    "type": "variable",
+    "categories": [
+      "Catalog > M"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "M",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "M"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x4E": {
+    "name": "N",
+    "type": "variable",
+    "categories": [
+      "Catalog > N"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "N",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "N"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x4F": {
+    "name": "O",
+    "type": "variable",
+    "categories": [
+      "Catalog > O"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "O",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "O"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x50": {
+    "name": "P",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "P",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "P"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x51": {
+    "name": "Q",
+    "type": "variable",
+    "categories": [
+      "Catalog > Q"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Q",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Q"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x52": {
+    "name": "R",
+    "type": "variable",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "R",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "R"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x53": {
+    "name": "S",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "S",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "S"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x54": {
+    "name": "T",
+    "type": "variable",
+    "categories": [
+      "Catalog > T"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "T",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "T"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x55": {
+    "name": "U",
+    "type": "variable",
+    "categories": [
+      "Catalog > U"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "U",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "U"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x56": {
+    "name": "V",
+    "type": "variable",
+    "categories": [
+      "Catalog > V"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "V",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "V"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x57": {
+    "name": "W",
+    "type": "variable",
+    "categories": [
+      "Catalog > W"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "W",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "W"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x58": {
+    "name": "X",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "X",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "X"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x59": {
+    "name": "Y",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5A": {
+    "name": "Z",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Z",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Z"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5B": {
+    "name": "θ",
+    "type": "variable",
+    "categories": [
+      "Catalog > Θ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "θ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "θ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5C00": {
+    "name": "[A]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[A]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[A]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5C01": {
+    "name": "[B]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[B]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[B]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5C02": {
+    "name": "[C]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[C]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[C]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5C03": {
+    "name": "[D]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[D]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[D]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5C04": {
+    "name": "[E]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[E]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[E]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5C05": {
+    "name": "[F]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[F]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[F]"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x5C06": {
+    "name": "[G]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[G]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[G]"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x5C07": {
+    "name": "[H]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[H]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[H]"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x5C08": {
+    "name": "[I]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[I]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[I]"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x5C09": {
+    "name": "[J]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[J]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[J]"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x5D00": {
+    "name": "L₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "L₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "L₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5D01": {
+    "name": "L₂",
+    "type": "variable",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "L₂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "L₂"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5D02": {
+    "name": "L₃",
+    "type": "variable",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "L₃",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "L₃"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5D03": {
+    "name": "L₄",
+    "type": "variable",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "L₄",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "L₄"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5D04": {
+    "name": "L₅",
+    "type": "variable",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "L₅",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "L₅"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5D05": {
+    "name": "L₆",
+    "type": "variable",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "L₆",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "L₆"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E10": {
+    "name": "Y₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E11": {
+    "name": "Y₂",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₂"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E12": {
+    "name": "Y₃",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₃",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₃"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E13": {
+    "name": "Y₄",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₄",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₄"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E14": {
+    "name": "Y₅",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₅",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₅"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E15": {
+    "name": "Y₆",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₆",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₆"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E16": {
+    "name": "Y₇",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₇",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₇"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E17": {
+    "name": "Y₈",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₈",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₈"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E18": {
+    "name": "Y₉",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₉",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₉"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E19": {
+    "name": "Y₀",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₀",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₀"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E20": {
+    "name": "X₁ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "X₁ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "X₁ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E21": {
+    "name": "Y₁ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₁ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₁ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E22": {
+    "name": "X₂ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "X₂ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "X₂ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E23": {
+    "name": "Y₂ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₂ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₂ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E24": {
+    "name": "X₃ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "X₃ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "X₃ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E25": {
+    "name": "Y₃ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₃ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₃ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E26": {
+    "name": "X₄ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "X₄ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "X₄ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E27": {
+    "name": "Y₄ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₄ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₄ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E28": {
+    "name": "X₅ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "X₅ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "X₅ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E29": {
+    "name": "Y₅ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₅ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₅ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E2A": {
+    "name": "X₆ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "X₆ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "X₆ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E2B": {
+    "name": "Y₆ᴛ",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Y₆ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Y₆ᴛ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E40": {
+    "name": "r₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "r₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "r₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E41": {
+    "name": "r₂",
+    "type": "variable",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "r₂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "r₂"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E42": {
+    "name": "r₃",
+    "type": "variable",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "r₃",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "r₃"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E43": {
+    "name": "r₄",
+    "type": "variable",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "r₄",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "r₄"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E44": {
+    "name": "r₅",
+    "type": "variable",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "r₅",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "r₅"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E45": {
+    "name": "r₆",
+    "type": "variable",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "r₆",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "r₆"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E80": {
+    "name": "|u",
+    "type": "variable",
+    "categories": [
+      "Catalog > |"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "|u",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "|u"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E81": {
+    "name": "|v",
+    "type": "variable",
+    "categories": [
+      "Catalog > |"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "|v",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "|v"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x5E82": {
+    "name": "|w",
+    "type": "variable",
+    "categories": [
+      "Catalog > |"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "|w",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "|w"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6000": {
+    "name": "Pic1",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Pic1",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Img1"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6001": {
+    "name": "Pic2",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Pic2",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Img2"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6002": {
+    "name": "Pic3",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Pic3",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Img3"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6003": {
+    "name": "Pic4",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Pic4",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Img4"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6004": {
+    "name": "Pic5",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Pic5",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Img5"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6005": {
+    "name": "Pic6",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Pic6",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Img6"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6006": {
+    "name": "Pic7",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Pic7",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Img7"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6007": {
+    "name": "Pic8",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Pic8",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Img8"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6008": {
+    "name": "Pic9",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Pic9",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Img9"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6009": {
+    "name": "Pic0",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Pic0",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Img0"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6100": {
+    "name": "GDB1",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GDB1",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BDG1"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6101": {
+    "name": "GDB2",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GDB2",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BDG2"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6102": {
+    "name": "GDB3",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GDB3",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BDG3"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6103": {
+    "name": "GDB4",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GDB4",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BDG4"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6104": {
+    "name": "GDB5",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GDB5",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BDG5"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6105": {
+    "name": "GDB6",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GDB6",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BDG6"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6106": {
+    "name": "GDB7",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GDB7",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BDG7"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6107": {
+    "name": "GDB8",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GDB8",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BDG8"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6108": {
+    "name": "GDB9",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GDB9",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BDG9"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6109": {
+    "name": "GDB0",
+    "type": "variable",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GDB0",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BDG0"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6201": {
+    "name": "RegEQ",
+    "type": "variable",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "RegEQ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "RegEQ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0xBBBE": {
+    "name": "n",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > N"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "n",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "n"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0x6203": {
+    "name": "x̄",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "x̄",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "x̄"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6204": {
+    "name": "Σx",
+    "type": "variable",
+    "categories": [
+      "Catalog > Σ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Σx",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Σx"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6205": {
+    "name": "Σx²",
+    "type": "variable",
+    "categories": [
+      "Catalog > Σ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Σx²",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Σx²"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6206": {
+    "name": "[Sx]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[Sx]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[Sx]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6207": {
+    "name": "σx",
+    "type": "variable",
+    "categories": [
+      "Catalog > Σ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "σx",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "σx"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6208": {
+    "name": "[minX]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[minX]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[minX]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6209": {
+    "name": "[maxX]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[maxX]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[maxX]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x620A": {
+    "name": "[minY]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[minY]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[minY]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x620B": {
+    "name": "[maxY]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[maxY]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[maxY]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x620C": {
+    "name": "ȳ",
+    "type": "variable",
+    "categories": [
+      "Catalog > Ȳ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ȳ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ȳ"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x620D": {
+    "name": "Σy",
+    "type": "variable",
+    "categories": [
+      "Catalog > Σ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Σy",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Σy"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x620E": {
+    "name": "Σy²",
+    "type": "variable",
+    "categories": [
+      "Catalog > Σ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Σy²",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Σy²"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x620F": {
+    "name": "[Sy]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[Sy]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[Sy]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6210": {
+    "name": "σy",
+    "type": "variable",
+    "categories": [
+      "Catalog > Σ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "σy",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "σy"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6211": {
+    "name": "Σxy",
+    "type": "variable",
+    "categories": [
+      "Catalog > Σ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Σxy",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Σxy"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6212": {
+    "name": "[r]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[r]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[r]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6213": {
+    "name": "[Med]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[Med]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[Med]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6214": {
+    "name": "Q₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > Q"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Q₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Q₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6215": {
+    "name": "Q₃",
+    "type": "variable",
+    "categories": [
+      "Catalog > Q"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Q₃",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Q₃"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6216": {
+    "name": "[|a]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[|a]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[|a]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6217": {
+    "name": "[|b]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[|b]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[|b]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6218": {
+    "name": "[|c]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[|c]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[|c]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6219": {
+    "name": "[|d]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[|d]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[|d]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x621A": {
+    "name": "[|e]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[|e]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[|e]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x621B": {
+    "name": "x₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "x₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "x₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x621C": {
+    "name": "x₂",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "x₂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "x₂"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x621D": {
+    "name": "x₃",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "x₃",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "x₃"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x621E": {
+    "name": "y₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "y₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "y₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x621F": {
+    "name": "y₂",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "y₂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "y₂"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6220": {
+    "name": "y₃",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "y₃",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "y₃"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6221": {
+    "name": "𝒏",
+    "type": "variable",
+    "categories": [
+      "Catalog > \ud835"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "𝒏",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "𝒏"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6222": {
+    "name": "[p]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[p]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[p]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6223": {
+    "name": "[z]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[z]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[z]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6224": {
+    "name": "[t]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[t]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[t]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6225": {
+    "name": "χ²",
+    "type": "variable",
+    "categories": [
+      "Catalog > Χ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "χ²",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "χ²"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6226": {
+    "name": "[|F]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[|F]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[|F]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6227": {
+    "name": "[df]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[df]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[df]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6228": {
+    "name": "p̂",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "p̂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "p̂"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6229": {
+    "name": "p̂₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "p̂₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "p̂₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x622A": {
+    "name": "p̂₂",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "p̂₂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "p̂₂"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x622B": {
+    "name": "x̄₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "x̄₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "x̄₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x622C": {
+    "name": "Sx₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Sx₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Éctypx₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x622D": {
+    "name": "n₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > N"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "n₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "n₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x622E": {
+    "name": "x̄₂",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "x̄₂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "x̄₂"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x622F": {
+    "name": "Sx₂",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Sx₂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Éctypx₂"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6230": {
+    "name": "n₂",
+    "type": "variable",
+    "categories": [
+      "Catalog > N"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "n₂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "n₂"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6231": {
+    "name": "Sxp",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Sxp",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Éctypxp"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6232": {
+    "name": "lower",
+    "type": "variable",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "lower",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "borninf"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6233": {
+    "name": "upper",
+    "type": "variable",
+    "categories": [
+      "Catalog > U"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "upper",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "bornsup"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6234": {
+    "name": "[s]",
+    "type": "variable",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[s]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[s]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6235": {
+    "name": "r²",
+    "type": "variable",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "r²",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "r²"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6236": {
+    "name": "R²",
+    "type": "variable",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "R²",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "R²"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6237": {
+    "name": "[factordf]",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[factordf]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[factordf]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6238": {
+    "name": "[factorSS]",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[factorSS]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[factorSS]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6239": {
+    "name": "[factorMS]",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[factorMS]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[factorMS]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x623A": {
+    "name": "[errordf]",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[errordf]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[errordf]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x623B": {
+    "name": "[errorSS]",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[errorSS]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[errorSS]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x623C": {
+    "name": "[errorMS]",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ["
+    ],
+    "syntaxes": [
+      {
+        "syntax": "[errorMS]",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "[errorMS]"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6300": {
+    "name": "ZXscl",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZXscl",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZXscl"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6301": {
+    "name": "ZYscl",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZYscl",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZYscl"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6302": {
+    "name": "Xscl",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Xscl",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Xscl"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6303": {
+    "name": "Yscl",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Yscl",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Yscl"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6304": {
+    "name": "u(nMin)",
+    "type": "variable",
+    "categories": [
+      "Catalog > U"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "u(nMin)",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "u(nMin)"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6305": {
+    "name": "v(nMin)",
+    "type": "variable",
+    "categories": [
+      "Catalog > V"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "v(nMin)",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "v(nMin)"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6306": {
+    "name": "Un-₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > U"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Un-₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Un-₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6307": {
+    "name": "Vn-₁",
+    "type": "variable",
+    "categories": [
+      "Catalog > V"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Vn-₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Vn-₁"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6308": {
+    "name": "Zu(nmin)",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Zu(nmin)",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Zu(nmin)"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6309": {
+    "name": "Zv(nmin)",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Zv(nmin)",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Zv(nmin)"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x630A": {
+    "name": "Xmin",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Xmin",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Xmin"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x630B": {
+    "name": "Xmax",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Xmax",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Xmax"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x630C": {
+    "name": "Ymin",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ymin",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ymin"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x630D": {
+    "name": "Ymax",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ymax",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ymax"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x630E": {
+    "name": "Tmin",
+    "type": "variable",
+    "categories": [
+      "Catalog > T"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Tmin",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Tmin"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x630F": {
+    "name": "Tmax",
+    "type": "variable",
+    "categories": [
+      "Catalog > T"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Tmax",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Tmax"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6310": {
+    "name": "θMin",
+    "type": "variable",
+    "categories": [
+      "Catalog > Θ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "θMin",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "θMin"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6311": {
+    "name": "θMax",
+    "type": "variable",
+    "categories": [
+      "Catalog > Θ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "θMax",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "θMax"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6312": {
+    "name": "ZXmin",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZXmin",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZXmin"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6313": {
+    "name": "ZXmax",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZXmax",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZXmax"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6314": {
+    "name": "ZYmin",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZYmin",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZYmin"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6315": {
+    "name": "ZYmax",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZYmax",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZYmax"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6316": {
+    "name": "Zθmin",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Zθmin",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Zθmin"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6317": {
+    "name": "Zθmax",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Zθmax",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Zθmax"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6318": {
+    "name": "ZTmin",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZTmin",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZTmin"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6319": {
+    "name": "ZTmax",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZTmax",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZTmax"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x631A": {
+    "name": "TblStart",
+    "type": "variable",
+    "categories": [
+      "Catalog > T"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "TblStart",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "TblStart"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x631B": {
+    "name": "PlotStart",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "PlotStart",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "PlotStart"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x631C": {
+    "name": "ZPlotStart",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZPlotStart",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZPlotStart"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x631D": {
+    "name": "nMax",
+    "type": "variable",
+    "categories": [
+      "Catalog > N"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "nMax",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "nMax"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x631E": {
+    "name": "ZnMax",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZnMax",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZnMax"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x631F": {
+    "name": "nMin",
+    "type": "variable",
+    "categories": [
+      "Catalog > N"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "nMin",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "nMin"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6320": {
+    "name": "ZnMin",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZnMin",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZnMin"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6321": {
+    "name": "∆Tbl",
+    "type": "variable",
+    "categories": [
+      "Catalog > ∆"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "∆Tbl",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "∆Tbl"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6322": {
+    "name": "Tstep",
+    "type": "variable",
+    "categories": [
+      "Catalog > T"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Tstep",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Tstep"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6323": {
+    "name": "θstep",
+    "type": "variable",
+    "categories": [
+      "Catalog > Θ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "θstep",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "θstep"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6324": {
+    "name": "ZTstep",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZTstep",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZTstep"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6325": {
+    "name": "Zθstep",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Zθstep",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Zθstep"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6326": {
+    "name": "∆X",
+    "type": "variable",
+    "categories": [
+      "Catalog > ∆"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "∆X",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "∆X"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6327": {
+    "name": "∆Y",
+    "type": "variable",
+    "categories": [
+      "Catalog > ∆"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "∆Y",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "∆Y"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6328": {
+    "name": "XFact",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "XFact",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "XFact"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6329": {
+    "name": "YFact",
+    "type": "variable",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "YFact",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "YFact"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x632A": {
+    "name": "TblInput",
+    "type": "variable",
+    "categories": [
+      "Catalog > T"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "TblInput",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "TblInput"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x632B": {
+    "name": "𝗡",
+    "type": "variable",
+    "categories": [
+      "Catalog > \ud835"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "𝗡",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "𝗡"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x632C": {
+    "name": "I%",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "I%",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "I%"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x632D": {
+    "name": "PV",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "PV",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "VA"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x632E": {
+    "name": "PMT",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "PMT",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "PMT"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x632F": {
+    "name": "FV",
+    "type": "variable",
+    "categories": [
+      "Catalog > F"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "FV",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "VAC"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6330": {
+    "name": "|P/Y",
+    "type": "variable",
+    "categories": [
+      "Catalog > |"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "|P/Y",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "|P/Y"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6331": {
+    "name": "|C/Y",
+    "type": "variable",
+    "categories": [
+      "Catalog > |"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "|C/Y",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "|C/Y"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6332": {
+    "name": "w(nMin)",
+    "type": "variable",
+    "categories": [
+      "Catalog > W"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "w(nMin)",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "w(nMin)"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6333": {
+    "name": "Zw(nMin)",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Zw(nMin)",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Zw(nMin)"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6334": {
+    "name": "PlotStep",
+    "type": "variable",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "PlotStep",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "GraphPas"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6335": {
+    "name": "ZPlotStep",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZPlotStep",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZgraphPas"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6336": {
+    "name": "Xres",
+    "type": "variable",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Xres",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Xres"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6337": {
+    "name": "ZXres",
+    "type": "variable",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ZXres",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ZXres"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0x6338": {
+    "name": "TraceStep",
+    "type": "variable",
+    "categories": [
+      "Catalog > T"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "TraceStep",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "TracePas"
+    }
+  },
+  "0x6A": {
+    "name": "=",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > ="
+    ],
+    "syntaxes": [
+      {
+        "syntax": "=",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "="
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6B": {
+    "name": "<",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > <"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "<",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "<"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6C": {
+    "name": ">",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > >"
+    ],
+    "syntaxes": [
+      {
+        "syntax": ">",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": ">"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6D": {
+    "name": "≤",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > ≤"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "≤",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "≤"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6E": {
+    "name": "≥",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > ≥"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "≥",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "≥"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x6F": {
+    "name": "≠",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > ≠"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "≠",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "≠"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x70": {
+    "name": "+",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > +"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "+",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "+"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x71": {
+    "name": "-",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > -"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "-",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "-"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x7E": {
+    "name": "Graph Format",
+    "type": "other",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Graph Format",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Graph Format"
+    }
+  },
+  "0x7F": {
+    "name": "□",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > □"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "□",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "□"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x80": {
+    "name": "﹢",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ﹢"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "﹢",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "﹢"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0xEF73": {
+    "name": "·",
+    "type": "other",
+    "categories": [
+      "Catalog > ·"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "·",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "·"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0x82": {
+    "name": "*",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > *"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "*",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "*"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x83": {
+    "name": "/",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > /"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "/",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "/"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x91": {
+    "name": "PrintScreen",
+    "type": "action",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "PrintScreen",
+        "comment": "Not available (only token)",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "PrintScreen"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0xAA00": {
+    "name": "Str1",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Str1",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Chaine1"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xAA01": {
+    "name": "Str2",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Str2",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Chaine2"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xAA02": {
+    "name": "Str3",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Str3",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Chaine3"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xAA03": {
+    "name": "Str4",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Str4",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Chaine4"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xAA04": {
+    "name": "Str5",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Str5",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Chaine5"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xAA05": {
+    "name": "Str6",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Str6",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Chaine6"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xAA06": {
+    "name": "Str7",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Str7",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Chaine7"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xAA07": {
+    "name": "Str8",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Str8",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Chaine8"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xAA08": {
+    "name": "Str9",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Str9",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Chaine9"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xAA09": {
+    "name": "Str0",
+    "type": "variable",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Str0",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Chaine0"
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xAA": {
+    "name": "VARSTRING",
+    "type": "other",
+    "categories": [
+      "Catalog > V"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "VARSTRING",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "VARSTRING"
+    }
+  },
+  "0xAC": {
+    "name": "π",
+    "type": "constant",
+    "categories": [
+      "Catalog > Π"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "π",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "π"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0xBBD0": {
+    "name": "'",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > '"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "'",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "'"
+    }
+  },
+  "0xAF": {
+    "name": "?",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ?"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "?",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "?"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0xB0": {
+    "name": "⁻",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ⁻"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "⁻",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "⁻"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0xBB6A": {
+    "name": "Asm(",
+    "type": "function",
+    "categories": [
+      "Catalog > A"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Asm(",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Asm("
+    },
+    "since": {
+      "TI-83+": "0.103"
+    }
+  },
+  "0xBB6B": {
+    "name": "AsmComp(",
+    "type": "function",
+    "categories": [
+      "Catalog > A"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "AsmComp(",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "AsmComp("
+    },
+    "since": {
+      "TI-83+": "0.103"
+    }
+  },
+  "0xBB6C": {
+    "name": "AsmPrgm",
+    "type": "basic instruction only",
+    "categories": [
+      "Catalog > A"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "AsmPrgm",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "AsmPrgm"
+    },
+    "since": {
+      "TI-83+": "0.103"
+    }
+  },
+  "0xBB6D": {
+    "name": "compiled asm",
+    "type": "other",
+    "categories": [
+      "Catalog > C"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "compiled asm",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "compiled asm"
+    }
+  },
+  "0xBB6E": {
+    "name": "Á",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Á"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Á",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Á"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB6F": {
+    "name": "À",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > À"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "À",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "À"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB70": {
+    "name": "Â",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Â"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Â",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Â"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB71": {
+    "name": "Ä",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ä"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ä",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ä"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB72": {
+    "name": "á",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Á"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "á",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "á"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB73": {
+    "name": "à",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > À"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "à",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "à"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB74": {
+    "name": "â",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Â"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "â",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "â"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB75": {
+    "name": "ä",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ä"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ä",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ä"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB76": {
+    "name": "É",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > É"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "É",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "É"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB77": {
+    "name": "È",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > È"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "È",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "È"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB78": {
+    "name": "Ê",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ê"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ê",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ê"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB79": {
+    "name": "Ë",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ë"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ë",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ë"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB7A": {
+    "name": "é",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > É"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "é",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "é"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB7B": {
+    "name": "è",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > È"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "è",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "è"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB7C": {
+    "name": "ê",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ê"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ê",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ê"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB7D": {
+    "name": "ë",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ë"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ë",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ë"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB7F": {
+    "name": "Ì",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ì"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ì",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ì"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB80": {
+    "name": "Î",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Î"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Î",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Î"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB81": {
+    "name": "Ï",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ï"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ï",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ï"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB82": {
+    "name": "í",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Í"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "í",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "í"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB83": {
+    "name": "ì",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ì"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ì",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ì"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB84": {
+    "name": "î",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Î"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "î",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "î"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB85": {
+    "name": "ï",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ï"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ï",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ï"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB86": {
+    "name": "Ó",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ó"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ó",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ó"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB87": {
+    "name": "Ò",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ò"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ò",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ò"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB88": {
+    "name": "Ô",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ô"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ô",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ô"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB89": {
+    "name": "Ö",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ö"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ö",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ö"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB8A": {
+    "name": "ó",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ó"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ó",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ó"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB8B": {
+    "name": "ò",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ò"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ò",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ò"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB8C": {
+    "name": "ô",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ô"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ô",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ô"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB8D": {
+    "name": "ö",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ö"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ö",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ö"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB8E": {
+    "name": "Ú",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ú"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ú",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ú"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB8F": {
+    "name": "Ù",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ù"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ù",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ù"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB90": {
+    "name": "Û",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Û"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Û",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Û"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB91": {
+    "name": "Ü",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ü"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ü",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ü"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB92": {
+    "name": "ú",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ú"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ú",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ú"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB93": {
+    "name": "ù",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ù"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ù",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ù"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB94": {
+    "name": "û",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Û"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "û",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "û"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB95": {
+    "name": "ü",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ü"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ü",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ü"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB96": {
+    "name": "Ç",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ç"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ç",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ç"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB97": {
+    "name": "ç",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ç"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ç",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ç"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB98": {
+    "name": "Ñ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ñ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ñ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ñ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB99": {
+    "name": "ñ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ñ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ñ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ñ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB9A": {
+    "name": "´",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ´"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "´",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "´"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB9B": {
+    "name": "`",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > `"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "`",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "`"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB9C": {
+    "name": "¨",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ¨"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "¨",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "¨"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB9D": {
+    "name": "¿",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ¿"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "¿",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "¿"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB9E": {
+    "name": "¡",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ¡"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "¡",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "¡"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBB9F": {
+    "name": "α",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Α"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "α",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "α"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBA0": {
+    "name": "β",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Β"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "β",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "β"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBA1": {
+    "name": "γ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Γ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "γ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "γ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBA2": {
+    "name": "Δ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Δ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Δ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Δ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBA3": {
+    "name": "δ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Δ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "δ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "δ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBA4": {
+    "name": "ε",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ε"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ε",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ε"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBA5": {
+    "name": "λ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Λ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "λ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "λ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBA6": {
+    "name": "μ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Μ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "μ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "μ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBA7": {
+    "name": "|π",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > |"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "|π",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "|π"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBA8": {
+    "name": "ρ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ρ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ρ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ρ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBA9": {
+    "name": "Σ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Σ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Σ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Σ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBAB": {
+    "name": "Φ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Φ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Φ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Φ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBAC": {
+    "name": "Ω",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ω"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Ω",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Ω"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBAD": {
+    "name": "ṗ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Ṗ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ṗ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ṗ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBAE": {
+    "name": "χ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Χ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "χ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "χ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBAF": {
+    "name": "𝐅",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > \ud835"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "𝐅",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "𝐅"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBB0": {
+    "name": "a",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > A"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "a",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "a"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBB1": {
+    "name": "b",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > B"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "b",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "b"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBB2": {
+    "name": "c",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > C"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "c",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "c"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBB3": {
+    "name": "d",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > D"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "d",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "d"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBB5": {
+    "name": "f",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > F"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "f",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "f"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBB6": {
+    "name": "g",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "g",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "g"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBB7": {
+    "name": "h",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > H"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "h",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "h"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBB8": {
+    "name": "i",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "i",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "i"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBB9": {
+    "name": "j",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > J"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "j",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "j"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBBA": {
+    "name": "k",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > K"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "k",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "k"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBBC": {
+    "name": "l",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "l",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "l"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBBD": {
+    "name": "m",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > M"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "m",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "m"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBBF": {
+    "name": "o",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > O"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "o",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "o"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBC0": {
+    "name": "p",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "p",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "p"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBC1": {
+    "name": "q",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Q"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "q",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "q"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBC2": {
+    "name": "r",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "r",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "r"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBC3": {
+    "name": "s",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > S"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "s",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "s"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBC4": {
+    "name": "t",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > T"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "t",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "t"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBC5": {
+    "name": "u",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > U"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "u",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "u"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBC6": {
+    "name": "v",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > V"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "v",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "v"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBC7": {
+    "name": "w",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > W"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "w",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "w"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBC8": {
+    "name": "x",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > X"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "x",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "x"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBC9": {
+    "name": "y",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "y",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "y"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBCA": {
+    "name": "z",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Z"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "z",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "z"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBCB": {
+    "name": "σ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Σ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "σ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "σ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBCC": {
+    "name": "τ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Τ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "τ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "τ"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBCD": {
+    "name": "Í",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > Í"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Í",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Í"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBCF": {
+    "name": "~",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ~"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "~",
+        "comment": "CF-DA: 83+ 1.15 or later",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "~"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBD1": {
+    "name": "@",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > @"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "@",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "@"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBD2": {
+    "name": "#",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > #"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "#",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "#"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBD3": {
+    "name": "$",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > $"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "$",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "$"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBD4": {
+    "name": "&",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > &"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "&",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "&"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBD5": {
+    "name": "‛",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ‛"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "‛",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "‛"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBD6": {
+    "name": ";",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ;"
+    ],
+    "syntaxes": [
+      {
+        "syntax": ";",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": ";"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBD7": {
+    "name": "\\",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > \\"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "\\",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "\\"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBD8": {
+    "name": "|",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > |"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "|",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "|"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBD9": {
+    "name": "_",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > _"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "_",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "_"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBDA": {
+    "name": "%",
+    "type": "postfix operator",
+    "categories": [
+      "Catalog > %"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "%",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "%"
+    },
+    "since": {
+      "TI-83+": "1.15"
+    }
+  },
+  "0xBBDB": {
+    "name": "…",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > …"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "…",
+        "comment": "DB-F5: 83+ 1.16 or later",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "…"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBDC": {
+    "name": "∠",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ∠"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "∠",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "∠"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBDD": {
+    "name": "ß",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > SS"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ß",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ß"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBDE": {
+    "name": "ˣ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ˣ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ˣ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ˣ"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBDF": {
+    "name": "ᴛ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ᴛ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ᴛ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ᴛ"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBE0": {
+    "name": "₀",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₀"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₀",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₀"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBE1": {
+    "name": "₁",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₁"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₁",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₁"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBE2": {
+    "name": "₂",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₂"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₂",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₂"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBE3": {
+    "name": "₃",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₃"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₃",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₃"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBE4": {
+    "name": "₄",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₄"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₄",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₄"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBE5": {
+    "name": "₅",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₅"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₅",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₅"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBE6": {
+    "name": "₆",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₆"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₆",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₆"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBE7": {
+    "name": "₇",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₇"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₇",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₇"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBE8": {
+    "name": "₈",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₈"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₈",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₈"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBE9": {
+    "name": "₉",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₉"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₉",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₉"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBEA": {
+    "name": "₁₀",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ₁"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₁₀",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₁₀"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBEB": {
+    "name": "◄",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ◄"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "◄",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "◄"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBEC": {
+    "name": "►",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ►"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "►",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "►"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBED": {
+    "name": "↑",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ↑"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "↑",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "↑"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBEE": {
+    "name": "↓",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ↓"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "↓",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "↓"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBF0": {
+    "name": "×",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ×"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "×",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "×"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBF1": {
+    "name": "∫",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ∫"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "∫",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "∫"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBF2": {
+    "name": "🡅",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > \ud83e"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "🡅",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "🡅"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBF3": {
+    "name": "🡇",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > \ud83e"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "🡇",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "🡇"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBF4": {
+    "name": "√",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > √"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "√",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "√"
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBBF5": {
+    "name": "inverted =",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "inverted =",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "inverted ="
+    },
+    "since": {
+      "TI-83+": "1.16"
+    }
+  },
+  "0xBC": {
+    "name": "√(",
+    "type": "function",
+    "categories": [
+      "Catalog > √"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "√(",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "√("
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xBD": {
+    "name": "³√(",
+    "type": "function",
+    "categories": [
+      "Catalog > ³"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "³√(",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "³√("
+    },
+    "since": {
+      "TI-83": "1.010"
+    }
+  },
+  "0xC1": {
+    "name": "₁₀^(",
+    "type": "function",
+    "categories": [
+      "Catalog > ₁"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "₁₀^(",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "₁₀^("
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0xED": {
+    "name": "Plot2(",
+    "type": "function",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Plot2(",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Graph2("
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0xEE": {
+    "name": "Plot3(",
+    "type": "function",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Plot3(",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Graph3("
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0xEF1E": {
+    "name": "⬚",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ⬚"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "⬚",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "⬚"
+    },
+    "since": {
+      "TI-84+": "2.53"
+    }
+  },
+  "0xEF2E": {
+    "name": "⁄",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ⁄"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "⁄",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "⁄"
+    },
+    "since": {
+      "TI-84+": "2.53"
+    }
+  },
+  "0xEF2F": {
+    "name": "ᵤ",
+    "type": "text/symbol only",
+    "categories": [
+      "Catalog > ᵤ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ᵤ",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ᵤ"
+    },
+    "since": {
+      "TI-84+": "2.53"
+    }
+  },
+  "0xEF3D": {
+    "name": "FRAC",
+    "type": "action",
+    "categories": [
+      "Catalog > F"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "FRAC",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "FRAC"
+    },
+    "since": {
+      "TI-84+": "2.53"
+    }
+  },
+  "0xEF41": {
+    "name": "BLUE",
+    "type": "action",
+    "categories": [
+      "Catalog > B"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "BLUE",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BLEU"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF42": {
+    "name": "RED",
+    "type": "action",
+    "categories": [
+      "Catalog > R"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "RED",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ROUGE"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF43": {
+    "name": "BLACK",
+    "type": "action",
+    "categories": [
+      "Catalog > B"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "BLACK",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "NOIR"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF44": {
+    "name": "MAGENTA",
+    "type": "action",
+    "categories": [
+      "Catalog > M"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "MAGENTA",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "MAGENTA"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF45": {
+    "name": "GREEN",
+    "type": "action",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GREEN",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "VERT"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF46": {
+    "name": "ORANGE",
+    "type": "action",
+    "categories": [
+      "Catalog > O"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ORANGE",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ORANGE"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF47": {
+    "name": "BROWN",
+    "type": "action",
+    "categories": [
+      "Catalog > B"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "BROWN",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "MARRON"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF48": {
+    "name": "NAVY",
+    "type": "action",
+    "categories": [
+      "Catalog > N"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "NAVY",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BLEU MRN"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF49": {
+    "name": "LTBLUE",
+    "type": "action",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "LTBLUE",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BLEU CLR"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF4A": {
+    "name": "YELLOW",
+    "type": "action",
+    "categories": [
+      "Catalog > Y"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "YELLOW",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "JAUNE"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF4B": {
+    "name": "WHITE",
+    "type": "action",
+    "categories": [
+      "Catalog > W"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "WHITE",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "BLANC"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF4C": {
+    "name": "LTGRAY",
+    "type": "action",
+    "categories": [
+      "Catalog > L"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "LTGRAY",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "GRIS CLR"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF4D": {
+    "name": "MEDGRAY",
+    "type": "action",
+    "categories": [
+      "Catalog > M"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "MEDGRAY",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "GRIS MOY"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF4E": {
+    "name": "GRAY",
+    "type": "action",
+    "categories": [
+      "Catalog > G"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "GRAY",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "GRIS"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF4F": {
+    "name": "DARKGRAY",
+    "type": "action",
+    "categories": [
+      "Catalog > D"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "DARKGRAY",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "GRIS FON"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF50": {
+    "name": "Image1",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Image1",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Image1"
+    }
+  },
+  "0xEF51": {
+    "name": "Image2",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Image2",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Image2"
+    }
+  },
+  "0xEF52": {
+    "name": "Image3",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Image3",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Image3"
+    }
+  },
+  "0xEF53": {
+    "name": "Image4",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Image4",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Image4"
+    }
+  },
+  "0xEF54": {
+    "name": "Image5",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Image5",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Image5"
+    }
+  },
+  "0xEF55": {
+    "name": "Image6",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Image6",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Image6"
+    }
+  },
+  "0xEF56": {
+    "name": "Image7",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Image7",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Image7"
+    }
+  },
+  "0xEF57": {
+    "name": "Image8",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Image8",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Image8"
+    }
+  },
+  "0xEF58": {
+    "name": "Image9",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Image9",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Image9"
+    }
+  },
+  "0xEF59": {
+    "name": "Image0",
+    "type": "variable",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Image0",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Image0"
+    }
+  },
+  "0xEF66": {
+    "name": "QuickPlot&Fit-EQ",
+    "type": "action",
+    "categories": [
+      "Catalog > Q"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "QuickPlot&Fit-EQ",
+        "comment": "84+CSE and later",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "TracéAjust-Éq"
+    }
+  },
+  "0xEF68": {
+    "name": "Asm84CPrgm",
+    "type": "basic instruction only",
+    "categories": [
+      "Catalog > A"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Asm84CPrgm",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Asm84CPrgm"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
+  "0xEF7A": {
+    "name": "Asm83CEPrgm",
+    "type": "basic instruction only",
+    "categories": [
+      "Catalog > A"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Asm83CEPrgm",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Asm83CEPrgm"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF81": {
+    "name": "Quartiles Setting…",
+    "type": "action",
+    "categories": [
+      "Catalog > Q"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Quartiles Setting…",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Quartiles réglage…"
+    },
+    "since": {
+      "TI-84+CE": "5.1.0"
+    }
+  },
+  "0xEF82": {
+    "name": "u(𝒏-2)",
+    "type": "variable",
+    "categories": [
+      "Catalog > U"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "u(𝒏-2)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "u(𝒏-2)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF83": {
+    "name": "v(𝒏-2)",
+    "type": "variable",
+    "categories": [
+      "Catalog > V"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "v(𝒏-2)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "v(𝒏-2)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF84": {
+    "name": "w(𝒏-2)",
+    "type": "variable",
+    "categories": [
+      "Catalog > W"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "w(𝒏-2)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "w(𝒏-2)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF85": {
+    "name": "u(𝒏-1)",
+    "type": "variable",
+    "categories": [
+      "Catalog > U"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "u(𝒏-1)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "u(𝒏-1)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF86": {
+    "name": "v(𝒏-1)",
+    "type": "variable",
+    "categories": [
+      "Catalog > V"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "v(𝒏-1)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "v(𝒏-1)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF87": {
+    "name": "w(𝒏-1)",
+    "type": "variable",
+    "categories": [
+      "Catalog > W"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "w(𝒏-1)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "w(𝒏-1)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF88": {
+    "name": "u(𝒏)",
+    "type": "variable",
+    "categories": [
+      "Catalog > U"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "u(𝒏)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "u(𝒏)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF89": {
+    "name": "v(𝒏)",
+    "type": "variable",
+    "categories": [
+      "Catalog > V"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "v(𝒏)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "v(𝒏)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF8A": {
+    "name": "w(𝒏)",
+    "type": "variable",
+    "categories": [
+      "Catalog > W"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "w(𝒏)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "w(𝒏)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF8B": {
+    "name": "u(𝒏+1)",
+    "type": "variable",
+    "categories": [
+      "Catalog > U"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "u(𝒏+1)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "u(𝒏+1)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF8C": {
+    "name": "v(𝒏+1)",
+    "type": "variable",
+    "categories": [
+      "Catalog > V"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "v(𝒏+1)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "v(𝒏+1)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF8D": {
+    "name": "w(𝒏+1)",
+    "type": "variable",
+    "categories": [
+      "Catalog > W"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "w(𝒏+1)",
+        "comment": "CE OS 5.2+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "w(𝒏+1)"
+    },
+    "since": {
+      "TI-84+CE": "5.0.0"
+    }
+  },
+  "0xEF9E": {
+    "name": "Execute Program",
+    "type": "action",
+    "categories": [
+      "Catalog > E"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Execute Program",
+        "comment": "CE OS 5.3+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Exécuter programme"
+    },
+    "since": {
+      "TI-84+CE": "5.3.0"
+    }
+  },
+  "0xEF9F": {
+    "name": "Undo Clear",
+    "type": "action",
+    "categories": [
+      "Catalog > U"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Undo Clear",
+        "comment": "CE OS 5.3+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Annuler effacer"
+    },
+    "since": {
+      "TI-84+CE": "5.3.0"
+    }
+  },
+  "0xEFA0": {
+    "name": "Insert Line Above",
+    "type": "action",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Insert Line Above",
+        "comment": "CE OS 5.3+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Insérer ligne ↑"
+    },
+    "since": {
+      "TI-84+CE": "5.3.0"
+    }
+  },
+  "0xEFA1": {
+    "name": "Cut Line",
+    "type": "action",
+    "categories": [
+      "Catalog > C"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Cut Line",
+        "comment": "CE OS 5.3+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Couper ligne"
+    },
+    "since": {
+      "TI-84+CE": "5.3.0"
+    }
+  },
+  "0xEFA2": {
+    "name": "Copy Line",
+    "type": "action",
+    "categories": [
+      "Catalog > C"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Copy Line",
+        "comment": "CE OS 5.3+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Copier ligne"
+    },
+    "since": {
+      "TI-84+CE": "5.3.0"
+    }
+  },
+  "0xEFA3": {
+    "name": "Paste Line Below",
+    "type": "action",
+    "categories": [
+      "Catalog > P"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Paste Line Below",
+        "comment": "CE OS 5.3+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Coller ligne ↓"
+    },
+    "since": {
+      "TI-84+CE": "5.3.0"
+    }
+  },
+  "0xEFA4": {
+    "name": "Insert Comment Above",
+    "type": "action",
+    "categories": [
+      "Catalog > I"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Insert Comment Above",
+        "comment": "CE OS 5.3+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Insérer commentaire ↑"
+    },
+    "since": {
+      "TI-84+CE": "5.3.0"
+    }
+  },
+  "0xEFA5": {
+    "name": "Quit Editor",
+    "type": "action",
+    "categories": [
+      "Catalog > Q"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "Quit Editor",
+        "comment": "CE OS 5.3+",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "Quitter"
+    },
+    "since": {
+      "TI-84+CE": "5.3.0"
+    }
+  },
+  "0xF0": {
+    "name": "^",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > ^"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "^",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "^"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0xF1": {
+    "name": "ˣ√",
+    "type": "infix operator",
+    "categories": [
+      "Catalog > ˣ"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "ˣ√",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "ˣ√"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
   }
 }

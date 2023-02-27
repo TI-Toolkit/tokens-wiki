@@ -100,7 +100,7 @@ try {
 
     const fillTkXML = function(bytes, data) {
         tkXML[bytes] = {
-            enName: data.lang[0].name[0],
+            enName: String(data.lang[0].name[0]),
             since: data.since ? { [data.since.model]: data.since.version } : undefined,
             until: data.until ? { [data.until.model]: data.until.version } : undefined,
         };
@@ -403,6 +403,30 @@ for(let i = 0; i < 26; i++)
 
         name2bytes[name] = bytes;
     }
+}
+
+for (const [ enName, { bytes, frName, type, comment } ] of Object.entries(csv)) {
+    if (json[bytes]) {
+        continue;
+    }
+    json[bytes] = {
+        name: enName,
+        type: type ?? 'function',
+        categories: [ `Catalog > ${enName.substring(0, 1).toLocaleUpperCase()}` ],
+        syntaxes: [{
+            specificName: undefined,
+            syntax: enName,
+            comment: comment,
+            arguments: [],
+            description: '',
+            inEditorOnly: bytes.length > 4,
+            location: '',
+            specialCategory: undefined,
+        }],
+        localizations: { FR: frName },
+        since: tkXML[bytes]?.since,
+        until: tkXML[bytes]?.until,
+    };
 }
 
 fs.writeFileSync('output/TI-84_Plus_CE_catalog-tokens.json', JSON.stringify(json, null, 2));

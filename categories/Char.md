@@ -3,5 +3,5 @@
 
 ## Other
 
- * <a href="../tokens/ᴇ.md">ᴇ</a>
+ * <a href="../tokens/ᴇ.md" title="0x3B">ᴇ</a>
 

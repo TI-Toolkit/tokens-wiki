@@ -1,22 +1,20 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$BBB4`|
-| Categories    | <ul><li>[Statistics](../categories/Statistics.md) > [EQ](../categories/Statistics.md#EQ)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `e`</li></ul> |
+| Hex Value     | `$45`|
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [E](../categories/Catalog.md#E)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `E`</li></ul> |
 
-# `e`
+# `E`
 
 ## Description
-Returns decimal approximation of the constant `e`.
+
 
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`e`
+`E`
 
-## Location
-<kbd>2nd</kbd>, <kbd>e</kbd>
 <hr>
 
 ## Examples
@@ -40,7 +38,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83+</b> | 1.03 | Added
+| <b>TI-82</b> | 1.0 | Added
 
 ## Related Commands
 

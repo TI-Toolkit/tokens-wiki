@@ -1,0 +1,45 @@
+| Property      | Value |
+|---------------|-------|
+| Hex Value     | `$EF4F`|
+| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [D](../categories/Catalog.md#D)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `GRIS FON`</li></ul> |
+
+# `DARKGRAY`
+
+## Description
+
+
+
+<b>Availability</b>: Token only available from within the Basic editor.
+
+## Syntax
+`DARKGRAY`
+
+<hr>
+
+## Examples
+
+Explanation 1
+```ti-basic
+code 1
+```
+---
+Explanation 2
+```ti-basic
+code 2
+```
+
+## Error Conditions
+
+
+## Advanced Notes
+
+
+## History
+| Calculator | OS Version | Description |
+|------------|------------|-------------|
+| <b>TI-84+CSE</b> | 4.0 | Added
+
+## Related Commands
+
+    
