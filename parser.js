@@ -251,8 +251,8 @@ for(let i = 0; i < 26; i++)
             }
         }
 
-        const csvMatch = csv[name] ?? csv[`${name} `] ?? csv[` ${name} `] ?? csv[`${name})`] ?? csv[`${name}) `] ?? csv[name.replace(/\($/,'')];
-        const dictMatch = dict[name] ?? dict[`${name} `] ?? dict[`${name})`] ?? dict[`${name}) `] ?? dict[name.replace(/\($/,'')];
+        const csvMatch =   csv[name] ??  csv[`${name} `] ??  csv[` ${name} `] ??  csv[`${name})`] ??  csv[`${name}) `] ??  csv[name.replace(/\($/,'')];
+        const dictMatch = dict[name] ?? dict[`${name} `] ?? dict[` ${name} `] ?? dict[`${name})`] ?? dict[`${name}) `] ?? dict[name.replace(/\($/,'')];
 
         if (typeof(csvMatch) === 'object') {
             const [ newBytes, newComment ] = mergeInfoFromCSV(tokenEntry, csvMatch);

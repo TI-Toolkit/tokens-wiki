@@ -51,8 +51,11 @@
   },
   "0x40": {
     "name": " and ",
-    "type": "infix operator",
-    "categories": [],
+    "type": "and",
+    "categories": [
+      "Catalog > A",
+      "Test"
+    ],
     "syntaxes": [
       {
         "syntax": "valueA and valueB",
@@ -6501,8 +6504,11 @@
   },
   "0x95": {
     "name": " nCr ",
-    "type": "infix operator",
-    "categories": [],
+    "type": "combinations",
+    "categories": [
+      "Catalog > N",
+      "Math > Probability"
+    ],
     "syntaxes": [
       {
         "syntax": "valueA nCr valueB",
@@ -6946,8 +6952,11 @@
   },
   "0x94": {
     "name": " nPr ",
-    "type": "infix operator",
-    "categories": [],
+    "type": "permutations",
+    "categories": [
+      "Catalog > N",
+      "Math > Probability"
+    ],
     "syntaxes": [
       {
         "syntax": "valueA nPr valueB",
@@ -7122,8 +7131,11 @@
   },
   "0x3C": {
     "name": " or ",
-    "type": "infix operator",
-    "categories": [],
+    "type": "or",
+    "categories": [
+      "Catalog > O",
+      "Test"
+    ],
     "syntaxes": [
       {
         "syntax": "valueA or valueB",
@@ -13592,8 +13604,11 @@
   },
   "0x3D": {
     "name": " xor ",
-    "type": "infix operator",
-    "categories": [],
+    "type": "xor",
+    "categories": [
+      "Catalog > X",
+      "Test"
+    ],
     "syntaxes": [
       {
         "syntax": "valueA xor valueB",

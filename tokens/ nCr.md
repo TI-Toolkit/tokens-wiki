@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$95`|
-| Categories    | <ul></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [N](<../categories/Catalog.md#N>)</li><li>[Math](<../categories/Math.md>) > [Probability](<../categories/Math.md#Probability>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Combinaison `</li></ul> |
 
 # ` nCr `

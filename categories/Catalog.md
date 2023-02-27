@@ -3,6 +3,7 @@
 
 ## A
 
+ * <a href="../tokens/ and.md" title="0x40"> and </a>
  * <a href="../tokens/a+b𝑖.md" title="0xBB4F">a+b𝑖</a>
  * <a href="../tokens/abs(.md" title="0xB2">abs(</a>
  * <a href="../tokens/angle(.md" title="0xBB28">angle(</a>
@@ -216,6 +217,8 @@
 
 ## N
 
+ * <a href="../tokens/ nCr.md" title="0x95"> nCr </a>
+ * <a href="../tokens/ nPr.md" title="0x94"> nPr </a>
  * <a href="../tokens/►Nom(.md" title="0xBB05">►Nom(</a>
  * <a href="../tokens/𝒏.md" title="0x6221">𝒏</a>
  * <a href="../tokens/nDeriv(.md" title="0x25">nDeriv(</a>
@@ -228,6 +231,7 @@
 
 ## O
 
+ * <a href="../tokens/ or.md" title="0x3C"> or </a>
  * <a href="../tokens/Output(.md" title="0xE0">Output(</a>
 
 ## P
@@ -381,6 +385,7 @@
 
 ## X
 
+ * <a href="../tokens/ xor.md" title="0x3D"> xor </a>
  * <a href="../tokens/xyLine.md" title="0xFD">xyLine</a>
 
 ## Z

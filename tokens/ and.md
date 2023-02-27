@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$40`|
-| Categories    | <ul></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [A](<../categories/Catalog.md#A>)</li><li>[Test](<../categories/Test.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: ` et `</li></ul> |
 
 # ` and `

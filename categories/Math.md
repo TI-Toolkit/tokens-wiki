@@ -40,6 +40,8 @@
 
 ## Probability
 
+ * <a href="../tokens/ nCr.md" title="0x95"> nCr </a>
+ * <a href="../tokens/ nPr.md" title="0x94"> nPr </a>
  * <a href="../tokens/rand.md" title="0xAB">rand</a>
  * <a href="../tokens/randBin(.md" title="0xBB0B">randBin(</a>
  * <a href="../tokens/randInt(.md" title="0xBB0A">randInt(</a>

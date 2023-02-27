@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$3C`|
-| Categories    | <ul></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [O](<../categories/Catalog.md#O>)</li><li>[Test](<../categories/Test.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: ` ou `</li></ul> |
 
 # ` or `

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$3D`|
-| Categories    | <ul></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [X](<../categories/Catalog.md#X>)</li><li>[Test](<../categories/Test.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: ` ouExcl `</li></ul> |
 
 # ` xor `
