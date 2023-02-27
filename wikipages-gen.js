@@ -2,7 +2,16 @@
 import * as fs from 'fs';
 import sanitize from 'sanitize-filename';
 
+const emptyDir = function(dir) {
+    for (const file of fs.readdirSync(dir)) {
+        fs.unlinkSync(`${dir}/${file}`);
+    }
+}
+
 const tokens = JSON.parse(fs.readFileSync('./output/TI-84_Plus_CE_catalog-tokens.json', 'utf8'));
+
+emptyDir('./output/wikipages/categories');
+emptyDir('./output/wikipages/tokens');
 
 const pagesByCat = {};
 
