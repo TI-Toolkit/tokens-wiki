@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EFA4`|
-| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>)</li></ul> |
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [TI-Basic Editor](<../categories/Other (non-catalog).md#TI-Basic Editor>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Insérer commentaire ↑`</li></ul> |
 
 # `Insert Comment Above`

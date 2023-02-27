@@ -1,14 +1,6 @@
 # Statistics
 
 
-## Æ
-
- * <a href="../tokens/Σx.md" title="0x6204">Σx</a>
- * <a href="../tokens/Σx².md" title="0x6205">Σx²</a>
- * <a href="../tokens/Σxy.md" title="0x6211">Σxy</a>
- * <a href="../tokens/Σy.md" title="0x620D">Σy</a>
- * <a href="../tokens/Σy².md" title="0x620E">Σy²</a>
-
 ## Distributions
 
  * <a href="../tokens/binomcdf(.md" title="0xBB16">binomcdf(</a>
@@ -124,4 +116,12 @@
  * <a href="../tokens/ȳ.md" title="0x620C">ȳ</a>
  * <a href="../tokens/σx.md" title="0x6207">σx</a>
  * <a href="../tokens/σy.md" title="0x6210">σy</a>
+
+## Σ
+
+ * <a href="../tokens/Σx.md" title="0x6204">Σx</a>
+ * <a href="../tokens/Σx².md" title="0x6205">Σx²</a>
+ * <a href="../tokens/Σxy.md" title="0x6211">Σxy</a>
+ * <a href="../tokens/Σy.md" title="0x620D">Σy</a>
+ * <a href="../tokens/Σy².md" title="0x620E">Σy²</a>
 

@@ -1,5 +1,26 @@
 # Drawing
 
+
+## Colors
+
+ * <a href="../tokens/BLACK.md" title="0xEF43">BLACK</a>
+ * <a href="../tokens/BLUE.md" title="0xEF41">BLUE</a>
+ * <a href="../tokens/BROWN.md" title="0xEF47">BROWN</a>
+ * <a href="../tokens/DARKGRAY.md" title="0xEF4F">DARKGRAY</a>
+ * <a href="../tokens/GRAY.md" title="0xEF4E">GRAY</a>
+ * <a href="../tokens/GREEN.md" title="0xEF45">GREEN</a>
+ * <a href="../tokens/LTBLUE.md" title="0xEF49">LTBLUE</a>
+ * <a href="../tokens/LTGRAY.md" title="0xEF4C">LTGRAY</a>
+ * <a href="../tokens/MAGENTA.md" title="0xEF44">MAGENTA</a>
+ * <a href="../tokens/MEDGRAY.md" title="0xEF4D">MEDGRAY</a>
+ * <a href="../tokens/NAVY.md" title="0xEF48">NAVY</a>
+ * <a href="../tokens/ORANGE.md" title="0xEF46">ORANGE</a>
+ * <a href="../tokens/RED.md" title="0xEF42">RED</a>
+ * <a href="../tokens/WHITE.md" title="0xEF4B">WHITE</a>
+ * <a href="../tokens/YELLOW.md" title="0xEF4A">YELLOW</a>
+
+## Commands
+
  * <a href="../tokens/Circle(.md" title="0xA5">Circle(</a>
  * <a href="../tokens/ClrDraw.md" title="0x85">ClrDraw</a>
  * <a href="../tokens/DrawF.md" title="0xA9">DrawF </a>

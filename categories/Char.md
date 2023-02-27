@@ -58,6 +58,7 @@
  * <a href="../tokens/ä.md" title="0xBB75">ä</a>
  * <a href="../tokens/Ä.md" title="0xBB71">Ä</a>
  * <a href="../tokens/ç.md" title="0xBB97">ç</a>
+ * <a href="../tokens/Ç.md" title="0xBB96">Ç</a>
  * <a href="../tokens/é.md" title="0xBB7A">é</a>
  * <a href="../tokens/É.md" title="0xBB76">É</a>
  * <a href="../tokens/è.md" title="0xBB7B">è</a>
@@ -152,10 +153,6 @@
 ## Other
 
  * <a href="../tokens/0x29.md" title="0x29"> </a>
- * <a href="../tokens/ᴇ.md" title="0x3B">ᴇ</a>
-
-## Others
-
  * <a href="../tokens/_.md" title="0xBBD9">_</a>
  * <a href="../tokens/….md" title="0xBBDB">…</a>
  * <a href="../tokens/·.md" title="0xEF73">·</a>
@@ -179,6 +176,7 @@
  * <a href="../tokens/⬚.md" title="0xEF1E">⬚</a>
  * <a href="../tokens/🡅.md" title="0xBBF2">🡅</a>
  * <a href="../tokens/🡇.md" title="0xBBF3">🡇</a>
+ * <a href="../tokens/ᴇ.md" title="0x3B">ᴇ</a>
  * <a href="../tokens/𝐅.md" title="0xBBAF">𝐅</a>
  * <a href="../tokens/Í.md" title="0xBBCD">Í</a>
  * <a href="../tokens/𝗡.md" title="0x632B">𝗡</a>

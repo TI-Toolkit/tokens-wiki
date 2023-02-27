@@ -907,7 +907,7 @@
     "type": "function",
     "categories": [
       "Catalog > C",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -1092,7 +1092,7 @@
     "type": "command",
     "categories": [
       "Catalog > C",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -2239,7 +2239,7 @@
     "type": "command",
     "categories": [
       "Catalog > D",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -2278,7 +2278,7 @@
     "type": "command",
     "categories": [
       "Catalog > D",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -4302,7 +4302,7 @@
     "type": "command",
     "categories": [
       "Catalog > H",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -5333,7 +5333,7 @@
     "type": "function",
     "categories": [
       "Catalog > L",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -8195,7 +8195,7 @@
     "type": "function",
     "categories": [
       "Catalog > P",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -8240,7 +8240,7 @@
     "type": "function",
     "categories": [
       "Catalog > P",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -8284,7 +8284,7 @@
     "type": "function",
     "categories": [
       "Catalog > P",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -8381,7 +8381,7 @@
     "type": "function",
     "categories": [
       "Catalog > P",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -8425,7 +8425,7 @@
     "type": "function",
     "categories": [
       "Catalog > P",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -8464,7 +8464,7 @@
     "type": "function",
     "categories": [
       "Catalog > P",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -8508,7 +8508,7 @@
     "type": "function",
     "categories": [
       "Catalog > P",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -9090,7 +9090,7 @@
     "type": "command",
     "categories": [
       "Catalog > R",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -9124,7 +9124,7 @@
     "type": "command",
     "categories": [
       "Catalog > R",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -11021,7 +11021,7 @@
     "type": "function",
     "categories": [
       "Catalog > S",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -11892,7 +11892,7 @@
     "type": "command",
     "categories": [
       "Catalog > S",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -11926,7 +11926,7 @@
     "type": "command",
     "categories": [
       "Catalog > S",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -12190,7 +12190,7 @@
     "type": "function",
     "categories": [
       "Catalog > T",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -12352,7 +12352,7 @@
     "type": "function",
     "categories": [
       "Catalog > T",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -13406,7 +13406,7 @@
     "type": "command",
     "categories": [
       "Catalog > V",
-      "Drawing"
+      "Drawing > Commands"
     ],
     "syntaxes": [
       {
@@ -14618,7 +14618,7 @@
     "name": "",
     "type": "other",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -14638,7 +14638,7 @@
     "name": "[",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -14661,7 +14661,7 @@
     "name": "]",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -14684,7 +14684,7 @@
     "name": "{",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -14707,7 +14707,7 @@
     "name": "}",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -15058,7 +15058,7 @@
     "name": "\n",
     "type": "delimiter",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -17333,7 +17333,7 @@
     "name": "Σx",
     "type": "variable",
     "categories": [
-      "Statistics > Æ"
+      "Statistics > Σ"
     ],
     "syntaxes": [
       {
@@ -17356,7 +17356,7 @@
     "name": "Σx²",
     "type": "variable",
     "categories": [
-      "Statistics > Æ"
+      "Statistics > Σ"
     ],
     "syntaxes": [
       {
@@ -17540,7 +17540,7 @@
     "name": "Σy",
     "type": "variable",
     "categories": [
-      "Statistics > Æ"
+      "Statistics > Σ"
     ],
     "syntaxes": [
       {
@@ -17563,7 +17563,7 @@
     "name": "Σy²",
     "type": "variable",
     "categories": [
-      "Statistics > Æ"
+      "Statistics > Σ"
     ],
     "syntaxes": [
       {
@@ -17632,7 +17632,7 @@
     "name": "Σxy",
     "type": "variable",
     "categories": [
-      "Statistics > Æ"
+      "Statistics > Σ"
     ],
     "syntaxes": [
       {
@@ -18509,7 +18509,7 @@
     "name": "[factordf]",
     "type": "text/symbol only",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -18532,7 +18532,7 @@
     "name": "[factorSS]",
     "type": "text/symbol only",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -18555,7 +18555,7 @@
     "name": "[factorMS]",
     "type": "text/symbol only",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -18578,7 +18578,7 @@
     "name": "[errordf]",
     "type": "text/symbol only",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -18624,7 +18624,7 @@
     "name": "[errorMS]",
     "type": "text/symbol only",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -18785,7 +18785,7 @@
     "name": "Un-₁",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -18808,7 +18808,7 @@
     "name": "Vn-₁",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -18831,7 +18831,7 @@
     "name": "Zu(nmin)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -18854,7 +18854,7 @@
     "name": "Zv(nmin)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19155,7 +19155,7 @@
     "name": "Zθmin",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19178,7 +19178,7 @@
     "name": "Zθmax",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19295,7 +19295,7 @@
     "name": "ZPlotStart",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19341,7 +19341,7 @@
     "name": "ZnMax",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19387,7 +19387,7 @@
     "name": "ZnMin",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19502,7 +19502,7 @@
     "name": "Zθstep",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19571,7 +19571,7 @@
     "name": "XFact",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19594,7 +19594,7 @@
     "name": "YFact",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19641,7 +19641,7 @@
     "name": "𝗡",
     "type": "variable",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -19825,7 +19825,7 @@
     "name": "Zw(nMin)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19872,7 +19872,7 @@
     "name": "ZPlotStep",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19895,7 +19895,7 @@
     "name": "Xres",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -19941,7 +19941,7 @@
     "name": "TraceStep",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -20155,7 +20155,7 @@
     "name": "Graph Format",
     "type": "other",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -20223,7 +20223,7 @@
     "name": "·",
     "type": "other",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -20296,7 +20296,7 @@
     "name": "PrintScreen",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -20549,7 +20549,7 @@
     "name": "VARSTRING",
     "type": "other",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -20594,7 +20594,7 @@
     "name": "'",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -20731,7 +20731,7 @@
     "name": "compiled asm",
     "type": "other",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Assembly"
     ],
     "syntaxes": [
       {
@@ -21648,8 +21648,7 @@
     "name": "Ç",
     "type": "text/symbol only",
     "categories": [
-      "International > A",
-      "International > Others"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -22040,7 +22039,7 @@
     "name": "|π",
     "type": "text/symbol only",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -22155,7 +22154,7 @@
     "name": "ṗ",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -22201,7 +22200,7 @@
     "name": "𝐅",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -22822,7 +22821,7 @@
     "name": "Í",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -22845,7 +22844,7 @@
     "name": "~",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -22960,7 +22959,7 @@
     "name": "‛",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23029,7 +23028,7 @@
     "name": "|",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23052,7 +23051,7 @@
     "name": "_",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23098,7 +23097,7 @@
     "name": "…",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23121,7 +23120,7 @@
     "name": "∠",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23144,7 +23143,7 @@
     "name": "ß",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23167,7 +23166,7 @@
     "name": "ˣ",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23190,7 +23189,7 @@
     "name": "ᴛ",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23443,7 +23442,7 @@
     "name": "₁₀",
     "type": "text/symbol only",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -23466,7 +23465,7 @@
     "name": "◄",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23489,7 +23488,7 @@
     "name": "►",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23512,7 +23511,7 @@
     "name": "↑",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23535,7 +23534,7 @@
     "name": "↓",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23558,7 +23557,7 @@
     "name": "×",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23581,7 +23580,7 @@
     "name": "∫",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23604,7 +23603,7 @@
     "name": "🡅",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23627,7 +23626,7 @@
     "name": "🡇",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23650,7 +23649,7 @@
     "name": "√",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23673,7 +23672,7 @@
     "name": "inverted =",
     "type": "text/symbol only",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -23818,7 +23817,7 @@
     "name": "⬚",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23841,7 +23840,7 @@
     "name": "⁄",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23864,7 +23863,7 @@
     "name": "ᵤ",
     "type": "text/symbol only",
     "categories": [
-      "Char > Others"
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -23887,7 +23886,7 @@
     "name": "FRAC",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -23910,7 +23909,7 @@
     "name": "BLUE",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -23933,7 +23932,7 @@
     "name": "RED",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -23956,7 +23955,7 @@
     "name": "BLACK",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -23979,7 +23978,7 @@
     "name": "MAGENTA",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24002,7 +24001,7 @@
     "name": "GREEN",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24025,7 +24024,7 @@
     "name": "ORANGE",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24048,7 +24047,7 @@
     "name": "BROWN",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24071,7 +24070,7 @@
     "name": "NAVY",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24094,7 +24093,7 @@
     "name": "LTBLUE",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24117,7 +24116,7 @@
     "name": "YELLOW",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24140,7 +24139,7 @@
     "name": "WHITE",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24163,7 +24162,7 @@
     "name": "LTGRAY",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24186,7 +24185,7 @@
     "name": "MEDGRAY",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24209,7 +24208,7 @@
     "name": "GRAY",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24232,7 +24231,7 @@
     "name": "DARKGRAY",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Drawing > Colors"
     ],
     "syntaxes": [
       {
@@ -24255,7 +24254,7 @@
     "name": "Image1",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Images"
     ],
     "syntaxes": [
       {
@@ -24275,7 +24274,7 @@
     "name": "Image2",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Images"
     ],
     "syntaxes": [
       {
@@ -24295,7 +24294,7 @@
     "name": "Image3",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Images"
     ],
     "syntaxes": [
       {
@@ -24315,7 +24314,7 @@
     "name": "Image4",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Images"
     ],
     "syntaxes": [
       {
@@ -24335,7 +24334,7 @@
     "name": "Image5",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Images"
     ],
     "syntaxes": [
       {
@@ -24355,7 +24354,7 @@
     "name": "Image6",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Images"
     ],
     "syntaxes": [
       {
@@ -24375,7 +24374,7 @@
     "name": "Image7",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Images"
     ],
     "syntaxes": [
       {
@@ -24395,7 +24394,7 @@
     "name": "Image8",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Images"
     ],
     "syntaxes": [
       {
@@ -24415,7 +24414,7 @@
     "name": "Image9",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Images"
     ],
     "syntaxes": [
       {
@@ -24435,7 +24434,7 @@
     "name": "Image0",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Images"
     ],
     "syntaxes": [
       {
@@ -24455,7 +24454,7 @@
     "name": "QuickPlot&Fit-EQ",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -24475,7 +24474,7 @@
     "name": "Asm84CPrgm",
     "type": "basic instruction only",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Assembly"
     ],
     "syntaxes": [
       {
@@ -24498,7 +24497,7 @@
     "name": "Asm83CEPrgm",
     "type": "basic instruction only",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Assembly"
     ],
     "syntaxes": [
       {
@@ -24521,7 +24520,7 @@
     "name": "Quartiles Setting…",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
@@ -24544,7 +24543,7 @@
     "name": "u(𝒏-2)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24567,7 +24566,7 @@
     "name": "v(𝒏-2)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24590,7 +24589,7 @@
     "name": "w(𝒏-2)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24613,7 +24612,7 @@
     "name": "u(𝒏-1)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24636,7 +24635,7 @@
     "name": "v(𝒏-1)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24659,7 +24658,7 @@
     "name": "w(𝒏-1)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24682,7 +24681,7 @@
     "name": "u(𝒏)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24705,7 +24704,7 @@
     "name": "v(𝒏)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24728,7 +24727,7 @@
     "name": "w(𝒏)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24751,7 +24750,7 @@
     "name": "u(𝒏+1)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24774,7 +24773,7 @@
     "name": "v(𝒏+1)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24797,7 +24796,7 @@
     "name": "w(𝒏+1)",
     "type": "variable",
     "categories": [
-      "Other (non-catalog)"
+      "Variables > Sequences"
     ],
     "syntaxes": [
       {
@@ -24820,7 +24819,7 @@
     "name": "Execute Program",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > TI-Basic Editor"
     ],
     "syntaxes": [
       {
@@ -24843,7 +24842,7 @@
     "name": "Undo Clear",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > TI-Basic Editor"
     ],
     "syntaxes": [
       {
@@ -24866,7 +24865,7 @@
     "name": "Insert Line Above",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > TI-Basic Editor"
     ],
     "syntaxes": [
       {
@@ -24889,7 +24888,7 @@
     "name": "Cut Line",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > TI-Basic Editor"
     ],
     "syntaxes": [
       {
@@ -24912,7 +24911,7 @@
     "name": "Copy Line",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > TI-Basic Editor"
     ],
     "syntaxes": [
       {
@@ -24935,7 +24934,7 @@
     "name": "Paste Line Below",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > TI-Basic Editor"
     ],
     "syntaxes": [
       {
@@ -24958,7 +24957,7 @@
     "name": "Insert Comment Above",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > TI-Basic Editor"
     ],
     "syntaxes": [
       {
@@ -24981,7 +24980,7 @@
     "name": "Quit Editor",
     "type": "action",
     "categories": [
-      "Other (non-catalog)"
+      "Other (non-catalog) > TI-Basic Editor"
     ],
     "syntaxes": [
       {

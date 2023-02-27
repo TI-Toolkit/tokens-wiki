@@ -16,21 +16,17 @@
 
  * <a href="./categories/Char.md#Other">Other</a>
 
- * <a href="./categories/Char.md#Others">Others</a>
-
 ### <a href="./categories/Drawing.md">Drawing</a>
+
+ * <a href="./categories/Drawing.md#Colors">Colors</a>
+
+ * <a href="./categories/Drawing.md#Commands">Commands</a>
 
 ### <a href="./categories/Finance.md">Finance</a>
 
  * <a href="./categories/Finance.md#Calc">Calc</a>
 
  * <a href="./categories/Finance.md#Vars">Vars</a>
-
-### <a href="./categories/International.md">International</a>
-
- * <a href="./categories/International.md#A">A</a>
-
- * <a href="./categories/International.md#Others">Others</a>
 
 ### <a href="./categories/Keypad.md">Keypad</a>
 
@@ -68,6 +64,12 @@
 
 ### <a href="./categories/Other (non-catalog).md">Other (non-catalog)</a>
 
+ * <a href="./categories/Other (non-catalog).md#Assembly">Assembly</a>
+
+ * <a href="./categories/Other (non-catalog).md#Other">Other</a>
+
+ * <a href="./categories/Other (non-catalog).md#TI-Basic Editor">TI-Basic Editor</a>
+
 ### <a href="./categories/Program.md">Program</a>
 
  * <a href="./categories/Program.md#Control">Control</a>
@@ -92,8 +94,6 @@
 
 ### <a href="./categories/Statistics.md">Statistics</a>
 
- * <a href="./categories/Statistics.md#Æ">Æ</a>
-
  * <a href="./categories/Statistics.md#Distributions">Distributions</a>
 
  * <a href="./categories/Statistics.md#EQ">EQ</a>
@@ -105,6 +105,8 @@
  * <a href="./categories/Statistics.md#Test">Test</a>
 
  * <a href="./categories/Statistics.md#XY">XY</a>
+
+ * <a href="./categories/Statistics.md#Σ">Σ</a>
 
 ### <a href="./categories/Table Settings.md">Table Settings</a>
 
@@ -118,7 +120,11 @@
 
  * <a href="./categories/Variables.md#GDB">GDB</a>
 
+ * <a href="./categories/Variables.md#Images">Images</a>
+
  * <a href="./categories/Variables.md#Pictures">Pictures</a>
+
+ * <a href="./categories/Variables.md#Sequences">Sequences</a>
 
  * <a href="./categories/Variables.md#String">String</a>
 

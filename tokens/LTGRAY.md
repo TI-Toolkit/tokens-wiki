@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF4C`|
-| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>)</li></ul> |
+| Categories    | <ul><li>[Drawing](<../categories/Drawing.md>) > [Colors](<../categories/Drawing.md#Colors>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `GRIS CLR`</li></ul> |
 
 # `LTGRAY`

@@ -96,7 +96,14 @@ const mergeInfoFromDict = function(entry, dictMatch, overwriteType) {
     } else {
         entry.categories = cats;
     }
-    entry.categories = entry.categories.sort().map(cat => cat.replace('\\', ' > ').replace('\\', ' ➤ ').replace('Á', 'θ'));
+    entry.categories = entry.categories.sort().map(cat => cat.replace('\\', ' > ').replace('\\', ' ➤ ')
+                                                             .replace('Á', 'θ').replace('Æ', 'Σ')
+                                                             .replace(/^Drawing$/, 'Drawing > Commands'));
+
+    // who knows why
+    if (dictMatch.__tag === '0xBB96') {
+        entry.categories = [ 'Char > International' ];
+    }
 
     // provide matched name and bytes
     return [ entry.name, dictMatch.__tag ];
@@ -448,14 +455,24 @@ for (const [ enName, { bytes, frName, type, comment } ] of Object.entries(csv)) 
             entry.categories.push('Char > Greek');
         } else if (bytes >= '0xBB6E' && bytes <= '0xBB9E') {
             entry.categories.push('Char > International');
+        } else if (bytes >= '0xEF82' && bytes <= '0xEF8D') {
+            entry.categories.push('Variables > Sequences');
+        } else if (bytes >= '0xEF9E' && bytes <= '0xEFA5') {
+            entry.categories.push('Other (non-catalog) > TI-Basic Editor');
+        } else if (bytes >= '0xEF41' && bytes <= '0xEF4F') {
+            entry.categories.push('Drawing > Colors');
         } else if (type.includes('operator')) {
             entry.categories.push('Operators');
         } else if (/^[0-9₀-₉]$/i.test(enName)) {
             entry.categories.push('Char > Digits');
         } else if (goodStrLen(enName) === 1) {
-            entry.categories.push('Char > Others');
+            entry.categories.push('Char > Other');
+        } else if (enName.startsWith('Image')) {
+            entry.categories.push('Variables > Images');
+        } else if (enName.includes('asm') || enName.includes('Asm')) {
+            entry.categories.push('Other (non-catalog) > Assembly');
         } else {
-            entry.categories.push('Other (non-catalog)');
+            entry.categories.push('Other (non-catalog) > Other');
         }
     }
 

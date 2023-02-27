@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF54`|
-| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Images](<../categories/Variables.md#Images>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Image5`</li></ul> |
 
 # `Image5`

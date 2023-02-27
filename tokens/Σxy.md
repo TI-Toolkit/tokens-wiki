@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6211`|
-| Categories    | <ul><li>[Statistics](<../categories/Statistics.md>) > [Æ](<../categories/Statistics.md#Æ>)</li></ul> |
+| Categories    | <ul><li>[Statistics](<../categories/Statistics.md>) > [Σ](<../categories/Statistics.md#Σ>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Σxy`</li></ul> |
 
 # `Σxy`
