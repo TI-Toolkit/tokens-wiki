@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [G](<../categories/Catalog.md#G>)</li></ul> |
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Graph Format`</li></ul> |
 
 # `Graph Format`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BBC7`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [W](<../categories/Catalog.md#W>)</li></ul> |
+| Categories    | <ul><li>[Char](<../categories/Char.md>) > [Letters](<../categories/Char.md#Letters>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `w`</li></ul> |
 
 # `w`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6325`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Z](<../categories/Catalog.md#Z>)</li></ul> |
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Zθstep`</li></ul> |
 
 # `Zθstep`

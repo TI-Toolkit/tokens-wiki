@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF46`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [O](<../categories/Catalog.md#O>)</li></ul> |
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `ORANGE`</li></ul> |
 
 # `ORANGE`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$630D`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Y](<../categories/Catalog.md#Y>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window\X/Y](<../categories/Variables.md#Window\X/Y>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Ymax`</li></ul> |
 
 # `Ymax`

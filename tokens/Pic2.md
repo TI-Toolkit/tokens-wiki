@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6001`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [P](<../categories/Catalog.md#P>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Pictures](<../categories/Variables.md#Pictures>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Img2`</li></ul> |
 
 # `Pic2`

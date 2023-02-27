@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF68`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [A](<../categories/Catalog.md#A>)</li></ul> |
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Asm84CPrgm`</li></ul> |
 
 # `Asm84CPrgm`

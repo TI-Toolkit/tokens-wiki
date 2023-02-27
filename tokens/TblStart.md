@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$631A`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [T](<../categories/Catalog.md#T>)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [T](<../categories/Catalog.md#T>)</li><li>[Variables](<../categories/Variables.md>) > [Table](<../categories/Variables.md#Table>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `TblStart`</li></ul> |
 
 # `TblStart`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$623B`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [[](<../categories/Catalog.md#[>)</li></ul> |
+| Categories    | <ul><li>[Finance](<../categories/Finance.md>) > [Vars](<../categories/Finance.md#Vars>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `[errorSS]`</li></ul> |
 
 # `[errorSS]`

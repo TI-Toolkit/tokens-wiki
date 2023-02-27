@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$622F`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [S](<../categories/Catalog.md#S>)</li></ul> |
+| Categories    | <ul><li>[Statistics](<../categories/Statistics.md>) > [Test](<../categories/Statistics.md#Test>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Éctypx₂`</li></ul> |
 
 # `Sx₂`

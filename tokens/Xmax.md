@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$630B`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [X](<../categories/Catalog.md#X>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window\X/Y](<../categories/Variables.md#Window\X/Y>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Xmax`</li></ul> |
 
 # `Xmax`

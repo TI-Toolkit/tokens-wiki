@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$AA`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [V](<../categories/Catalog.md#V>)</li></ul> |
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `VARSTRING`</li></ul> |
 
 # `VARSTRING`

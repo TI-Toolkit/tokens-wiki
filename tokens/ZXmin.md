@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6312`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Z](<../categories/Catalog.md#Z>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Zoom](<../categories/Variables.md#Zoom>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `ZXmin`</li></ul> |
 
 # `ZXmin`

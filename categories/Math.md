@@ -12,8 +12,11 @@
 
 ## Math
 
+ * <a href="../tokens/√(.md" title="0xBC">√(</a>
  * <a href="../tokens/►Dec.md" title="0x02">►Dec</a>
  * <a href="../tokens/►Frac.md" title="0x03">►Frac</a>
+ * <a href="../tokens/₁₀^(.md" title="0xC1">₁₀^(</a>
+ * <a href="../tokens/³√(.md" title="0xBD">³√(</a>
  * <a href="../tokens/e^(.md" title="0xBF">e^(</a>
  * <a href="../tokens/fMax(.md" title="0x28">fMax(</a>
  * <a href="../tokens/fMin(.md" title="0x27">fMin(</a>

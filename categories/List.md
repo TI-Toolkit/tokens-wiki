@@ -10,6 +10,15 @@
  * <a href="../tokens/sum(.md" title="0xB6">sum(</a>
  * <a href="../tokens/variance(.md" title="0xBB0E">variance(</a>
 
+## Names
+
+ * <a href="../tokens/L₁.md" title="0x5D00">L₁</a>
+ * <a href="../tokens/L₂.md" title="0x5D01">L₂</a>
+ * <a href="../tokens/L₃.md" title="0x5D02">L₃</a>
+ * <a href="../tokens/L₄.md" title="0x5D03">L₄</a>
+ * <a href="../tokens/L₅.md" title="0x5D04">L₅</a>
+ * <a href="../tokens/L₆.md" title="0x5D05">L₆</a>
+
 ## Ops
 
  * <a href="../tokens/cumSum(.md" title="0xBB29">cumSum(</a>

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6311`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Θ](<../categories/Catalog.md#Θ>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window\T/Á](<../categories/Variables.md#Window\T/Á>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `θMax`</li></ul> |
 
 # `θMax`

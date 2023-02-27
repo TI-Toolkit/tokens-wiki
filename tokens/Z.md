@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BBCA`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Z](<../categories/Catalog.md#Z>)</li></ul> |
+| Categories    | <ul><li>[Char](<../categories/Char.md>) > [Letters](<../categories/Char.md#Letters>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `z`</li></ul> |
 
 # `z`

@@ -10,6 +10,8 @@ const csv  = {}; // input
 const dict = {}; // input
 const json = {}; // output
 
+const dict_fromBytes = {};
+
 // tmp map used for manual matching of extra catalog entries
 const name2bytes = {}
 
@@ -21,6 +23,10 @@ Processing notes:
  - `ti-toolkit_tokens_8X.xml` is parsed as a map<bytes,props> ('tkXML'): EN name, since+until info
  - all this gets merged together in a json object <bytes,props>
 ***/
+
+const goodStrLen = function(str) {
+    return Array.from(new Intl.Segmenter().segment(str)).length;
+}
 
 const escapeRegExp = function(str) {
     return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -57,6 +63,7 @@ try {
                                .replace('û', 'ᴇ').replace('ë', 'e').replace('à', '𝑖');
         if (tok.__name === 'sinh⁻¹') { tok.__name = 'sinh⁻¹('; } // sigh
         dict[tok.__name] = tok;
+        dict_fromBytes[tok.__tag] = tok;
     }
 } catch (e) {
     console.error(e);
@@ -78,8 +85,8 @@ const mergeInfoFromCSV = function(entry, csvMatch) {
     return [ csvMatch.bytes, comment ];
 }
 
-const mergeInfoFromDict = function(entry, dictMatch) {
-    if (!dictMatch.__token || dictMatch.__token.toLowerCase() !== entry.name.toLowerCase()) {
+const mergeInfoFromDict = function(entry, dictMatch, overwriteType) {
+    if ((overwriteType || !entry.type) && (!dictMatch.__token || dictMatch.__token.toLowerCase() !== entry.name.toLowerCase())) {
         entry.type = dictMatch.__token ?? 'function';
     }
 
@@ -250,7 +257,7 @@ for(let i = 0; i < 26; i++)
 
         const inDictBlackList = /(Σ\()/.test(name);
         if (!inDictBlackList && typeof(dictMatch) === 'object') {
-            const [ newName, newBytes ] = mergeInfoFromDict(tokenEntry, dictMatch);
+            const [ newName, newBytes ] = mergeInfoFromDict(tokenEntry, dictMatch, true);
             name = newName;
             bytes ??= newBytes;
         } else {
@@ -405,14 +412,16 @@ for(let i = 0; i < 26; i++)
     }
 }
 
+// Add all other tokens from the CSV
 for (const [ enName, { bytes, frName, type, comment } ] of Object.entries(csv)) {
     if (json[bytes]) {
         continue;
     }
-    json[bytes] = {
+
+    const entry = {
         name: enName,
         type: type ?? 'function',
-        categories: [ `Catalog > ${enName.substring(0, 1).toLocaleUpperCase()}` ],
+        categories: [],
         syntaxes: [{
             specificName: undefined,
             syntax: enName,
@@ -427,6 +436,30 @@ for (const [ enName, { bytes, frName, type, comment } ] of Object.entries(csv)) 
         since: tkXML[bytes]?.since,
         until: tkXML[bytes]?.until,
     };
+
+    if (dict_fromBytes[bytes]) {
+        // console.log(`DICT handled: ${bytes} = ${enName}`)
+        mergeInfoFromDict(entry, dict_fromBytes[bytes], false)
+    } else {
+        // console.log(`NOT handled at all: ${bytes} = ${enName}`)
+        if (/^[a-z]$/i.test(enName)) {
+            entry.categories.push('Char > Letters');
+        } else if (/^[α-ω]$/i.test(enName)) {
+            entry.categories.push('Char > Greek');
+        } else if (bytes >= '0xBB6E' && bytes <= '0xBB9E') {
+            entry.categories.push('Char > International');
+        } else if (type.includes('operator')) {
+            entry.categories.push('Operators');
+        } else if (/^[0-9₀-₉]$/i.test(enName)) {
+            entry.categories.push('Char > Digits');
+        } else if (goodStrLen(enName) === 1) {
+            entry.categories.push('Char > Others');
+        } else {
+            entry.categories.push('Other (non-catalog)');
+        }
+    }
+
+    json[bytes] = entry;
 }
 
 fs.writeFileSync('output/TI-84_Plus_CE_catalog-tokens.json', JSON.stringify(json, null, 2));

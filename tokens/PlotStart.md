@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$631B`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [P](<../categories/Catalog.md#P>)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [P](<../categories/Catalog.md#P>)</li><li>[Variables](<../categories/Variables.md>) > [Window\U/V/W](<../categories/Variables.md#Window\U/V/W>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `PlotStart`</li></ul> |
 
 # `PlotStart`

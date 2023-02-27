@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$5E21`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Y](<../categories/Catalog.md#Y>)</li></ul> |
+| Categories    | <ul><li>[Y= Functions](<../categories/Y= Functions.md>) > [Parametric](<../categories/Y= Functions.md#Parametric>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Y₁ᴛ`</li></ul> |
 
 # `Y₁ᴛ`

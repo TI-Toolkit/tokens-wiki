@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6327`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [∆](<../categories/Catalog.md#∆>)</li></ul> |
+| Categories    | <ul><li>[Unassigned](<../categories/Unassigned.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `∆Y`</li></ul> |
 
 # `∆Y`

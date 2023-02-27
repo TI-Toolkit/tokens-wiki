@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6105`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [G](<../categories/Catalog.md#G>)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [G](<../categories/Catalog.md#G>)</li><li>[Variables](<../categories/Variables.md>) > [GDB](<../categories/Variables.md#GDB>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `BDG6`</li></ul> |
 
 # `GDB6`

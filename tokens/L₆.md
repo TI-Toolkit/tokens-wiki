@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$5D05`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [L](<../categories/Catalog.md#L>)</li></ul> |
+| Categories    | <ul><li>[Keypad](<../categories/Keypad.md>)</li><li>[List](<../categories/List.md>) > [Names](<../categories/List.md#Names>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `L₆`</li></ul> |
 
 # `L₆`

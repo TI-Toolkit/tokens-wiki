@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$AA07`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [S](<../categories/Catalog.md#S>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [String](<../categories/Variables.md#String>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Chaine8`</li></ul> |
 
 # `Str8`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$632E`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [P](<../categories/Catalog.md#P>)</li></ul> |
+| Categories    | <ul><li>[Finance](<../categories/Finance.md>) > [Vars](<../categories/Finance.md#Vars>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `PMT`</li></ul> |
 
 # `PMT`

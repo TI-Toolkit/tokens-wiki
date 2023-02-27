@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$631D`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [N](<../categories/Catalog.md#N>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window\U/V/W](<../categories/Variables.md#Window\U/V/W>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `nMax`</li></ul> |
 
 # `nMax`

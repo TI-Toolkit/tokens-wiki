@@ -19,3 +19,13 @@
  * <a href="../tokens/ΣInt(.md" title="0xBB04">ΣInt(</a>
  * <a href="../tokens/ΣPrn(.md" title="0xBB03">ΣPrn(</a>
 
+## Vars
+
+ * <a href="../tokens/[errorSS].md" title="0x623B">[errorSS]</a>
+ * <a href="../tokens/CY.md" title="0x6331">|C/Y</a>
+ * <a href="../tokens/PY.md" title="0x6330">|P/Y</a>
+ * <a href="../tokens/FV.md" title="0x632F">FV</a>
+ * <a href="../tokens/I%.md" title="0x632C">I%</a>
+ * <a href="../tokens/PMT.md" title="0x632E">PMT</a>
+ * <a href="../tokens/PV.md" title="0x632D">PV</a>
+

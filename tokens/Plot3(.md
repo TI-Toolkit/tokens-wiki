@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EE`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [P](<../categories/Catalog.md#P>)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [P](<../categories/Catalog.md#P>)</li><li>[Stat Plot](<../categories/Stat Plot.md>) > [Plots](<../categories/Stat Plot.md#Plots>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Graph3(`</li></ul> |
 
 # `Plot3(`

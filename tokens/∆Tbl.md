@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6321`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [∆](<../categories/Catalog.md#∆>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Table](<../categories/Variables.md#Table>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `∆Tbl`</li></ul> |
 
 # `∆Tbl`

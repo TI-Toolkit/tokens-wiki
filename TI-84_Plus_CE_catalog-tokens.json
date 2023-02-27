@@ -14388,7 +14388,7 @@
     "name": "0",
     "type": "constant",
     "categories": [
-      "Catalog > 0"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -14411,7 +14411,7 @@
     "name": "1",
     "type": "constant",
     "categories": [
-      "Catalog > 1"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -14434,7 +14434,7 @@
     "name": "2",
     "type": "constant",
     "categories": [
-      "Catalog > 2"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -14457,7 +14457,7 @@
     "name": "3",
     "type": "constant",
     "categories": [
-      "Catalog > 3"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -14480,7 +14480,7 @@
     "name": "4",
     "type": "constant",
     "categories": [
-      "Catalog > 4"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -14503,7 +14503,7 @@
     "name": "5",
     "type": "constant",
     "categories": [
-      "Catalog > 5"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -14526,7 +14526,7 @@
     "name": "6",
     "type": "constant",
     "categories": [
-      "Catalog > 6"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -14549,7 +14549,7 @@
     "name": "7",
     "type": "constant",
     "categories": [
-      "Catalog > 7"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -14572,7 +14572,7 @@
     "name": "8",
     "type": "constant",
     "categories": [
-      "Catalog > 8"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -14595,7 +14595,7 @@
     "name": "9",
     "type": "constant",
     "categories": [
-      "Catalog > 9"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -14618,7 +14618,7 @@
     "name": "",
     "type": "other",
     "categories": [
-      "Catalog > "
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -14638,7 +14638,7 @@
     "name": "[",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ["
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -14661,7 +14661,7 @@
     "name": "]",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ]"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -14684,7 +14684,7 @@
     "name": "{",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > {"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -14707,7 +14707,7 @@
     "name": "}",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > }"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -14730,7 +14730,7 @@
     "name": "ʳ",
     "type": "postfix operator",
     "categories": [
-      "Catalog > ʳ"
+      "Operators"
     ],
     "syntaxes": [
       {
@@ -14753,7 +14753,7 @@
     "name": "°",
     "type": "postfix operator",
     "categories": [
-      "Catalog > °"
+      "Operators"
     ],
     "syntaxes": [
       {
@@ -14776,7 +14776,7 @@
     "name": "⁻¹",
     "type": "postfix operator",
     "categories": [
-      "Catalog > ⁻"
+      "Operators"
     ],
     "syntaxes": [
       {
@@ -14799,7 +14799,7 @@
     "name": "²",
     "type": "postfix operator",
     "categories": [
-      "Catalog > ²"
+      "Operators"
     ],
     "syntaxes": [
       {
@@ -14822,7 +14822,7 @@
     "name": "ᵀ",
     "type": "postfix operator",
     "categories": [
-      "Catalog > ᵀ"
+      "Operators"
     ],
     "syntaxes": [
       {
@@ -14845,7 +14845,7 @@
     "name": "³",
     "type": "postfix operator",
     "categories": [
-      "Catalog > ³"
+      "Operators"
     ],
     "syntaxes": [
       {
@@ -14868,7 +14868,8 @@
     "name": "(",
     "type": "other",
     "categories": [
-      "Catalog > ("
+      "Catalog > Misc",
+      "Punctuation > Grouping symbols"
     ],
     "syntaxes": [
       {
@@ -14891,7 +14892,8 @@
     "name": ")",
     "type": "other",
     "categories": [
-      "Catalog > )"
+      "Catalog > Misc",
+      "Punctuation > Grouping symbols"
     ],
     "syntaxes": [
       {
@@ -14914,7 +14916,7 @@
     "name": " ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog >  "
+      "Char > Other"
     ],
     "syntaxes": [
       {
@@ -14937,7 +14939,8 @@
     "name": "\"",
     "type": "delimiter",
     "categories": [
-      "Catalog > \""
+      "Angle",
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -14960,7 +14963,8 @@
     "name": ",",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ,"
+      "Catalog > Misc",
+      "Punctuation > Grouping symbols"
     ],
     "syntaxes": [
       {
@@ -14983,7 +14987,8 @@
     "name": "!",
     "type": "postfix operator",
     "categories": [
-      "Catalog > !"
+      "Catalog > Misc",
+      "Punctuation > Post Operators"
     ],
     "syntaxes": [
       {
@@ -15006,7 +15011,7 @@
     "name": ".",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ."
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -15029,7 +15034,8 @@
     "name": ":",
     "type": "delimiter",
     "categories": [
-      "Catalog > :"
+      "Catalog > Misc",
+      "Punctuation > Grouping symbols"
     ],
     "syntaxes": [
       {
@@ -15052,7 +15058,7 @@
     "name": "\n",
     "type": "delimiter",
     "categories": [
-      "Catalog > \n"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -15075,7 +15081,7 @@
     "name": "A",
     "type": "variable",
     "categories": [
-      "Catalog > A"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15098,7 +15104,7 @@
     "name": "B",
     "type": "variable",
     "categories": [
-      "Catalog > B"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15121,7 +15127,7 @@
     "name": "C",
     "type": "variable",
     "categories": [
-      "Catalog > C"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15144,7 +15150,7 @@
     "name": "D",
     "type": "variable",
     "categories": [
-      "Catalog > D"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15167,7 +15173,7 @@
     "name": "E",
     "type": "variable",
     "categories": [
-      "Catalog > E"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15190,7 +15196,7 @@
     "name": "F",
     "type": "variable",
     "categories": [
-      "Catalog > F"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15213,7 +15219,7 @@
     "name": "G",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15236,7 +15242,7 @@
     "name": "H",
     "type": "variable",
     "categories": [
-      "Catalog > H"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15259,7 +15265,7 @@
     "name": "I",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15282,7 +15288,7 @@
     "name": "J",
     "type": "variable",
     "categories": [
-      "Catalog > J"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15305,7 +15311,7 @@
     "name": "K",
     "type": "variable",
     "categories": [
-      "Catalog > K"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15328,7 +15334,7 @@
     "name": "L",
     "type": "variable",
     "categories": [
-      "Catalog > L"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15351,7 +15357,7 @@
     "name": "M",
     "type": "variable",
     "categories": [
-      "Catalog > M"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15374,7 +15380,7 @@
     "name": "N",
     "type": "variable",
     "categories": [
-      "Catalog > N"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15397,7 +15403,7 @@
     "name": "O",
     "type": "variable",
     "categories": [
-      "Catalog > O"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15420,7 +15426,7 @@
     "name": "P",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15443,7 +15449,7 @@
     "name": "Q",
     "type": "variable",
     "categories": [
-      "Catalog > Q"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15466,7 +15472,7 @@
     "name": "R",
     "type": "variable",
     "categories": [
-      "Catalog > R"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15489,7 +15495,7 @@
     "name": "S",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15512,7 +15518,7 @@
     "name": "T",
     "type": "variable",
     "categories": [
-      "Catalog > T"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15535,7 +15541,7 @@
     "name": "U",
     "type": "variable",
     "categories": [
-      "Catalog > U"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15558,7 +15564,7 @@
     "name": "V",
     "type": "variable",
     "categories": [
-      "Catalog > V"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15581,7 +15587,7 @@
     "name": "W",
     "type": "variable",
     "categories": [
-      "Catalog > W"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15604,7 +15610,7 @@
     "name": "X",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15627,7 +15633,7 @@
     "name": "Y",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15650,7 +15656,7 @@
     "name": "Z",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -15673,7 +15679,8 @@
     "name": "θ",
     "type": "variable",
     "categories": [
-      "Catalog > Θ"
+      "Char > Greek",
+      "Keypad"
     ],
     "syntaxes": [
       {
@@ -15696,7 +15703,7 @@
     "name": "[A]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Matrix > Names"
     ],
     "syntaxes": [
       {
@@ -15719,7 +15726,7 @@
     "name": "[B]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Matrix > Names"
     ],
     "syntaxes": [
       {
@@ -15742,7 +15749,7 @@
     "name": "[C]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Matrix > Names"
     ],
     "syntaxes": [
       {
@@ -15765,7 +15772,7 @@
     "name": "[D]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Matrix > Names"
     ],
     "syntaxes": [
       {
@@ -15788,7 +15795,7 @@
     "name": "[E]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Matrix > Names"
     ],
     "syntaxes": [
       {
@@ -15811,7 +15818,7 @@
     "name": "[F]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Matrix > Names"
     ],
     "syntaxes": [
       {
@@ -15834,7 +15841,7 @@
     "name": "[G]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Matrix > Names"
     ],
     "syntaxes": [
       {
@@ -15857,7 +15864,7 @@
     "name": "[H]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Matrix > Names"
     ],
     "syntaxes": [
       {
@@ -15880,7 +15887,7 @@
     "name": "[I]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Matrix > Names"
     ],
     "syntaxes": [
       {
@@ -15903,7 +15910,7 @@
     "name": "[J]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Matrix > Names"
     ],
     "syntaxes": [
       {
@@ -15926,7 +15933,8 @@
     "name": "L₁",
     "type": "variable",
     "categories": [
-      "Catalog > L"
+      "Keypad",
+      "List > Names"
     ],
     "syntaxes": [
       {
@@ -15949,7 +15957,8 @@
     "name": "L₂",
     "type": "variable",
     "categories": [
-      "Catalog > L"
+      "Keypad",
+      "List > Names"
     ],
     "syntaxes": [
       {
@@ -15972,7 +15981,8 @@
     "name": "L₃",
     "type": "variable",
     "categories": [
-      "Catalog > L"
+      "Keypad",
+      "List > Names"
     ],
     "syntaxes": [
       {
@@ -15995,7 +16005,8 @@
     "name": "L₄",
     "type": "variable",
     "categories": [
-      "Catalog > L"
+      "Keypad",
+      "List > Names"
     ],
     "syntaxes": [
       {
@@ -16018,7 +16029,8 @@
     "name": "L₅",
     "type": "variable",
     "categories": [
-      "Catalog > L"
+      "Keypad",
+      "List > Names"
     ],
     "syntaxes": [
       {
@@ -16041,7 +16053,8 @@
     "name": "L₆",
     "type": "variable",
     "categories": [
-      "Catalog > L"
+      "Keypad",
+      "List > Names"
     ],
     "syntaxes": [
       {
@@ -16064,7 +16077,7 @@
     "name": "Y₁",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Function"
     ],
     "syntaxes": [
       {
@@ -16087,7 +16100,7 @@
     "name": "Y₂",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Function"
     ],
     "syntaxes": [
       {
@@ -16110,7 +16123,7 @@
     "name": "Y₃",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Function"
     ],
     "syntaxes": [
       {
@@ -16133,7 +16146,7 @@
     "name": "Y₄",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Function"
     ],
     "syntaxes": [
       {
@@ -16156,7 +16169,7 @@
     "name": "Y₅",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Function"
     ],
     "syntaxes": [
       {
@@ -16179,7 +16192,7 @@
     "name": "Y₆",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Function"
     ],
     "syntaxes": [
       {
@@ -16202,7 +16215,7 @@
     "name": "Y₇",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Function"
     ],
     "syntaxes": [
       {
@@ -16225,7 +16238,7 @@
     "name": "Y₈",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Function"
     ],
     "syntaxes": [
       {
@@ -16248,7 +16261,7 @@
     "name": "Y₉",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Function"
     ],
     "syntaxes": [
       {
@@ -16271,7 +16284,7 @@
     "name": "Y₀",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Function"
     ],
     "syntaxes": [
       {
@@ -16294,7 +16307,7 @@
     "name": "X₁ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16317,7 +16330,7 @@
     "name": "Y₁ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16340,7 +16353,7 @@
     "name": "X₂ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16363,7 +16376,7 @@
     "name": "Y₂ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16386,7 +16399,7 @@
     "name": "X₃ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16409,7 +16422,7 @@
     "name": "Y₃ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16432,7 +16445,7 @@
     "name": "X₄ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16455,7 +16468,7 @@
     "name": "Y₄ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16478,7 +16491,7 @@
     "name": "X₅ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16501,7 +16514,7 @@
     "name": "Y₅ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16524,7 +16537,7 @@
     "name": "X₆ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16547,7 +16560,7 @@
     "name": "Y₆ᴛ",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Y= Functions > Parametric"
     ],
     "syntaxes": [
       {
@@ -16570,7 +16583,7 @@
     "name": "r₁",
     "type": "variable",
     "categories": [
-      "Catalog > R"
+      "Y= Functions > Polar"
     ],
     "syntaxes": [
       {
@@ -16593,7 +16606,7 @@
     "name": "r₂",
     "type": "variable",
     "categories": [
-      "Catalog > R"
+      "Y= Functions > Polar"
     ],
     "syntaxes": [
       {
@@ -16616,7 +16629,7 @@
     "name": "r₃",
     "type": "variable",
     "categories": [
-      "Catalog > R"
+      "Y= Functions > Polar"
     ],
     "syntaxes": [
       {
@@ -16639,7 +16652,7 @@
     "name": "r₄",
     "type": "variable",
     "categories": [
-      "Catalog > R"
+      "Y= Functions > Polar"
     ],
     "syntaxes": [
       {
@@ -16662,7 +16675,7 @@
     "name": "r₅",
     "type": "variable",
     "categories": [
-      "Catalog > R"
+      "Y= Functions > Polar"
     ],
     "syntaxes": [
       {
@@ -16685,7 +16698,7 @@
     "name": "r₆",
     "type": "variable",
     "categories": [
-      "Catalog > R"
+      "Y= Functions > Polar"
     ],
     "syntaxes": [
       {
@@ -16708,7 +16721,8 @@
     "name": "|u",
     "type": "variable",
     "categories": [
-      "Catalog > |"
+      "Char > Letters",
+      "Keypad"
     ],
     "syntaxes": [
       {
@@ -16731,7 +16745,8 @@
     "name": "|v",
     "type": "variable",
     "categories": [
-      "Catalog > |"
+      "Char > Letters",
+      "Keypad"
     ],
     "syntaxes": [
       {
@@ -16754,7 +16769,8 @@
     "name": "|w",
     "type": "variable",
     "categories": [
-      "Catalog > |"
+      "Char > Letters",
+      "Keypad"
     ],
     "syntaxes": [
       {
@@ -16777,7 +16793,7 @@
     "name": "Pic1",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Variables > Pictures"
     ],
     "syntaxes": [
       {
@@ -16800,7 +16816,7 @@
     "name": "Pic2",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Variables > Pictures"
     ],
     "syntaxes": [
       {
@@ -16823,7 +16839,7 @@
     "name": "Pic3",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Variables > Pictures"
     ],
     "syntaxes": [
       {
@@ -16846,7 +16862,7 @@
     "name": "Pic4",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Variables > Pictures"
     ],
     "syntaxes": [
       {
@@ -16869,7 +16885,7 @@
     "name": "Pic5",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Variables > Pictures"
     ],
     "syntaxes": [
       {
@@ -16892,7 +16908,7 @@
     "name": "Pic6",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Variables > Pictures"
     ],
     "syntaxes": [
       {
@@ -16915,7 +16931,7 @@
     "name": "Pic7",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Variables > Pictures"
     ],
     "syntaxes": [
       {
@@ -16938,7 +16954,7 @@
     "name": "Pic8",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Variables > Pictures"
     ],
     "syntaxes": [
       {
@@ -16961,7 +16977,7 @@
     "name": "Pic9",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Variables > Pictures"
     ],
     "syntaxes": [
       {
@@ -16984,7 +17000,7 @@
     "name": "Pic0",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Variables > Pictures"
     ],
     "syntaxes": [
       {
@@ -17007,7 +17023,8 @@
     "name": "GDB1",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Catalog > G",
+      "Variables > GDB"
     ],
     "syntaxes": [
       {
@@ -17030,7 +17047,8 @@
     "name": "GDB2",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Catalog > G",
+      "Variables > GDB"
     ],
     "syntaxes": [
       {
@@ -17053,7 +17071,8 @@
     "name": "GDB3",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Catalog > G",
+      "Variables > GDB"
     ],
     "syntaxes": [
       {
@@ -17076,7 +17095,8 @@
     "name": "GDB4",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Catalog > G",
+      "Variables > GDB"
     ],
     "syntaxes": [
       {
@@ -17099,7 +17119,8 @@
     "name": "GDB5",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Catalog > G",
+      "Variables > GDB"
     ],
     "syntaxes": [
       {
@@ -17122,7 +17143,8 @@
     "name": "GDB6",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Catalog > G",
+      "Variables > GDB"
     ],
     "syntaxes": [
       {
@@ -17145,7 +17167,8 @@
     "name": "GDB7",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Catalog > G",
+      "Variables > GDB"
     ],
     "syntaxes": [
       {
@@ -17168,7 +17191,8 @@
     "name": "GDB8",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Catalog > G",
+      "Variables > GDB"
     ],
     "syntaxes": [
       {
@@ -17191,7 +17215,8 @@
     "name": "GDB9",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Catalog > G",
+      "Variables > GDB"
     ],
     "syntaxes": [
       {
@@ -17214,7 +17239,8 @@
     "name": "GDB0",
     "type": "variable",
     "categories": [
-      "Catalog > G"
+      "Catalog > G",
+      "Variables > GDB"
     ],
     "syntaxes": [
       {
@@ -17237,7 +17263,8 @@
     "name": "RegEQ",
     "type": "variable",
     "categories": [
-      "Catalog > R"
+      "Catalog > R",
+      "Statistics > EQ"
     ],
     "syntaxes": [
       {
@@ -17260,7 +17287,7 @@
     "name": "n",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > N"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -17283,7 +17310,7 @@
     "name": "x̄",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17306,7 +17333,7 @@
     "name": "Σx",
     "type": "variable",
     "categories": [
-      "Catalog > Σ"
+      "Statistics > Æ"
     ],
     "syntaxes": [
       {
@@ -17329,7 +17356,7 @@
     "name": "Σx²",
     "type": "variable",
     "categories": [
-      "Catalog > Σ"
+      "Statistics > Æ"
     ],
     "syntaxes": [
       {
@@ -17352,7 +17379,7 @@
     "name": "[Sx]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17375,7 +17402,7 @@
     "name": "σx",
     "type": "variable",
     "categories": [
-      "Catalog > Σ"
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17398,7 +17425,7 @@
     "name": "[minX]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17421,7 +17448,7 @@
     "name": "[maxX]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17444,7 +17471,7 @@
     "name": "[minY]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17467,7 +17494,7 @@
     "name": "[maxY]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17490,7 +17517,7 @@
     "name": "ȳ",
     "type": "variable",
     "categories": [
-      "Catalog > Ȳ"
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17513,7 +17540,7 @@
     "name": "Σy",
     "type": "variable",
     "categories": [
-      "Catalog > Σ"
+      "Statistics > Æ"
     ],
     "syntaxes": [
       {
@@ -17536,7 +17563,7 @@
     "name": "Σy²",
     "type": "variable",
     "categories": [
-      "Catalog > Σ"
+      "Statistics > Æ"
     ],
     "syntaxes": [
       {
@@ -17559,7 +17586,7 @@
     "name": "[Sy]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17582,7 +17609,7 @@
     "name": "σy",
     "type": "variable",
     "categories": [
-      "Catalog > Σ"
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17605,7 +17632,7 @@
     "name": "Σxy",
     "type": "variable",
     "categories": [
-      "Catalog > Σ"
+      "Statistics > Æ"
     ],
     "syntaxes": [
       {
@@ -17628,7 +17655,7 @@
     "name": "[r]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > EQ"
     ],
     "syntaxes": [
       {
@@ -17651,7 +17678,8 @@
     "name": "[Med]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Catalog > M",
+      "Statistics > Points"
     ],
     "syntaxes": [
       {
@@ -17674,7 +17702,7 @@
     "name": "Q₁",
     "type": "variable",
     "categories": [
-      "Catalog > Q"
+      "Statistics > Points"
     ],
     "syntaxes": [
       {
@@ -17697,7 +17725,7 @@
     "name": "Q₃",
     "type": "variable",
     "categories": [
-      "Catalog > Q"
+      "Statistics > Points"
     ],
     "syntaxes": [
       {
@@ -17720,7 +17748,7 @@
     "name": "[|a]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > EQ"
     ],
     "syntaxes": [
       {
@@ -17743,7 +17771,7 @@
     "name": "[|b]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > EQ"
     ],
     "syntaxes": [
       {
@@ -17766,7 +17794,7 @@
     "name": "[|c]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > EQ"
     ],
     "syntaxes": [
       {
@@ -17789,7 +17817,7 @@
     "name": "[|d]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > EQ"
     ],
     "syntaxes": [
       {
@@ -17812,7 +17840,7 @@
     "name": "[|e]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > EQ"
     ],
     "syntaxes": [
       {
@@ -17835,7 +17863,7 @@
     "name": "x₁",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Statistics > Points"
     ],
     "syntaxes": [
       {
@@ -17858,7 +17886,7 @@
     "name": "x₂",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Statistics > Points"
     ],
     "syntaxes": [
       {
@@ -17881,7 +17909,7 @@
     "name": "x₃",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Statistics > Points"
     ],
     "syntaxes": [
       {
@@ -17904,7 +17932,7 @@
     "name": "y₁",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Statistics > Points"
     ],
     "syntaxes": [
       {
@@ -17927,7 +17955,7 @@
     "name": "y₂",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Statistics > Points"
     ],
     "syntaxes": [
       {
@@ -17950,7 +17978,7 @@
     "name": "y₃",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Statistics > Points"
     ],
     "syntaxes": [
       {
@@ -17973,7 +18001,8 @@
     "name": "𝒏",
     "type": "variable",
     "categories": [
-      "Catalog > \ud835"
+      "Catalog > Misc",
+      "Catalog > N"
     ],
     "syntaxes": [
       {
@@ -17996,7 +18025,7 @@
     "name": "[p]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18019,7 +18048,7 @@
     "name": "[z]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18042,7 +18071,7 @@
     "name": "[t]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18065,7 +18094,7 @@
     "name": "χ²",
     "type": "variable",
     "categories": [
-      "Catalog > Χ"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18088,7 +18117,7 @@
     "name": "[|F]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18111,7 +18140,7 @@
     "name": "[df]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18134,7 +18163,7 @@
     "name": "p̂",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18157,7 +18186,7 @@
     "name": "p̂₁",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18180,7 +18209,7 @@
     "name": "p̂₂",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18203,7 +18232,7 @@
     "name": "x̄₁",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18226,7 +18255,7 @@
     "name": "Sx₁",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18249,7 +18278,7 @@
     "name": "n₁",
     "type": "variable",
     "categories": [
-      "Catalog > N"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18272,7 +18301,7 @@
     "name": "x̄₂",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18295,7 +18324,7 @@
     "name": "Sx₂",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18318,7 +18347,7 @@
     "name": "n₂",
     "type": "variable",
     "categories": [
-      "Catalog > N"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18341,7 +18370,7 @@
     "name": "Sxp",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18364,7 +18393,8 @@
     "name": "lower",
     "type": "variable",
     "categories": [
-      "Catalog > L"
+      "Catalog > L",
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18387,7 +18417,7 @@
     "name": "upper",
     "type": "variable",
     "categories": [
-      "Catalog > U"
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18410,7 +18440,7 @@
     "name": "[s]",
     "type": "variable",
     "categories": [
-      "Catalog > ["
+      "Statistics > Test"
     ],
     "syntaxes": [
       {
@@ -18433,7 +18463,7 @@
     "name": "r²",
     "type": "variable",
     "categories": [
-      "Catalog > R"
+      "Statistics > EQ"
     ],
     "syntaxes": [
       {
@@ -18456,7 +18486,7 @@
     "name": "R²",
     "type": "variable",
     "categories": [
-      "Catalog > R"
+      "Statistics > EQ"
     ],
     "syntaxes": [
       {
@@ -18479,7 +18509,7 @@
     "name": "[factordf]",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ["
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -18502,7 +18532,7 @@
     "name": "[factorSS]",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ["
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -18525,7 +18555,7 @@
     "name": "[factorMS]",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ["
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -18548,7 +18578,7 @@
     "name": "[errordf]",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ["
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -18571,7 +18601,7 @@
     "name": "[errorSS]",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ["
+      "Finance > Vars"
     ],
     "syntaxes": [
       {
@@ -18594,7 +18624,7 @@
     "name": "[errorMS]",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ["
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -18617,7 +18647,7 @@
     "name": "ZXscl",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Variables > Zoom"
     ],
     "syntaxes": [
       {
@@ -18640,7 +18670,7 @@
     "name": "ZYscl",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Variables > Zoom"
     ],
     "syntaxes": [
       {
@@ -18663,7 +18693,7 @@
     "name": "Xscl",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Variables > Window\\X/Y"
     ],
     "syntaxes": [
       {
@@ -18686,7 +18716,7 @@
     "name": "Yscl",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Variables > Window\\X/Y"
     ],
     "syntaxes": [
       {
@@ -18709,7 +18739,7 @@
     "name": "u(nMin)",
     "type": "variable",
     "categories": [
-      "Catalog > U"
+      "Variables > Window\\U/V/W"
     ],
     "syntaxes": [
       {
@@ -18732,7 +18762,7 @@
     "name": "v(nMin)",
     "type": "variable",
     "categories": [
-      "Catalog > V"
+      "Variables > Window\\U/V/W"
     ],
     "syntaxes": [
       {
@@ -18755,7 +18785,7 @@
     "name": "Un-₁",
     "type": "variable",
     "categories": [
-      "Catalog > U"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -18778,7 +18808,7 @@
     "name": "Vn-₁",
     "type": "variable",
     "categories": [
-      "Catalog > V"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -18801,7 +18831,7 @@
     "name": "Zu(nmin)",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -18824,7 +18854,7 @@
     "name": "Zv(nmin)",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -18847,7 +18877,7 @@
     "name": "Xmin",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Variables > Window\\X/Y"
     ],
     "syntaxes": [
       {
@@ -18870,7 +18900,7 @@
     "name": "Xmax",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Variables > Window\\X/Y"
     ],
     "syntaxes": [
       {
@@ -18893,7 +18923,7 @@
     "name": "Ymin",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Variables > Window\\X/Y"
     ],
     "syntaxes": [
       {
@@ -18916,7 +18946,7 @@
     "name": "Ymax",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Variables > Window\\X/Y"
     ],
     "syntaxes": [
       {
@@ -18939,7 +18969,8 @@
     "name": "Tmin",
     "type": "variable",
     "categories": [
-      "Catalog > T"
+      "Catalog > T",
+      "Variables > Window\\T/Á"
     ],
     "syntaxes": [
       {
@@ -18962,7 +18993,8 @@
     "name": "Tmax",
     "type": "variable",
     "categories": [
-      "Catalog > T"
+      "Catalog > T",
+      "Variables > Window\\T/Á"
     ],
     "syntaxes": [
       {
@@ -18985,7 +19017,7 @@
     "name": "θMin",
     "type": "variable",
     "categories": [
-      "Catalog > Θ"
+      "Variables > Window\\T/Á"
     ],
     "syntaxes": [
       {
@@ -19008,7 +19040,7 @@
     "name": "θMax",
     "type": "variable",
     "categories": [
-      "Catalog > Θ"
+      "Variables > Window\\T/Á"
     ],
     "syntaxes": [
       {
@@ -19031,7 +19063,7 @@
     "name": "ZXmin",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Variables > Zoom"
     ],
     "syntaxes": [
       {
@@ -19054,7 +19086,7 @@
     "name": "ZXmax",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Variables > Zoom"
     ],
     "syntaxes": [
       {
@@ -19077,7 +19109,7 @@
     "name": "ZYmin",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Variables > Zoom"
     ],
     "syntaxes": [
       {
@@ -19100,7 +19132,7 @@
     "name": "ZYmax",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Variables > Zoom"
     ],
     "syntaxes": [
       {
@@ -19123,7 +19155,7 @@
     "name": "Zθmin",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19146,7 +19178,7 @@
     "name": "Zθmax",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19169,7 +19201,7 @@
     "name": "ZTmin",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Variables > Zoom"
     ],
     "syntaxes": [
       {
@@ -19192,7 +19224,7 @@
     "name": "ZTmax",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Variables > Zoom"
     ],
     "syntaxes": [
       {
@@ -19215,7 +19247,8 @@
     "name": "TblStart",
     "type": "variable",
     "categories": [
-      "Catalog > T"
+      "Catalog > T",
+      "Variables > Table"
     ],
     "syntaxes": [
       {
@@ -19238,7 +19271,8 @@
     "name": "PlotStart",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Catalog > P",
+      "Variables > Window\\U/V/W"
     ],
     "syntaxes": [
       {
@@ -19261,7 +19295,7 @@
     "name": "ZPlotStart",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19284,7 +19318,7 @@
     "name": "nMax",
     "type": "variable",
     "categories": [
-      "Catalog > N"
+      "Variables > Window\\U/V/W"
     ],
     "syntaxes": [
       {
@@ -19307,7 +19341,7 @@
     "name": "ZnMax",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19330,7 +19364,7 @@
     "name": "nMin",
     "type": "variable",
     "categories": [
-      "Catalog > N"
+      "Variables > Window\\U/V/W"
     ],
     "syntaxes": [
       {
@@ -19353,7 +19387,7 @@
     "name": "ZnMin",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19376,7 +19410,7 @@
     "name": "∆Tbl",
     "type": "variable",
     "categories": [
-      "Catalog > ∆"
+      "Variables > Table"
     ],
     "syntaxes": [
       {
@@ -19399,7 +19433,7 @@
     "name": "Tstep",
     "type": "variable",
     "categories": [
-      "Catalog > T"
+      "Variables > Window\\T/Á"
     ],
     "syntaxes": [
       {
@@ -19422,7 +19456,7 @@
     "name": "θstep",
     "type": "variable",
     "categories": [
-      "Catalog > Θ"
+      "Variables > Window\\T/Á"
     ],
     "syntaxes": [
       {
@@ -19445,7 +19479,7 @@
     "name": "ZTstep",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Variables > Zoom"
     ],
     "syntaxes": [
       {
@@ -19468,7 +19502,7 @@
     "name": "Zθstep",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19491,7 +19525,7 @@
     "name": "∆X",
     "type": "variable",
     "categories": [
-      "Catalog > ∆"
+      "Unassigned"
     ],
     "syntaxes": [
       {
@@ -19514,7 +19548,7 @@
     "name": "∆Y",
     "type": "variable",
     "categories": [
-      "Catalog > ∆"
+      "Unassigned"
     ],
     "syntaxes": [
       {
@@ -19537,7 +19571,7 @@
     "name": "XFact",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19560,7 +19594,7 @@
     "name": "YFact",
     "type": "variable",
     "categories": [
-      "Catalog > Y"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19583,7 +19617,8 @@
     "name": "TblInput",
     "type": "variable",
     "categories": [
-      "Catalog > T"
+      "Catalog > T",
+      "Variables > Table"
     ],
     "syntaxes": [
       {
@@ -19606,7 +19641,7 @@
     "name": "𝗡",
     "type": "variable",
     "categories": [
-      "Catalog > \ud835"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -19629,7 +19664,7 @@
     "name": "I%",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Finance > Vars"
     ],
     "syntaxes": [
       {
@@ -19652,7 +19687,7 @@
     "name": "PV",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Finance > Vars"
     ],
     "syntaxes": [
       {
@@ -19675,7 +19710,7 @@
     "name": "PMT",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Finance > Vars"
     ],
     "syntaxes": [
       {
@@ -19698,7 +19733,7 @@
     "name": "FV",
     "type": "variable",
     "categories": [
-      "Catalog > F"
+      "Finance > Vars"
     ],
     "syntaxes": [
       {
@@ -19721,7 +19756,7 @@
     "name": "|P/Y",
     "type": "variable",
     "categories": [
-      "Catalog > |"
+      "Finance > Vars"
     ],
     "syntaxes": [
       {
@@ -19744,7 +19779,7 @@
     "name": "|C/Y",
     "type": "variable",
     "categories": [
-      "Catalog > |"
+      "Finance > Vars"
     ],
     "syntaxes": [
       {
@@ -19767,7 +19802,7 @@
     "name": "w(nMin)",
     "type": "variable",
     "categories": [
-      "Catalog > W"
+      "Variables > Window\\U/V/W"
     ],
     "syntaxes": [
       {
@@ -19790,7 +19825,7 @@
     "name": "Zw(nMin)",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19813,7 +19848,8 @@
     "name": "PlotStep",
     "type": "variable",
     "categories": [
-      "Catalog > P"
+      "Catalog > P",
+      "Variables > Window\\U/V/W"
     ],
     "syntaxes": [
       {
@@ -19836,7 +19872,7 @@
     "name": "ZPlotStep",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19859,7 +19895,7 @@
     "name": "Xres",
     "type": "variable",
     "categories": [
-      "Catalog > X"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19882,7 +19918,7 @@
     "name": "ZXres",
     "type": "variable",
     "categories": [
-      "Catalog > Z"
+      "Variables > Zoom"
     ],
     "syntaxes": [
       {
@@ -19905,7 +19941,7 @@
     "name": "TraceStep",
     "type": "variable",
     "categories": [
-      "Catalog > T"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -19925,7 +19961,8 @@
     "name": "=",
     "type": "infix operator",
     "categories": [
-      "Catalog > ="
+      "Catalog > Misc",
+      "Test"
     ],
     "syntaxes": [
       {
@@ -19948,7 +19985,8 @@
     "name": "<",
     "type": "infix operator",
     "categories": [
-      "Catalog > <"
+      "Catalog > Misc",
+      "Test"
     ],
     "syntaxes": [
       {
@@ -19971,7 +20009,8 @@
     "name": ">",
     "type": "infix operator",
     "categories": [
-      "Catalog > >"
+      "Catalog > Misc",
+      "Test"
     ],
     "syntaxes": [
       {
@@ -19994,7 +20033,8 @@
     "name": "≤",
     "type": "infix operator",
     "categories": [
-      "Catalog > ≤"
+      "Catalog > Misc",
+      "Test"
     ],
     "syntaxes": [
       {
@@ -20017,7 +20057,8 @@
     "name": "≥",
     "type": "infix operator",
     "categories": [
-      "Catalog > ≥"
+      "Catalog > Misc",
+      "Test"
     ],
     "syntaxes": [
       {
@@ -20040,7 +20081,8 @@
     "name": "≠",
     "type": "infix operator",
     "categories": [
-      "Catalog > ≠"
+      "Catalog > Misc",
+      "Test"
     ],
     "syntaxes": [
       {
@@ -20063,7 +20105,9 @@
     "name": "+",
     "type": "infix operator",
     "categories": [
-      "Catalog > +"
+      "Catalog > Misc",
+      "Keypad",
+      "Punctuation > Operators"
     ],
     "syntaxes": [
       {
@@ -20086,7 +20130,9 @@
     "name": "-",
     "type": "infix operator",
     "categories": [
-      "Catalog > -"
+      "Catalog > Misc",
+      "Keypad",
+      "Punctuation > Operators"
     ],
     "syntaxes": [
       {
@@ -20109,7 +20155,7 @@
     "name": "Graph Format",
     "type": "other",
     "categories": [
-      "Catalog > G"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -20129,7 +20175,8 @@
     "name": "□",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > □"
+      "Catalog > Misc",
+      "Stat Plot > Mark"
     ],
     "syntaxes": [
       {
@@ -20152,7 +20199,8 @@
     "name": "﹢",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ﹢"
+      "Catalog > Misc",
+      "Stat Plot > Mark"
     ],
     "syntaxes": [
       {
@@ -20175,7 +20223,7 @@
     "name": "·",
     "type": "other",
     "categories": [
-      "Catalog > ·"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -20198,7 +20246,9 @@
     "name": "*",
     "type": "infix operator",
     "categories": [
-      "Catalog > *"
+      "Catalog > Misc",
+      "Keypad",
+      "Punctuation > Operators"
     ],
     "syntaxes": [
       {
@@ -20221,7 +20271,9 @@
     "name": "/",
     "type": "infix operator",
     "categories": [
-      "Catalog > /"
+      "Catalog > Misc",
+      "Keypad",
+      "Punctuation > Operators"
     ],
     "syntaxes": [
       {
@@ -20244,7 +20296,7 @@
     "name": "PrintScreen",
     "type": "action",
     "categories": [
-      "Catalog > P"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -20267,7 +20319,7 @@
     "name": "Str1",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Variables > String"
     ],
     "syntaxes": [
       {
@@ -20290,7 +20342,7 @@
     "name": "Str2",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Variables > String"
     ],
     "syntaxes": [
       {
@@ -20313,7 +20365,7 @@
     "name": "Str3",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Variables > String"
     ],
     "syntaxes": [
       {
@@ -20336,7 +20388,7 @@
     "name": "Str4",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Variables > String"
     ],
     "syntaxes": [
       {
@@ -20359,7 +20411,7 @@
     "name": "Str5",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Variables > String"
     ],
     "syntaxes": [
       {
@@ -20382,7 +20434,7 @@
     "name": "Str6",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Variables > String"
     ],
     "syntaxes": [
       {
@@ -20405,7 +20457,7 @@
     "name": "Str7",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Variables > String"
     ],
     "syntaxes": [
       {
@@ -20428,7 +20480,7 @@
     "name": "Str8",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Variables > String"
     ],
     "syntaxes": [
       {
@@ -20451,7 +20503,7 @@
     "name": "Str9",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Variables > String"
     ],
     "syntaxes": [
       {
@@ -20474,7 +20526,7 @@
     "name": "Str0",
     "type": "variable",
     "categories": [
-      "Catalog > S"
+      "Variables > String"
     ],
     "syntaxes": [
       {
@@ -20497,7 +20549,7 @@
     "name": "VARSTRING",
     "type": "other",
     "categories": [
-      "Catalog > V"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -20517,7 +20569,9 @@
     "name": "π",
     "type": "constant",
     "categories": [
-      "Catalog > Π"
+      "Catalog > Misc",
+      "Char > Greek",
+      "Keypad"
     ],
     "syntaxes": [
       {
@@ -20540,7 +20594,7 @@
     "name": "'",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > '"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -20560,7 +20614,7 @@
     "name": "?",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ?"
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -20583,7 +20637,9 @@
     "name": "⁻",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ⁻"
+      "Catalog > Misc",
+      "Keypad",
+      "Punctuation > Operators"
     ],
     "syntaxes": [
       {
@@ -20675,7 +20731,7 @@
     "name": "compiled asm",
     "type": "other",
     "categories": [
-      "Catalog > C"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -20695,7 +20751,7 @@
     "name": "Á",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Á"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20718,7 +20774,7 @@
     "name": "À",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > À"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20741,7 +20797,7 @@
     "name": "Â",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Â"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20764,7 +20820,7 @@
     "name": "Ä",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ä"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20787,7 +20843,7 @@
     "name": "á",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Á"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20810,7 +20866,7 @@
     "name": "à",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > À"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20833,7 +20889,7 @@
     "name": "â",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Â"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20856,7 +20912,7 @@
     "name": "ä",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ä"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20879,7 +20935,7 @@
     "name": "É",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > É"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20902,7 +20958,7 @@
     "name": "È",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > È"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20925,7 +20981,7 @@
     "name": "Ê",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ê"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20948,7 +21004,7 @@
     "name": "Ë",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ë"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20971,7 +21027,7 @@
     "name": "é",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > É"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -20994,7 +21050,7 @@
     "name": "è",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > È"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21017,7 +21073,7 @@
     "name": "ê",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ê"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21040,7 +21096,7 @@
     "name": "ë",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ë"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21063,7 +21119,7 @@
     "name": "Ì",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ì"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21086,7 +21142,7 @@
     "name": "Î",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Î"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21109,7 +21165,7 @@
     "name": "Ï",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ï"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21132,7 +21188,7 @@
     "name": "í",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Í"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21155,7 +21211,7 @@
     "name": "ì",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ì"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21178,7 +21234,7 @@
     "name": "î",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Î"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21201,7 +21257,7 @@
     "name": "ï",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ï"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21224,7 +21280,7 @@
     "name": "Ó",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ó"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21247,7 +21303,7 @@
     "name": "Ò",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ò"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21270,7 +21326,7 @@
     "name": "Ô",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ô"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21293,7 +21349,7 @@
     "name": "Ö",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ö"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21316,7 +21372,7 @@
     "name": "ó",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ó"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21339,7 +21395,7 @@
     "name": "ò",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ò"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21362,7 +21418,7 @@
     "name": "ô",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ô"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21385,7 +21441,7 @@
     "name": "ö",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ö"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21408,7 +21464,7 @@
     "name": "Ú",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ú"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21431,7 +21487,7 @@
     "name": "Ù",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ù"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21454,7 +21510,7 @@
     "name": "Û",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Û"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21477,7 +21533,7 @@
     "name": "Ü",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ü"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21500,7 +21556,7 @@
     "name": "ú",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ú"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21523,7 +21579,7 @@
     "name": "ù",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ù"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21546,7 +21602,7 @@
     "name": "û",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Û"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21569,7 +21625,7 @@
     "name": "ü",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ü"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21592,7 +21648,8 @@
     "name": "Ç",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ç"
+      "International > A",
+      "International > Others"
     ],
     "syntaxes": [
       {
@@ -21615,7 +21672,7 @@
     "name": "ç",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ç"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21638,7 +21695,7 @@
     "name": "Ñ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ñ"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21661,7 +21718,7 @@
     "name": "ñ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ñ"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21684,7 +21741,7 @@
     "name": "´",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ´"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21707,7 +21764,7 @@
     "name": "`",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > `"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21730,7 +21787,7 @@
     "name": "¨",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ¨"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21753,7 +21810,7 @@
     "name": "¿",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ¿"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21776,7 +21833,7 @@
     "name": "¡",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ¡"
+      "Char > International"
     ],
     "syntaxes": [
       {
@@ -21799,7 +21856,7 @@
     "name": "α",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Α"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -21822,7 +21879,7 @@
     "name": "β",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Β"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -21845,7 +21902,7 @@
     "name": "γ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Γ"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -21868,7 +21925,7 @@
     "name": "Δ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Δ"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -21891,7 +21948,7 @@
     "name": "δ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Δ"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -21914,7 +21971,7 @@
     "name": "ε",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ε"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -21937,7 +21994,7 @@
     "name": "λ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Λ"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -21960,7 +22017,7 @@
     "name": "μ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Μ"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -21983,7 +22040,7 @@
     "name": "|π",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > |"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -22006,7 +22063,7 @@
     "name": "ρ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ρ"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -22029,7 +22086,7 @@
     "name": "Σ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Σ"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -22052,7 +22109,7 @@
     "name": "Φ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Φ"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -22075,7 +22132,7 @@
     "name": "Ω",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ω"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -22098,7 +22155,7 @@
     "name": "ṗ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Ṗ"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -22121,7 +22178,7 @@
     "name": "χ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Χ"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -22144,7 +22201,7 @@
     "name": "𝐅",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > \ud835"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -22167,7 +22224,7 @@
     "name": "a",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > A"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22190,7 +22247,7 @@
     "name": "b",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > B"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22213,7 +22270,7 @@
     "name": "c",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > C"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22236,7 +22293,7 @@
     "name": "d",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > D"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22259,7 +22316,7 @@
     "name": "f",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > F"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22282,7 +22339,7 @@
     "name": "g",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > G"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22305,7 +22362,7 @@
     "name": "h",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > H"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22328,7 +22385,7 @@
     "name": "i",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > I"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22351,7 +22408,7 @@
     "name": "j",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > J"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22374,7 +22431,7 @@
     "name": "k",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > K"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22397,7 +22454,7 @@
     "name": "l",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > L"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22420,7 +22477,7 @@
     "name": "m",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > M"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22443,7 +22500,7 @@
     "name": "o",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > O"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22466,7 +22523,7 @@
     "name": "p",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > P"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22489,7 +22546,7 @@
     "name": "q",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Q"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22512,7 +22569,7 @@
     "name": "r",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > R"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22535,7 +22592,7 @@
     "name": "s",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > S"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22558,7 +22615,7 @@
     "name": "t",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > T"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22581,7 +22638,7 @@
     "name": "u",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > U"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22604,7 +22661,7 @@
     "name": "v",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > V"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22627,7 +22684,7 @@
     "name": "w",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > W"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22650,7 +22707,7 @@
     "name": "x",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > X"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22673,7 +22730,7 @@
     "name": "y",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Y"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22696,7 +22753,7 @@
     "name": "z",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Z"
+      "Char > Letters"
     ],
     "syntaxes": [
       {
@@ -22719,7 +22776,7 @@
     "name": "σ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Σ"
+      "Catalog > G"
     ],
     "syntaxes": [
       {
@@ -22742,7 +22799,7 @@
     "name": "τ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Τ"
+      "Char > Greek"
     ],
     "syntaxes": [
       {
@@ -22765,7 +22822,7 @@
     "name": "Í",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > Í"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -22788,7 +22845,7 @@
     "name": "~",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ~"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -22811,7 +22868,7 @@
     "name": "@",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > @"
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -22834,7 +22891,7 @@
     "name": "#",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > #"
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -22857,7 +22914,7 @@
     "name": "$",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > $"
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -22880,7 +22937,7 @@
     "name": "&",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > &"
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -22903,7 +22960,7 @@
     "name": "‛",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ‛"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -22926,7 +22983,7 @@
     "name": ";",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ;"
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -22949,7 +23006,7 @@
     "name": "\\",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > \\"
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -22972,7 +23029,7 @@
     "name": "|",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > |"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -22995,7 +23052,7 @@
     "name": "_",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > _"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23018,7 +23075,7 @@
     "name": "%",
     "type": "postfix operator",
     "categories": [
-      "Catalog > %"
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -23041,7 +23098,7 @@
     "name": "…",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > …"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23064,7 +23121,7 @@
     "name": "∠",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ∠"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23087,7 +23144,7 @@
     "name": "ß",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > SS"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23110,7 +23167,7 @@
     "name": "ˣ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ˣ"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23133,7 +23190,7 @@
     "name": "ᴛ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ᴛ"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23156,7 +23213,7 @@
     "name": "₀",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₀"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -23179,7 +23236,7 @@
     "name": "₁",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₁"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -23202,7 +23259,7 @@
     "name": "₂",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₂"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -23225,7 +23282,7 @@
     "name": "₃",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₃"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -23248,7 +23305,7 @@
     "name": "₄",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₄"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -23271,7 +23328,7 @@
     "name": "₅",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₅"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -23294,7 +23351,7 @@
     "name": "₆",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₆"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -23317,7 +23374,7 @@
     "name": "₇",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₇"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -23340,7 +23397,7 @@
     "name": "₈",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₈"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -23363,7 +23420,7 @@
     "name": "₉",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₉"
+      "Char > Digits"
     ],
     "syntaxes": [
       {
@@ -23386,7 +23443,7 @@
     "name": "₁₀",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ₁"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -23409,7 +23466,7 @@
     "name": "◄",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ◄"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23432,7 +23489,7 @@
     "name": "►",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ►"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23455,7 +23512,7 @@
     "name": "↑",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ↑"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23478,7 +23535,7 @@
     "name": "↓",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ↓"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23501,7 +23558,7 @@
     "name": "×",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ×"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23524,7 +23581,7 @@
     "name": "∫",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ∫"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23547,7 +23604,7 @@
     "name": "🡅",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > \ud83e"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23570,7 +23627,7 @@
     "name": "🡇",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > \ud83e"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23593,7 +23650,7 @@
     "name": "√",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > √"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23616,7 +23673,7 @@
     "name": "inverted =",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -23639,7 +23696,9 @@
     "name": "√(",
     "type": "function",
     "categories": [
-      "Catalog > √"
+      "Catalog > Misc",
+      "Keypad",
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -23662,7 +23721,8 @@
     "name": "³√(",
     "type": "function",
     "categories": [
-      "Catalog > ³"
+      "Catalog > Misc",
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -23685,7 +23745,9 @@
     "name": "₁₀^(",
     "type": "function",
     "categories": [
-      "Catalog > ₁"
+      "Catalog > Misc",
+      "Keypad",
+      "Math > Math"
     ],
     "syntaxes": [
       {
@@ -23708,7 +23770,8 @@
     "name": "Plot2(",
     "type": "function",
     "categories": [
-      "Catalog > P"
+      "Catalog > P",
+      "Stat Plot > Plots"
     ],
     "syntaxes": [
       {
@@ -23731,7 +23794,8 @@
     "name": "Plot3(",
     "type": "function",
     "categories": [
-      "Catalog > P"
+      "Catalog > P",
+      "Stat Plot > Plots"
     ],
     "syntaxes": [
       {
@@ -23754,7 +23818,7 @@
     "name": "⬚",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ⬚"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23777,7 +23841,7 @@
     "name": "⁄",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ⁄"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23800,7 +23864,7 @@
     "name": "ᵤ",
     "type": "text/symbol only",
     "categories": [
-      "Catalog > ᵤ"
+      "Char > Others"
     ],
     "syntaxes": [
       {
@@ -23823,7 +23887,7 @@
     "name": "FRAC",
     "type": "action",
     "categories": [
-      "Catalog > F"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -23846,7 +23910,7 @@
     "name": "BLUE",
     "type": "action",
     "categories": [
-      "Catalog > B"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -23869,7 +23933,7 @@
     "name": "RED",
     "type": "action",
     "categories": [
-      "Catalog > R"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -23892,7 +23956,7 @@
     "name": "BLACK",
     "type": "action",
     "categories": [
-      "Catalog > B"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -23915,7 +23979,7 @@
     "name": "MAGENTA",
     "type": "action",
     "categories": [
-      "Catalog > M"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -23938,7 +24002,7 @@
     "name": "GREEN",
     "type": "action",
     "categories": [
-      "Catalog > G"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -23961,7 +24025,7 @@
     "name": "ORANGE",
     "type": "action",
     "categories": [
-      "Catalog > O"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -23984,7 +24048,7 @@
     "name": "BROWN",
     "type": "action",
     "categories": [
-      "Catalog > B"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24007,7 +24071,7 @@
     "name": "NAVY",
     "type": "action",
     "categories": [
-      "Catalog > N"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24030,7 +24094,7 @@
     "name": "LTBLUE",
     "type": "action",
     "categories": [
-      "Catalog > L"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24053,7 +24117,7 @@
     "name": "YELLOW",
     "type": "action",
     "categories": [
-      "Catalog > Y"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24076,7 +24140,7 @@
     "name": "WHITE",
     "type": "action",
     "categories": [
-      "Catalog > W"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24099,7 +24163,7 @@
     "name": "LTGRAY",
     "type": "action",
     "categories": [
-      "Catalog > L"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24122,7 +24186,7 @@
     "name": "MEDGRAY",
     "type": "action",
     "categories": [
-      "Catalog > M"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24145,7 +24209,7 @@
     "name": "GRAY",
     "type": "action",
     "categories": [
-      "Catalog > G"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24168,7 +24232,7 @@
     "name": "DARKGRAY",
     "type": "action",
     "categories": [
-      "Catalog > D"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24191,7 +24255,7 @@
     "name": "Image1",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24211,7 +24275,7 @@
     "name": "Image2",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24231,7 +24295,7 @@
     "name": "Image3",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24251,7 +24315,7 @@
     "name": "Image4",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24271,7 +24335,7 @@
     "name": "Image5",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24291,7 +24355,7 @@
     "name": "Image6",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24311,7 +24375,7 @@
     "name": "Image7",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24331,7 +24395,7 @@
     "name": "Image8",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24351,7 +24415,7 @@
     "name": "Image9",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24371,7 +24435,7 @@
     "name": "Image0",
     "type": "variable",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24391,7 +24455,7 @@
     "name": "QuickPlot&Fit-EQ",
     "type": "action",
     "categories": [
-      "Catalog > Q"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24411,7 +24475,7 @@
     "name": "Asm84CPrgm",
     "type": "basic instruction only",
     "categories": [
-      "Catalog > A"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24434,7 +24498,7 @@
     "name": "Asm83CEPrgm",
     "type": "basic instruction only",
     "categories": [
-      "Catalog > A"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24457,7 +24521,7 @@
     "name": "Quartiles Setting…",
     "type": "action",
     "categories": [
-      "Catalog > Q"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24480,7 +24544,7 @@
     "name": "u(𝒏-2)",
     "type": "variable",
     "categories": [
-      "Catalog > U"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24503,7 +24567,7 @@
     "name": "v(𝒏-2)",
     "type": "variable",
     "categories": [
-      "Catalog > V"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24526,7 +24590,7 @@
     "name": "w(𝒏-2)",
     "type": "variable",
     "categories": [
-      "Catalog > W"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24549,7 +24613,7 @@
     "name": "u(𝒏-1)",
     "type": "variable",
     "categories": [
-      "Catalog > U"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24572,7 +24636,7 @@
     "name": "v(𝒏-1)",
     "type": "variable",
     "categories": [
-      "Catalog > V"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24595,7 +24659,7 @@
     "name": "w(𝒏-1)",
     "type": "variable",
     "categories": [
-      "Catalog > W"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24618,7 +24682,7 @@
     "name": "u(𝒏)",
     "type": "variable",
     "categories": [
-      "Catalog > U"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24641,7 +24705,7 @@
     "name": "v(𝒏)",
     "type": "variable",
     "categories": [
-      "Catalog > V"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24664,7 +24728,7 @@
     "name": "w(𝒏)",
     "type": "variable",
     "categories": [
-      "Catalog > W"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24687,7 +24751,7 @@
     "name": "u(𝒏+1)",
     "type": "variable",
     "categories": [
-      "Catalog > U"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24710,7 +24774,7 @@
     "name": "v(𝒏+1)",
     "type": "variable",
     "categories": [
-      "Catalog > V"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24733,7 +24797,7 @@
     "name": "w(𝒏+1)",
     "type": "variable",
     "categories": [
-      "Catalog > W"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24756,7 +24820,7 @@
     "name": "Execute Program",
     "type": "action",
     "categories": [
-      "Catalog > E"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24779,7 +24843,7 @@
     "name": "Undo Clear",
     "type": "action",
     "categories": [
-      "Catalog > U"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24802,7 +24866,7 @@
     "name": "Insert Line Above",
     "type": "action",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24825,7 +24889,7 @@
     "name": "Cut Line",
     "type": "action",
     "categories": [
-      "Catalog > C"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24848,7 +24912,7 @@
     "name": "Copy Line",
     "type": "action",
     "categories": [
-      "Catalog > C"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24871,7 +24935,7 @@
     "name": "Paste Line Below",
     "type": "action",
     "categories": [
-      "Catalog > P"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24894,7 +24958,7 @@
     "name": "Insert Comment Above",
     "type": "action",
     "categories": [
-      "Catalog > I"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24917,7 +24981,7 @@
     "name": "Quit Editor",
     "type": "action",
     "categories": [
-      "Catalog > Q"
+      "Other (non-catalog)"
     ],
     "syntaxes": [
       {
@@ -24940,7 +25004,9 @@
     "name": "^",
     "type": "infix operator",
     "categories": [
-      "Catalog > ^"
+      "Catalog > Misc",
+      "Keypad",
+      "Punctuation > Operators"
     ],
     "syntaxes": [
       {
@@ -24963,7 +25029,8 @@
     "name": "ˣ√",
     "type": "infix operator",
     "categories": [
-      "Catalog > ˣ"
+      "Catalog > Misc",
+      "Punctuation > Operators"
     ],
     "syntaxes": [
       {
