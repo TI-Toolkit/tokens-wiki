@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB27`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [I](../categories/Catalog.md#I)</li><li>[Math](../categories/Math.md) > [Complex](../categories/Math.md#Complex)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [I](<../categories/Catalog.md#I>)</li><li>[Math](<../categories/Math.md>) > [Complex](<../categories/Math.md#Complex>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `imag(`</li></ul> |
 
 # `imag(`

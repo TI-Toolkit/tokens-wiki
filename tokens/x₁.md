@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$621B`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [X](../categories/Catalog.md#X)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [X](<../categories/Catalog.md#X>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `x₁`</li></ul> |
 
 # `x₁`

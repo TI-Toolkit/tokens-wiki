@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$C3`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li><li>[Keypad](../categories/Keypad.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [S](<../categories/Catalog.md#S>)</li><li>[Keypad](<../categories/Keypad.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Arcsin(`</li></ul> |
 
 # `sin⁻¹(`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6201`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [R](../categories/Catalog.md#R)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [R](<../categories/Catalog.md#R>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `RegEQ`</li></ul> |
 
 # `RegEQ`

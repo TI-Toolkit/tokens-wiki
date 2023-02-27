@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$21`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [M](../categories/Catalog.md#M)</li><li>[List](../categories/List.md) > [Math](../categories/List.md#Math)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [M](<../categories/Catalog.md#M>)</li><li>[List](<../categories/List.md>) > [Math](<../categories/List.md#Math>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `moyenne(`</li></ul> |
 
 # `mean(`

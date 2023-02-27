@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$D6`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [L](../categories/Catalog.md#L)</li><li>[Program](../categories/Program.md) > [Control](../categories/Program.md#Control)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [L](<../categories/Catalog.md#L>)</li><li>[Program](<../categories/Program.md>) > [Control](<../categories/Program.md#Control>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Lbl `</li></ul> |
 
 # `Lbl `

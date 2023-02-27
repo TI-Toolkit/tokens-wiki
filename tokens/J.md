@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BBB9`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [J](../categories/Catalog.md#J)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [J](<../categories/Catalog.md#J>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `j`</li></ul> |
 
 # `j`

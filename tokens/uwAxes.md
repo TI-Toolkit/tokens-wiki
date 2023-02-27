@@ -1,13 +1,13 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E12`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [U](../categories/Catalog.md#U)</li><li>[Window](../categories/Window.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [U](<../categories/Catalog.md#U>)</li><li>[Window](<../categories/Window.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `uwAxes`</li></ul> |
 
 # `uwAxes`
 
 ## Description
-Sets sequence graphs to plot `u(``n``)` on the x-axis and `w(``n``)` on the y-axis.
+Sets sequence graphs to plot `u(n``)` on the x-axis and `w(``n``)` on the y-axis.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

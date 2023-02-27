@@ -1,13 +1,13 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EC`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [P](../categories/Catalog.md#P)</li><li>[Stat Plot](../categories/Stat Plot.md) > [Plots](../categories/Stat Plot.md#Plots)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [P](<../categories/Catalog.md#P>)</li><li>[Stat Plot](<../categories/Stat Plot.md>) > [Plots](<../categories/Stat Plot.md#Plots>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Graph1(`</li></ul> |
 
 # `Plot1(`
 
 ## Description
-Defines `Plot``#` (`1`, `2`, or `3`) of `type` `Scatter` or `xyLine` for `Xlist` and `Ylist` using `mark `and `color. `
+Defines `Plot#` (`1`, `2`, or `3`) of `type` `Scatter` or `xyLine` for `Xlist` and `Ylist` using `mark `and `color. `
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 Note: `Xlist `and `Ylist `represent the Xlist and Ylist names.
 
@@ -40,7 +40,7 @@ Note: `Xlist `and `Ylist `represent the Xlist and Ylist names.
 <hr>
 
 ## Description
-Defines `Plot``#` (`1`, `2`, or `3`) of `type` ` Histogram` or `Boxplot` for `Xlist` with frequency `freqlist `and color #.
+Defines `Plot#` (`1`, `2`, or `3`) of `type` ` Histogram` or `Boxplot` for `Xlist` with frequency `freqlist `and color #.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 Note: `Xlist `represents the Xlist name.
 
@@ -71,7 +71,7 @@ Note: `Xlist `represents the Xlist name.
 <hr>
 
 ## Description
-Defines `Plot``#` (`1`, `2`, or `3`) of `type` ` ModBoxplot` for `Xlist` with frequency `freqlist` using `mark `and `color #`.
+Defines `Plot#` (`1`, `2`, or `3`) of `type` ` ModBoxplot` for `Xlist` with frequency `freqlist` using `mark `and `color #`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 Note: `Xlist `represents the Xlist name.
 
@@ -104,7 +104,7 @@ Note: `Xlist `represents the Xlist name.
 <hr>
 
 ## Description
-Defines `Plot``#` (`1`, `2`, or `3`) of `type` ` NormProbPlot` for `datalist` on `data axis` using `mark `and `color #` `data axis` can be `X` or `Y`.
+Defines `Plot#` (`1`, `2`, or `3`) of `type` ` NormProbPlot` for `datalist` on `data axis` using `mark `and `color #` `data axis` can be `X` or `Y`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 Note: `datalist `represents the datalist name.
 

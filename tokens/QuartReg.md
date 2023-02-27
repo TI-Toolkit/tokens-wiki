@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$2F`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [Q](../categories/Catalog.md#Q)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Q](<../categories/Catalog.md#Q>)</li><li>[Statistics](<../categories/Statistics.md>) > [Operations](<../categories/Statistics.md#Operations>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `RegQuatre `</li></ul> |
 
 # `QuartReg `

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$CF`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [T](../categories/Catalog.md#T)</li><li>[Program](../categories/Program.md) > [Control](../categories/Program.md#Control)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [T](<../categories/Catalog.md#T>)</li><li>[Program](<../categories/Program.md>) > [Control](<../categories/Program.md#Control>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Then`</li></ul> |
 
 # `Then`

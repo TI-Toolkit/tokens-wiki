@@ -1,13 +1,13 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB4E`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [R](../categories/Catalog.md#R)</li><li>[Mode](../categories/Mode.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [R](<../categories/Catalog.md#R>)</li><li>[Mode](<../categories/Mode.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `re^θ𝑖`</li></ul> |
 
 # `re^θ𝑖`
 
 ## Description
-Sets the mode to polar complex number mode (`r``e``^`θ`i`).
+Sets the mode to polar complex number mode (`re``^`θ`i`).
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

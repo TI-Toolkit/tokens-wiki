@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB23`|
-| Categories    | <ul><li>[Finance](../categories/Finance.md) > [Calc](../categories/Finance.md#Calc)</li></ul> |
+| Categories    | <ul><li>[Finance](<../categories/Finance.md>) > [Calc](<../categories/Finance.md#Calc>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `tvm_𝗡`</li></ul> |
 
 # `tvm_𝗡`

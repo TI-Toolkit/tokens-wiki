@@ -1,13 +1,13 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$99`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [R](../categories/Catalog.md#R)</li><li>[Drawing](../categories/Drawing.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [R](<../categories/Catalog.md#R>)</li><li>[Drawing](<../categories/Drawing.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `RappelImage `</li></ul> |
 
 # `RecallPic `
 
 ## Description
-Displays the graph and adds the picture stored in `Pic``n`.
+Displays the graph and adds the picture stored in `Picn`.
 
 
 <b>Availability</b>: Token available everywhere.

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BF`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [Misc](../categories/Catalog.md#Misc)</li><li>[Keypad](../categories/Keypad.md)</li><li>[Math](../categories/Math.md) > [Math](../categories/Math.md#Math)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Misc](<../categories/Catalog.md#Misc>)</li><li>[Keypad](<../categories/Keypad.md>)</li><li>[Math](<../categories/Math.md>) > [Math](<../categories/Math.md#Math>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `e^(`</li></ul> |
 
 # `e^(`

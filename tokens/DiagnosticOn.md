@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB66`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [D](../categories/Catalog.md#D)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [D](<../categories/Catalog.md#D>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `CorrelAff`</li></ul> |
 
 # `DiagnosticOn`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$69`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [F](../categories/Catalog.md#F)</li><li>[Mode](../categories/Mode.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [F](<../categories/Catalog.md#F>)</li><li>[Mode](<../categories/Mode.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Flottant`</li></ul> |
 
 # `Float`

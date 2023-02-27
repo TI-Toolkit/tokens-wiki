@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$E1`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [C](../categories/Catalog.md#C)</li><li>[Program](../categories/Program.md) > [I/O](../categories/Program.md#I/O)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [C](<../categories/Catalog.md#C>)</li><li>[Program](<../categories/Program.md>) > [I/O](<../categories/Program.md#I/O>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `EffEcran`</li></ul> |
 
 # `ClrHome`

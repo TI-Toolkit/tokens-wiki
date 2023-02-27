@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$AA06`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [S](<../categories/Catalog.md#S>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Chaine7`</li></ul> |
 
 # `Str7`

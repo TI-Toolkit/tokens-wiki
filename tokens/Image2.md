@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF51`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [I](../categories/Catalog.md#I)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [I](<../categories/Catalog.md#I>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Image2`</li></ul> |
 
 # `Image2`

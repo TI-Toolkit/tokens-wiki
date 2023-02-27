@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$F8`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [M](../categories/Catalog.md#M)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [M](<../categories/Catalog.md#M>)</li><li>[Statistics](<../categories/Statistics.md>) > [Operations](<../categories/Statistics.md#Operations>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Med-Med `</li></ul> |
 
 # `Med-Med `

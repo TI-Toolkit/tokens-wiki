@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF4D`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [M](../categories/Catalog.md#M)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [M](<../categories/Catalog.md#M>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `GRIS MOY`</li></ul> |
 
 # `MEDGRAY`

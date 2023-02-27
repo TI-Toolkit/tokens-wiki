@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E01`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li><li>[Mode](../categories/Mode.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [S](<../categories/Catalog.md#S>)</li><li>[Mode](<../categories/Mode.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Simul`</li></ul> |
 
 # `Simul`

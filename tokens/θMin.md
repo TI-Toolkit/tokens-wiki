@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6310`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [Θ](../categories/Catalog.md#Θ)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Θ](<../categories/Catalog.md#Θ>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `θMin`</li></ul> |
 
 # `θMin`

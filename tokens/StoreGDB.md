@@ -1,13 +1,13 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$9A`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li><li>[Drawing](../categories/Drawing.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [S](<../categories/Catalog.md#S>)</li><li>[Drawing](<../categories/Drawing.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `SauveBDG `</li></ul> |
 
 # `StoreGDB `
 
 ## Description
-Stores current graph in database `GDB``n`.
+Stores current graph in database `GDBn`.
 
 
 <b>Availability</b>: Token available everywhere.

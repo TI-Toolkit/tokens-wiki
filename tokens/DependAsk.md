@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7D`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [D](../categories/Catalog.md#D)</li><li>[Table Settings](../categories/Table Settings.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [D](<../categories/Catalog.md#D>)</li><li>[Table Settings](<../categories/Table Settings.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `CalculsDem`</li></ul> |
 
 # `DependAsk`

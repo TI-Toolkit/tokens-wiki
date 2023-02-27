@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF4B`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [W](../categories/Catalog.md#W)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [W](<../categories/Catalog.md#W>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `BLANC`</li></ul> |
 
 # `WHITE`

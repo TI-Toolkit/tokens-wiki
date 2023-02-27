@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$B4`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [I](../categories/Catalog.md#I)</li><li>[Matrix](../categories/Matrix.md) > [Math](../categories/Matrix.md#Math)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [I](<../categories/Catalog.md#I>)</li><li>[Matrix](<../categories/Matrix.md>) > [Math](<../categories/Matrix.md#Math>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `identité(`</li></ul> |
 
 # `identity(`

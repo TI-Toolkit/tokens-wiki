@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$621E`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [Y](../categories/Catalog.md#Y)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Y](<../categories/Catalog.md#Y>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `y₁`</li></ul> |
 
 # `y₁`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF08`|
-| Categories    | <ul><li>[Time](../categories/Time.md)</li></ul> |
+| Categories    | <ul><li>[Time](<../categories/Time.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `affChHr(`</li></ul> |
 
 # `getTmStr(`

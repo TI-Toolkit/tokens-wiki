@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$F4`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [L](../categories/Catalog.md#L)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [L](<../categories/Catalog.md#L>)</li><li>[Statistics](<../categories/Statistics.md>) > [Operations](<../categories/Statistics.md#Operations>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `RegLin(a+bx) `</li></ul> |
 
 # `LinReg(a+bx) `

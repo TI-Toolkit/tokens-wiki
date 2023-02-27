@@ -1,13 +1,13 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E11`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [V](../categories/Catalog.md#V)</li><li>[Window](../categories/Window.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [V](<../categories/Catalog.md#V>)</li><li>[Window](<../categories/Window.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `vwAxes`</li></ul> |
 
 # `vwAxes`
 
 ## Description
-Sets sequence graphs to plot `v(``n``)` on the x-axis and `w(``n``)` on the y-axis.
+Sets sequence graphs to plot `v(n``)` on the x-axis and `w(``n``)` on the y-axis.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

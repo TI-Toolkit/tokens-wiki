@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6332`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [W](../categories/Catalog.md#W)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [W](<../categories/Catalog.md#W>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `w(nMin)`</li></ul> |
 
 # `w(nMin)`

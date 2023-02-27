@@ -1,13 +1,13 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB55`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [E](../categories/Catalog.md#E)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [E](<../categories/Catalog.md#E>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Equ►Chaine(`</li></ul> |
 
 # `Equ►String(`
 
 ## Description
-Converts the contents of a `Y=`` var` to a string and stores it in `Str``n`
+Converts the contents of a `Y= var` to a string and stores it in `Str``n`
 
 
 <b>Availability</b>: Token available everywhere.

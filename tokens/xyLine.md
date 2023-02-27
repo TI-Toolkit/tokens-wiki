@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$FD`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [X](../categories/Catalog.md#X)</li><li>[Stat Plot](../categories/Stat Plot.md) > [Type](../categories/Stat Plot.md#Type)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [X](<../categories/Catalog.md#X>)</li><li>[Stat Plot](<../categories/Stat Plot.md>) > [Type](<../categories/Stat Plot.md#Type>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Polygone`</li></ul> |
 
 # `xyLine`

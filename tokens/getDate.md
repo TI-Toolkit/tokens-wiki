@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF09`|
-| Categories    | <ul><li>[Time](../categories/Time.md)</li></ul> |
+| Categories    | <ul><li>[Time](<../categories/Time.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `affDate`</li></ul> |
 
 # `getDate`

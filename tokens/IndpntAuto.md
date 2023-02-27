@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7A`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [I](../categories/Catalog.md#I)</li><li>[Table Settings](../categories/Table Settings.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [I](<../categories/Catalog.md#I>)</li><li>[Table Settings](<../categories/Table Settings.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `ValeursAuto`</li></ul> |
 
 # `IndpntAuto`

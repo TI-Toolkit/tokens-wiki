@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF0C`|
-| Categories    | <ul><li>[Time](../categories/Time.md)</li></ul> |
+| Categories    | <ul><li>[Time](<../categories/Time.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `affFmtDt`</li></ul> |
 
 # `getDtFmt`

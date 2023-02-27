@@ -1,13 +1,13 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$98`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li><li>[Drawing](../categories/Drawing.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [S](<../categories/Catalog.md#S>)</li><li>[Drawing](<../categories/Drawing.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `SauveImage `</li></ul> |
 
 # `StorePic `
 
 ## Description
-Stores current picture in picture `Pic``n`.
+Stores current picture in picture `Picn`.
 
 
 <b>Availability</b>: Token available everywhere.

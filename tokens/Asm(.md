@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB6A`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [A](../categories/Catalog.md#A)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [A](<../categories/Catalog.md#A>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Asm(`</li></ul> |
 
 # `Asm(`

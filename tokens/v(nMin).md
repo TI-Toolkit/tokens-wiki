@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6305`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [V](../categories/Catalog.md#V)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [V](<../categories/Catalog.md#V>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `v(nMin)`</li></ul> |
 
 # `v(nMin)`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF0A`|
-| Categories    | <ul><li>[Time](../categories/Time.md)</li></ul> |
+| Categories    | <ul><li>[Time](<../categories/Time.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `affHeure`</li></ul> |
 
 # `getTime`

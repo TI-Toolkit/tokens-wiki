@@ -2683,7 +2683,7 @@
             false
           ]
         ],
-        "description": "Converts the contents of a `Y=`` var` to a string and stores it in `Str``n`",
+        "description": "Converts the contents of a `Y= var` to a string and stores it in `Str``n`",
         "inEditorOnly": false,
         "location": [
           "[2nd]",
@@ -4691,7 +4691,7 @@
             true
           ]
         ],
-        "description": "Displays `Str``n` and stores entered value to `variable`.",
+        "description": "Displays `Strn` and stores entered value to `variable`.",
         "inEditorOnly": true,
         "location": [
           "[prgm]",
@@ -7382,7 +7382,7 @@
             true
           ]
         ],
-        "description": "Defines `Plot``#` (`1`, `2`, or `3`) of `type` `Scatter` or `xyLine` for `Xlist` and `Ylist` using `mark `and `color. `\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `Xlist `and `Ylist `represent the Xlist and Ylist names.",
+        "description": "Defines `Plot#` (`1`, `2`, or `3`) of `type` `Scatter` or `xyLine` for `Xlist` and `Ylist` using `mark `and `color. `\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `Xlist `and `Ylist `represent the Xlist and Ylist names.",
         "inEditorOnly": true,
         "location": [
           "[2nd]",
@@ -7420,7 +7420,7 @@
             true
           ]
         ],
-        "description": "Defines `Plot``#` (`1`, `2`, or `3`) of `type` ` Histogram` or `Boxplot` for `Xlist` with frequency `freqlist `and color #.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `Xlist `represents the Xlist name.",
+        "description": "Defines `Plot#` (`1`, `2`, or `3`) of `type` ` Histogram` or `Boxplot` for `Xlist` with frequency `freqlist `and color #.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `Xlist `represents the Xlist name.",
         "inEditorOnly": true,
         "location": [
           "[2nd]",
@@ -7463,7 +7463,7 @@
             true
           ]
         ],
-        "description": "Defines `Plot``#` (`1`, `2`, or `3`) of `type` ` ModBoxplot` for `Xlist` with frequency `freqlist` using `mark `and `color #`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `Xlist `represents the Xlist name.",
+        "description": "Defines `Plot#` (`1`, `2`, or `3`) of `type` ` ModBoxplot` for `Xlist` with frequency `freqlist` using `mark `and `color #`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `Xlist `represents the Xlist name.",
         "inEditorOnly": true,
         "location": [
           "[2nd]",
@@ -7506,7 +7506,7 @@
             true
           ]
         ],
-        "description": "Defines `Plot``#` (`1`, `2`, or `3`) of `type` ` NormProbPlot` for `datalist` on `data axis` using `mark `and `color #` `data axis` can be `X` or `Y`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `datalist `represents the datalist name.",
+        "description": "Defines `Plot#` (`1`, `2`, or `3`) of `type` ` NormProbPlot` for `datalist` on `data axis` using `mark `and `color #` `data axis` can be `X` or `Y`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `datalist `represents the datalist name.",
         "inEditorOnly": true,
         "location": [
           "[2nd]",
@@ -9012,7 +9012,7 @@
             false
           ]
         ],
-        "description": "Sets the mode to polar complex number mode (`r``e``^`θ`i`).",
+        "description": "Sets the mode to polar complex number mode (`re``^`θ`i`).",
         "inEditorOnly": true,
         "location": [
           "[re^θ𝑖]"
@@ -9102,7 +9102,7 @@
             false
           ]
         ],
-        "description": "Restores all settings stored in the graph database variable `GDB``n`.",
+        "description": "Restores all settings stored in the graph database variable `GDBn`.",
         "inEditorOnly": false,
         "location": [
           "[2nd]",
@@ -9136,7 +9136,7 @@
             false
           ]
         ],
-        "description": "Displays the graph and adds the picture stored in `Pic``n`.",
+        "description": "Displays the graph and adds the picture stored in `Picn`.",
         "inEditorOnly": false,
         "location": [
           "[2nd]",
@@ -11904,7 +11904,7 @@
             false
           ]
         ],
-        "description": "Stores current graph in database `GDB``n`.",
+        "description": "Stores current graph in database `GDBn`.",
         "inEditorOnly": false,
         "location": [
           "[2nd]",
@@ -11938,7 +11938,7 @@
             false
           ]
         ],
-        "description": "Stores current picture in picture `Pic``n`.",
+        "description": "Stores current picture in picture `Picn`.",
         "inEditorOnly": false,
         "location": [
           "[2nd]",
@@ -11976,7 +11976,7 @@
             false
           ]
         ],
-        "description": "Converts `string` into an equation and stores it in `Y=`` var`.\nstring can be a string or string variable.\nString►Equ( is the inverse of Equ►String(.",
+        "description": "Converts `string` into an equation and stores it in `Y= var`.\nstring can be a string or string variable.\nString►Equ( is the inverse of Equ►String(.",
         "inEditorOnly": true,
         "location": [
           "[prgm]",
@@ -13238,7 +13238,7 @@
       {
         "syntax": "uvAxes",
         "arguments": [],
-        "description": "Sets sequence graphs to plot `u(``n``)` on the x-axis and `v(``n``)` on the y-axis.",
+        "description": "Sets sequence graphs to plot `u(n``)` on the x-axis and `v(``n``)` on the y-axis.",
         "inEditorOnly": true,
         "location": [
           "[2nd]",
@@ -13265,7 +13265,7 @@
       {
         "syntax": "uwAxes",
         "arguments": [],
-        "description": "Sets sequence graphs to plot `u(``n``)` on the x-axis and `w(``n``)` on the y-axis.",
+        "description": "Sets sequence graphs to plot `u(n``)` on the x-axis and `w(``n``)` on the y-axis.",
         "inEditorOnly": true,
         "location": [
           "[2nd]",
@@ -13456,7 +13456,7 @@
       {
         "syntax": "vwAxes",
         "arguments": [],
-        "description": "Sets sequence graphs to plot `v(``n``)` on the x-axis and `w(``n``)` on the y-axis.",
+        "description": "Sets sequence graphs to plot `v(n``)` on the x-axis and `w(``n``)` on the y-axis.",
         "inEditorOnly": true,
         "location": [
           "[2nd]",

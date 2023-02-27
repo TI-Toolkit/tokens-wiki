@@ -347,7 +347,7 @@ for(let i = 0; i < 26; i++)
         {
             const descRaw = Array.from(token.querySelectorAll('tbody p.CmdDesc'));
             descRaw.forEach((el) => { el.innerHTML = el.innerHTML.replace(/<span class="(?:Function|Variable)">([^<]+)<\/span>/g, '`$1`'); });
-            description = descRaw.map(el => el.textContent.trim()).join("\n");
+            description = descRaw.map(el => el.textContent.trim()).join("\n").replace('``', '');
         }
 
         const rawLocation = token.querySelector('tbody p.MenuName > span')?.parentElement;

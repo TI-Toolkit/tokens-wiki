@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$9C`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [L](../categories/Catalog.md#L)</li><li>[Drawing](../categories/Drawing.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [L](<../categories/Catalog.md#L>)</li><li>[Drawing](<../categories/Drawing.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Ligne(`</li></ul> |
 
 # `Line(`

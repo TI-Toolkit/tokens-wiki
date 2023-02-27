@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB29`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [C](../categories/Catalog.md#C)</li><li>[List](../categories/List.md) > [Ops](../categories/List.md#Ops)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [C](<../categories/Catalog.md#C>)</li><li>[List](<../categories/List.md>) > [Ops](<../categories/List.md#Ops>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `somCum(`</li></ul> |
 
 # `cumSum(`

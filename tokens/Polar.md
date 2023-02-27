@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$78`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [P](../categories/Catalog.md#P)</li><li>[Mode](../categories/Mode.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [P](<../categories/Catalog.md#P>)</li><li>[Mode](<../categories/Mode.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Polaire`</li></ul> |
 
 # `Polar`

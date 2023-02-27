@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$A5`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [C](../categories/Catalog.md#C)</li><li>[Drawing](../categories/Drawing.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [C](<../categories/Catalog.md#C>)</li><li>[Drawing](<../categories/Drawing.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Cercle(`</li></ul> |
 
 # `Circle(`

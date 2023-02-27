@@ -32,7 +32,7 @@ for (const [bytes, token] of Object.entries(tokens)) {
         } else {
             pagesByCat[cat][token.name] = true;
         }
-        categoriesLinks += `<li>[${cat}](../categories/${cat}.md)` + (subCat ? ` > [${subCat}](../categories/${cat}.md#${subCat})` : '') + '</li>';
+        categoriesLinks += `<li>[${cat}](<../categories/${cat}.md>)` + (subCat ? ` > [${subCat}](<../categories/${cat}.md#${subCat}>)` : '') + '</li>';
     }
 
     let localizations = '';

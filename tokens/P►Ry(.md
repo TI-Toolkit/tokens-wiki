@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$1E`|
-| Categories    | <ul><li>[Angle](../categories/Angle.md)</li><li>[Catalog](../categories/Catalog.md) > [P](../categories/Catalog.md#P)</li></ul> |
+| Categories    | <ul><li>[Angle](<../categories/Angle.md>)</li><li>[Catalog](<../categories/Catalog.md>) > [P](<../categories/Catalog.md#P>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `P►Ry(`</li></ul> |
 
 # `P►Ry(`

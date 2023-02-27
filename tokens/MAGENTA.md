@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF44`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [M](../categories/Catalog.md#M)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [M](<../categories/Catalog.md#M>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `MAGENTA`</li></ul> |
 
 # `MAGENTA`

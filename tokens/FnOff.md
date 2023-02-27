@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$97`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [F](../categories/Catalog.md#F)</li><li>[Y= Functions](../categories/Y= Functions.md) > [On/Off](../categories/Y= Functions.md#On/Off)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [F](<../categories/Catalog.md#F>)</li><li>[Y= Functions](<../categories/Y= Functions.md>) > [On/Off](<../categories/Y= Functions.md#On/Off>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `FonctNAff `</li></ul> |
 
 # `FnOff `

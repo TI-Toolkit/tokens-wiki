@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6223`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [[](../categories/Catalog.md#[)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [[](<../categories/Catalog.md#[>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `[z]`</li></ul> |
 
 # `[z]`

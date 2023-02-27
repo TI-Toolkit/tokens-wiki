@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB57`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [C](../categories/Catalog.md#C)</li><li>[Memory](../categories/Memory.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [C](<../categories/Catalog.md#C>)</li><li>[Memory](<../categories/Memory.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Efface entrées`</li></ul> |
 
 # `Clear Entries`

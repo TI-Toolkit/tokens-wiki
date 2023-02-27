@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF48`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [N](../categories/Catalog.md#N)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [N](<../categories/Catalog.md#N>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `BLEU MRN`</li></ul> |
 
 # `NAVY`

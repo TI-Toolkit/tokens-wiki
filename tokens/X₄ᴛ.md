@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$5E26`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [X](../categories/Catalog.md#X)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [X](<../categories/Catalog.md#X>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `X₄ᴛ`</li></ul> |
 
 # `X₄ᴛ`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB50`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [E](../categories/Catalog.md#E)</li><li>[Window](../categories/Window.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [E](<../categories/Catalog.md#E>)</li><li>[Window](<../categories/Window.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `ExpAff`</li></ul> |
 
 # `ExprOn`

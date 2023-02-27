@@ -1,13 +1,13 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$9B`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [R](../categories/Catalog.md#R)</li><li>[Drawing](../categories/Drawing.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [R](<../categories/Catalog.md#R>)</li><li>[Drawing](<../categories/Drawing.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `RappelBDG `</li></ul> |
 
 # `RecallGDB `
 
 ## Description
-Restores all settings stored in the graph database variable `GDB``n`.
+Restores all settings stored in the graph database variable `GDBn`.
 
 
 <b>Availability</b>: Token available everywhere.

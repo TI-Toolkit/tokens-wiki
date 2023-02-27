@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$B8`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [N](../categories/Catalog.md#N)</li><li>[Test](../categories/Test.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [N](<../categories/Catalog.md#N>)</li><li>[Test](<../categories/Test.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `non(`</li></ul> |
 
 # `not(`

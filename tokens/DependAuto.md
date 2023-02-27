@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7C`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [D](../categories/Catalog.md#D)</li><li>[Table Settings](../categories/Table Settings.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [D](<../categories/Catalog.md#D>)</li><li>[Table Settings](<../categories/Table Settings.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `CalculsAuto`</li></ul> |
 
 # `DependAuto`

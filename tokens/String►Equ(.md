@@ -1,13 +1,13 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB56`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [S](../categories/Catalog.md#S)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [S](<../categories/Catalog.md#S>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Chaine►Equ(`</li></ul> |
 
 # `String►Equ(`
 
 ## Description
-Converts `string` into an equation and stores it in `Y=`` var`.
+Converts `string` into an equation and stores it in `Y= var`.
 string can be a string or string variable.
 String►Equ( is the inverse of Equ►String(.
 

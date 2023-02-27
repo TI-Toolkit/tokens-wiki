@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB39`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [M](../categories/Catalog.md#M)</li><li>[List](../categories/List.md) > [Ops](../categories/List.md#Ops)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [M](<../categories/Catalog.md#M>)</li><li>[List](<../categories/List.md>) > [Ops](<../categories/List.md#Ops>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Matr►list(`</li></ul> |
 
 # `Matr►list(`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$BB0E`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [V](../categories/Catalog.md#V)</li><li>[List](../categories/List.md) > [Math](../categories/List.md#Math)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [V](<../categories/Catalog.md#V>)</li><li>[List](<../categories/List.md>) > [Math](<../categories/List.md#Math>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `variance(`</li></ul> |
 
 # `variance(`

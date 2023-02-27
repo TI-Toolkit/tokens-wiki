@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6338`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [T](../categories/Catalog.md#T)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [T](<../categories/Catalog.md#T>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `TracePas`</li></ul> |
 
 # `TraceStep`

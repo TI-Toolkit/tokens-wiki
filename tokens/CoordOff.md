@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$7E05`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [C](../categories/Catalog.md#C)</li><li>[Window](../categories/Window.md)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [C](<../categories/Catalog.md#C>)</li><li>[Window](<../categories/Window.md>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `CoordNAff`</li></ul> |
 
 # `CoordOff`

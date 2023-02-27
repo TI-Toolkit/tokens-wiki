@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$EF43`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [B](../categories/Catalog.md#B)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [B](<../categories/Catalog.md#B>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `NOIR`</li></ul> |
 
 # `BLACK`

@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$DC`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [I](../categories/Catalog.md#I)</li><li>[Program](../categories/Program.md) > [I/O](../categories/Program.md#I/O)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [I](<../categories/Catalog.md#I>)</li><li>[Program](<../categories/Program.md>) > [I/O](<../categories/Program.md#I/O>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Input `</li></ul> |
 
 # `Input `
@@ -41,7 +41,7 @@ Prompts for value to store to `variable`.
 <hr>
 
 ## Description
-Displays `Str``n` and stores entered value to `variable`.
+Displays `Strn` and stores entered value to `variable`.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.

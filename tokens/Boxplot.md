@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$05`|
-| Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [B](../categories/Catalog.md#B)</li><li>[Stat Plot](../categories/Stat Plot.md) > [Type](../categories/Stat Plot.md#Type)</li></ul> |
+| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [B](<../categories/Catalog.md#B>)</li><li>[Stat Plot](<../categories/Stat Plot.md>) > [Type](<../categories/Stat Plot.md#Type>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Carré`</li></ul> |
 
 # `Boxplot`
