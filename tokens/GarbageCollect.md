@@ -1,6 +1,6 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$BBCB`|
+| Hex Value     | `$BBCE`|
 | Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [G](../categories/Catalog.md#G)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `RéorganiserMém`</li></ul> |
 

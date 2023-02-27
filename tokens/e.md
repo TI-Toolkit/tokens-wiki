@@ -1,6 +1,6 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$621A`|
+| Hex Value     | `$BBB4`|
 | Categories    | <ul><li>[Statistics](../categories/Statistics.md) > [EQ](../categories/Statistics.md#EQ)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `e`</li></ul> |
 
@@ -40,7 +40,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | Added
+| <b>TI-83+</b> | 1.03 | Added
 
 ## Related Commands
 

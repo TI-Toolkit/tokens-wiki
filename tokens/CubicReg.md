@@ -1,6 +1,6 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$0`|
+| Hex Value     | `$2E`|
 | Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [C](../categories/Catalog.md#C)</li><li>[Statistics](../categories/Statistics.md) > [Operations](../categories/Statistics.md#Operations)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `RegCubique `</li></ul> |
 
@@ -54,7 +54,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-
+| <b>TI-82</b> | 1.0 | Added
 
 ## Related Commands
 

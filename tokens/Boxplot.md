@@ -1,6 +1,6 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$5`|
+| Hex Value     | `$05`|
 | Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [B](../categories/Catalog.md#B)</li><li>[Stat Plot](../categories/Stat Plot.md) > [Type](../categories/Stat Plot.md#Type)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Carré`</li></ul> |
 
@@ -54,7 +54,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-
+| <b>TI-82</b> | 1.0 | Added
 
 ## Related Commands
 

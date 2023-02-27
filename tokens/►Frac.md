@@ -1,6 +1,6 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$3`|
+| Hex Value     | `$03`|
 | Categories    | <ul><li>[Catalog](../categories/Catalog.md) > [F](../categories/Catalog.md#F)</li><li>[Math](../categories/Math.md) > [Math](../categories/Math.md#Math)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `►Frac`</li></ul> |
 
@@ -48,7 +48,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-
+| <b>TI-82</b> | 1.0 | Added
 
 ## Related Commands
 

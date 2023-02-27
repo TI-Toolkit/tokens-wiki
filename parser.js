@@ -62,6 +62,39 @@ try {
     console.error(e);
 }
 
+const mergeInfoFromCSV = function(entry, csvMatch) {
+    if (entry.name !== csvMatch.enName) {
+        console.warn(`   *****  adjusting name from [${entry.name}] to csv-provided [${csvMatch.enName}]`);
+        entry.name = csvMatch.enName;
+    }
+    entry.localizations.FR = csvMatch.frName;
+
+    if ((!entry.type || entry.type === '?') && csvMatch.type) {
+        entry.type = csvMatch.type;
+    }
+
+    // provide matched bytes and comment
+    const comment = csvMatch.comment.length ? csvMatch.comment : undefined;
+    return [ csvMatch.bytes, comment ];
+}
+
+const mergeInfoFromDict = function(entry, dictMatch) {
+    if (!dictMatch.__token || dictMatch.__token.toLowerCase() !== entry.name.toLowerCase()) {
+        entry.type = dictMatch.__token ?? 'function';
+    }
+
+    const cats = dictMatch.categories?.category;
+    if (typeof(cats) === 'string') {
+        entry.categories.push(cats)
+    } else {
+        entry.categories = cats;
+    }
+    entry.categories = entry.categories.sort().map(cat => cat.replace('\\', ' > '));
+
+    // provide matched name and bytes
+    return [ entry.name, dictMatch.__tag ];
+}
+
 try {
     const fileContents = fs.readFileSync('./input/ti-toolkit_tokens_8X.xml', 'utf8');
 
@@ -181,10 +214,17 @@ for(let i = 0; i < 26; i++)
         }
         console.log(`processing ${name}...`);
 
-        let type = null;
-        let bytes = null;
-        let categories = [];
-        let localizations = {};
+        const tokenEntry = {
+            name: name,
+            type: undefined,
+            categories: [],
+            syntaxes: [],
+            localizations: {},
+            since: undefined,
+            until: undefined,
+        };
+
+        let bytes = undefined;
         let comment = undefined;
 
         let commentRaw = token.querySelector('tbody p.SyntaxLine').innerHTML?.split('<br>');
@@ -197,48 +237,24 @@ for(let i = 0; i < 26; i++)
             }
         }
 
-        const dictMatch = dict[name] ?? dict[`${name} `] ?? dict[`${name})`] ?? dict[`${name}) `] ?? dict[name.replace(/\($/,'')];
         const csvMatch = csv[name] ?? csv[`${name} `] ?? csv[` ${name} `] ?? csv[`${name})`] ?? csv[`${name}) `] ?? csv[name.replace(/\($/,'')];
-
-        const inDictBlackList = /(Σ\()/.test(name);
-
-        if (!inDictBlackList && typeof(dictMatch) === 'object') {
-            if (name !== dictMatch.__name) {
-                console.warn(`   *****  adjusting name from [${name}] to dict-provided [${dictMatch.__name}]`);
-                name = dictMatch.__name;
-            }
-            if (!dictMatch.__token || dictMatch.__token.toLowerCase() !== name.toLowerCase()) {
-                type = dictMatch.__token ?? 'function';
-            }
-            bytes = dictMatch.__tag;
-            const cats = dictMatch.categories?.category;
-            if (typeof(cats) === 'string') {
-                categories.push(cats)
-            } else {
-                categories = cats;
-            }
-            categories = categories.sort().map(cat => cat.replace('\\', ' > '));
-        } else {
-            console.warn("   *****  no match found in dictionary")
-        }
+        const dictMatch = dict[name] ?? dict[`${name} `] ?? dict[`${name})`] ?? dict[`${name}) `] ?? dict[name.replace(/\($/,'')];
 
         if (typeof(csvMatch) === 'object') {
-            if (name !== csvMatch.enName) {
-                console.warn(`   *****  adjusting name from [${name}] to csv-provided [${csvMatch.enName}]`);
-                name = csvMatch.enName;
-            }
-            localizations.FR = csvMatch.frName;
-            if (!bytes || bytes === '?') {
-                bytes = csvMatch.bytes;
-            }
-            if ((!type || type === '?') && csvMatch.type) {
-                type = csvMatch.type;
-            }
-            if (!comment && csvMatch.comment) {
-                comment = csvMatch.comment;
-            }
+            const [ newBytes, newComment ] = mergeInfoFromCSV(tokenEntry, csvMatch);
+            bytes ??= newBytes;
+            comment ??= newComment;
         } else {
             console.warn("   *****  no match found in CSV")
+        }
+
+        const inDictBlackList = /(Σ\()/.test(name);
+        if (!inDictBlackList && typeof(dictMatch) === 'object') {
+            const [ newName, newBytes ] = mergeInfoFromDict(tokenEntry, dictMatch);
+            name = newName;
+            bytes ??= newBytes;
+        } else {
+            console.warn("   *****  no match found in dictionary")
         }
 
         const specialCategory = token.querySelector('thead > tr.Head-Header1 > th.HeadD-Column2-Header1 > p.MenuName')?.textContent.trim() ?? '';
@@ -371,15 +387,10 @@ for(let i = 0; i < 26; i++)
             }
         }
 
-        (json[bytes] ??= {
-            name: name,
-            type: type,
-            categories: categories,
-            syntaxes: [],
-            localizations: localizations,
-            since: tkXML[bytes]?.since,
-            until: tkXML[bytes]?.until,
-        }).syntaxes.push({
+        tokenEntry.since = tkXML[bytes]?.since;
+        tokenEntry.until = tkXML[bytes]?.until;
+
+        (json[bytes] ??= tokenEntry).syntaxes.push({
             specificName: specificName,
             syntax: wholeSyntaxLine,
             comment: comment,

@@ -1,6 +1,6 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$1`|
+| Hex Value     | `$01`|
 | Categories    | <ul><li>[Angle](../categories/Angle.md)</li><li>[Catalog](../categories/Catalog.md) > [D](../categories/Catalog.md#D)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `►DMS`</li></ul> |
 
@@ -48,7 +48,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-
+| <b>TI-82</b> | 1.0 | Added
 
 ## Related Commands
 
