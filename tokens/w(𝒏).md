@@ -39,7 +39,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-84+CE</b> | 5.0.0 | Added
+| <b>TI-84+CE</b> | 5.2.0 | Added
 
 ## Related Commands
 
