@@ -3,7 +3,7 @@
 
 ## Assembly
 
- * <a href="../tokens/Asm83CEPrgm.md" title="0xEF7A">Asm83CEPrgm</a>
+ * <a href="../tokens/Asm84CEPrgm.md" title="0xEF7A">Asm84CEPrgm</a>
  * <a href="../tokens/Asm84CPrgm.md" title="0xEF68">Asm84CPrgm</a>
  * <a href="../tokens/compiled asm.md" title="0xBB6D">compiled asm</a>
 

@@ -24509,15 +24509,15 @@
     }
   },
   "0xEF7A": {
-    "name": "Asm83CEPrgm",
+    "name": "Asm84CEPrgm",
     "type": "basic instruction only",
     "categories": [
       "Other (non-catalog) > Assembly"
     ],
     "syntaxes": [
       {
-        "syntax": "Asm83CEPrgm",
-        "comment": "",
+        "syntax": "Asm84CEPrgm",
+        "comment": "`Asm83CEPrgm` on the TI-83 Premium CE",
         "arguments": [],
         "description": "",
         "inEditorOnly": true,

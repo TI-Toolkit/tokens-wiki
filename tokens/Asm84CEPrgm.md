@@ -4,16 +4,17 @@
 | Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Assembly](<../categories/Other (non-catalog).md#Assembly>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `Asm83CEPrgm`</li></ul> |
 
-# `Asm83CEPrgm`
+# `Asm84CEPrgm`
 
 ## Description
 
 
+<b>Comment</b>:`Asm83CEPrgm` on the TI-83 Premium CE
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`Asm83CEPrgm`
+`Asm84CEPrgm`
 
 <hr>
 

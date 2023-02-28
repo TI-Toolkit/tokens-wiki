@@ -420,9 +420,15 @@ for(let i = 0; i < 26; i++)
 }
 
 // Add all other tokens from the CSV
-for (const [ enName, { bytes, frName, type, comment } ] of Object.entries(csv)) {
+for (let [ enName, { bytes, frName, type, comment } ] of Object.entries(csv)) {
     if (json[bytes]) {
         continue;
+    }
+
+    // one exception...
+    if (enName === 'Asm83CEPrgm') {
+        enName = 'Asm84CEPrgm';
+        comment = '`Asm83CEPrgm` on the TI-83 Premium CE'
     }
 
     const entry = {
