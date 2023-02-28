@@ -41,7 +41,6 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 
-
 ## Related Commands
 
     

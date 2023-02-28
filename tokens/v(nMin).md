@@ -38,7 +38,9 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83</b> | 1.010 | Added
+| <b>TI-82</b> | 1.0 | `VnStart` added
+| <b>TI-83</b> | 1.010 | `v(nMin)` added
+| <b>TI-83</b> | 1.010 | `VnStart` removed
 
 ## Related Commands
 

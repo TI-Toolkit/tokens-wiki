@@ -2,6 +2,10 @@
 import * as fs from 'fs';
 import sanitize from 'sanitize-filename';
 
+const capitalizeFirstLetter = function(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 const emptyDir = function(dir) {
     for (const file of fs.readdirSync(dir)) {
         fs.unlinkSync(`${dir}/${file}`);
@@ -137,9 +141,16 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 `;
-    const sinceHTML = token.since ? `| <b>${Object.keys(token.since)[0]}</b> | ${Object.values(token.since)[0]} | Added` : '';
-    const untilHTML = token.until ? `| <b>${Object.keys(token.until)[0]}</b> | ${Object.values(token.until)[0]} | Removed` : '';
-    page += sinceHTML + untilHTML + '\n';
+    const sinceUntilLines = [];
+    const multipleSinceUntil = Object.keys(token.since ?? {}).length > 1 || Object.keys(token.until ?? {}).length > 1;
+    for (const [which, action] of Object.entries({ since: 'added', until: 'removed' })) {
+        for (const [model, ver] of Object.entries(token[which] ?? [])) {
+            const [actualVer, nameInVer] = ver.split('|');
+            sinceUntilLines.push(`| <b>${model}</b> | ${actualVer} | ` + (multipleSinceUntil ? `\`${nameInVer ?? token.name}\` ` : '') + (multipleSinceUntil ? action : capitalizeFirstLetter(action)));
+        }
+    }
+
+    sinceUntilLines.sort((a, b) => a[0].localeCompare(b[0])).forEach((line) => { page += line + '\n'; });
 
     page += `
 ## Related Commands

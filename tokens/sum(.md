@@ -52,7 +52,9 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83</b> | 1.010 | Added
+| <b>TI-82</b> | 1.0 | `sum ` added
+| <b>TI-83</b> | 1.010 | `sum(` added
+| <b>TI-83</b> | 1.010 | `sum ` removed
 
 ## Related Commands
 

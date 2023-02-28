@@ -69,7 +69,9 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83</b> | 1.010 | Added
+| <b>TI-82</b> | 1.0 | `abs ` added
+| <b>TI-83</b> | 1.010 | `abs(` added
+| <b>TI-83</b> | 1.010 | `abs ` removed
 
 ## Related Commands
 

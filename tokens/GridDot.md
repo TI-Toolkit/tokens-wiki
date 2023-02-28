@@ -49,7 +49,9 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-84+CSE</b> | 4.0 | Added
+| <b>TI-82</b> | 1.0 | `GridOn` added
+| <b>TI-84+CSE</b> | 4.0 | `GridDot ` added
+| <b>TI-84+CSE</b> | 4.0 | `GridOn` removed
 
 ## Related Commands
 

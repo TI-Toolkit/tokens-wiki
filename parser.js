@@ -10,9 +10,8 @@ const csv  = {}; // input
 const dict = {}; // input
 const json = {}; // output
 
+// temp maps used for manual matching of other tokens
 const dict_fromBytes = {};
-
-// tmp map used for manual matching of extra catalog entries
 const name2bytes = {}
 
 /***
@@ -20,9 +19,13 @@ Processing notes:
  - `adriweb_tokens.csv` is parsed as a map<name,props> ('csv'): EN+FR names, bytes, type, comment
  - `ti_pe_83PlusDictionary.xml` is parsed as a map<name,props> ('dict'): EN name, bytes, categories, etc.
  - `eGuide pages` are parsed: EN name, description, comment, syntax (+arguments), menu location, inEdtorOnly, special category
- - `ti-toolkit_tokens_8X.xml` is parsed as a map<bytes,props> ('tkXML'): EN name, since+until info
+ - `ti-toolkit_tokens_8X.xml` is parsed as a map<bytes,props[]> ('tkXML'): [ EN name, since+until info ]
  - all this gets merged together in a json object <bytes,props>
 ***/
+
+const decodeHtmlEntity = function(str) {
+    return str.replace(/&#(\d+);/g, (_, code) => String.fromCharCode(code));
+}
 
 const goodStrLen = function(str) {
     return Array.from(new Intl.Segmenter().segment(str)).length;
@@ -82,7 +85,7 @@ const mergeInfoFromCSV = function(entry, csvMatch) {
 
     // provide matched bytes and comment
     const comment = csvMatch.comment.length ? csvMatch.comment : undefined;
-    return [ csvMatch.bytes, comment ];
+    return [ csvMatch.enName, csvMatch.bytes, comment ];
 }
 
 const mergeInfoFromDict = function(entry, dictMatch, overwriteType) {
@@ -109,15 +112,26 @@ const mergeInfoFromDict = function(entry, dictMatch, overwriteType) {
     return [ entry.name, dictMatch.__tag ];
 }
 
+const mergeSinceUntilFromTkXML = function(entry, match, enName) {
+    for (const tok of match) {
+        for (const which of ['since', 'until']) {
+            for (const [model, ver] of Object.entries(tok[which] ?? [])) {
+                const nameIsDifferent = (tok.enName !== enName && tok.enName.replace(/^\[(.{2,})\]$/g, '$1') !== enName);
+                (entry[which] ??= {})[model] = ver + (nameIsDifferent ? `|${tok.enName}` : '');
+            }
+        }
+    }
+}
+
 try {
     const fileContents = fs.readFileSync('./input/ti-toolkit_tokens_8X.xml', 'utf8');
 
     const fillTkXML = function(bytes, data) {
-        tkXML[bytes] = {
-            enName: String(data.lang[0].name[0]),
+        (tkXML[bytes] ??= []).push({
+            enName: decodeHtmlEntity(String(data.lang[0].name[0])), // todo properly
             since: data.since ? { [data.since.model]: data.since.version } : undefined,
             until: data.until ? { [data.until.model]: data.until.version } : undefined,
-        };
+        });
     }
 
     const isArray = (name, jpath, isLeafNode, isAttribute) => {
@@ -174,7 +188,7 @@ for(let i = 0; i < 26; i++)
             token.innerHTML = token.innerHTML.replace(new RegExp(`<span class="Keys_ICOMSymbols"[^>]*>\\s*${s}\\s*</span>`, 'gi'), r);
         }
         // ...KeySymbols
-        for (const [s, r] of Object.entries({ "â":"ᴇ", "Ü":"𝐅", "Ù":"⌊", "ä":"*", "æ":"I%", "Ú":"𝗡", "!":"→" })) {
+        for (const [s, r] of Object.entries({ "â":"ᴇ", "Ü":"𝐅", "Ù":"ʟ", "ä":"*", "æ":"I%", "Ú":"𝗡", "!":"→" })) {
             token.innerHTML = token.innerHTML.replace(new RegExp(`<span style="font-family: 'TI84KeySymbols'"[^>]*>${s}</span>`, 'gi'), r);
         }
         // ...superscripts etc.
@@ -255,7 +269,8 @@ for(let i = 0; i < 26; i++)
         const dictMatch = dict[name] ?? dict[`${name} `] ?? dict[` ${name} `] ?? dict[`${name})`] ?? dict[`${name}) `] ?? dict[name.replace(/\($/,'')];
 
         if (typeof(csvMatch) === 'object') {
-            const [ newBytes, newComment ] = mergeInfoFromCSV(tokenEntry, csvMatch);
+            const [ newName, newBytes, newComment ] = mergeInfoFromCSV(tokenEntry, csvMatch);
+            name = newName;
             bytes ??= newBytes;
             comment ??= newComment;
         } else {
@@ -401,8 +416,9 @@ for(let i = 0; i < 26; i++)
             }
         }
 
-        tokenEntry.since = tkXML[bytes]?.since;
-        tokenEntry.until = tkXML[bytes]?.until;
+        if (tkXML[bytes]) {
+            mergeSinceUntilFromTkXML(tokenEntry, tkXML[bytes], name);
+        }
 
         (json[bytes] ??= tokenEntry).syntaxes.push({
             specificName: specificName,
@@ -446,9 +462,11 @@ for (let [ enName, { bytes, frName, type, comment } ] of Object.entries(csv)) {
             specialCategory: undefined,
         }],
         localizations: { FR: frName },
-        since: tkXML[bytes]?.since,
-        until: tkXML[bytes]?.until,
     };
+
+    if (tkXML[bytes]) {
+        mergeSinceUntilFromTkXML(entry, tkXML[bytes], enName);
+    }
 
     if (dict_fromBytes[bytes]) {
         // console.log(`DICT handled: ${bytes} = ${enName}`)

@@ -41,7 +41,9 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-84+CSE</b> | 4.0 | Added
+| <b>TI-82</b> | 1.0 | `Connected` added
+| <b>TI-84+CSE</b> | 4.0 | `Thick` added
+| <b>TI-84+CSE</b> | 4.0 | `Connected` removed
 
 ## Related Commands
 
