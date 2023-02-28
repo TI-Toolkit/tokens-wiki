@@ -23,7 +23,7 @@ Returns a string that is a subset of another `string`, from `begin` to `length`.
 
 <tr><td>begin</td><td></td><td>false</td></tr>
 
-<tr><td>length</td><td></td><td>false</td></tr>
+<tr><td>length</td><td>integer</td><td>false</td></tr>
 
 </table>
 

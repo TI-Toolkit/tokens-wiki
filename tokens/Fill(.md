@@ -21,7 +21,7 @@ Stores `value` to each element in `matrixname`.
 
 <tr><td>value</td><td></td><td>false</td></tr>
 
-<tr><td>matrixname</td><td></td><td>false</td></tr>
+<tr><td>matrixname</td><td>matrix</td><td>false</td></tr>
 
 </table>
 

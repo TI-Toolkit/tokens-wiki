@@ -19,9 +19,9 @@ Returns the hyperbolic arcsine of a real number, expression, or list.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>⁻¹</td><td></td><td>false</td></tr>
+<tr><td>⁻¹</td><td>real|expression|real[]</td><td>false</td></tr>
 
-<tr><td>value</td><td></td><td>false</td></tr>
+<tr><td>value</td><td>real|expression|real[]</td><td>false</td></tr>
 
 </table>
 

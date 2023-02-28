@@ -19,9 +19,9 @@ Returns 1 if only `valueA` or `valueB` = 0. `valueA` and `valueB` can be real nu
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>valueA</td><td></td><td>false</td></tr>
+<tr><td>valueA</td><td>real|expression|real[]</td><td>false</td></tr>
 
-<tr><td>valueB</td><td></td><td>false</td></tr>
+<tr><td>valueB</td><td>real|expression|real[]</td><td>false</td></tr>
 
 </table>
 

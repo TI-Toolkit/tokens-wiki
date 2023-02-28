@@ -25,7 +25,7 @@ line style #: 1-4.
 
 <tr><td>color#</td><td>colorNum</td><td>true</td></tr>
 
-<tr><td>linestyle#</td><td>number</td><td>true</td></tr>
+<tr><td>linestyle#</td><td>integer</td><td>true</td></tr>
 
 </table>
 

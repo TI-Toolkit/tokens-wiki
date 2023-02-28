@@ -23,7 +23,7 @@ Returns a matrix with `row` of `matrix` multiplied by `value` and stored in `row
 
 <tr><td>value</td><td></td><td>false</td></tr>
 
-<tr><td>matrix</td><td></td><td>false</td></tr>
+<tr><td>matrix</td><td>matrix</td><td>false</td></tr>
 
 <tr><td>row</td><td></td><td>false</td></tr>
 

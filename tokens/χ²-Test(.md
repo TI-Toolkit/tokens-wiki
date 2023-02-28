@@ -22,9 +22,9 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 <tr><td>χ²-</td><td></td><td>false</td></tr>
 
-<tr><td>observedmatrix</td><td></td><td>false</td></tr>
+<tr><td>observedmatrix</td><td>matrix</td><td>false</td></tr>
 
-<tr><td>expectedmatrix</td><td></td><td>true</td></tr>
+<tr><td>expectedmatrix</td><td>matrix</td><td>true</td></tr>
 
 <tr><td>drawflag</td><td></td><td>true</td></tr>
 

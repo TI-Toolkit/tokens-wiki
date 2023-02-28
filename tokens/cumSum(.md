@@ -40,7 +40,7 @@ Returns a matrix of the cumulative sums of `matrix` elements. Each element in th
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>matrix</td><td></td><td>false</td></tr>
+<tr><td>matrix</td><td>matrix</td><td>false</td></tr>
 
 </table>
 

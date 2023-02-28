@@ -12,7 +12,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "real|expression|real[]|matrix",
             false
           ]
         ],
@@ -29,7 +29,7 @@
         "arguments": [
           [
             "complex value",
-            "",
+            "complex",
             false
           ]
         ],
@@ -66,12 +66,12 @@
         "arguments": [
           [
             "valueA",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "valueB",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -105,7 +105,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "complex|complex[]",
             false
           ]
         ],
@@ -250,12 +250,12 @@
         "arguments": [
           [
             "matrixA",
-            "",
+            "matrix",
             false
           ],
           [
             "matrixB",
-            "",
+            "matrix",
             false
           ]
         ],
@@ -816,12 +816,12 @@
           ],
           [
             "observedmatrix",
-            "",
+            "matrix",
             false
           ],
           [
             "expectedmatrix",
-            "",
+            "matrix",
             true
           ],
           [
@@ -946,7 +946,7 @@
           ],
           [
             "linestyle#",
-            "number",
+            "integer",
             true
           ]
         ],
@@ -1236,7 +1236,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "complex|complex[]",
             false
           ]
         ],
@@ -1323,7 +1323,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -1358,12 +1358,12 @@
         "arguments": [
           [
             "⁻¹",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -1398,7 +1398,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -1434,12 +1434,12 @@
         "arguments": [
           [
             "⁻¹",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -1542,7 +1542,7 @@
         "arguments": [
           [
             "matrix",
-            "",
+            "matrix",
             false
           ]
         ],
@@ -1829,7 +1829,7 @@
         "arguments": [
           [
             "matrix",
-            "",
+            "matrix",
             false
           ]
         ],
@@ -1984,7 +1984,7 @@
         "arguments": [
           [
             "matrixname",
-            "",
+            "matrix",
             false
           ]
         ],
@@ -2002,12 +2002,7 @@
         "arguments": [
           [
             "length",
-            "",
-            false
-          ],
-          [
-            "→",
-            "",
+            "integer",
             false
           ],
           [
@@ -2030,22 +2025,17 @@
         "arguments": [
           [
             "rows",
-            "",
+            "integer",
             false
           ],
           [
             "columns",
-            "",
-            false
-          ],
-          [
-            "→",
-            "",
+            "integer",
             false
           ],
           [
             "matrixname",
-            "",
+            "matrix",
             false
           ]
         ],
@@ -2559,7 +2549,7 @@
           ],
           [
             "matrix",
-            "",
+            "matrix",
             false
           ],
           [
@@ -3050,7 +3040,7 @@
           ],
           [
             "matrixname",
-            "",
+            "matrix",
             false
           ]
         ],
@@ -3666,12 +3656,12 @@
         "arguments": [
           [
             "valueA",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "valueB",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -4371,7 +4361,7 @@
           ],
           [
             "linestyle#",
-            "number",
+            "integer",
             true
           ]
         ],
@@ -4580,7 +4570,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "complex|complex[]",
             false
           ]
         ],
@@ -5334,12 +5324,12 @@
         "arguments": [
           [
             "valueA",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "valueB",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -5434,7 +5424,7 @@
           ],
           [
             "linestyle#",
-            "number",
+            "integer",
             true
           ]
         ],
@@ -5756,7 +5746,7 @@
           ],
           [
             "matrixname",
-            "",
+            "matrix",
             false
           ]
         ],
@@ -6053,7 +6043,7 @@
         "arguments": [
           [
             "matrix",
-            "",
+            "matrix",
             false
           ],
           [
@@ -6086,7 +6076,7 @@
         "arguments": [
           [
             "matrix",
-            "",
+            "matrix",
             false
           ],
           [
@@ -7210,12 +7200,12 @@
         "arguments": [
           [
             "valueA",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "valueB",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -7832,7 +7822,7 @@
         "arguments": [
           [
             "complex value",
-            "",
+            "complex",
             false
           ]
         ],
@@ -8996,12 +8986,12 @@
         "arguments": [
           [
             "rows",
-            "",
+            "integer",
             false
           ],
           [
             "columns",
-            "",
+            "integer",
             false
           ]
         ],
@@ -9145,7 +9135,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "complex|complex[]",
             false
           ]
         ],
@@ -9246,7 +9236,7 @@
         "arguments": [
           [
             "complex value",
-            "",
+            "complex",
             false
           ]
         ],
@@ -9306,7 +9296,7 @@
         "arguments": [
           [
             "matrix",
-            "",
+            "matrix",
             false
           ]
         ],
@@ -9559,7 +9549,7 @@
           ],
           [
             "matrix",
-            "",
+            "matrix",
             false
           ],
           [
@@ -9598,7 +9588,7 @@
         "arguments": [
           [
             "matrix",
-            "",
+            "matrix",
             false
           ],
           [
@@ -9652,7 +9642,7 @@
           ],
           [
             "matrix",
-            "",
+            "matrix",
             false
           ],
           [
@@ -9696,7 +9686,7 @@
         "arguments": [
           [
             "matrix",
-            "",
+            "matrix",
             false
           ],
           [
@@ -9740,7 +9730,7 @@
         "arguments": [
           [
             "matrix",
-            "",
+            "matrix",
             false
           ]
         ],
@@ -11422,7 +11412,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -11457,12 +11447,12 @@
         "arguments": [
           [
             "⁻¹",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -11497,7 +11487,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -11533,12 +11523,12 @@
         "arguments": [
           [
             "⁻¹",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -11959,11 +11949,6 @@
             false
           ],
           [
-            "→",
-            "",
-            false
-          ],
-          [
             "variable",
             "",
             false
@@ -12111,7 +12096,7 @@
           ],
           [
             "length",
-            "",
+            "integer",
             false
           ]
         ],
@@ -12230,7 +12215,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -12265,12 +12250,12 @@
         "arguments": [
           [
             "⁻¹",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -12321,7 +12306,7 @@
           ],
           [
             "linestyle#",
-            "number",
+            "integer",
             true
           ]
         ],
@@ -12354,7 +12339,7 @@
         "arguments": [
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -12390,12 +12375,12 @@
         "arguments": [
           [
             "⁻¹",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "value",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -13544,7 +13529,7 @@
           ],
           [
             "linestyle#",
-            "number",
+            "integer",
             true
           ]
         ],
@@ -13723,12 +13708,12 @@
         "arguments": [
           [
             "valueA",
-            "",
+            "real|expression|real[]",
             false
           ],
           [
             "valueB",
-            "",
+            "real|expression|real[]",
             false
           ]
         ],
@@ -14507,236 +14492,6 @@
       "TI-82": "1.0"
     }
   },
-  "0x30": {
-    "name": "0",
-    "type": "constant",
-    "categories": [
-      "Char > Digits"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "0",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "0"
-    },
-    "since": {
-      "TI-82": "1.0"
-    }
-  },
-  "0x31": {
-    "name": "1",
-    "type": "constant",
-    "categories": [
-      "Char > Digits"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "1",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "1"
-    },
-    "since": {
-      "TI-82": "1.0"
-    }
-  },
-  "0x32": {
-    "name": "2",
-    "type": "constant",
-    "categories": [
-      "Char > Digits"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "2",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "2"
-    },
-    "since": {
-      "TI-82": "1.0"
-    }
-  },
-  "0x33": {
-    "name": "3",
-    "type": "constant",
-    "categories": [
-      "Char > Digits"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "3",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "3"
-    },
-    "since": {
-      "TI-82": "1.0"
-    }
-  },
-  "0x34": {
-    "name": "4",
-    "type": "constant",
-    "categories": [
-      "Char > Digits"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "4",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "4"
-    },
-    "since": {
-      "TI-82": "1.0"
-    }
-  },
-  "0x35": {
-    "name": "5",
-    "type": "constant",
-    "categories": [
-      "Char > Digits"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "5",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "5"
-    },
-    "since": {
-      "TI-82": "1.0"
-    }
-  },
-  "0x36": {
-    "name": "6",
-    "type": "constant",
-    "categories": [
-      "Char > Digits"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "6",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "6"
-    },
-    "since": {
-      "TI-82": "1.0"
-    }
-  },
-  "0x37": {
-    "name": "7",
-    "type": "constant",
-    "categories": [
-      "Char > Digits"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "7",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "7"
-    },
-    "since": {
-      "TI-82": "1.0"
-    }
-  },
-  "0x38": {
-    "name": "8",
-    "type": "constant",
-    "categories": [
-      "Char > Digits"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "8",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "8"
-    },
-    "since": {
-      "TI-82": "1.0"
-    }
-  },
-  "0x39": {
-    "name": "9",
-    "type": "constant",
-    "categories": [
-      "Char > Digits"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "9",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "9"
-    },
-    "since": {
-      "TI-82": "1.0"
-    }
-  },
   "0x00": {
     "name": "",
     "type": "other",
@@ -15125,6 +14880,236 @@
     ],
     "localizations": {
       "FR": "!"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x30": {
+    "name": "0",
+    "type": "constant",
+    "categories": [
+      "Char > Digits"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "0",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "0"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x31": {
+    "name": "1",
+    "type": "constant",
+    "categories": [
+      "Char > Digits"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "1",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "1"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x32": {
+    "name": "2",
+    "type": "constant",
+    "categories": [
+      "Char > Digits"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "2",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "2"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x33": {
+    "name": "3",
+    "type": "constant",
+    "categories": [
+      "Char > Digits"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "3",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "3"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x34": {
+    "name": "4",
+    "type": "constant",
+    "categories": [
+      "Char > Digits"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "4",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "4"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x35": {
+    "name": "5",
+    "type": "constant",
+    "categories": [
+      "Char > Digits"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "5",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "5"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x36": {
+    "name": "6",
+    "type": "constant",
+    "categories": [
+      "Char > Digits"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "6",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "6"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x37": {
+    "name": "7",
+    "type": "constant",
+    "categories": [
+      "Char > Digits"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "7",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "7"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x38": {
+    "name": "8",
+    "type": "constant",
+    "categories": [
+      "Char > Digits"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "8",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "8"
+    },
+    "since": {
+      "TI-82": "1.0"
+    }
+  },
+  "0x39": {
+    "name": "9",
+    "type": "constant",
+    "categories": [
+      "Char > Digits"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "9",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "9"
     },
     "since": {
       "TI-82": "1.0"
@@ -17406,11 +17391,11 @@
       "TI-82": "1.0"
     }
   },
-  "0xBBBE": {
+  "0x6202": {
     "name": "n",
-    "type": "text/symbol only",
+    "type": "variable",
     "categories": [
-      "Char > Letters"
+      "Statistics > XY"
     ],
     "syntaxes": [
       {
@@ -17426,7 +17411,7 @@
       "FR": "n"
     },
     "since": {
-      "TI-83+": "1.03"
+      "TI-82": "1.0|[n]"
     }
   },
   "0x6203": {
@@ -20358,11 +20343,12 @@
       "TI-82": "1.0"
     }
   },
-  "0xEF73": {
+  "0x81": {
     "name": "·",
-    "type": "other",
+    "type": "text/symbol only",
     "categories": [
-      "Char > Other"
+      "Catalog > Misc",
+      "Stat Plot > Mark"
     ],
     "syntaxes": [
       {
@@ -20370,7 +20356,7 @@
         "comment": "",
         "arguments": [],
         "description": "",
-        "inEditorOnly": true,
+        "inEditorOnly": false,
         "location": ""
       }
     ],
@@ -20378,7 +20364,7 @@
       "FR": "·"
     },
     "since": {
-      "TI-84+CSE": "4.0"
+      "TI-82": "1.0"
     }
   },
   "0x82": {
@@ -20729,11 +20715,12 @@
       "TI-82": "1.0"
     }
   },
-  "0xBBD0": {
+  "0xAE": {
     "name": "'",
     "type": "text/symbol only",
     "categories": [
-      "Char > Other"
+      "Angle",
+      "Catalog > Misc"
     ],
     "syntaxes": [
       {
@@ -20741,12 +20728,15 @@
         "comment": "",
         "arguments": [],
         "description": "",
-        "inEditorOnly": true,
+        "inEditorOnly": false,
         "location": ""
       }
     ],
     "localizations": {
       "FR": "'"
+    },
+    "since": {
+      "TI-82": "1.0"
     }
   },
   "0xAF": {
@@ -20795,6 +20785,30 @@
     },
     "since": {
       "TI-82": "1.0"
+    }
+  },
+  "0xBB31": {
+    "name": "e",
+    "type": "constant",
+    "categories": [
+      "Catalog > Misc",
+      "Keypad"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "e",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "e"
+    },
+    "since": {
+      "TI-83": "1.010|[e]"
     }
   },
   "0xBB6A": {
@@ -22634,6 +22648,29 @@
       "TI-83+": "1.03"
     }
   },
+  "0xBBBE": {
+    "name": "n",
+    "type": "text/symbol only",
+    "categories": [
+      "Char > Letters"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "n",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "n"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
   "0xBBBF": {
     "name": "o",
     "type": "text/symbol only",
@@ -23207,6 +23244,26 @@
     },
     "since": {
       "TI-83+": "1.15"
+    }
+  },
+  "0xBBD0": {
+    "name": "'",
+    "type": "text/symbol only",
+    "categories": [
+      "Char > Other"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "'",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "'"
     }
   },
   "0xBBDA": {
@@ -24029,16 +24086,16 @@
       "TI-84+": "2.53"
     }
   },
-  "0xEF3D": {
-    "name": "FRAC",
+  "0xEF36": {
+    "name": "CLASSIC",
     "type": "action",
     "categories": [
       "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
-        "syntax": "FRAC",
-        "comment": "",
+        "syntax": "CLASSIC",
+        "comment": "Alias ?",
         "arguments": [],
         "description": "",
         "inEditorOnly": true,
@@ -24046,10 +24103,30 @@
       }
     ],
     "localizations": {
-      "FR": "FRAC"
+      "FR": "CLASSIC"
+    }
+  },
+  "0xEF3D": {
+    "name": "FRAC-APPROX",
+    "type": "action",
+    "categories": [
+      "Other (non-catalog) > Other"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "FRAC-APPROX",
+        "comment": "Alias / Old",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "FRAC-APPROX"
     },
     "since": {
-      "TI-84+": "2.53"
+      "TI-84+": "2.53|[FRAC]"
     }
   },
   "0xEF41": {
@@ -24670,6 +24747,29 @@
       "TI-84+CSE": "4.0"
     }
   },
+  "0xEF73": {
+    "name": "·",
+    "type": "other",
+    "categories": [
+      "Char > Other"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "·",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": true,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "·"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
+    }
+  },
   "0xEF7A": {
     "name": "Asm84CEPrgm",
     "type": "basic instruction only",
@@ -24679,7 +24779,7 @@
     "syntaxes": [
       {
         "syntax": "Asm84CEPrgm",
-        "comment": "`Asm83CEPrgm` on the TI-83 Premium CE",
+        "comment": "",
         "arguments": [],
         "description": "",
         "inEditorOnly": true,
@@ -24687,7 +24787,7 @@
       }
     ],
     "localizations": {
-      "FR": "Asm83CEPrgm"
+      "FR": "Asm84CEPrgm"
     },
     "since": {
       "TI-84+CE": "5.0.0"

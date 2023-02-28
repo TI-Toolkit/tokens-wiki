@@ -20,9 +20,9 @@ Max rows x columns = 400 matrix elements.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>rows</td><td></td><td>false</td></tr>
+<tr><td>rows</td><td>integer</td><td>false</td></tr>
 
-<tr><td>columns</td><td></td><td>false</td></tr>
+<tr><td>columns</td><td>integer</td><td>false</td></tr>
 
 </table>
 

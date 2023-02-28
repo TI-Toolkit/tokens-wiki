@@ -288,6 +288,13 @@ for(let i = 0; i < 26; i++)
 
         const specialCategory = token.querySelector('thead > tr.Head-Header1 > th.HeadD-Column2-Header1 > p.MenuName')?.textContent.trim() ?? '';
 
+        let description = "";
+        {
+            const descRaw = Array.from(token.querySelectorAll('tbody p.CmdDesc'));
+            descRaw.forEach((el) => { el.innerHTML = el.innerHTML.replace(/<span class="(?:Function|Variable)">([^<]+)<\/span>/g, '`$1`'); });
+            description = descRaw.map(el => el.textContent.trim()).join("\n").replace('``', '');
+        }
+
         const syntaxLine = token.querySelector('tbody p.SyntaxLine');
 
         let wholeSyntaxLine = (syntaxLine?.textContent ?? '').replace(',[,','[,').replace(/ +/g,' ').replace(/ +/g,' ').trim();
@@ -303,7 +310,8 @@ for(let i = 0; i < 26; i++)
         let optionalSinceIdx = (wholeSyntaxLine.startsWith(`${name}[`) || wholeSyntaxLine.startsWith(`${name.trim()}[`)) ? 0 : null;
         let _argIdx = 0;
         let args = [...syntaxLine.childNodes]
-                    .filter(el => el.nodeType !== 8 /*COMMENT_NODE*/ && (!el.classList?.contains('Function') || el.textContent === ',' || el.getAttribute("style")?.includes('font-weight: normal')) && el.textContent.trim().length)
+                    .filter(el => el.nodeType !== 8 /*COMMENT_NODE*/ && el.textContent !== '→' && el.textContent.trim().length &&
+                           (!el.classList?.contains('Function') || el.textContent === ',' || el.getAttribute("style")?.includes('font-weight: normal')))
                     .filter((el, idx) => {
                         const str = el.textContent.trim();
                         if (str === '►') { return false; }
@@ -355,14 +363,27 @@ for(let i = 0; i < 26; i++)
                 args[idx][1] = 'listName'
             } else if (argName.includes('list')) {
                 args[idx][1] = 'list'
+            } else if (argName.includes('matrix')) {
+                args[idx][1] = 'matrix'
             } else if (argName === 'string' || argName.startsWith('text')) {
                 args[idx][1] = 'string'
             } else if (argName === 'color#') {
                 args[idx][1] = 'colorNum'
-            } else if (argName === 'linestyle#') {
-                args[idx][1] = 'number'
+            } else if (/^(length|rows|columns|linestyle#)$/.test(argName)) {
+                args[idx][1] = 'integer'
             } else if (argName === 'expression') {
                 args[idx][1] = 'expression'
+            } else if (argName === 'complex value') {
+                args[idx][1] = 'complex'
+            } else if (description.includes('`valueA` and `valueB`, which can be real numbers or lists') // gcd/lcm, expressions work fine
+                    || description.includes('`valueA` and `valueB` can be real numbers, expressions, or lists')) {
+                args[idx][1] = 'real|expression|real[]'
+            } else if (description.includes('of a real number, expression, or list')) {
+                args[idx][1] = 'real|expression|real[]'
+            } else if (description.includes('of a real number, expression, list, or matrix')) {
+                args[idx][1] = 'real|expression|real[]|matrix'
+            } else if (description.includes('of a complex number or list')) {
+                args[idx][1] = 'complex|complex[]'
             }
             //console.log(idx, argName, arguments[idx][1])
         }
@@ -370,13 +391,6 @@ for(let i = 0; i < 26; i++)
         // remove last arg if it's just a comment that got there somehow (not an actual arg)
         if (comment && args.length && new RegExp('^\\(?' + comment + '$').test(args[args.length-1][0])) {
             args.pop();
-        }
-
-        let description = "";
-        {
-            const descRaw = Array.from(token.querySelectorAll('tbody p.CmdDesc'));
-            descRaw.forEach((el) => { el.innerHTML = el.innerHTML.replace(/<span class="(?:Function|Variable)">([^<]+)<\/span>/g, '`$1`'); });
-            description = descRaw.map(el => el.textContent.trim()).join("\n").replace('``', '');
         }
 
         const rawLocation = token.querySelector('tbody p.MenuName > span')?.parentElement;

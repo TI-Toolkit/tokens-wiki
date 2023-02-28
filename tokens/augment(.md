@@ -19,9 +19,9 @@ Returns a matrix, which is `matrixB` appended to `matrixA` as new columns.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>matrixA</td><td></td><td>false</td></tr>
+<tr><td>matrixA</td><td>matrix</td><td>false</td></tr>
 
-<tr><td>matrixB</td><td></td><td>false</td></tr>
+<tr><td>matrixB</td><td>matrix</td><td>false</td></tr>
 
 </table>
 

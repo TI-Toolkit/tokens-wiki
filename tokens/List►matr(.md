@@ -25,7 +25,7 @@ Fills `matrixname` column by column with the elements from each specified `listn
 
 <tr><td>listname n</td><td>list</td><td>false</td></tr>
 
-<tr><td>matrixname</td><td></td><td>false</td></tr>
+<tr><td>matrixname</td><td>matrix</td><td>false</td></tr>
 
 </table>
 

@@ -40,7 +40,7 @@ Returns the dimension of `matrixname` as a list.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>matrixname</td><td></td><td>false</td></tr>
+<tr><td>matrixname</td><td>matrix</td><td>false</td></tr>
 
 </table>
 
@@ -61,9 +61,7 @@ Assigns a new dimension (`length`) to a new or existing `listname`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>length</td><td></td><td>false</td></tr>
-
-<tr><td>→</td><td></td><td>false</td></tr>
+<tr><td>length</td><td>integer</td><td>false</td></tr>
 
 <tr><td>listname</td><td>list</td><td>false</td></tr>
 
@@ -86,13 +84,11 @@ Assigns new dimensions to a new or existing `matrixname`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>rows</td><td></td><td>false</td></tr>
+<tr><td>rows</td><td>integer</td><td>false</td></tr>
 
-<tr><td>columns</td><td></td><td>false</td></tr>
+<tr><td>columns</td><td>integer</td><td>false</td></tr>
 
-<tr><td>→</td><td></td><td>false</td></tr>
-
-<tr><td>matrixname</td><td></td><td>false</td></tr>
+<tr><td>matrixname</td><td>matrix</td><td>false</td></tr>
 
 </table>
 
