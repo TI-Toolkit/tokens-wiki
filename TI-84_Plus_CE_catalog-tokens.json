@@ -5144,12 +5144,12 @@
     }
   },
   "0xEB": {
-    "name": "⌊",
+    "name": "ʟ",
     "type": "other",
     "categories": [],
     "syntaxes": [
       {
-        "syntax": "⌊listname",
+        "syntax": "ʟlistname",
         "arguments": [
           [
             "listname",
@@ -5168,7 +5168,7 @@
       }
     ],
     "localizations": {
-      "FR": "⌊"
+      "FR": "ʟ"
     },
     "since": {
       "TI-83": "1.010"
@@ -23684,15 +23684,15 @@
     }
   },
   "0xBBF5": {
-    "name": "inverted =",
+    "name": "⌸",
     "type": "text/symbol only",
     "categories": [
-      "Other (non-catalog) > Other"
+      "Char > Other"
     ],
     "syntaxes": [
       {
-        "syntax": "inverted =",
-        "comment": "",
+        "syntax": "⌸",
+        "comment": "inverted equal",
         "arguments": [],
         "description": "",
         "inEditorOnly": true,
@@ -23700,7 +23700,7 @@
       }
     ],
     "localizations": {
-      "FR": "inverted ="
+      "FR": "⌸"
     },
     "since": {
       "TI-83+": "1.16"

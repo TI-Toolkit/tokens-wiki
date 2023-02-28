@@ -19,7 +19,6 @@
  * <a href="../tokens/₁₀.md" title="0xBBEA">₁₀</a>
  * <a href="../tokens/FRAC.md" title="0xEF3D">FRAC</a>
  * <a href="../tokens/Graph Format.md" title="0x7E">Graph Format</a>
- * <a href="../tokens/inverted =.md" title="0xBBF5">inverted =</a>
  * <a href="../tokens/PrintScreen.md" title="0x91">PrintScreen</a>
  * <a href="../tokens/Quartiles Setting….md" title="0xEF81">Quartiles Setting…</a>
  * <a href="../tokens/QuickPlot&Fit-EQ.md" title="0xEF66">QuickPlot&Fit-EQ</a>

@@ -171,6 +171,7 @@
  * <a href="../tokens/√.md" title="0xBBF4">√</a>
  * <a href="../tokens/∠.md" title="0xBBDC">∠</a>
  * <a href="../tokens/∫.md" title="0xBBF1">∫</a>
+ * <a href="../tokens/⌸.md" title="0xBBF5">⌸</a>
  * <a href="../tokens/►.md" title="0xBBEC">►</a>
  * <a href="../tokens/◄.md" title="0xBBEB">◄</a>
  * <a href="../tokens/⬚.md" title="0xEF1E">⬚</a>
