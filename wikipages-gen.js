@@ -157,7 +157,7 @@ code 2
 
     `;
 
-    const cleanName = sanitize(token.name) || bytes;
+    const cleanName = token.isAlias ? bytes : (sanitize(token.name) || bytes);
     fs.writeFileSync(`output/wikipages/tokens/${cleanName}.md`, page.trimStart());
 }
 

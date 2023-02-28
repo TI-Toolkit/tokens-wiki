@@ -2,7 +2,7 @@
 |---------------|-------|
 | Hex Value     | `$EF7A`|
 | Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Assembly](<../categories/Other (non-catalog).md#Assembly>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `Asm83CEPrgm`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Asm84CEPrgm`</li></ul> |
 
 # `Asm84CEPrgm`
 

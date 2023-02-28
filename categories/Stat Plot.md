@@ -3,6 +3,7 @@
 
 ## Mark
 
+ * <a href="../tokens/·.md" title="0xEF73">·</a>
  * <a href="../tokens/﹢.md" title="0x80">﹢</a>
  * <a href="../tokens/□.md" title="0x7F">□</a>
 

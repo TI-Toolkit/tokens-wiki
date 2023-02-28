@@ -182,6 +182,8 @@
  * <a href="../tokens/!.md" title="0x2D">!</a>
  * <a href="../tokens/0xAF.md" title="0xAF">?</a>
  * <a href="../tokens/0x3A.md" title="0x3A">.</a>
+ * <a href="../tokens/·.md" title="0xEF73">·</a>
+ * <a href="../tokens/'.md" title="0xBBD0">'</a>
  * <a href="../tokens/0x2A.md" title="0x2A">"</a>
  * <a href="../tokens/(.md" title="0x10">(</a>
  * <a href="../tokens/).md" title="0x11">)</a>
@@ -208,6 +210,7 @@
  * <a href="../tokens/$.md" title="0xBBD3">$</a>
  * <a href="../tokens/₁₀^(.md" title="0xC1">₁₀^(</a>
  * <a href="../tokens/³√(.md" title="0xBD">³√(</a>
+ * <a href="../tokens/e.md" title="0xBB31">e</a>
  * <a href="../tokens/e^(.md" title="0xBF">e^(</a>
  * <a href="../tokens/ᴇ.md" title="0x3B">ᴇ</a>
  * <a href="../tokens/𝑖.md" title="0x2C">𝑖</a>

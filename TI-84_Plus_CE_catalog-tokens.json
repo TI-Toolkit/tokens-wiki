@@ -2219,7 +2219,6 @@
     "syntaxes": [
       {
         "syntax": "Dot-Thick",
-        "comment": "Alias ?",
         "arguments": [],
         "description": "Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thick.",
         "inEditorOnly": true,
@@ -12576,7 +12575,6 @@
     "syntaxes": [
       {
         "syntax": "Thick",
-        "comment": "Alias ?",
         "arguments": [],
         "description": "Resets all Y=editor line-style settings to Thick.",
         "inEditorOnly": true,
@@ -24095,7 +24093,7 @@
     "syntaxes": [
       {
         "syntax": "CLASSIC",
-        "comment": "Alias ?",
+        "comment": "Alias / Old",
         "arguments": [],
         "description": "",
         "inEditorOnly": true,
@@ -24104,7 +24102,8 @@
     ],
     "localizations": {
       "FR": "CLASSIC"
-    }
+    },
+    "isAlias": true
   },
   "0xEF3D": {
     "name": "FRAC-APPROX",
@@ -24115,7 +24114,7 @@
     "syntaxes": [
       {
         "syntax": "FRAC-APPROX",
-        "comment": "Alias / Old",
+        "comment": "",
         "arguments": [],
         "description": "",
         "inEditorOnly": true,
@@ -24779,7 +24778,7 @@
     "syntaxes": [
       {
         "syntax": "Asm84CEPrgm",
-        "comment": "",
+        "comment": "`Asm83CEPrgm` on the TI-83 Premium CE",
         "arguments": [],
         "description": "",
         "inEditorOnly": true,

@@ -11,6 +11,7 @@ const dict = {}; // input
 const json = {}; // output
 
 // temp maps used for manual matching of other tokens
+const csv_fromBytes = {};
 const dict_fromBytes = {};
 const name2bytes = {}
 
@@ -39,13 +40,15 @@ try {
     const fileContents = fs.readFileSync('./input/adriweb_tokens.csv', 'utf8');
     const records = CSVParse(fileContents, { columns: true, skip_empty_lines: true });
     for (const tok of records) {
-        csv[tok['Readable Name']] = {
+         const data = {
             bytes: `0x${tok['Byte 1'].padStart(2, '0')}${tok['Byte 2'].length ? tok['Byte 2'].padStart(2, '0') : ''}`,
             enName: tok['Readable Name'],
             frName: tok['Readable Name (FR)'],
             type: tok.Type?.toLowerCase() ?? '',
             comment: tok.Comments,
         };
+        csv_fromBytes[data.bytes] = data;
+        csv[tok['Readable Name']] = data;
     }
 } catch (e) {
     console.error(e);
@@ -434,6 +437,10 @@ for(let i = 0; i < 26; i++)
             mergeSinceUntilFromTkXML(tokenEntry, tkXML[bytes], name);
         }
 
+        if (comment && comment.startsWith('Alias')) {
+            tokenEntry.isAlias = true;
+        }
+
         (json[bytes] ??= tokenEntry).syntaxes.push({
             specificName: specificName,
             syntax: wholeSyntaxLine,
@@ -450,13 +457,13 @@ for(let i = 0; i < 26; i++)
 }
 
 // Add all other tokens from the CSV
-for (let [ enName, { bytes, frName, type, comment } ] of Object.entries(csv)) {
+for (let [ bytes, { enName, frName, type, comment } ] of Object.entries(csv_fromBytes)) {
     if (json[bytes]) {
         continue;
     }
 
     // one exception...
-    if (enName === 'Asm83CEPrgm') {
+    if (enName === 'Asm83CEPrgm' || enName === 'Asm84CEPrgm') {
         enName = 'Asm84CEPrgm';
         comment = '`Asm83CEPrgm` on the TI-83 Premium CE'
     }
@@ -476,6 +483,7 @@ for (let [ enName, { bytes, frName, type, comment } ] of Object.entries(csv)) {
             specialCategory: undefined,
         }],
         localizations: { FR: frName },
+        isAlias: (comment && comment.startsWith('Alias')) ? true : undefined,
     };
 
     if (tkXML[bytes]) {

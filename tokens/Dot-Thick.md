@@ -9,7 +9,6 @@
 ## Description
 Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thick.
 
-<b>Comment</b>:Alias ?
 
 <b>Availability</b>: Token only available from within the Basic editor.
 

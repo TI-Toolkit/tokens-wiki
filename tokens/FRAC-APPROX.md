@@ -1,22 +1,20 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$7E06`|
-| Categories    | <ul></ul> |
-| Localizations | <ul><li><b>FR</b>: `Thick`</li></ul> |
+| Hex Value     | `$EF3D`|
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `FRAC-APPROX`</li></ul> |
 
-# `Thick`
+# `FRAC-APPROX`
 
 ## Description
-Resets all Y=editor line-style settings to Thick.
+
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`Thick`
+`FRAC-APPROX`
 
-## Location
-`zT`, `Thick`
 <hr>
 
 ## Examples
@@ -40,9 +38,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | `Connected` added
-| <b>TI-84+CSE</b> | 4.0 | `Thick` added
-| <b>TI-84+CSE</b> | 4.0 | `Connected` removed
+| <b>TI-84+</b> | 2.53 | Added
 
 ## Related Commands
 

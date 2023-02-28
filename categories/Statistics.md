@@ -31,7 +31,7 @@
  * <a href="../tokens/[d].md" title="0x6219">[|d]</a>
  * <a href="../tokens/[e].md" title="0x621A">[|e]</a>
  * <a href="../tokens/[r].md" title="0x6212">[r]</a>
- * <a href="../tokens/e.md" title="0xBBB4">e</a>
+ * <a href="../tokens/e.md" title="0xBB31">e</a>
  * <a href="../tokens/r².md" title="0x6235">r²</a>
  * <a href="../tokens/R².md" title="0x6236">R²</a>
  * <a href="../tokens/RegEQ.md" title="0x6201">RegEQ</a>
@@ -112,6 +112,7 @@
  * <a href="../tokens/[minY].md" title="0x620A">[minY]</a>
  * <a href="../tokens/[Sx].md" title="0x6206">[Sx]</a>
  * <a href="../tokens/[Sy].md" title="0x620F">[Sy]</a>
+ * <a href="../tokens/n.md" title="0xBBBE">n</a>
  * <a href="../tokens/x̄.md" title="0x6203">x̄</a>
  * <a href="../tokens/ȳ.md" title="0x620C">ȳ</a>
  * <a href="../tokens/σx.md" title="0x6207">σx</a>
