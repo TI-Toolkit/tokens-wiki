@@ -49,8 +49,7 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | `int ` added
-| <b>TI-83</b> | 1.010 | `int(` added
-| <b>TI-83</b> | 1.010 | `int ` removed
+| <b>TI-83</b> | 1.010 | Renamed `int ` to `int(`
 
 ## Related Commands
 

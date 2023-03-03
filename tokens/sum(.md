@@ -53,8 +53,7 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | `sum ` added
-| <b>TI-83</b> | 1.010 | `sum(` added
-| <b>TI-83</b> | 1.010 | `sum ` removed
+| <b>TI-83</b> | 1.010 | Renamed `sum ` to `sum(`
 
 ## Related Commands
 

@@ -141,16 +141,33 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 `;
+
     const sinceUntilLines = [];
     const multipleSinceUntil = Object.keys(token.since ?? {}).length > 1 || Object.keys(token.until ?? {}).length > 1;
+    // handle potential renamings...
+    for (let [model, sinceVer] of Object.entries(token.since ?? [])) {
+        let untilVer = token.until && token.until[model];
+        if (untilVer) {
+            let sinceNameInVer, untilNameInVer;
+            [sinceVer, sinceNameInVer = token.name] = sinceVer.split('|');
+            [untilVer, untilNameInVer = token.name] = untilVer.split('|');
+            if (sinceVer === untilVer && sinceNameInVer !== untilNameInVer) {
+                // console.log(`renaming detected in ${model}, at version ${sinceVer}: [${untilNameInVer}] => [${sinceNameInVer}]`);
+                sinceUntilLines.push(`| <b>${model}</b> | ${sinceVer} | Renamed \`${untilNameInVer}\` to \`${sinceNameInVer}\``);
+                delete token.since[model];
+                delete token.until[model];
+            }
+        }
+    }
+    // process each remaining item
     for (const [which, action] of Object.entries({ since: 'added', until: 'removed' })) {
         for (const [model, ver] of Object.entries(token[which] ?? [])) {
-            const [actualVer, nameInVer] = ver.split('|');
-            sinceUntilLines.push(`| <b>${model}</b> | ${actualVer} | ` + (multipleSinceUntil ? `\`${nameInVer ?? token.name}\` ` : '') + (multipleSinceUntil ? action : capitalizeFirstLetter(action)));
+            const [actualVer, nameInVer = token.name] = ver.split('|');
+            sinceUntilLines.push(`| <b>${model}</b> | ${actualVer} | ` + (multipleSinceUntil ? `\`${nameInVer}\` ` : '') + (multipleSinceUntil ? action : capitalizeFirstLetter(action)));
         }
     }
 
-    sinceUntilLines.sort((a, b) => a[0].localeCompare(b[0])).forEach((line) => { page += line + '\n'; });
+    sinceUntilLines.sort((a, b) => a.localeCompare(b)).forEach((line) => { page += line + '\n'; });
 
     page += `
 ## Related Commands

@@ -51,8 +51,7 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | `cos⁻¹ ` added
-| <b>TI-83</b> | 1.010 | `cos⁻¹(` added
-| <b>TI-83</b> | 1.010 | `cos⁻¹ ` removed
+| <b>TI-83</b> | 1.010 | Renamed `cos⁻¹ ` to `cos⁻¹(`
 
 ## Related Commands
 

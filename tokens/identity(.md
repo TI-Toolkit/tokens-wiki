@@ -49,8 +49,7 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | `identity ` added
-| <b>TI-83</b> | 1.010 | `identity(` added
-| <b>TI-83</b> | 1.010 | `identity ` removed
+| <b>TI-83</b> | 1.010 | Renamed `identity ` to `identity(`
 
 ## Related Commands
 
