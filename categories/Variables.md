@@ -95,6 +95,8 @@
 
 ## Window ➤ X/Y
 
+ * <a href="../tokens/∆X.md" title="0x6326">∆X</a>
+ * <a href="../tokens/∆Y.md" title="0x6327">∆Y</a>
  * <a href="../tokens/Xmax.md" title="0x630B">Xmax</a>
  * <a href="../tokens/Xmin.md" title="0x630A">Xmin</a>
  * <a href="../tokens/Xscl.md" title="0x6302">Xscl</a>

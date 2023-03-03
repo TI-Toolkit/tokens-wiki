@@ -1,7 +1,7 @@
 | Property      | Value |
 |---------------|-------|
 | Hex Value     | `$6326`|
-| Categories    | <ul><li>[Unassigned](<../categories/Unassigned.md>)</li></ul> |
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ X/Y](<../categories/Variables.md#Window ➤ X/Y>)</li></ul> |
 | Localizations | <ul><li><b>FR</b>: `∆X`</li></ul> |
 
 # `∆X`
@@ -10,6 +10,7 @@
 
 
 
+<b>Availability</b>: Token available everywhere.
 
 ## Syntax
 `∆X`

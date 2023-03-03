@@ -114,8 +114,6 @@
 
 ### <a href="./categories/Time.md">Time</a>
 
-### <a href="./categories/Unassigned.md">Unassigned</a>
-
 ### <a href="./categories/Variables.md">Variables</a>
 
  * <a href="./categories/Variables.md#GDB">GDB</a>
