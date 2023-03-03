@@ -177,7 +177,7 @@ const fontReplacements = {
         '…':'【stat】',   '¼':'【prgm】',   '=':'[distr]',  'Œ':'【apps】',   'r':'【trace】',  '9':'[list]',
         '˜':'【sin】',    '? ':'[sin⁻¹]', '™':'【cos】',    '@':'[cos⁻¹]',  'š':'【tan】',    'A':'[tan⁻¹]',
         'z':'【mode】',   'L':'[mem]',    '-':'[tblset]', ';':'[angle]',  'J':'[eˣ]',     '?':'[sin⁻¹]',
-        'D':'[ᴇᴇ]',     't':'【alpha]',  'N':'[catalog]','<':'[draw]',   'Z':'[ans]',    ',':'[stat plot]',
+        'D':'[ᴇᴇ]',     't':'【alpha】',  'N':'[catalog]','<':'[draw]',   'Z':'[ans]',    ',':'[stat plot]',
         '½':'【vars】',   '^':'[F1]',     '.':'[format]' ,'Í':'【enter】',  '«':'【log】',    'µ':'【ln】',
         '¿':'【sto→】',
     },

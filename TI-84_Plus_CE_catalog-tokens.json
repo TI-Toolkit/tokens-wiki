@@ -3008,7 +3008,7 @@
         "description": "Converts an answer from a fraction to a decimal or from a decimal to a fraction. Fraction and or decimal may be an approximation.",
         "inEditorOnly": false,
         "location": [
-          "【alpha]",
+          "【alpha】",
           "[F1]",
           "4:"
         ]
@@ -6674,7 +6674,7 @@
         "description": "Displays results as a simple fraction.",
         "inEditorOnly": false,
         "location": [
-          "【alpha]",
+          "【alpha】",
           "[F1]",
           "1:n/d"
         ]
@@ -6752,7 +6752,7 @@
         "description": "Converts the results from a fraction to mixed number or from a mixed number to a fraction, if applicable.",
         "inEditorOnly": false,
         "location": [
-          "【alpha]",
+          "【alpha】",
           "[F1]",
           "3:",
           "n/d",
@@ -19536,7 +19536,7 @@
     "name": "∆X",
     "type": "variable",
     "categories": [
-      "Unassigned"
+      "Variables > Window ➤ X/Y"
     ],
     "syntaxes": [
       {
@@ -19544,6 +19544,7 @@
         "comment": "",
         "arguments": [],
         "description": "",
+        "inEditorOnly": false,
         "location": ""
       }
     ],
@@ -19558,7 +19559,7 @@
     "name": "∆Y",
     "type": "variable",
     "categories": [
-      "Unassigned"
+      "Variables > Window ➤ X/Y"
     ],
     "syntaxes": [
       {
@@ -19566,6 +19567,7 @@
         "comment": "",
         "arguments": [],
         "description": "",
+        "inEditorOnly": false,
         "location": ""
       }
     ],
