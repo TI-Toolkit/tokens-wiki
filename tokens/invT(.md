@@ -26,7 +26,7 @@ Computes the inverse cumulative student-t probability function specified by degr
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `4:invT(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `4:invT(`
 <hr>
 
 ## Examples

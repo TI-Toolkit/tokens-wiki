@@ -28,7 +28,7 @@ Returns an integer from 1 to 7, with each integer representing a day of the week
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `dayOfWk(`, `1:Sunday`, `2:Monday`, `3:Tuesday...`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `dayOfWk(`, `1:Sunday`, `2:Monday`, `3:Tuesday...`
 <hr>
 
 ## Examples

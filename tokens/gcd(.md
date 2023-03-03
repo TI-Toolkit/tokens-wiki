@@ -26,7 +26,7 @@ Returns the greatest common divisor of `valueA` and `valueB`, which can be real 
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `9:gcd(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `9:gcd(`
 <hr>
 
 ## Examples

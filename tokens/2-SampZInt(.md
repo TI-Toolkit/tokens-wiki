@@ -14,17 +14,17 @@ Computes a two-sample `z` confidence interval.
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`2-SampZInt(s1,s2[,listname1,listname2,freqlist1,freqlist2,confidence level])`
+`2-SampZInt(σ1,σ2[,listname1,listname2,freqlist1,freqlist2,confidence level])`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>s</td><td></td><td>false</td></tr>
+<tr><td>σ</td><td></td><td>false</td></tr>
 
 <tr><td>1</td><td></td><td>true</td></tr>
 
-<tr><td>s</td><td></td><td>true</td></tr>
+<tr><td>σ</td><td></td><td>true</td></tr>
 
 <tr><td>2</td><td></td><td>true</td></tr>
 
@@ -41,7 +41,7 @@ Computes a two-sample `z` confidence interval.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `9:2-SampZInt(`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `9:2-SampZInt(`
 <hr>
 
 ## Description
@@ -52,27 +52,27 @@ Computes a two-sample `z` confidence interval.
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`2-SampZInt(s1,s2,v1,n1,v2,n2[,confidence level])`
+`2-SampZInt(σ1,σ2,x̄1,n1,x̄2,n2[,confidence level])`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>s</td><td></td><td>false</td></tr>
+<tr><td>σ</td><td></td><td>false</td></tr>
 
 <tr><td>1</td><td></td><td>false</td></tr>
 
-<tr><td>s</td><td></td><td>false</td></tr>
+<tr><td>σ</td><td></td><td>false</td></tr>
 
 <tr><td>2</td><td></td><td>false</td></tr>
 
-<tr><td>v</td><td></td><td>false</td></tr>
+<tr><td>x̄</td><td></td><td>false</td></tr>
 
 <tr><td>1</td><td></td><td>false</td></tr>
 
 <tr><td>n1</td><td></td><td>true</td></tr>
 
-<tr><td>v</td><td></td><td>true</td></tr>
+<tr><td>x̄</td><td></td><td>true</td></tr>
 
 <tr><td>2</td><td></td><td>true</td></tr>
 
@@ -83,7 +83,7 @@ Computes a two-sample `z` confidence interval.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `9:2-SampZInt(`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `9:2-SampZInt(`
 <hr>
 
 ## Examples

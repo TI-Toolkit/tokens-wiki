@@ -24,7 +24,7 @@ Returns cosine of a real number, expression, or list.
 </table>
 
 ## Location
-<kbd>cos</kbd>
+<tt><kbd><b>cos</b></kbd></tt>
 <hr>
 
 ## Examples

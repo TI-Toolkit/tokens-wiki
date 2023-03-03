@@ -24,7 +24,7 @@ Returns logarithm of a real or complex number, expression, or list.
 </table>
 
 ## Location
-<kbd>log</kbd>
+<tt><kbd><b>log</b></kbd></tt>
 <hr>
 
 ## Examples

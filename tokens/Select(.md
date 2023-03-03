@@ -26,7 +26,7 @@ Selects one or more specific data points from a scatter plot or xyLine plot (onl
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `8:Select(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `8:Select(`
 <hr>
 
 ## Examples

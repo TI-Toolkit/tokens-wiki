@@ -26,7 +26,7 @@ Returns `Y`, given polar coordinates `r` and θ or a list of polar coordinates.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>angle</kbd>, `ANGLE`, `8:P`, `Ry(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>angle</kbd>, `ANGLE`, `8:P`, `Ry(`
 <hr>
 
 ## Examples

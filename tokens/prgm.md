@@ -24,7 +24,7 @@ Executes the program `name`.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTRL`, `D:prgm`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTRL`, `D:prgm`
 <hr>
 
 ## Examples

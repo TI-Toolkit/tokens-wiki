@@ -28,7 +28,7 @@ If `condition` = 0 (false), skips `commandA`.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `1:If`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `1:If`
 <hr>
 
 # `If Then End`
@@ -57,7 +57,7 @@ Executes `commands` from `Then` to `End` if `condition` = 1 (true).
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `2:Then`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `2:Then`
 <hr>
 
 # `If Then Else End`
@@ -86,7 +86,7 @@ Executes `commands` from `Then` to `Else` if `condition` = 1 (true); from `Els
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `3:Else`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `3:Else`
 <hr>
 
 ## Examples

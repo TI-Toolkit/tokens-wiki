@@ -30,7 +30,7 @@ Defines Plot# (1, 2, or 3) of type
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>stat plot</kbd>
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>
 <hr>
 
 ## Examples

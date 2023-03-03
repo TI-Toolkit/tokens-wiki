@@ -16,7 +16,7 @@ Starts the clock timer. Store or note the displayed value, and use it as the arg
 `startTmr`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `startTmr`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `startTmr`
 <hr>
 
 ## Examples

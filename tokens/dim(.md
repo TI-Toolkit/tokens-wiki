@@ -24,7 +24,7 @@ Returns the dimension of `listname`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `3:dim(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `3:dim(`
 <hr>
 
 ## Description
@@ -45,7 +45,7 @@ Returns the dimension of `matrixname` as a list.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `3:dim(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `3:dim(`
 <hr>
 
 ## Description
@@ -68,7 +68,7 @@ Assigns a new dimension (`length`) to a new or existing `listname`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `3:dim(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `3:dim(`
 <hr>
 
 ## Description
@@ -93,7 +93,7 @@ Assigns new dimensions to a new or existing `matrixname`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `3:dim(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `3:dim(`
 <hr>
 
 ## Examples

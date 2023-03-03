@@ -26,7 +26,7 @@ Returns hyperbolic arccosine of a real number, expression, or list.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `cosh`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `cosh`
 <hr>
 
 ## Examples

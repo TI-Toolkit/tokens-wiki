@@ -28,7 +28,7 @@ Returns a matrix with `rowA` of `matrix` swapped with `rowB`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `C:rowSwap(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `C:rowSwap(`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Displays answers as integers or decimal numbers.
 `DEC`
 
 ## Location
-<kbd>mode</kbd>, `Answers: DEC`
+<tt><kbd><b>mode</b></kbd></tt>, `Answers: DEC`
 <hr>
 
 ## Examples

@@ -25,7 +25,7 @@ In sequence mode, SEQ(`n`) sets the sequence editor type to enter sequence funct
 </table>
 
 ## Location
-<kbd>mode</kbd>, `SEQ(n)`
+<tt><kbd><b>mode</b></kbd></tt>, `SEQ(n)`
 <hr>
 
 ## Examples

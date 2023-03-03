@@ -28,7 +28,7 @@ Computes the probability density function (pdf) for the χ² distribution at a s
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `7:pdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `7:pdf(`
 <hr>
 
 ## Examples

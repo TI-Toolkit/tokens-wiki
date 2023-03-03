@@ -7,14 +7,14 @@
 # `ShadeNorm(`
 
 ## Description
-Draws the normal density function specified by m and s and shades and colors the area between `lowerbound` and `upperbound`.
+Draws the normal density function specified by μ and σ and shades and colors the area between `lowerbound` and `upperbound`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`ShadeNorm(lowerbound,upperbound[,m,s,color#])`
+`ShadeNorm(lowerbound,upperbound[,μ,σ,color#])`
 
 ## Arguments
 <table>
@@ -24,9 +24,9 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 <tr><td>upperbound</td><td></td><td>false</td></tr>
 
-<tr><td>m</td><td></td><td>true</td></tr>
+<tr><td>μ</td><td></td><td>true</td></tr>
 
-<tr><td>s</td><td></td><td>true</td></tr>
+<tr><td>σ</td><td></td><td>true</td></tr>
 
 <tr><td>color</td><td></td><td>true</td></tr>
 
@@ -35,7 +35,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DRAW`, `1:ShadeNorm(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DRAW`, `1:ShadeNorm(`
 <hr>
 
 ## Examples

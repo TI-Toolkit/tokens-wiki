@@ -16,7 +16,7 @@ Turns off the expression display during TRACE.
 `ExprOff`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `ExprOff`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `ExprOff`
 <hr>
 
 ## Examples

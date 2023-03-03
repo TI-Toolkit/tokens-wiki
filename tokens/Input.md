@@ -16,7 +16,7 @@ Displays graph.
 `Input`
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `2:Input`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Input`
 <hr>
 
 ## Description
@@ -37,7 +37,7 @@ Prompts for value to store to `variable`.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `2:Input`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Input`
 <hr>
 
 ## Description
@@ -60,7 +60,7 @@ Displays `Strn` and stores entered value to `variable`.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `2:Input`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Input`
 <hr>
 
 ## Examples

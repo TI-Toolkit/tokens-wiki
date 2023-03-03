@@ -28,7 +28,7 @@ Sets the mode to polar complex number mode (`re``^`θ`i`).
 </table>
 
 ## Location
-<kbd>re^θ𝑖</kbd>
+<tt><kbd><b>mode</b></kbd></tt>
 <hr>
 
 ## Examples

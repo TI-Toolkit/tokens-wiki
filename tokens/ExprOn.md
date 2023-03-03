@@ -16,7 +16,7 @@ Turns on the expression display during TRACE.
 `ExprOn`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `ExprOn`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `ExprOn`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Adjusts the viewing window so that `TraceStep=0.1`, Δ`X=0.5` and Δ`Y=0.5`, and
 `ZDecimal`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `4:ZDecimal`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `4:ZDecimal`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Displays a menu the Background Image Var n (Image#n) specified in the graph area
 `BackgroundOn n`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `BACKGROUND`, `1:BackgroundOn`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `BACKGROUND`, `1:BackgroundOn`
 <hr>
 
 ## Examples

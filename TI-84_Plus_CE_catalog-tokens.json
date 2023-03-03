@@ -19,7 +19,7 @@
         "description": "Returns the absolute value of a real number, expression, list, or matrix.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "1:abs("
         ]
@@ -36,7 +36,7 @@
         "description": "Returns the magnitude of a complex number or list.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "CMPLX",
           "5:abs("
         ]
@@ -78,7 +78,7 @@
         "description": "Returns 1 (true) when both `valueA` and `valueB` are true.  Otherwise, return is 0 (false).\n`valueA` and `valueB` can be real numbers, expressions, or lists.\nTI Connect™ Program Editor Tip:\nNotice the token is \"_and_\" where \"_\" is a space.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[test]",
           "LOGIC",
           "1:and"
@@ -112,7 +112,7 @@
         "description": "Returns the polar angle of a complex number or list of complex numbers.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "CMPLX",
           "4:angle("
         ]
@@ -165,7 +165,7 @@
         "description": "Performs a one-way analysis of variance for comparing the means of two to 20 populations.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "H:ANOVA("
         ]
@@ -192,7 +192,7 @@
         "description": "Returns the last answer.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[ans]"
         ]
       }
@@ -224,7 +224,7 @@
         "description": "Moves the specified `variable` from RAM to the user data archive memory.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[mem]",
           "5:Archive"
         ]
@@ -262,7 +262,7 @@
         "description": "Returns a matrix, which is `matrixB` appended to `matrixA` as new columns.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "7:augment("
@@ -285,7 +285,7 @@
         "description": "Returns a list, which is `listB` concatenated to the end of `listA`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "9:augment("
@@ -310,7 +310,7 @@
         "description": "Displays answers in a similar format as the input.",
         "inEditorOnly": false,
         "location": [
-          "[mode]",
+          "【mode】",
           "Answers: AUTO"
         ]
       }
@@ -336,7 +336,7 @@
         "description": "Turns off the graph axes.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "AxesOff"
         ]
@@ -369,7 +369,7 @@
         "description": "Turns on the graph axes with color. The `color `option allows the color of the axes to be specified.\nColor#: 10 - 24 or color name pasted from [vars] COLOR..",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "AxesOn"
         ]
@@ -406,7 +406,7 @@
         "description": "Sets the mode to rectangular complex number format (a+b`i`).",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "a+b",
           "𝑖"
         ]
@@ -430,7 +430,7 @@
         "description": "Turns off background image in the graph area.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "BACKGROUND",
           "2:BackgroundOff:"
@@ -455,7 +455,7 @@
         "description": "Displays a menu the Background Image Var n (Image#n) specified in the graph area.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "BACKGROUND",
           "1:BackgroundOn"
@@ -494,7 +494,7 @@
         "description": "Computes the balance at `npmt `for an amortization schedule using stored values for `PV`, I%, and `PMT` and rounds the computation to `roundvalue.`",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "9:bal("
@@ -538,7 +538,7 @@
         "description": "Computes a cumulative probability at `x` for the discrete binomial distribution with the specified `numtrials` and probability `p` of success on each trial.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "B:binomcdf("
@@ -582,7 +582,7 @@
         "description": "Computes a probability at `x` for the discrete binomial distribution with the specified `numtrials` and probability `p` of success on each trial.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "A:binompdf("
@@ -613,7 +613,7 @@
         "description": "Turns on a border color surrounding the graph area with the specified color. Color #:1-4.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "BorderColor"
         ]
@@ -661,7 +661,7 @@
         "description": "Defines Plot# (1, 2, or 3) of type",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]"
         ]
       }
@@ -692,7 +692,7 @@
         "description": "Returns the number of seconds since you used `startTmr` to start the timer. The `starttime` is the value displayed by `startTmr`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "checkTmr("
         ]
@@ -740,7 +740,7 @@
         "description": "Computes the χ²distribution probability between `lowerbound` and` upperbound` for the specified degrees of freedom `df`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "8:cdf("
@@ -784,7 +784,7 @@
         "description": "Computes the probability density function (pdf) for the χ² distribution at a specified `x` value for the specified degrees of freedom `df`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "7:pdf("
@@ -838,7 +838,7 @@
         "description": "Performs a chi-square test. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "C:Test("
         ]
@@ -898,7 +898,7 @@
         "description": "Performs a test to confirm that sample data is from a population that conforms to a specified distribution.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "D:",
           "GOF",
@@ -953,7 +953,7 @@
         "description": "Draws a circle with center (`X`,`Y`) and `radius` with specified\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nlinestyle#: 1-2.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "9:Circle("
@@ -978,7 +978,7 @@
         "description": "Displays inputs and outputs on a single line, such as 1/2+3/4.",
         "inEditorOnly": false,
         "location": [
-          "[mode]",
+          "【mode】",
           "CLASSIC"
         ]
       }
@@ -1004,7 +1004,7 @@
         "description": "Clears the contents of the Last Entry storage area.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[mem]",
           "MEMORY",
           "3:Clear Entries"
@@ -1031,7 +1031,7 @@
         "description": "Turns off the clock display in the mode screen.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "ClockOff"
         ]
@@ -1057,7 +1057,7 @@
         "description": "Turns on the clock display in the mode screen.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "ClockOn"
         ]
@@ -1084,7 +1084,7 @@
         "description": "Sets to `0` the dimension of all lists in memory.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[mem]",
           "MEMORY",
           "4:ClrAllLists"
@@ -1112,7 +1112,7 @@
         "description": "Clears all drawn elements from a graph or drawing.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "1:ClrDraw"
@@ -1140,7 +1140,7 @@
         "description": "Clears the home screen.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "8:ClrHome"
         ]
@@ -1183,7 +1183,7 @@
         "description": "Sets the dimension of one or more listnames to 0.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "EDIT",
           "4:ClrList"
         ]
@@ -1210,7 +1210,7 @@
         "description": "Clears all values from the table.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "9:ClrTable"
         ]
@@ -1243,7 +1243,7 @@
         "description": "Returns the complex conjugate of a complex number or list of complex numbers.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "CMPLX",
           "1:conj("
         ]
@@ -1270,7 +1270,7 @@
         "description": "Turns off cursor coordinate value display.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "CoordOff"
         ]
@@ -1297,7 +1297,7 @@
         "description": "Turns on cursor coordinate value display.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "CoordOn"
         ]
@@ -1330,7 +1330,7 @@
         "description": "Returns cosine of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[cos]"
+          "【cos】"
         ]
       }
     ],
@@ -1370,7 +1370,7 @@
         "description": "Returns arccosine of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[cos⁻¹]"
         ]
       }
@@ -1405,7 +1405,7 @@
         "description": "Returns hyperbolic cosine of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "cosh("
         ]
@@ -1446,7 +1446,7 @@
         "description": "Returns hyperbolic arccosine of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "cosh"
         ]
@@ -1498,7 +1498,7 @@
         "description": "Fits a cubic regression model to `Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "6:CubicReg"
         ]
@@ -1531,7 +1531,7 @@
         "description": "Returns a list of the cumulative sums of the elements in `list`, starting with the first element.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "6:cumSum("
@@ -1549,7 +1549,7 @@
         "description": "Returns a matrix of the cumulative sums of `matrix` elements. Each element in the returned matrix is a cumulative sum of a `matrix` column from top to bottom.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "0:cumSum("
@@ -1592,7 +1592,7 @@
         "description": "Returns an integer from 1 to 7, with each integer representing a day of the week. Use `dayOfWk(` to determine on which day of the week a particular date would occur. The `year` must be 4 digits; `month` and `day` can be 1 or 2 digits.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "dayOfWk(",
           "1:Sunday",
@@ -1633,7 +1633,7 @@
         "description": "Calculates the number of days between `date1` and `date2` using the actual-day-count method.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "D:dbd("
@@ -1658,7 +1658,7 @@
         "description": "Displays answers as integers or decimal numbers.",
         "inEditorOnly": false,
         "location": [
-          "[mode]",
+          "【mode】",
           "Answers: DEC"
         ]
       }
@@ -1690,7 +1690,7 @@
         "description": "Displays a real or complex number, expression, list, or matrix in decimal format.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "MATH",
           "2:Dec"
         ]
@@ -1717,7 +1717,7 @@
         "description": "Sets degree angle mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Degree"
         ]
       }
@@ -1749,7 +1749,7 @@
         "description": "Deletes from memory the contents of `variable`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "G:DelVar"
         ]
@@ -1776,7 +1776,7 @@
         "description": "Sets table to ask for dependent-variable values.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[tblset]",
           "Depend: Ask"
         ]
@@ -1803,7 +1803,7 @@
         "description": "Sets table to generate dependent-variable values automatically.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[tblset]",
           "Depend: Auto"
         ]
@@ -1836,7 +1836,7 @@
         "description": "Returns determinant of `matrix`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "1:det("
@@ -1865,7 +1865,7 @@
         "description": "Turns off checks for rational function asymptotes when graphing. Impacts graph speed. Does not perform extra calculations to detect asymptotes pixel to pixel while graphing.  Pixels will connect across the screen even across an asymptote.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "DetectAsymOff"
         ]
@@ -1889,7 +1889,7 @@
         "description": "Turns on checks for rational function asymptotes when graphing. Impacts graph speed. Performs more calculations and will not connect pixels across an asymptote on a graph.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]"
         ]
       }
@@ -1914,7 +1914,7 @@
         "description": "Sets diagnostics-off mode; `r`, `r`², and `R`² are not displayed as regression model results.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "DiagnosticOff"
         ]
@@ -1940,7 +1940,7 @@
         "description": "Sets diagnostics-on mode; `r`, `r`², and `R`² are displayed as regression model results.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "DiagnosticOn"
         ]
@@ -1973,7 +1973,7 @@
         "description": "Returns the dimension of `listname`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "3:dim("
@@ -1991,7 +1991,7 @@
         "description": "Returns the dimension of `matrixname` as a list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "3:dim("
@@ -2014,7 +2014,7 @@
         "description": "Assigns a new dimension (`length`) to a new or existing `listname`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "3:dim("
@@ -2042,7 +2042,7 @@
         "description": "Assigns new dimensions to a new or existing `matrixname`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "3:dim("
@@ -2074,7 +2074,7 @@
         "description": "Displays the home screen.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "3:Disp"
         ]
@@ -2111,7 +2111,7 @@
         "description": "Displays each value.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "3:Disp"
         ]
@@ -2138,7 +2138,7 @@
         "description": "Displays the graph.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "4:DispGraph"
         ]
@@ -2165,7 +2165,7 @@
         "description": "Displays the table.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "5:DispTable"
         ]
@@ -2198,7 +2198,7 @@
         "description": "Displays `value` in DMS format.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[angle]",
           "ANGLE",
           "4:DMS"
@@ -2223,7 +2223,7 @@
         "description": "Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thick.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Dot-Thick"
         ]
       }
@@ -2250,7 +2250,7 @@
         "description": "Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thin.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Dot-Thin"
         ]
       }
@@ -2287,7 +2287,7 @@
         "description": "Draws `expression` (in terms of `X`) on the graph with specified\nColor#:10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "6:DrawF"
@@ -2326,7 +2326,7 @@
         "description": "Draws the inverse of `expression` by plotting `X` values on the y-axis and `Y` values on the x-axis with specified\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "8:DrawInv"
@@ -2375,7 +2375,7 @@
         "description": "Decrements `variable` by 1; skips `commandA` if `variable `< `value`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "B:DS<("
         ]
@@ -2401,7 +2401,7 @@
         "description": "Returns decimal approximation of the constant `e`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[e]"
         ]
       }
@@ -2434,7 +2434,7 @@
         "description": "Returns `e` raised to `power`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[eˣ]"
         ]
       },
@@ -2450,7 +2450,7 @@
         "description": "Returns a list of `e` raised to a `list` of powers.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[eˣ]"
         ]
       }
@@ -2503,7 +2503,7 @@
         "description": "Returns `value` times 10 to the `exponent`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[ᴇᴇ]"
         ]
       },
@@ -2534,7 +2534,7 @@
         "description": "Returns `list` elements times 10 to the `exponent`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[ᴇᴇ]"
         ]
       },
@@ -2565,7 +2565,7 @@
         "description": "Returns `matrix` elements times 10 to the `exponent`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[ᴇᴇ]"
         ]
       }
@@ -2602,7 +2602,7 @@
         "description": "Computes the effective interest rate.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "C:►Eff("
@@ -2655,7 +2655,7 @@
         "description": "Identifies end of` For(`, `If`-`Then`-`Else`, `Repeat`, or `While` loop.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "7:End"
         ]
@@ -2682,7 +2682,7 @@
         "description": "Sets engineering display mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Eng"
         ]
       }
@@ -2718,7 +2718,7 @@
         "description": "Converts the contents of a `Y= var` to a string and stores it in `Str``n`",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "Equ►String("
         ]
@@ -2749,7 +2749,7 @@
         "description": "Returns an evaluated expression as a string with 8 significant digits.  The expression must be real.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "C:eval("
         ]
@@ -2767,7 +2767,7 @@
         "description": "Returns an evaluated expression as a string with 8 significant digits.  The expression must simplify to a real expression.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "6:eval("
         ],
         "specialCategory": "TI-Innovator™ Hub"
@@ -2793,7 +2793,7 @@
         "description": "Extends TI-Basic (not available)",
         "inEditorOnly": true,
         "location": [
-          "[ExecLib]"
+          "【prgm】"
         ]
       }
     ],
@@ -2823,7 +2823,7 @@
         "description": "Converts the character string contained in `string` to an expression and executes the expression. `string` can be a string or a string variable.",
         "inEditorOnly": true,
         "location": [
-          "[expr]"
+          "【prgm】"
         ]
       }
     ],
@@ -2869,7 +2869,7 @@
         "description": "Fits an exponential regression model to `Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "0:ExpReg"
         ]
@@ -2896,7 +2896,7 @@
         "description": "Turns off the expression display during TRACE.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "ExprOff"
         ]
@@ -2923,7 +2923,7 @@
         "description": "Turns on the expression display during TRACE.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "ExprOn"
         ]
@@ -2974,10 +2974,10 @@
             false
           ]
         ],
-        "description": "Computes the Û distribution probability between `lowerbound `and `upperbound` for the specified `numerator df` (degrees of freedom) and `denominator df`.",
+        "description": "Computes the 𝐅 distribution probability between `lowerbound `and `upperbound` for the specified `numerator df` (degrees of freedom) and `denominator df`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "0:cdf("
@@ -3008,7 +3008,7 @@
         "description": "Converts an answer from a fraction to a decimal or from a decimal to a fraction. Fraction and or decimal may be an approximation.",
         "inEditorOnly": false,
         "location": [
-          "[alpha]",
+          "【alpha]",
           "[F1]",
           "4:"
         ]
@@ -3046,7 +3046,7 @@
         "description": "Stores `value` to each element in `matrixname`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "4:Fill("
@@ -3069,7 +3069,7 @@
         "description": "Stores `value` to each element in `listname`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "4:Fill("
@@ -3103,7 +3103,7 @@
         "description": "Sets fixed-decimal mode for # of decimal places.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "0123456789"
         ]
       }
@@ -3129,7 +3129,7 @@
         "description": "Sets floating decimal mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Float"
         ]
       }
@@ -3181,7 +3181,7 @@
         "description": "Returns the value of `variable` where the local maximum of `expression` occurs, between `lower` and `upper`,with specified `tolerance`.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "MATH",
           "7:fMax("
         ]
@@ -3234,7 +3234,7 @@
         "description": "Returns the value of `variable` where the local minimum of `expression` occurs, between `lower` and `upper`, with specified `tolerance`.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "MATH",
           "6:fMin("
         ]
@@ -3287,7 +3287,7 @@
         "description": "Returns the function integral of `expression` with respect to `variable`, between `lower` and `upper`, with specified `tolerance`.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "MATH",
           "9:fnInt("
         ]
@@ -3330,7 +3330,7 @@
         "description": "Deselects all `Y=` functions or specified `Y=` functions.",
         "inEditorOnly": false,
         "location": [
-          "[vars]",
+          "【vars】",
           "Y-VARS",
           "4:On/Off2:FnOff"
         ]
@@ -3373,7 +3373,7 @@
         "description": "Selects all `Y=` functions or specified `Y=` functions.",
         "inEditorOnly": false,
         "location": [
-          "[vars]",
+          "【vars】",
           "Y-VARS",
           "4:On/Off1:FnOn"
         ]
@@ -3431,7 +3431,7 @@
         "description": "Executes `commands` through `End`, incrementing `variable` from `begin` by `increment`  until `variable`>`end`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "4:For("
         ]
@@ -3464,7 +3464,7 @@
         "description": "Returns the fractional part or parts of a real or complex number, expression, list, or matrix.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "4:fPart("
         ]
@@ -3514,10 +3514,10 @@
             false
           ]
         ],
-        "description": "Computes the Û distribution probability between `lowerbound `and `upperbound` for the specified `numerator df` (degrees of freedom) and `denominator df`.",
+        "description": "Computes the 𝐅 distribution probability between `lowerbound `and `upperbound` for the specified `numerator df` (degrees of freedom) and `denominator df`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "9:pdf("
@@ -3551,7 +3551,7 @@
         "description": "Displays a real or complex number, expression, list, or matrix as a fraction simplified to its simplest terms.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "MATH",
           "1:Frac"
         ]
@@ -3578,7 +3578,7 @@
         "description": "Sets full screen mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Full"
         ]
       }
@@ -3604,7 +3604,7 @@
         "description": "Sets function graphing mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Func"
         ]
       }
@@ -3629,7 +3629,7 @@
         "description": "Displays the garbage collection menu to allow cleanup of unused archive memory.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "GarbageCollect"
         ]
@@ -3667,7 +3667,7 @@
         "description": "Returns the greatest common divisor of `valueA` and `valueB`, which can be real numbers or lists.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "9:gcd("
         ]
@@ -3705,7 +3705,7 @@
         "description": "Computes a cumulative probability at `x`, the number of the trial on which the first success occurs, for the discrete geometric distribution with the specified probability of success `p.`",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "F:geometcdf("
@@ -3744,7 +3744,7 @@
         "description": "Computes a probability at `x`, the number of the trial on which the first success occurs, for the discrete geometric distribution with the specified probability of success `p.`",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "E:geometpdf("
@@ -3778,7 +3778,7 @@
         "description": "Retrieves a value from a connected TI-Innovator™ Hub and stores the data to a variable on the receiving CE calculator.\nNote: See also Send( and eval(",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "A:Get("
         ]
@@ -3795,7 +3795,7 @@
         "description": "Retrieves a value from a connected TI-Innovator™ Hub and stores the data to a variable on the receiving CE calculator.\nNote: See also Send( and eval(",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "HUB",
           "5:Get"
         ],
@@ -3834,7 +3834,7 @@
         "description": "Gets contents of `variable` on another TI-84 Plus CE and stores it to `variable` on the receiving TI-84 Plus CE. By default, the TI-84 Plus CE uses the USB port if it is connected. If the USB cable is not connected, it uses the I/O port.`portflag`=0 use USB port if connected;`portflag`=1 use USB port;`portflag`=2 use I/O port.(Ignored when program runs on the TI-84 Plus CE.)",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "0:GetCalc("
         ]
@@ -3860,7 +3860,7 @@
         "description": "Returns a list giving the date according to the current value of the clock. The list is in {year,month,day} format.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "getDate"
         ]
@@ -3886,7 +3886,7 @@
         "description": "Returns an integer representing the date format that is currently set on the device.\n1 = M/D/Y2 = D/M/Y3 = Y/M/D",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "getDtFmt"
         ]
@@ -3918,7 +3918,7 @@
         "description": "Returns a string of the current date in the format specified by `integer`, where:\n1 = M/D/Y2 = D/M/Y3 = Y/M/D",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "getDtStr("
         ]
@@ -3944,7 +3944,7 @@
         "description": "Returns a list giving the time according to the current value of the clock. The list is in {hour,minute,second} format. The time is returned in the 24 hour format.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "getTime"
         ]
@@ -3970,7 +3970,7 @@
         "description": "Returns an integer representing the clock time format that is currently set on the device.\n12 = 12 hour format24 = 24 hour format",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "getTmFmt"
         ]
@@ -4002,7 +4002,7 @@
         "description": "Returns a string of the current clock time in the format specified by `integer`, where:\n12 = 12 hour format24 = 24 hour format",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "getTmStr("
         ]
@@ -4029,7 +4029,7 @@
         "description": "Returns the key code for the current keystroke, or `0`, if no key is pressed.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "7:getKey"
         ]
@@ -4062,7 +4062,7 @@
         "description": "Transfers control to `label`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "0:Goto"
         ]
@@ -4097,7 +4097,7 @@
         "description": "Sets the color for `function#`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "H:GraphColor("
         ]
@@ -4135,7 +4135,7 @@
         "description": "Sets a `graphstyle` for `function#`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "H:GraphStyle("
         ]
@@ -4165,7 +4165,7 @@
         "description": "Turns on grid dots in the graph area in the specified color.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "GridDot"
         ]
@@ -4200,7 +4200,7 @@
         "description": "Turns on grid lines in the graph area in the specified color.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "GridLine"
         ]
@@ -4227,7 +4227,7 @@
         "description": "Turns off grid format.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "GridOff"
         ]
@@ -4251,7 +4251,7 @@
         "description": "Sets graph-table vertical split-screen mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "GRAPH-TABLE"
         ]
       }
@@ -4298,7 +4298,7 @@
         "description": "Used as the \"type\" argument in the command\nWhere # gives Plot1, Plot2 or Plot3.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "TYPE"
         ]
@@ -4325,7 +4325,7 @@
         "description": "Sets horizontal split-screen mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Horiz"
         ]
       }
@@ -4367,7 +4367,7 @@
         "description": "Draws a horizontal line at `y` in a specified\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nline style #: 1-4.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "3:Horizontal"
@@ -4397,7 +4397,7 @@
         "description": "Returns the complex number `i`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[𝑖]"
         ]
       }
@@ -4429,7 +4429,7 @@
         "description": "Returns the identity matrix of `dimension` rows x `dimension` columns.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "5:identity("
@@ -4477,7 +4477,7 @@
         "description": "If `condition` = 0 (false), skips `commandA`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "1:If"
         ]
@@ -4510,7 +4510,7 @@
         "description": "Executes `commands` from `Then` to `End` if `condition` = 1 (true).",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "2:Then"
         ]
@@ -4543,7 +4543,7 @@
         "description": "Executes `commands` from `Then` to `Else` if `condition` = 1 (true); from `Else` to `End` if `condition` = 0 (false).",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "3:Else"
         ]
@@ -4576,7 +4576,7 @@
         "description": "Returns the imaginary (non-real) part of a complex number or list of complex numbers.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "CMPLX",
           "3:imag("
         ]
@@ -4617,7 +4617,7 @@
         "description": "The inverse binomial cumulative distribution function results in the minimum number of successes, such that the cumulative probability for that minimum number of successes ≥ the given cumulative probability (area).  If more information is needed, also find the binomcdf for the result from invBinom( as shown below for a full analysis.\nDetails:\nAssume the toss of a fair coin 30 times.  What is the minimum number of heads you must observe such that the cumulative probability for that number of observed heads is at least 0.95?\nThe results on the screen first show that the minimum number of successes to obtain at least the given cumulative probability of 0.95 is 19.  Next, the cumulative probability for up to 19 is computed using binomcdf( and is approximately 0.9506314271 which meets the criteria of  0.9506314271≥0.95\n\nAlternate Method:\nSet Y1=binomcdf(30,0.5,X) and use the table of values (starting at 0 and increment by 1) to find when the cumulative probability is at or just above the given cumulative probability.  This gives you a view of all values to make decisions.  For this example, search in the table to find the cumulative probability just larger than 0.95.  Again, the number of successes is 19.\n",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "C:invBinom("
@@ -4645,7 +4645,7 @@
         "description": "Sets table to ask for independent-variable values.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[tblset]",
           "Indpnt: Ask"
         ]
@@ -4672,7 +4672,7 @@
         "description": "Sets table to generate independent-variable values automatically.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[tblset]",
           "Indpnt: Auto"
         ]
@@ -4699,7 +4699,7 @@
         "description": "Displays graph.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "2:Input"
         ]
@@ -4716,7 +4716,7 @@
         "description": "Prompts for value to store to `variable`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "2:Input"
         ]
@@ -4738,7 +4738,7 @@
         "description": "Displays `Strn` and stores entered value to `variable`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "2:Input"
         ]
@@ -4780,7 +4780,7 @@
         "description": "Returns the character position in `string` of the first character of `substring `beginning at `start`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "inString("
         ]
@@ -4813,7 +4813,7 @@
         "description": "Returns the largest integer  a real or complex number, expression, list, or matrix.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "5:int("
         ]
@@ -4865,7 +4865,7 @@
         "description": "Computes the sum, rounded to `roundvalue`, of the interest amount between `pmt1` and `pmt2` for an amortization schedule.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "A:Int("
@@ -4911,10 +4911,10 @@
             false
           ]
         ],
-        "description": "Computes the inverse cumulative normal distribution function for a given area under the normal distribution curve specified by m and s.. The optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.\nThe tokens LEFT, CENTER and RIGHT can be found in [catalog].",
+        "description": "Computes the inverse cumulative normal distribution function for a given area under the normal distribution curve specified by μ and s.. The optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.\nThe tokens LEFT, CENTER and RIGHT can be found in [catalog].",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "3:invNorm("
@@ -4940,7 +4940,7 @@
         "description": "LEFT is a tail argument for the invNorm( command where the optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.\nSee also invNorm(.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]"
         ]
       }
@@ -4964,7 +4964,7 @@
         "description": "RIGHT is a tail argument for the invNorm( command where the optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.\nSee also invNorm(.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]"
         ]
       }
@@ -4988,7 +4988,7 @@
         "description": "CENTER is a tail argument for the invNorm( command where the optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.\nSee also invNorm(.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]"
         ]
       }
@@ -5022,7 +5022,7 @@
         "description": "Computes the inverse cumulative student-t probability function specified by degree of freedom, df for a given area under the curve.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "4:invT("
@@ -5056,7 +5056,7 @@
         "description": "Returns the integer part of a real or complex number, expression, list, or matrix.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "3:iPart("
         ]
@@ -5103,7 +5103,7 @@
         "description": "Returns the interest rate at which the net present value of the cash flow is equal to zero.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "8:irr("
@@ -5130,7 +5130,7 @@
         "description": "Identifies if clock is ON or OFF. Returns 1 if the clock is ON. Returns 0 if the clock is OFF.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "isClockOn"
         ]
@@ -5179,7 +5179,7 @@
         "description": "Increments `variable` by 1; skips `commandA` if `variable`>`value`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "A:IS>("
         ]
@@ -5209,7 +5209,7 @@
         "description": "Identifies the next one to five characters as a user-created list name.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "B:"
@@ -5237,7 +5237,7 @@
         "description": "Turns off axes labels.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "LabelOff"
         ]
@@ -5264,7 +5264,7 @@
         "description": "Turns on axes labels.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "LabelOn"
         ]
@@ -5297,7 +5297,7 @@
         "description": "Creates a `label` of one or two characters.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "9:Lbl"
         ]
@@ -5335,7 +5335,7 @@
         "description": "Returns the least common multiple of `valueA` and `valueB`, which can be real numbers or lists.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "8:lcm("
         ]
@@ -5367,7 +5367,7 @@
         "description": "Returns the number of characters in `string`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "length("
         ]
@@ -5430,7 +5430,7 @@
         "description": "Draws a line from (`X1`,`Y1`) to (`X2`,`Y2`) with the following options: erase #: 1,0, color #: 10-24, and line style #: 1-4.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "2:Line("
@@ -5468,7 +5468,7 @@
         "description": "Erases a line (erase #: 1,0) from (`X1`,`Y1`) to (`X2`,`Y2`).",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "2:Line("
@@ -5517,7 +5517,7 @@
         "description": "Fits a linear regression model to` Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "8:LinReg(a+bx)"
         ]
@@ -5565,7 +5565,7 @@
         "description": "Fits a linear regression model to` Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "4:LinReg(ax+b)"
         ]
@@ -5615,7 +5615,7 @@
         "description": "Performs a linear regression and computes the t confidence interval for the slope coefficient b.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "G:LinRegTInt"
         ]
@@ -5665,10 +5665,10 @@
             true
           ]
         ],
-        "description": "Performs a linear regression and a `t`-test. `alternative`=-`1` is <; `alternative`=`0` is ; `alternative`=`1` is >.",
+        "description": "Performs a linear regression and a `t`-test. `alternative`=-`1` is <; `alternative`=`0` is ≠; `alternative`=`1` is >.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "F:LinRegTTest"
         ]
@@ -5703,7 +5703,7 @@
         "description": "Returns a list containing the differences between consecutive elements in `list`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "7:List("
@@ -5752,7 +5752,7 @@
         "description": "Fills `matrixname` column by column with the elements from each specified `listname`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "0:List",
@@ -5788,7 +5788,7 @@
         "description": "Returns the natural logarithm of a real or complex number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[ln]"
+          "【ln】"
         ]
       }
     ],
@@ -5838,7 +5838,7 @@
         "description": "Fits a logarithmic regression model to `Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "9:LnReg"
         ]
@@ -5872,7 +5872,7 @@
         "description": "Returns logarithm of a real or complex number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[log]"
+          "【log】"
         ]
       }
     ],
@@ -5909,7 +5909,7 @@
         "description": "Returns the logarithm of a specifed value determined from a specified base: logBASE(value, base).",
         "inEditorOnly": false,
         "location": [
-          "[logBASE]"
+          "【math】"
         ]
       }
     ],
@@ -5994,7 +5994,7 @@
         "description": "Fits a linear equation to a scatter plot with specified color and line style.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nline style #: 1-4.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "D:Manual-Fit"
         ]
@@ -6018,7 +6018,7 @@
         "description": "Displays most entries and answers the way they are displayed in textbooks, such as .",
         "inEditorOnly": false,
         "location": [
-          "[MATHPRINT]"
+          "【mode】"
         ]
       }
     ],
@@ -6064,7 +6064,7 @@
         "description": "Fills each `listname` with elements from each column in `matrix`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "A:Matr►list("
@@ -6092,7 +6092,7 @@
         "description": "Fills a `listname` with elements from a specified `column#` in `matrix`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "A:Matr►list("
@@ -6131,7 +6131,7 @@
         "description": "Returns the larger of `valueA` and `valueB`.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "7:max("
         ]
@@ -6148,7 +6148,7 @@
         "description": "Returns the larger of `valueA` and `valueB`.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "7:max("
         ]
@@ -6165,7 +6165,7 @@
         "description": "Returns largest real or complex element in `list`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "2:max("
@@ -6188,7 +6188,7 @@
         "description": "Returns a real or complex list of the larger of each pair of elements in `listA` and `listB`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "2:max("
@@ -6211,7 +6211,7 @@
         "description": "Returns a real or complex list of the larger of `value` or each `list` element.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "2:max("
@@ -6250,7 +6250,7 @@
         "description": "Returns the mean of `list` with frequency `freqlist`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "3:mean("
@@ -6289,7 +6289,7 @@
         "description": "Returns the median of `list` with frequency `freqlist`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "4:median("
@@ -6338,7 +6338,7 @@
         "description": "Fits a median-median model to `Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "3:Med-Med"
         ]
@@ -6396,7 +6396,7 @@
         "description": "Generates a menu of up to seven items during program execution.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "C:Menu("
         ]
@@ -6434,7 +6434,7 @@
         "description": "Returns smaller of `valueA` and `valueB`.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "6:min("
         ]
@@ -6451,7 +6451,7 @@
         "description": "Returns smallest real or complex element in `list`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "1:min("
@@ -6474,7 +6474,7 @@
         "description": "Returns real or complex list of the smaller of each pair of elements in `listA` and `listB`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "1:min("
@@ -6497,7 +6497,7 @@
         "description": "Returns a real or complex list of the smaller of `value` or each `list` element.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "1:min("
@@ -6546,7 +6546,7 @@
         "description": "Used as the \"type\" argument in the command.\nWhere # gives Plot1, Plot2 or Plot3.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "TYPE"
         ]
@@ -6584,7 +6584,7 @@
         "description": "Returns the number of combinations of `valueA` taken `valueB` at a time.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "3:nCr"
         ]
@@ -6606,7 +6606,7 @@
         "description": "Returns a list of the combinations of `value` taken each element in `list` at a time.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "3:nCr"
         ]
@@ -6628,7 +6628,7 @@
         "description": "Returns a list of the combinations of each element in `list` taken `value` at a time.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "3:nCr"
         ]
@@ -6650,7 +6650,7 @@
         "description": "Returns a list of the combinations of each element in `listA` taken each element in `listB` at a time.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "3:nCr"
         ]
@@ -6674,7 +6674,7 @@
         "description": "Displays results as a simple fraction.",
         "inEditorOnly": false,
         "location": [
-          "[alpha]",
+          "【alpha]",
           "[F1]",
           "1:n/d"
         ]
@@ -6696,7 +6696,7 @@
     ],
     "syntaxes": [
       {
-        "syntax": "nDeriv(expression,variable,value[,H])",
+        "syntax": "nDeriv(expression,variable,value[,ε])",
         "arguments": [
           [
             "expression",
@@ -6714,15 +6714,15 @@
             false
           ],
           [
-            "H",
+            "ε",
             "",
             true
           ]
         ],
-        "description": "When command is used in Classic mode, returns approximate numerical derivative of `expression` with respect to `variable` at `value`, with specific tolerance H.\nIn MathPrint mode, numeric derivative template pastes and uses default tolerance H.",
+        "description": "When command is used in Classic mode, returns approximate numerical derivative of `expression` with respect to `variable` at `value`, with specific tolerance ε.\nIn MathPrint mode, numeric derivative template pastes and uses default tolerance ε.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "MATH",
           "8:nDeriv("
         ]
@@ -6752,7 +6752,7 @@
         "description": "Converts the results from a fraction to mixed number or from a mixed number to a fraction, if applicable.",
         "inEditorOnly": false,
         "location": [
-          "[alpha]",
+          "【alpha]",
           "[F1]",
           "3:",
           "n/d",
@@ -6792,7 +6792,7 @@
         "description": "Computes the nominal interest rate.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "B:►Nom("
@@ -6820,7 +6820,7 @@
         "description": "Sets normal display mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Normal"
         ]
       }
@@ -6841,7 +6841,7 @@
     ],
     "syntaxes": [
       {
-        "syntax": "normalcdf(lowerbound,upperbound[,m,s])",
+        "syntax": "normalcdf(lowerbound,upperbound[,μ,σ])",
         "arguments": [
           [
             "lowerbound",
@@ -6854,20 +6854,20 @@
             false
           ],
           [
-            "m",
+            "μ",
             "",
             true
           ],
           [
-            "s",
+            "σ",
             "",
             true
           ]
         ],
-        "description": "Computes the normal distribution probability between `lowerbound` and `upperbound` for the specified m and s.",
+        "description": "Computes the normal distribution probability between `lowerbound` and `upperbound` for the specified μ and σ.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "2:normalcdf("
@@ -6890,7 +6890,7 @@
     ],
     "syntaxes": [
       {
-        "syntax": "normalpdf(x[,m,s])",
+        "syntax": "normalpdf(x[,μ,σ])",
         "arguments": [
           [
             "x",
@@ -6898,20 +6898,20 @@
             false
           ],
           [
-            "m",
+            "μ",
             "",
             true
           ],
           [
-            "s",
+            "σ",
             "",
             true
           ]
         ],
-        "description": "Computes the probability density function for the normal distribution at a specified `x` value for the specified m and s.",
+        "description": "Computes the probability density function for the normal distribution at a specified `x` value for the specified μ and σ.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "1:normalpdf("
@@ -6960,7 +6960,7 @@
         "description": "Used as the \"type\" argument in the command\nWhere # gives Plot1, Plot2 or Plot3.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "TYPE"
         ]
@@ -6990,10 +6990,10 @@
             false
           ]
         ],
-        "description": "Returns `0` if `value` is  0. `value` can be a real number, expression, or list.",
+        "description": "Returns `0` if `value` is ≠ 0. `value` can be a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[test]",
           "LOGIC",
           "4:not("
@@ -7032,7 +7032,7 @@
         "description": "Returns the number of permutations of `valueA` taken `valueB` at a time.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "2:nPr"
         ]
@@ -7054,7 +7054,7 @@
         "description": "Returns a list of the permutations of `value` taken each element in `list` at a time.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "2:nPr"
         ]
@@ -7076,7 +7076,7 @@
         "description": "Returns a list of the permutations of each element in `list` taken `value` at a time.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "2:nPr"
         ]
@@ -7098,7 +7098,7 @@
         "description": "Returns a list of the permutations of each element in `listA` taken each element in `listB` at a time.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "2:nPr"
         ]
@@ -7146,7 +7146,7 @@
         "description": "Computes the sum of the present values for cash inflows and outflows.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "7:npv("
@@ -7173,7 +7173,7 @@
         "description": "Extends TI-Basic. (Not available.)",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "J:OpenLib("
         ]
@@ -7208,10 +7208,10 @@
             false
           ]
         ],
-        "description": "Returns 1 if `valueA` or `valueB` is  0. `valueA` and `valueB` can be real numbers, expressions, or lists.",
+        "description": "Returns 1 if `valueA` or `valueB` is ≠ 0. `valueA` and `valueB` can be real numbers, expressions, or lists.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[test]",
           "LOGIC",
           "2:or"
@@ -7255,7 +7255,7 @@
         "description": "Displays `text` beginning at specified `row` and `column `of the home screen.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "6:Output("
         ]
@@ -7282,7 +7282,7 @@
         "description": "Displays `value` beginning at specified `row` and `column `of the home screen.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "6:Output("
         ]
@@ -7309,7 +7309,7 @@
         "description": "Sets parametric graphing mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Par"
         ]
       }
@@ -7335,7 +7335,7 @@
         "description": "Suspends program execution until you press Í.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "8:Pause"
         ]
@@ -7352,7 +7352,7 @@
         "description": "Displays `value`; suspends program execution until you press Í.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "8:Pause"
         ]
@@ -7374,7 +7374,7 @@
         "description": "Displays value on the current home screen and execution of the program continues after the time period specified. For time only, use Pause `“”,time` where the value is a blank string. Time is in seconds.\nPause `value,time`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "8:Pause"
         ]
       }
@@ -7398,7 +7398,7 @@
         "description": "New piecewise function to support entry of functions as they are seen in textbook. This command can be found in » MATH `B:piecewise(`",
         "inEditorOnly": false,
         "location": [
-          "[piecewise]"
+          "【math】"
         ]
       }
     ],
@@ -7454,7 +7454,7 @@
         "description": "Defines `Plot#` (`1`, `2`, or `3`) of `type` `Scatter` or `xyLine` for `Xlist` and `Ylist` using `mark `and `color. `\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `Xlist `and `Ylist `represent the Xlist and Ylist names.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "STAT PLOTS",
           "1:Plot12:Plot23:Plot3"
@@ -7492,7 +7492,7 @@
         "description": "Defines `Plot#` (`1`, `2`, or `3`) of `type` ` Histogram` or `Boxplot` for `Xlist` with frequency `freqlist `and color #.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `Xlist `represents the Xlist name.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "STAT PLOTS",
           "1:Plot12:Plot23:Plot3"
@@ -7535,7 +7535,7 @@
         "description": "Defines `Plot#` (`1`, `2`, or `3`) of `type` ` ModBoxplot` for `Xlist` with frequency `freqlist` using `mark `and `color #`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `Xlist `represents the Xlist name.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "STAT PLOTS",
           "1:Plot12:Plot23:Plot3"
@@ -7578,7 +7578,7 @@
         "description": "Defines `Plot#` (`1`, `2`, or `3`) of `type` ` NormProbPlot` for `datalist` on `data axis` using `mark `and `color #` `data axis` can be `X` or `Y`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nNote: `datalist `represents the datalist name.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "STAT PLOTS",
           "1:Plot12:Plot23:Plot3"
@@ -7606,7 +7606,7 @@
         "description": "Deselects all stat plots or one or more specified stat plots (`1`, `2`, or `3`).",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "STAT PLOTS",
           "4:PlotsOff"
@@ -7634,7 +7634,7 @@
         "description": "Selects all stat plots or one or more specified stat plots (`1`, `2`, or `3`).",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "STAT PLOTS",
           "5:PlotsOn"
@@ -7662,7 +7662,7 @@
         "description": "Specifies an annuity due, where payments occur at the beginning of each payment period.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "F:Pmt_Bgn"
@@ -7690,7 +7690,7 @@
         "description": "Specifies an ordinary annuity, where payments occur at the end of each payment period.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "E:Pmt_End"
@@ -7713,10 +7713,10 @@
     ],
     "syntaxes": [
       {
-        "syntax": "poissoncdf(m,x)",
+        "syntax": "poissoncdf(μ,x)",
         "arguments": [
           [
-            "m",
+            "μ",
             "",
             false
           ],
@@ -7726,10 +7726,10 @@
             false
           ]
         ],
-        "description": "Computes a cumulative probability at `x` for the discrete Poisson distribution with specified mean m.",
+        "description": "Computes a cumulative probability at `x` for the discrete Poisson distribution with specified mean μ.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "D:poissoncdf("
@@ -7752,10 +7752,10 @@
     ],
     "syntaxes": [
       {
-        "syntax": "poissonpdf(m,x)",
+        "syntax": "poissonpdf(μ,x)",
         "arguments": [
           [
-            "m",
+            "μ",
             "",
             false
           ],
@@ -7765,10 +7765,10 @@
             false
           ]
         ],
-        "description": "Computes a probability at `x` for the discrete Poisson distribution with the specified mean m.",
+        "description": "Computes a probability at `x` for the discrete Poisson distribution with the specified mean μ.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "C:poissonpdf("
@@ -7796,7 +7796,7 @@
         "description": "Sets polar graphing mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Polar"
         ]
       }
@@ -7828,7 +7828,7 @@
         "description": "Displays `complex value` in polar format.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "CMPLX",
           "7:Polar"
         ]
@@ -7855,7 +7855,7 @@
         "description": "Sets polar graphing coordinates format.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "PolarGC"
         ]
@@ -7888,7 +7888,7 @@
         "description": "Executes the program `name`.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTRL",
           "D:prgm"
         ]
@@ -7936,7 +7936,7 @@
         "description": "Computes the sum, rounded to `roundvalue`, of the principal amount between `pmt1` and `pmt2` for an amortization schedule.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "0:Prn("
@@ -7980,7 +7980,7 @@
         "description": "Returns product of `list` elements between `start` and `end`",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "6:prod("
@@ -8029,7 +8029,7 @@
         "description": "Prompts for value for `variableA`, then `variableB`, and so on.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "2:Prompt"
         ]
@@ -8072,7 +8072,7 @@
         "description": "Computes a one-proportion `z` confidence interval.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "A:1-PropZInt("
         ]
@@ -8125,7 +8125,7 @@
         "description": "Computes a two-proportion `z` confidence interval.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "B:2-PropZInt("
         ]
@@ -8180,10 +8180,10 @@
             true
           ]
         ],
-        "description": "Computes a one-proportion `z` test. `alternative`=-`1` is <; `alternative`=`0` is ; `alternative`=`1` is >. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Computes a one-proportion `z` test. `alternative`=-`1` is <; `alternative`=`0` is ≠; `alternative`=`1` is >. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "5:1-PropZTest("
         ]
@@ -8243,10 +8243,10 @@
             true
           ]
         ],
-        "description": "Computes a two-proportion `z` test. `alternative`=-`1` is <; `alternative`=`0` is ; `alternative`=`1` is >. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Computes a two-proportion `z` test. `alternative`=-`1` is <; `alternative`=`0` is ≠; `alternative`=`1` is >. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "6:2-PropZTest("
         ]
@@ -8290,7 +8290,7 @@
         "description": "Toggles a point on or off at (`x`,`y`) on the graph area. Off will be in the Background color and On will be the specified\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "POINTS",
           "3:Pt-Change("
@@ -8334,7 +8334,7 @@
         "description": "Erases a point at (`x`,`y`) on the graph area using `mark`. The Off state may be the background color determined by the `ImageVar` or `color` setting.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "POINTS",
           "2:Pt-Off("
@@ -8383,7 +8383,7 @@
         "description": "Draws a point at (`x`,`y`) on the graph area using `mark `and the specified `color#`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "POINTS",
           "1:Pt-On("
@@ -8432,7 +8432,7 @@
         "description": "Fits a power regression model to `Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "A:PwrReg"
         ]
@@ -8475,7 +8475,7 @@
         "description": "Toggles Off to On in the graph area: with specified color# Toggles On to Off in the graph area: Off will display the set Background Image Var or Color.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "POINTS",
           "6:Pxl-Change("
@@ -8514,7 +8514,7 @@
         "description": "The Off state will display the set Background Image Var or COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "POINTS",
           "5:Pxl-Off("
@@ -8558,7 +8558,7 @@
         "description": "Draws pixel on the graph area at (`row`,`column`) in the specified color.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "POINTS",
           "4:Pxl-On("
@@ -8597,7 +8597,7 @@
         "description": "Returns 1 if pixel (`row`, `column`) is on, 0 if it is off;",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "POINTS",
           "7:pxl-Test("
@@ -8636,7 +8636,7 @@
         "description": "Returns `X`, given polar coordinates `r` and θ or a list of polar coordinates.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[angle]",
           "ANGLE",
           "7:P",
@@ -8676,7 +8676,7 @@
         "description": "Returns `Y`, given polar coordinates `r` and θ or a list of polar coordinates.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[angle]",
           "ANGLE",
           "8:P",
@@ -8726,7 +8726,7 @@
         "description": "Fits a quadratic regression model to` Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "5:QuadReg"
         ]
@@ -8774,7 +8774,7 @@
         "description": "Fits a quartic regression model to` Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "7:QuartReg"
         ]
@@ -8801,7 +8801,7 @@
         "description": "Sets radian angle mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Radian"
         ]
       }
@@ -8833,7 +8833,7 @@
         "description": "Returns a random number between 0 and 1 for a specified number of trials `numtrials`.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "1:rand"
         ]
@@ -8876,7 +8876,7 @@
         "description": "Generates and displays a random real number from a specified Binomial distribution.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "7:randBin("
         ]
@@ -8919,7 +8919,7 @@
         "description": "Generates and displays a random integer within a range specified by `lower` and `upper` integer bounds for a specified number of trials `numtrials`.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "5:randInt("
         ]
@@ -8959,7 +8959,7 @@
         "description": "Returns a random ordered list of integers from a lower integer to an upper integer which may include the lower integer and upper integer. If the optional argument `numelements` is specified, the first `numelements` are listed. The first `numelements` term in the list of random integers are displayed.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "8:randIntNoRep("
         ]
@@ -8997,7 +8997,7 @@
         "description": "Returns a random matrix of `rows` × `columns`.\nMax rows x columns = 400 matrix elements.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "6:randM("
@@ -9020,28 +9020,28 @@
     ],
     "syntaxes": [
       {
-        "syntax": "randNorm(m,s[,numtrials])",
+        "syntax": "randNorm(μ,σ[,numtrials])",
         "arguments": [
           [
-            "m",
+            "μ",
             "",
             false
           ],
           [
-            "s",
+            "σ",
             "",
-            true
+            false
           ],
           [
             "numtrials",
             "",
-            true
+            false
           ]
         ],
-        "description": "Generates and displays a random real number from a specified Normal distribution specified by m and s for a specified number of trials `numtrials`.",
+        "description": "Generates and displays a random real number from a specified Normal distribution specified by μ and σ for a specified number of trials `numtrials`.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "PRB",
           "6:randNorm("
         ]
@@ -9084,7 +9084,7 @@
         "description": "Sets the mode to polar complex number mode (`re``^`θ`i`).",
         "inEditorOnly": true,
         "location": [
-          "[re^θ𝑖]"
+          "【mode】"
         ]
       }
     ],
@@ -9109,7 +9109,7 @@
         "description": "Sets mode to display complex results only when you enter complex numbers.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Real"
         ]
       }
@@ -9141,7 +9141,7 @@
         "description": "Returns the real part of a complex number or list of complex numbers.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "CPLX",
           "2:real("
         ]
@@ -9174,7 +9174,7 @@
         "description": "Restores all settings stored in the graph database variable `GDBn`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "STO",
           "4:RecallGDB"
@@ -9208,7 +9208,7 @@
         "description": "Displays the graph and adds the picture stored in `Picn`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "STO",
           "2:RecallPic"
@@ -9242,7 +9242,7 @@
         "description": "Displays `complex value` or list in rectangular format.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "CMPLX",
           "6:Rect"
         ]
@@ -9269,7 +9269,7 @@
         "description": "Sets rectangular graphing coordinates format.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "RectGC"
         ]
@@ -9302,7 +9302,7 @@
         "description": "Returns the row-echelon form of a `matrix`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "A:ref("
@@ -9338,7 +9338,7 @@
         "description": "Reports the remainder as a whole number from a division of two whole numbers where the divisor is not zero.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "0:remainder("
         ]
@@ -9360,7 +9360,7 @@
         "description": "Reports the remainder as a whole number from a division of two lists where the divisor is not zero.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "0:remainder("
         ]
@@ -9382,7 +9382,7 @@
         "description": "Reports the remainder as a whole number from a division of two whole numbers where the divisor is a list.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "0:remainder("
         ]
@@ -9404,7 +9404,7 @@
         "description": "Reports the remainder as a whole number from a division of two lists.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "0:remainder("
         ]
@@ -9447,7 +9447,7 @@
         "description": "Executes `commands` until `condition` is true.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "6:Repeat"
         ]
@@ -9474,7 +9474,7 @@
         "description": "Returns to the calling program.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "E:Return"
         ]
@@ -9512,7 +9512,7 @@
         "description": "Returns a number, expression, list, or matrix rounded to `#decimals` ( 9).",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUM",
           "2:round("
         ]
@@ -9560,7 +9560,7 @@
         "description": "Returns a matrix with `row` of `matrix` multiplied by `value` and stored in `row`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "E:row("
@@ -9604,7 +9604,7 @@
         "description": "Returns a matrix with `rowA` of `matrix` added to `rowB` and stored in `rowB`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "D:row+("
@@ -9658,7 +9658,7 @@
         "description": "Returns a matrix with `rowA` of `matrix` multiplied by `value`, added to `rowB`, and stored in `rowB`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "F:row+("
@@ -9702,7 +9702,7 @@
         "description": "Returns a matrix with `rowA` of `matrix` swapped with `rowB`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "C:rowSwap("
@@ -9736,7 +9736,7 @@
         "description": "Returns the reduced row-echelon form of a `matrix`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[matrix]",
           "MATH",
           "B:rref("
@@ -9775,7 +9775,7 @@
         "description": "Returns `R`, given rectangular coordinates `x` and `y` or a list of rectangular coordinates.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[angle]",
           "ANGLE",
           "5:R",
@@ -9820,7 +9820,7 @@
         "description": "Returns θ, given rectangular coordinates `x` and `y` or a list of rectangular coordinates.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[angle]",
           "ANGLE"
         ]
@@ -9885,10 +9885,10 @@
             true
           ]
         ],
-        "description": "Performs a two-sample Û test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Performs a two-sample 𝐅 test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "E:2-Samp",
           "Test"
@@ -9938,10 +9938,10 @@
             true
           ]
         ],
-        "description": "Performs a two-sample Û test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Performs a two-sample 𝐅 test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "E:2-Samp",
           "Test"
@@ -10001,17 +10001,17 @@
         "description": "Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "0:2-SampTInt"
         ]
       },
       {
-        "syntax": "2-SampTIntv1,Sx1,n1,v2,Sx2,n2[,confidence  level,pooled]",
+        "syntax": "2-SampTIntx̄1,Sx1,n1,x̄2,Sx2,n2[,confidence  level,pooled]",
         "comment": "Summary stats input",
         "arguments": [
           [
-            "v",
+            "x̄",
             "",
             false
           ],
@@ -10031,7 +10031,7 @@
             false
           ],
           [
-            "v",
+            "x̄",
             "",
             false
           ],
@@ -10069,7 +10069,7 @@
         "description": "Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "0:2-SampTInt"
         ]
@@ -10134,19 +10134,19 @@
             true
           ]
         ],
-        "description": "Computes a two-sample `t` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Computes a two-sample `t` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "4:2-SampTTest"
         ]
       },
       {
-        "syntax": "2-SampTTestv1,Sx1,n1,v2,Sx2,n2[,alternative,pooled,drawflag,color#])",
+        "syntax": "2-SampTTestx̄1,Sx1,n1,v2,Sx2,n2[,alternative,pooled,drawflag,color#])",
         "arguments": [
           [
-            "v",
+            "x̄",
             "",
             false
           ],
@@ -10201,10 +10201,10 @@
             true
           ]
         ],
-        "description": "Computes a two-sample `t` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Computes a two-sample `t` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "4:2-SampTTest"
         ]
@@ -10226,11 +10226,11 @@
     ],
     "syntaxes": [
       {
-        "syntax": "2-SampZInt(s1,s2[,listname1,listname2,freqlist1,freqlist2,confidence level])",
+        "syntax": "2-SampZInt(σ1,σ2[,listname1,listname2,freqlist1,freqlist2,confidence level])",
         "comment": "Data list input",
         "arguments": [
           [
-            "s",
+            "σ",
             "",
             false
           ],
@@ -10240,7 +10240,7 @@
             true
           ],
           [
-            "s",
+            "σ",
             "",
             true
           ],
@@ -10278,17 +10278,17 @@
         "description": "Computes a two-sample `z` confidence interval.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "9:2-SampZInt("
         ]
       },
       {
-        "syntax": "2-SampZInt(s1,s2,v1,n1,v2,n2[,confidence level])",
+        "syntax": "2-SampZInt(σ1,σ2,x̄1,n1,x̄2,n2[,confidence level])",
         "comment": "Summary stats input",
         "arguments": [
           [
-            "s",
+            "σ",
             "",
             false
           ],
@@ -10298,7 +10298,7 @@
             false
           ],
           [
-            "s",
+            "σ",
             "",
             false
           ],
@@ -10308,7 +10308,7 @@
             false
           ],
           [
-            "v",
+            "x̄",
             "",
             false
           ],
@@ -10323,7 +10323,7 @@
             true
           ],
           [
-            "v",
+            "x̄",
             "",
             true
           ],
@@ -10346,7 +10346,7 @@
         "description": "Computes a two-sample `z` confidence interval.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "9:2-SampZInt("
         ]
@@ -10368,10 +10368,10 @@
     ],
     "syntaxes": [
       {
-        "syntax": "2-SampZTest( s1,s2[,listname1,listname2,freqlist1,freqlist2,alternative,drawflag,color#])",
+        "syntax": "2-SampZTest( σ1,σ2[,listname1,listname2,freqlist1,freqlist2,alternative,drawflag,color#])",
         "arguments": [
           [
-            "s",
+            "σ",
             "",
             false
           ],
@@ -10381,7 +10381,7 @@
             true
           ],
           [
-            "s",
+            "σ",
             "",
             true
           ],
@@ -10426,19 +10426,19 @@
             true
           ]
         ],
-        "description": "Computes a two-sample `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Computes a two-sample `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "3:2-SampZTest("
         ]
       },
       {
-        "syntax": "2-SampZTest(s1,s2,v1,n1,v2,n2[,alternative,drawflag,color#])",
+        "syntax": "2-SampZTest(σ1,σ2,x̄1,n1,x̄2,n2[,alternative,drawflag,color#])",
         "arguments": [
           [
-            "s",
+            "σ",
             "",
             false
           ],
@@ -10448,7 +10448,7 @@
             false
           ],
           [
-            "s",
+            "σ",
             "",
             false
           ],
@@ -10458,7 +10458,7 @@
             false
           ],
           [
-            "v",
+            "x̄",
             "",
             false
           ],
@@ -10473,7 +10473,7 @@
             true
           ],
           [
-            "v",
+            "x̄",
             "",
             true
           ],
@@ -10503,10 +10503,10 @@
             true
           ]
         ],
-        "description": "Computes a two-sample `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Computes a two-sample `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "3:2-SampZTest("
         ]
@@ -10554,7 +10554,7 @@
         "description": "Used as the \"type\" argument in the command\nWhere # gives Plot1, Plot2 or Plot3.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "TYPE"
         ]
@@ -10581,7 +10581,7 @@
         "description": "Sets scientific notation display mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Sci"
         ]
       }
@@ -10618,7 +10618,7 @@
         "description": "Selects one or more specific data points from a scatter plot or xyLine plot (only), and then store's the selected data points to two new lists, `Xlistname` and `Ylistname`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "8:Select("
@@ -10652,7 +10652,7 @@
         "description": "Sends one or more TI-Innovator™ Hub commands to a connected hub.\nNotes:\nSee also eval( and Get( command related to the Send( command.\nTI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2 program editor.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "B:Send("
         ]
@@ -10669,7 +10669,7 @@
         "description": "Sends one or more TI-Innovator™ Hub commands to a connected hub.\nNotes:\nSee also eval( and Get( command related to the Send( command.\nTI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2 program editor.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "HUB"
         ]
       }
@@ -10721,7 +10721,7 @@
         "description": "Returns list created by evaluating `expression` with regard to `variable`, from `begin` to `end` by `increment.`",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "5:seq("
@@ -10753,7 +10753,7 @@
         "description": "In sequence mode, SEQ(`n`) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable `n`.   Can also be set from the Y= editor in SEQ mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "SEQ(n)"
         ]
       }
@@ -10783,7 +10783,7 @@
         "description": "In sequence mode, SEQ(`n+1`) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable `n+1`.   Can also be set from the Y= editor in SEQ mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "SEQ(n+1)"
         ]
       }
@@ -10813,7 +10813,7 @@
         "description": "In sequence mode, SEQ(`n+2`) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable `n+2`.   Can also be set from the Y= editor in SEQ mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "SEQ(n+2)"
         ]
       }
@@ -10839,7 +10839,7 @@
         "description": "Sets sequence graphing mode.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Seq"
         ]
       }
@@ -10865,7 +10865,7 @@
         "description": "Sets mode to graph functions sequentially.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Sequential"
         ]
       }
@@ -10907,7 +10907,7 @@
         "description": "Sets the date using a year, month, day format. The `year` must be 4 digits; `month` and `day` can be 1 or 2 digit.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "setDate("
         ]
@@ -10939,7 +10939,7 @@
         "description": "Sets the date format.\n1 = M/D/Y2 = D/M/Y3 = Y/M/D",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "setDtFmt("
         ]
@@ -10981,7 +10981,7 @@
         "description": "Sets the time using an hour, minute, second format. The `hour` must be in 24 hour format, in which 13 = 1 p.m.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "setTime("
         ]
@@ -11013,7 +11013,7 @@
         "description": "Sets the time format.\n12 = 12 hour format24 = 24 hour format",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "setTmFmt("
         ]
@@ -11040,7 +11040,7 @@
         "description": "Removes all list names from the stat list editor, and then restores list names `L1` through `L6` to columns `1` through `6`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "EDIT",
           "5:SetUpEditor"
         ]
@@ -11072,7 +11072,7 @@
         "description": "Removes all list names from the stat list editor, then sets it up to display one or more `listnames` in the specified order, starting with column `1`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "EDIT",
           "5:SetUpEditor"
         ]
@@ -11135,7 +11135,7 @@
         "description": "Draws `lowerfunc` and `upperfunc` in terms of `X` on the current graph and uses `pattern` and `patres` to shade and color the area bounded by `lowerfunc`, `upperfunc`, `Xleft`, and `Xright`. `lowerfunc `and `upperfunc `are shaded in the same specified color.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "7:Shade("
@@ -11189,7 +11189,7 @@
         "description": "Draws the density function for the χ² distribution specified by degrees of freedom `df`, and shades and colors the area between `lowerbound` and `upperbound`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DRAW",
           "3:Shade",
@@ -11246,10 +11246,10 @@
             true
           ]
         ],
-        "description": "Draws the density function for the Û` `distribution specified by `numerator df` and `denominator df` and shades and colors the area between `lowerbound` and `upperbound`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Draws the density function for the 𝐅` `distribution specified by `numerator df` and `denominator df` and shades and colors the area between `lowerbound` and `upperbound`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DRAW",
           "4:Shade",
@@ -11273,7 +11273,7 @@
     ],
     "syntaxes": [
       {
-        "syntax": "ShadeNorm(lowerbound,upperbound[,m,s,color#])",
+        "syntax": "ShadeNorm(lowerbound,upperbound[,μ,σ,color#])",
         "arguments": [
           [
             "lowerbound",
@@ -11286,12 +11286,12 @@
             false
           ],
           [
-            "m",
+            "μ",
             "",
             true
           ],
           [
-            "s",
+            "σ",
             "",
             true
           ],
@@ -11306,10 +11306,10 @@
             true
           ]
         ],
-        "description": "Draws the normal density function specified by m and s and shades and colors the area between `lowerbound` and `upperbound`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Draws the normal density function specified by μ and σ and shades and colors the area between `lowerbound` and `upperbound`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DRAW",
           "1:ShadeNorm("
@@ -11358,7 +11358,7 @@
         "description": "Draws the density function for the Student-t distribution specified by degrees of freedom df, and shades or colors the area between `lowerbound` and `upperbound`.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DRAW",
           "2:Shade_t("
@@ -11386,7 +11386,7 @@
         "description": "Sets mode to graph functions simultaneously.",
         "inEditorOnly": true,
         "location": [
-          "[mode]",
+          "【mode】",
           "Simul"
         ]
       }
@@ -11418,7 +11418,7 @@
         "description": "Returns the sine of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[sin]"
+          "【sin】"
         ]
       }
     ],
@@ -11458,8 +11458,8 @@
         "description": "Returns the arcsine of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
-          "?"
+          "【2nd】",
+          "[sin⁻¹]"
         ]
       }
     ],
@@ -11493,7 +11493,7 @@
         "description": "Returns the hyperbolic sine of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "sinh("
         ]
@@ -11534,7 +11534,7 @@
         "description": "Returns the hyperbolic arcsine of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "sinh"
         ]
@@ -11591,7 +11591,7 @@
         "description": "Attempts `iterations` times to fit a sinusoidal regression model to `Xlistname` and `Ylistname` using a `period` guess, and stores the regression equation to `regequ`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "C:SinReg"
         ]
@@ -11644,7 +11644,7 @@
         "description": "Solves `expression` for `variable`, given an initial `guess` and `lower` and `upper` bounds within which the solution is sought.",
         "inEditorOnly": true,
         "location": [
-          "[math]",
+          "【math】",
           "MATH",
           "0:solve("
         ]
@@ -11677,7 +11677,7 @@
         "description": "Sorts elements of `listname` in ascending order.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "1:SortA("
@@ -11710,7 +11710,7 @@
         "description": "Sorts elements of `keylistname` in ascending order, then sorts each `dependlist` as a dependent list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "1:SortA("
@@ -11744,7 +11744,7 @@
         "description": "Sorts elements of `listname` in descending order.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "2:SortD("
@@ -11777,7 +11777,7 @@
         "description": "Sorts elements of `keylistname` in descending order, then sorts each `dependlist` as a dependent list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "OPS",
           "2:SortD("
@@ -11804,7 +11804,7 @@
         "description": "Starts the clock timer. Store or note the displayed value, and use it as the argument for `checkTmr( )` to check the elapsed time.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "startTmr"
         ]
@@ -11828,7 +11828,7 @@
         "description": "Disables wizard syntax help for statistical commands, distributions, and seq(.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "STATWIZARD OFF"
         ]
@@ -11849,7 +11849,7 @@
         "description": "Enables wizard syntax help for statistical commands, distributions, and seq(.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "STATWIZARD ON("
         ]
@@ -11884,7 +11884,7 @@
         "description": "Returns the standard deviation of the elements in `list` with frequency `freqlist`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "7:stdDev("
@@ -11912,7 +11912,7 @@
         "description": "Ends program execution; returns to home screen.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "F:Stop"
         ]
@@ -11956,7 +11956,7 @@
         "description": "Stores `value` in `variable`.",
         "inEditorOnly": false,
         "location": [
-          "[→]"
+          "【sto→】"
         ]
       }
     ],
@@ -11987,7 +11987,7 @@
         "description": "Stores current graph in database `GDBn`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "STO",
           "3:StoreGDB"
@@ -12021,7 +12021,7 @@
         "description": "Stores current picture in picture `Picn`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "STO",
           "1:StorePic"
@@ -12059,7 +12059,7 @@
         "description": "Converts `string` into an equation and stores it in `Y= var`.\nstring can be a string or string variable.\nString►Equ( is the inverse of Equ►String(.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "I/O",
           "D:String>Equ(",
           "F:String>Equ("
@@ -12102,7 +12102,7 @@
         "description": "Returns a string that is a subset of another `string`, from `begin` to `length`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "sub("
         ]
@@ -12145,7 +12145,7 @@
         "description": "Returns the sum of elements of `list` from `start` to `end`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "5:sum("
@@ -12190,7 +12190,7 @@
         "description": "Classic command as shown.\nIn MathPrint™ the summation entry template displays and returns the sum of elements of `list`  from `start`  to `end, `where` start `<=` end`.",
         "inEditorOnly": false,
         "location": [
-          "[Σ]"
+          "【math】"
         ]
       }
     ],
@@ -12221,7 +12221,7 @@
         "description": "Returns the tangent of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[tan]"
+          "【tan】"
         ]
       }
     ],
@@ -12261,7 +12261,7 @@
         "description": "Returns the arctangent of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[tan⁻¹]"
         ]
       }
@@ -12312,7 +12312,7 @@
         "description": "Draws a line tangent to `expression` at `X`=`value` with specified `color` #: 10-24 and line style `linestyle #: `1-2.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "5:Tangent("
@@ -12345,7 +12345,7 @@
         "description": "Returns hyperbolic tangent of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "tanh("
         ]
@@ -12386,7 +12386,7 @@
         "description": "Returns the hyperbolic arctangent of a real number, expression, or list.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "tanh"
         ]
@@ -12433,7 +12433,7 @@
         "description": "Computes the Student-`t` distribution probability between `lowerbound` and` upperbound` for the specified degrees of freedom` df`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "6:tcdf("
@@ -12492,7 +12492,7 @@
         "description": "Writes `text` on graph beginning at pixel (`row`,`column`), where 0  `row`  164 and 0  `column`  264.\nFull mode, row must be <=148; column must be 256\nHoriz mode, row must be row<=66 and column must be <=256\nG-T mode, row must be row <=126; column must be 176",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "0:Text("
@@ -12523,7 +12523,7 @@
         "description": "Set text color prior to using the `Text( `command.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "A:TextColor("
@@ -12632,7 +12632,7 @@
         "description": "Sets sequence graphs to plot with respect to time.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "Time"
         ]
@@ -12664,7 +12664,7 @@
         "description": "Converts seconds to units of time that can be more easily understood for evaluation. The list is in {days,hours,minutes,seconds} format.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[catalog]",
           "timeCnv"
         ]
@@ -12708,17 +12708,17 @@
         "description": "Computes a `t` confidence interval.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "8:TInterval"
         ]
       },
       {
-        "syntax": "TInterval v,Sx,n[,confidence level]",
+        "syntax": "TInterval x̄,Sx,n[,confidence level]",
         "comment": "Summary stats input",
         "arguments": [
           [
-            "v",
+            "x̄",
             "",
             false
           ],
@@ -12741,7 +12741,7 @@
         "description": "Computes a `t` confidence interval.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "8:TInterval"
         ]
@@ -12777,7 +12777,7 @@
         "description": "Converts value to a string where `value` can be real, complex, an evaluated expression, list, or matrix.  String `value` displays in classic `format` (0) following the mode setting AUTO/DEC or in decimal `format` (1).",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "E:toString(",
           "C:toString("
         ]
@@ -12815,7 +12815,7 @@
         "description": "Computes the probability density function (pdf) for the Student-`t` distribution at a specified `x` value with specified degrees of freedom `df`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[distr]",
           "DISTR",
           "5:tpdf("
@@ -12842,7 +12842,7 @@
         "description": "Displays the graph and enters TRACE mode.",
         "inEditorOnly": false,
         "location": [
-          "[Trace]"
+          "【trace】"
         ]
       }
     ],
@@ -12862,11 +12862,11 @@
     ],
     "syntaxes": [
       {
-        "syntax": "T-Test m0[,listname,freqlist,alternative,drawflag,color#]) ",
+        "syntax": "T-Test μ0[,listname,freqlist,alternative,drawflag,color#]) ",
         "comment": "Data list input",
         "arguments": [
           [
-            "m",
+            "μ",
             "",
             false
           ],
@@ -12901,19 +12901,19 @@
             true
           ]
         ],
-        "description": "Performs a `t` test with frequency `freqlist`. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Performs a `t` test with frequency `freqlist`. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "2:T-Test"
         ]
       },
       {
-        "syntax": "T-Test m0,v,Sx,n[,alternative,drawflag,color#])",
+        "syntax": "T-Test μ0,x̄,Sx,n[,alternative,drawflag,color#])",
         "arguments": [
           [
-            "m",
+            "μ",
             "",
             false
           ],
@@ -12923,7 +12923,7 @@
             false
           ],
           [
-            "v",
+            "x̄",
             "",
             false
           ],
@@ -12956,7 +12956,7 @@
         "description": "Performs a `t` test with frequency `freqlist`. `alternative`=-`1` is < ; `alternative`=`0` is Ä; `alternative`=`1` is >. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "2:T-Test"
         ]
@@ -13014,7 +13014,7 @@
         "description": "Computes the future value.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "6:tvm_FV"
@@ -13078,7 +13078,7 @@
         "description": "Computes the annual interest rate.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "3:tvm_"
@@ -13142,7 +13142,7 @@
         "description": "Computes the number of payment periods.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "5:tvm_"
@@ -13201,7 +13201,7 @@
         "description": "Computes the amount of each payment.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "2:tvm_Pmt"
@@ -13260,7 +13260,7 @@
         "description": "Computes the present value.",
         "inEditorOnly": false,
         "location": [
-          "[apps]",
+          "【apps】",
           "1:Finance",
           "CALC",
           "4:tvm_PV"
@@ -13294,7 +13294,7 @@
         "description": "Moves the specified variables from the user data archive memory to RAM.\nTo archive variables, use `Archive`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[mem]",
           "6:UnArchive"
         ]
@@ -13318,7 +13318,7 @@
         "description": "Displays results as a mixed number, if applicable.",
         "inEditorOnly": false,
         "location": [
-          "[math]",
+          "【math】",
           "NUMC: Un/d"
         ]
       }
@@ -13344,7 +13344,7 @@
         "description": "Sets sequence graphs to plot `u(n``)` on the x-axis and `v(``n``)` on the y-axis.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "uv"
         ]
@@ -13371,7 +13371,7 @@
         "description": "Sets sequence graphs to plot `u(n``)` on the x-axis and `w(``n``)` on the y-axis.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "uw"
         ]
@@ -13409,7 +13409,7 @@
         "description": "Performs one-variable analysis on the data in `Xlistname` with frequency `freqlist`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "1:1-Var Stats"
         ]
@@ -13452,7 +13452,7 @@
         "description": "Performs two-variable analysis on the data in `Xlistname` and `Ylistname` with frequency `freqlist`.",
         "inEditorOnly": false,
         "location": [
-          "[stat]",
+          "【stat】",
           "CALC",
           "2:2-Var Stats"
         ]
@@ -13490,7 +13490,7 @@
         "description": "Returns the variance of the elements in `list` with frequency `freqlist`.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[list]",
           "MATH",
           "8:variance("
@@ -13534,7 +13534,7 @@
         "description": "Draws a vertical line at `x `with specified color and line style.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.\nline style #: 1-4.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[draw]",
           "DRAW",
           "4:Vertical"
@@ -13562,7 +13562,7 @@
         "description": "Sets sequence graphs to plot `v(n``)` on the x-axis and `w(``n``)` on the y-axis.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "vw"
         ]
@@ -13593,7 +13593,7 @@
         "description": "Suspends execution of a program for a given time.  Maximum time is 100 seconds.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "A:Wait"
         ]
       },
@@ -13610,7 +13610,7 @@
         "description": "Suspends execution of a program for a given time.  Maximum time is 100 seconds.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "4:Wait"
         ],
         "specialCategory": "TI-Innovator™ Hub"
@@ -13637,7 +13637,7 @@
         "description": "Sets sequence graphs to trace as webs.",
         "inEditorOnly": true,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[format]",
           "Web"
         ]
@@ -13680,7 +13680,7 @@
         "description": "Executes `commands` while `condition` is true.",
         "inEditorOnly": true,
         "location": [
-          "[prgm]",
+          "【prgm】",
           "CTL",
           "5:While"
         ]
@@ -13718,7 +13718,7 @@
         "description": "Returns 1 if only `valueA` or `valueB` = 0. `valueA` and `valueB` can be real numbers, expressions, or lists.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[test]",
           "LOGIC",
           "3:xor"
@@ -13767,7 +13767,7 @@
         "description": "Used as the \"type\" argument in the command\nWhere # gives Plot1, Plot2 or Plot3.",
         "inEditorOnly": false,
         "location": [
-          "[2nd]",
+          "【2nd】",
           "[stat plot]",
           "TYPE"
         ]
@@ -13793,7 +13793,7 @@
         "description": "Displays a graph, lets you draw a box that defines a new viewing window, and updates the window.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "1:ZBox"
         ]
@@ -13819,7 +13819,7 @@
         "description": "Adjusts the viewing window so that `TraceStep=0.1`, Δ`X=0.5` and Δ`Y=0.5`, and displays the graph screen with the origin centered on the screen.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "4:ZDecimal"
         ]
@@ -13843,7 +13843,7 @@
         "description": "Sets the window variables so that you can trace in increments of , if possible. Sets `TraceStep `to  and Δ`X` and Δ`Y `to .",
         "inEditorOnly": false,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "B:ZFrac1/2"
         ]
@@ -13867,7 +13867,7 @@
         "description": "Sets the window variables so that you can trace in increments of , if possible. Sets `TraceStep `to  and Δ`X` and Δ`Y `to .",
         "inEditorOnly": false,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "C:ZFrac1/3"
         ]
@@ -13891,7 +13891,7 @@
         "description": "Sets the window variables so that you can trace in increments of , if possible. Sets `TraceStep `to  and Δ`X` and Δ`Y `to .",
         "inEditorOnly": false,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "D:ZFrac1/4"
         ]
@@ -13915,7 +13915,7 @@
         "description": "Sets the window variables so that you can trace in increments of , if possible. Sets `TraceStep `to  and Δ`X` and Δ`Y `to .",
         "inEditorOnly": false,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "E:ZFrac1/5"
         ]
@@ -13939,7 +13939,7 @@
         "description": "Sets the window variables so that you can trace in increments of , if possible. Sets `TraceStep `to  and Δ`X` and Δ`Y `to .",
         "inEditorOnly": false,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "F:ZFrac1/8"
         ]
@@ -13963,7 +13963,7 @@
         "description": "Sets the window variables so that you can trace in increments of , if possible. Sets `TraceStep `to  and Δ`X` and Δ`Y `to .",
         "inEditorOnly": false,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "G:ZFrac1/10"
         ]
@@ -13989,7 +13989,7 @@
         "description": "Redefines the viewing window using the following dimensions: `TraceStep=1, `Δ`X=0.5, Xscl=10, `Δ`Y=1, Yscl=10.`",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "8:ZInteger"
         ]
@@ -14011,49 +14011,49 @@
     ],
     "syntaxes": [
       {
-        "syntax": "ZIntervals[,listname,freqlist,confidence level]",
+        "syntax": "ZIntervalσ[,listname,freqlist,confidence level]",
         "comment": "Data list input",
         "arguments": [
           [
-            "s",
+            "σ",
             "",
-            true
+            false
           ],
           [
             "listname",
             "list",
-            true
+            false
           ],
           [
             "freqlist",
             "list",
-            true
+            false
           ],
           [
             "confidence level",
             "",
-            true
+            false
           ]
         ],
         "description": "Computes a `z` confidence interval.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "7:ZInterval"
         ]
       },
       {
-        "syntax": "ZIntervals,v,n[,confidence level]",
+        "syntax": "ZIntervalσ,x̄,n[,confidence level]",
         "comment": "Summary stats input",
         "arguments": [
           [
-            "s",
+            "σ",
             "",
             false
           ],
           [
-            "v",
+            "x̄",
             "",
             false
           ],
@@ -14071,7 +14071,7 @@
         "description": "Computes a `z` confidence interval.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "7:ZInterval"
         ]
@@ -14097,7 +14097,7 @@
         "description": "Magnifies the part of the graph that surrounds the cursor location.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "2:Zoom In"
         ]
@@ -14123,7 +14123,7 @@
         "description": "Displays a greater portion of the graph, centered on the cursor location.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "3:Zoom Out"
         ]
@@ -14149,7 +14149,7 @@
         "description": "Recalculates `Ymin` and `Ymax` to include the minimum and maximum `Y` values, between `Xmin` and `Xmax`, of the selected functions and replots the functions.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "0:ZoomFit"
         ]
@@ -14175,7 +14175,7 @@
         "description": "Graphs the selected functions in a user-defined viewing window.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "MEMORY",
           "3:ZoomRcl"
         ]
@@ -14201,7 +14201,7 @@
         "description": "Redefines the viewing window so that all statistical data points are displayed.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "9:ZoomStat"
         ]
@@ -14227,7 +14227,7 @@
         "description": "Immediately stores the current viewing window.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "MEMORY",
           "2:ZoomSto"
         ]
@@ -14253,7 +14253,7 @@
         "description": "Replots the graph using the window variables of the graph that was displayed before you executed the last ZOOM instruction.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "MEMORY",
           "1:ZPrevious"
         ]
@@ -14277,7 +14277,7 @@
         "description": "Displays the portion of the graph that is in quadrant 1.",
         "inEditorOnly": false,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "A:ZQuadrant1"
         ]
@@ -14303,7 +14303,7 @@
         "description": "Adjusts the `X` or `Y` window settings so that each pixel represents an equal width and height in the coordinate system, and updates the viewing window.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "5:ZSquare"
         ]
@@ -14329,7 +14329,7 @@
         "description": "Replots the functions immediately, updating the window variables to the default values.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "6:ZStandard"
         ]
@@ -14351,11 +14351,11 @@
     ],
     "syntaxes": [
       {
-        "syntax": "Z-Test(m0,s[,listname,freqlist,alternative,drawflag,color#])",
+        "syntax": "Z-Test(μ0,σ[,listname,freqlist,alternative,drawflag,color#])",
         "comment": "Data list input",
         "arguments": [
           [
-            "m",
+            "μ",
             "",
             false
           ],
@@ -14365,50 +14365,50 @@
             false
           ],
           [
-            "s",
+            "σ",
             "",
-            true
+            false
           ],
           [
             "listname",
             "list",
-            true
+            false
           ],
           [
             "freqlist",
             "list",
-            true
+            false
           ],
           [
             "alternative",
             "",
-            true
+            false
           ],
           [
             "drawflag",
             "",
-            true
+            false
           ],
           [
             "color#",
             "colorNum",
-            true
+            false
           ]
         ],
-        "description": "Performs a `z` test with frequency `freqlist`. `alternative`= -`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Performs a `z` test with frequency `freqlist`. `alternative`= -`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "1:Z-Test("
         ]
       },
       {
-        "syntax": "Z-Test(m0,s,v,n[,alternative,drawflag,color#])",
+        "syntax": "Z-Test(μ0,σ,x̄,n[,alternative,drawflag,color#])",
         "comment": "Summary stats input",
         "arguments": [
           [
-            "m",
+            "μ",
             "",
             false
           ],
@@ -14418,12 +14418,12 @@
             false
           ],
           [
-            "s",
+            "σ",
             "",
             false
           ],
           [
-            "v",
+            "x̄",
             "",
             true
           ],
@@ -14448,10 +14448,10 @@
             true
           ]
         ],
-        "description": "Performs a `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
+        "description": "Performs a `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.\nColor#: 10 - 24 or color name pasted from [vars] COLOR.",
         "inEditorOnly": true,
         "location": [
-          "[stat]",
+          "【stat】",
           "TESTS",
           "1:Z-Test("
         ]
@@ -14477,7 +14477,7 @@
         "description": "Replots the functions immediately, updating the window variables to preset values for plotting trig functions.",
         "inEditorOnly": true,
         "location": [
-          "[zoom]",
+          "【zoom】",
           "ZOOM",
           "7:ZTrig"
         ]

@@ -16,7 +16,7 @@ Suspends program execution until you press Í.
 `Pause`
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `8:Pause`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `8:Pause`
 <hr>
 
 ## Description
@@ -37,7 +37,7 @@ Displays `value`; suspends program execution until you press Í.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `8:Pause`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `8:Pause`
 <hr>
 
 ## Description
@@ -61,7 +61,7 @@ Pause `value,time`.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `8:Pause`
+<tt><kbd><b>prgm</b></kbd></tt>, `8:Pause`
 <hr>
 
 ## Examples

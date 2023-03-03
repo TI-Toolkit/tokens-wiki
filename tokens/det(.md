@@ -24,7 +24,7 @@ Returns determinant of `matrix`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `1:det(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `1:det(`
 <hr>
 
 ## Examples

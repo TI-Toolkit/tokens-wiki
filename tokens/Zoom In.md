@@ -16,7 +16,7 @@ Magnifies the part of the graph that surrounds the cursor location.
 `Zoom In`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `2:Zoom In`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `2:Zoom In`
 <hr>
 
 ## Examples

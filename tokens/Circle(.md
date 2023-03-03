@@ -34,7 +34,7 @@ linestyle#: 1-2.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `9:Circle(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `9:Circle(`
 <hr>
 
 ## Examples

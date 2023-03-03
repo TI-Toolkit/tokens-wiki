@@ -28,7 +28,7 @@ Computes a one-proportion `z` confidence interval.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `A:1-PropZInt(`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `A:1-PropZInt(`
 <hr>
 
 ## Examples

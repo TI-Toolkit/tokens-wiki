@@ -16,7 +16,7 @@ Specifies an ordinary annuity, where payments occur at the end of each payment p
 `Pmt_End`
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `E:Pmt_End`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `E:Pmt_End`
 <hr>
 
 ## Examples

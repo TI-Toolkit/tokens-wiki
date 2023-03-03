@@ -24,7 +24,7 @@ Returns hyperbolic tangent of a real number, expression, or list.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `tanh(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `tanh(`
 <hr>
 
 ## Examples

@@ -25,7 +25,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `GridDot`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `GridDot`
 <hr>
 
 ## Examples

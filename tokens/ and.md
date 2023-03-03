@@ -29,7 +29,7 @@ Notice the token is "_and_" where "_" is a space.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>test</kbd>, `LOGIC`, `1:and`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>test</kbd>, `LOGIC`, `1:and`
 <hr>
 
 ## Examples

@@ -26,7 +26,7 @@ Returns a number, expression, list, or matrix rounded to `#decimals` ( 9).
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `2:round(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `2:round(`
 <hr>
 
 ## Examples

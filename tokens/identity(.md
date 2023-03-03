@@ -24,7 +24,7 @@ Returns the identity matrix of `dimension` rows x `dimension` columns.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `5:identity(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `5:identity(`
 <hr>
 
 ## Examples

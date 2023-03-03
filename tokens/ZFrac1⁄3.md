@@ -16,7 +16,7 @@ Sets the window variables so that you can trace in increments of , if possible. 
 `ZFrac1/3`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `C:ZFrac1/3`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `C:ZFrac1/3`
 <hr>
 
 ## Examples

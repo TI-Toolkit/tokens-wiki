@@ -107,7 +107,9 @@ ${info.comment ? ('<b>Comment</b>:' + info.comment + '\n') : ''}\n`;
 ## Location
 `;
             for (const [i, el] of info.location.entries()) {
-                if (el.startsWith('[')) {
+                if (el.startsWith('【')) {
+                    page += `<tt><kbd><b>${el.substring(1, el.length-1)}</b></kbd></tt>`;
+                } else if (el.startsWith('[')) {
                     page += `<kbd>${el.substring(1, el.length-1)}</kbd>`;
                 } else {
                     page += '`' + el + '`';

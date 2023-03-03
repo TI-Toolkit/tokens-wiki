@@ -16,7 +16,7 @@ Clears all drawn elements from a graph or drawing.
 `ClrDraw`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `1:ClrDraw`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `1:ClrDraw`
 <hr>
 
 ## Examples

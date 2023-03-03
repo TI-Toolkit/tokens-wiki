@@ -28,7 +28,7 @@ Deselects all `Y=` functions or specified `Y=` functions.
 </table>
 
 ## Location
-<kbd>vars</kbd>, `Y-VARS`, `4:On/Off2:FnOff`
+<tt><kbd><b>vars</b></kbd></tt>, `Y-VARS`, `4:On/Off2:FnOff`
 <hr>
 
 ## Examples

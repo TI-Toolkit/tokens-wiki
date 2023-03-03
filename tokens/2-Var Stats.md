@@ -28,7 +28,7 @@ Performs two-variable analysis on the data in `Xlistname` and `Ylistname` with f
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `2:2-Var Stats`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `2:2-Var Stats`
 <hr>
 
 ## Examples

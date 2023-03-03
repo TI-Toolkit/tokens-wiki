@@ -26,7 +26,7 @@ Returns the arctangent of a real number, expression, or list.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>tan⁻¹</kbd>
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>tan⁻¹</kbd>
 <hr>
 
 ## Examples

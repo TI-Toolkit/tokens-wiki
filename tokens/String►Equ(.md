@@ -28,7 +28,7 @@ String►Equ( is the inverse of Equ►String(.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `D:String>Equ(`, `F:String>Equ(`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `D:String>Equ(`, `F:String>Equ(`
 <hr>
 
 ## Examples

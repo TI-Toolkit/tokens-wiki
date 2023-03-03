@@ -24,7 +24,7 @@ Sets the mode to rectangular complex number format (a+b`i`).
 </table>
 
 ## Location
-<kbd>mode</kbd>, `a+b`, `𝑖`
+<tt><kbd><b>mode</b></kbd></tt>, `a+b`, `𝑖`
 <hr>
 
 ## Examples

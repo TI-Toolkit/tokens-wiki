@@ -17,7 +17,7 @@ Returns an integer representing the clock time format that is currently set on t
 `getTmFmt`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `getTmFmt`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getTmFmt`
 <hr>
 
 ## Examples

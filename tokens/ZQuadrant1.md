@@ -16,7 +16,7 @@ Displays the portion of the graph that is in quadrant 1.
 `ZQuadrant1`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `A:ZQuadrant1`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `A:ZQuadrant1`
 <hr>
 
 ## Examples

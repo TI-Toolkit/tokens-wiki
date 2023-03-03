@@ -16,7 +16,7 @@ Sets mode to graph functions sequentially.
 `Sequential`
 
 ## Location
-<kbd>mode</kbd>, `Sequential`
+<tt><kbd><b>mode</b></kbd></tt>, `Sequential`
 <hr>
 
 ## Examples

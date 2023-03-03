@@ -16,7 +16,7 @@ Extends TI-Basic. (Not available.)
 `OpenLib(`
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `J:OpenLib(`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `J:OpenLib(`
 <hr>
 
 ## Examples

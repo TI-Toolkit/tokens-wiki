@@ -28,7 +28,7 @@ Generates and displays a random real number from a specified Binomial distributi
 </table>
 
 ## Location
-<kbd>math</kbd>, `PRB`, `7:randBin(`
+<tt><kbd><b>math</b></kbd></tt>, `PRB`, `7:randBin(`
 <hr>
 
 ## Examples

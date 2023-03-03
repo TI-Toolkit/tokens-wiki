@@ -16,7 +16,7 @@ Immediately stores the current viewing window.
 `ZoomSto`
 
 ## Location
-<kbd>zoom</kbd>, `MEMORY`, `2:ZoomSto`
+<tt><kbd><b>zoom</b></kbd></tt>, `MEMORY`, `2:ZoomSto`
 <hr>
 
 ## Examples

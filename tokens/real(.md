@@ -24,7 +24,7 @@ Returns the real part of a complex number or list of complex numbers.
 </table>
 
 ## Location
-<kbd>math</kbd>, `CPLX`, `2:real(`
+<tt><kbd><b>math</b></kbd></tt>, `CPLX`, `2:real(`
 <hr>
 
 ## Examples

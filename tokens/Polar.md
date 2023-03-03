@@ -16,7 +16,7 @@ Sets polar graphing mode.
 `Polar`
 
 ## Location
-<kbd>mode</kbd>, `Polar`
+<tt><kbd><b>mode</b></kbd></tt>, `Polar`
 <hr>
 
 ## Examples

@@ -171,13 +171,26 @@ try {
     console.error(e);
 }
 
+const fontReplacements = {
+    ti84KeySymbols_Keys: {
+        '»':'【math】',   'y':'【2nd】',    ':':'[test]',   'q':'【zoom】',   'V':'[𝑖]',      '>':'[matrix]',
+        '…':'【stat】',   '¼':'【prgm】',   '=':'[distr]',  'Œ':'【apps】',   'r':'【trace】',  '9':'[list]',
+        '˜':'【sin】',    '? ':'[sin⁻¹]', '™':'【cos】',    '@':'[cos⁻¹]',  'š':'【tan】',    'A':'[tan⁻¹]',
+        'z':'【mode】',   'L':'[mem]',    '-':'[tblset]', ';':'[angle]',  'J':'[eˣ]',     '?':'[sin⁻¹]',
+        'D':'[ᴇᴇ]',     't':'【alpha]',  'N':'[catalog]','<':'[draw]',   'Z':'[ans]',    ',':'[stat plot]',
+        '½':'【vars】',   '^':'[F1]',     '.':'[format]' ,'Í':'【enter】',  '«':'【log】',    'µ':'【ln】',
+        '¿':'【sto→】',
+    },
+    ti84KeySymbols_Other: {
+        "â":"ᴇ", "Û":"𝐅", "Ü":"𝐅", "Ù":"ʟ", "ä":"*", "æ":"I%", "Ú":"𝗡", "!":"→",
+    },
+    ICOMsymbols: {
+        "3":"◄", "4":"►", "3 4":"◄►", "G":"Σ", "q":"θ", "c":"χ", "L":"-", "@":"Δ", "H":"ε", "m":"μ", "s":"σ", "v":"x̄", "":"≠"
+    }
+}
+
 const menuReplacements = {
-    '»':'[math]',   'y':'[2nd]',    ':':'[test]',   'q':'[zoom]',   'V':'[𝑖]',      '>':'[matrix]',
-    '…':'[stat]',   '¼':'[prgm]',   '=':'[distr]',  'Œ':'[apps]',   'r':'[trace]',  '9':'[list]',
-    '˜':'[sin]',    '? ':'[sin⁻¹]', '™':'[cos]',    '@':'[cos⁻¹]',  'š':'[tan]',    'A':'[tan⁻¹]',
-    'z':'[mode]',   'L':'[mem]',    'i':'𝑖',        '-':'[tblset]', ';':'[angle]',  'J':'[eˣ]',
-    'D':'[ᴇᴇ]',     't':'[alpha]',  'N':'[catalog]','<':'[draw]',   'Z':'[ans]',    ',':'[stat plot]',
-    '½':'[vars]',   '^':'[F1]',     '.':'[format]', 'æ':'I%',       'Ú':'𝗡',        'ä':'*',
+    ...fontReplacements.ti84KeySymbols_Keys, 'i':'𝑖',
 }
 
 for(let i = 0; i < 26; i++)
@@ -197,12 +210,12 @@ for(let i = 0; i < 26; i++)
     {
         // some global replacements...
         // ...ICOMsymbols
-        for (const [s, r] of Object.entries({ "3":"◄", "4":"►", "3 4":"◄►", "G":"Σ", "q":"θ", "c":"χ", "L":"-", "@":"Δ" })) {
+        for (const [s, r] of Object.entries(fontReplacements.ICOMsymbols)) {
             docBody.innerHTML = docBody.innerHTML.replace(new RegExp(`<span class="Keys_ICOMSymbols"[^>]*>\\s*${s}\\s*</span>`, 'gi'), r);
         }
         // ...KeySymbols
-        for (const [s, r] of Object.entries({ "â":"ᴇ", "Ü":"𝐅", "Ù":"ʟ", "ä":"*", "æ":"I%", "Ú":"𝗡", "!":"→" })) {
-            docBody.innerHTML = docBody.innerHTML.replace(new RegExp(`<span style="font-family: 'TI84KeySymbols'"[^>]*>${s}</span>`, 'gi'), r);
+        for (const [s, r] of Object.entries(fontReplacements.ti84KeySymbols_Other)) {
+            docBody.innerHTML = docBody.innerHTML.replace(new RegExp(`<span style="font-family: 'TI84KeySymbols'"[^>]*>${escapeRegExp(s)}</span>`, 'gi'), r);
         }
         // ...superscripts etc.
         docBody.innerHTML = docBody.innerHTML
@@ -458,7 +471,7 @@ for(let i = 0; i < 26; i++)
             arguments: args,
             description: description,
             inEditorOnly: (token.querySelector('tbody p.MenuName')?.textContent ?? '').includes('†'),
-            location: location.length > 1 ? location : [`[${name.replace(/\($/,'')}]`],
+            location: location.length && location[0].length ? location : [`[${name.replace(/\($/,'')}]`],
             specialCategory: specialCategory.length ? specialCategory : undefined,
         });
 

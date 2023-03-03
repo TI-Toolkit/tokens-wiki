@@ -30,7 +30,7 @@ Fits an exponential regression model to `Xlistname` and `Ylistname` with frequen
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `0:ExpReg`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `0:ExpReg`
 <hr>
 
 ## Examples

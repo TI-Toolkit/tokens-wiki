@@ -26,7 +26,7 @@ Computes the probability density function (pdf) for the Student-`t` distribution
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `5:tpdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `5:tpdf(`
 <hr>
 
 ## Examples

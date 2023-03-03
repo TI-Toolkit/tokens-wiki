@@ -25,7 +25,7 @@ Returns a string of the current date in the format specified by `integer`, where
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `getDtStr(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getDtStr(`
 <hr>
 
 ## Examples

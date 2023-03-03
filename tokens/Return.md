@@ -16,7 +16,7 @@ Returns to the calling program.
 `Return`
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `E:Return`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `E:Return`
 <hr>
 
 ## Examples

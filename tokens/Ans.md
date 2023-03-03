@@ -16,7 +16,7 @@ Returns the last answer.
 `Ans`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>ans</kbd>
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>ans</kbd>
 <hr>
 
 ## Examples

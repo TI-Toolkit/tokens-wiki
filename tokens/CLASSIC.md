@@ -16,7 +16,7 @@ Displays inputs and outputs on a single line, such as 1/2+3/4.
 `CLASSIC`
 
 ## Location
-<kbd>mode</kbd>, `CLASSIC`
+<tt><kbd><b>mode</b></kbd></tt>, `CLASSIC`
 <hr>
 
 ## Examples

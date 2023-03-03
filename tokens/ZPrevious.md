@@ -16,7 +16,7 @@ Replots the graph using the window variables of the graph that was displayed bef
 `ZPrevious`
 
 ## Location
-<kbd>zoom</kbd>, `MEMORY`, `1:ZPrevious`
+<tt><kbd><b>zoom</b></kbd></tt>, `MEMORY`, `1:ZPrevious`
 <hr>
 
 ## Examples

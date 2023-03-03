@@ -24,7 +24,7 @@ Returns the tangent of a real number, expression, or list.
 </table>
 
 ## Location
-<kbd>tan</kbd>
+<tt><kbd><b>tan</b></kbd></tt>
 <hr>
 
 ## Examples

@@ -25,7 +25,7 @@ Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `A:Wait`
+<tt><kbd><b>prgm</b></kbd></tt>, `A:Wait`
 <hr>
 
 ## Description
@@ -47,7 +47,7 @@ Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `4:Wait`
+<tt><kbd><b>prgm</b></kbd></tt>, `4:Wait`
 ## Special Category
 TI-Innovator™ Hub
 

@@ -16,7 +16,7 @@ Identifies if clock is ON or OFF. Returns 1 if the clock is ON. Returns 0 if the
 `isClockOn`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `isClockOn`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `isClockOn`
 <hr>
 
 ## Examples

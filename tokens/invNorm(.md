@@ -7,7 +7,7 @@
 # `invNorm(`
 
 ## Description
-Computes the inverse cumulative normal distribution function for a given area under the normal distribution curve specified by m and s.. The optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.
+Computes the inverse cumulative normal distribution function for a given area under the normal distribution curve specified by μ and s.. The optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.
 The tokens LEFT, CENTER and RIGHT can be found in [catalog].
 
 
@@ -31,7 +31,7 @@ The tokens LEFT, CENTER and RIGHT can be found in [catalog].
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `3:invNorm(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `3:invNorm(`
 <hr>
 
 ## Examples

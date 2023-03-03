@@ -16,7 +16,7 @@ Disables wizard syntax help for statistical commands, distributions, and seq(.
 `STATWIZARD OFF`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `STATWIZARD OFF`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `STATWIZARD OFF`
 <hr>
 
 ## Examples

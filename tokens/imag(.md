@@ -24,7 +24,7 @@ Returns the imaginary (non-real) part of a complex number or list of complex num
 </table>
 
 ## Location
-<kbd>math</kbd>, `CMPLX`, `3:imag(`
+<tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `3:imag(`
 <hr>
 
 ## Examples

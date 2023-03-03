@@ -24,7 +24,7 @@ Returns the largest integer  a real or complex number, expression, list, or ma
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `5:int(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `5:int(`
 <hr>
 
 ## Examples

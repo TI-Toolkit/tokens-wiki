@@ -31,7 +31,7 @@ Increments `variable` by 1; skips `commandA` if `variable`>`value`.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `A:IS>(`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `A:IS>(`
 <hr>
 
 ## Examples

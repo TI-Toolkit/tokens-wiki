@@ -25,7 +25,7 @@ Note: See also Send( and eval(
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `A:Get(`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `A:Get(`
 <hr>
 
 ## Description
@@ -47,7 +47,7 @@ Note: See also Send( and eval(
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `HUB`, `5:Get`
+<tt><kbd><b>prgm</b></kbd></tt>, `HUB`, `5:Get`
 ## Special Category
 Ti-Innovator™ Hub
 

@@ -32,7 +32,7 @@ Returns list created by evaluating `expression` with regard to `variable`, from 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `5:seq(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `5:seq(`
 <hr>
 
 ## Examples

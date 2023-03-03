@@ -16,7 +16,7 @@ Redefines the viewing window so that all statistical data points are displayed.
 `ZoomStat`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `9:ZoomStat`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `9:ZoomStat`
 <hr>
 
 ## Examples

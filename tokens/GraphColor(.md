@@ -27,7 +27,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `H:GraphColor(`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `H:GraphColor(`
 <hr>
 
 ## Examples

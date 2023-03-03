@@ -24,7 +24,7 @@ Turns on a border color surrounding the graph area with the specified color. Col
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `BorderColor`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `BorderColor`
 <hr>
 
 ## Examples

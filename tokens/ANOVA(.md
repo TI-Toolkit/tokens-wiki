@@ -32,7 +32,7 @@ Performs a one-way analysis of variance for comparing the means of two to 20 pop
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `H:ANOVA(`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `H:ANOVA(`
 <hr>
 
 ## Examples

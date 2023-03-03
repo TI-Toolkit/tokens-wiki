@@ -24,7 +24,7 @@ Creates a `label` of one or two characters.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `9:Lbl`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `9:Lbl`
 <hr>
 
 ## Examples

@@ -26,7 +26,7 @@ Returns the mean of `list` with frequency `freqlist`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `3:mean(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `3:mean(`
 <hr>
 
 ## Examples

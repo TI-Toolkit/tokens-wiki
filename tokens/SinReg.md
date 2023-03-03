@@ -32,7 +32,7 @@ Attempts `iterations` times to fit a sinusoidal regression model to `Xlistname` 
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `C:SinReg`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `C:SinReg`
 <hr>
 
 ## Examples

@@ -26,7 +26,7 @@ Returns arccosine of a real number, expression, or list.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>cos⁻¹</kbd>
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>cos⁻¹</kbd>
 <hr>
 
 ## Examples

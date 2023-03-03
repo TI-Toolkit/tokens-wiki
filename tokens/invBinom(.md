@@ -36,7 +36,7 @@ Set Y1=binomcdf(30,0.5,X) and use the table of values (starting at 0 and increme
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `C:invBinom(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `C:invBinom(`
 <hr>
 
 ## Examples

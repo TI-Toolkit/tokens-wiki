@@ -16,7 +16,7 @@ Clears all values from the table.
 `ClrTable`
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `9:ClrTable`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `9:ClrTable`
 <hr>
 
 ## Examples

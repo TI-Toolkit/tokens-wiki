@@ -7,13 +7,13 @@
 # `normalpdf(`
 
 ## Description
-Computes the probability density function for the normal distribution at a specified `x` value for the specified m and s.
+Computes the probability density function for the normal distribution at a specified `x` value for the specified μ and σ.
 
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`normalpdf(x[,m,s])`
+`normalpdf(x[,μ,σ])`
 
 ## Arguments
 <table>
@@ -21,14 +21,14 @@ Computes the probability density function for the normal distribution at a speci
 
 <tr><td>x</td><td></td><td>false</td></tr>
 
-<tr><td>m</td><td></td><td>true</td></tr>
+<tr><td>μ</td><td></td><td>true</td></tr>
 
-<tr><td>s</td><td></td><td>true</td></tr>
+<tr><td>σ</td><td></td><td>true</td></tr>
 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `1:normalpdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `1:normalpdf(`
 <hr>
 
 ## Examples

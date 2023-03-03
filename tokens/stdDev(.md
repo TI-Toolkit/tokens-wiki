@@ -26,7 +26,7 @@ Returns the standard deviation of the elements in `list` with frequency `freqlis
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `7:stdDev(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `7:stdDev(`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Turns on cursor coordinate value display.
 `CoordOn`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `CoordOn`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `CoordOn`
 <hr>
 
 ## Examples

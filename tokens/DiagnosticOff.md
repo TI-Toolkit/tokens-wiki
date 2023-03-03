@@ -16,7 +16,7 @@ Sets diagnostics-off mode; `r`, `r`², and `R`² are not displayed as regression
 `DiagnosticOff`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `DiagnosticOff`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `DiagnosticOff`
 <hr>
 
 ## Examples

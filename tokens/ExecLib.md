@@ -16,7 +16,7 @@ Extends TI-Basic (not available)
 `ExecLib`
 
 ## Location
-<kbd>ExecLib</kbd>
+<tt><kbd><b>prgm</b></kbd></tt>
 <hr>
 
 ## Examples

@@ -25,7 +25,7 @@ Returns a string of the current clock time in the format specified by `integer`,
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `getTmStr(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getTmStr(`
 <hr>
 
 ## Examples

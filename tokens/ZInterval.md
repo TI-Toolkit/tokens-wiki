@@ -14,24 +14,24 @@ Computes a `z` confidence interval.
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`ZIntervals[,listname,freqlist,confidence level]`
+`ZIntervalσ[,listname,freqlist,confidence level]`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>s</td><td></td><td>true</td></tr>
+<tr><td>σ</td><td></td><td>false</td></tr>
 
-<tr><td>listname</td><td>list</td><td>true</td></tr>
+<tr><td>listname</td><td>list</td><td>false</td></tr>
 
-<tr><td>freqlist</td><td>list</td><td>true</td></tr>
+<tr><td>freqlist</td><td>list</td><td>false</td></tr>
 
-<tr><td>confidence level</td><td></td><td>true</td></tr>
+<tr><td>confidence level</td><td></td><td>false</td></tr>
 
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `7:ZInterval`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `7:ZInterval`
 <hr>
 
 ## Description
@@ -42,15 +42,15 @@ Computes a `z` confidence interval.
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`ZIntervals,v,n[,confidence level]`
+`ZIntervalσ,x̄,n[,confidence level]`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>s</td><td></td><td>false</td></tr>
+<tr><td>σ</td><td></td><td>false</td></tr>
 
-<tr><td>v</td><td></td><td>false</td></tr>
+<tr><td>x̄</td><td></td><td>false</td></tr>
 
 <tr><td>n</td><td></td><td>true</td></tr>
 
@@ -59,7 +59,7 @@ Computes a `z` confidence interval.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `7:ZInterval`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `7:ZInterval`
 <hr>
 
 ## Examples

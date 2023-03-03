@@ -16,7 +16,7 @@ Redefines the viewing window using the following dimensions: `TraceStep=1, `Δ`X
 `ZInteger`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `8:ZInteger`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `8:ZInteger`
 <hr>
 
 ## Examples

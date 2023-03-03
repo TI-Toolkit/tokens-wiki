@@ -30,7 +30,7 @@ Prompts for value for `variableA`, then `variableB`, and so on.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `2:Prompt`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Prompt`
 <hr>
 
 ## Examples

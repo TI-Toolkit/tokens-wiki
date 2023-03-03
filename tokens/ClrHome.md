@@ -16,7 +16,7 @@ Clears the home screen.
 `ClrHome`
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `8:ClrHome`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `8:ClrHome`
 <hr>
 
 ## Examples

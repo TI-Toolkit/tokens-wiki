@@ -16,7 +16,7 @@ Sets degree angle mode.
 `Degree`
 
 ## Location
-<kbd>mode</kbd>, `Degree`
+<tt><kbd><b>mode</b></kbd></tt>, `Degree`
 <hr>
 
 ## Examples

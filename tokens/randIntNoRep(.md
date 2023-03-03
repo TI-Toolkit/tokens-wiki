@@ -28,7 +28,7 @@ Returns a random ordered list of integers from a lower integer to an upper integ
 </table>
 
 ## Location
-<kbd>math</kbd>, `PRB`, `8:randIntNoRep(`
+<tt><kbd><b>math</b></kbd></tt>, `PRB`, `8:randIntNoRep(`
 <hr>
 
 ## Examples

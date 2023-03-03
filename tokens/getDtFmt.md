@@ -17,7 +17,7 @@ Returns an integer representing the date format that is currently set on the dev
 `getDtFmt`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `getDtFmt`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getDtFmt`
 <hr>
 
 ## Examples

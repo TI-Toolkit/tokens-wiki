@@ -16,7 +16,7 @@ Sets sequence graphs to plot with respect to time.
 `Time`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `Time`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `Time`
 <hr>
 
 ## Examples

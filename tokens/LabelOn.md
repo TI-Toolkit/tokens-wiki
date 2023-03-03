@@ -16,7 +16,7 @@ Turns on axes labels.
 `LabelOn`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `LabelOn`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `LabelOn`
 <hr>
 
 ## Examples

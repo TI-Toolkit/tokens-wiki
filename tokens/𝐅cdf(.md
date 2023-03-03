@@ -7,7 +7,7 @@
 # `𝐅cdf(`
 
 ## Description
-Computes the Û distribution probability between `lowerbound `and `upperbound` for the specified `numerator df` (degrees of freedom) and `denominator df`.
+Computes the 𝐅 distribution probability between `lowerbound `and `upperbound` for the specified `numerator df` (degrees of freedom) and `denominator df`.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -32,7 +32,7 @@ Computes the Û distribution probability between `lowerbound `and `upperbound` f
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `0:cdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `0:cdf(`
 <hr>
 
 ## Examples

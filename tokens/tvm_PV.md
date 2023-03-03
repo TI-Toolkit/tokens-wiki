@@ -35,7 +35,7 @@ Computes the present value.
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `4:tvm_PV`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `4:tvm_PV`
 <hr>
 
 ## Examples

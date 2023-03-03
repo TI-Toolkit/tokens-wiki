@@ -30,7 +30,7 @@ line style #: 1-4.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `D:Manual-Fit`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `D:Manual-Fit`
 <hr>
 
 ## Examples

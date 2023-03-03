@@ -30,7 +30,7 @@ Fits a quartic regression model to` Xlistname` and `Ylistname` with frequency `f
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `7:QuartReg`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `7:QuartReg`
 <hr>
 
 ## Examples

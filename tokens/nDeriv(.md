@@ -7,14 +7,14 @@
 # `nDeriv(`
 
 ## Description
-When command is used in Classic mode, returns approximate numerical derivative of `expression` with respect to `variable` at `value`, with specific tolerance H.
-In MathPrint mode, numeric derivative template pastes and uses default tolerance H.
+When command is used in Classic mode, returns approximate numerical derivative of `expression` with respect to `variable` at `value`, with specific tolerance ε.
+In MathPrint mode, numeric derivative template pastes and uses default tolerance ε.
 
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`nDeriv(expression,variable,value[,H])`
+`nDeriv(expression,variable,value[,ε])`
 
 ## Arguments
 <table>
@@ -26,12 +26,12 @@ In MathPrint mode, numeric derivative template pastes and uses default tolerance
 
 <tr><td>value</td><td></td><td>false</td></tr>
 
-<tr><td>H</td><td></td><td>true</td></tr>
+<tr><td>ε</td><td></td><td>true</td></tr>
 
 </table>
 
 ## Location
-<kbd>math</kbd>, `MATH`, `8:nDeriv(`
+<tt><kbd><b>math</b></kbd></tt>, `MATH`, `8:nDeriv(`
 <hr>
 
 ## Examples

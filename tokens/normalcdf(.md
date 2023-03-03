@@ -7,13 +7,13 @@
 # `normalcdf(`
 
 ## Description
-Computes the normal distribution probability between `lowerbound` and `upperbound` for the specified m and s.
+Computes the normal distribution probability between `lowerbound` and `upperbound` for the specified μ and σ.
 
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`normalcdf(lowerbound,upperbound[,m,s])`
+`normalcdf(lowerbound,upperbound[,μ,σ])`
 
 ## Arguments
 <table>
@@ -23,14 +23,14 @@ Computes the normal distribution probability between `lowerbound` and `upperboun
 
 <tr><td>upperbound</td><td></td><td>false</td></tr>
 
-<tr><td>m</td><td></td><td>true</td></tr>
+<tr><td>μ</td><td></td><td>true</td></tr>
 
-<tr><td>s</td><td></td><td>true</td></tr>
+<tr><td>σ</td><td></td><td>true</td></tr>
 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `2:normalcdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `2:normalcdf(`
 <hr>
 
 ## Examples

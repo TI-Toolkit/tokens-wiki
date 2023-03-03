@@ -16,7 +16,7 @@ Turns off background image in the graph area.
 `BackgroundOff`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `BACKGROUND`, `2:BackgroundOff:`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `BACKGROUND`, `2:BackgroundOff:`
 <hr>
 
 ## Examples

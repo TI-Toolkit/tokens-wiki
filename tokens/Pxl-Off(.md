@@ -26,7 +26,7 @@ The Off state will display the set Background Image Var or COLOR.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `POINTS`, `5:Pxl-Off(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `5:Pxl-Off(`
 <hr>
 
 ## Examples

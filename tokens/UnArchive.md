@@ -25,7 +25,7 @@ To archive variables, use `Archive`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>mem</kbd>, `6:UnArchive`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `6:UnArchive`
 <hr>
 
 ## Examples

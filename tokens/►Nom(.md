@@ -26,7 +26,7 @@ Computes the nominal interest rate.
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `B:►Nom(`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `B:►Nom(`
 <hr>
 
 ## Examples

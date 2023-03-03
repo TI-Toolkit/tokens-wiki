@@ -36,7 +36,7 @@ Draws a line from (`X1`,`Y1`) to (`X2`,`Y2`) with the following options: erase 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `2:Line(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `2:Line(`
 <hr>
 
 ## Description
@@ -65,7 +65,7 @@ Erases a line (erase #: 1,0) from (`X1`,`Y1`) to (`X2`,`Y2`).
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `2:Line(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `2:Line(`
 <hr>
 
 ## Examples

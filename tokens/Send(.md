@@ -27,7 +27,7 @@ TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `B:Send(`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `B:Send(`
 <hr>
 
 ## Description
@@ -51,7 +51,7 @@ TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `HUB`
+<tt><kbd><b>prgm</b></kbd></tt>, `HUB`
 <hr>
 
 ## Examples

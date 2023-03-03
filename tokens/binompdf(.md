@@ -28,7 +28,7 @@ Computes a probability at `x` for the discrete binomial distribution with the sp
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `A:binompdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `A:binompdf(`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thick.
 `Dot-Thick`
 
 ## Location
-<kbd>mode</kbd>, `Dot-Thick`
+<tt><kbd><b>mode</b></kbd></tt>, `Dot-Thick`
 <hr>
 
 ## Examples

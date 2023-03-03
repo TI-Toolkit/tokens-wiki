@@ -24,7 +24,7 @@ Stores current picture in picture `Picn`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `STO`, `1:StorePic`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `STO`, `1:StorePic`
 <hr>
 
 ## Examples

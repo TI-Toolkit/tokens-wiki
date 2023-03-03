@@ -16,7 +16,7 @@ Displays the graph and enters TRACE mode.
 `Trace`
 
 ## Location
-<kbd>Trace</kbd>
+<tt><kbd><b>trace</b></kbd></tt>
 <hr>
 
 ## Examples

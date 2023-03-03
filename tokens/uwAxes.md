@@ -16,7 +16,7 @@ Sets sequence graphs to plot `u(n``)` on the x-axis and `w(``n``)` on the y-axis
 `uwAxes`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `uw`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `uw`
 <hr>
 
 ## Examples

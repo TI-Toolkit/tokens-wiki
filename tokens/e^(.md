@@ -24,7 +24,7 @@ Returns `e` raised to `power`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>eˣ</kbd>
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>eˣ</kbd>
 <hr>
 
 ## Description
@@ -45,7 +45,7 @@ Returns a list of `e` raised to a `list` of powers.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>eˣ</kbd>
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>eˣ</kbd>
 <hr>
 
 ## Examples

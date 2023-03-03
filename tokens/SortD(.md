@@ -24,7 +24,7 @@ Sorts elements of `listname` in descending order.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `2:SortD(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `2:SortD(`
 <hr>
 
 ## Description
@@ -51,7 +51,7 @@ Sorts elements of `keylistname` in descending order, then sorts each `dependlist
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `2:SortD(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `2:SortD(`
 <hr>
 
 ## Examples

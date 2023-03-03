@@ -24,7 +24,7 @@ Restores all settings stored in the graph database variable `GDBn`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `STO`, `4:RecallGDB`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `STO`, `4:RecallGDB`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Sets sequence graphs to trace as webs.
 `Web`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `Web`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `Web`
 <hr>
 
 ## Examples

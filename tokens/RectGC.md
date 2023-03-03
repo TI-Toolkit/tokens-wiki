@@ -16,7 +16,7 @@ Sets rectangular graphing coordinates format.
 `RectGC`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `RectGC`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `RectGC`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Selects all stat plots or one or more specified stat plots (`1`, `2`, or `3`).
 `PlotsOn [1,2,3]`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `5:PlotsOn`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `5:PlotsOn`
 <hr>
 
 ## Examples

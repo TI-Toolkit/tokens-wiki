@@ -16,7 +16,7 @@ Displays the table.
 `DispTable`
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `5:DispTable`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `5:DispTable`
 <hr>
 
 ## Examples

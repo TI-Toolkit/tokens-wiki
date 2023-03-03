@@ -16,7 +16,7 @@ Sets polar graphing coordinates format.
 `PolarGC`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `PolarGC`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `PolarGC`
 <hr>
 
 ## Examples

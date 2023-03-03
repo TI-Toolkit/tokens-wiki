@@ -26,7 +26,7 @@ Stores `value` to each element in `matrixname`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `4:Fill(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `4:Fill(`
 <hr>
 
 ## Description
@@ -49,7 +49,7 @@ Stores `value` to each element in `listname`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `4:Fill(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `4:Fill(`
 <hr>
 
 ## Examples

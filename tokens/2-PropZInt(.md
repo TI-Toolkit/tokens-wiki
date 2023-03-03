@@ -32,7 +32,7 @@ Computes a two-proportion `z` confidence interval.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `B:2-PropZInt(`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `B:2-PropZInt(`
 <hr>
 
 ## Examples

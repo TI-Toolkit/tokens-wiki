@@ -26,7 +26,7 @@ Returns 1 if pixel (`row`, `column`) is on, 0 if it is off;
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `POINTS`, `7:pxl-Test(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `7:pxl-Test(`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Sets engineering display mode.
 `Eng`
 
 ## Location
-<kbd>mode</kbd>, `Eng`
+<tt><kbd><b>mode</b></kbd></tt>, `Eng`
 <hr>
 
 ## Examples

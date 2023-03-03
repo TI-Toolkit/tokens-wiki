@@ -24,7 +24,7 @@ Stores current graph in database `GDBn`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `STO`, `3:StoreGDB`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `STO`, `3:StoreGDB`
 <hr>
 
 ## Examples

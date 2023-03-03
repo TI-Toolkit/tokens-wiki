@@ -16,7 +16,7 @@ Sets sequence graphing mode.
 `Seq`
 
 ## Location
-<kbd>mode</kbd>, `Seq`
+<tt><kbd><b>mode</b></kbd></tt>, `Seq`
 <hr>
 
 ## Examples

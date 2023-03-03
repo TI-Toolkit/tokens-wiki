@@ -24,7 +24,7 @@ Returns the natural logarithm of a real or complex number, expression, or list.
 </table>
 
 ## Location
-<kbd>ln</kbd>
+<tt><kbd><b>ln</b></kbd></tt>
 <hr>
 
 ## Examples

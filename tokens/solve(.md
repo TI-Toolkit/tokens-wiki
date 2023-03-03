@@ -32,7 +32,7 @@ Solves `expression` for `variable`, given an initial `guess` and `lower` and `up
 </table>
 
 ## Location
-<kbd>math</kbd>, `MATH`, `0:solve(`
+<tt><kbd><b>math</b></kbd></tt>, `MATH`, `0:solve(`
 <hr>
 
 ## Examples

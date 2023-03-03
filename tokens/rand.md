@@ -24,7 +24,7 @@ Returns a random number between 0 and 1 for a specified number of trials `numtri
 </table>
 
 ## Location
-<kbd>math</kbd>, `PRB`, `1:rand`
+<tt><kbd><b>math</b></kbd></tt>, `PRB`, `1:rand`
 <hr>
 
 ## Examples

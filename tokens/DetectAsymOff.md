@@ -16,7 +16,7 @@ Turns off checks for rational function asymptotes when graphing. Impacts graph s
 `DetectAsymOff`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `DetectAsymOff`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `DetectAsymOff`
 <hr>
 
 ## Examples

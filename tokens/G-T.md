@@ -16,7 +16,7 @@ Sets graph-table vertical split-screen mode.
 `G-T`
 
 ## Location
-<kbd>mode</kbd>, `GRAPH-TABLE`
+<tt><kbd><b>mode</b></kbd></tt>, `GRAPH-TABLE`
 <hr>
 
 ## Examples

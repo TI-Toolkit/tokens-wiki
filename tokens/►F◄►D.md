@@ -24,7 +24,7 @@ Converts an answer from a fraction to a decimal or from a decimal to a fraction.
 </table>
 
 ## Location
-<kbd>alpha</kbd>, <kbd>F1</kbd>, `4:`
+<tt><kbd><b>alpha</b></kbd></tt>, <kbd>F1</kbd>, `4:`
 <hr>
 
 ## Examples

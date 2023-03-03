@@ -24,7 +24,7 @@ Sorts elements of `listname` in ascending order.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `1:SortA(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `1:SortA(`
 <hr>
 
 ## Description
@@ -51,7 +51,7 @@ Sorts elements of `keylistname` in ascending order, then sorts each `dependlist`
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `1:SortA(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `1:SortA(`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Sets mode to graph functions simultaneously.
 `Simul`
 
 ## Location
-<kbd>mode</kbd>, `Simul`
+<tt><kbd><b>mode</b></kbd></tt>, `Simul`
 <hr>
 
 ## Examples

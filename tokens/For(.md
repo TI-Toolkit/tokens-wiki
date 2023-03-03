@@ -34,7 +34,7 @@ Executes `commands` through `End`, incrementing `variable` from `begin` by `incr
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `4:For(`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `4:For(`
 <hr>
 
 ## Examples

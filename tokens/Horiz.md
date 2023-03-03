@@ -16,7 +16,7 @@ Sets horizontal split-screen mode.
 `Horiz`
 
 ## Location
-<kbd>mode</kbd>, `Horiz`
+<tt><kbd><b>mode</b></kbd></tt>, `Horiz`
 <hr>
 
 ## Examples

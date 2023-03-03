@@ -32,7 +32,7 @@ Returns the value of `variable` where the local maximum of `expression` occurs, 
 </table>
 
 ## Location
-<kbd>math</kbd>, `MATH`, `7:fMax(`
+<tt><kbd><b>math</b></kbd></tt>, `MATH`, `7:fMax(`
 <hr>
 
 ## Examples

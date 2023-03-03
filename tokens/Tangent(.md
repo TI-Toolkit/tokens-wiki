@@ -31,7 +31,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `5:Tangent(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `5:Tangent(`
 <hr>
 
 ## Examples

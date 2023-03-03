@@ -16,7 +16,7 @@ Returns the key code for the current keystroke, or `0`, if no key is pressed.
 `getKey`
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `7:getKey`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `7:getKey`
 <hr>
 
 ## Examples

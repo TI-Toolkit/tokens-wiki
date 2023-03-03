@@ -7,7 +7,7 @@
 # `2-SampTTest `
 
 ## Description
-Computes a two-sample `t` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
+Computes a two-sample `t` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 
@@ -39,24 +39,24 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `4:2-SampTTest`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `4:2-SampTTest`
 <hr>
 
 ## Description
-Computes a two-sample `t` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
+Computes a two-sample `t` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`2-SampTTestv1,Sx1,n1,v2,Sx2,n2[,alternative,pooled,drawflag,color#])`
+`2-SampTTestx̄1,Sx1,n1,v2,Sx2,n2[,alternative,pooled,drawflag,color#])`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>v</td><td></td><td>false</td></tr>
+<tr><td>x̄</td><td></td><td>false</td></tr>
 
 <tr><td>1</td><td></td><td>false</td></tr>
 
@@ -81,7 +81,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `4:2-SampTTest`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `4:2-SampTTest`
 <hr>
 
 ## Examples

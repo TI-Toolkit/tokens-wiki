@@ -16,7 +16,7 @@ Sets table to ask for dependent-variable values.
 `DependAsk`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>tblset</kbd>, `Depend: Ask`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Depend: Ask`
 <hr>
 
 ## Examples

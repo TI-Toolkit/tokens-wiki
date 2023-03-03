@@ -26,7 +26,7 @@ Returns the arcsine of a real number, expression, or list.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, `?`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>sin⁻¹</kbd>
 <hr>
 
 ## Examples

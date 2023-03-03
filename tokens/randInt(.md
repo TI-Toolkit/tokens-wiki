@@ -28,7 +28,7 @@ Generates and displays a random integer within a range specified by `lower` and 
 </table>
 
 ## Location
-<kbd>math</kbd>, `PRB`, `5:randInt(`
+<tt><kbd><b>math</b></kbd></tt>, `PRB`, `5:randInt(`
 <hr>
 
 ## Examples

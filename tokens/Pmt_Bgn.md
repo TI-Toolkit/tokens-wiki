@@ -16,7 +16,7 @@ Specifies an annuity due, where payments occur at the beginning of each payment 
 `Pmt_Bgn`
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `F:Pmt_Bgn`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `F:Pmt_Bgn`
 <hr>
 
 ## Examples

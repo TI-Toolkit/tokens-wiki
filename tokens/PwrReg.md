@@ -30,7 +30,7 @@ Fits a power regression model to `Xlistname` and `Ylistname` with frequency `fre
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `A:PwrReg`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `A:PwrReg`
 <hr>
 
 ## Examples

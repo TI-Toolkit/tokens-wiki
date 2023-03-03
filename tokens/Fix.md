@@ -24,7 +24,7 @@ Sets fixed-decimal mode for # of decimal places.
 </table>
 
 ## Location
-<kbd>mode</kbd>, `0123456789`
+<tt><kbd><b>mode</b></kbd></tt>, `0123456789`
 <hr>
 
 ## Examples

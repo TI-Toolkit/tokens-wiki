@@ -16,7 +16,7 @@ Displays most entries and answers the way they are displayed in textbooks, such 
 `MATHPRINT`
 
 ## Location
-<kbd>MATHPRINT</kbd>
+<tt><kbd><b>mode</b></kbd></tt>
 <hr>
 
 ## Examples

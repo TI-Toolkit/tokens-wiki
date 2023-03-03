@@ -16,7 +16,7 @@ Sets table to ask for independent-variable values.
 `IndpntAsk`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>tblset</kbd>, `Indpnt: Ask`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Indpnt: Ask`
 <hr>
 
 ## Examples

@@ -26,7 +26,7 @@ Gets contents of `variable` on another TI-84 Plus CE and stores it to `variable`
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `0:GetCalc(`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `0:GetCalc(`
 <hr>
 
 ## Examples

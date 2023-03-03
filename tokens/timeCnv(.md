@@ -24,7 +24,7 @@ Converts seconds to units of time that can be more easily understood for evaluat
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `timeCnv`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `timeCnv`
 <hr>
 
 ## Examples

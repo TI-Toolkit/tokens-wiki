@@ -35,7 +35,7 @@ Computes the future value.
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `6:tvm_FV`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `6:tvm_FV`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Clears the contents of the Last Entry storage area.
 `Clear Entries`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>mem</kbd>, `MEMORY`, `3:Clear Entries`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `MEMORY`, `3:Clear Entries`
 <hr>
 
 ## Examples

@@ -29,7 +29,7 @@ Executes `commands` while `condition` is true.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `5:While`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `5:While`
 <hr>
 
 ## Examples

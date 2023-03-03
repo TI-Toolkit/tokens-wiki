@@ -37,7 +37,7 @@ Computes the number of payment periods.
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `5:tvm_`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `5:tvm_`
 <hr>
 
 ## Examples

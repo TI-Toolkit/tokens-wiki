@@ -27,7 +27,7 @@ Converts value to a string where `value` can be real, complex, an evaluated expr
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `E:toString(`, `C:toString(`
+<tt><kbd><b>prgm</b></kbd></tt>, `E:toString(`, `C:toString(`
 <hr>
 
 ## Examples

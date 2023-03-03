@@ -24,7 +24,7 @@ Moves the specified `variable` from RAM to the user data archive memory.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>mem</kbd>, `5:Archive`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `5:Archive`
 <hr>
 
 ## Examples

@@ -26,7 +26,7 @@ Returns 1 if only `valueA` or `valueB` = 0. `valueA` and `valueB` can be real nu
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>test</kbd>, `LOGIC`, `3:xor`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>test</kbd>, `LOGIC`, `3:xor`
 <hr>
 
 ## Examples

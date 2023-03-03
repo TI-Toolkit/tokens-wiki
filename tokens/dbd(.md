@@ -26,7 +26,7 @@ Calculates the number of days between `date1` and `date2` using the actual-day-c
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `D:dbd(`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `D:dbd(`
 <hr>
 
 ## Examples

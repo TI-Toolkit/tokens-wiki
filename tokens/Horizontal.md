@@ -30,7 +30,7 @@ line style #: 1-4.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `3:Horizontal`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `3:Horizontal`
 <hr>
 
 ## Examples

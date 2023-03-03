@@ -7,7 +7,7 @@
 # `Z-Test(`
 
 ## Description
-Performs a `z` test with frequency `freqlist`. `alternative`= -`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
+Performs a `z` test with frequency `freqlist`. `alternative`= -`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 <b>Comment</b>:Data list input
@@ -15,36 +15,36 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`Z-Test(m0,s[,listname,freqlist,alternative,drawflag,color#])`
+`Z-Test(μ0,σ[,listname,freqlist,alternative,drawflag,color#])`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>m</td><td></td><td>false</td></tr>
+<tr><td>μ</td><td></td><td>false</td></tr>
 
 <tr><td>0</td><td></td><td>false</td></tr>
 
-<tr><td>s</td><td></td><td>true</td></tr>
+<tr><td>σ</td><td></td><td>false</td></tr>
 
-<tr><td>listname</td><td>list</td><td>true</td></tr>
+<tr><td>listname</td><td>list</td><td>false</td></tr>
 
-<tr><td>freqlist</td><td>list</td><td>true</td></tr>
+<tr><td>freqlist</td><td>list</td><td>false</td></tr>
 
-<tr><td>alternative</td><td></td><td>true</td></tr>
+<tr><td>alternative</td><td></td><td>false</td></tr>
 
-<tr><td>drawflag</td><td></td><td>true</td></tr>
+<tr><td>drawflag</td><td></td><td>false</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td>false</td></tr>
 
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `1:Z-Test(`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `1:Z-Test(`
 <hr>
 
 ## Description
-Performs a `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
+Performs a `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 <b>Comment</b>:Summary stats input
@@ -52,19 +52,19 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`Z-Test(m0,s,v,n[,alternative,drawflag,color#])`
+`Z-Test(μ0,σ,x̄,n[,alternative,drawflag,color#])`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>m</td><td></td><td>false</td></tr>
+<tr><td>μ</td><td></td><td>false</td></tr>
 
 <tr><td>0</td><td></td><td>false</td></tr>
 
-<tr><td>s</td><td></td><td>false</td></tr>
+<tr><td>σ</td><td></td><td>false</td></tr>
 
-<tr><td>v</td><td></td><td>true</td></tr>
+<tr><td>x̄</td><td></td><td>true</td></tr>
 
 <tr><td>n</td><td></td><td>true</td></tr>
 
@@ -77,7 +77,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `1:Z-Test(`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `1:Z-Test(`
 <hr>
 
 ## Examples

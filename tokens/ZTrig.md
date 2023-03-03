@@ -16,7 +16,7 @@ Replots the functions immediately, updating the window variables to preset value
 `ZTrig`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `7:ZTrig`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `7:ZTrig`
 <hr>
 
 ## Examples

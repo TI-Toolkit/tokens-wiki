@@ -28,7 +28,7 @@ Returns product of `list` elements between `start` and `end`
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `6:prod(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `6:prod(`
 <hr>
 
 ## Examples

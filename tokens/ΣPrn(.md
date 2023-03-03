@@ -30,7 +30,7 @@ Computes the sum, rounded to `roundvalue`, of the principal amount between `pmt1
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `0:Prn(`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `0:Prn(`
 <hr>
 
 ## Examples

@@ -32,7 +32,7 @@ Returns the function integral of `expression` with respect to `variable`, betwee
 </table>
 
 ## Location
-<kbd>math</kbd>, `MATH`, `9:fnInt(`
+<tt><kbd><b>math</b></kbd></tt>, `MATH`, `9:fnInt(`
 <hr>
 
 ## Examples

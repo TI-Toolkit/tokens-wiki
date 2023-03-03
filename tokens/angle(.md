@@ -24,7 +24,7 @@ Returns the polar angle of a complex number or list of complex numbers.
 </table>
 
 ## Location
-<kbd>math</kbd>, `CMPLX`, `4:angle(`
+<tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `4:angle(`
 <hr>
 
 ## Examples

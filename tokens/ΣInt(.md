@@ -30,7 +30,7 @@ Computes the sum, rounded to `roundvalue`, of the interest amount between `pmt1`
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `A:Int(`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `A:Int(`
 <hr>
 
 ## Examples

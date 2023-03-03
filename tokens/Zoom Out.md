@@ -16,7 +16,7 @@ Displays a greater portion of the graph, centered on the cursor location.
 `Zoom Out`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `3:Zoom Out`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `3:Zoom Out`
 <hr>
 
 ## Examples

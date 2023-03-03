@@ -16,7 +16,7 @@ Replots the functions immediately, updating the window variables to the default 
 `ZStandard`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `6:ZStandard`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `6:ZStandard`
 <hr>
 
 ## Examples

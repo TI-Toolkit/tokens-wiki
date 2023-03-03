@@ -28,7 +28,7 @@ Returns the character position in `string` of the first character of `substring 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `inString(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `inString(`
 <hr>
 
 ## Examples

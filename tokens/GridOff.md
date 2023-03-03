@@ -16,7 +16,7 @@ Turns off grid format.
 `GridOff`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `GridOff`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `GridOff`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Sets full screen mode.
 `Full`
 
 ## Location
-<kbd>mode</kbd>, `Full`
+<tt><kbd><b>mode</b></kbd></tt>, `Full`
 <hr>
 
 ## Examples

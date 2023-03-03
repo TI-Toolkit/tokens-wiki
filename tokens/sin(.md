@@ -24,7 +24,7 @@ Returns the sine of a real number, expression, or list.
 </table>
 
 ## Location
-<kbd>sin</kbd>
+<tt><kbd><b>sin</b></kbd></tt>
 <hr>
 
 ## Examples

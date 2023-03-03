@@ -26,7 +26,7 @@ Computes a cumulative probability at `x`, the number of the trial on which the f
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `F:geometcdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `F:geometcdf(`
 <hr>
 
 ## Examples

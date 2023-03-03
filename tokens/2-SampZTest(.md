@@ -7,24 +7,24 @@
 # `2-SampZTest(`
 
 ## Description
-Computes a two-sample `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
+Computes a two-sample `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`2-SampZTest( s1,s2[,listname1,listname2,freqlist1,freqlist2,alternative,drawflag,color#])`
+`2-SampZTest( σ1,σ2[,listname1,listname2,freqlist1,freqlist2,alternative,drawflag,color#])`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>s</td><td></td><td>false</td></tr>
+<tr><td>σ</td><td></td><td>false</td></tr>
 
 <tr><td>1</td><td></td><td>true</td></tr>
 
-<tr><td>s</td><td></td><td>true</td></tr>
+<tr><td>σ</td><td></td><td>true</td></tr>
 
 <tr><td>2</td><td></td><td>true</td></tr>
 
@@ -45,38 +45,38 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `3:2-SampZTest(`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `3:2-SampZTest(`
 <hr>
 
 ## Description
-Computes a two-sample `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
+Computes a two-sample `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`2-SampZTest(s1,s2,v1,n1,v2,n2[,alternative,drawflag,color#])`
+`2-SampZTest(σ1,σ2,x̄1,n1,x̄2,n2[,alternative,drawflag,color#])`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>s</td><td></td><td>false</td></tr>
+<tr><td>σ</td><td></td><td>false</td></tr>
 
 <tr><td>1</td><td></td><td>false</td></tr>
 
-<tr><td>s</td><td></td><td>false</td></tr>
+<tr><td>σ</td><td></td><td>false</td></tr>
 
 <tr><td>2</td><td></td><td>false</td></tr>
 
-<tr><td>v</td><td></td><td>false</td></tr>
+<tr><td>x̄</td><td></td><td>false</td></tr>
 
 <tr><td>1</td><td></td><td>false</td></tr>
 
 <tr><td>n1</td><td></td><td>true</td></tr>
 
-<tr><td>v</td><td></td><td>true</td></tr>
+<tr><td>x̄</td><td></td><td>true</td></tr>
 
 <tr><td>2</td><td></td><td>true</td></tr>
 
@@ -91,7 +91,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `3:2-SampZTest(`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `3:2-SampZTest(`
 <hr>
 
 ## Examples

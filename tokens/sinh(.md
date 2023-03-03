@@ -24,7 +24,7 @@ Returns the hyperbolic sine of a real number, expression, or list.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `sinh(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `sinh(`
 <hr>
 
 ## Examples

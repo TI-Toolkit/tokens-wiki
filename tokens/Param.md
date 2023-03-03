@@ -16,7 +16,7 @@ Sets parametric graphing mode.
 `Param`
 
 ## Location
-<kbd>mode</kbd>, `Par`
+<tt><kbd><b>mode</b></kbd></tt>, `Par`
 <hr>
 
 ## Examples

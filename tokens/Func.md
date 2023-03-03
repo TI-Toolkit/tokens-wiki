@@ -16,7 +16,7 @@ Sets function graphing mode.
 `Func`
 
 ## Location
-<kbd>mode</kbd>, `Func`
+<tt><kbd><b>mode</b></kbd></tt>, `Func`
 <hr>
 
 ## Examples

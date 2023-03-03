@@ -25,7 +25,7 @@ Sets the time format.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `setTmFmt(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `setTmFmt(`
 <hr>
 
 ## Examples

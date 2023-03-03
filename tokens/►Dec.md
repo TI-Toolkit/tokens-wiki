@@ -24,7 +24,7 @@ Displays a real or complex number, expression, list, or matrix in decimal format
 </table>
 
 ## Location
-<kbd>math</kbd>, `MATH`, `2:Dec`
+<tt><kbd><b>math</b></kbd></tt>, `MATH`, `2:Dec`
 <hr>
 
 ## Examples

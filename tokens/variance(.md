@@ -26,7 +26,7 @@ Returns the variance of the elements in `list` with frequency `freqlist`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `8:variance(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `8:variance(`
 <hr>
 
 ## Examples

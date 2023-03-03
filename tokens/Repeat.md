@@ -28,7 +28,7 @@ Executes `commands` until `condition` is true.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `6:Repeat`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `6:Repeat`
 <hr>
 
 ## Examples

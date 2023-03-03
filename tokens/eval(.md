@@ -25,7 +25,7 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `C:eval(`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `C:eval(`
 <hr>
 
 ## Description
@@ -47,7 +47,7 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `6:eval(`
+<tt><kbd><b>prgm</b></kbd></tt>, `6:eval(`
 ## Special Category
 TI-Innovator™ Hub
 

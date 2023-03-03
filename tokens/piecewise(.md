@@ -17,7 +17,7 @@ New piecewise function to support entry of functions as they are seen in textboo
 `piecewise(`
 
 ## Location
-<kbd>piecewise</kbd>
+<tt><kbd><b>math</b></kbd></tt>
 <hr>
 
 ## Examples

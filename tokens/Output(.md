@@ -28,7 +28,7 @@ Displays `text` beginning at specified `row` and `column `of the home screen.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `6:Output(`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `6:Output(`
 <hr>
 
 ## Description
@@ -53,7 +53,7 @@ Displays `value` beginning at specified `row` and `column `of the home screen.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `6:Output(`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `6:Output(`
 <hr>
 
 ## Examples

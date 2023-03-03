@@ -30,7 +30,7 @@ Fits a linear regression model to` Xlistname` and `Ylistname` with frequency `fr
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `8:LinReg(a+bx)`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `8:LinReg(a+bx)`
 <hr>
 
 ## Examples

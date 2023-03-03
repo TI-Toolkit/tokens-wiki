@@ -16,7 +16,7 @@ Turns off the clock display in the mode screen.
 `ClockOff`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `ClockOff`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `ClockOff`
 <hr>
 
 ## Examples

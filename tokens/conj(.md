@@ -24,7 +24,7 @@ Returns the complex conjugate of a complex number or list of complex numbers.
 </table>
 
 ## Location
-<kbd>math</kbd>, `CMPLX`, `1:conj(`
+<tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `1:conj(`
 <hr>
 
 ## Examples

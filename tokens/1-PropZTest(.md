@@ -7,7 +7,7 @@
 # `1-PropZTest(`
 
 ## Description
-Computes a one-proportion `z` test. `alternative`=-`1` is <; `alternative`=`0` is ; `alternative`=`1` is >. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
+Computes a one-proportion `z` test. `alternative`=-`1` is <; `alternative`=`0` is ≠; `alternative`=`1` is >. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 
@@ -35,7 +35,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `5:1-PropZTest(`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `5:1-PropZTest(`
 <hr>
 
 ## Examples

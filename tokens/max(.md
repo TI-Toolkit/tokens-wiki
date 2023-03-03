@@ -26,7 +26,7 @@ Returns the larger of `valueA` and `valueB`.
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `7:max(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `7:max(`
 <hr>
 
 ## Description
@@ -47,7 +47,7 @@ Returns the larger of `valueA` and `valueB`.
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `7:max(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `7:max(`
 <hr>
 
 ## Description
@@ -68,7 +68,7 @@ Returns largest real or complex element in `list`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `2:max(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `2:max(`
 <hr>
 
 ## Description
@@ -91,7 +91,7 @@ Returns a real or complex list of the larger of each pair of elements in `listA`
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `2:max(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `2:max(`
 <hr>
 
 ## Description
@@ -114,7 +114,7 @@ Returns a real or complex list of the larger of `value` or each `list` element.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `2:max(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `2:max(`
 <hr>
 
 ## Examples

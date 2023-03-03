@@ -26,7 +26,7 @@ Converts the contents of a `Y= var` to a string and stores it in `Str``n`
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `Equ►String(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `Equ►String(`
 <hr>
 
 ## Examples

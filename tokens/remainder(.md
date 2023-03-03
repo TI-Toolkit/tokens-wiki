@@ -26,7 +26,7 @@ Reports the remainder as a whole number from a division of two whole numbers whe
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `0:remainder(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `0:remainder(`
 <hr>
 
 ## Description
@@ -49,7 +49,7 @@ Reports the remainder as a whole number from a division of two lists where the d
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `0:remainder(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `0:remainder(`
 <hr>
 
 ## Description
@@ -72,7 +72,7 @@ Reports the remainder as a whole number from a division of two whole numbers whe
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `0:remainder(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `0:remainder(`
 <hr>
 
 ## Description
@@ -95,7 +95,7 @@ Reports the remainder as a whole number from a division of two lists.
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `0:remainder(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `0:remainder(`
 <hr>
 
 ## Examples

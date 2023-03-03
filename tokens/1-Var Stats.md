@@ -26,7 +26,7 @@ Performs one-variable analysis on the data in `Xlistname` with frequency `freqli
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `1:1-Var Stats`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `1:1-Var Stats`
 <hr>
 
 ## Examples

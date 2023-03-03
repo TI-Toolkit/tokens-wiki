@@ -24,7 +24,7 @@ Returns the number of seconds since you used `startTmr` to start the timer. The 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `checkTmr(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `checkTmr(`
 <hr>
 
 ## Examples

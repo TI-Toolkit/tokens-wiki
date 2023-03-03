@@ -29,7 +29,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `POINTS`, `4:Pxl-On(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `4:Pxl-On(`
 <hr>
 
 ## Examples

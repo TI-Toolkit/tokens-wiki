@@ -24,7 +24,7 @@ Returns a list of the cumulative sums of the elements in `list`, starting with t
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `6:cumSum(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `6:cumSum(`
 <hr>
 
 ## Description
@@ -45,7 +45,7 @@ Returns a matrix of the cumulative sums of `matrix` elements. Each element in th
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `0:cumSum(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `0:cumSum(`
 <hr>
 
 ## Examples

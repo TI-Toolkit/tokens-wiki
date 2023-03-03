@@ -30,7 +30,7 @@ Fits a median-median model to `Xlistname` and `Ylistname` with frequency `freqli
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `3:Med-Med`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `3:Med-Med`
 <hr>
 
 ## Examples

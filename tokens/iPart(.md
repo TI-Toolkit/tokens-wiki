@@ -24,7 +24,7 @@ Returns the integer part of a real or complex number, expression, list, or matri
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `3:iPart(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `3:iPart(`
 <hr>
 
 ## Examples

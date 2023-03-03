@@ -16,7 +16,7 @@ Displays the graph.
 `DispGraph`
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `4:DispGraph`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `4:DispGraph`
 <hr>
 
 ## Examples

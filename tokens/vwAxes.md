@@ -16,7 +16,7 @@ Sets sequence graphs to plot `v(n``)` on the x-axis and `w(``n``)` on the y-axis
 `vwAxes`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `vw`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `vw`
 <hr>
 
 ## Examples

@@ -33,7 +33,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DRAW`, `3:Shade`, `(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DRAW`, `3:Shade`, `(`
 <hr>
 
 ## Examples

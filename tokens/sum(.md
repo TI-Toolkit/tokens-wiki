@@ -28,7 +28,7 @@ Returns the sum of elements of `list` from `start` to `end`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `5:sum(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `5:sum(`
 <hr>
 
 ## Examples

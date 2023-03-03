@@ -7,26 +7,26 @@
 # `poissoncdf(`
 
 ## Description
-Computes a cumulative probability at `x` for the discrete Poisson distribution with specified mean m.
+Computes a cumulative probability at `x` for the discrete Poisson distribution with specified mean μ.
 
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`poissoncdf(m,x)`
+`poissoncdf(μ,x)`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>m</td><td></td><td>false</td></tr>
+<tr><td>μ</td><td></td><td>false</td></tr>
 
 <tr><td>x</td><td></td><td>false</td></tr>
 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `D:poissoncdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `D:poissoncdf(`
 <hr>
 
 ## Examples

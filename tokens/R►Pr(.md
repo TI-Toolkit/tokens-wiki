@@ -26,7 +26,7 @@ Returns `R`, given rectangular coordinates `x` and `y` or a list of rectangular 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>angle</kbd>, `ANGLE`, `5:R`, `Pr(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>angle</kbd>, `ANGLE`, `5:R`, `Pr(`
 <hr>
 
 ## Examples

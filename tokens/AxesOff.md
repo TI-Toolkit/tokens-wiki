@@ -16,7 +16,7 @@ Turns off the graph axes.
 `AxesOff`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `AxesOff`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `AxesOff`
 <hr>
 
 ## Examples

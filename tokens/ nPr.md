@@ -26,7 +26,7 @@ Returns the number of permutations of `valueA` taken `valueB` at a time.
 </table>
 
 ## Location
-<kbd>math</kbd>, `PRB`, `2:nPr`
+<tt><kbd><b>math</b></kbd></tt>, `PRB`, `2:nPr`
 <hr>
 
 ## Description
@@ -49,7 +49,7 @@ Returns a list of the permutations of `value` taken each element in `list` at a 
 </table>
 
 ## Location
-<kbd>math</kbd>, `PRB`, `2:nPr`
+<tt><kbd><b>math</b></kbd></tt>, `PRB`, `2:nPr`
 <hr>
 
 ## Description
@@ -72,7 +72,7 @@ Returns a list of the permutations of each element in `list` taken `value` at a 
 </table>
 
 ## Location
-<kbd>math</kbd>, `PRB`, `2:nPr`
+<tt><kbd><b>math</b></kbd></tt>, `PRB`, `2:nPr`
 <hr>
 
 ## Description
@@ -95,7 +95,7 @@ Returns a list of the permutations of each element in `listA` taken each element
 </table>
 
 ## Location
-<kbd>math</kbd>, `PRB`, `2:nPr`
+<tt><kbd><b>math</b></kbd></tt>, `PRB`, `2:nPr`
 <hr>
 
 ## Examples

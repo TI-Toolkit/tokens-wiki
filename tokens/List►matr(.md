@@ -30,7 +30,7 @@ Fills `matrixname` column by column with the elements from each specified `listn
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `0:List`, `matr(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `0:List`, `matr(`
 <hr>
 
 ## Examples

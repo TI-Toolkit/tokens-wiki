@@ -7,26 +7,26 @@
 # `poissonpdf(`
 
 ## Description
-Computes a probability at `x` for the discrete Poisson distribution with the specified mean m.
+Computes a probability at `x` for the discrete Poisson distribution with the specified mean μ.
 
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`poissonpdf(m,x)`
+`poissonpdf(μ,x)`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>m</td><td></td><td>false</td></tr>
+<tr><td>μ</td><td></td><td>false</td></tr>
 
 <tr><td>x</td><td></td><td>false</td></tr>
 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `C:poissonpdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `C:poissonpdf(`
 <hr>
 
 ## Examples

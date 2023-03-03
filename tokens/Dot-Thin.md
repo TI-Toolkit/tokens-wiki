@@ -16,7 +16,7 @@ Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thin.
 `Dot-Thin`
 
 ## Location
-<kbd>mode</kbd>, `Dot-Thin`
+<tt><kbd><b>mode</b></kbd></tt>, `Dot-Thin`
 <hr>
 
 ## Examples

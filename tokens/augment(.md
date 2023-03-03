@@ -26,7 +26,7 @@ Returns a matrix, which is `matrixB` appended to `matrixA` as new columns.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `7:augment(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `7:augment(`
 <hr>
 
 ## Description
@@ -49,7 +49,7 @@ Returns a list, which is `listB` concatenated to the end of `listA`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `9:augment(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `9:augment(`
 <hr>
 
 ## Examples

@@ -27,7 +27,7 @@ Max rows x columns = 400 matrix elements.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `6:randM(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `6:randM(`
 <hr>
 
 ## Examples

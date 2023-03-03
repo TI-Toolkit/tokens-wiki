@@ -16,7 +16,7 @@ Sets to `0` the dimension of all lists in memory.
 `ClrAllLists`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>mem</kbd>, `MEMORY`, `4:ClrAllLists`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `MEMORY`, `4:ClrAllLists`
 <hr>
 
 ## Examples

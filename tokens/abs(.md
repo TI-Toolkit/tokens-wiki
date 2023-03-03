@@ -24,7 +24,7 @@ Returns the absolute value of a real number, expression, list, or matrix.
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `1:abs(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `1:abs(`
 <hr>
 
 ## Description
@@ -45,7 +45,7 @@ Returns the magnitude of a complex number or list.
 </table>
 
 ## Location
-<kbd>math</kbd>, `CMPLX`, `5:abs(`
+<tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `5:abs(`
 <hr>
 
 ## Examples

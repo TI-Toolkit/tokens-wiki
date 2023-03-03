@@ -24,7 +24,7 @@ Returns the reduced row-echelon form of a `matrix`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>matrix</kbd>, `MATH`, `B:rref(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `B:rref(`
 <hr>
 
 ## Examples

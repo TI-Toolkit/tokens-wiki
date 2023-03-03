@@ -24,7 +24,7 @@ Deletes from memory the contents of `variable`.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `G:DelVar`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `G:DelVar`
 <hr>
 
 ## Examples

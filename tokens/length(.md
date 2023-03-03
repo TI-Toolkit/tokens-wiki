@@ -24,7 +24,7 @@ Returns the number of characters in `string`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `length(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `length(`
 <hr>
 
 ## Examples

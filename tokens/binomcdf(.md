@@ -28,7 +28,7 @@ Computes a cumulative probability at `x` for the discrete binomial distribution 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `B:binomcdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `B:binomcdf(`
 <hr>
 
 ## Examples

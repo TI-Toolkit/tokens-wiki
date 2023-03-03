@@ -16,7 +16,7 @@ Sets sequence graphs to plot `u(n``)` on the x-axis and `v(``n``)` on the y-axis
 `uvAxes`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `uv`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `uv`
 <hr>
 
 ## Examples

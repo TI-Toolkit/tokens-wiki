@@ -16,7 +16,7 @@ Turns on the clock display in the mode screen.
 `ClockOn`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `ClockOn`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `ClockOn`
 <hr>
 
 ## Examples

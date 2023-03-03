@@ -16,7 +16,7 @@ Ends program execution; returns to home screen.
 `Stop`
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `F:Stop`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `F:Stop`
 <hr>
 
 ## Examples

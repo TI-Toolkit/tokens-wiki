@@ -28,7 +28,7 @@ Sets the dimension of one or more listnames to 0.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `EDIT`, `4:ClrList`
+<tt><kbd><b>stat</b></kbd></tt>, `EDIT`, `4:ClrList`
 <hr>
 
 ## Examples

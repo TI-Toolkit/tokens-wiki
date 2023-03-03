@@ -16,7 +16,7 @@ Turns off axes labels.
 `LabelOff`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `LabelOff`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `LabelOff`
 <hr>
 
 ## Examples

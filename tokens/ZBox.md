@@ -16,7 +16,7 @@ Displays a graph, lets you draw a box that defines a new viewing window, and upd
 `ZBox`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `1:ZBox`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `1:ZBox`
 <hr>
 
 ## Examples

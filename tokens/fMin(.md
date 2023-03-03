@@ -32,7 +32,7 @@ Returns the value of `variable` where the local minimum of `expression` occurs, 
 </table>
 
 ## Location
-<kbd>math</kbd>, `MATH`, `6:fMin(`
+<tt><kbd><b>math</b></kbd></tt>, `MATH`, `6:fMin(`
 <hr>
 
 ## Examples

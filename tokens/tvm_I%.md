@@ -37,7 +37,7 @@ Computes the annual interest rate.
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `3:tvm_`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `3:tvm_`
 <hr>
 
 ## Examples

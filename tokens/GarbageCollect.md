@@ -16,7 +16,7 @@ Displays the garbage collection menu to allow cleanup of unused archive memory.
 `GarbageCollect`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `GarbageCollect`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `GarbageCollect`
 <hr>
 
 ## Examples

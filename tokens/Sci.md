@@ -16,7 +16,7 @@ Sets scientific notation display mode.
 `Sci`
 
 ## Location
-<kbd>mode</kbd>, `Sci`
+<tt><kbd><b>mode</b></kbd></tt>, `Sci`
 <hr>
 
 ## Examples

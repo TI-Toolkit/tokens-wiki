@@ -16,7 +16,7 @@ Sets table to generate independent-variable values automatically.
 `IndpntAuto`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>tblset</kbd>, `Indpnt: Auto`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Indpnt: Auto`
 <hr>
 
 ## Examples

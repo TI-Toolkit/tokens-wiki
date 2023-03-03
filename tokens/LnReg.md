@@ -30,7 +30,7 @@ Fits a logarithmic regression model to `Xlistname` and `Ylistname` with frequenc
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `9:LnReg`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `9:LnReg`
 <hr>
 
 ## Examples

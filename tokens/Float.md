@@ -16,7 +16,7 @@ Sets floating decimal mode.
 `Float`
 
 ## Location
-<kbd>mode</kbd>, `Float`
+<tt><kbd><b>mode</b></kbd></tt>, `Float`
 <hr>
 
 ## Examples

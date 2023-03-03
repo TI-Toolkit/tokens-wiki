@@ -16,7 +16,7 @@ Graphs the selected functions in a user-defined viewing window.
 `ZoomRcl`
 
 ## Location
-<kbd>zoom</kbd>, `MEMORY`, `3:ZoomRcl`
+<tt><kbd><b>zoom</b></kbd></tt>, `MEMORY`, `3:ZoomRcl`
 <hr>
 
 ## Examples

@@ -35,7 +35,7 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `0:2-SampTInt`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `0:2-SampTInt`
 <hr>
 
 ## Description
@@ -46,13 +46,13 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`2-SampTIntv1,Sx1,n1,v2,Sx2,n2[,confidence  level,pooled]`
+`2-SampTIntx̄1,Sx1,n1,x̄2,Sx2,n2[,confidence  level,pooled]`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>v</td><td></td><td>false</td></tr>
+<tr><td>x̄</td><td></td><td>false</td></tr>
 
 <tr><td>1</td><td></td><td>false</td></tr>
 
@@ -60,7 +60,7 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 
 <tr><td>n1</td><td></td><td>false</td></tr>
 
-<tr><td>v</td><td></td><td>false</td></tr>
+<tr><td>x̄</td><td></td><td>false</td></tr>
 
 <tr><td>2</td><td></td><td>false</td></tr>
 
@@ -77,7 +77,7 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `0:2-SampTInt`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `0:2-SampTInt`
 <hr>
 
 ## Examples

@@ -24,7 +24,7 @@ Converts the results from a fraction to mixed number or from a mixed number to a
 </table>
 
 ## Location
-<kbd>alpha</kbd>, <kbd>F1</kbd>, `3:`, `n/d`, `Un/d`
+<tt><kbd><b>alpha</b></kbd></tt>, <kbd>F1</kbd>, `3:`, `n/d`, `Un/d`
 <hr>
 
 ## Examples

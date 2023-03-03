@@ -28,7 +28,7 @@ Sets the time using an hour, minute, second format. The `hour` must be in 24 hou
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `setTime(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `setTime(`
 <hr>
 
 ## Examples

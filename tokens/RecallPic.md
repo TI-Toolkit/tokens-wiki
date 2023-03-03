@@ -24,7 +24,7 @@ Displays the graph and adds the picture stored in `Picn`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `STO`, `2:RecallPic`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `STO`, `2:RecallPic`
 <hr>
 
 ## Examples

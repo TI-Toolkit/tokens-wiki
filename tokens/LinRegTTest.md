@@ -7,7 +7,7 @@
 # `LinRegTTest `
 
 ## Description
-Performs a linear regression and a `t`-test. `alternative`=-`1` is <; `alternative`=`0` is ; `alternative`=`1` is >.
+Performs a linear regression and a `t`-test. `alternative`=-`1` is <; `alternative`=`0` is ≠; `alternative`=`1` is >.
 
 
 <b>Availability</b>: Token only available from within the Basic editor.
@@ -32,7 +32,7 @@ Performs a linear regression and a `t`-test. `alternative`=-`1` is <; `alternati
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `F:LinRegTTest`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `F:LinRegTTest`
 <hr>
 
 ## Examples

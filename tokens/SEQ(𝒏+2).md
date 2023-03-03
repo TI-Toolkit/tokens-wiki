@@ -25,7 +25,7 @@ In sequence mode, SEQ(`n+2`) sets the sequence editor type to enter sequence fun
 </table>
 
 ## Location
-<kbd>mode</kbd>, `SEQ(n+2)`
+<tt><kbd><b>mode</b></kbd></tt>, `SEQ(n+2)`
 <hr>
 
 ## Examples

@@ -26,7 +26,7 @@ Returns the logarithm of a specifed value determined from a specified base: logB
 </table>
 
 ## Location
-<kbd>logBASE</kbd>
+<tt><kbd><b>math</b></kbd></tt>
 <hr>
 
 ## Examples

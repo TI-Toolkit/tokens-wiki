@@ -24,7 +24,7 @@ Converts the character string contained in `string` to an expression and execute
 </table>
 
 ## Location
-<kbd>expr</kbd>
+<tt><kbd><b>prgm</b></kbd></tt>
 <hr>
 
 ## Examples

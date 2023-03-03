@@ -26,7 +26,7 @@ Computes a probability at `x`, the number of the trial on which the first succes
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `E:geometpdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `E:geometpdf(`
 <hr>
 
 ## Examples

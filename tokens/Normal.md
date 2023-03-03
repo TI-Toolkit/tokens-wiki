@@ -16,7 +16,7 @@ Sets normal display mode.
 `Normal`
 
 ## Location
-<kbd>mode</kbd>, `Normal`
+<tt><kbd><b>mode</b></kbd></tt>, `Normal`
 <hr>
 
 ## Examples

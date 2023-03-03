@@ -35,7 +35,7 @@ Computes the amount of each payment.
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `2:tvm_Pmt`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `2:tvm_Pmt`
 <hr>
 
 ## Examples

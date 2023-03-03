@@ -26,7 +26,7 @@ Returns the least common multiple of `valueA` and `valueB`, which can be real nu
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `8:lcm(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `8:lcm(`
 <hr>
 
 ## Examples

@@ -28,7 +28,7 @@ Computes the Student-`t` distribution probability between `lowerbound` and` uppe
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>distr</kbd>, `DISTR`, `6:tcdf(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `6:tcdf(`
 <hr>
 
 ## Examples

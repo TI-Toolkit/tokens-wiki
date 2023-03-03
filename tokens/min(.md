@@ -26,7 +26,7 @@ Returns smaller of `valueA` and `valueB`.
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `6:min(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `6:min(`
 <hr>
 
 ## Description
@@ -47,7 +47,7 @@ Returns smallest real or complex element in `list`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `1:min(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `1:min(`
 <hr>
 
 ## Description
@@ -70,7 +70,7 @@ Returns real or complex list of the smaller of each pair of elements in `listA` 
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `1:min(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `1:min(`
 <hr>
 
 ## Description
@@ -93,7 +93,7 @@ Returns a real or complex list of the smaller of `value` or each `list` element.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `1:min(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `1:min(`
 <hr>
 
 ## Examples

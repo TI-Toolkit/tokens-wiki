@@ -30,7 +30,7 @@ Fills each `listname` with elements from each column in `matrix`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `A:Matr►list(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `A:Matr►list(`
 <hr>
 
 ## Description
@@ -55,7 +55,7 @@ Fills a `listname` with elements from a specified `column#` in `matrix`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `A:Matr►list(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `A:Matr►list(`
 <hr>
 
 ## Examples

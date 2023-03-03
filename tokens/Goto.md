@@ -24,7 +24,7 @@ Transfers control to `label`.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `0:Goto`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `0:Goto`
 <hr>
 
 ## Examples

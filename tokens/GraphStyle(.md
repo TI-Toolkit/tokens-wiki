@@ -26,7 +26,7 @@ Sets a `graphstyle` for `function#`.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `H:GraphStyle(`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `H:GraphStyle(`
 <hr>
 
 ## Examples

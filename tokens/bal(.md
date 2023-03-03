@@ -26,7 +26,7 @@ Computes the balance at `npmt `for an amortization schedule using stored values 
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `9:bal(`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `9:bal(`
 <hr>
 
 ## Examples

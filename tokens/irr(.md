@@ -28,7 +28,7 @@ Returns the interest rate at which the net present value of the cash flow is equ
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `8:irr(`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `8:irr(`
 <hr>
 
 ## Examples

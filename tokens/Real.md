@@ -16,7 +16,7 @@ Sets mode to display complex results only when you enter complex numbers.
 `Real`
 
 ## Location
-<kbd>mode</kbd>, `Real`
+<tt><kbd><b>mode</b></kbd></tt>, `Real`
 <hr>
 
 ## Examples

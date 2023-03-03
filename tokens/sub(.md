@@ -28,7 +28,7 @@ Returns a string that is a subset of another `string`, from `begin` to `length`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `sub(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `sub(`
 <hr>
 
 ## Examples

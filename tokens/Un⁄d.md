@@ -16,7 +16,7 @@ Displays results as a mixed number, if applicable.
 `Un/d`
 
 ## Location
-<kbd>math</kbd>, `NUMC: Un/d`
+<tt><kbd><b>math</b></kbd></tt>, `NUMC: Un/d`
 <hr>
 
 ## Examples

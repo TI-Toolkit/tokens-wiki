@@ -30,7 +30,7 @@ Decrements `variable` by 1; skips `commandA` if `variable `< `value`.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `B:DS<(`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `B:DS<(`
 <hr>
 
 ## Examples

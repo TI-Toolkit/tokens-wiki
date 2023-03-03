@@ -16,7 +16,7 @@ Recalculates `Ymin` and `Ymax` to include the minimum and maximum `Y` values, be
 `ZoomFit`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `0:ZoomFit`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `0:ZoomFit`
 <hr>
 
 ## Examples

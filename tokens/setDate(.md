@@ -29,7 +29,7 @@ Sets the date using a year, month, day format. The `year` must be 4 digits; `mon
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `setDate(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `setDate(`
 <hr>
 
 ## Examples

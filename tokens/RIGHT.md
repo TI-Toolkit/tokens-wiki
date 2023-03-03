@@ -18,7 +18,7 @@ See also invNorm(.
 `RIGHT`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>
 <hr>
 
 ## Examples

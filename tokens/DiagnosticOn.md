@@ -16,7 +16,7 @@ Sets diagnostics-on mode; `r`, `r`², and `R`² are displayed as regression mode
 `DiagnosticOn`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `DiagnosticOn`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `DiagnosticOn`
 <hr>
 
 ## Examples

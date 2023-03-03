@@ -7,7 +7,7 @@
 # `not(`
 
 ## Description
-Returns `0` if `value` is  0. `value` can be a real number, expression, or list.
+Returns `0` if `value` is ≠ 0. `value` can be a real number, expression, or list.
 
 
 <b>Availability</b>: Token available everywhere.
@@ -24,7 +24,7 @@ Returns `0` if `value` is  0. `value` can be a real number, expression, or lis
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>test</kbd>, `LOGIC`, `4:not(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>test</kbd>, `LOGIC`, `4:not(`
 <hr>
 
 ## Examples

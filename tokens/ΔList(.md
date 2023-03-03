@@ -26,7 +26,7 @@ Returns a list containing the differences between consecutive elements in `list`
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `OPS`, `7:List(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `7:List(`
 <hr>
 
 ## Examples

@@ -30,7 +30,7 @@ Computes the sum of the present values for cash inflows and outflows.
 </table>
 
 ## Location
-<kbd>apps</kbd>, `1:Finance`, `CALC`, `7:npv(`
+<tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `7:npv(`
 <hr>
 
 ## Examples

@@ -31,7 +31,7 @@ Where # gives Plot1, Plot2 or Plot3.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>stat plot</kbd>, `TYPE`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `TYPE`
 <hr>
 
 ## Examples

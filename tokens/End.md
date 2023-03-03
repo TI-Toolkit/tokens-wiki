@@ -16,7 +16,7 @@ Identifies end of` For(`, `If`-`Then`-`Else`, `Repeat`, or `While` loop.
 `End`
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `7:End`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `7:End`
 <hr>
 
 ## Examples

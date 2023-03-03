@@ -29,7 +29,7 @@ Computes a `t` confidence interval.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `8:TInterval`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `8:TInterval`
 <hr>
 
 ## Description
@@ -40,13 +40,13 @@ Computes a `t` confidence interval.
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`TInterval v,Sx,n[,confidence level]`
+`TInterval x̄,Sx,n[,confidence level]`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>v</td><td></td><td>false</td></tr>
+<tr><td>x̄</td><td></td><td>false</td></tr>
 
 <tr><td>Sx</td><td></td><td>false</td></tr>
 
@@ -57,7 +57,7 @@ Computes a `t` confidence interval.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `8:TInterval`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `8:TInterval`
 <hr>
 
 ## Examples

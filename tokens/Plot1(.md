@@ -36,7 +36,7 @@ Note: `Xlist `and `Ylist `represent the Xlist and Ylist names.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
 
 ## Description
@@ -67,7 +67,7 @@ Note: `Xlist `represents the Xlist name.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
 
 ## Description
@@ -100,7 +100,7 @@ Note: `Xlist `represents the Xlist name.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
 
 ## Description
@@ -133,7 +133,7 @@ Note: `datalist `represents the datalist name.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Removes all list names from the stat list editor, and then restores list names `
 `SetUpEditor`
 
 ## Location
-<kbd>stat</kbd>, `EDIT`, `5:SetUpEditor`
+<tt><kbd><b>stat</b></kbd></tt>, `EDIT`, `5:SetUpEditor`
 <hr>
 
 ## Description
@@ -43,7 +43,7 @@ Removes all list names from the stat list editor, then sets it up to display one
 </table>
 
 ## Location
-<kbd>stat</kbd>, `EDIT`, `5:SetUpEditor`
+<tt><kbd><b>stat</b></kbd></tt>, `EDIT`, `5:SetUpEditor`
 <hr>
 
 ## Examples

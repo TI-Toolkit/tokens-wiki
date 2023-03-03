@@ -30,7 +30,7 @@ Fits a cubic regression model to `Xlistname` and `Ylistname` with frequency `fre
 </table>
 
 ## Location
-<kbd>stat</kbd>, `CALC`, `6:CubicReg`
+<tt><kbd><b>stat</b></kbd></tt>, `CALC`, `6:CubicReg`
 <hr>
 
 ## Examples

@@ -34,7 +34,7 @@ Generates a menu of up to seven items during program execution.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `CTL`, `C:Menu(`
+<tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `C:Menu(`
 <hr>
 
 ## Examples

@@ -37,7 +37,7 @@ G-T mode, row must be row <=126; column must be 176
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>draw</kbd>, `DRAW`, `0:Text(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `0:Text(`
 <hr>
 
 ## Examples

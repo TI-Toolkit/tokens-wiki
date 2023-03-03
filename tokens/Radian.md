@@ -16,7 +16,7 @@ Sets radian angle mode.
 `Radian`
 
 ## Location
-<kbd>mode</kbd>, `Radian`
+<tt><kbd><b>mode</b></kbd></tt>, `Radian`
 <hr>
 
 ## Examples

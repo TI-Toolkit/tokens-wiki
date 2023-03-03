@@ -24,7 +24,7 @@ Returns the fractional part or parts of a real or complex number, expression, li
 </table>
 
 ## Location
-<kbd>math</kbd>, `NUM`, `4:fPart(`
+<tt><kbd><b>math</b></kbd></tt>, `NUM`, `4:fPart(`
 <hr>
 
 ## Examples

@@ -26,7 +26,7 @@ Returns the median of `list` with frequency `freqlist`.
 </table>
 
 ## Location
-<kbd>2nd</kbd>, <kbd>list</kbd>, `MATH`, `4:median(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `4:median(`
 <hr>
 
 ## Examples

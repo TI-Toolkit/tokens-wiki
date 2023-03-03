@@ -16,7 +16,7 @@ Returns a list giving the time according to the current value of the clock. The 
 `getTime`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>catalog</kbd>, `getTime`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getTime`
 <hr>
 
 ## Examples

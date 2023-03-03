@@ -16,7 +16,7 @@ Adjusts the `X` or `Y` window settings so that each pixel represents an equal wi
 `ZSquare`
 
 ## Location
-<kbd>zoom</kbd>, `ZOOM`, `5:ZSquare`
+<tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `5:ZSquare`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Turns off cursor coordinate value display.
 `CoordOff`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>format</kbd>, `CoordOff`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `CoordOff`
 <hr>
 
 ## Examples

@@ -32,7 +32,7 @@ Performs a linear regression and computes the t confidence interval for the slop
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `G:LinRegTInt`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `G:LinRegTInt`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Displays answers in a similar format as the input.
 `AUTO`
 
 ## Location
-<kbd>mode</kbd>, `Answers: AUTO`
+<tt><kbd><b>mode</b></kbd></tt>, `Answers: AUTO`
 <hr>
 
 ## Examples

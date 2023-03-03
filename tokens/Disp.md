@@ -16,7 +16,7 @@ Displays the home screen.
 `Disp`
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `3:Disp`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `3:Disp`
 <hr>
 
 ## Description
@@ -45,7 +45,7 @@ Displays each value.
 </table>
 
 ## Location
-<kbd>prgm</kbd>, `I/O`, `3:Disp`
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `3:Disp`
 <hr>
 
 ## Examples

@@ -16,7 +16,7 @@ Sets table to generate dependent-variable values automatically.
 `DependAuto`
 
 ## Location
-<kbd>2nd</kbd>, <kbd>tblset</kbd>, `Depend: Auto`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Depend: Auto`
 <hr>
 
 ## Examples

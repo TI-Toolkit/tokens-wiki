@@ -7,7 +7,7 @@
 # `T-Test `
 
 ## Description
-Performs a `t` test with frequency `freqlist`. `alternative`=-`1` is `<`; `alternative`=`0` is ; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
+Performs a `t` test with frequency `freqlist`. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 <b>Comment</b>:Data list input
@@ -15,13 +15,13 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`T-Test m0[,listname,freqlist,alternative,drawflag,color#]) `
+`T-Test μ0[,listname,freqlist,alternative,drawflag,color#]) `
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>m</td><td></td><td>false</td></tr>
+<tr><td>μ</td><td></td><td>false</td></tr>
 
 <tr><td>0</td><td></td><td>true</td></tr>
 
@@ -38,7 +38,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `2:T-Test`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `2:T-Test`
 <hr>
 
 ## Description
@@ -49,17 +49,17 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
-`T-Test m0,v,Sx,n[,alternative,drawflag,color#])`
+`T-Test μ0,x̄,Sx,n[,alternative,drawflag,color#])`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>m</td><td></td><td>false</td></tr>
+<tr><td>μ</td><td></td><td>false</td></tr>
 
 <tr><td>0</td><td></td><td>false</td></tr>
 
-<tr><td>v</td><td></td><td>false</td></tr>
+<tr><td>x̄</td><td></td><td>false</td></tr>
 
 <tr><td>Sx</td><td></td><td>false</td></tr>
 
@@ -74,7 +74,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 </table>
 
 ## Location
-<kbd>stat</kbd>, `TESTS`, `2:T-Test`
+<tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `2:T-Test`
 <hr>
 
 ## Examples
