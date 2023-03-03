@@ -4810,7 +4810,7 @@
             false
           ]
         ],
-        "description": "Returns the largest integer  a real or complex number, expression, list, or matrix.",
+        "description": "Returns the largest integer ≤ a real or complex number, expression, list, or matrix.",
         "inEditorOnly": false,
         "location": [
           "【math】",
@@ -12489,7 +12489,7 @@
             false
           ]
         ],
-        "description": "Writes `text` on graph beginning at pixel (`row`,`column`), where 0  `row`  164 and 0  `column`  264.\nFull mode, row must be <=148; column must be 256\nHoriz mode, row must be row<=66 and column must be <=256\nG-T mode, row must be row <=126; column must be 176",
+        "description": "Writes `text` on graph beginning at pixel (`row`,`column`), where 0 ≤ `row` ≤ 164 and 0 ≤ `column` ≤ 264.\nFull mode, row must be <=148; column must be 256\nHoriz mode, row must be row<=66 and column must be <=256\nG-T mode, row must be row <=126; column must be 176",
         "inEditorOnly": false,
         "location": [
           "【2nd】",

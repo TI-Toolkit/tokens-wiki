@@ -7,7 +7,7 @@
 # `int(`
 
 ## Description
-Returns the largest integer  a real or complex number, expression, list, or matrix.
+Returns the largest integer ≤ a real or complex number, expression, list, or matrix.
 
 
 <b>Availability</b>: Token available everywhere.
