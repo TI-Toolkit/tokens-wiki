@@ -12,11 +12,14 @@ const emptyDir = function(dir) {
     }
 }
 
-const tokens = JSON.parse(fs.readFileSync('./output/TI-84_Plus_CE_catalog-tokens.json', 'utf8'));
+const cleanTokNameForFile = function(tokName, bytes, extraSuffix, isAlias) {
+    tokName = tokName.replace(/\/Y$/, '_Y').replace(/^\|$/, '(pipe_symbol)');
+    return (isAlias || /^\[?\|(.*?)\]?$/.test(tokName))
+        ? (sanitize(`${tokName.replace(/^\[?\|(.*?)\]?$/, '$1')}_${extraSuffix}`) || bytes)
+        : (sanitize(tokName) || bytes);
+}
 
-// some tokens aren't great to handle in markdown... todo: figure that out later
-delete tokens["0x3F"]; // newline
-delete tokens["0xBB9B"]; // backtick
+const tokens = JSON.parse(fs.readFileSync('./output/TI-84_Plus_CE_catalog-tokens.json', 'utf8'));
 
 emptyDir('./output/wikipages/categories');
 emptyDir('./output/wikipages/tokens');
@@ -25,14 +28,8 @@ const name2bytes = {};
 const pagesByCat = {};
 const bytes2filename = {};
 
-function cleanTokNameForFile(tokName, bytes, extraSuffix, isAlias) {
-    tokName = tokName.replace(/\/Y$/, '_Y').replace(/^\|$/, '(pipe_symbol)');
-    return (isAlias || /^\[?\|(.*?)\]?$/.test(tokName))
-        ? (sanitize(`${tokName.replace(/^\[?\|(.*?)\]?$/, '$1')}_${extraSuffix}`) || bytes)
-        : (sanitize(tokName) || bytes);
-}
-
 for (const [bytes, token] of Object.entries(tokens)) {
+    token.name = token.name.replaceAll('\n', '⏎ (newline)'); // special case...
     name2bytes[token.name] = bytes;
     let categoriesLinks = '';
     for (const categoryStr of token.categories) {
@@ -49,8 +46,10 @@ for (const [bytes, token] of Object.entries(tokens)) {
     }
 
     let localizations = '';
-    for (const [lang, name] of Object.entries(token.localizations)) {
-        localizations += `<li><b>${lang}</b>: \`${name}\`</li>`;
+    if (bytes !== '0x3F') { // newline...
+        for (const [lang, name] of Object.entries(token.localizations)) {
+            localizations += `<li><b>${lang}</b>: \`${name.replace(/`/g, '\\`')}\`</li>`;
+        }
     }
 
     let page = `
@@ -60,14 +59,14 @@ for (const [bytes, token] of Object.entries(tokens)) {
 | Categories    | <ul>${categoriesLinks}</ul> |
 | Localizations | <ul>${localizations}</ul> |
 
-# \`${token.name}\`
+# \`${token.name.replace(/`/g, '\\`')}\`
 `;
 
     for (const info of token.syntaxes) {
 
         if (info.specificName && info.specificName.length) {
             page += `
-# \`${info.specificName}\`
+# \`${info.specificName.replace(/`/g, '\\`')}\`
 `;
         }
 
@@ -83,7 +82,7 @@ ${info.comment ? ('<b>Comment</b>:' + info.comment + '\n') : ''}\n`;
 
         page += `
 ## Syntax
-\`${info.syntax}\`
+\`${info.syntax.replace(/`/g, '\\`')}\`
 `;
 
         if (info.arguments && info.arguments.length) {
@@ -166,7 +165,7 @@ code 2
             [untilVer, untilNameInVer = token.name] = untilVer.split('|');
             if (sinceVer === untilVer && sinceNameInVer !== untilNameInVer) {
                 // console.log(`renaming detected in ${model}, at version ${sinceVer}: [${untilNameInVer}] => [${sinceNameInVer}]`);
-                sinceUntilLines.push(`| <b>${model}</b> | ${sinceVer} | Renamed \`${untilNameInVer}\` to \`${sinceNameInVer}\``);
+                sinceUntilLines.push(`| <b>${model}</b> | ${sinceVer} | Renamed \`${untilNameInVer.replace(/`/g, '\\`')}\` to \`${sinceNameInVer.replace(/`/g, '\\`')}\``);
                 delete token.since[model];
                 delete token.until[model];
             }
@@ -176,7 +175,7 @@ code 2
     for (const [which, action] of Object.entries({ since: 'added', until: 'removed' })) {
         for (const [model, ver] of Object.entries(token[which] ?? [])) {
             const [actualVer, nameInVer = token.name] = ver.split('|');
-            sinceUntilLines.push(`| <b>${model}</b> | ${actualVer} | ` + (multipleSinceUntil ? `\`${nameInVer}\` ` : '') + (multipleSinceUntil ? action : capitalizeFirstLetter(action)));
+            sinceUntilLines.push(`| <b>${model}</b> | ${actualVer} | ` + (multipleSinceUntil ? `\`${nameInVer.replace(/`/g, '\\`')}\` ` : '') + (multipleSinceUntil ? action : capitalizeFirstLetter(action)));
         }
     }
 
@@ -201,14 +200,13 @@ for (const [ cat, entries ] of Object.entries(pagesByCat).sort((a, b) => a[0].lo
     if (!cleanCatName) { continue; }
 
     catIndexPage += `### <a href="./categories/${cleanCatName}.md">${cat}</a>\n\n`;
-    const extraSuffixFromCat = '(' + cleanCatName.split(' ')[0].toLowerCase() + ')';
     let catPage = `# ${cat}\n\n`;
     for (const [ subCatOrPage, val ] of Object.entries(entries).sort((a, b) => a[0].localeCompare(b[0]))) {
         if (val === true) {
             const bytes = name2bytes[subCatOrPage];
             const cleanTokFileName = bytes2filename[bytes];
             if (fs.existsSync(`./output/wikipages/tokens/${cleanTokFileName}.md`)) {
-                catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${subCatOrPage}</a>\n`;
+                catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${subCatOrPage.replaceAll('\n', '⏎ (new line)')}</a>\n`;
             } else {
                 // console.warn(`[val] page doesn't exist for bytes = ${bytes} subCatOrPage = ${subCatOrPage}. extraSuffixFromCat = ${extraSuffixFromCat}`);
                 catPage += ` * <span title="${bytes}">${subCatOrPage}</span>\n`;

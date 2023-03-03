@@ -47,6 +47,7 @@
 
  * <a href="../tokens/¡.md" title="0xBB9E">¡</a>
  * <a href="../tokens/¿.md" title="0xBB9D">¿</a>
+ * <a href="../tokens/`.md" title="0xBB9B">`</a>
  * <a href="../tokens/´.md" title="0xBB9A">´</a>
  * <a href="../tokens/¨.md" title="0xBB9C">¨</a>
  * <a href="../tokens/á.md" title="0xBB72">á</a>
@@ -172,6 +173,7 @@
  * <a href="../tokens/∠.md" title="0xBBDC">∠</a>
  * <a href="../tokens/∫.md" title="0xBBF1">∫</a>
  * <a href="../tokens/⌸.md" title="0xBBF5">⌸</a>
+ * <a href="../tokens/⏎ (newline).md" title="0x3F">⏎ (newline)</a>
  * <a href="../tokens/►.md" title="0xBBEC">►</a>
  * <a href="../tokens/◄.md" title="0xBBEB">◄</a>
  * <a href="../tokens/⬚.md" title="0xEF1E">⬚</a>
