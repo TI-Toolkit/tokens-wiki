@@ -208,7 +208,7 @@ for (const [ cat, entries ] of Object.entries(pagesByCat).sort((a, b) => a[0].lo
             const bytes = name2bytes[subCatOrPage];
             const cleanTokFileName = bytes2filename[bytes];
             if (fs.existsSync(`./output/wikipages/tokens/${cleanTokFileName}.md`)) {
-                catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${subCatOrPage.replaceAll('\n', '⏎ (new line)')}</a>\n`;
+                catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${subCatOrPage.replaceAll('\n', '⏎ (new line)') || ('<i>( '+bytes+' )</i>')}</a>\n`;
             } else {
                 // console.warn(`[val] page doesn't exist for bytes = ${bytes} subCatOrPage = ${subCatOrPage}. extraSuffixFromCat = ${extraSuffixFromCat}`);
                 catPage += ` * <span title="${bytes}">${subCatOrPage}</span>\n`;
@@ -219,7 +219,7 @@ for (const [ cat, entries ] of Object.entries(pagesByCat).sort((a, b) => a[0].lo
                 const bytes = name2bytes[tokName];
                 const cleanTokFileName = bytes2filename[bytes];
                 if (fs.existsSync(`./output/wikipages/tokens/${cleanTokFileName}.md`)) {
-                    catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${tokName}</a>\n`;
+                    catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${tokName || ('<i>( '+bytes+' )</i>')}</a>\n`;
                 } else {
                     // console.warn(`[val object] page doesn't exist for bytes = ${bytes} tokName = ${tokName}. extraSuffixFromCat = ${extraSuffixFromCat}`);
                     catPage += ` * <span title="${bytes}">${tokName}</span>\n`;

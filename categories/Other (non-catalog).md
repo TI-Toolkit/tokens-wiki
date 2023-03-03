@@ -9,7 +9,7 @@
 
 ## Other
 
- * <a href="../tokens/0x00.md" title="0x00"></a>
+ * <a href="../tokens/0x00.md" title="0x00"><i>( 0x00 )</i></a>
  * <a href="../tokens/[errordf].md" title="0x623A">[errordf]</a>
  * <a href="../tokens/[errorMS].md" title="0x623C">[errorMS]</a>
  * <a href="../tokens/[factordf].md" title="0x6237">[factordf]</a>
