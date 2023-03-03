@@ -171,6 +171,15 @@ try {
     console.error(e);
 }
 
+const menuReplacements = {
+    '»':'[math]',   'y':'[2nd]',    ':':'[test]',   'q':'[zoom]',   'V':'[𝑖]',      '>':'[matrix]',
+    '…':'[stat]',   '¼':'[prgm]',   '=':'[distr]',  'Œ':'[apps]',   'r':'[trace]',  '9':'[list]',
+    '˜':'[sin]',    '? ':'[sin⁻¹]', '™':'[cos]',    '@':'[cos⁻¹]',  'š':'[tan]',    'A':'[tan⁻¹]',
+    'z':'[mode]',   'L':'[mem]',    'i':'𝑖',        '-':'[tblset]', ';':'[angle]',  'J':'[eˣ]',
+    'D':'[ᴇᴇ]',     't':'[alpha]',  'N':'[catalog]','<':'[draw]',   'Z':'[ans]',    ',':'[stat plot]',
+    '½':'[vars]',   '^':'[F1]',     '.':'[format]', 'æ':'I%',       'Ú':'𝗡',        'ä':'*',
+}
+
 for(let i = 0; i < 26; i++)
 {
     const letter = (i+10).toString(36);
@@ -183,28 +192,33 @@ for(let i = 0; i < 26; i++)
         continue;
     }
 
-    const tokens = (new JSDOM(fileContents)).window.document.body.querySelectorAll('table.TableStyle-RGFunction');
-    for (const token of tokens)
+    const docBody = (new JSDOM(fileContents)).window.document.body;
+
     {
         // some global replacements...
         // ...ICOMsymbols
         for (const [s, r] of Object.entries({ "3":"◄", "4":"►", "3 4":"◄►", "G":"Σ", "q":"θ", "c":"χ", "L":"-", "@":"Δ" })) {
-            token.innerHTML = token.innerHTML.replace(new RegExp(`<span class="Keys_ICOMSymbols"[^>]*>\\s*${s}\\s*</span>`, 'gi'), r);
+            docBody.innerHTML = docBody.innerHTML.replace(new RegExp(`<span class="Keys_ICOMSymbols"[^>]*>\\s*${s}\\s*</span>`, 'gi'), r);
         }
         // ...KeySymbols
         for (const [s, r] of Object.entries({ "â":"ᴇ", "Ü":"𝐅", "Ù":"ʟ", "ä":"*", "æ":"I%", "Ú":"𝗡", "!":"→" })) {
-            token.innerHTML = token.innerHTML.replace(new RegExp(`<span style="font-family: 'TI84KeySymbols'"[^>]*>${s}</span>`, 'gi'), r);
+            docBody.innerHTML = docBody.innerHTML.replace(new RegExp(`<span style="font-family: 'TI84KeySymbols'"[^>]*>${s}</span>`, 'gi'), r);
         }
         // ...superscripts etc.
-        token.innerHTML = token.innerHTML.replace(/<span class="Superscript" style="font-family: 'ICOM Symbols'[^>]*>L<\/span>\s*<span class="Superscript" [^>]*>1<\/span>\s*<span class="Function">\(<\/span>/g, '⁻¹(');
-        token.innerHTML = token.innerHTML.replace(/<span class="Superscript" style="font-family: 'ICOM Symbols'[^>]*>L<\/span>\s*<span class="Superscript" [^>]*>1<\/span>/g, '⁻¹');
-        token.innerHTML = token.innerHTML.replace(/<span class="Superscript" [^>]*>2<\/span>/g, '²');
+        docBody.innerHTML = docBody.innerHTML
+            .replace(/<span class="Superscript" style="font-family: 'ICOM Symbols'[^>]*>L<\/span>\s*<span class="Superscript" [^>]*>1<\/span>\s*<span class="Function">\(<\/span>/g, '⁻¹(')
+            .replace(/<span class="Superscript" style="font-family: 'ICOM Symbols'[^>]*>L<\/span>\s*<span class="Superscript" [^>]*>1<\/span>/g, '⁻¹')
+            .replace(/<span class="Superscript" [^>]*>2<\/span>/g, '²')
         // ...misc
-        token.innerHTML = token.innerHTML.replaceAll('‑', '-'); // really...?
-        token.innerHTML = token.innerHTML.replaceAll('► <span class="Function">F </span> ◄► <span class="Function">D</span>', '►F◄►D');
-        token.innerHTML = token.innerHTML.replaceAll('<span class="Function">r</span> <span class="Variable">e</span> <span class="Function">^</span> θ <span class="Variable">i</span>', 're^θ𝑖');
-        token.innerHTML = token.innerHTML.replaceAll('<span class="Function">6:R</span> ► <span class="Function">P</span> θ <span class="Function">(</span>', '6:R►Pθ(');
+            .replaceAll('‑', '-') // really...?
+            .replaceAll('► <span class="Function">F </span> ◄► <span class="Function">D</span>', '►F◄►D')
+            .replaceAll('<span class="Function">r</span> <span class="Variable">e</span> <span class="Function">^</span> θ <span class="Variable">i</span>', 're^θ𝑖')
+            .replaceAll('<span class="Function">6:R</span> ► <span class="Function">P</span> θ <span class="Function">(</span>', '6:R►Pθ(');
+    }
 
+    const tokens = docBody.querySelectorAll('table.TableStyle-RGFunction');
+    for (const token of tokens)
+    {
         let name = null;
         try {
             const cmdNamePar = token.querySelector('thead > tr > th > p.CmdName');
@@ -404,15 +418,7 @@ for(let i = 0; i < 26; i++)
         const location = [ ...(rawLocation?.children ?? []) ]
                          .map(el => el.textContent.trim())
                          .filter(el => el)
-                         .map(el => el.replace(/^»$/, '[math]').replace(/^y$/, '[2nd]').replace(/^:$/, '[test]').replace(/^q$/, '[zoom]')
-                                      .replace(/^V$/, '[𝑖]').replace(/^>$/, '[matrix]').replace(/^…$/, '[stat]').replace(/^¼$/, '[prgm]')
-                                      .replace(/^=$/, '[distr]').replace(/^Œ$/, '[apps]').replace(/^\.$/, '[format]').replace(/^r$/, '[trace]')
-                                      .replace(/^9$/, '[list]').replace(/^˜$/, '[sin]').replace(/^\? $/, '[sin⁻¹]').replace(/^™$/, '[cos]')
-                                      .replace(/^@$/, '[cos⁻¹]').replace(/^š$/, '[tan]').replace(/^A$/, '[tan⁻¹]').replace(/^z$/, '[mode]')
-                                      .replace(/^L$/, '[mem]').replace(/^i$/, '𝑖').replace(/^-$/, '[tblset]').replace(/^;$/, '[angle]')
-                                      .replace(/^J$/, '[eˣ]').replace(/^D$/, '[ᴇᴇ]').replace(/^t$/, '[alpha]').replace(/^\^$/, '[F1]')
-                                      .replace(/^N$/, '[catalog]').replace(/^<$/, '[draw]').replace(/^,$/, '[stat plot]').replace(/^Z$/, '[ans]')
-                                      .replace(/^½$/, '[vars]').replace(/^æ$/, 'I%').replace(/^Ú$/, '𝗡').replace(/^ä$/, '*').replace(/^@$/, 'Δ'));
+                         .map(el => menuReplacements[el] ?? el);
         if (location.length >= 2) {
             if (name.includes('►')) {
                 const [ part1, part2 ] = name.split('►');
