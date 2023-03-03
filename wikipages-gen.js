@@ -219,8 +219,8 @@ for (const [ cat, entries ] of Object.entries(pagesByCat).sort((a, b) => a[0].lo
             }
         } else if (typeof(val) === 'object') {
             const subCat = subCatOrBytes;
-            catPage += `\n## ${subCat}\n\n`
-            for (const [ bytes, tokName ] of Object.entries(val).sort((a, b) => a[1].localeCompare(b[1]))) {
+            catPage += `\n## ${subCat}\n\n`;
+            for (const [ bytes, tokName ] of Object.entries(val).sort((a, b) => a[cat === 'Catalog' ? 1 : 0].localeCompare(b[cat === 'Catalog' ? 1 : 0]))) {
                 const cleanTokFileName = bytes2filename[bytes];
                 if (fs.existsSync(`./output/wikipages/tokens/${cleanTokFileName}.md`)) {
                     catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${tokName || ('<i>( '+bytes+' )</i>')}</a>\n`;
