@@ -40,7 +40,7 @@ Returns the magnitude of a complex number or list.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>complex value</td><td>complex</td><td>false</td></tr>
+<tr><td>complex value</td><td>complex|complex[]</td><td>false</td></tr>
 
 </table>
 

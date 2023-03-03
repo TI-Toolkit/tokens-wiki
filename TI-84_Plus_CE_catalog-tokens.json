@@ -29,7 +29,7 @@
         "arguments": [
           [
             "complex value",
-            "complex",
+            "complex|complex[]",
             false
           ]
         ],

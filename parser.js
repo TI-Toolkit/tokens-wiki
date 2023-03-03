@@ -379,7 +379,10 @@ for(let i = 0; i < 26; i++)
                 args[idx][1] = 'expression'
             } else if (argName === 'complex value') {
                 args[idx][1] = 'complex'
-            } else if (description.includes('`valueA` and `valueB`, which can be real numbers or lists') // gcd/lcm, expressions work fine
+            }
+
+            // some overrides...
+            if (description.includes('`valueA` and `valueB`, which can be real numbers or lists') // gcd/lcm, expressions work fine
                     || description.includes('`valueA` and `valueB` can be real numbers, expressions, or lists')) {
                 args[idx][1] = 'real|expression|real[]'
             } else if (description.includes('of a real number, expression, or list')) {
