@@ -69,9 +69,8 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | `e^` added
+| <b>TI-82</b> | 1.0 | `e^` added |
 | <b>TI-83</b> | 1.010 | Renamed `e^` to `e^(`
 
 ## Related Commands
 
-    

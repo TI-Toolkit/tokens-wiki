@@ -176,7 +176,7 @@ code 2
     for (const [which, action] of Object.entries({ since: 'added', until: 'removed' })) {
         for (const [model, ver] of Object.entries(token[which] ?? [])) {
             const [actualVer, nameInVer = token.name] = ver.split('|');
-            sinceUntilLines.push(`| <b>${model}</b> | ${actualVer} | ` + (multipleSinceUntil ? `\`${nameInVer.replace(/`/g, '\\`')}\` ` : '') + (multipleSinceUntil ? action : capitalizeFirstLetter(action)));
+            sinceUntilLines.push(`| <b>${model}</b> | ${actualVer} | ` + (multipleSinceUntil ? `\`${nameInVer.replace(/`/g, '\\`')}\` ` : '') + (multipleSinceUntil ? action : capitalizeFirstLetter(action)) + ' |');
         }
     }
 
@@ -185,7 +185,7 @@ code 2
     page += `
 ## Related Commands
 
-    `;
+`;
 
     let cleanName = cleanTokNameForFile(token.name, bytes, (token?._mainCatForFilename ?? bytes), token.isAlias);
     if (token.name !== cleanName && `${cleanName} ` !== token.name) {

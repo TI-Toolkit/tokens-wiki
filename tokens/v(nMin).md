@@ -38,9 +38,8 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | `VnStart` added
+| <b>TI-82</b> | 1.0 | `VnStart` added |
 | <b>TI-83</b> | 1.010 | Renamed `VnStart` to `v(nMin)`
 
 ## Related Commands
 
-    

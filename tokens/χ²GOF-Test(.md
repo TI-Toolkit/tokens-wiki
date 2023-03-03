@@ -61,8 +61,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-84+</b> | 2.30 | Added
+| <b>TI-84+</b> | 2.30 | Added |
 
 ## Related Commands
 
-    

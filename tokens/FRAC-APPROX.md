@@ -37,9 +37,8 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-84+</b> | 2.53 | `FRAC` added
+| <b>TI-84+</b> | 2.53 | `FRAC` added |
 | <b>TI-84+CSE</b> | 4.0 | Renamed `FRAC` to `FRAC-APPROX`
 
 ## Related Commands
 
-    
