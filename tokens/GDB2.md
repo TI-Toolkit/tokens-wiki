@@ -10,7 +10,7 @@
 
 
 
-<b>Availability</b>: Token only available from within the Basic editor.
+<b>Availability</b>: Token available everywhere.
 
 ## Syntax
 `GDB2`

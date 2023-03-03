@@ -11,7 +11,6 @@
 
 <b>Comment</b>:`Asm83CEPrgm` on the TI-83 Premium CE
 
-<b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
 `Asm84CEPrgm`

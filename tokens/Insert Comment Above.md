@@ -11,7 +11,6 @@
 
 <b>Comment</b>:CE OS 5.3+
 
-<b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
 `Insert Comment Above`

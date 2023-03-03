@@ -10,7 +10,6 @@
 
 
 
-<b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
 `|C/Y`

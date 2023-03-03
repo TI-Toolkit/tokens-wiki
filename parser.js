@@ -479,7 +479,7 @@ for (let [ bytes, { enName, frName, type, comment } ] of Object.entries(csv_from
             comment: comment,
             arguments: [],
             description: '',
-            inEditorOnly: bytes.length > 4,
+            inEditorOnly: undefined, // we don't know...
             location: '',
             specialCategory: undefined,
         }],
@@ -521,6 +521,10 @@ for (let [ bytes, { enName, frName, type, comment } ] of Object.entries(csv_from
         } else {
             entry.categories.push('Other (non-catalog) > Other');
         }
+    }
+
+    if (/(Char > (Letters|Greek|International|Digits))|(Drawing > Colors)|(Operators|Catalog|Variables|Keypad)/.test(entry.categories.toString())) {
+        entry.syntaxes.forEach(s => { s.inEditorOnly = false; });
     }
 
     json[bytes] = entry;

@@ -11,7 +11,6 @@
 
 <b>Comment</b>:Not available (only token)
 
-<b>Availability</b>: Token available everywhere.
 
 ## Syntax
 `PrintScreen`

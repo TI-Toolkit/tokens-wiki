@@ -11,7 +11,6 @@
 
 <b>Comment</b>:84+CSE and later
 
-<b>Availability</b>: Token only available from within the Basic editor.
 
 ## Syntax
 `QuickPlot&Fit-EQ`
