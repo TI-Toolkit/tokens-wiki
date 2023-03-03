@@ -24125,7 +24125,11 @@
       "FR": "FRAC-APPROX"
     },
     "since": {
-      "TI-84+": "2.53|[FRAC]"
+      "TI-84+": "2.53|FRAC",
+      "TI-84+CSE": "4.0"
+    },
+    "until": {
+      "TI-84+CSE": "4.0|FRAC"
     }
   },
   "0xEF41": {
@@ -24424,7 +24428,7 @@
       "FR": "GRIS MOY"
     },
     "since": {
-      "TI-84+CSE": "4.0"
+      "TI-84+CSE": "4.0|MedGray"
     }
   },
   "0xEF4E": {
@@ -24470,7 +24474,7 @@
       "FR": "GRIS FON"
     },
     "since": {
-      "TI-84+CSE": "4.0"
+      "TI-84+CSE": "4.0|DarkGray"
     }
   },
   "0xEF50": {
@@ -24721,6 +24725,9 @@
     ],
     "localizations": {
       "FR": "TracéAjust-Éq"
+    },
+    "since": {
+      "TI-84+CSE": "4.0"
     }
   },
   "0xEF68": {

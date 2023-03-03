@@ -119,8 +119,9 @@ const mergeSinceUntilFromTkXML = function(entry, match, enName) {
     for (const tok of match) {
         for (const which of ['since', 'until']) {
             for (const [model, ver] of Object.entries(tok[which] ?? [])) {
-                const nameIsDifferent = (tok.enName !== enName && tok.enName.replace(/^\[(.{2,})\]$/g, '$1') !== enName);
-                (entry[which] ??= {})[model] = ver + (nameIsDifferent ? `|${tok.enName}` : '');
+                const cleanedName = tok.enName.replace(/^\[(.{2,})\]$/g, '$1');
+                const nameIsDifferent = (tok.enName !== enName && cleanedName !== enName);
+                (entry[which] ??= {})[model] = ver + (nameIsDifferent ? `|${cleanedName}` : '');
             }
         }
     }
