@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6226`|
-| Categories    | <ul><li>[Statistics](<../categories/Statistics.md>) > [Test](<../categories/Statistics.md#Test>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `[|F]`</li></ul> |
+| Hex Value     | `$5C05`|
+| Categories    | <ul><li>[Matrix](<../categories/Matrix.md>) > [Names](<../categories/Matrix.md#Names>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `[F]`</li></ul> |
 
-# `[|F]`
+# `[F]`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`[|F]`
+`[F]`
 
 <hr>
 
@@ -37,7 +37,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | Added
+| <b>TI-83</b> | 1.010 | Added
 
 ## Related Commands
 

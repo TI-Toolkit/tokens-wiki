@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$5C04`|
-| Categories    | <ul><li>[Matrix](<../categories/Matrix.md>) > [Names](<../categories/Matrix.md#Names>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `[E]`</li></ul> |
+| Hex Value     | `$6218`|
+| Categories    | <ul><li>[Statistics](<../categories/Statistics.md>) > [EQ](<../categories/Statistics.md#EQ>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `[|c]`</li></ul> |
 
-# `[E]`
+# `[|c]`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`[E]`
+`[|c]`
 
 <hr>
 

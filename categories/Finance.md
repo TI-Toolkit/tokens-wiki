@@ -22,8 +22,8 @@
 ## Vars
 
  * <a href="../tokens/[errorSS].md" title="0x623B">[errorSS]</a>
- * <a href="../tokens/CY.md" title="0x6331">|C/Y</a>
- * <a href="../tokens/PY.md" title="0x6330">|P/Y</a>
+ * <a href="../tokens/C_Y_(finance).md" title="0x6331">|C/Y</a>
+ * <a href="../tokens/P_Y_(finance).md" title="0x6330">|P/Y</a>
  * <a href="../tokens/FV.md" title="0x632F">FV</a>
  * <a href="../tokens/I%.md" title="0x632C">I%</a>
  * <a href="../tokens/PMT.md" title="0x632E">PMT</a>

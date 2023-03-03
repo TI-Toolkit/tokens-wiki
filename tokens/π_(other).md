@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$5C04`|
-| Categories    | <ul><li>[Matrix](<../categories/Matrix.md>) > [Names](<../categories/Matrix.md#Names>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `[E]`</li></ul> |
+| Hex Value     | `$BBA7`|
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `|π`</li></ul> |
 
-# `[E]`
+# `|π`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`[E]`
+`|π`
 
 <hr>
 
@@ -37,7 +37,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | Added
+| <b>TI-83+</b> | 1.03 | Added
 
 ## Related Commands
 

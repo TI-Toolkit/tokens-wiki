@@ -95,9 +95,9 @@
 
 ## Letters
 
- * <a href="../tokens/u.md" title="0x5E80">|u</a>
- * <a href="../tokens/v.md" title="0x5E81">|v</a>
- * <a href="../tokens/w.md" title="0x5E82">|w</a>
+ * <a href="../tokens/u_(char).md" title="0x5E80">|u</a>
+ * <a href="../tokens/v_(char).md" title="0x5E81">|v</a>
+ * <a href="../tokens/w_(char).md" title="0x5E82">|w</a>
  * <a href="../tokens/a.md" title="0xBBB0">a</a>
  * <a href="../tokens/A.md" title="0x41">A</a>
  * <a href="../tokens/b.md" title="0xBBB1">b</a>
@@ -165,7 +165,7 @@
  * <a href="../tokens/↑.md" title="0xBBED">↑</a>
  * <a href="../tokens/↓.md" title="0xBBEE">↓</a>
  * <a href="../tokens/×.md" title="0xBBF0">×</a>
- * <a href="../tokens/0xBBD8.md" title="0xBBD8">|</a>
+ * <a href="../tokens/(pipe_symbol).md" title="0xBBD8">|</a>
  * <a href="../tokens/~.md" title="0xBBCF">~</a>
  * <a href="../tokens/⁄.md" title="0xEF2E">⁄</a>
  * <a href="../tokens/√.md" title="0xBBF4">√</a>

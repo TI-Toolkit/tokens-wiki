@@ -6,9 +6,9 @@
  * <a href="../tokens/^.md" title="0xF0">^</a>
  * <a href="../tokens/→.md" title="0x04">→</a>
  * <a href="../tokens/+.md" title="0x70">+</a>
- * <a href="../tokens/u.md" title="0x5E80">|u</a>
- * <a href="../tokens/v.md" title="0x5E81">|v</a>
- * <a href="../tokens/w.md" title="0x5E82">|w</a>
+ * <a href="../tokens/u_(char).md" title="0x5E80">|u</a>
+ * <a href="../tokens/v_(char).md" title="0x5E81">|v</a>
+ * <a href="../tokens/w_(char).md" title="0x5E82">|w</a>
  * <a href="../tokens/⁻.md" title="0xB0">⁻</a>
  * <a href="../tokens/√(.md" title="0xBC">√(</a>
  * <a href="../tokens/₁₀^(.md" title="0xC1">₁₀^(</a>

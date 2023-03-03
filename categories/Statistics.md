@@ -25,11 +25,11 @@
 
 ## EQ
 
- * <a href="../tokens/[a].md" title="0x6216">[|a]</a>
- * <a href="../tokens/[b].md" title="0x6217">[|b]</a>
- * <a href="../tokens/[c].md" title="0x6218">[|c]</a>
- * <a href="../tokens/[d].md" title="0x6219">[|d]</a>
- * <a href="../tokens/[e].md" title="0x621A">[|e]</a>
+ * <a href="../tokens/a_(statistics).md" title="0x6216">[|a]</a>
+ * <a href="../tokens/b_(statistics).md" title="0x6217">[|b]</a>
+ * <a href="../tokens/c_(statistics).md" title="0x6218">[|c]</a>
+ * <a href="../tokens/d_(statistics).md" title="0x6219">[|d]</a>
+ * <a href="../tokens/e_(statistics).md" title="0x621A">[|e]</a>
  * <a href="../tokens/[r].md" title="0x6212">[r]</a>
  * <a href="../tokens/e.md" title="0xBB31">e</a>
  * <a href="../tokens/r².md" title="0x6235">r²</a>
@@ -84,7 +84,7 @@
 
 ## Test
 
- * <a href="../tokens/[F].md" title="0x6226">[|F]</a>
+ * <a href="../tokens/F_(statistics).md" title="0x6226">[|F]</a>
  * <a href="../tokens/[df].md" title="0x6227">[df]</a>
  * <a href="../tokens/[p].md" title="0x6222">[p]</a>
  * <a href="../tokens/[s].md" title="0x6234">[s]</a>

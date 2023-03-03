@@ -1,18 +1,19 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$5C04`|
-| Categories    | <ul><li>[Matrix](<../categories/Matrix.md>) > [Names](<../categories/Matrix.md#Names>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `[E]`</li></ul> |
+| Hex Value     | `$5E81`|
+| Categories    | <ul><li>[Char](<../categories/Char.md>) > [Letters](<../categories/Char.md#Letters>)</li><li>[Keypad](<../categories/Keypad.md>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `|v`</li></ul> |
 
-# `[E]`
+# `|v`
 
 ## Description
 
 
 
+<b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`[E]`
+`|v`
 
 <hr>
 

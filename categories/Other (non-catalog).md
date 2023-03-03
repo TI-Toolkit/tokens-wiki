@@ -15,9 +15,9 @@
  * <a href="../tokens/[factordf].md" title="0x6237">[factordf]</a>
  * <a href="../tokens/[factorMS].md" title="0x6239">[factorMS]</a>
  * <a href="../tokens/[factorSS].md" title="0x6238">[factorSS]</a>
- * <a href="../tokens/π.md" title="0xBBA7">|π</a>
+ * <a href="../tokens/π_(other).md" title="0xBBA7">|π</a>
  * <a href="../tokens/₁₀.md" title="0xBBEA">₁₀</a>
- * <a href="../tokens/CLASSIC.md" title="0xEF36">CLASSIC</a>
+ * <a href="../tokens/CLASSIC_(other).md" title="0xEF36">CLASSIC</a>
  * <a href="../tokens/FRAC-APPROX.md" title="0xEF3D">FRAC-APPROX</a>
  * <a href="../tokens/Graph Format.md" title="0x7E">Graph Format</a>
  * <a href="../tokens/PrintScreen.md" title="0x91">PrintScreen</a>
