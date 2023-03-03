@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$BB31`|
-| Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [Misc](<../categories/Catalog.md#Misc>)</li><li>[Keypad](<../categories/Keypad.md>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `e`</li></ul> |
+| Hex Value     | `$45`|
+| Categories    | <ul><li>[Char](<../categories/Char.md>) > [Letters](<../categories/Char.md#Letters>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `E`</li></ul> |
 
-# `e`
+# `E`
 
 ## Description
 
@@ -13,7 +13,7 @@
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`e`
+`E`
 
 <hr>
 
@@ -38,7 +38,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83</b> | 1.010 | Added
+| <b>TI-82</b> | 1.0 | Added
 
 ## Related Commands
 

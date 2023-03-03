@@ -118,7 +118,7 @@
  * <a href="../tokens/Goto.md" title="0xD7">Goto </a>
  * <a href="../tokens/GraphStyle(.md" title="0xBB45">GraphStyle(</a>
  * <a href="../tokens/GridOff.md" title="0x7E0B">GridOff</a>
- * <a href="../tokens/σ.md" title="0xBBCB">σ</a>
+ * <a href="../tokens/σ_(BBCB).md" title="0xBBCB">σ</a>
 
 ## H
 
@@ -182,8 +182,8 @@
  * <a href="../tokens/!.md" title="0x2D">!</a>
  * <a href="../tokens/0xAF.md" title="0xAF">?</a>
  * <a href="../tokens/0x3A.md" title="0x3A">.</a>
- * <a href="../tokens/·.md" title="0xEF73">·</a>
- * <a href="../tokens/'.md" title="0xBBD0">'</a>
+ * <a href="../tokens/·.md" title="0x81">·</a>
+ * <a href="../tokens/'.md" title="0xAE">'</a>
  * <a href="../tokens/0x2A.md" title="0x2A">"</a>
  * <a href="../tokens/(.md" title="0x10">(</a>
  * <a href="../tokens/).md" title="0x11">)</a>
@@ -210,7 +210,7 @@
  * <a href="../tokens/$.md" title="0xBBD3">$</a>
  * <a href="../tokens/₁₀^(.md" title="0xC1">₁₀^(</a>
  * <a href="../tokens/³√(.md" title="0xBD">³√(</a>
- * <a href="../tokens/e.md" title="0xBB31">e</a>
+ * <a href="../tokens/e_(BB31).md" title="0xBB31">e</a>
  * <a href="../tokens/e^(.md" title="0xBF">e^(</a>
  * <a href="../tokens/ᴇ.md" title="0x3B">ᴇ</a>
  * <a href="../tokens/𝑖.md" title="0x2C">𝑖</a>
@@ -284,7 +284,7 @@
 ## R
 
  * <a href="../tokens/row(.md" title="0x17">*row(</a>
- * <a href="../tokens/row+(.md" title="0x18">*row+(</a>
+ * <a href="../tokens/row+(_(18).md" title="0x18">*row+(</a>
  * <a href="../tokens/►Rect.md" title="0xBB2F">►Rect</a>
  * <a href="../tokens/R►Pr(.md" title="0x1B">R►Pr(</a>
  * <a href="../tokens/R►Pθ(.md" title="0x1C">R►Pθ(</a>

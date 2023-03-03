@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$BBB9`|
+| Hex Value     | `$4A`|
 | Categories    | <ul><li>[Char](<../categories/Char.md>) > [Letters](<../categories/Char.md#Letters>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `j`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `J`</li></ul> |
 
-# `j`
+# `J`
 
 ## Description
 
@@ -13,7 +13,7 @@
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`j`
+`J`
 
 <hr>
 
@@ -38,7 +38,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83+</b> | 1.03 | Added
+| <b>TI-82</b> | 1.0 | Added
 
 ## Related Commands
 

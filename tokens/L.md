@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$BBBC`|
+| Hex Value     | `$4C`|
 | Categories    | <ul><li>[Char](<../categories/Char.md>) > [Letters](<../categories/Char.md#Letters>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `l`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `L`</li></ul> |
 
-# `l`
+# `L`
 
 ## Description
 
@@ -13,7 +13,7 @@
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`l`
+`L`
 
 <hr>
 
@@ -38,7 +38,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83+</b> | 1.03 | Added
+| <b>TI-82</b> | 1.0 | Added
 
 ## Related Commands
 

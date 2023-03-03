@@ -31,7 +31,7 @@
  * <a href="../tokens/d_(statistics).md" title="0x6219">[|d]</a>
  * <a href="../tokens/e_(statistics).md" title="0x621A">[|e]</a>
  * <a href="../tokens/[r].md" title="0x6212">[r]</a>
- * <a href="../tokens/e.md" title="0xBB31">e</a>
+ * <a href="../tokens/e.md" title="0xBBB4">e</a>
  * <a href="../tokens/r².md" title="0x6235">r²</a>
  * <a href="../tokens/R².md" title="0x6236">R²</a>
  * <a href="../tokens/RegEQ.md" title="0x6201">RegEQ</a>
@@ -78,9 +78,9 @@
  * <a href="../tokens/x₁.md" title="0x621B">x₁</a>
  * <a href="../tokens/x₂.md" title="0x621C">x₂</a>
  * <a href="../tokens/x₃.md" title="0x621D">x₃</a>
- * <a href="../tokens/y₁.md" title="0x621E">y₁</a>
- * <a href="../tokens/y₂.md" title="0x621F">y₂</a>
- * <a href="../tokens/y₃.md" title="0x6220">y₃</a>
+ * <a href="../tokens/y₁_(621E).md" title="0x621E">y₁</a>
+ * <a href="../tokens/y₂_(621F).md" title="0x621F">y₂</a>
+ * <a href="../tokens/y₃_(6220).md" title="0x6220">y₃</a>
 
 ## Test
 
@@ -112,11 +112,11 @@
  * <a href="../tokens/[minY].md" title="0x620A">[minY]</a>
  * <a href="../tokens/[Sx].md" title="0x6206">[Sx]</a>
  * <a href="../tokens/[Sy].md" title="0x620F">[Sy]</a>
- * <a href="../tokens/n.md" title="0xBBBE">n</a>
+ * <a href="../tokens/n_(6202).md" title="0x6202">n</a>
  * <a href="../tokens/x̄.md" title="0x6203">x̄</a>
  * <a href="../tokens/ȳ.md" title="0x620C">ȳ</a>
- * <a href="../tokens/σx.md" title="0x6207">σx</a>
- * <a href="../tokens/σy.md" title="0x6210">σy</a>
+ * <a href="../tokens/σx_(6207).md" title="0x6207">σx</a>
+ * <a href="../tokens/σy_(6210).md" title="0x6210">σy</a>
 
 ## Σ
 

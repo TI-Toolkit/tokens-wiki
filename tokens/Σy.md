@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6210`|
-| Categories    | <ul><li>[Statistics](<../categories/Statistics.md>) > [XY](<../categories/Statistics.md#XY>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `σy`</li></ul> |
+| Hex Value     | `$620D`|
+| Categories    | <ul><li>[Statistics](<../categories/Statistics.md>) > [Σ](<../categories/Statistics.md#Σ>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Σy`</li></ul> |
 
-# `σy`
+# `Σy`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`σy`
+`Σy`
 
 <hr>
 

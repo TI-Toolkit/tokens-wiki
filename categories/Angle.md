@@ -1,6 +1,6 @@
 # Angle
 
- * <a href="../tokens/'.md" title="0xBBD0">'</a>
+ * <a href="../tokens/'.md" title="0xAE">'</a>
  * <a href="../tokens/0x2A.md" title="0x2A">"</a>
  * <a href="../tokens/►DMS.md" title="0x01">►DMS</a>
  * <a href="../tokens/P►Rx(.md" title="0x1D">P►Rx(</a>

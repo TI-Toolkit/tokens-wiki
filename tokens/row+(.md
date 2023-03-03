@@ -1,27 +1,23 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$18`|
+| Hex Value     | `$16`|
 | Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [R](<../categories/Catalog.md#R>)</li><li>[Matrix](<../categories/Matrix.md>) > [Math](<../categories/Matrix.md#Math>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `*ligne+(`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `ligne+(`</li></ul> |
 
-# `*row+(`
+# `row+(`
 
 ## Description
-Returns a matrix with `rowA` of `matrix` multiplied by `value`, added to `rowB`, and stored in `rowB`.
+Returns a matrix with `rowA` of `matrix` added to `rowB` and stored in `rowB`.
 
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`*row+(value,matrix,rowA,rowB)`
+`row+(matrix,rowA,rowB)`
 
 ## Arguments
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
-
-<tr><td>*</td><td></td><td>false</td></tr>
-
-<tr><td>value</td><td></td><td>false</td></tr>
 
 <tr><td>matrix</td><td>matrix</td><td>false</td></tr>
 
@@ -32,7 +28,7 @@ Returns a matrix with `rowA` of `matrix` multiplied by `value`, added to `rowB`,
 </table>
 
 ## Location
-<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `F:row+(`
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `D:row+(`
 <hr>
 
 ## Examples

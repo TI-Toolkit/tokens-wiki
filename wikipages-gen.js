@@ -24,13 +24,12 @@ const tokens = JSON.parse(fs.readFileSync('./output/TI-84_Plus_CE_catalog-tokens
 emptyDir('./output/wikipages/categories');
 emptyDir('./output/wikipages/tokens');
 
-const name2bytes = {};
 const pagesByCat = {};
 const bytes2filename = {};
+const filenamesUsedSoFar = {};
 
 for (const [bytes, token] of Object.entries(tokens)) {
     token.name = token.name.replaceAll('\n', '⏎ (newline)'); // special case...
-    name2bytes[token.name] = bytes;
     let categoriesLinks = '';
     for (const categoryStr of token.categories) {
         const [cat, subCat] = categoryStr.split(' > ');
@@ -38,9 +37,9 @@ for (const [bytes, token] of Object.entries(tokens)) {
         if (!pagesByCat[cat]) { pagesByCat[cat] = {}; }
         if (subCat) {
             if (!pagesByCat[cat][subCat]) { pagesByCat[cat][subCat] = {}; }
-            pagesByCat[cat][subCat][token.name] = true;
+            pagesByCat[cat][subCat][bytes] = token.name;
         } else {
-            pagesByCat[cat][token.name] = true;
+            pagesByCat[cat][bytes] = token.name;
         }
         categoriesLinks += `<li>[${cat}](<../categories/${cat}.md>)` + (subCat ? ` > [${subCat}](<../categories/${cat}.md#${subCat}>)` : '') + '</li>';
     }
@@ -188,45 +187,50 @@ code 2
 
     `;
 
-    const cleanName = cleanTokNameForFile(token.name, bytes, (token?._mainCatForFilename ?? bytes), token.isAlias);
+    let cleanName = cleanTokNameForFile(token.name, bytes, (token?._mainCatForFilename ?? bytes), token.isAlias);
     if (token.name !== cleanName && `${cleanName} ` !== token.name) {
         // console.log(`[Warning] name difference for bytes ${bytes} : [${token.name ?? '???'}] vs [${cleanName}]`);
     }
+
+    if (filenamesUsedSoFar[cleanName]) {
+        cleanName += `_(${bytes.substring(2)})`;
+    }
     bytes2filename[bytes] = cleanName;
+    filenamesUsedSoFar[cleanName.toLocaleLowerCase()] = true;
     fs.writeFileSync(`output/wikipages/tokens/${cleanName}.md`, page.trimStart());
 }
 
 let catIndexPage = '# Categories\n\n';
 for (const [ cat, entries ] of Object.entries(pagesByCat).sort((a, b) => a[0].localeCompare(b[0]))) {
     const cleanCatName = sanitize(cat);
-    if (!cleanCatName) { continue; }
+    if (!cleanCatName) { throw "wut empty cat"; }
 
     catIndexPage += `### <a href="./categories/${cleanCatName}.md">${cat}</a>\n\n`;
     let catPage = `# ${cat}\n\n`;
-    for (const [ subCatOrPage, val ] of Object.entries(entries).sort((a, b) => a[0].localeCompare(b[0]))) {
-        if (val === true) {
-            const bytes = name2bytes[subCatOrPage];
+    for (const [ subCatOrBytes, val ] of Object.entries(entries).sort( (a, b) => typeof(a[1]) === 'string' ? a[1].localeCompare(b[1]) : a[0].localeCompare(b[0]) )) {
+        if (typeof(val) === "string") {
+            const bytes = subCatOrBytes;
             const cleanTokFileName = bytes2filename[bytes];
             if (fs.existsSync(`./output/wikipages/tokens/${cleanTokFileName}.md`)) {
-                catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${subCatOrPage.replaceAll('\n', '⏎ (new line)') || ('<i>( '+bytes+' )</i>')}</a>\n`;
+                catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${val.replaceAll('\n', '⏎ (new line)') || ('<i>( '+bytes+' )</i>')}</a>\n`;
             } else {
-                // console.warn(`[val] page doesn't exist for bytes = ${bytes} subCatOrPage = ${subCatOrPage}. extraSuffixFromCat = ${extraSuffixFromCat}`);
-                catPage += ` * <span title="${bytes}">${subCatOrPage}</span>\n`;
+                console.warn(`[val] page doesn't exist for bytes = ${bytes} val = ${val}`);
+                catPage += ` * <span title="${bytes}">${val}</span>\n`;
             }
         } else if (typeof(val) === 'object') {
-            catPage += `\n## ${subCatOrPage}\n\n`
-            for (const [ tokName ] of Object.entries(val).sort((a, b) => a[0].localeCompare(b[0]))) {
-                const bytes = name2bytes[tokName];
+            const subCat = subCatOrBytes;
+            catPage += `\n## ${subCat}\n\n`
+            for (const [ bytes, tokName ] of Object.entries(val).sort((a, b) => a[1].localeCompare(b[1]))) {
                 const cleanTokFileName = bytes2filename[bytes];
                 if (fs.existsSync(`./output/wikipages/tokens/${cleanTokFileName}.md`)) {
                     catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${tokName || ('<i>( '+bytes+' )</i>')}</a>\n`;
                 } else {
-                    // console.warn(`[val object] page doesn't exist for bytes = ${bytes} tokName = ${tokName}. extraSuffixFromCat = ${extraSuffixFromCat}`);
+                    console.warn(`[val object] page doesn't exist for bytes = ${bytes} tokName = ${tokName}`);
                     catPage += ` * <span title="${bytes}">${tokName}</span>\n`;
                 }
             }
             if (cat !== 'Catalog') {
-                catIndexPage += ` * <a href="./categories/${cleanCatName}.md#${subCatOrPage}">${subCatOrPage}</a>\n\n`;
+                catIndexPage += ` * <a href="./categories/${cleanCatName}.md#${subCat}">${subCat}</a>\n\n`;
             }
         } else {
             throw "wut";

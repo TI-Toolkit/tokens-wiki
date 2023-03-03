@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6220`|
-| Categories    | <ul><li>[Statistics](<../categories/Statistics.md>) > [Points](<../categories/Statistics.md#Points>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `y₃`</li></ul> |
+| Hex Value     | `$5E12`|
+| Categories    | <ul><li>[Y= Functions](<../categories/Y= Functions.md>) > [Function](<../categories/Y= Functions.md#Function>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Y₃`</li></ul> |
 
-# `y₃`
+# `Y₃`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`y₃`
+`Y₃`
 
 <hr>
 
