@@ -1,18 +1,19 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$BB6D`|
-| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Assembly](<../categories/Other (non-catalog).md#Assembly>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `compiled asm`</li></ul> |
+| Hex Value     | `$631D`|
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ U/V/W](<../categories/Variables.md#Window ➤ U/V/W>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `𝒏Max`</li></ul> |
 
-# `compiled asm`
+# `𝒏Max`
 
 ## Description
 
 
 
+<b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`compiled asm`
+`𝒏Max`
 
 <hr>
 
@@ -37,6 +38,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
+| <b>TI-82</b> | 1.0 | Added |
 
 ## Related Commands
 

@@ -10,9 +10,9 @@
   "author": "adriweb",
   "license": "Unlicense",
   "dependencies": {
-    "csv-parse": "^5.3.5",
-    "fast-xml-parser": "^4.1.2",
-    "jsdom": "^21.1.0",
+    "csv-parse": "^5.4.0",
+    "fast-xml-parser": "^4.2.4",
+    "jsdom": "^22.1.0",
     "sanitize-filename": "^1.6.3"
   }
 }

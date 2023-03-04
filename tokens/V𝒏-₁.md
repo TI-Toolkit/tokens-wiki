@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$631E`|
+| Hex Value     | `$6307`|
 | Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `ZnMax`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `V𝒏-₁`</li></ul> |
 
-# `ZnMax`
+# `V𝒏-₁`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`ZnMax`
+`V𝒏-₁`
 
 <hr>
 
@@ -37,7 +37,9 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | Added |
+| <b>TI-82</b> | 1.0 | `V𝒏-₁` added |
+| <b>TI-83</b> | 0.01013 | `V𝒏-₁` removed |
+| <b>TI-83</b> | 1.010 | `V𝒏-₁` added |
 
 ## Related Commands
 

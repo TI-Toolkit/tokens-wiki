@@ -49,7 +49,7 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | `sin ` added |
-| <b>TI-83</b> | 1.010 | Renamed `sin ` to `sin(`
+| <b>TI-83</b> | 0.01013 | Renamed `sin ` to `sin(`
 
 ## Related Commands
 

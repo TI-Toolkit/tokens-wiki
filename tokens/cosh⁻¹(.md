@@ -51,7 +51,7 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | `cosh⁻¹ ` added |
-| <b>TI-83</b> | 1.010 | Renamed `cosh⁻¹ ` to `cosh⁻¹(`
+| <b>TI-83</b> | 0.01013 | Renamed `cosh⁻¹ ` to `cosh⁻¹(`
 
 ## Related Commands
 

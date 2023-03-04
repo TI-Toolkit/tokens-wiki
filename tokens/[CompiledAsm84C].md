@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6320`|
-| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `ZnMin`</li></ul> |
+| Hex Value     | `$EF69`|
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Assembly](<../categories/Other (non-catalog).md#Assembly>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `[CompiledAsm84C]`</li></ul> |
 
-# `ZnMin`
+# `[CompiledAsm84C]`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`ZnMin`
+`[CompiledAsm84C]`
 
 <hr>
 
@@ -37,7 +37,6 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | Added |
 
 ## Related Commands
 

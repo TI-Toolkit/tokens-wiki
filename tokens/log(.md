@@ -49,7 +49,7 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | `log ` added |
-| <b>TI-83</b> | 1.010 | Renamed `log ` to `log(`
+| <b>TI-83</b> | 0.01013 | Renamed `log ` to `log(`
 
 ## Related Commands
 

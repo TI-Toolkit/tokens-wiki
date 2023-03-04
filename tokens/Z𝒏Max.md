@@ -1,19 +1,18 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6332`|
-| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ U/V/W](<../categories/Variables.md#Window ➤ U/V/W>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `w(nMin)`</li></ul> |
+| Hex Value     | `$631E`|
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Z𝒏Max`</li></ul> |
 
-# `w(nMin)`
+# `Z𝒏Max`
 
 ## Description
 
 
 
-<b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`w(nMin)`
+`Z𝒏Max`
 
 <hr>
 
@@ -38,7 +37,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83</b> | 1.010 | Added |
+| <b>TI-82</b> | 1.0 | Added |
 
 ## Related Commands
 

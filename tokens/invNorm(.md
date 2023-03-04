@@ -55,7 +55,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83</b> | 1.010 | Added |
+| <b>TI-83</b> | 0.01013 | Added |
 
 ## Related Commands
 

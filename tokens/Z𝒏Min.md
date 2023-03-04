@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6335`|
+| Hex Value     | `$6320`|
 | Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `ZGraphPas`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Z𝒏Min`</li></ul> |
 
-# `ZPlotStep`
+# `Z𝒏Min`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`ZPlotStep`
+`Z𝒏Min`
 
 <hr>
 
@@ -37,7 +37,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83</b> | 0.01013 | Added |
+| <b>TI-82</b> | 1.0 | Added |
 
 ## Related Commands
 

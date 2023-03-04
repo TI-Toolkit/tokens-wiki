@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6335`|
+| Hex Value     | `$6306`|
 | Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `ZGraphPas`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `U𝒏-₁`</li></ul> |
 
-# `ZPlotStep`
+# `U𝒏-₁`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`ZPlotStep`
+`U𝒏-₁`
 
 <hr>
 
@@ -37,7 +37,9 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83</b> | 0.01013 | Added |
+| <b>TI-82</b> | 1.0 | `U𝒏-₁` added |
+| <b>TI-83</b> | 0.01013 | `U𝒏-₁` removed |
+| <b>TI-83</b> | 1.010 | `U𝒏-₁` added |
 
 ## Related Commands
 

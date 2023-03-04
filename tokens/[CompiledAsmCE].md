@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6307`|
-| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `Vn-₁`</li></ul> |
+| Hex Value     | `$EF7B`|
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Assembly](<../categories/Other (non-catalog).md#Assembly>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `[CompiledAsmCE]`</li></ul> |
 
-# `Vn-₁`
+# `[CompiledAsmCE]`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`Vn-₁`
+`[CompiledAsmCE]`
 
 <hr>
 
@@ -37,7 +37,6 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | Added |
 
 ## Related Commands
 

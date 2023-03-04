@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6306`|
+| Hex Value     | `$6309`|
 | Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `Un-₁`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Zv(𝒏Min)`</li></ul> |
 
-# `Un-₁`
+# `Zv(𝒏Min)`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`Un-₁`
+`Zv(𝒏Min)`
 
 <hr>
 

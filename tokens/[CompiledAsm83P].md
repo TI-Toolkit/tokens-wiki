@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6333`|
-| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `Zw(nMin)`</li></ul> |
+| Hex Value     | `$BB6D`|
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Assembly](<../categories/Other (non-catalog).md#Assembly>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `[CompiledAsm83P]`</li></ul> |
 
-# `Zw(nMin)`
+# `[CompiledAsm83P]`
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`Zw(nMin)`
+`[CompiledAsm83P]`
 
 <hr>
 
@@ -37,7 +37,6 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83</b> | 1.010 | Added |
 
 ## Related Commands
 

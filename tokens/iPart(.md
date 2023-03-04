@@ -49,7 +49,7 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | `iPart ` added |
-| <b>TI-83</b> | 1.010 | Renamed `iPart ` to `iPart(`
+| <b>TI-83</b> | 0.01013 | Renamed `iPart ` to `iPart(`
 
 ## Related Commands
 

@@ -2,9 +2,9 @@
 |---------------|-------|
 | Hex Value     | `$6304`|
 | Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ U/V/W](<../categories/Variables.md#Window ➤ U/V/W>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `u(nMin)`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `u(𝒏Min)`</li></ul> |
 
-# `u(nMin)`
+# `u(𝒏Min)`
 
 ## Description
 
@@ -13,7 +13,7 @@
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`u(nMin)`
+`u(𝒏Min)`
 
 <hr>
 
@@ -39,7 +39,7 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | `UnStart` added |
-| <b>TI-83</b> | 1.010 | Renamed `UnStart` to `u(nMin)`
+| <b>TI-83</b> | 0.01013 | Renamed `UnStart` to `u(𝒏Min)`
 
 ## Related Commands
 

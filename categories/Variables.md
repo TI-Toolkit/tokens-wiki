@@ -85,12 +85,12 @@
 
 ## Window ➤ U/V/W
 
- * <a href="../tokens/u(nMin).md" title="0x6304">u(nMin)</a>
- * <a href="../tokens/v(nMin).md" title="0x6305">v(nMin)</a>
+ * <a href="../tokens/u(𝒏Min).md" title="0x6304">u(𝒏Min)</a>
+ * <a href="../tokens/v(𝒏Min).md" title="0x6305">v(𝒏Min)</a>
  * <a href="../tokens/PlotStart.md" title="0x631B">PlotStart</a>
- * <a href="../tokens/nMax.md" title="0x631D">nMax</a>
- * <a href="../tokens/nMin.md" title="0x631F">nMin</a>
- * <a href="../tokens/w(nMin).md" title="0x6332">w(nMin)</a>
+ * <a href="../tokens/𝒏Max.md" title="0x631D">𝒏Max</a>
+ * <a href="../tokens/𝒏Min.md" title="0x631F">𝒏Min</a>
+ * <a href="../tokens/w(𝒏Min).md" title="0x6332">w(𝒏Min)</a>
  * <a href="../tokens/PlotStep.md" title="0x6334">PlotStep</a>
 
 ## Window ➤ X/Y

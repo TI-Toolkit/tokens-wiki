@@ -49,7 +49,7 @@ code 2
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | `tanh ` added |
-| <b>TI-83</b> | 1.010 | Renamed `tanh ` to `tanh(`
+| <b>TI-83</b> | 0.01013 | Renamed `tanh ` to `tanh(`
 
 ## Related Commands
 
