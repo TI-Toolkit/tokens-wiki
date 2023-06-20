@@ -19,11 +19,11 @@ Generates and displays a random real number from a specified Normal distribution
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>μ</td><td></td><td>false</td></tr>
+<tr><td><b>μ</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>σ</td><td></td><td>false</td></tr>
+<tr><td><b>σ</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>numtrials</td><td></td><td>false</td></tr>
+<tr><td><b>numtrials</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

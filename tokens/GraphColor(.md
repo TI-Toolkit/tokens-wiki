@@ -20,9 +20,9 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>function#</td><td></td><td>false</td></tr>
+<tr><td><b>function#</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td>false</td></tr>
+<tr><td><b>color#</b></td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 

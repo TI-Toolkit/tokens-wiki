@@ -19,7 +19,7 @@ Executes the program `name`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>name</td><td></td><td>false</td></tr>
+<tr><td><b>name</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

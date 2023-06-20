@@ -32,15 +32,15 @@ Displays each value.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>valueA</td><td></td><td>true</td></tr>
+<tr><td>valueA</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>valueB</td><td></td><td>true</td></tr>
+<tr><td>valueB</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>valueC</td><td></td><td>true</td></tr>
+<tr><td>valueC</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>...</td><td></td><td>true</td></tr>
+<tr><td>...</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>value n</td><td></td><td>true</td></tr>
+<tr><td>value n</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

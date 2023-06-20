@@ -19,11 +19,11 @@ Returns θ, given rectangular coordinates `x` and `y` or a list of rectangular c
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>θ</td><td></td><td>false</td></tr>
+<tr><td><b>θ</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>x</td><td></td><td>false</td></tr>
+<tr><td><b>x</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>y</td><td></td><td>false</td></tr>
+<tr><td><b>y</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

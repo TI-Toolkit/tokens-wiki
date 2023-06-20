@@ -19,13 +19,13 @@ Fills each `listname` with elements from each column in `matrix`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>matrix</td><td>matrix</td><td>false</td></tr>
+<tr><td><b>matrix</b></td><td>matrix</td><td>Yes</td></tr>
 
-<tr><td>listnameA</td><td>list</td><td>false</td></tr>
+<tr><td><b>listnameA</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>...</td><td></td><td>false</td></tr>
+<tr><td><b>...</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>listname n</td><td>list</td><td>false</td></tr>
+<tr><td><b>listname n</b></td><td>list</td><td>Yes</td></tr>
 
 </table>
 
@@ -46,11 +46,11 @@ Fills a `listname` with elements from a specified `column#` in `matrix`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>matrix</td><td>matrix</td><td>false</td></tr>
+<tr><td><b>matrix</b></td><td>matrix</td><td>Yes</td></tr>
 
-<tr><td>column#</td><td></td><td>false</td></tr>
+<tr><td><b>column#</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>listname</td><td>list</td><td>false</td></tr>
+<tr><td><b>listname</b></td><td>list</td><td>Yes</td></tr>
 
 </table>
 

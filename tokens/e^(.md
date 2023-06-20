@@ -19,7 +19,7 @@ Returns `e` raised to `power`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>power</td><td></td><td>false</td></tr>
+<tr><td><b>power</b></td><td></td><td>Yes</td></tr>
 
 </table>
 
@@ -40,7 +40,7 @@ Returns a list of `e` raised to a `list` of powers.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>list</td><td>list</td><td>false</td></tr>
+<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
 
 </table>
 

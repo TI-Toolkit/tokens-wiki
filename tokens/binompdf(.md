@@ -19,11 +19,11 @@ Computes a probability at `x` for the discrete binomial distribution with the sp
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>numtrials</td><td></td><td>false</td></tr>
+<tr><td><b>numtrials</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>p</td><td></td><td>false</td></tr>
+<tr><td><b>p</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>x</td><td></td><td>true</td></tr>
+<tr><td>x</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

@@ -32,7 +32,7 @@ Prompts for value to store to `variable`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>variable</td><td></td><td>true</td></tr>
+<tr><td>variable</td><td></td><td><b>No</b></td></tr>
 
 </table>
 
@@ -53,9 +53,9 @@ Displays `Strn` and stores entered value to `variable`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>n</td><td></td><td>true</td></tr>
+<tr><td>n</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>variable</td><td></td><td>true</td></tr>
+<tr><td>variable</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

@@ -19,11 +19,11 @@ Returns a string that is a subset of another `string`, from `begin` to `length`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>string</td><td>string</td><td>false</td></tr>
+<tr><td><b>string</b></td><td>string</td><td>Yes</td></tr>
 
-<tr><td>begin</td><td></td><td>false</td></tr>
+<tr><td><b>begin</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>length</td><td>integer</td><td>false</td></tr>
+<tr><td><b>length</b></td><td>integer</td><td>Yes</td></tr>
 
 </table>
 

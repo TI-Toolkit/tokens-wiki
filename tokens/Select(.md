@@ -19,9 +19,9 @@ Selects one or more specific data points from a scatter plot or xyLine plot (onl
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>Xlistname</td><td>list</td><td>false</td></tr>
+<tr><td><b>Xlistname</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>Ylistname</td><td>list</td><td>false</td></tr>
+<tr><td><b>Ylistname</b></td><td>list</td><td>Yes</td></tr>
 
 </table>
 

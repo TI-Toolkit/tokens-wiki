@@ -19,7 +19,7 @@ Returns the imaginary (non-real) part of a complex number or list of complex num
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>value</td><td>complex|complex[]</td><td>false</td></tr>
+<tr><td><b>value</b></td><td>complex|complex[]</td><td>Yes</td></tr>
 
 </table>
 

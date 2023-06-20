@@ -19,7 +19,7 @@ Returns the identity matrix of `dimension` rows x `dimension` columns.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>dimension</td><td></td><td>false</td></tr>
+<tr><td><b>dimension</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

@@ -19,9 +19,9 @@ Returns a list containing the differences between consecutive elements in `list`
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>Δ</td><td></td><td>false</td></tr>
+<tr><td><b>Δ</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>list</td><td>list</td><td>false</td></tr>
+<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
 
 </table>
 

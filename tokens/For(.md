@@ -19,17 +19,17 @@ Executes `commands` through `End`, incrementing `variable` from `begin` by `incr
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>variable</td><td></td><td>false</td></tr>
+<tr><td><b>variable</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>begin</td><td></td><td>false</td></tr>
+<tr><td><b>begin</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>end</td><td></td><td>false</td></tr>
+<tr><td><b>end</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>increment</td><td></td><td>true</td></tr>
+<tr><td>increment</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>commands</td><td></td><td>true</td></tr>
+<tr><td>commands</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>commands</td><td></td><td>true</td></tr>
+<tr><td>commands</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

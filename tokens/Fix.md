@@ -19,7 +19,7 @@ Sets fixed-decimal mode for # of decimal places.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>#</td><td></td><td>false</td></tr>
+<tr><td><b>#</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

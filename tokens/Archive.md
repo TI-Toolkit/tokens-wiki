@@ -19,7 +19,7 @@ Moves the specified `variable` from RAM to the user data archive memory.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>variables</td><td></td><td>false</td></tr>
+<tr><td><b>variables</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

@@ -22,7 +22,7 @@ TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>string</td><td>string</td><td>false</td></tr>
+<tr><td><b>string</b></td><td>string</td><td>Yes</td></tr>
 
 </table>
 
@@ -46,7 +46,7 @@ TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>string</td><td>string</td><td>false</td></tr>
+<tr><td><b>string</b></td><td>string</td><td>Yes</td></tr>
 
 </table>
 

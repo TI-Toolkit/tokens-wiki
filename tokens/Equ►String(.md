@@ -19,9 +19,9 @@ Converts the contents of a `Y= var` to a string and stores it in `Str``n`
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>var</td><td></td><td>false</td></tr>
+<tr><td><b>var</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>n</td><td></td><td>false</td></tr>
+<tr><td><b>n</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

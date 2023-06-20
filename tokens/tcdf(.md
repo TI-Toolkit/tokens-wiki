@@ -19,11 +19,11 @@ Computes the Student-`t` distribution probability between `lowerbound` and` uppe
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>lowerbound</td><td></td><td>false</td></tr>
+<tr><td><b>lowerbound</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>upperbound</td><td></td><td>false</td></tr>
+<tr><td><b>upperbound</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>df</td><td></td><td>false</td></tr>
+<tr><td><b>df</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

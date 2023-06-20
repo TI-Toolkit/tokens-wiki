@@ -19,15 +19,15 @@ Performs a linear regression and a `t`-test. `alternative`=-`1` is <; `alternati
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>Xlistname</td><td>list</td><td>true</td></tr>
+<tr><td>Xlistname</td><td>list</td><td><b>No</b></td></tr>
 
-<tr><td>Ylistname</td><td>list</td><td>true</td></tr>
+<tr><td>Ylistname</td><td>list</td><td><b>No</b></td></tr>
 
-<tr><td>freqlist</td><td>list</td><td>true</td></tr>
+<tr><td>freqlist</td><td>list</td><td><b>No</b></td></tr>
 
-<tr><td>alternative</td><td></td><td>true</td></tr>
+<tr><td>alternative</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>regequ</td><td></td><td>true</td></tr>
+<tr><td>regequ</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

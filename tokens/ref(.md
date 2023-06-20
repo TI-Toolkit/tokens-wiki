@@ -19,7 +19,7 @@ Returns the row-echelon form of a `matrix`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>matrix</td><td>matrix</td><td>false</td></tr>
+<tr><td><b>matrix</b></td><td>matrix</td><td>Yes</td></tr>
 
 </table>
 

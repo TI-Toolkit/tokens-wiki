@@ -22,17 +22,17 @@ G-T mode, row must be row <=126; column must be 176
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>row</td><td></td><td>false</td></tr>
+<tr><td><b>row</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>column</td><td></td><td>false</td></tr>
+<tr><td><b>column</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>text1</td><td>string</td><td>false</td></tr>
+<tr><td><b>text1</b></td><td>string</td><td>Yes</td></tr>
 
-<tr><td>text2</td><td>string</td><td>false</td></tr>
+<tr><td><b>text2</b></td><td>string</td><td>Yes</td></tr>
 
-<tr><td>...</td><td></td><td>false</td></tr>
+<tr><td><b>...</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>text n</td><td>string</td><td>false</td></tr>
+<tr><td><b>text n</b></td><td>string</td><td>Yes</td></tr>
 
 </table>
 

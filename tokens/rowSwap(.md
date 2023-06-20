@@ -19,11 +19,11 @@ Returns a matrix with `rowA` of `matrix` swapped with `rowB`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>matrix</td><td>matrix</td><td>false</td></tr>
+<tr><td><b>matrix</b></td><td>matrix</td><td>Yes</td></tr>
 
-<tr><td>rowA</td><td></td><td>false</td></tr>
+<tr><td><b>rowA</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>rowB</td><td></td><td>false</td></tr>
+<tr><td><b>rowB</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

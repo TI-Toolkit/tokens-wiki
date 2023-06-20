@@ -19,13 +19,13 @@ Returns a matrix with `row` of `matrix` multiplied by `value` and stored in `row
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>*</td><td></td><td>false</td></tr>
+<tr><td><b>*</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>value</td><td></td><td>false</td></tr>
+<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>matrix</td><td>matrix</td><td>false</td></tr>
+<tr><td><b>matrix</b></td><td>matrix</td><td>Yes</td></tr>
 
-<tr><td>row</td><td></td><td>false</td></tr>
+<tr><td><b>row</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

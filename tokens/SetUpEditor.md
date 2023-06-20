@@ -32,13 +32,13 @@ Removes all list names from the stat list editor, then sets it up to display one
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>listname1</td><td>listName</td><td>false</td></tr>
+<tr><td><b>listname1</b></td><td>listName</td><td>Yes</td></tr>
 
-<tr><td>listname2</td><td>listName</td><td>true</td></tr>
+<tr><td>listname2</td><td>listName</td><td><b>No</b></td></tr>
 
-<tr><td>...</td><td></td><td>true</td></tr>
+<tr><td>...</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>listname20</td><td>listName</td><td>true</td></tr>
+<tr><td>listname20</td><td>listName</td><td><b>No</b></td></tr>
 
 </table>
 

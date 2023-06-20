@@ -20,11 +20,11 @@ Executes `commands` while `condition` is true.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>condition</td><td></td><td>false</td></tr>
+<tr><td><b>condition</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>commands</td><td></td><td>false</td></tr>
+<tr><td><b>commands</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>command</td><td></td><td>false</td></tr>
+<tr><td><b>command</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

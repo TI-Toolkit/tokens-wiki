@@ -19,9 +19,9 @@ Performs one-variable analysis on the data in `Xlistname` with frequency `freqli
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>Xlistname</td><td>list</td><td>true</td></tr>
+<tr><td>Xlistname</td><td>list</td><td><b>No</b></td></tr>
 
-<tr><td>freqlist</td><td>list</td><td>true</td></tr>
+<tr><td>freqlist</td><td>list</td><td><b>No</b></td></tr>
 
 </table>
 

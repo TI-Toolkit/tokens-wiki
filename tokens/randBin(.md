@@ -19,11 +19,11 @@ Generates and displays a random real number from a specified Binomial distributi
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>numtrials</td><td></td><td>false</td></tr>
+<tr><td><b>numtrials</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>prob</td><td></td><td>false</td></tr>
+<tr><td><b>prob</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>numsimulations</td><td></td><td>true</td></tr>
+<tr><td>numsimulations</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

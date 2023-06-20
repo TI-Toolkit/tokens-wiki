@@ -19,9 +19,9 @@ Computes the nominal interest rate.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>effective rate</td><td></td><td>false</td></tr>
+<tr><td><b>effective rate</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>compounding periods</td><td></td><td>false</td></tr>
+<tr><td><b>compounding periods</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

@@ -19,11 +19,11 @@ Computes the probability density function for the normal distribution at a speci
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>x</td><td></td><td>false</td></tr>
+<tr><td><b>x</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>μ</td><td></td><td>true</td></tr>
+<tr><td>μ</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>σ</td><td></td><td>true</td></tr>
+<tr><td>σ</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

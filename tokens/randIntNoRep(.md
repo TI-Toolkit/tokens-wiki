@@ -19,11 +19,11 @@ Returns a random ordered list of integers from a lower integer to an upper integ
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>lowerint</td><td></td><td>false</td></tr>
+<tr><td><b>lowerint</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>upperint</td><td></td><td>false</td></tr>
+<tr><td><b>upperint</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>numelements</td><td></td><td>true</td></tr>
+<tr><td>numelements</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

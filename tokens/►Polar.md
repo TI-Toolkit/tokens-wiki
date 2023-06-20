@@ -19,7 +19,7 @@ Displays `complex value` in polar format.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>complex value</td><td>complex</td><td>false</td></tr>
+<tr><td><b>complex value</b></td><td>complex</td><td>Yes</td></tr>
 
 </table>
 

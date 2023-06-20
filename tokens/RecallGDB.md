@@ -19,7 +19,7 @@ Restores all settings stored in the graph database variable `GDBn`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>n</td><td></td><td>false</td></tr>
+<tr><td><b>n</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

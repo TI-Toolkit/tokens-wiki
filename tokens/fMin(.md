@@ -19,15 +19,15 @@ Returns the value of `variable` where the local minimum of `expression` occurs, 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>expression</td><td>expression</td><td>false</td></tr>
+<tr><td><b>expression</b></td><td>expression</td><td>Yes</td></tr>
 
-<tr><td>variable</td><td></td><td>false</td></tr>
+<tr><td><b>variable</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>lower</td><td></td><td>false</td></tr>
+<tr><td><b>lower</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>upper</td><td></td><td>false</td></tr>
+<tr><td><b>upper</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>tolerance</td><td></td><td>true</td></tr>
+<tr><td>tolerance</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

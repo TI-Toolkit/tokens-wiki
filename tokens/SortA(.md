@@ -19,7 +19,7 @@ Sorts elements of `listname` in ascending order.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>listname</td><td>list</td><td>false</td></tr>
+<tr><td><b>listname</b></td><td>list</td><td>Yes</td></tr>
 
 </table>
 
@@ -40,13 +40,13 @@ Sorts elements of `keylistname` in ascending order, then sorts each `dependlist`
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>keylistname</td><td>list</td><td>false</td></tr>
+<tr><td><b>keylistname</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>dependlist1</td><td>list</td><td>false</td></tr>
+<tr><td><b>dependlist1</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>dependlist2</td><td>list</td><td>true</td></tr>
+<tr><td>dependlist2</td><td>list</td><td><b>No</b></td></tr>
 
-<tr><td>dependlist n</td><td>list</td><td>true</td></tr>
+<tr><td>dependlist n</td><td>list</td><td><b>No</b></td></tr>
 
 </table>
 

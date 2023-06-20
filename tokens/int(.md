@@ -19,7 +19,7 @@ Returns the largest integer ≤ a real or complex number, expression, list, or m
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>value</td><td></td><td>false</td></tr>
+<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

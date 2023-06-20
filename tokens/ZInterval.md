@@ -20,13 +20,13 @@ Computes a `z` confidence interval.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>σ</td><td></td><td>false</td></tr>
+<tr><td><b>σ</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>listname</td><td>list</td><td>false</td></tr>
+<tr><td><b>listname</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>freqlist</td><td>list</td><td>false</td></tr>
+<tr><td><b>freqlist</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>confidence level</td><td></td><td>false</td></tr>
+<tr><td><b>confidence level</b></td><td></td><td>Yes</td></tr>
 
 </table>
 
@@ -48,13 +48,13 @@ Computes a `z` confidence interval.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>σ</td><td></td><td>false</td></tr>
+<tr><td><b>σ</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>x̄</td><td></td><td>false</td></tr>
+<tr><td><b>x̄</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>n</td><td></td><td>true</td></tr>
+<tr><td>n</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>confidence level</td><td></td><td>true</td></tr>
+<tr><td>confidence level</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

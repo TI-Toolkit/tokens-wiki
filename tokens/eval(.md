@@ -20,7 +20,7 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>expression</td><td>expression</td><td>false</td></tr>
+<tr><td><b>expression</b></td><td>expression</td><td>Yes</td></tr>
 
 </table>
 
@@ -42,7 +42,7 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>expression</td><td>expression</td><td>false</td></tr>
+<tr><td><b>expression</b></td><td>expression</td><td>Yes</td></tr>
 
 </table>
 

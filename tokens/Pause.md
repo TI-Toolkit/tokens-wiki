@@ -32,7 +32,7 @@ Displays `value`; suspends program execution until you press Í.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>value</td><td></td><td>true</td></tr>
+<tr><td>value</td><td></td><td><b>No</b></td></tr>
 
 </table>
 
@@ -54,9 +54,9 @@ Pause `value,time`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>value</td><td></td><td>true</td></tr>
+<tr><td>value</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>time</td><td></td><td>true</td></tr>
+<tr><td>time</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

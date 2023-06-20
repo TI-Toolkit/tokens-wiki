@@ -19,7 +19,7 @@ Creates a `label` of one or two characters.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>label</td><td></td><td>false</td></tr>
+<tr><td><b>label</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

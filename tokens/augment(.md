@@ -19,9 +19,9 @@ Returns a matrix, which is `matrixB` appended to `matrixA` as new columns.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>matrixA</td><td>matrix</td><td>false</td></tr>
+<tr><td><b>matrixA</b></td><td>matrix</td><td>Yes</td></tr>
 
-<tr><td>matrixB</td><td>matrix</td><td>false</td></tr>
+<tr><td><b>matrixB</b></td><td>matrix</td><td>Yes</td></tr>
 
 </table>
 
@@ -42,9 +42,9 @@ Returns a list, which is `listB` concatenated to the end of `listA`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>listA</td><td>list</td><td>false</td></tr>
+<tr><td><b>listA</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>listB</td><td>list</td><td>false</td></tr>
+<tr><td><b>listB</b></td><td>list</td><td>Yes</td></tr>
 
 </table>
 

@@ -19,15 +19,15 @@ Performs a one-way analysis of variance for comparing the means of two to 20 pop
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>list1</td><td>list</td><td>false</td></tr>
+<tr><td><b>list1</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>list2</td><td>list</td><td>false</td></tr>
+<tr><td><b>list2</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>list3</td><td>list</td><td>true</td></tr>
+<tr><td>list3</td><td>list</td><td><b>No</b></td></tr>
 
-<tr><td>...</td><td></td><td>true</td></tr>
+<tr><td>...</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>list20</td><td>list</td><td>true</td></tr>
+<tr><td>list20</td><td>list</td><td><b>No</b></td></tr>
 
 </table>
 

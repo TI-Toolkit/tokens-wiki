@@ -19,9 +19,9 @@ Returns smaller of `valueA` and `valueB`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>valueA</td><td></td><td>false</td></tr>
+<tr><td><b>valueA</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>valueB</td><td></td><td>false</td></tr>
+<tr><td><b>valueB</b></td><td></td><td>Yes</td></tr>
 
 </table>
 
@@ -42,7 +42,7 @@ Returns smallest real or complex element in `list`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>list</td><td>list</td><td>false</td></tr>
+<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
 
 </table>
 
@@ -63,9 +63,9 @@ Returns real or complex list of the smaller of each pair of elements in `listA` 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>listA</td><td>list</td><td>false</td></tr>
+<tr><td><b>listA</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>listB</td><td>list</td><td>false</td></tr>
+<tr><td><b>listB</b></td><td>list</td><td>Yes</td></tr>
 
 </table>
 
@@ -86,9 +86,9 @@ Returns a real or complex list of the smaller of `value` or each `list` element.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>value</td><td></td><td>false</td></tr>
+<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>list</td><td>list</td><td>false</td></tr>
+<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
 
 </table>
 

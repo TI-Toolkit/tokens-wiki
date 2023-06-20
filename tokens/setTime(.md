@@ -19,11 +19,11 @@ Sets the time using an hour, minute, second format. The `hour` must be in 24 hou
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>hour</td><td></td><td>false</td></tr>
+<tr><td><b>hour</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>minute</td><td></td><td>false</td></tr>
+<tr><td><b>minute</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>second</td><td></td><td>false</td></tr>
+<tr><td><b>second</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

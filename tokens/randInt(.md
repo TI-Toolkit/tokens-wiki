@@ -19,11 +19,11 @@ Generates and displays a random integer within a range specified by `lower` and 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>lower</td><td></td><td>false</td></tr>
+<tr><td><b>lower</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>upper</td><td></td><td>false</td></tr>
+<tr><td><b>upper</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>numtrials</td><td></td><td>true</td></tr>
+<tr><td>numtrials</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

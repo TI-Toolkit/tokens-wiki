@@ -19,11 +19,11 @@ Returns the character position in `string` of the first character of `substring 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>string</td><td>string</td><td>false</td></tr>
+<tr><td><b>string</b></td><td>string</td><td>Yes</td></tr>
 
-<tr><td>substring</td><td></td><td>false</td></tr>
+<tr><td><b>substring</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>start</td><td></td><td>true</td></tr>
+<tr><td>start</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

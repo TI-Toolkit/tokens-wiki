@@ -20,13 +20,13 @@ Where # gives Plot1, Plot2 or Plot3.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>type</td><td>NormProbPlot token</td><td>false</td></tr>
+<tr><td><b>type</b></td><td>NormProbPlot token</td><td>Yes</td></tr>
 
-<tr><td>Xlist</td><td>list</td><td>false</td></tr>
+<tr><td><b>Xlist</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>freqlist</td><td>list</td><td>false</td></tr>
+<tr><td><b>freqlist</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td>false</td></tr>
+<tr><td><b>color#</b></td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 

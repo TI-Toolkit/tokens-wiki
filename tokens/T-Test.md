@@ -21,19 +21,19 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>μ</td><td></td><td>false</td></tr>
+<tr><td><b>μ</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>0</td><td></td><td>true</td></tr>
+<tr><td>0</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>listname</td><td>list</td><td>true</td></tr>
+<tr><td>listname</td><td>list</td><td><b>No</b></td></tr>
 
-<tr><td>freqlist</td><td>list</td><td>true</td></tr>
+<tr><td>freqlist</td><td>list</td><td><b>No</b></td></tr>
 
-<tr><td>alternative</td><td></td><td>true</td></tr>
+<tr><td>alternative</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>drawflag</td><td></td><td>true</td></tr>
+<tr><td>drawflag</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
 
 </table>
 
@@ -55,21 +55,21 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>μ</td><td></td><td>false</td></tr>
+<tr><td><b>μ</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>0</td><td></td><td>false</td></tr>
+<tr><td><b>0</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>x̄</td><td></td><td>false</td></tr>
+<tr><td><b>x̄</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>Sx</td><td></td><td>false</td></tr>
+<tr><td><b>Sx</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>n</td><td></td><td>true</td></tr>
+<tr><td>n</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>alternative</td><td></td><td>true</td></tr>
+<tr><td>alternative</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>drawflag</td><td></td><td>true</td></tr>
+<tr><td>drawflag</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
 
 </table>
 

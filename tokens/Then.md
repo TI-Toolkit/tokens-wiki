@@ -19,7 +19,7 @@
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>See</td><td></td><td>false</td></tr>
+<tr><td><b>See</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

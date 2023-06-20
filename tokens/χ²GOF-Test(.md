@@ -20,19 +20,19 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>χ²</td><td></td><td>false</td></tr>
+<tr><td><b>χ²</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>-</td><td></td><td>false</td></tr>
+<tr><td><b>-</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>observedlist</td><td>list</td><td>false</td></tr>
+<tr><td><b>observedlist</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>expectedlist</td><td>list</td><td>false</td></tr>
+<tr><td><b>expectedlist</b></td><td>list</td><td>Yes</td></tr>
 
-<tr><td>df</td><td></td><td>false</td></tr>
+<tr><td><b>df</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>drawflag</td><td></td><td>true</td></tr>
+<tr><td>drawflag</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
 
 </table>
 

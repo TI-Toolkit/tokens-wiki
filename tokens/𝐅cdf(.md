@@ -19,15 +19,15 @@ Computes the 𝐅 distribution probability between `lowerbound `and `upperbound`
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>𝐅</td><td></td><td>false</td></tr>
+<tr><td><b>𝐅</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>lowerbound</td><td></td><td>false</td></tr>
+<tr><td><b>lowerbound</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>upperbound</td><td></td><td>false</td></tr>
+<tr><td><b>upperbound</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>numerator df</td><td></td><td>false</td></tr>
+<tr><td><b>numerator df</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>denominator df</td><td></td><td>false</td></tr>
+<tr><td><b>denominator df</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

@@ -19,9 +19,9 @@ Returns 1 if pixel (`row`, `column`) is on, 0 if it is off;
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>row</td><td></td><td>false</td></tr>
+<tr><td><b>row</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>column</td><td></td><td>false</td></tr>
+<tr><td><b>column</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

@@ -19,19 +19,19 @@ Draws a line from (`X1`,`Y1`) to (`X2`,`Y2`) with the following options: erase 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>X1</td><td></td><td>false</td></tr>
+<tr><td><b>X1</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>Y1</td><td></td><td>false</td></tr>
+<tr><td><b>Y1</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>X2</td><td></td><td>false</td></tr>
+<tr><td><b>X2</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>Y2</td><td></td><td>false</td></tr>
+<tr><td><b>Y2</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>erase#</td><td></td><td>true</td></tr>
+<tr><td>erase#</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
 
-<tr><td>linestyle#</td><td>integer</td><td>true</td></tr>
+<tr><td>linestyle#</td><td>integer</td><td><b>No</b></td></tr>
 
 </table>
 
@@ -52,15 +52,15 @@ Erases a line (erase #: 1,0) from (`X1`,`Y1`) to (`X2`,`Y2`).
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>X1</td><td></td><td>false</td></tr>
+<tr><td><b>X1</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>Y1</td><td></td><td>false</td></tr>
+<tr><td><b>Y1</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>X2</td><td></td><td>false</td></tr>
+<tr><td><b>X2</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>Y2</td><td></td><td>false</td></tr>
+<tr><td><b>Y2</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>line#</td><td></td><td>true</td></tr>
+<tr><td>line#</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

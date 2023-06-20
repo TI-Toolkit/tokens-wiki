@@ -19,13 +19,13 @@ Prompts for value for `variableA`, then `variableB`, and so on.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>variableA</td><td></td><td>false</td></tr>
+<tr><td><b>variableA</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>variableB</td><td></td><td>true</td></tr>
+<tr><td>variableB</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>...</td><td></td><td>true</td></tr>
+<tr><td>...</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>variable n</td><td></td><td>true</td></tr>
+<tr><td>variable n</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

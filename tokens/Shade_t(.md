@@ -20,13 +20,13 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>lowerbound</td><td></td><td>false</td></tr>
+<tr><td><b>lowerbound</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>upperbound</td><td></td><td>false</td></tr>
+<tr><td><b>upperbound</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>df</td><td></td><td>false</td></tr>
+<tr><td><b>df</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td>true</td></tr>
+<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
 
 </table>
 

@@ -19,17 +19,17 @@ Generates a menu of up to seven items during program execution.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>title</td><td></td><td>false</td></tr>
+<tr><td><b>title</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>text1</td><td>string</td><td>false</td></tr>
+<tr><td><b>text1</b></td><td>string</td><td>Yes</td></tr>
 
-<tr><td>label1</td><td></td><td>false</td></tr>
+<tr><td><b>label1</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>...</td><td></td><td>true</td></tr>
+<tr><td>...</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>text7</td><td>string</td><td>true</td></tr>
+<tr><td>text7</td><td>string</td><td><b>No</b></td></tr>
 
-<tr><td>label7</td><td></td><td>true</td></tr>
+<tr><td>label7</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

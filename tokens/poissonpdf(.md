@@ -19,9 +19,9 @@ Computes a probability at `x` for the discrete Poisson distribution with the spe
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>μ</td><td></td><td>false</td></tr>
+<tr><td><b>μ</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>x</td><td></td><td>false</td></tr>
+<tr><td><b>x</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

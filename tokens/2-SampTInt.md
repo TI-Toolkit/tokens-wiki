@@ -20,17 +20,17 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>listname1</td><td>listName</td><td>true</td></tr>
+<tr><td>listname1</td><td>listName</td><td><b>No</b></td></tr>
 
-<tr><td>listname2</td><td>listName</td><td>true</td></tr>
+<tr><td>listname2</td><td>listName</td><td><b>No</b></td></tr>
 
-<tr><td>freqlist1</td><td>list</td><td>true</td></tr>
+<tr><td>freqlist1</td><td>list</td><td><b>No</b></td></tr>
 
-<tr><td>freqlist2</td><td>list</td><td>true</td></tr>
+<tr><td>freqlist2</td><td>list</td><td><b>No</b></td></tr>
 
-<tr><td>confidence level</td><td></td><td>true</td></tr>
+<tr><td>confidence level</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>pooled</td><td></td><td>true</td></tr>
+<tr><td>pooled</td><td></td><td><b>No</b></td></tr>
 
 </table>
 
@@ -52,27 +52,27 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>x̄</td><td></td><td>false</td></tr>
+<tr><td><b>x̄</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>1</td><td></td><td>false</td></tr>
+<tr><td><b>1</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>Sx1</td><td></td><td>false</td></tr>
+<tr><td><b>Sx1</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>n1</td><td></td><td>false</td></tr>
+<tr><td><b>n1</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>x̄</td><td></td><td>false</td></tr>
+<tr><td><b>x̄</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>2</td><td></td><td>false</td></tr>
+<tr><td><b>2</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>Sx2</td><td></td><td>false</td></tr>
+<tr><td><b>Sx2</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>n2</td><td></td><td>true</td></tr>
+<tr><td>n2</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>confidence</td><td></td><td>true</td></tr>
+<tr><td>confidence</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>level</td><td></td><td>true</td></tr>
+<tr><td>level</td><td></td><td><b>No</b></td></tr>
 
-<tr><td>pooled</td><td></td><td>true</td></tr>
+<tr><td>pooled</td><td></td><td><b>No</b></td></tr>
 
 </table>
 

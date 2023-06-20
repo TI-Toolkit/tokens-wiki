@@ -19,11 +19,11 @@ Displays `text` beginning at specified `row` and `column `of the home screen.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>row</td><td></td><td>false</td></tr>
+<tr><td><b>row</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>column</td><td></td><td>false</td></tr>
+<tr><td><b>column</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>text</td><td>string</td><td>false</td></tr>
+<tr><td><b>text</b></td><td>string</td><td>Yes</td></tr>
 
 </table>
 
@@ -44,11 +44,11 @@ Displays `value` beginning at specified `row` and `column `of the home screen.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>row</td><td></td><td>false</td></tr>
+<tr><td><b>row</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>column</td><td></td><td>false</td></tr>
+<tr><td><b>column</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>value</td><td></td><td>false</td></tr>
+<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

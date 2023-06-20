@@ -19,13 +19,13 @@ Decrements `variable` by 1; skips `commandA` if `variable `< `value`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>variable</td><td></td><td>false</td></tr>
+<tr><td><b>variable</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>value</td><td></td><td>false</td></tr>
+<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>commandA</td><td></td><td>false</td></tr>
+<tr><td><b>commandA</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>commands</td><td></td><td>false</td></tr>
+<tr><td><b>commands</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

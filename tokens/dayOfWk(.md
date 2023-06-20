@@ -19,11 +19,11 @@ Returns an integer from 1 to 7, with each integer representing a day of the week
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>year</td><td></td><td>false</td></tr>
+<tr><td><b>year</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>month</td><td></td><td>false</td></tr>
+<tr><td><b>month</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>day</td><td></td><td>false</td></tr>
+<tr><td><b>day</b></td><td></td><td>Yes</td></tr>
 
 </table>
 

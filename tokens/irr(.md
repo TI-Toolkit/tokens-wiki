@@ -19,11 +19,11 @@ Returns the interest rate at which the net present value of the cash flow is equ
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>CF0</td><td></td><td>false</td></tr>
+<tr><td><b>CF0</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>CFList</td><td></td><td>false</td></tr>
+<tr><td><b>CFList</b></td><td></td><td>Yes</td></tr>
 
-<tr><td>CFFreq</td><td></td><td>true</td></tr>
+<tr><td>CFFreq</td><td></td><td><b>No</b></td></tr>
 
 </table>
 
