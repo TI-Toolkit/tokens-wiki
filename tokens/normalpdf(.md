@@ -41,11 +41,11 @@ The command can be used in two ways: normalpdf(_x_) will evaluate the standard n
 
 For the standard normal distribution, normalpdf(_x_) is defined as
 
-(1) $`\begin{align} \operatorname{normalpdf}(x)=\frac1{\sqrt{2\pi\,}} \, e^{-\frac1{2}x^2} \end{align}`$ 
+(1) $`\begin{align} \texttt{normalpdf}(x)=\frac1{\sqrt{2\pi\,}} \, e^{-\frac1{2}x^2} \end{align}`$ 
 
 For other normal distributions, normalpdf( is defined in terms of the standard distribution:
 
-(2) $`\begin{align} \operatorname{normalpdf}(x,\mu,\sigma)=\frac{1}{\sigma} \, \operatorname{normalpdf} \left(\frac{x-\mu}{\sigma}\right) \end{align}`$ 
+(2) $`\begin{align} \texttt{normalpdf}(x,\mu,\sigma)=\frac{1}{\sigma} \, \texttt{normalpdf} \left(\frac{x-\mu}{\sigma}\right) \end{align}`$ 
 
 ## Related Commands
 

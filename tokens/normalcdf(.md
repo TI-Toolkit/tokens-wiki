@@ -67,15 +67,15 @@ How much faster this is will depend on N and P, since the binomial distribution 
 
 As with other continuous distributions, any probability is an integral of the probability density function. Here, too, we can define normalcdf( for the standard normal case in terms of [normalpdf(](/normalpdf):
 
-(1) $`\begin{align} \operatorname{normalcdf}(a,b)=\int_a^b \operatorname{normalpdf}(x) \, \mathrm{d}x=\frac1{\sqrt{2\pi\,}} \int_a^b e^{-\frac1{2}x^2} \, \mathrm{d}x \end{align}`$ 
+(1) $`\begin{align} \texttt{normalcdf}(a,b)=\int_a^b \texttt{normalpdf}(x) \, \mathrm{d}x=\frac1{\sqrt{2\pi\,}} \int_a^b e^{-\frac1{2}x^2} \, \mathrm{d}x \end{align}`$ 
 
 or in terms of the [error function](https://mathworld.wolfram.com/Erf.html):
 
-(2) $`\begin{align} \operatorname{normalcdf}(a,b)=\frac1{2}\left(\operatorname{erf}\left(\frac{b}{\sqrt{2}}\right)-\operatorname{erf}\left(\frac{a}{\sqrt{2}}\right)\right) \end{align}`$ 
+(2) $`\begin{align} \texttt{normalcdf}(a,b)=\frac1{2}\left(\texttt{erf}\left(\frac{b}{\sqrt{2}}\right)-\texttt{erf}\left(\frac{a}{\sqrt{2}}\right)\right) \end{align}`$ 
 
 For the arbitrary mean μ and standard deviation σ, normalcdf( is defined in terms of the standard normal distribution, with the bounds of the interval standardized:
 
-(3) $`\begin{align} \operatorname{normalcdf}(a,b,\mu,\sigma)=\operatorname{normalcdf}\left(\frac{a-\mu}{\sigma},\frac{b-\mu}{\sigma} \right) \end{align}`$ 
+(3) $`\begin{align} \texttt{normalcdf}(a,b,\mu,\sigma)=\texttt{normalcdf}\left(\frac{a-\mu}{\sigma},\frac{b-\mu}{\sigma} \right) \end{align}`$ 
 
 ## Related Commands
 

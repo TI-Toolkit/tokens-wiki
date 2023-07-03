@@ -35,17 +35,17 @@ Since the _t_ distribution is continuous, the value of `tpdf(` doesn't represent
 
 The command takes two arguments: the first is the value where the PDF is to be evaluated, and the second is the number of degrees of freedom (so the calculator knows which _t_ distribution to use). As the degrees of freedom increases without bound, `tpdf(` approaches [normalpdf(](/normalpdf); i.e.
 
-(1) $`\begin{align} \lim_{\nu\rightarrow\infty}\operatorname{tpdf}(x,\nu)=\operatorname{normalpdf}(x) \end{align}`$ 
+(1) $`\begin{align} \lim_{\nu\rightarrow\infty}\texttt{tpdf}(x,\nu)=\texttt{normalpdf}(x) \end{align}`$ 
 
 ## Formulas
 
 The value of `tpdf(` is given by
 
-(2) $`\begin{align} \operatorname{tpdf}(t,\nu) = \frac{\Gamma((\nu+1)/2)}{\sqrt{\nu\pi}\,\Gamma(\nu/2)}\,\left(1+\frac{t^2}{\nu}\right)^{-\frac1{2}(\nu+1)} \end{align}`$ 
+(2) $`\begin{align} \texttt{tpdf}(t,\nu) = \frac{\Gamma((\nu+1)/2)}{\sqrt{\nu\pi}\,\Gamma(\nu/2)}\,\left(1+\frac{t^2}{\nu}\right)^{-\frac1{2}(\nu+1)} \end{align}`$ 
 
 (where Γ is the [gamma function](http://en.wikipedia.org/wiki/Gamma_function)), or alternatively
 
-(3) $`\begin{align} \operatorname{tpdf}(t,\nu) = \frac1{\sqrt{\nu}B(\nu/2,1/2)}\,\left(1+\frac{t^2}{\nu}\right)^{-\frac1{2}(\nu+1)} \end{align}`$ 
+(3) $`\begin{align} \texttt{tpdf}(t,\nu) = \frac1{\sqrt{\nu}B(\nu/2,1/2)}\,\left(1+\frac{t^2}{\nu}\right)^{-\frac1{2}(\nu+1)} \end{align}`$ 
 
 (where B is the [beta function](http://en.wikipedia.org/wiki/Beta_function))
 

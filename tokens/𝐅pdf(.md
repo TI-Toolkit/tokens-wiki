@@ -45,7 +45,7 @@ The _F_-distribution is used mainly in significance tests of variance.
 
 The value of the `Fpdf(` is given by
 
-(1) $`\begin{align} \operatorname{Fpdf}(x,d_1,d_2) = \frac{\left( \frac{d_1x}{d_1x+d_2} \right)^{d_1/2} \left(1-\frac{d_1x}{d_1x+d_2}\right)^{d_2/2}}{x \operatorname{B}(d_1/2,d_2/2)} \end{align}`$ 
+(1) $`\begin{align} \texttt{Fpdf}(x,d_1,d_2) = \frac{\left( \frac{d_1x}{d_1x+d_2} \right)^{d_1/2} \left(1-\frac{d_1x}{d_1x+d_2}\right)^{d_2/2}}{x \texttt{B}(d_1/2,d_2/2)} \end{align}`$ 
 
 where _B(x,y)_ is the [Beta function](http://en.wikipedia.org/wiki/beta_function).
 

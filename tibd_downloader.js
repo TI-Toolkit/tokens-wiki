@@ -426,6 +426,7 @@ for (const page of pages) {
         .replaceAll('http://mathworld.wolfram.com', 'https://mathworld.wolfram.com')
         .replaceAll('∟', 'ʟ')
         .replaceAll('<em>i</em>', '𝑖')
+        .replaceAll('\\operatorname{', '\\texttt{')
         .replaceAll('𝑖th', '<em>i<em><sup>th</sup>');
 
     const markdown = turndownService.turndown(articleHTML)

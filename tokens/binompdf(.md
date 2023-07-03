@@ -111,7 +111,7 @@ This will not work if some command inside `seq(` can take only a number and not 
 
 The value of `binompdf(` is given by the formula
 
-(1) $`\begin{align} \operatorname{binompdf}(n,p,k) = \binom{n}{k}\,p^k\,(1-p)^{n-k} = \frac{n!}{k!\,(n-k)!}\,p^k\,(1-p)^{n-k} \end{align}`$ 
+(1) $`\begin{align} \texttt{binompdf}(n,p,k) = \binom{n}{k}\,p^k\,(1-p)^{n-k} = \frac{n!}{k!\,(n-k)!}\,p^k\,(1-p)^{n-k} \end{align}`$ 
 
 This formula is fairly intuitive. We want to know the probability that out of n trials, exactly k will be successes, so we take the probability of k successes - $p^k$ - multiplied by the probability of (n-k) failures - $(1-p)^{n-k}$ - multiplied by the number of ways to choose which k trials will be successes - $\binom{n}{k}$.
 

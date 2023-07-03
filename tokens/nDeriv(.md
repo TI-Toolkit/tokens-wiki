@@ -59,7 +59,7 @@ A suitable compromise is to choose a tolerance _h_ that's based on X. As suggest
 
 The exact formula that the calculator uses to evaluate this function is:
 
-(1) $`\begin{align} \operatorname{nDeriv}(f(t),t,x,h)=\frac{f(x+h)-f(x-h)}{2h} \end{align}`$ 
+(1) $`\begin{align} \texttt{nDeriv}(f(t),t,x,h)=\frac{f(x+h)-f(x-h)}{2h} \end{align}`$ 
 
 This formula is known as the [symmetric derivative](https://en.wikipedia.org/wiki/Symmetric_derivative), and using it generally increases the accuracy of the calculation. However, in a few instances it can give erroneous answers. One case where it gives false answers is with the function,
 

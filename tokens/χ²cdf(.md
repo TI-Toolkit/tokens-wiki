@@ -49,7 +49,7 @@ The [Goodness-of-Fit Test](/goodness-of-fit) routine on the [routines](/routines
 
 As with other continuous distributions, we can define `χ²cdf(` in forms of the probability density function:
 
-(1) $`\begin{align} \operatorname{\chi^2cdf}(a,b,k) = \int_a^b \operatorname{\chi^2pdf}(x,k)\,dx \end{align}`$ 
+(1) $`\begin{align} \texttt{\chi^2cdf}(a,b,k) = \int_a^b \texttt{\chi^2pdf}(x,k)\,dx \end{align}`$ 
 
 ## Related Commands
 

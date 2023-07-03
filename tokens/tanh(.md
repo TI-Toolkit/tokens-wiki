@@ -42,7 +42,7 @@ Like normal trig commands, tanh( works on lists as well, but not on complex numb
 
 The tanh( command can be used to approximate the sign function:
 
-(1) $`\begin{align} \operatorname{sgn} x=\begin{cases}-1&\text{if }x<0,\\0&\text{if }x=0,\\1&\text{if }x>0.\end{cases} \end{align}`$ 
+(1) $`\begin{align} \texttt{sgn} x=\begin{cases}-1&\text{if }x<0,\\0&\text{if }x=0,\\1&\text{if }x>0.\end{cases} \end{align}`$ 
 
 As the absolute value of the input becomes large, the convergence is achieved at a point closer to zero. For the function to work as intended generally, numbers having lesser orders of magnitude need to be multiplied by a factor large enough for the argument to arrive at ±16.720082053122, which is the smallest input to produce ±1 (respectively) to fourteen digits of accuracy.
 

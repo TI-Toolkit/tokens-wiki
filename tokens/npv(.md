@@ -72,11 +72,11 @@ can be
 
 Without a frequency list, the formula for `npv(` is the following:
 
-(1) $`\begin{align} \operatorname{npv}(i,\operatorname{CF}_0,\{\operatorname{CF}_j\})=\sum_{j=0}^N{\operatorname{CF}_j\left(1+\frac{i}{100}\right)^{-j}} \end{align}`$ 
+(1) $`\begin{align} \texttt{npv}(i,\texttt{CF}_0,\{\texttt{CF}_j\})=\sum_{j=0}^N{\texttt{CF}_j\left(1+\frac{i}{100}\right)^{-j}} \end{align}`$ 
 
 When a frequency list is used, the same formula can be applied if we expand the list with frequencies into a long list without frequencies. However, it's possible to do the calculation directly. We define the cumulative frequency S<sub>j</sub> as the sum of the first j frequencies (S<sub>0</sub> is taken to be 0):
 
-(2) $`\begin{align} \operatorname{npv}(i,\operatorname{CF}_0,\{\operatorname{CF}_j\},\{n_j\}) =\operatorname{CF}_0+\sum_{j=1}^N{\operatorname{CF}_j\left(1+\frac{i}{100}\right)^{S_{j-1}}\frac{(1-(1+\frac{i}{100})^{-n_j})}{i}} \end{align}`$ 
+(2) $`\begin{align} \texttt{npv}(i,\texttt{CF}_0,\{\texttt{CF}_j\},\{n_j\}) =\texttt{CF}_0+\sum_{j=1}^N{\texttt{CF}_j\left(1+\frac{i}{100}\right)^{S_{j-1}}\frac{(1-(1+\frac{i}{100})^{-n_j})}{i}} \end{align}`$ 
 
 ## Error Conditions
 

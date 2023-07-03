@@ -41,29 +41,29 @@ Often, you want to find a "tail probability" - a special case for which the inte
 
 Alternatively, you can exploit the identity
 
-(1) $`\begin{align} \operatorname{tcdf}(-\infty,0,\nu)=\frac1{2} \end{align}`$ 
+(1) $`\begin{align} \texttt{tcdf}(-\infty,0,\nu)=\frac1{2} \end{align}`$ 
 
 (similarly for the interval from 0 to ∞)
 
 and thus
 
-(2) $`\begin{align} \operatorname{tcdf}(-\infty,x,\nu)=\frac1{2}+\operatorname{tcdf}(0,x,\nu) \end{align}`$ 
+(2) $`\begin{align} \texttt{tcdf}(-\infty,x,\nu)=\frac1{2}+\texttt{tcdf}(0,x,\nu) \end{align}`$ 
 
 For the form used in two-tailed tests, the following identity may be useful:
 
-(3) $`\begin{align} \operatorname{tcdf}(-x,x,\nu)=2\operatorname{tcdf}(0,x,\nu) \end{align}`$ 
+(3) $`\begin{align} \texttt{tcdf}(-x,x,\nu)=2\texttt{tcdf}(0,x,\nu) \end{align}`$ 
 
 ## Formulas
 
 As with any other continuous distribution, tcdf( can be defined in terms of the probability density function, [tpdf(](/tpdf):
 
-(4) $`\begin{align} \operatorname{tcdf}(a,b,\nu)=\int_a^b \operatorname{tpdf}(t,\nu)\mathrm{d}t \end{align}`$ 
+(4) $`\begin{align} \texttt{tcdf}(a,b,\nu)=\int_a^b \texttt{tpdf}(t,\nu)\mathrm{d}t \end{align}`$ 
 
 The function can also be expressed in terms of an [incomplete beta function](https://mathworld.wolfram.com/IncompleteBetaFunction.html).
 
 For one degree of freedom (ν=1), tcdf( is expressible in terms of simpler functions:
 
-(5) $`\begin{align} \operatorname{tcdf}(a,b,1)=\frac1{\pi}\left(\tan^{-1}\left(b\right)-\tan^{-1}\left(a\right)\right) \end{align}`$ 
+(5) $`\begin{align} \texttt{tcdf}(a,b,1)=\frac1{\pi}\left(\tan^{-1}\left(b\right)-\tan^{-1}\left(a\right)\right) \end{align}`$ 
 
 This is the so-called Cauchy distribution.
 

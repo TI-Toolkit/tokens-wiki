@@ -60,11 +60,11 @@ You can also use `invNorm()` to approximate the [inverse of a t-distribution](/i
 
 Unlike the [normalpdf(](/normalpdf) and [normalcdf(](/normalcdf) commands, the `invNorm(` command does not have a closed-form formula. It can however be expressed in terms of the [inverse error function](http://en.wikipedia.org/wiki/Error_function):
 
-(1) $`\begin{align} \operatorname{invNorm}(p) = \sqrt{2}\,\operatorname{erf}^{-1}(2p-1) \end{align}`$ 
+(1) $`\begin{align} \texttt{invNorm}(p) = \sqrt{2}\,\texttt{erf}^{-1}(2p-1) \end{align}`$ 
 
 For the arbitrary normal distribution with mean μ and standard deviation σ:
 
-(2) $`\begin{align} \operatorname{invNorm}(p,\mu,\sigma)=\mu+\sigma\operatorname{invNorm}(p) \end{align}`$ 
+(2) $`\begin{align} \texttt{invNorm}(p,\mu,\sigma)=\mu+\sigma\texttt{invNorm}(p) \end{align}`$ 
 
 ## Related Commands
 

@@ -46,7 +46,7 @@ Unlike the [tpdf(](/tpdf) and [tcdf(](/tcdf) commands, the invT( command does no
 
 For one degree of freedom, `invT(` is expressible in terms of simpler functions:
 
-(1) $`\begin{align} \operatorname{invT}(p,1)=\tan\left(\pi\left(p-\frac1{2}\right)\right) \end{align}`$ 
+(1) $`\begin{align} \texttt{invT}(p,1)=\tan\left(\pi\left(p-\frac1{2}\right)\right) \end{align}`$ 
 
 ## Related Commands
 

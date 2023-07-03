@@ -56,11 +56,11 @@ This will give about .265 when you run it, so there's a .265 probability that in
 
 The `poissoncdf(` command can be seen as a sum of [poissonpdf(](/poissonpdf) commands:
 
-(1) $`\begin{align} \operatorname{poissoncdf}(\lambda,k)=\sum_{i=0}^k \operatorname{poissonpdf}(\lambda,i) = \sum_{i=0}^k \frac {e^{-\lambda} \lambda^i}{i!} \end{align}`$ 
+(1) $`\begin{align} \texttt{poissoncdf}(\lambda,k)=\sum_{i=0}^k \texttt{poissonpdf}(\lambda,i) = \sum_{i=0}^k \frac {e^{-\lambda} \lambda^i}{i!} \end{align}`$ 
 
 We can also write the `poissoncdf(` command in terms of the [incomplete gamma function](http://en.wikipedia.org/wiki/Incomplete_gamma_function):
 
-(2) $`\begin{align} \operatorname{poissoncdf}(\lambda,k)=\frac{\Gamma(k+1,\lambda)}{k!} \end{align}`$ 
+(2) $`\begin{align} \texttt{poissoncdf}(\lambda,k)=\frac{\Gamma(k+1,\lambda)}{k!} \end{align}`$ 
 
 ## Related Commands
 

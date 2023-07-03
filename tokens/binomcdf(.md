@@ -111,7 +111,7 @@ This will not work if some command inside `seq(` can take only a number and not 
 
 Since "at most N" is equivalent to "0 or 1 or 2 or 3 or … N", and since we can combine these probabilities by adding them, we can come up with an expression for `binomcdf(` by adding up values of [binompdf(](/binompdf):
 
-(1) $`\begin{align} \operatorname{binomcdf}(n,p,k) = \sum_{i=0}^{k}\operatorname{binompdf}(n,p,i) = \sum_{i=0}^{k}\binom{n}{i}\,p^i\,(1-p)^{n-i} \end{align}`$ 
+(1) $`\begin{align} \texttt{binomcdf}(n,p,k) = \sum_{i=0}^{k}\texttt{binompdf}(n,p,i) = \sum_{i=0}^{k}\binom{n}{i}\,p^i\,(1-p)^{n-i} \end{align}`$ 
 
 (If you're not familiar with sigma notation, $\sum_{i=0}^{k}$ just means "add the following up for each value of i 0 through k")
 

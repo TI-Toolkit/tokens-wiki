@@ -42,7 +42,7 @@ For example, take an interest rate of 7.5% per year, compounded monthly. You can
 
 The formula for converting from a nominal rate to an effective rate is:
 
-(1) $`\begin{align} \operatorname{Eff}=100\left(\left(1+\frac{\operatorname{Nom}}{100 \operatorname{CP}}\right)^{\operatorname{CP}}-1\right) \end{align}`$ 
+(1) $`\begin{align} \texttt{Eff}=100\left(\left(1+\frac{\texttt{Nom}}{100 \texttt{CP}}\right)^{\texttt{CP}}-1\right) \end{align}`$ 
 
 Here, Eff is the effective rate, Nom is the nominal rate, and CP is the number of compounding periods.
 

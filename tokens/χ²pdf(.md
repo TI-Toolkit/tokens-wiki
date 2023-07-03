@@ -41,7 +41,7 @@ The command takes two arguments: the value at which to evaluate the p.d.f., and 
 
 The value of `χ²pdf(` is given by
 
-(1) $`\begin{align} \operatorname{\chi^2pdf}(x,k)=\frac{(1/2)^{k/2}}{(k/2-1)!}\,x^{k/2-1}e^{-x/2} \end{align}`$ 
+(1) $`\begin{align} \texttt{\chi^2pdf}(x,k)=\frac{(1/2)^{k/2}}{(k/2-1)!}\,x^{k/2-1}e^{-x/2} \end{align}`$ 
 
 ## Related Commands
 
