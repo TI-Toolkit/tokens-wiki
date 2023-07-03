@@ -19,28 +19,19 @@ Clears the contents of the Last Entry storage area.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `MEMORY`, `3:Clear Entries`
 <hr>
 
-## Examples
+Normally, by pressing 2nd ENTER repeatedly, you can cycle through some of the recent entries on the home screen. With the `Clear Entries` command, this history is cleared (only `Clear Entries` remains in the history).
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+This can be used to free some memory, although it's recommended not to do this in a program (because clearing things without asking first isn't nice). Aside from that, maybe the only reason to use `Clear Entries` is to protect your privacy — although someone looking at your entries will know you cleared something, so it's not that effective.
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [ClrList](/clrlist)
+*   [ClrAllLists](/clralllists)
+*   [GarbageCollect](/garbagecollect)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

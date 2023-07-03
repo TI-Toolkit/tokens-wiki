@@ -19,28 +19,24 @@ Sets floating decimal mode.
 <tt><kbd><b>mode</b></kbd></tt>, `Float`
 <hr>
 
-## Examples
+The `Float` command makes the calculator display numbers with a "floating decimal point" — only as many digits after the decimal as needed are displayed (so whole numbers, for example, are shown without any decimal points). This is the default mode, and usually the most useful.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+A technicality of displaying real numbers on the calculator: A maximum of 14 significant digits are stored in a number, but only 10 of them are actually displayed (or used for comparisons) — the rest are used for additional precision. This means that if a number is displayed as a whole number, it isn't necessarily whole. For example, 1234567890.7 will be displayed as 1234567891 (rounded to 10 significant digits), and 1.0000000003 will be displayed as 1.
 
-## Error Conditions
+This makes sense from many perspectives: if you get a result of 1.0000000003 after a calculation, odds are that this should be 1, and isn't just because of a precision error. Because the extra digits are there, though, even if they're not displayed, such a number will still be invalid for functions such as [Pxl-On(](/pxl-on) or [sub(](/sub) that want integer arguments, and this sort of error is hard to track down.
 
+Finally, note that the `Float` and [Fix](/fix) commands only change the way numbers are displayed: they are saved in the same way in each case. Even if you're in `Fix 0` mode, the calculations are not done using integers, and in general the calculations are still done using floating-point numbers no matter the number mode. The one exception is with [regressions](/regression-models): if you store a regression to an equation in Fix N mode, it will truncate the numbers involved before storing them to the equation, and as a result, the equation will be different.
 
-## Advanced Notes
+## Related Commands
 
+*   [Fix](/fix)
+*   [Normal](/normal)
+*   [Sci](/sci)
+*   [Eng](/eng)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

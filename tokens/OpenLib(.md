@@ -19,28 +19,24 @@ Extends TI-Basic. (Not available.)
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `J:OpenLib(`
 <hr>
 
-## Examples
+Together with [ExecLib](/execlib), `OpenLib(` is used on the TI-84 Plus and TI-84 Plus SE for running routines from a Flash App library. This only works, of course, with libraries that have been specifically written for this purpose. The only such library so far is [usb8x](http://usb8x.sourceforge.net/), for advanced interfacing with the USB port.
 
-Explanation 1
+The following program, which displays the version of usb8x, is an example of how to use `OpenLib(` and `ExecLib`:
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:OpenLib(USBDRV8X
+:{6
+:ExecLib
+:Ans(2)+.01Ans(3
 ```
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [ExecLib](/execlib)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 0.01 | Added |
 
-## Related Commands
 

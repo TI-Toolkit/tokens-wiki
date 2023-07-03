@@ -19,28 +19,39 @@ Returns the last answer.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>ans</kbd>
 <hr>
 
-## Examples
+The `Ans` variable holds the last answer that was stored in the calculator. Because `Ans` is stored in a special storage area built-in to the calculator, and it is extensively used by the calculator, you cannot delete it. Ans is also useful; it can make your programs both smaller and faster:
 
-Explanation 1
+*   Unlike other variables which have a value type hard-coded in (i.e., a [string](/strings) can only hold text, and [lists](/lists) and [matrices](/matrices) can only hold numbers), `Ans` can take on whatever value you want: a real or complex, list, matrix, or string are all acceptable.
+*   Along with the [finance](/system-variables#finance) variables, `Ans` is faster than the real, complex, list, matrix, and string variables; and subsequently, you should try to use it as much as possible.
+
+One of the most common places to use `Ans` is in place of storing a value to a variable. Just paste the `Ans` variable to the location where the variable was called, and then when the expression is evaluated, the calculator will use the current value of `Ans`. Using the `Ans` variable allows you to eliminate the variable, which helps save a little or a lot of memory (depending on the type of variable and its size).
+
 ```ti-basic
-code 1
+30+5A→B
+Disp 25A,30+5A
+;can be
+30+5A
+Disp 25A,Ans
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
 
-## Error Conditions
+The one major drawback to using `Ans` is that its current value is only temporary. Whenever you [store](/store) a value to a variable, place an expression or string on a line by itself, or use the optional argument of the [Pause](/pause) command, `Ans` is updated to the new value. This restriction essentially limits your use of `Ans` to only a single variable. If you are manipulating two or more variables, it's best to just use the variables.
 
+There are several cases in which changing the value of a variable does not modify `Ans`, thus preserving its current value for later use:
 
-## Advanced Notes
+*   storing to an [equation variable](/system-variables#equation)
+*   using the [DelVar](/delvar) command to delete a variable (i.e., set its value to zero, if it's a real variable)
+*   changing the value with [IS>(](/is) or [DS<(](/ds).
+*   initializing or changing the value in a [For(](/for) loop.
 
+These cases can be very useful, allowing you to use Ans to store an expression rather than create a temporary variable for it.
+
+## Timing
+
+Storing a real value into `Ans` takes approximately 1.0 ms. This does not include the time needed to compute or retrieve the value, which may be significant.
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

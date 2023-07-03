@@ -19,23 +19,21 @@ Resets all Y=editor line-style settings to Thick.
 `zT`, `Thick`
 <hr>
 
-## Examples
+The Thick command converts all lines in the current function type to be drawn using a 2-3 pixel wide line (hence "Thick"). This mode is the default line drawing mode. It can be called on the homescreen or in a program.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:AxesOff
+:GridOff
+:Thick
 ```
 
 ## Error Conditions
 
+*   **[ERR:SYNTAX](/errors#syntax)** is thrown if any character is included in the same line as the Thick command.
 
-## Advanced Notes
+## Related Commands
 
+*   [Thin](http://www.tibasicdev.wikidot.com/thin)
 
 ## History
 | Calculator | OS Version | Description |
@@ -43,5 +41,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `Connected` added |
 | <b>TI-84+CSE</b> | 4.0 | Renamed `Connected` to `Thick`
 
-## Related Commands
 

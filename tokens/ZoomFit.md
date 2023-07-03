@@ -19,28 +19,25 @@ Recalculates `Ymin` and `Ymax` to include the minimum and maximum `Y` values, be
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `0:ZoomFit`
 <hr>
 
-## Examples
+The ZoomFit zooms to the smallest window that contains all points of the currently graphed equations. In [Func](/func) mode, this means that it calculates the minimum and maximum Y-value for the current Xmin to Xmax range, and sets Ymin and Ymax to those values (Xmin and Xmax remain unchanged). In other graphing modes, this process is done for both X and Y over the range of T, θ, or _n_.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+## Optimization
+
+When graphing an equation with ZoomFit, the calculator will first calculate all points to find the minimum and maximum, then calculate all the points again to graph it. This can be time consuming if the equation is very complicated, and in that case doing part of the process manually might be faster if you reuse the points.
 
 ## Error Conditions
 
+*   **[ERR:INVALID](/errors#invalid)** is thrown if this command is using outside a program (although the menu option, of course, is fine).
+*   **[ERR:WINDOW RANGE](/errors#windowrange)** is thrown when the window ends up being empty (if the function is constant, for example)
 
-## Advanced Notes
+## Related Commands
 
+*   [ZoomStat](/zoomstat)
+*   [ZBox](/zbox)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 1.010 | Added |
 
-## Related Commands
 

@@ -19,28 +19,25 @@ Clears all values from the table.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `9:ClrTable`
 <hr>
 
-## Examples
+The `ClrTable` command clears all calculations for the table screen shown if you press 2nd TABLE. That is, all already-calculated values in the table are cleared, and [TblInput](/system-variables#window) is deleted. In [IndpntAuto](/indpntauto) and [DependAuto](/dependauto) mode, this usually isn't noticeable because the table will be recalculated almost immediately when you next look at it (unless one of the entered functions is so complicated it takes a while to calculate). This mainly has an effect in [IndpntAsk](/indpntask) or [DependAsk](/dependask) mode, where the corresponding parts of the table will be cleared entirely.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+## Advanced Uses
 
-## Error Conditions
+As a side effect, `ClrTable` seems to have all the effects of [ClrDraw](/clrdraw) — it clears the graph screen, and any equations or plots will be regraphed the next time the graph screen is displayed.
 
+## Command Timings
 
-## Advanced Notes
+`ClrTable` and `ClrDraw` take the same amount of time to clear the screen.
 
+## Related Commands
+
+*   [ClrDraw](/clrdraw)
+*   [DispGraph](/dispgraph)
+*   [DispTable](/disptable)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

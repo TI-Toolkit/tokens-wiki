@@ -31,28 +31,48 @@ Returns the interest rate at which the net present value of the cash flow is equ
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `8:irr(`
 <hr>
 
-## Examples
+The `irr(` command finds the [Internal Rate of Return](http://en.wikipedia.org/wiki/Internal_rate_of_return) of an investment, which is a measure of its efficiency. Its mathematical interpretation is the interest rate for which [npv(](/npv) will return 0 for the same cash flows.
 
-Explanation 1
+`irr(` takes three arguments: an initial cash flow (CF0), a list of further cash flows (CFList), and an optional frequency list.
+
+## Advanced Uses
+
+`irr(` can be used to find a root of a polynomial of any degree, give by a list of its coefficients:
+
 ```ti-basic
-code 1
+1+.01irr(0,{list of coefficients})
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
+
+  
+However, this method is limited to finding roots greater than 0, and will throw an error ([ERR:NO SIGN CHG](/errors#nosignchg) or [ERR:DIVIDE BY 0](/errors#divideby0)) if it can't find such roots. By reversing the list of coefficients and taking the reciprocal of the roots found, you could find roots less than 0, but this would still result in errors if such roots don't exist either.
+
+Using [solve(](/solve) to find roots of polynomials is less efficient, but more reliable, since it doesn't throw an error unless there are no roots at all to be found.
+
+## Formulas
+
+Solving for `irr(` requires solving a polynomial with degree equal to the total number of cash flows. As such, there is no general formula for calculating `irr(`, though numerical methods are possible for finding an approximate solution.
+
+The polynomial associated with the calculation is:
+
+(1) $`\begin{align} \sum_{i=0}^{N}{C_i\left(1+\frac{\mathrm{Irr}}{100}\right)^{N-i}}=0 \end{align}`$ 
+
+Here, Irr is the internal rate of return, N is the number of cash flows, and C<sub>t</sub> is the t <sup>th</sup> cash flow.
+
+To the calculator, only roots for which Irr>0 are considered to be viable.
 
 ## Error Conditions
 
+*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if the frequency list's size doesn't match the cash flow list's size.
+*   **[ERR:DIVIDE BY 0](/errors#divideby0)** is thrown if the solution that is found is Irr=0.
+*   **[ERR:NO SIGN CHG](/errors#nosignchg)** is thrown if no positive real solution is found.
 
-## Advanced Notes
+## Related Commands
 
+*   [npv(](/npv)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

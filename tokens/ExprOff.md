@@ -19,28 +19,17 @@ Turns off the expression display during TRACE.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `ExprOff`
 <hr>
 
-## Examples
+The `ExprOff` command enables a "short" form of displaying the equation or plot being traced. That is, only the number of the equation or plot will be displayed, in the top right corner of the screen. When tracing a plot, the number will be prefixed with a P to distinguish it from an equation.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+## Related Commands
 
-## Error Conditions
-
-
-## Advanced Notes
-
+*   [ExprOn](/expron)
+*   [CoordOn](/coordon)
+*   [CoordOff](/coordoff)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

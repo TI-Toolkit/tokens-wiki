@@ -53,28 +53,42 @@ TI-Innovator™ Hub
 
 <hr>
 
-## Examples
+The Wait command was introduced in TI-OS 5.2 for the TI-84+CE. The Wait command tells the calculator to wait for a specified number of seconds before continuing. The specified amount of seconds can be a decimal, as it is not limited to whole numbers. This command can be useful for displaying information momentarily before proceeding in a program. The Wait command functions similarly to the [Pause](/pause) command, but without the extra arguments.
 
-Explanation 1
 ```ti-basic
-code 1
+:Disp "WAIT FOR IT!
+:Wait 4
+:Disp "Surprise
 ```
----
-Explanation 2
+
+## Advanced Uses
+
+The Wait command is useful for facilitating automatic linking within programs. Since the [Get(](/get) and [GetCalc(](/getcalc) commands only work when the sending calculator is in a preemptible state, including a small Wait delay will allow the other calculator to receive data.
+
+Because the Wait command is relatively new, it may be advisable to avoid using it to ensure compatibility with older operating systems. Similar functionality can be achieved with the second optional argument to the [Pause](/pause) command.
+
+## Optimization
+
+Traditionally it was recommended to use either a For( loop or the rand( command to create a delay within a program. The For( loop takes more space, and the rand( command uses more memory during execution.
+
 ```ti-basic
-code 2
+:rand(100
+can be
+:Wait 1
 ```
 
 ## Error Conditions
 
+*   **[ERROR: INVALID](/errors#invalid)** is thrown if the Wait command is executed on the home screen.
 
-## Advanced Notes
+## Related Commands
 
+*   [Pause](/pause)
+*   [Menu(](/menu)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+CE</b> | 5.2.0 | Added |
 
-## Related Commands
 

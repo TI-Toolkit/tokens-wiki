@@ -53,28 +53,41 @@ TI-Innovator™ Hub
 
 <hr>
 
-## Examples
+The `eval(` command, given an expression that evaluates to a real number, returns the string representation of that number.
 
-Explanation 1
 ```ti-basic
-code 1
+eval(1337       //returns "1337"
+
+eval(2.0-3.0    //returns "‾1"
+
+eval(.0001234   //returns "1.234ᴇ‾4"
 ```
----
-Explanation 2
+
+`eval(` has more limitations than the [toString(](/tostring) command. It cannot handle lists, matrices, or complex numbers (even when the imaginary part of the complex number is zero). Another difference from `toString(` is that `eval(` is unaffected by display mode changes like [Fix](/fix).
+
+## Advanced Uses
+
+Use `eval(` in conjunction with [expr(](/expr) to evaluate a real expression in a string and return the answer in a string.
+
 ```ti-basic
-code 2
+3.14->X
+eval(expr("2X+3
+//returns "9.28"
 ```
 
 ## Error Conditions
 
+*   **[ERR:DATA TYPE](/errors#datatype)** is thrown when the expression contains a list, matrix, imaginary number, or string.
+*   **[ERR:SYNTAX](/errors#syntax)** is thrown when trying to evaluate a command that doesn't return a value.
 
-## Advanced Notes
+## Related Commands
 
+*   [toString(](/tostring)
+*   [expr(](/expr)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+CE</b> | 5.2.0 | Added |
 
-## Related Commands
 

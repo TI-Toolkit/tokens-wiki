@@ -27,28 +27,35 @@ Displays `complex value` in polar format.
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `7:Polar`
 <hr>
 
-## Examples
+The ►Polar command can be used when displaying a complex number on the home screen, or with the [Disp](/disp) and [Pause](/pause) commands. It will then format the number as though [re^θi](/re-thetai) mode were enabled. It also works with lists.
 
-Explanation 1
 ```ti-basic
-code 1
+i
+    i
+i►Polar
+    1e^(1.570796327i)
+{1,i}►Polar
+    {1 1e^(1.570796327i)}
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
+
+It will also work when displaying a number by putting it on the last line of a program by itself. It does **not** work with [Output(](/output), [Text(](/text), or any other more complicated display commands.
+
+To actually separate a number into the components of polar form, use [abs(](/abs) and [angle(](/angle).
 
 ## Error Conditions
 
+*   **[ERR:SYNTAX](/errors#syntax)** is thrown if the command is used somewhere other than the allowed display commands.
+*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if the value is real.
 
-## Advanced Notes
+## Related Commands
 
+*   [►Frac](/frac)
+*   [►Dec](/dec)
+*   [►Rect](/rect)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

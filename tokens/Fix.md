@@ -27,28 +27,22 @@ Sets fixed-decimal mode for # of decimal places.
 <tt><kbd><b>mode</b></kbd></tt>, `0123456789`
 <hr>
 
-## Examples
+The `Fix` command puts the calculator in fixed-point display mode: all numbers will be displayed with a fixed number of digits (0-9) after the decimal, depending on the argument of `Fix`. This could be useful if you're trying to display potentially fractional numbers in a limited amount of space.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+A note on more technical aspects: first, if more digits are available than are displayed, the calculator will round off the displayed number (but not its stored value), so 3.97 will be displayed as 4 in `Fix` 1 mode. Second, the `Fix` command can't force more than 10 significant digits to be displayed, so something like 123456789.1 will only display one decimal digit even in `Fix` 9 mode.
 
-## Error Conditions
+Finally, note that the [Float](/float) and `Fix` commands only change the way numbers are displayed: they are saved in the same way in each case. Even if you're in `Fix` 0 mode, the calculations are not done using integers, and in general, the calculations are still done using floating-point numbers no matter the number mode. The one exception is with [regressions](/regression-models): if you store a regression to an equation in `Fix` N mode, it will truncate the numbers involved before storing them to the equation, and as a result, the equation will be different.
 
+## Related Commands
 
-## Advanced Notes
-
+*   [Float](/float)
+*   [Normal](/normal)
+*   [Sci](/sci)
+*   [Eng](/eng)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

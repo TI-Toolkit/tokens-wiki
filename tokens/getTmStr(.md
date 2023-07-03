@@ -28,28 +28,18 @@ Returns a string of the current clock time in the format specified by `integer`,
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getTmStr(`
 <hr>
 
-## Examples
+The getTmStr( command returns the current time of the clock on the TI-84+/SE calculators as a string based on the time format that is specified. There are two different time formats available: 12 (12 hour) or 24 (24 hour). You can store this value to a [string](/strings) variable for later use, or manipulate it the same way you do with other strings. Of course, this command only works if the time format has actually been set, so you should use the [setTmFmt(](/settmfmt) command before using it.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+## Related Commands
 
-## Error Conditions
-
-
-## Advanced Notes
-
+*   [getTime](/gettime)
+*   [getTmFmt](/gettmfmt)
+*   [setTime(](/settime)
+*   [setTmFmt(](/settmfmt)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 0.01 | Added |
 
-## Related Commands
 

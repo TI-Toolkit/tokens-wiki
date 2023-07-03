@@ -27,28 +27,38 @@ Sets the mode to rectangular complex number format (a+b`i`).
 <tt><kbd><b>mode</b></kbd></tt>, `a+b`, `𝑖`
 <hr>
 
-## Examples
+The `a+b𝑖` command puts the calculator into rectangular complex number mode. This means that:
 
-Explanation 1
+*   Taking square roots of negative numbers, and similar operations, no longer returns an error.
+*   Complex results are displayed in the form `a+b𝑖` (hence the name of the command)
+
+This is the standard way of displaying complex numbers, though they can also be displayed in polar form (see [re^θi](/re-thetai) for more details). To extract the coefficients a and b, use the [real(](/real-func) and [imag(](/imag) commands.
+
+## Advanced Uses
+
+Rather than switch to a+b𝑖 mode, you might want to force the calculations to use complex numbers by making the original argument complex. The general way to do this is by adding +0𝑖 to the number. However, there may be an optimization in any particular case. See the [quadratic formula](/quadratic-formula) routine for a good example of this.
+
 ```ti-basic
-code 1
+Real
+        Done
+√(-1)    
+        (causes an error)
+√(-1+0i)        
+        i
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
 
-## Error Conditions
+## Related Commands
 
+*   [Real](/real-mode)
+*   [re^θi](/re-thetai)
 
-## Advanced Notes
+## See Also
 
+*   [Quadratic Formula](/quadratic-formula)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

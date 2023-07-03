@@ -19,28 +19,49 @@ Returns to the calling program.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `E:Return`
 <hr>
 
-## Examples
+When the Return command is used in a program it exits the program (terminating the program execution) and returns the user to the home screen. If it is encountered within [loops](/while), the loops will be stopped.
 
-Explanation 1
+There is some distinction when using Return with [subprograms](/subprograms): the Return command will stop the program execution of the subprogram, and program execution will go back to the calling program, continuing right after the subprogram call. If this functionality is not desired, then you should use the [Stop](/stop) command instead. Generally, though, you should use Return instead of Stop.
+
 ```ti-basic
-code 1
+:ClrHome
+:Input "Guess:",A
+:Stop
+Replace Stop with Return
+:ClrHome
+:Input "Guess:",A
+:Return
 ```
----
-Explanation 2
+
+## Optimization
+
+You don't have to put a Return command at the end of a program or subprogram if you can organize the program so that it just naturally quits. When the calculator reaches the end of a program, it will automatically stop executing as if it had encountered a Return command (the Return is implied).
+
 ```ti-basic
-code 2
+:ClrHome
+:Input "Guess:",A
+:Return
+Remove the Return
+:ClrHome
+:Input "Guess:",A
 ```
 
 ## Error Conditions
 
+*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
 
-## Advanced Notes
+## Related Commands
 
+*   [prgm](/prgm)
+*   [Stop](/stop)
+
+## See Also
+
+*   [Subprograms](/subprograms)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

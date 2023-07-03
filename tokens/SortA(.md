@@ -54,28 +54,23 @@ Sorts elements of `keylistname` in ascending order, then sorts each `dependlist`
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `1:SortA(`
 <hr>
 
-## Examples
+The SortA( command sorts a list in ascending order. It does not return it, but instead edits the original list variable (so it takes only list variables as arguments).
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+SortA( can also be passed multiple lists. In this case, it will sort the first list, and reorder the others so that elements which had the same indices initially will continue having the same indices. For example, suppose the X and Y coordinates of some points were stored in ʟX and ʟY, so that the Nth point had coordinates ʟX(N) and ʟY(N). Then SortA(ʟX,ʟY) would sort the points by their x-coordinates, still preserving the same points.
 
-## Error Conditions
+However, SortA( is not stable: if several elements in the first list are equal, then the corresponding elements in the subsequent lists may still end up being in a different order than they were initially.
 
+## Algorithm
 
-## Advanced Notes
+The algorithm used by SortA( and [SortD(](/sortd) appears to be a modified selection sort. It is still O(n<sup>2</sup>) on all inputs, but for some reason takes twice as long on a list with all equal elements. It is not stable.
 
+## Related Commands
+
+*   [SortD(](/sortd)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

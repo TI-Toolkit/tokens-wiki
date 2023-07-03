@@ -33,28 +33,48 @@ Prompts for value for `variableA`, then `variableB`, and so on.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Prompt`
 <hr>
 
-## Examples
+The `Prompt` command is the simplest way of getting [user input](/userinput) on the [home screen](/homescreen) (getting user input on the [graph screen](/graphscreen) is only possible with the [getKey](/getkey) command). Prompt displays [variables](/variables) one per line, with an equal sign and question mark (=?) displayed to the right of each variable. After the user enters a value or expression for the variables and presses ENTER, the values will be stored to the variables and program execution will resume.
 
-Explanation 1
+`Prompt` can be used with every variable, but some of the variables have to be entered in a certain way. If the variable is a string or equation, the user must put quotes ("") around the value; the user must also put curly braces ({}) around lists and square brackets ([]) around matrices. Of course, ending quotes, braces, and brackets can be left off as usual.
+
+When you use `Prompt` to input a named list, the `ʟ` in front of the name is dropped (so `Prompt ʟNAME` will display NAME=?). This can be confusing with single-letter names: `Prompt ʟX` and `Prompt X` both display X=?. Further enhancing the confusion, if the user enters a list for `Prompt X`, the list will be stored to ʟX instead.
+
+During the Prompt, the user can press [2nd][MODE] to quit the program immediately.
+
+## Advanced Uses
+
+Because simply displaying what variable the value will be stored to does not really tell the user what the variable will be used for, you can put a [Disp](/disp) command before `Prompt` to give the user some more insight into what an appropriate value for the variable would be. The `Prompt` command will be displayed one line lower, though, because the `Disp` command automatically creates a new line after itself. (Of course, you could also just use the [Input](/input) command.)
+
 ```ti-basic
-code 1
+:Disp "Enter the Score
+:Prompt A
 ```
----
-Explanation 2
+
+## Optimizations
+
+When you have a list of `Prompt` commands (and each one has its own variable), you can just use the first `Prompt` command and combine the rest of the other `Prompt` commands with it. You remove the `Prompt` commands and combine the arguments, separating each argument with a comma. The arguments can be composed of whatever combination of variables is desired.
+
+The advantages of combining `Prompt` commands are that it makes scrolling through code faster, and it is more compact (i.e. smaller) and easier to write than using the individual `Prompt` commands. The primary disadvantage is that it is easier to accidentally erase a `Prompt` command with multiple arguments.
+
 ```ti-basic
-code 2
+:Prompt A
+:Prompt Str1
+Combine the Prompts
+:Prompt A,Str1
 ```
 
 ## Error Conditions
 
+*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
 
-## Advanced Notes
+## Related Commands
 
+*   [Input](/input)
+*   [getKey](/getkey)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

@@ -27,28 +27,35 @@ Returns the real part of a complex number or list of complex numbers.
 <tt><kbd><b>math</b></kbd></tt>, `CPLX`, `2:real(`
 <hr>
 
-## Examples
+real(_z_) returns the real part of the complex number _z_. If _z_ is represented as _x_+i_y_ where _x_ and _y_ are both real, real(_z_) returns _x_. Also works on a list of complex numbers.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+real(3+4i)
+     3
 ```
 
-## Error Conditions
+## Advanced Uses
 
+The real( command is expanded by several [assembly libraries](/asmlibs) (such as [xLIB](/xlib) and [Omnicalc](/omnicalc)) to call their own routines. If xLib is installed, then real( will no longer work as intended even in programs that want to use it for its intended purpose.
 
-## Advanced Notes
+If you actually want to take the real part of a complex number, and want the program to work with one of these assembly libraries, you could use the [imag(](/imag) command instead - real(Z) is equivalent to imag(Z𝑖). Alternatively, you could tell people using your program to uninstall xLIB or Omnicalc first.
 
+If a program you downloaded has an error and 2:Goto takes you to a line with real( and a bunch of arguments, this is probably because the program uses Omnicalc or xLIB which you don't have installed.
+
+## Related Commands
+
+*   [abs(](/abs)
+*   [angle(](/angle)
+*   [conj(](/conj)
+*   [imag(](/imag)
+
+## See Also
+
+*   [Assembly Libraries](/asmlibs)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

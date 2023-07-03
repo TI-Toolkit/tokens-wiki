@@ -35,28 +35,32 @@ Returns the value of `variable` where the local maximum of `expression` occurs, 
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `7:fMax(`
 <hr>
 
-## Examples
+`fMax(` finds the value of _var_ between _lo_ and _hi_ at which the maximum of _f_(_var_) occurs. _tol_ controls the accuracy of the maximum value computed. The default value of _tol_ is 10<sup>-5</sup>.
 
-Explanation 1
+`fMax(` only works for real numbers and expressions. Brent's method for optimization is used for approximating the maximum value.
+
 ```ti-basic
-code 1
+fMax(sin(X)cos(X),X,0,3)
+        .7853995667
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
+
+Keep in mind that the result is the value of _var_, and not the value of _f(var)_. In this example, .7853995667 is not the highest possible value of sin(X)cos(X), but rather the X-value at which sin(X)cos(X) is the highest.
 
 ## Error Conditions
 
+*   **[ERR:BOUND](/errors#bound)** is thrown if the lower bound is greater than the upper bound.
+*   **[ERR:DOMAIN](/errors#domain)** is thrown if _tol_ is 0.
+*   **[ERR:TOL NOT MET](/errors#tolnotmet)** is thrown if the tolerance is too small for this specific function.
 
-## Advanced Notes
+## Related Commands
 
+*   [fMin(](/fmin)
+*   [fnInt(](/fnint)
+*   [nDeriv(](/nderiv)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

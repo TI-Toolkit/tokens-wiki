@@ -132,7 +132,23 @@ ${info.specialCategory}
 `;
     }
 
-    page += `
+    // for the output file name...
+    let cleanName = cleanTokNameForFile(token.name, bytes, (token?._mainCatForFilename ?? bytes), token.isAlias);
+    if (token.name !== cleanName && `${cleanName} ` !== token.name) {
+        // console.log(`[Warning] name difference for bytes ${bytes} : [${token.name ?? '???'}] vs [${cleanName}]`);
+    }
+    if (filenamesUsedSoFar[cleanName]) {
+        cleanName += `_(${bytes.substring(2)})`;
+    }
+
+    // tibd stuff
+    const tibdPath = `./input/tibd_gen/${cleanName}.md`;
+    let hasTIBDinfo = fs.existsSync(tibdPath);
+    if (hasTIBDinfo) {
+        const tibdFile = fs.readFileSync(tibdPath, 'utf8');
+        page += `\n${tibdFile}\n`;
+    } else {
+        page += `
 ## Examples
 
 Explanation 1
@@ -150,7 +166,11 @@ code 2
 
 ## Advanced Notes
 
+`;
+    }
 
+
+    page += `
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
@@ -183,19 +203,12 @@ code 2
 
     sinceUntilLines.sort((a, b) => a.localeCompare(b)).forEach((line) => { page += line + '\n'; });
 
-    page += `
-## Related Commands
-
-`;
-
-    let cleanName = cleanTokNameForFile(token.name, bytes, (token?._mainCatForFilename ?? bytes), token.isAlias);
-    if (token.name !== cleanName && `${cleanName} ` !== token.name) {
-        // console.log(`[Warning] name difference for bytes ${bytes} : [${token.name ?? '???'}] vs [${cleanName}]`);
+    if (!hasTIBDinfo) {
+        page += `\n## Related Commands\n\n`;
+    } else {
+        page += `\n\n`;
     }
 
-    if (filenamesUsedSoFar[cleanName]) {
-        cleanName += `_(${bytes.substring(2)})`;
-    }
     bytes2filename[bytes] = cleanName;
     filenamesUsedSoFar[cleanName.toLocaleLowerCase()] = true;
     fs.writeFileSync(`output/wikipages/tokens/${cleanName}.md`, page.trimStart());

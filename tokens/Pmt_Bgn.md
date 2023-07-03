@@ -19,28 +19,17 @@ Specifies an annuity due, where payments occur at the beginning of each payment 
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `F:Pmt_Bgn`
 <hr>
 
-## Examples
+The Pmt_Bgn and [Pmt_End](/pmt-end) commands toggle a setting with the finance solver. In Pmt_Bgn mode, the calculator assumes that the payments are made at the beginning of each time period, rather than at the end.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+Make sure to set the calculator to one of the modes before using the finance solving commands in a program, since otherwise the result is unpredictable.
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [Pmt_End](/pmt-end)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

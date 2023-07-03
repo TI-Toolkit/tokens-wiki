@@ -29,28 +29,52 @@ Returns the logarithm of a specifed value determined from a specified base: logB
 <tt><kbd><b>math</b></kbd></tt>
 <hr>
 
-## Examples
+The `logBASE(` command is a visual upgrade to the [log(](/log) command to compute logarithms in any base _b_. That is, the command finds the exponent that base _b_ must be raised to obtain the given value.
 
-Explanation 1
+This command can be used on both the home screen and while programming. If you are using [CLASSIC](/classic-mode) mode, the command appears as:
+
 ```ti-basic
-code 1
+logBASE(8,2)
+            3
 ```
----
-Explanation 2
+
+But in [MATHPRINT](/mathprint-mode) mode, this is improved to:
+
+log<sub>2</sub>(8)  
+            3
+
+## Formulas
+
+The log in base _b_ can also be found using the [ln(](/ln) or [log(](/log) commands. This can be done indirectly using the change-of-base formula:
+
+(1) $`\begin{align} \log_bx = {\ln x \over \ln b} = {\log x \over \log b} \end{align}`$ 
+
+Or directly, using the optional second argument of `log(`:
+
 ```ti-basic
-code 2
+logBASE(X,B
+
+can be
+
+log(X,B
 ```
+
+The `logBASE(` command costs one extra byte compared to `log(`, providing only a visual improvement over its counterpart in `MATHPRINT` mode. The `log(` command is also compatible with older OS's, although its second argument is not. Both `logBASE(` and the second argument of `log(` are disabled in exam mode.
 
 ## Error Conditions
 
+*   **[ERR:ARGUMENT](/errors#argument)** when a base is not specified
+*   **[ERR:DOMAIN](/errors#domain)** when trying to compute the logarithm of 0
+*   **[ERR:NONREAL ANS](/errors#nonrealans)** when trying to compute the logarithm of a negative number in [Real](/real-mode) mode
 
-## Advanced Notes
+## Related Commands
 
+*   [log(](/log)
+*   [ln(](/ln)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 2.53 | Added |
 
-## Related Commands
 

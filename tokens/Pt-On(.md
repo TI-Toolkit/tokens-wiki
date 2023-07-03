@@ -34,28 +34,34 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `1:Pt-On(`
 <hr>
 
-## Examples
+The Pt-On( command is used to draw a point on the graph screen at the given (X,Y) coordinates. Pt-On( is affected by the [window settings](/system-variables#window) Xmin, Xmax, Ymin, and Ymax. Make sure to change these accordingly when using it in a program, otherwise, you don't know where the point will show up.
 
-Explanation 1
+## Advanced Uses
+
+The Pt-On( command has an optional third argument that determines the shape of the point (its mark). The mark can be 1 (dot), 2 (3x3 box), 3 (3x3 cross), 6 (3x3 box), or 7 (3x3 cross). Note that by using the 3x3 shapes the X,Y coordinates will be the center of the shape and not the upperleft corner of the shape. You don't need to specify the mark when using the first mark because it is the default; also, any value that isn't 2, 3, 6, or 7 will be treated as the default of 1. Remember to use the same mark when turning a point off as you used to turn it on. Note that the mark arguments 6 and 7 are not supported on the TI-84+CE, and using them will return a domain error. The color calculators also include a color argument after the mark argument, which can be used to change the color of the point. Note that the leaving the color argument blank will result in the point being plotted with a default color of blue.
+
+If you need to convert coordinates in pixel format into point coordinate format, it can easily be done with the following formula:
+
+(X pixel coordinate*ΔX)-absolute value(Xmax)=X point  
+(Y pixel coordinate*ΔY)-absolute value(Ymax)=Y point
+
+The ΔX and ΔY variables are available under "VARS", "Window", options 8 and 9. These two variables represent the number of points per pixel on the graph screen, so multiplying the pixel value by the ratio of points to pixels will give you the point value, you then subtract the Xmax/Ymax from this value to calibrate it to the center of the screen. This formula is useful in programs that use the pixel commands for their speed advantage, but need a point value for commands such as Circle( or Line(.
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:Pt-On(5,5,1
+should be
+:Pt-On(5,5
 ```
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [Pt-Off(](/pt-off)
+*   [Pt-Change(](/pt-change)
+*   [Pxl-On(](/pxl-on)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

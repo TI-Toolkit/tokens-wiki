@@ -27,28 +27,25 @@ Returns the complex conjugate of a complex number or list of complex numbers.
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `1:conj(`
 <hr>
 
-## Examples
+`conj(` returns the complex conjugate of the complex number _z_. If _z_ is represented as _x_+i_y_ where _x_ and _y_ are both real, `conj(` returns _x_-i_y_. Also works on a list of complex numbers.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+conj(3+4i)
+     3-4i
 ```
 
-## Error Conditions
+The conjugate of a number $z$ is often written $\overline{z}$, and is useful because it has the property that $z\overline{z}$ and $z+\overline{z}$ are real numbers.
 
+## Related Commands
 
-## Advanced Notes
-
+*   [abs(](/abs)
+*   [angle(](/angle)
+*   [real(](/real-func)
+*   [imag(](/imag)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

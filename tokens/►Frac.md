@@ -27,28 +27,28 @@ Displays a real or complex number, expression, list, or matrix as a fraction sim
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `1:Frac`
 <hr>
 
-## Examples
+`►Frac` attempts to display the input in fraction form. It only works on the [home screen](/homescreen) outside a program, or with the [Disp](/disp) and [Pause](/pause) commands in a program. It takes up to 12 decimal places of a non-terminating decimal to find the corresponding fraction. The decimal input is returned if `►Frac` fails to find the fraction form.
 
-Explanation 1
+For a more versatile algorithm for finding fractions, see the [Decimal to Fraction](/decimal-to-fraction) routine.
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+.333►Frac
+        .333
+.333333333333►Frac
+         1/3
 ```
 
-## Error Conditions
+## Related Commands
 
+*   [►Dec](/dec)
 
-## Advanced Notes
+## See Also
 
+*   [Decimal to Fraction](/decimal-to-fraction)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

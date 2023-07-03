@@ -27,28 +27,13 @@ Converts the results from a fraction to mixed number or from a mixed number to a
 <tt><kbd><b>alpha</b></kbd></tt>, <kbd>F1</kbd>, `3:`, `n/d`, `Un/d`
 <hr>
 
-## Examples
+The page _n_ you want to access does not exist.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
-
-## Error Conditions
-
-
-## Advanced Notes
-
+*   [Create page](javascript:;)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 2.53 | Added |
 
-## Related Commands
 

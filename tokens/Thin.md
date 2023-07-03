@@ -19,28 +19,25 @@ Resets all Y=editor line-style settings to Thin.
 `zT`, `Thin`
 <hr>
 
-## Examples
+The Thin command will set all lines in the current function type to be only 1 pixel wide (hence "Thin"). The command can be run on the homescreen or within a program.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:AxesOff
+:GridOff
+:Thin
 ```
 
 ## Error Conditions
 
+*   **[ERR:SYNTAX](/errors#syntax)** is thrown if additional arguments are put on the command.
 
-## Advanced Notes
+## Related Commands
 
+*   [Thick](http://www.tibasicdev.wikidot.com/thick)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+CSE</b> | 4.0 | Added |
 
-## Related Commands
 

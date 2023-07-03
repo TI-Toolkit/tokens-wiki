@@ -96,23 +96,58 @@ Assigns new dimensions to a new or existing `matrixname`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `3:dim(`
 <hr>
 
-## Examples
+The `dim(` command is used to find the size of an existing list or matrix. It takes only one argument - the list or matrix you want the size of. For a list, it returns the number of elements; for a matrix, it returns a two-element list of the number of rows and the number of columns.
 
-Explanation 1
 ```ti-basic
-code 1
+:dim(L1
+    5
+:dim([A]
+    {2,3}
 ```
----
-Explanation 2
+
+The `dim(` command can also be used to change the size of a list or matrix; this is perhaps its most important use. To do this, just store the desired size to the list or matrix (the `dim(` command is the only one you can store in as though it were a variable).
+
 ```ti-basic
-code 2
+:7→dim(L1
+:{2,2→dim([A]
+```
+
+For a list, if this increases the size, zero elements will be added to the end of the list; if this decreases the size, elements will be removed starting from the end.
+
+For a matrix, if this increases the number of rows or columns, new rows or columns filled with zeros will be added to the bottom and right respectively. If this decreases the number of rows and columns, those rows and columns will be removed starting from the bottom (for rows) and right (for columns).
+
+If a list or matrix doesn't exist before its size is changed, the `dim(` command will actually create it with the correct size. All the elements, in this case, will be set to 0.
+
+## Advanced Uses
+
+In the case of lists, the `dim(` command is used in adding an element to the end of a list. Although [augment(](/augment) can be used for the same task, `dim(` is faster - but takes more memory. For example, to add the element 5 to the end of L1:
+
+```ti-basic
+:5→L1(1+dim(L1
+```
+
+It's also possible, using the `dim(` command, to set the size of a list to 0. In this case, the list exists, but doesn't take up any memory, and cannot be used in expressions (similar to the output of [ClrList](/clrlist)). This is not really useful.
+
+## Optimization
+
+When creating a list or matrix using `dim(`, all the elements are preset to 0; this can be used in place of the [Fill(](/fill) command to set a list or matrix to a bunch of zeros in a program. Since we don't usually know for sure that the list or matrix doesn't exist, we must first delete it with [DelVar](/delvar).
+
+```ti-basic
+:{5,5→dim([A]
+:Fill(0,[A]
+can be
+:DelVar [A]{5,5→dim([A]
 ```
 
 ## Error Conditions
 
+*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if you try to make a list or matrix bigger than 999 or 99x99 elements respectively, or if you try to create a matrix that isn't 2-dimensional.
 
-## Advanced Notes
+## Related Commands
 
+*   [length(](/length)
+*   [Fill(](/fill)
+*   [augment(](/augment)
 
 ## History
 | Calculator | OS Version | Description |
@@ -120,5 +155,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `dim ` added |
 | <b>TI-83</b> | 0.01013 | Renamed `dim ` to `dim(`
 
-## Related Commands
 

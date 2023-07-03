@@ -19,28 +19,17 @@ Sets mode to graph functions simultaneously.
 <tt><kbd><b>mode</b></kbd></tt>, `Simul`
 <hr>
 
-## Examples
+Simul puts the calculator into simultaneous graphing mode. When multiple equations are enabled at the same time, simultaneous graphing mode graphs them at the same time (as opposed to [Sequential](/sequential) mode, in which they will be graphed one after the other)
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+If you use a list in an equation, as with Y1={1,2,3}X, this will graph several equations that will always graph separately, regardless of this setting, which only affects multiple functions in different equation variables.
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [Sequential](/sequential)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

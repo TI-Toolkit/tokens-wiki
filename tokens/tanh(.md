@@ -27,23 +27,47 @@ Returns hyperbolic tangent of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `tanh(`
 <hr>
 
-## Examples
+Calculates the hyperbolic tangent of a value. The hyperbolic trig functions [sinh(](/sinh), [cosh(](/cosh), and tanh( are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of [e](/e-value), and don't depend on the [Degree](/degree-mode) or [Radian](/radian-mode) mode setting.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+tanh(0)
+    0
+tanh(1)
+    .761594156
 ```
 
-## Error Conditions
+Like normal trig commands, tanh( works on lists as well, but not on complex numbers, even though the function is often extended to the complex numbers in mathematics.
 
+## Advanced Uses
 
-## Advanced Notes
+The tanh( command can be used to approximate the sign function:
 
+(1) $`\begin{align} \operatorname{sgn} x=\begin{cases}-1&\text{if }x<0,\\0&\text{if }x=0,\\1&\text{if }x>0.\end{cases} \end{align}`$ 
+
+As the absolute value of the input becomes large, the convergence is achieved at a point closer to zero. For the function to work as intended generally, numbers having lesser orders of magnitude need to be multiplied by a factor large enough for the argument to arrive at ±16.720082053122, which is the smallest input to produce ±1 (respectively) to fourteen digits of accuracy.
+
+```ti-basic
+5/12→X
+    .4166666667
+tanh(E9X)
+    1
+tanh(-E9X)
+    -1
+```
+
+## Formulas
+
+The definition of the hyperbolic tangent is:
+
+(2) $`\begin{align} \tanh{x}=\frac{e^x-e^{-x}}{e^x+e^{-x}}=\frac{e^{2x}-1}{e^{2x}+1} \end{align}`$ 
+
+## Related Commands
+
+*   [sinh(](/sinh)
+*   [sinhֿ¹(](/arsinh)
+*   [cosh(](/cosh)
+*   [coshֿ¹(](/arcosh)
+*   [tanhֿ¹(](/artanh)
 
 ## History
 | Calculator | OS Version | Description |
@@ -51,5 +75,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `tanh ` added |
 | <b>TI-83</b> | 0.01013 | Renamed `tanh ` to `tanh(`
 
-## Related Commands
 

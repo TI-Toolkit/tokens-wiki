@@ -19,28 +19,22 @@ Returns a list giving the time according to the current value of the clock. The 
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getTime`
 <hr>
 
-## Examples
+The `getTime` command returns the current time that the clock has on the TI-84+/SE/CE calculators in [list](/lists) format — {_hour_, _minute_, _second_}. You can [store](/store) this list to a variable for later use, or manipulate it the same way you do with other lists. Of course, this command only works if the time has actually been set, so you should use the [setTime(](/settime) command before using it.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+An interesting note about this command is that you cannot index individual elements directly; if you try, each element of the clock is multiplied by the index. You can, however, call the demand and thus store the result in [Ans](/ans), and then retrieve the individual elements.
 
-## Error Conditions
+![SCREEN01.JPG](http://tibasicdev.wikidot.com/local--files/gettime/SCREEN01.JPG)
 
+## Related Commands
 
-## Advanced Notes
-
+*   [getTmFmt](/gettmfmt)
+*   [getTmStr(](/gettmstr)
+*   [setTime(](/settime)
+*   [setTmFmt(](/settmfmt)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 0.01 | Added |
 
-## Related Commands
 

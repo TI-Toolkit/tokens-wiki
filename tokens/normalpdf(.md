@@ -31,28 +31,31 @@ Computes the probability density function for the normal distribution at a speci
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `1:normalpdf(`
 <hr>
 
-## Examples
+normalpdf( is the normal (Gaussian) probability density function.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+Since the normal distribution is continuous, the value of normalpdf( doesn't represent an actual probability - in fact, one of the only uses for this command is to draw a graph of the normal curve. You could also use it for various calculus purposes, such as finding inflection points.
 
-## Error Conditions
+The command can be used in two ways: normalpdf(_x_) will evaluate the standard normal p.d.f. (with mean at 0 and a standard deviation of 1) at _x_, and normalpdf(_x_,_μ_,_σ_) will work for an arbitrary normal curve, with mean _μ_ and standard deviation _σ_.
 
+## Formulas
 
-## Advanced Notes
+For the standard normal distribution, normalpdf(_x_) is defined as
 
+(1) $`\begin{align} \operatorname{normalpdf}(x)=\frac1{\sqrt{2\pi\,}} \, e^{-\frac1{2}x^2} \end{align}`$ 
+
+For other normal distributions, normalpdf( is defined in terms of the standard distribution:
+
+(2) $`\begin{align} \operatorname{normalpdf}(x,\mu,\sigma)=\frac{1}{\sigma} \, \operatorname{normalpdf} \left(\frac{x-\mu}{\sigma}\right) \end{align}`$ 
+
+## Related Commands
+
+*   [normalcdf(](/normalcdf)
+*   [invNorm(](/invnorm)
+*   [ShadeNorm(](/shadenorm)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

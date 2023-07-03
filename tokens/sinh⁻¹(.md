@@ -29,23 +29,24 @@ Returns the hyperbolic arcsine of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `sinh`
 <hr>
 
-## Examples
+The sinhֿ¹( command calculates the inverse hyperbolic sine of a value. sinhֿ¹(x) is the number y such that x = sinh(y). Unlike for the standard trig functions, this uniquely determines the inverse hyperbolic sine of any real number.
 
-Explanation 1
+The sinhֿ¹( command also works for lists.
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+sinhֿ¹(0)
+    0
+sinhֿ¹({1,2,3})
+    {.881373587 1.443635475 1.818446459}
 ```
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [sinh(](/sinh)
+*   [cosh(](/cosh)
+*   [coshֿ¹(](/arcosh)
+*   [tanh(](/tanh)
+*   [tanhֿ¹(](/artanh)
 
 ## History
 | Calculator | OS Version | Description |
@@ -53,5 +54,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `sinh⁻¹ ` added |
 | <b>TI-83</b> | 0.01013 | Renamed `sinh⁻¹ ` to `sinh⁻¹(`
 
-## Related Commands
 

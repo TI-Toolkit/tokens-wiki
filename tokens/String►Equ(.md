@@ -31,28 +31,41 @@ String►Equ( is the inverse of Equ►String(.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `D:String>Equ(`, `F:String>Equ(`
 <hr>
 
-## Examples
+This command stores the contents of a string to an equation variable (such as Y<sub>1</sub> or X<sub>1T</sub>). This command can, in theory, be used whenever you need to set any equation variable.
 
-Explanation 1
+In practice, however, this command is useless. This is because the [→](/store) (store) operation can be used for the same purpose:
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:String►Equ(Str1,Y1
+can be
+:Str1→Y1
 ```
 
-## Error Conditions
+This replacement is universal, takes the same time to run (because it actually uses the same routines), is more convenient to type since you don't have to go through the command catalog, and is two bytes smaller.
 
+## Advanced
 
-## Advanced Notes
+Unlike any normal use of the → (store) operation, this situation is different because it doesn't modify [Ans](/ans). For example:
 
+```ti-basic
+:125
+:"sin(X→Y1
+:Disp Ans
+```
+
+  
+Because this use of → does not modify Ans, '125' will be displayed rather than 'sin(X'. However, if we were to replace Y1 with Str1, then the → operation would work normally, and 'sin(X' would be displayed.
+
+It's also important to realize the difference between the String►Equ( command and the related Equ►String(, aside from the fact that the latter is actually useful. The main difference is that while Equ►String('s arguments both have to be **variables**, String►Equ('s first argument can either be a variable (Str0 through Str9), a constant string (e.g., "sin(X)"), or an expression that returns a string (e.g., sub(Str1,1,5)). This applies to the → operation as well.
+
+## Related Commands
+
+*   [Equ►String(](/equ-string)
+*   [expr(](/expr)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

@@ -19,28 +19,41 @@ Displays a menu the Background Image Var n (Image#n) specified in the graph area
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `BACKGROUND`, `1:BackgroundOn`
 <hr>
 
-## Examples
+With the introduction of color and a higher resolution screen than the monochrome calculators, the TI-84+CSE and TI-84+CE included the ability to display a background image on the graphscreen. The images variables are similar to the picture variables in that there 10 slots. In addition, functions can be drawn on top of images.
 
-Explanation 1
+`BackgroundOn` recalls an image variable or color and displays it on the graphscreen.
+
 ```ti-basic
-code 1
+:BackgroundOn Image1
+is the same as
+:BackgroundOn 1
 ```
----
-Explanation 2
+
+Intrestingly, the following is a valid syntax, which fills the graphscreen with a light blue (18).
+
 ```ti-basic
-code 2
+:15→B
+:BackgroundOn B+3
+```
+
+In addition, `BackgroundOn` can be used to fill the graphscreen with a solid color. The color variables range from 10 to 24, blue to dark gray, as documented [here](/textcolor). For example, `BackgroundOn` 12 will fill the graphscreen with black.
+
+```ti-basic
+:BackgroundOn 12
 ```
 
 ## Error Conditions
 
+*   **[ERR:DOMAIN](/errors#dimmismatch)** is thrown if the number is not an integer between 0 and 24.
 
-## Advanced Notes
+## Related Commands
 
+*   [BackgroundOff](/backgroundoff)
+*   [RecallPic](/recallpic)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+CSE</b> | 4.0 | Added |
 
-## Related Commands
 

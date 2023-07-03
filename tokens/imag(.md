@@ -27,28 +27,26 @@ Returns the imaginary (non-real) part of a complex number or list of complex num
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `3:imag(`
 <hr>
 
-## Examples
+`imag(z)` returns the imaginary part of the complex number _z_. If _z_ is represented as _x_+i_y_ where _x_ and _y_ are both real, `imag(z)` returns _y_. Also works on a list of complex numbers.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+imag(3+4i)
+     4
+
+imag({3+4i,-2i,17})
+     {4,-2,0}
 ```
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [real(](/real-func)
+*   [abs(](/abs)
+*   [angle(](/angle)
+*   [conj(](/conj)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

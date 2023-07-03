@@ -29,28 +29,30 @@ Selects one or more specific data points from a scatter plot or xyLine plot (onl
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `8:Select(`
 <hr>
 
-## Examples
+When Select( is called, if it has any [Scatter](/plotn#scatter) or [xyLine](/plotn#xyline) plots to work with, it displays the graph screen and allows the user to pick a left bound and then a right bound on one of the plots (the left and right keys move from point to point, while the up and down keys switch plots). Then, it stores all the points between those bounds to _x-list name_ and _y-list name_. Finally, it sets the chosen plot to use _x-list name_ and _y-list name_ as its X and Y lists.
 
-Explanation 1
+## Optimization
+
+It isn't necessary to add the ʟ symbol before list names:
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:Select(ʟX,ʟY)
+can be
+:Select(X,Y)
 ```
 
 ## Error Conditions
 
+*   **[ERR:INVALID](/errors#invalid)** is thrown if there are no enabled Scatter or xyLine plots for the command to work with.
 
-## Advanced Notes
+## Related Commands
 
+*   [Plot1(](/plotn), [Plot2(](/plotn), [Plot3(](/plotn)
+*   [Input](/input)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

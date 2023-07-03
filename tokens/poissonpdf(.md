@@ -29,28 +29,44 @@ Computes a probability at `x` for the discrete Poisson distribution with the spe
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `C:poissonpdf(`
 <hr>
 
-## Examples
+This command is used to calculate Poisson distribution probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
 
-Explanation 1
+1.  A specific event happens at a known average rate (X occurrences per time interval)
+2.  Each occurrence is independent of the time since the last occurrence
+3.  We're interested in the probability that the event occurs a specific number of times in a given time.
+
+The `poissonpdf(` command takes two arguments: The _mean_ is the average number of times the event will happen during the time interval we're interested in. The _value_ is the number of times we're interested in the event happening (so the output is the probability that the event happens _value_ times in the interval).
+
+For example, consider point on a city street where an average of 5 cars pass by each minute. What is the probability that in a given minute, 8 cars will drive by?
+
+1.  The event is a car passing by, which happens at an average rate of 5 occurrences per time interval (a minute)
+2.  Each occurrence is independent of the time since the last occurrence (we'll assume this is true, though traffic might imply a correlation here)
+3.  We're interested in the probability that the event occurs 8 times in the time interval
+
+The syntax in this case is:
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:poissonpdf(5,8
 ```
 
-## Error Conditions
+  
+This will give about .065 when you run it, so there's a .065 probability that in a given minute, 8 cars will drive by.
 
+## Formulas
 
-## Advanced Notes
+The value of `poissonpdf(` is given by the formula
 
+(1) $`\begin{align} \operatorname{poissonpdf}(\lambda,k) = \frac{e^{-\lambda}\lambda^k}{k!} \end{align}`$ 
+
+## Related Commands
+
+*   [binompdf(](/binompdf)
+*   [binomcdf(](/binomcdf)
+*   [poissoncdf(](/poissoncdf)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

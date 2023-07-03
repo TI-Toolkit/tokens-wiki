@@ -19,28 +19,23 @@ Deselects all stat plots or one or more specified stat plots (`1`, `2`, or `3`).
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `4:PlotsOff`
 <hr>
 
-## Examples
+By itself, the command will turn off all three stat plots.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+If it is given arguments, there can be any number of them (actually, no more than 255, but this won't stop most people), but they must all be numbers 1 to 3. Then, the command will only turn off the specified plots. Unlike some commands, it is okay to give PlotsOff an expression as an argument (for example, PlotsOff X), as long as it has a value of 1, 2, or 3.
 
 ## Error Conditions
 
+*   **[ERR:DOMAIN](/errors#domain)** is thrown if a plot that is not 1, 2, or 3 is specified.
 
-## Advanced Notes
+## Related Commands
 
+*   [Plot1(, Plot2(, Plot3(](/plotn)
+*   [PlotsOn](/plotson)
+*   [Select(](/select)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

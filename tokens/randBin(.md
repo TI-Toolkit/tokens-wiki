@@ -31,28 +31,46 @@ Generates and displays a random real number from a specified Binomial distributi
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `7:randBin(`
 <hr>
 
-## Examples
+randBin(_n_,_p_) generates a pseudorandom integer between 0 and _n_ inclusive according to the binomial distribution B(_n_,_p_) - that is, _n_ trials of an event with probability of success _p_ are performed, and the number of successes is returned. randBin(_n_,_p_,_simulations_) performs the above calculation _simulations_ times, and returns a list of the results. The expected (average) result is _n_*_p_.
 
-Explanation 1
+_n_ should be an integer greater than or equal to 1, while _p_ should be a real number between 0 and 1 inclusive.
+
+_seed_→rand affects the output of randBin(
+
 ```ti-basic
-code 1
+0→rand
+     0
+randBin(5,1/2
+     2
+randBin(5,1/2,10
+     {3 3 2 4 3 2 2 2 4 3}
 ```
----
-Explanation 2
+
+## Formulas
+
+The value of randBin( for a given seed can be expressed in terms of [rand](/rand):
+
 ```ti-basic
-code 2
+randBin(N,P)=sum(P>rand(N
 ```
+
+This is identical to the output of randBin( in the sense that for the same seed, both expressions will generate the same random numbers.
 
 ## Error Conditions
 
+*   **[ERR:DOMAIN](/errors#domain)** is triggered if the probability is not on the interval from 0 to 1.
 
-## Advanced Notes
+## Related Commands
 
+*   [rand](/rand)
+*   [randInt(](/randint)
+*   [randNorm(](/randnorm)
+*   [randM(](/randm)
+*   [randIntNoRep(](/randintnorep)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

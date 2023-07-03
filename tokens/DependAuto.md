@@ -19,28 +19,18 @@ Sets table to generate dependent-variable values automatically.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Depend: Auto`
 <hr>
 
-## Examples
+When the `DependAuto` setting (opposed to the [DependAsk](/dependask) setting) is turned on, values in the table are automatically calculated. With [IndpntAuto](/indpntauto), that means the table is automatically filled out completely; with [IndpntAsk](/indpntask), that means that as soon as you enter a value for the independent variable, all the values of the dependent variables are calculated. This is usually the setting you want to use.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+## Related Commands
 
-## Error Conditions
-
-
-## Advanced Notes
-
+*   [IndpntAuto](/indpntauto)
+*   [IndpntAsk](/indpntask)
+*   [DependAsk](/dependask)
+*   [DispTable](/disptable)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

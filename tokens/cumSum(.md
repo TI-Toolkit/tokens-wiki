@@ -48,28 +48,53 @@ Returns a matrix of the cumulative sums of `matrix` elements. Each element in th
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `0:cumSum(`
 <hr>
 
-## Examples
+`cumSum(` calculates the cumulative sums of a list, or of the columns of a matrix, and outputs them in a new list or matrix variable.
 
-Explanation 1
+For a list, this means that the Nth element of the result is the sum of the first N elements of the list:
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+cumSum({1,3,5,7,9})
+    {1 4 9 16 25}
 ```
 
-## Error Conditions
+For a matrix, `cumSum(` is applied to each column in the same way as it would be for a list (but numbers in different columns are never added):
 
+```ti-basic
+[[0,1,1][0,1,3][0,1,5][0,1,7]]
+    [[0 1 1]
+     [0 1 3]
+     [0 1 5]
+     [0 1 7]]
+cumSum(Ans)
+    [[0 1 1]
+     [0 2 4]
+     [0 3 9]
+     [0 4 16]]
+```
 
-## Advanced Notes
+## Advanced Uses
 
+The [ΔList(](/deltalist) command is very nearly the inverse of the cumSum( command - it calculates the differences between consecutive elements. For any list, `ΔList(cumSum(` will return the same list, but without its first element:
+
+```ti-basic
+ΔList(cumSum({1,2,3,4,5,6,7}))
+    {2 3 4 5 6 7}
+```
+
+Removing the first element would otherwise be a difficult procedure involving the [seq(](/seq-list) command, so this is a useful trick to know.
+
+* * *
+
+For a matrix, if you want to sum up the rows instead of the columns, use the <sup>T</sup> ([transpose](/transpose)) command.
+
+## Related Commands
+
+*   [ΔList(](/deltalist)
+*   <sup>T</sup> ([transpose](/transpose))
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

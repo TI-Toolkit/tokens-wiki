@@ -19,28 +19,22 @@ Sets full screen mode.
 <tt><kbd><b>mode</b></kbd></tt>, `Full`
 <hr>
 
-## Examples
+The `Full` command cancels the effects of either [Horiz](/horiz) or [G-T](/g-t).
 
-Explanation 1
+`Full` is usually used either at the beginning and/or ending of a program. It is used at the beginning to ensure that the screen mode is `Full`, the standard setting. It is used at the end if the screen mode was changed in the middle of the program (as [clean up](/cleanup)).
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:Full
 ```
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [G-T](/g-t)
+*   [Horiz](/horiz)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

@@ -29,23 +29,43 @@ Returns the arctangent of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tan⁻¹</kbd>
 <hr>
 
-## Examples
+tanֿ¹( returns the [arctangent](https://mathworld.wolfram.com/InverseTangent.html) of its argument. It is the inverse of [tan(](/tan), which means that tanֿ¹(n) produces an angle θ such that tan(θ)=n.
 
-Explanation 1
+Like tan(, the result of tanֿ¹( depends on whether the calculator is in [Radian](/radian-mode) or [Degree](/degree-mode) mode. However, unlike tangent, the result is in degrees or radians, not the argument. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion of θ=tanֿ¹(n) from radians to degrees is θ*180/π and from degrees to radians is θ*π/180. The tanֿ¹( command also works on a list.
+
+tanֿ¹( will always return a value between -π/2 and π/2 (or -90° and 90°).
+
+In radians:
+
 ```ti-basic
-code 1
+:tanֿ¹(1)
+    .7853981634
 ```
----
-Explanation 2
+
+  
+In degrees:
+
 ```ti-basic
-code 2
+:tanֿ¹(1)
+    45
 ```
+
+## Optimization
+
+Expressions of the form tanֿ¹(_y__/x_) are usually better recast as R►Pθ(_x_,_y_); the latter will not fail even if _x_ should happen to be equal to zero.
 
 ## Error Conditions
 
+*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if you input a complex value or a matrix.
 
-## Advanced Notes
+## Related Commands
 
+*   [sin(](/sin)
+*   [sinֿ¹(](/arcsin)
+*   [cos(](/cos)
+*   [cosֿ¹(](/arccos)
+*   [tan(](/tan)
+*   [R►Pθ(](/r-ptheta)
 
 ## History
 | Calculator | OS Version | Description |
@@ -53,5 +73,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `tan⁻¹ ` added |
 | <b>TI-83</b> | 0.01013 | Renamed `tan⁻¹ ` to `tan⁻¹(`
 
-## Related Commands
 

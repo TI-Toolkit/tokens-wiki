@@ -30,28 +30,40 @@ Max rows x columns = 400 matrix elements.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `6:randM(`
 <hr>
 
-## Examples
+randM(_M_, _N_) generates an M by N matrix whose entries are pseudorandom integers between -9 and 9 inclusive.
 
-Explanation 1
+_seed_→rand affects the output of randM(.
+
 ```ti-basic
-code 1
+0→rand
+    0
+randM(3,3)
+    [[9  -3 -9]
+     [4  -2 0 ]
+     [-7 8  8 ]]
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
+
+If you actually cared about the bounds of the random numbers, this command would not be very useful, since it's hard to manipulate the matrix to yield uniformly spread random numbers in a different range.
+
+## Formulas
+
+The entries of randM( are actually the outputs of successive calls to randInt(-9,9), filled in starting at the bottom right and moving left across each row from the last row to the first.
 
 ## Error Conditions
 
+*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if the number of rows or columns of the matrix isn't an integer 1-99.
 
-## Advanced Notes
+## Related Commands
 
+*   [rand](/rand)
+*   [randInt(](/randint)
+*   [randNorm(](/randnorm)
+*   [randBin(](/randbin)
+*   [randIntNoRep(](/randintnorep)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

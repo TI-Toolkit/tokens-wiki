@@ -27,28 +27,36 @@ Returns the number of characters in `string`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `length(`
 <hr>
 
-## Examples
+This command is used to determine the length of a string. Unlike the [dim(](/dim) command for lists and matrices, it cannot be used to change this length, as there is no null character for strings (the null value is 0 for lists and matrices).
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:length("HELLO
+    5
 ```
 
-## Error Conditions
+Keep in mind that the length is measured in the number of tokens, and not the number of letters in the string. For example, although the sin( command contains 4 characters ("s", "i", "n", and "("), it will only add 1 to the total length of a string it's in. The execution time for length( is directly proportional to the length of the string.
 
+## Advanced Uses
 
-## Advanced Notes
+The code for looping over each character (technically, each token) of a string involves length(:
 
+```ti-basic
+:For(N,1,length(Str1
+...
+use sub(Str1,N,1 for the Nth character
+...
+:End
+```
+
+## Related Commands
+
+*   [expr(](/expr)
+*   [inString(](/instring)
+*   [sub(](/sub)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

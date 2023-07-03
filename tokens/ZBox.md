@@ -19,28 +19,23 @@ Displays a graph, lets you draw a box that defines a new viewing window, and upd
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `1:ZBox`
 <hr>
 
-## Examples
+The ZBox command allows the user to select a smaller window within the current graphing window to zoom in to. To select the window, use the arrow keys and ENTER to select one corner of the window; then as you use the arrow keys and ENTER to select the other corner, a rectangle of the window's dimensions will be shown.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+It's not recommended to use this in most programs, because entering an empty window (with no width or no height) will cause an error and exit the program without letting it clean up.
 
 ## Error Conditions
 
+*   **[ERR:INVALID](/errors#invalid)** occurs if this command is used outside a program.
+*   **[ERR:ZOOM](/errors#zoom)** is thrown if an empty window is selected (with no width or no height)
 
-## Advanced Notes
+## Related Commands
 
+*   [Zoom In](/zoom-in)
+*   [Zoom Out](/zoom-out)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

@@ -19,28 +19,20 @@ Sets normal display mode.
 <tt><kbd><b>mode</b></kbd></tt>, `Normal`
 <hr>
 
-## Examples
+The Normal command puts the calculator in normal number mode, in which it only uses scientific notation for large enough numbers (10 000 000 000 or higher), negative numbers large enough in absolute value (-10 000 000 000 or lower), or numbers close enough to 0 (less than .001 and greater than -.001)
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+The other possible settings are [Sci](/sci) (which always uses scientific notation), or [Eng](/eng) (which uses a specific form of scientific notation based on powers of 1000)
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [Sci](/sci)
+*   [Eng](/eng)
+*   [Float](/float)
+*   [Fix](/fix)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

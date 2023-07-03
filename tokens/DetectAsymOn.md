@@ -19,28 +19,17 @@ Turns on checks for rational function asymptotes when graphing. Impacts graph sp
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>
 <hr>
 
-## Examples
+When `DetectAsymOn` is selected, the calculator will detect asymptotes, adjusting the graph accordingly. This method of graphing is the most accurate but is also much slower than graphing with asymptotes turned off.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+An asymptote is, by definition, "a line that continually approaches a given curve but does not meet it at any finite distance." Basically, an asymptote is the line where a function does not have any values on a certain axis.
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [DetectAsymOff](/detectasymoff)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+CSE</b> | 4.0 | Added |
 
-## Related Commands
 

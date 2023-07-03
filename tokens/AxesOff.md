@@ -19,28 +19,21 @@ Turns off the graph axes.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `AxesOff`
 <hr>
 
-## Examples
+The `AxesOff` command disables the X and Y axes on the graph screen, so that they aren't drawn. They can be enabled again with the [AxesOn](/axeson) command.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+(the y=x line that is drawn when both [Seq](/seq-mode) and [Web](/web) modes are enabled is also controlled by this command)
 
-## Error Conditions
+Generally, the `AxesOff` command should be used at the beginning of the program to disable the axes if the program is going to use the graph screen, since the axes get in the way. However, you should consider using [StoreGDB](/storegdb) and [RecallGDB](/recallgdb) to save this setting if that's the case.
 
+## Related Commands
 
-## Advanced Notes
-
+*   [AxesOn](/axeson)
+*   [LabelOn](/labelon)
+*   [LabelOff](/labeloff)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

@@ -19,28 +19,31 @@ Sets diagnostics-on mode; `r`, `r`², and `R`² are displayed as regression mode
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `DiagnosticOn`
 <hr>
 
-## Examples
+After the `DiagnosticOn` command is executed, all regression commands found in the STAT>CALC menu, as well as [LinRegTTest](/linregttest), will display the correlation statistics r and r² (or R<sup>2</sup> for regressions that are not linear). This is turned off by default, but there is no disadvantage whatsoever to turning it on. To reverse this command, execute the [DiagnosticOff](/diagnosticoff) command.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+The statistic r, known as the Pearson correlation coefficient, measures the strength and direction of any linear relationship in the data. If r is close to 1, then the relationship is strong and positive (that is, the variables increase and decrease together). If r is close to -1, then the relationship is strong and negative (that is, as one variable increases, the other decreases). If r is close to 0, there is no linear relationship.
 
-## Error Conditions
+The statistic r² or R², known as the coefficient of determination, is equal to the square of the above value (when it exists) and is also a measure of the strength of a relationship. Specifically, it represents the proportion of variance in the dependent variable that is accounted for by the regression model. If this value is close to 1, there is a strong relationship; if it's close to 0, there is either no relationship or the regression model is not appropriate for the data.
 
+## Advanced
 
-## Advanced Notes
+Although these statistics are a good indication of whether a regression curve is good or not, they are not infallible. For example, the initial portion of data that actually correlates exponentially may well appear linear and have a high correlation coefficient with a linear fit.
 
+Another good way to check a regression curve is to look at the plot of the residuals vs. the x-values. If the regression curve is a good fit, then this plot should appear random in going from positive to negative. However, should you see a distinct pattern - say, if you tried a linear fit but the residual plot looks vaguely parabolic - you know you should try a different regression curve.
+
+You should also consider what your regression line implies about the nature of the data and vice versa. For example, if you're comparing the height of release of a ball to the time it takes to fall, a natural assumption is that the regression curve should pass through (0,0), and a curve that doesn't do that may be incorrect. However, take this advice with a grain of salt: if your curve fits the data points you put in but not such natural-assumption points, that may simply mean that the curve works on a limited domain. Or, it may mean your assumptions are wrong.
+
+## Command Timings
+
+Although the correlation statistics are displayed with `DiagnosticOn`, they are calculated in either case. This means that `DiagnosticOn` and [DiagnosticOff](/diagnosticoff) will not change how fast regressions are calculated.
+
+## Related Commands
+
+*   [DiagnosticOff](/diagnosticoff)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 1.010 | Added |
 
-## Related Commands
 

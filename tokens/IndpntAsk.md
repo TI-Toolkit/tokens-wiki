@@ -19,28 +19,22 @@ Sets table to ask for independent-variable values.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Indpnt: Ask`
 <hr>
 
-## Examples
+With the `IndpntAsk` setting, the independent variable (X, T, θ, or _n_ depending on [graphing mode](/graphing-mode)) will not be calculated automatically in the table. Instead, when looking at the table, you must select an entry in the independent variable column, press ENTER, and enter a value. The values entered will also be stored to the [TblInput](/system-variables#window) list.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+(To access the table, press [2ND][TABLE], or use the [DispTable](/disptable) command in a program)
 
-## Error Conditions
+The alternative, [IndpntAuto](/indpntauto), fills in several values starting at `TblStart` and increasing by `ΔTbl`, and makes the table scrollable (up and down).
 
+## Related Commands
 
-## Advanced Notes
-
+*   [IndpntAuto](/indpntauto)
+*   [DependAuto](/dependauto)
+*   [DependAsk](/dependask)
+*   [DispTable](/disptable)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

@@ -19,28 +19,27 @@ Sets scientific notation display mode.
 <tt><kbd><b>mode</b></kbd></tt>, `Sci`
 <hr>
 
-## Examples
+The Sci command puts the calculator in scientific notation mode, so that all results are displayed in scientific notation: as a (possibly fractional) number between 1 and 10 (not including 10) multiplied by a power of 10.
 
-Explanation 1
 ```ti-basic
-code 1
+Sci
+        Done
+1000
+        1e3
+{1,2,3}
+        {1e0 2e0 3e0}
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [Normal](/normal)
+*   [Eng](/eng)
+*   [Float](/float)
+*   [Fix](/fix)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

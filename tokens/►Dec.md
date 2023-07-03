@@ -27,28 +27,24 @@ Displays a real or complex number, expression, list, or matrix in decimal format
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `2:Dec`
 <hr>
 
-## Examples
+This command is generally useless. Its supposed use is to convert numbers into decimal form, but any typed fractions are displayed as decimals anyway.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+1/3
+     .3333333333
+1/3►Dec
+     .3333333333
 ```
 
-## Error Conditions
+In 2.53 MP or higher, typed fractions are displayed in fraction form. Therefore, the `►Dec` command is useful in this case.
 
+## Related Commands
 
-## Advanced Notes
-
+*   [►Frac](/frac)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

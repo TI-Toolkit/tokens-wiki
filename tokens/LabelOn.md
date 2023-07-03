@@ -19,28 +19,23 @@ Turns on axes labels.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `LabelOn`
 <hr>
 
-## Examples
+The `LabelOn` setting enables labels on the X and Y coordinate axes. If both `LabelOn`and [AxesOn](/axeson) are set, the axes will be displayed with an X next to the X (horizontal) axis, and a Y next to the Y (vertical) axis. To disable these labels, use the [LabelOff](/labeloff) setting.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+`LabelOn` and `LabelOff` have no effect if the coordinate axes aren't displayed; there's nothing to label.
 
-## Error Conditions
+A somewhat quirky behavior of the X and Y labels is that they aren't saved by [StorePic](/storepic). If you save a picture of the graph screen, it records every detail of the way it looks, including equations, drawn elements, axes, grid, everything — but not the labels.
 
+One final comment: okay, so by the way the command works we know it was once _intended_ to label the axes. However, the command doesn't actually check where the axes _are_. It puts an "x" slightly above the bottom right corner, and a "y" slightly below the top left. Most of the time, including the default graphing window, that doesn't help you to distinguish the axes in the slightest. And in split-screen mode, as shown in the screenshot, they both seem to label the x-axis. Weird.
 
-## Advanced Notes
+## Related Commands
 
+*   [LabelOff](/labeloff)
+*   [AxesOn](/axeson)
+*   [AxesOff](/axesoff)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

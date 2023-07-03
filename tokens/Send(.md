@@ -54,28 +54,25 @@ TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2
 <tt><kbd><b>prgm</b></kbd></tt>, `HUB`
 <hr>
 
-## Examples
+The Send( command is used for sending data to a CBL (Calculator Based Laboratory) device (or another compatible device) via a link cable. With some exceptions, Send('s argument must be a variable: a real number, list, matrix, string, equation, picture, or GDB. An expression or a number will not work — Send(5) or Send([A][B]) is invalid.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+The exceptions are list or matrix elements (that is, you can do Send([A](1,1)) or Send(L1(2)) without an error) and non-variable lists typed out with { } brackets and commas.
 
-## Error Conditions
+## Norland Robot
 
+You can use Send( with a Get( for a Norland calculator robot. The format called CLR format. C stands for command number, L stands for left axle, and R stands for right axle. If the command number is 1, it makes the robot moves in a direction for the time specified later in the command. If it is 2, the robot moves until the bumper hits a wall. If it is 3, it moves for a specified amount of time and stops when the robot when the bumper hits a wall. For example, send({122,100}) will make the robot move forward for 100 centiseconds, send({222}) makes it go forward until the bumper hits the wall, and send({322,100}) makes the robot move forward for 100 centiseconds and stops it when the bumper is pressed. The last two axle control numbers are like this:  
+0=backwards  
+1=stop  
+2=forwards
 
-## Advanced Notes
+## Related Commands
 
+*   [Get(](/get)
+*   [GetCalc(](/getcalc)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

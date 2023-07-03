@@ -30,28 +30,36 @@ Converts value to a string where `value` can be real, complex, an evaluated expr
 <tt><kbd><b>prgm</b></kbd></tt>, `E:toString(`, `C:toString(`
 <hr>
 
-## Examples
+The `toString(` command, given any value including real numbers, complex numbers, lists, or matrices, returns the string representation of the value of the input.
 
-Explanation 1
 ```ti-basic
-code 1
+toString(1337       //returns "1337"
+
+toString({1,2,3}    //returns "{1,2,3}"
+
+toString([[1,2][3,4]]   //returns "[[1,2][3,4]]"
+
+toString(√-1     //returns imaginary number "i"
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
+
+`toString(` has less limitations than the [eval(](/eval) command. It can handle lists, matrices, and complex numbers. Another difference from `eval(` is that `toString(` is affected by display mode changes like [Fix](/fix).
+
+`toString(` replaces the old [number-to-string](/number-to-string) routine previously used prior to OS 5.2.
 
 ## Error Conditions
 
+*   **[ERR:DATA TYPE](/errors#datatype)** is thrown when the input is a string.
+*   **[ERR:NONREAL ANSWERS](/errors#nonrealans)** is thrown when the input is a complex number and your calculator is in REAL mode.
+*   **[ERR:SYNTAX](/errors#syntax)** is thrown when trying to evaluate a command that doesn't return a value.
 
-## Advanced Notes
+## Related Commands
 
+*   [eval(](/eval)
+*   [expr(](/expr)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+CE</b> | 5.2.0 | Added |
 
-## Related Commands
 

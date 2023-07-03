@@ -19,28 +19,30 @@ Clears the home screen.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `8:ClrHome`
 <hr>
 
-## Examples
+There are numerous times in a program that you need a clear screen, so that you can display whatever text you want without it being interrupted. One place, in particular, is at the [beginning](/setup) of a program, since the previous program call(s) and any other text is typically still displayed on the screen. The simple `ClrHome` command is the command you use to clear the home screen.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+When you use the `ClrHome`, it resets the cursor position to the top left corner of the home screen. This is what the [Disp](/disp) and [Pause](/pause) commands use as the reference for what line to display their text on, but it does not have any effect on [Output(](/output).
+
+## Advanced Uses
+
+You want to make sure to clear the home screen when [exiting](/cleanup) programs (at the end of a program). This ensures that the next program that the user runs will not have to deal with whatever text your program left behind. It also helps the user, because they will not have to manually clear the home screen by pressing the CLEAR key; you have already done it for them.
 
 ## Error Conditions
 
+*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
 
-## Advanced Notes
+## Related Commands
 
+*   [ClrDraw](/clrdraw)
+
+## See Also
+
+*   [Program Setup](/setup)
+*   [Program Cleanup](/cleanup)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

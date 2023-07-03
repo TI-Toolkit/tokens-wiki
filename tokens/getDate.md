@@ -19,28 +19,22 @@ Returns a list giving the date according to the current value of the clock. The 
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getDate`
 <hr>
 
-## Examples
+The `getDate` command returns the current date that the clock has on the TI-84+/SE/CE calculators in [list](/lists) format — {_year_, _month_, _day_}. You can [store](/store) this list to a variable for later use, or manipulate it the same way you do with other lists. Of course, this command only works if the date has actually been set, so you should use the [setDate(](/setdate) command before using it.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+An interesting note about this command is that you cannot index `getDate` directly to get individual elements; if you try, each element of the clock is instead multiplied by the number. You may, however, call the command and thus store it in [Ans](/ans), then retrieve individual elements.
 
-## Error Conditions
+![SCREEN02.BMP](http://tibasicdev.wikidot.com/local--files/getdate/SCREEN02.BMP)
 
+## Related Commands
 
-## Advanced Notes
-
+*   [getDtFmt](/getdtfmt)
+*   [getDtStr(](/getdtstr)
+*   [setDate(](/setdate)
+*   [setDtFmt(](/setdtfmt)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 0.01 | Added |
 
-## Related Commands
 

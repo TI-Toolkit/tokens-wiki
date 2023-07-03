@@ -27,23 +27,61 @@ Returns the fractional part or parts of a real or complex number, expression, li
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `4:fPart(`
 <hr>
 
-## Examples
+`fPart(value)` returns the fractional part of _value_, be it a variable, list, or matrix.
 
-Explanation 1
 ```ti-basic
-code 1
+fPart(5.32)
+             .32
+fPart(4/5)
+              .8
+fPart(‾5.32)
+             ‾.32
+fPart(‾4/5)
+              ‾.8
 ```
----
-Explanation 2
+
+## Advanced Uses
+
+`fPart(`, along with [int(](/int) or [iPart(](/ipart), can be used for integer [compression](/compression).
+
+* * *
+
+Also, `fPart(` is an easy way to find A mod B (the positive remainder when A is divided by B).
+
 ```ti-basic
-code 2
+:B(A<0)+iPart(BfPart(A/B))
 ```
 
-## Error Conditions
+If A is guaranteed to be positive, the following shorter code can be used, omitting `B(A<0)`:
 
+```ti-basic
+:iPart(BfPart(A/B))
+```
 
-## Advanced Notes
+* * *
 
+Finally, the easiest way to check if a number is a whole number is `not(fPart(X`:
+
+```ti-basic
+:If not(fPart(X:Then
+: // X is an integer
+:Else
+: // X is not an integer
+:End
+```
+
+This can be used, for example, to check if a number is divisible by another: if X is divisible by N, then X/N is a whole number. This is useful for finding the [factors](/factorization) of a number. Warning: when storing values with repeating decimals and later multiplying them to see if a number makes it an integer it can return a value of 1 or -1 instead of 0 even if it is an integer do rounding errors. Example: storing 1/3 to X and computing`fPart(3X)` will return 1 instead of 0. This is because `fPart(.999…)` results in .999… and then rounds to 1 when displaying rather than rounding to 1.0 and then displaying the `fPart(` as 0.
+
+## Related Commands
+
+*   [int(](/int)
+*   [iPart(](/ipart)
+*   [round(](/round)
+
+## See Also
+
+*   [Compression](/compression)
+*   [Number Factorization](/factorization)
 
 ## History
 | Calculator | OS Version | Description |
@@ -51,5 +89,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `fPart ` added |
 | <b>TI-83</b> | 0.01013 | Renamed `fPart ` to `fPart(`
 
-## Related Commands
 

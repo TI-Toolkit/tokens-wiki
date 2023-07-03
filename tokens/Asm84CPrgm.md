@@ -16,28 +16,11 @@
 
 <hr>
 
-## Examples
-
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
-
-## Error Conditions
-
-
-## Advanced Notes
-
+Please see the [AsmPrgm](/asmprgm) page. The functionality and use is the same between both commands. However, the `Asm84CPrgm` is only available on the TI-84+CSE calculator. Keep in mind that hexadecimal for the monochrome calculators may not work on color calculators.
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+CSE</b> | 4.0 | Added |
 
-## Related Commands
 

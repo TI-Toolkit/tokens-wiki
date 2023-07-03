@@ -19,28 +19,58 @@ Replots the functions immediately, updating the window variables to the default 
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `6:ZStandard`
 <hr>
 
-## Examples
+The ZStandard command resets all [window variables](/system-variables#window) found in the Window screen to their default values. This means that, unlike the other zoom commands, ZStandard can affect variables other than Xmin, Xmax, Ymin, and Ymax. However, it will only affect variables that have a purpose in the current [graphing mode](/graphing-mode). Here are the default values set by ZStandard:
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+In all modes:
+
+*   Xmin=-10
+*   Xmax=10
+*   Xscl=1
+*   Ymin=-10
+*   Ymax=10
+*   Yscl=1
+
+Only in [Func](/func) mode:
+
+*   Xres=1
+
+Only in [Param](/param) mode:
+
+*   Tmin=0
+*   Tmax=2π (in [Radian](/radian-mode) mode) or 360 (in [Degree](/degree-mode) mode)
+*   Tstep=π/24 (in Radian mode) or 7.5 (in Degree mode)
+
+Only in [Polar](/polar-mode) mode:
+
+*   θmin=0
+*   θmax=2π (in Radian mode) or 360 (in Degree mode)
+*   θstep=π/24 (in Radian mode) or 7.5 (in Degree mode)
+
+Only in [Seq](/seq-mode) mode:
+
+*   _n_Min=1
+*   _n_Max=10
+*   PlotStart=1
+*   PlotStep=1
+
+These settings are often useful as a "lowest common denominator" that will work fairly well for all graphs.
+
+## Advanced Uses
+
+ZStandard is often used before commands such as [ZSquare](/zsquare) or [ZInteger](/zinteger) in programs. This serves two purposes: it makes sure that the center of the screen for ZSquare and ZInteger is (0,0), and it ensures that the graph screen is cleared without having to resort to [ClrDraw](/clrdraw) (because with two different zooms in a row, the window settings have to change at least once, which means the graph will have to be regraphed)
 
 ## Error Conditions
 
+*   **[ERR:INVALID](/errors#invalid)** occurs if this command is used outside a program.
 
-## Advanced Notes
+## Related Commands
 
+*   [ZSquare](/zsquare)
+*   [ZInteger](/zinteger)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

@@ -19,28 +19,17 @@ Turns off axes labels.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `LabelOff`
 <hr>
 
-## Examples
+The LabelOff setting disables labels on the X and Y coordinate axes. This is unnecessary if you've disabled the axes themselves, since the labels are only displayed when the axes are. To enable the labels, use the reverse setting [LabelOn](/labelon).
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+## Related Commands
 
-## Error Conditions
-
-
-## Advanced Notes
-
+*   [LabelOn](/labelon)
+*   [AxesOn](/axeson)
+*   [AxesOff](/axesoff)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

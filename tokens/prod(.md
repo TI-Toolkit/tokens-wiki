@@ -31,28 +31,43 @@ Returns product of `list` elements between `start` and `end`
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `6:prod(`
 <hr>
 
-## Examples
+The prod( command calculates the product of all or part of a list.
 
-Explanation 1
+When you use it with only one argument, the list, it multiplies all the elements of the list. You can also give it a bound of _start_ and _end_ and it will only multiply the elements starting and ending at those indices (inclusive).
+
 ```ti-basic
-code 1
+prod({1,2,3,4,5})
+    120
+prod({1,2,3,4,5},2,4)
+    24
+prod({1,2,3,4,5},3)
+    60
 ```
----
-Explanation 2
+
+## Optimization
+
+If the value of _end_ is the last element of the list, it can be omitted:
+
 ```ti-basic
-code 2
+prod({1,2,3,4,5},3,5)
+can be
+prod({1,2,3,4,5},3)
 ```
 
 ## Error Conditions
 
+*   **[ERR:DOMAIN](/errors#domain)** if the starting or ending value aren't positive integers.
+*   **[ERR:INVALID DIM](/errors#invaliddim)** if the starting or ending value exceed the size of the list, or are in the wrong order.
 
-## Advanced Notes
+## Related Commands
 
+*   [sum(](/sum)
+*   [dim(](/dim)
+*   [seq(](/seq-list)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

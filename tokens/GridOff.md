@@ -19,28 +19,17 @@ Turns off grid format.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `GridOff`
 <hr>
 
-## Examples
+The `GridOff` command disables the grid on the graph screen. This is the default setting. Use [GridOn](/gridon) to enable the grid.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+## Related Commands
 
-## Error Conditions
-
-
-## Advanced Notes
-
+*   [GridOn](/gridon)
+*   [AxesOn](/axeson)
+*   [AxesOff](/axesoff)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

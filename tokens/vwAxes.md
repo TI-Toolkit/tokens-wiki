@@ -19,28 +19,26 @@ Sets sequence graphs to plot `v(n``)` on the x-axis and `w(``n``)` on the y-axis
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `vw`
 <hr>
 
-## Examples
+When vwAxes is enabled, and the calculator is in [Seq](/seq-mode) mode, the equations v and w will be graphed against each other (that is, the points (v(_n_),w(_n_)) are graphed for the values of _n_ between _n_Min and _n_Max). With this setting, sequence mode graphs are a bit like [parametric](/param) mode, except the parameter _n_ is always an integer, and recursive definitions are possible.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+The equation u is ignored when in vwAxes mode.
+
+See "Related Commands" for other possibilities of graphing sequences.
 
 ## Error Conditions
 
+*   **[ERR:INVALID](/errors#invalid)** is thrown if either v or w is undefined.
 
-## Advanced Notes
+## Related Commands
 
+*   [Time](/time)
+*   [Web](/web)
+*   [uvAxes](/uvaxes)
+*   [uwAxes](/uwaxes)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

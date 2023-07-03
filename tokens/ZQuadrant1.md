@@ -19,28 +19,25 @@ Displays the portion of the graph that is in quadrant 1.
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `A:ZQuadrant1`
 <hr>
 
-## Examples
+ZQuadrant1 was introduced in OS 2.53MP. As it's name might imply, it puts Quadrant I in the viewing window (the upper-left quadrant). Here are the window settings it affects:
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+*   Xmin is set to 0 and Xmax is set to 9.4 making each pixel .1 units.
+*   Ymin is set to 0 and Ymax is set to 9.4 (each pixel is 47/310 units)
+*   Xscl and Yscl are set to 1
+*   ΔX is set to .1
+*   ΔY is set to 47/310
+*   Xres is set to 1
 
-## Error Conditions
+**This command does not seem to work in programs.**
 
+## Related Commands
 
-## Advanced Notes
-
+*   [ZDecimal](/zdecimal)
+*   [ZSquare](/zsquare)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 0.01 | Added |
 
-## Related Commands
 

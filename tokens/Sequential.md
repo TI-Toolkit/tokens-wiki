@@ -19,28 +19,19 @@ Sets mode to graph functions sequentially.
 <tt><kbd><b>mode</b></kbd></tt>, `Sequential`
 <hr>
 
-## Examples
+Puts the calculator into sequential graphing mode (the default). When multiple equations are enabled at the same time, sequential graphing mode means that they will be graphed one after the other (as opposed to [Simul](/simul) mode, in which they will be graphed simultaneously)
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+If you use a list in an equation, as with Y1={1,2,3}X, this will graph several equations that will always graph separately, regardless of this setting, which only affects multiple functions in different equation variables.
 
-## Error Conditions
+Make sure not to confuse this with [Seq](/seq-mode) mode, which is referred to in this guide as sequence graphing mode.
 
+## Related Commands
 
-## Advanced Notes
-
+*   [Simul](/simul)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

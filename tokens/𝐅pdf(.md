@@ -33,28 +33,30 @@ Computes the 𝐅 distribution probability between `lowerbound `and `upperbound`
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `9:pdf(`
 <hr>
 
-## Examples
+`Fpdf(` is the _F_-distribution probability density function.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+Since the _F_-distribution is continuous, the value of `Fpdf(` doesn't represent an actual probability - in fact, one of the only uses for this command is to draw a graph of the distribution. You could also use it for various calculus purposes, such as finding inflection points.
 
-## Error Conditions
+The command takes 3 arguments: _x_ is the point at which to evaluate the function (when graphing, use X for this argument), _numerator df_ and _denominator df_ are the numerator degrees of freedom and denominator degrees of freedom respectively (these specify a single `Fpdf(` curve out of an infinite family).
 
+The _F_-distribution is used mainly in significance tests of variance.
 
-## Advanced Notes
+## Formulas
 
+The value of the `Fpdf(` is given by
+
+(1) $`\begin{align} \operatorname{Fpdf}(x,d_1,d_2) = \frac{\left( \frac{d_1x}{d_1x+d_2} \right)^{d_1/2} \left(1-\frac{d_1x}{d_1x+d_2}\right)^{d_2/2}}{x \operatorname{B}(d_1/2,d_2/2)} \end{align}`$ 
+
+where _B(x,y)_ is the [Beta function](http://en.wikipedia.org/wiki/beta_function).
+
+## Related Commands
+
+*   [Fcdf(](/fcdf)
+*   [ShadeF(](/shadef)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

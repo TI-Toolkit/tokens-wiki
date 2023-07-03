@@ -29,23 +29,30 @@ Returns hyperbolic arccosine of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `cosh`
 <hr>
 
-## Examples
+The `coshֿ¹(` function gives the inverse hyperbolic cosine of a value. `coshֿ¹(x)` is the number y such that x = `cosh(y)`.
 
-Explanation 1
+Although `coshֿ¹(x)` can be defined for all real and complex numbers, it assumes real values only for x≥1. Since hyperbolic functions in the Z80 calculators are restricted only to real values, [ERR:DOMAIN](/errors#domain) is thrown when x<1.
+
+The `coshֿ¹(` command also works for lists.
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+coshֿ¹(1)
+    0
+coshֿ¹({2,3})
+    {1.316957897 1.762747174}
 ```
 
 ## Error Conditions
 
+*   **[ERR:DOMAIN](/errors#domain)** when taking the inverse cosh of a number less than 1.
 
-## Advanced Notes
+## Related Commands
 
+*   [sinh(](/sinh)
+*   [sinhֿ¹(](/arsinh)
+*   [cosh(](/cosh)
+*   [tanh(](/tanh)
+*   [tanhֿ¹(](/artanh)
 
 ## History
 | Calculator | OS Version | Description |
@@ -53,5 +60,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `cosh⁻¹ ` added |
 | <b>TI-83</b> | 0.01013 | Renamed `cosh⁻¹ ` to `cosh⁻¹(`
 
-## Related Commands
 

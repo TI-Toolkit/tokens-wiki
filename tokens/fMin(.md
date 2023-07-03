@@ -35,28 +35,37 @@ Returns the value of `variable` where the local minimum of `expression` occurs, 
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `6:fMin(`
 <hr>
 
-## Examples
+`fMin(` finds the value of _var_ between _lo_ and _hi_ at which the minimum of _f_(_var_) occurs. _tol_ controls the accuracy of the minimum value computed. The default value of _tol_ is 10<sup>-5</sup>.
 
-Explanation 1
+`fMin(` only works for real numbers and expressions. Brent's method for optimization is used for approximating the minimum value.
+
 ```ti-basic
-code 1
+fMin(cos(sin(X)+Xcos(X)),X,0,2)
+        1.076873875
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
+
+Keep in mind that the result is the value of _var_, and not the value of _f(var)_. In this example, 1.076873875 is not the lowest possible value of cos(sin(X)+Xcos(X)), but rather the X-value at which cos(sin(X)+Xcos(X)) is the lowest.
+
+## Advanced Uses
+
+`fMin(` is sometimes useful in finding so-called "multiple roots" of a function. If the graph of your function appears "flat" near the root, `fMin(` might be able to find the value of the root more accurately than [solve(](/solve).
 
 ## Error Conditions
 
+*   **[ERR:BOUND](/errors#bound)** is thrown if the lower bound is greater than the upper bound.
+*   **[ERR:DOMAIN](/errors#domain)** is thrown if _tol_ is 0.
+*   **[ERR:TOL NOT MET](/errors#tolnotmet)** is thrown if the tolerance is too small for this specific function.
 
-## Advanced Notes
+## Related Commands
 
+*   [fMax(](/fmax)
+*   [fnInt(](/fnint)
+*   [nDeriv(](/nderiv)
+*   [solve(](/solve)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

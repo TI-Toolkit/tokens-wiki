@@ -27,28 +27,48 @@ Returns the reduced row-echelon form of a `matrix`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `B:rref(`
 <hr>
 
-## Examples
+Given a matrix with at least as many columns as rows, the `rref(` command puts a matrix into reduced row-echelon form using Gaussian elimination.
 
-Explanation 1
+This means that as many columns of the result as possible will contain a pivot entry of 1, with all entries in the same column, or to the left of the pivot, being 0.
+
 ```ti-basic
-code 1
+[[1,2,5,0][2,2,1,2][3,4,6,2]]
+    [[1 2 5 0]
+     [2 2 1 2]
+     [3 4 7 3]]
+rref(Ans)
+    [[1 0 0 6   ]
+     [0 1 0 -5.5]
+     [0 0 1 1   ]]
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
+
+## Advanced Uses
+
+The rref( command can be used to solve a system of linear equations. First, take each equation, in the standard form of $a_1x_1+\dots + a_nx_n = b$, and put the coefficients into a row of the matrix.
+
+Then, use `rref(` on the matrix. There are three possibilities now:
+
+*   If the system is solvable, the left part of the result will look like the identity matrix. Then, the final column of the matrix will contain the values of the variables.
+*   If the system is inconsistent, and has no solution, then it will end with rows that are all 0 except for the last entry.
+*   If the system has infinitely many solutions, it will end with rows that are all 0, including the last entry.
+
+This process can be done by a program fairly easily. However, unless you're certain that the system will always have a unique solution, you should check that the result is in the correct form, before taking the values in the last column as your solution. The [Matr►list(](/matr-list) command can be used to store this column to a list.
 
 ## Error Conditions
 
+*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if the matrix has more rows than columns.
 
-## Advanced Notes
+## Related Commands
 
+*   [ref(](/ref)
+*   [rowSwap(](/rowswap)
+*   [row+(](/rowplus)
+*   [*row(](/timesrow)
+*   [*row+(](/timesrowplus)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

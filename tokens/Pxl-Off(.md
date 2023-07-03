@@ -29,28 +29,24 @@ The Off state will display the set Background Image Var or COLOR.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `5:Pxl-Off(`
 <hr>
 
-## Examples
+The Pxl-Off( command is used to turn off the pixel at the given (Y,X) coordinates. Please note that the coordinates are switched around so that the row comes first and then the column — it's (Y,X) instead of (X,Y) like the [Pt-Off(](/pt-off) command. Also note that the (0,0) point is the upper left corner of the Graph screen.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+In addition to being easier to use because it is not affected by the window settings (meaning you don't have to set them when using the command), Pxl-Off( is faster than its equivalent Pt-Off( command, so it should generally be used instead whenever possible.
 
 ## Error Conditions
 
+*   **[ERR:DOMAIN](/errors#domain)** is triggered if the coordinates are not whole numbers or not in the right range ([0..62] for row, [0..94] for column). These bounds are also affected by split screen mode.
 
-## Advanced Notes
+## Related Commands
 
+*   [Pxl-On(](/pxl-on)
+*   [Pxl-Change(](/pxl-change)
+*   [pxl-Test(](/pxl-test)
+*   [Pt-Off(](/pt-off)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

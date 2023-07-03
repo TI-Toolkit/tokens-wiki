@@ -68,28 +68,70 @@ Erases a line (erase #: 1,0) from (`X1`,`Y1`) to (`X2`,`Y2`).
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `2:Line(`
 <hr>
 
-## Examples
+The Line( command is used to draw lines at any angle, as opposed to only drawing [vertical](/vertical) or [horizontal](/horizontal) lines. Line(X<sub>1</sub>,Y<sub>1</sub>,X<sub>2</sub>,Y<sub>2</sub>) will draw a line from (X<sub>1</sub>,Y<sub>1</sub>) to (X<sub>2</sub>,Y<sub>2</sub>). Line( is affected by the window settings, although you can use a [friendly window](/friendly-window) so there is no impact on the command.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:Line(5,5,20,3)
 ```
 
-## Error Conditions
+## Advanced Uses
 
+Line has an optional fifth argument. It can be any real number, but the default is one. If the fifth argument, _erase_, is something other than 0, then it will simply draw the line. If _erase_ is 0, then it will erase the line.
 
-## Advanced Notes
+```ti-basic
+:Line(5,5,20,3,0)
+```
 
+Leave off the ending argument if you are just drawing the line.
+
+```ti-basic
+:Line(5,5,20,3,1)
+can be
+:Line(5,5,20,3)
+```
+
+The ending argument can be a formula, which is useful for [movement applications](/movement) and other things such as health bars where the lines drawn are constantly different. The following draws or erases a line depending on whether a key is pressed.
+
+```ti-basic
+:getKey
+:Line(5,5,20,3,not(Ans
+```
+
+If working on a TI 84+CSE or TI 84+CE, then the fifth argument of the Line( command can be a color name or ID number:
+
+```ti-basic
+:Line(5,5,20,3,BROWN
+```
+
+The last argument, line style, is an optional argument that chooses what style of line to draw on the color calculators.
+
+```ti-basic
+1 pixel wide line
+:Line(5,5,20,3,RED,1
+2 pixel wide line
+:Line(5,5,20,3,RED,2
+shaded above
+:Line(5,5,20,3,RED,3
+shaded below
+:Line(5,5,20,3,RED,4
+```
+
+## Command Timings
+
+If you are drawing horizontal or vertical lines that stretch the entire graph screen, such as a border, it is better to use [Vertical](/vertical) or [Horizontal](/horizontal). These are smaller and are usually faster as well.
+
+## Related Commands
+
+*   [Vertical](/vertical)
+*   [Horizontal](/horizontal)
+
+## See Also
+
+*   [Friendly Graphing Window](/friendly-window)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

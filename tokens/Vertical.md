@@ -33,28 +33,30 @@ line style #: 1-4.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `4:Vertical`
 <hr>
 
-## Examples
+Vertical _X_ draws a vertical line from the top of the graph screen to the bottom at _X_. Vertical is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart [Horizontal](/horizontal).
 
-Explanation 1
+Vertical is affected by the window settings, unlike the [Pxl-](/pxl-on) commands.
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:Vertical 5
 ```
 
-## Error Conditions
+## Uses on TI 84+C Version Calculators
 
+The Vertical command takes an additional color argument for TI 84+C version calculators, as shown below:
 
-## Advanced Notes
+```ti-basic
+Vertical 5,BLACK
+```
 
+## Related Commands
+
+*   [Line(](/line)
+*   [Horizontal](/horizontal)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

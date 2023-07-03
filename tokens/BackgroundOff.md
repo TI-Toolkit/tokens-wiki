@@ -19,28 +19,30 @@ Turns off background image in the graph area.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `BACKGROUND`, `2:BackgroundOff:`
 <hr>
 
-## Examples
+The `BackgroundOff` command has only one purpose: turn the background off. Run the command on its own line in a program with no other characters or arguments.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:BackgroundOn BLUE //Makes background blue
+:BackgroundOff //Makes background white again
 ```
 
-## Error Conditions
+## Optimization
 
+`BackgroundOff` does essentially the same thing as turning the background on to the color white, as shown below.
 
-## Advanced Notes
+```ti-basic
+:BackgroundOn WHITE
+can be
+:BackgroundOff
+```
 
+## Related Commands
+
+*   [BackgroundOn](http://tibasicdev.wikidot.com/backgroundon)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+CSE</b> | 4.0 | Added |
 
-## Related Commands
 

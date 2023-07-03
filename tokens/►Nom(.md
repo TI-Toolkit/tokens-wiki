@@ -29,28 +29,34 @@ Computes the nominal interest rate.
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `B:►Nom(`
 <hr>
 
-## Examples
+The ►Nom( command converts from an effective interest rate to a nominal interest rate. In other words, it converts an interest rate that takes compounding periods into account into one that doesn't. The two arguments are 1) the interest rate and 2) the number of compounding periods.
 
-Explanation 1
+For example, you want to know the interest rate, compounded monthly, that will yield a total increase of 10% per year:
+
 ```ti-basic
-code 1
+►Nom(10,12)
+    9.568968515
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
+
+## Formulas
+
+The formula for converting from an effective rate to a nominal rate is:
+
+(1) $`\begin{align} \operatorname{Nom}=100 \operatorname{CP} \left(\sqrt[\operatorname{CP}]{\frac{\operatorname{Eff}}{100}+1}-1\right) \end{align}`$ 
+
+Here, Eff is the effective rate, Nom is the nominal rate, and CP is the number of compounding periods.
 
 ## Error Conditions
 
+*   **[ERR:DOMAIN](/errors#domain)** is thrown if the number of compounding periods is not positive, or if the nominal rate is -100% or lower (an exception's made for the nominal rate if there is only one compounding period, since ►Nom(X,1)=X).
 
-## Advanced Notes
+## Related Commands
 
+*   [►Eff(](/eff)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

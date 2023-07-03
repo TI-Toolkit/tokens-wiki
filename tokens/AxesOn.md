@@ -28,23 +28,15 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR..
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `AxesOn`
 <hr>
 
-## Examples
+The `AxesOn` command enables the X and Y axes on the graph screen, so that they are drawn. They can be disabled with the [AxesOff](/axesoff) command.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+(the y=x line that is drawn when both [Seq](/seq-mode) and [Web](/web) modes are enabled is also controlled by this command)
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [AxesOff](/axesoff)
+*   [LabelOn](/labelon)
+*   [LabelOff](/labeloff)
 
 ## History
 | Calculator | OS Version | Description |
@@ -52,5 +44,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `AxesOn` added |
 | <b>TI-84+CSE</b> | 4.0 | Renamed `AxesOn` to `AxesOn `
 
-## Related Commands
 

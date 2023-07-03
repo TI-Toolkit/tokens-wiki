@@ -29,28 +29,37 @@ Returns the greatest common divisor of `valueA` and `valueB`, which can be real 
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `9:gcd(`
 <hr>
 
-## Examples
+The `gcd(` command returns the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) (GCD) of two nonnegative integers. It also works on lists.
 
-Explanation 1
 ```ti-basic
-code 1
+gcd(8,6)
+     2
+gcd({9,12},6)
+     {3 6}
+gcd({14,12},{6,8})
+     {2 4}
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
+
+## Advanced Uses
+
+A `gcd(` command can be nested inside another `gcd(` command to compare up to four numbers.
 
 ## Error Conditions
 
+*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if the arguments are two lists that don't have the same number of elements.
+*   **[ERR:DOMAIN](/errors#domain)** is thrown if the arguments aren't positive integers (or lists of positive integers) less than `1E12`.
 
-## Advanced Notes
+## Related Commands
 
+*   [lcm(](/lcm)
+
+## See Also
+
+*   [Extended Euclidean Algorithm](/extended-euclidean-algorithm)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

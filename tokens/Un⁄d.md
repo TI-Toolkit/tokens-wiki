@@ -19,28 +19,13 @@ Displays results as a mixed number, if applicable.
 <tt><kbd><b>math</b></kbd></tt>, `NUMC: Un/d`
 <hr>
 
-## Examples
+The page _un_ you want to access does not exist.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
-
-## Error Conditions
-
-
-## Advanced Notes
-
+*   [Create page](javascript:;)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 2.53 | Added |
 
-## Related Commands
 

@@ -19,28 +19,28 @@ Extends TI-Basic (not available)
 <tt><kbd><b>prgm</b></kbd></tt>
 <hr>
 
-## Examples
+Together with [OpenLib(](/openlib), `ExecLib` is used on the TI-84 Plus and TI-84 Plus SE for running routines from a Flash App library. This only works, of course, with libraries that have been specifically written for this purpose. The only such library so far is [usb8x](http://usb8x.sourceforge.net/), for advanced interfacing with the USB port.
 
-Explanation 1
+Since `ExecLib` doesn't have any arguments, it would normally be able to run only one library routine. To get around this, usb8x uses a list passed in `Ans` as arguments to the command. This is most likely how any future libraries will do it as well.
+
+The following program, which displays the version of usb8x, is an example of how to use `OpenLib(` and `ExecLib`:
+
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:OpenLib(USBDRV8X
+:{6
+:ExecLib
+:Ans(2)+.01Ans(3
 ```
 
-## Error Conditions
+Download usb8x [here](http://usb8x.sourceforge.net/). You may also be interested in [MSD8x](http://tibasicdev.wikidot.com/local--files/execlib/MSD8x.zip) which is a GUI for usb8x.
 
+## Related Commands
 
-## Advanced Notes
-
+*   [OpenLib(](/openlib)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 0.01 | Added |
 
-## Related Commands
 

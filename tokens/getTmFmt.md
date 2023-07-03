@@ -20,28 +20,18 @@ Returns an integer representing the clock time format that is currently set on t
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getTmFmt`
 <hr>
 
-## Examples
+The `getTmFmt(` command returns the current time format of the clock on the TI-84+/SE/CE calculators as an integer. There are two different time formats available: 12 (12 hour) and 24 (24 hours). You can store this value to a [variable](/variables) for later use. Of course, this command only works if the time format has actually been set, so you should use the [setTmFmt(](/settmfmt) command before using it.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+## Related Commands
 
-## Error Conditions
-
-
-## Advanced Notes
-
+*   [getTime](/gettime)
+*   [setTime(](/settime)
+*   [setTmFmt(](/settmfmt)
+*   [getTmStr(](/gettmstr)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 0.01 | Added |
 
-## Related Commands
 

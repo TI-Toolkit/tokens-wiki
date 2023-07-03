@@ -27,28 +27,23 @@ Converts an answer from a fraction to a decimal or from a decimal to a fraction.
 <tt><kbd><b>alpha</b></kbd></tt>, <kbd>F1</kbd>, `4:`
 <hr>
 
-## Examples
+The `►F◄►D` command is used to convert a number from fraction form to decimal form, or vice versa. Regardless of what form the given number is, this command is meant to automatically determine the form so that it returns the other. It is in essence a combination of the [►Frac](/frac) and [►Dec](/dec) commands, applying `►Frac` if the input is in decimal form and `►Dec` if it is a fraction.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+7.5►F◄ ►D
+        15/2
+Ans►F◄ ►D
+        7.5
 ```
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [►Frac](/frac)
+*   [►Dec](/dec)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 2.53 | Added |
 
-## Related Commands
 

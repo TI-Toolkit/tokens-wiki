@@ -30,28 +30,29 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `H:GraphColor(`
 <hr>
 
-## Examples
+The `GraphColor(` command will change the color of any function from `Y` to `Y`. So, for example, to change the color of `Y` to NAVY, do:
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+GraphColor(3,NAVY
 ```
 
-## Error Conditions
+  
+Notice, you must use the number of the function, rather than the entire function name, which would be `Y`.
 
+As you may know, you can also use the value of the color, which can be any integer between 10 and 24. So, our last command could also be:
 
-## Advanced Notes
+```ti-basic
+GraphColor(3,17
+```
 
+## Related Commands
+
+*   [GraphStyle(](/graphstyle)
+*   [BorderColor](/bordercolor)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+CSE</b> | 4.0 | Added |
 
-## Related Commands
 

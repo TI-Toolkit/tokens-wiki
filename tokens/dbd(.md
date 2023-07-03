@@ -29,28 +29,47 @@ Calculates the number of days between `date1` and `date2` using the actual-day-c
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `D:dbd(`
 <hr>
 
-## Examples
+The `dbd(` command calculates the number of days between two dates. Each date is encoded as a single number in one of two formats (two formats can be mixed in the same command):
 
-Explanation 1
+*   day, month, year — DDMM.YY (e.g. April 26, 1989 would be 2604.89)
+*   month, day, year — MM.DDYY (e.g. April 26, 1989 would be 04.2689 or just 4.2689)
+
+Because this is just a number like any other, leading zeroes and trailing zeroes after the decimal can be dropped. For example, January 1, 2000 does not have to be formatted as 0101.00 but can be simply 101.
+
+Since there are only two digits for the year, obviously only a century's worth of dates can be handled. The calculator assumes this range to be from January 1, 1950 to December 31, 2049.
+
+If the second date comes before the first, `dbd(` will return a negative number of days, so the range of possible results is from -36524 to 36524.
+
+Finally, `dbd(` will also work for list inputs in the usual manner: a single date will be compared against every date in a list, and two lists of dates will be paired up.
+
 ```ti-basic
-code 1
+dbd(612.07,2512.07
+    19
+dbd(1.0207,1.0107
+    -1
+dbd(1.0107,{2.0107,3.0107,4.0107})
+    {31 59 90}
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
+
+## Advanced Uses
+
+The `dbd(` command can be used to calculate the [day of week](/day-of-week) without using the [dayOfWk(](/dayofwk) command, which is only available on the TI-84+ or higher.
 
 ## Error Conditions
 
+*   **[ERR:DOMAIN](/errors#domain)** is thrown if a date is improperly formatted.
 
-## Advanced Notes
+## Related Commands
 
+*   [dayOfWk(](/dayofwk)
+
+## See Also
+
+*   [Day of Week](/day-of-week)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

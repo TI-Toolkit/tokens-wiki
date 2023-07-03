@@ -20,28 +20,18 @@ Returns an integer representing the date format that is currently set on the dev
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getDtFmt`
 <hr>
 
-## Examples
+The `getDtFmt(` command returns the current date format of the clock on the TI-84+/SE/CE calculators as an integer. There are three different date formats available: 1 (M/D/Y), 2 (D/M/Y), and 3 (Y/M/D). You can store this value to a [variable](/variables) for later use. Of course, this command only works if the date format has actually been set, so you should use the [setDtFmt(](/setdtfmt) command before using it.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+## Related Commands
 
-## Error Conditions
-
-
-## Advanced Notes
-
+*   [getDate](/getdate)
+*   [setDate(](/setdate)
+*   [setDtFmt(](/setdtfmt)
+*   [getDtStr(](/getdtstr)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-84+</b> | 0.01 | Added |
 
-## Related Commands
 

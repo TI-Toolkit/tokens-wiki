@@ -29,28 +29,29 @@ Returns the least common multiple of `valueA` and `valueB`, which can be real nu
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `8:lcm(`
 <hr>
 
-## Examples
+Returns the least common multiple (LCM) of two nonnegative integers; lcm(_a_,_b_) is equivalent to _a__b_/gcd(_a_,_b_). Also works on lists.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+lcm(8,6)
+     24
+lcm({9,12},6)
+     {18 12}
+lcm({14,12},{6,8})
+     {42 24}
 ```
 
 ## Error Conditions
 
+*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if the arguments are two lists that don't have the same number of elements.
+*   **[ERR:DOMAIN](/errors#domain)** is thrown if the arguments aren't positive integers (or lists of positive integers) less than 1e12.
 
-## Advanced Notes
+## Related Commands
 
+*   [gcd(](/gcd)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

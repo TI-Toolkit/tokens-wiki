@@ -19,23 +19,21 @@ Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thick.
 <tt><kbd><b>mode</b></kbd></tt>, `Dot-Thick`
 <hr>
 
-## Examples
+The `Dot-Thick` command sets all lines in the current function type to be drawn using a series of thick points, about the size of a point drawn using [Pt-On(](/pt-on), at each interval of the `TraceStep`. This command can be called on the homescreen or within a program.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+:AxesOff
+:RectGC
+:Dot-Thick
 ```
 
 ## Error Conditions
 
+*   **[ERR:SYNTAX](/errors#syntax)** is thrown if any additional arguments are used with the command
 
-## Advanced Notes
+## Related Commands
 
+*   [Dot-Thin](/dot-thin)
 
 ## History
 | Calculator | OS Version | Description |
@@ -43,5 +41,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `Dot` added |
 | <b>TI-84+CSE</b> | 4.0 | Renamed `Dot` to `Dot-Thick`
 
-## Related Commands
 

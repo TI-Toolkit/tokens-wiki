@@ -32,28 +32,19 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `3:Pt-Change(`
 <hr>
 
-## Examples
+The Pt-Change( command is used to toggle a point (a pixel on the screen) on the graph screen at the given (X,Y) coordinates. If the point is on, it will be turned off and vice versa. Pt-Change( is affected by the window settings, which means you have to change the window settings accordingly, otherwise the point won't show up correctly on the screen.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+Pt-Change( can be an interactive command: when on the graph screen, you can select it from the draw menu, and rather than have to input coordinates, be able to draw directly on the screen. Since you can both draw and erase points easily with Pt-Change(, this use of it is often more convenient than the Pen tool.
 
-## Error Conditions
+## Related Commands
 
-
-## Advanced Notes
-
+*   [Pt-On(](/pt-on)
+*   [Pt-Off(](/pt-off)
+*   [Pxl-Change(](/pxl-change)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-82</b> | 1.0 | Added |
 
-## Related Commands
 

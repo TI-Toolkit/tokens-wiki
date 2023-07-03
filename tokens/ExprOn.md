@@ -19,28 +19,21 @@ Turns on the expression display during TRACE.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `ExprOn`
 <hr>
 
-## Examples
+The `ExprOn` command enables a "long" form of displaying the equation or plot being traced.
 
-Explanation 1
-```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
-```
+In this mode, when tracing an equation, the equation's name and its formula are written in small font at the top of the screen. For example, when tracing Y<sub>1</sub> which is equal to 2X, "Y1=2X" will be displayed.
 
-## Error Conditions
+When tracing a plot, the plot number is written, followed by the list or lists that it describes. For example, when tracing Plot1, which is a scatter plot of ʟX and ʟY, "P1:X,Y" will be displayed.
 
+## Related Commands
 
-## Advanced Notes
-
+*   [ExprOff](/exproff)
+*   [CoordOn](/coordon)
+*   [CoordOff](/coordoff)
 
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
 | <b>TI-83</b> | 0.01013 | Added |
 
-## Related Commands
 

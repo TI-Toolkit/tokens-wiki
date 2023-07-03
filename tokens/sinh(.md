@@ -27,23 +27,30 @@ Returns the hyperbolic sine of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `sinh(`
 <hr>
 
-## Examples
+Calculates the hyperbolic sine of a value. The hyperbolic trig functions sinh(, [cosh(](/cosh), and [tanh(](/tanh) are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of [e](/e-value), and don't depend on the [Degree](/degree-mode) or [Radian](/radian-mode) mode setting.
 
-Explanation 1
 ```ti-basic
-code 1
-```
----
-Explanation 2
-```ti-basic
-code 2
+sinh(0)
+    0
+sinh(1)
+    1.175201194
 ```
 
-## Error Conditions
+Like normal trig commands, sinh( works on lists as well, but not on complex numbers, even though the function is often extended to the complex numbers in mathematics.
 
+## Formulas
 
-## Advanced Notes
+The definition of hyperbolic sine is:
 
+(1) $`\begin{align} \sinh{x}=\frac{e^x-e^{-x}}{2} \end{align}`$ 
+
+## Related Commands
+
+*   [sinhֿ¹(](/arsinh)
+*   [cosh(](/cosh)
+*   [coshֿ¹(](/arcosh)
+*   [tanh(](/tanh)
+*   [tanhֿ¹(](/artanh)
 
 ## History
 | Calculator | OS Version | Description |
@@ -51,5 +58,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `sinh ` added |
 | <b>TI-83</b> | 0.01013 | Renamed `sinh ` to `sinh(`
 
-## Related Commands
 

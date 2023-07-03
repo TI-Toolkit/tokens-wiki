@@ -27,23 +27,82 @@ Returns the integer part of a real or complex number, expression, list, or matri
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `3:iPart(`
 <hr>
 
-## Examples
+`iPart(` returns the integer part of _value_, and extends to complex numbers, lists, and matrices.
 
-Explanation 1
 ```ti-basic
-code 1
+iPart(5.32)
+               5
+iPart(4/5)
+               0
+iPart(‾5.32)
+               ‾5
+iPart(‾4/5)
+               0
 ```
----
-Explanation 2
-```ti-basic
-code 2
-```
 
-## Error Conditions
+The difference between `iPart(` and [int(](/int) is subtle; while `iPart(` always truncates its parameters, simply removing the integer part, `int(` always rounds down. This means that they return the same answers for positive numbers, but `int(` will return an answer 1 less than `iPart(` for (non-integer) negative numbers. For example, `iPart(-5.32)` is -5, while `int(-5.32)` is -6.
 
+In this case of positive values, though, the decision to use `iPart(` or `int(` is mostly a matter of preference - some people only use `int(` because it is shorter, some people use `iPart(` when there is a corresponding [fPart(](/fpart) taken. However, see the Command Timings section.
 
-## Advanced Notes
+## Advanced Uses
 
+`iPart(`, along with `fPart(` and `int(`, can be used for integer [compression](/compression).
+
+## Command Timings
+
+The following table compares the speeds of `int(` and `iPart(`. Each command was timed over 2000 iterations to find a noticeable difference.
+
+Format
+
+Bars
+
+Pixels
+
+Total
+
+iPart(1
+
+10
+
+1
+
+81
+
+iPart(1.643759
+
+10
+
+1
+
+81
+
+int(1
+
+8
+
+7
+
+71
+
+int(1.643759
+
+10
+
+2
+
+82
+
+Conclusion: With 5 or fewer decimal places, you should consider using `int(` because of its speed, but with more decimals, `iPart(` remains constant to eventually beat out its counterpart.
+
+## Related Commands
+
+*   [int(](/int)
+*   [fPart(](/fpart)
+*   [round(](/round)
+
+## See Also
+
+*   [Compression](/compression)
 
 ## History
 | Calculator | OS Version | Description |
@@ -51,5 +110,4 @@ code 2
 | <b>TI-82</b> | 1.0 | `iPart ` added |
 | <b>TI-83</b> | 0.01013 | Renamed `iPart ` to `iPart(`
 
-## Related Commands
 
