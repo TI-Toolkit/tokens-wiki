@@ -20,13 +20,13 @@ In MathPrint mode, numeric derivative template pastes and uses default tolerance
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>expression</b></td><td>expression</td><td>Yes</td></tr>
+<tr><td><b>expression</b></td><td>expression</td><td></td></tr>
 
-<tr><td><b>variable</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>variable</b></td><td></td><td></td></tr>
 
-<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td></td><td></td></tr>
 
-<tr><td>ε</td><td></td><td><b>No</b></td></tr>
+<tr><td>ε</td><td></td><td>Yes</td></tr>
 
 </table>
 

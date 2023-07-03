@@ -19,7 +19,7 @@ Converts an answer from a fraction to a decimal or from a decimal to a fraction.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>◄►</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>◄►</b></td><td></td><td></td></tr>
 
 </table>
 

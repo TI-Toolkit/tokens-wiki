@@ -19,7 +19,7 @@ Returns a list of the cumulative sums of the elements in `list`, starting with t
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>list</b></td><td>list</td><td></td></tr>
 
 </table>
 
@@ -40,7 +40,7 @@ Returns a matrix of the cumulative sums of `matrix` elements. Each element in th
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>matrix</b></td><td>matrix</td><td>Yes</td></tr>
+<tr><td><b>matrix</b></td><td>matrix</td><td></td></tr>
 
 </table>
 

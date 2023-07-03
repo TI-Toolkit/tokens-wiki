@@ -20,27 +20,27 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>σ</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>σ</b></td><td></td><td></td></tr>
 
-<tr><td>1</td><td></td><td><b>No</b></td></tr>
+<tr><td>1</td><td></td><td>Yes</td></tr>
 
-<tr><td>σ</td><td></td><td><b>No</b></td></tr>
+<tr><td>σ</td><td></td><td>Yes</td></tr>
 
-<tr><td>2</td><td></td><td><b>No</b></td></tr>
+<tr><td>2</td><td></td><td>Yes</td></tr>
 
-<tr><td>listname1</td><td>listName</td><td><b>No</b></td></tr>
+<tr><td>listname1</td><td>listName</td><td>Yes</td></tr>
 
-<tr><td>listname2</td><td>listName</td><td><b>No</b></td></tr>
+<tr><td>listname2</td><td>listName</td><td>Yes</td></tr>
 
-<tr><td>freqlist1</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>freqlist1</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>freqlist2</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>freqlist2</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>alternative</td><td></td><td><b>No</b></td></tr>
+<tr><td>alternative</td><td></td><td>Yes</td></tr>
 
-<tr><td>drawflag</td><td></td><td><b>No</b></td></tr>
+<tr><td>drawflag</td><td></td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 
@@ -62,31 +62,31 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>σ</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>σ</b></td><td></td><td></td></tr>
 
-<tr><td><b>1</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>1</b></td><td></td><td></td></tr>
 
-<tr><td><b>σ</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>σ</b></td><td></td><td></td></tr>
 
-<tr><td><b>2</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>2</b></td><td></td><td></td></tr>
 
-<tr><td><b>x̄</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>x̄</b></td><td></td><td></td></tr>
 
-<tr><td><b>1</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>1</b></td><td></td><td></td></tr>
 
-<tr><td>n1</td><td></td><td><b>No</b></td></tr>
+<tr><td>n1</td><td></td><td>Yes</td></tr>
 
-<tr><td>x̄</td><td></td><td><b>No</b></td></tr>
+<tr><td>x̄</td><td></td><td>Yes</td></tr>
 
-<tr><td>2</td><td></td><td><b>No</b></td></tr>
+<tr><td>2</td><td></td><td>Yes</td></tr>
 
-<tr><td>n2</td><td></td><td><b>No</b></td></tr>
+<tr><td>n2</td><td></td><td>Yes</td></tr>
 
-<tr><td>alternative</td><td></td><td><b>No</b></td></tr>
+<tr><td>alternative</td><td></td><td>Yes</td></tr>
 
-<tr><td>drawflag</td><td></td><td><b>No</b></td></tr>
+<tr><td>drawflag</td><td></td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 

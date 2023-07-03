@@ -20,7 +20,7 @@ Returns a string of the current clock time in the format specified by `integer`,
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>integer</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>integer</b></td><td></td><td></td></tr>
 
 </table>
 

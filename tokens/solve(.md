@@ -19,15 +19,15 @@ Solves `expression` for `variable`, given an initial `guess` and `lower` and `up
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>expression</b></td><td>expression</td><td>Yes</td></tr>
+<tr><td><b>expression</b></td><td>expression</td><td></td></tr>
 
-<tr><td><b>variable</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>variable</b></td><td></td><td></td></tr>
 
-<tr><td><b>guess</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>guess</b></td><td></td><td></td></tr>
 
-<tr><td><b>lower</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>lower</b></td><td></td><td></td></tr>
 
-<tr><td><b>upper</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>upper</b></td><td></td><td></td></tr>
 
 </table>
 

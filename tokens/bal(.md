@@ -19,9 +19,9 @@ Computes the balance at `npmt `for an amortization schedule using stored values 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>npmt</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>npmt</b></td><td></td><td></td></tr>
 
-<tr><td>roundvalue</td><td></td><td><b>No</b></td></tr>
+<tr><td>roundvalue</td><td></td><td>Yes</td></tr>
 
 </table>
 

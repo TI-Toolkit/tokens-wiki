@@ -93,7 +93,7 @@ ${info.comment ? ('<b>Comment</b>:' + info.comment + '\n') : ''}\n`;
             for (const arg of info.arguments) {
                 const isOptional = !!arg[2];
                 page += `
-<tr><td>${(isOptional ? '' : '<b>') + arg[0] + (isOptional ? '' : '</b>')}</td><td>${arg[1]}</td><td>${isOptional ? '<b>No</b>' : 'Yes'}</td></tr>
+<tr><td>${(isOptional ? '' : '<b>') + arg[0] + (isOptional ? '' : '</b>')}</td><td>${arg[1]}</td><td>${isOptional ? 'Yes' : ''}</td></tr>
 `;
             }
 

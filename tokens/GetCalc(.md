@@ -19,9 +19,9 @@ Gets contents of `variable` on another TI-84 Plus CE and stores it to `variable`
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>variable</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>variable</b></td><td></td><td></td></tr>
 
-<tr><td>portflag</td><td></td><td><b>No</b></td></tr>
+<tr><td>portflag</td><td></td><td>Yes</td></tr>
 
 </table>
 

@@ -20,13 +20,13 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>expression</b></td><td>expression</td><td>Yes</td></tr>
+<tr><td><b>expression</b></td><td>expression</td><td></td></tr>
 
-<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td></td><td></td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
-<tr><td>linestyle#</td><td>integer</td><td><b>No</b></td></tr>
+<tr><td>linestyle#</td><td>integer</td><td>Yes</td></tr>
 
 </table>
 

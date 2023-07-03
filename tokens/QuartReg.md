@@ -19,13 +19,13 @@ Fits a quartic regression model to` Xlistname` and `Ylistname` with frequency `f
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>Xlistname</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>Xlistname</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>Ylistname</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>Ylistname</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>freqlist</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>freqlist</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>regequ</td><td></td><td><b>No</b></td></tr>
+<tr><td>regequ</td><td></td><td>Yes</td></tr>
 
 </table>
 

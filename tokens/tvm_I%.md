@@ -20,19 +20,19 @@ Computes the annual interest rate.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>I%</td><td></td><td><b>No</b></td></tr>
+<tr><td>I%</td><td></td><td>Yes</td></tr>
 
-<tr><td>𝗡</td><td></td><td><b>No</b></td></tr>
+<tr><td>𝗡</td><td></td><td>Yes</td></tr>
 
-<tr><td>PV</td><td></td><td><b>No</b></td></tr>
+<tr><td>PV</td><td></td><td>Yes</td></tr>
 
-<tr><td>PMT</td><td></td><td><b>No</b></td></tr>
+<tr><td>PMT</td><td></td><td>Yes</td></tr>
 
-<tr><td>FV</td><td></td><td><b>No</b></td></tr>
+<tr><td>FV</td><td></td><td>Yes</td></tr>
 
-<tr><td>P/Y</td><td></td><td><b>No</b></td></tr>
+<tr><td>P/Y</td><td></td><td>Yes</td></tr>
 
-<tr><td>C/Y</td><td></td><td><b>No</b></td></tr>
+<tr><td>C/Y</td><td></td><td>Yes</td></tr>
 
 </table>
 

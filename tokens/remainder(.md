@@ -19,9 +19,9 @@ Reports the remainder as a whole number from a division of two whole numbers whe
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>dividend</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>dividend</b></td><td></td><td></td></tr>
 
-<tr><td><b>divisor</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>divisor</b></td><td></td><td></td></tr>
 
 </table>
 
@@ -42,9 +42,9 @@ Reports the remainder as a whole number from a division of two lists where the d
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>list</b></td><td>list</td><td></td></tr>
 
-<tr><td><b>divisor</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>divisor</b></td><td></td><td></td></tr>
 
 </table>
 
@@ -65,9 +65,9 @@ Reports the remainder as a whole number from a division of two whole numbers whe
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>dividend</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>dividend</b></td><td></td><td></td></tr>
 
-<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>list</b></td><td>list</td><td></td></tr>
 
 </table>
 
@@ -88,9 +88,9 @@ Reports the remainder as a whole number from a division of two lists.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>list</b></td><td>list</td><td></td></tr>
 
-<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>list</b></td><td>list</td><td></td></tr>
 
 </table>
 

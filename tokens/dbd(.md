@@ -19,9 +19,9 @@ Calculates the number of days between `date1` and `date2` using the actual-day-c
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>date1</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>date1</b></td><td></td><td></td></tr>
 
-<tr><td><b>date2</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>date2</b></td><td></td><td></td></tr>
 
 </table>
 

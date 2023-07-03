@@ -19,7 +19,7 @@ Returns the number of seconds since you used `startTmr` to start the timer. The 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>starttime</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>starttime</b></td><td></td><td></td></tr>
 
 </table>
 

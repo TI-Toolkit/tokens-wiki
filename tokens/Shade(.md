@@ -20,19 +20,19 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>lowerfunc</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>lowerfunc</b></td><td></td><td></td></tr>
 
-<tr><td><b>upperfunc</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>upperfunc</b></td><td></td><td></td></tr>
 
-<tr><td>Xleft</td><td></td><td><b>No</b></td></tr>
+<tr><td>Xleft</td><td></td><td>Yes</td></tr>
 
-<tr><td>Xright</td><td></td><td><b>No</b></td></tr>
+<tr><td>Xright</td><td></td><td>Yes</td></tr>
 
-<tr><td>pattern</td><td></td><td><b>No</b></td></tr>
+<tr><td>pattern</td><td></td><td>Yes</td></tr>
 
-<tr><td>patres</td><td></td><td><b>No</b></td></tr>
+<tr><td>patres</td><td></td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 

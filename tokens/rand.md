@@ -19,7 +19,7 @@ Returns a random number between 0 and 1 for a specified number of trials `numtri
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>numtrials</td><td></td><td><b>No</b></td></tr>
+<tr><td>numtrials</td><td></td><td>Yes</td></tr>
 
 </table>
 

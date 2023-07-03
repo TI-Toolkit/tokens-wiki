@@ -19,7 +19,7 @@ Returns the complex conjugate of a complex number or list of complex numbers.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>value</b></td><td>complex|complex[]</td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td>complex|complex[]</td><td></td></tr>
 
 </table>
 

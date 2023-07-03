@@ -19,9 +19,9 @@ Computes a cumulative probability at `x`, the number of the trial on which the f
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>p</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>p</b></td><td></td><td></td></tr>
 
-<tr><td><b>x</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>x</b></td><td></td><td></td></tr>
 
 </table>
 

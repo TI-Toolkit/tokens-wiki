@@ -19,9 +19,9 @@ Returns the logarithm of a specifed value determined from a specified base: logB
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td></td><td></td></tr>
 
-<tr><td><b>base</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>base</b></td><td></td><td></td></tr>
 
 </table>
 

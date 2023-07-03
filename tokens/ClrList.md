@@ -19,11 +19,11 @@ Sets the dimension of one or more listnames to 0.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>listname1</b></td><td>listName</td><td>Yes</td></tr>
+<tr><td><b>listname1</b></td><td>listName</td><td></td></tr>
 
-<tr><td>listname2</td><td>listName</td><td><b>No</b></td></tr>
+<tr><td>listname2</td><td>listName</td><td>Yes</td></tr>
 
-<tr><td>listname n</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>listname n</td><td>list</td><td>Yes</td></tr>
 
 </table>
 

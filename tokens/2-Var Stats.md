@@ -19,11 +19,11 @@ Performs two-variable analysis on the data in `Xlistname` and `Ylistname` with f
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>Xlistname</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>Xlistname</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>Ylistname</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>Ylistname</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>freqlist</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>freqlist</td><td>list</td><td>Yes</td></tr>
 
 </table>
 

@@ -19,15 +19,15 @@ Computes a two-proportion `z` confidence interval.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>x1</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>x1</b></td><td></td><td></td></tr>
 
-<tr><td><b>n1</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>n1</b></td><td></td><td></td></tr>
 
-<tr><td><b>x2</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>x2</b></td><td></td><td></td></tr>
 
-<tr><td><b>n2</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>n2</b></td><td></td><td></td></tr>
 
-<tr><td>confidence level</td><td></td><td><b>No</b></td></tr>
+<tr><td>confidence level</td><td></td><td>Yes</td></tr>
 
 </table>
 

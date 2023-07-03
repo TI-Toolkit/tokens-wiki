@@ -19,9 +19,9 @@ Computes the probability density function (pdf) for the Student-`t` distribution
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>x</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>x</b></td><td></td><td></td></tr>
 
-<tr><td><b>df</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>df</b></td><td></td><td></td></tr>
 
 </table>
 

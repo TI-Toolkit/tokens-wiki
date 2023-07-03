@@ -19,13 +19,13 @@ Fills `matrixname` column by column with the elements from each specified `listn
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>listname1</b></td><td>listName</td><td>Yes</td></tr>
+<tr><td><b>listname1</b></td><td>listName</td><td></td></tr>
 
-<tr><td><b>...</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>...</b></td><td></td><td></td></tr>
 
-<tr><td><b>listname n</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>listname n</b></td><td>list</td><td></td></tr>
 
-<tr><td><b>matrixname</b></td><td>matrix</td><td>Yes</td></tr>
+<tr><td><b>matrixname</b></td><td>matrix</td><td></td></tr>
 
 </table>
 

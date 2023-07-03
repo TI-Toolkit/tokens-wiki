@@ -19,7 +19,7 @@ Displays `value` in DMS format.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td></td><td></td></tr>
 
 </table>
 

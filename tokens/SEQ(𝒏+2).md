@@ -20,7 +20,7 @@ In sequence mode, SEQ(`n+2`) sets the sequence editor type to enter sequence fun
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>n+2</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>n+2</b></td><td></td><td></td></tr>
 
 </table>
 

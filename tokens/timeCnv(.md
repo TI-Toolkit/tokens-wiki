@@ -19,7 +19,7 @@ Converts seconds to units of time that can be more easily understood for evaluat
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>seconds</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>seconds</b></td><td></td><td></td></tr>
 
 </table>
 

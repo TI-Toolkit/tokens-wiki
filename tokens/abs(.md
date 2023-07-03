@@ -19,7 +19,7 @@ Returns the absolute value of a real number, expression, list, or matrix.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>value</b></td><td>real|expression|real[]|matrix</td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td>real|expression|real[]|matrix</td><td></td></tr>
 
 </table>
 
@@ -40,7 +40,7 @@ Returns the magnitude of a complex number or list.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>complex value</b></td><td>complex|complex[]</td><td>Yes</td></tr>
+<tr><td><b>complex value</b></td><td>complex|complex[]</td><td></td></tr>
 
 </table>
 

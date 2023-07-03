@@ -20,13 +20,13 @@ The tokens LEFT, CENTER and RIGHT can be found in [catalog].
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>area</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>area</b></td><td></td><td></td></tr>
 
-<tr><td><b>µ</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>µ</b></td><td></td><td></td></tr>
 
-<tr><td><b>σ</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>σ</b></td><td></td><td></td></tr>
 
-<tr><td><b>tail</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>tail</b></td><td></td><td></td></tr>
 
 </table>
 

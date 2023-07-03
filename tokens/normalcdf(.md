@@ -19,13 +19,13 @@ Computes the normal distribution probability between `lowerbound` and `upperboun
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>lowerbound</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>lowerbound</b></td><td></td><td></td></tr>
 
-<tr><td><b>upperbound</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>upperbound</b></td><td></td><td></td></tr>
 
-<tr><td>μ</td><td></td><td><b>No</b></td></tr>
+<tr><td>μ</td><td></td><td>Yes</td></tr>
 
-<tr><td>σ</td><td></td><td><b>No</b></td></tr>
+<tr><td>σ</td><td></td><td>Yes</td></tr>
 
 </table>
 

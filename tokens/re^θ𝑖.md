@@ -19,11 +19,11 @@ Sets the mode to polar complex number mode (`re``^`θ`i`).
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>e</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>e</b></td><td></td><td></td></tr>
 
-<tr><td><b>θ</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>θ</b></td><td></td><td></td></tr>
 
-<tr><td><b>i</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>i</b></td><td></td><td></td></tr>
 
 </table>
 

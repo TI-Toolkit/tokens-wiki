@@ -27,11 +27,11 @@ Set Y1=binomcdf(30,0.5,X) and use the table of values (starting at 0 and increme
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>area</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>area</b></td><td></td><td></td></tr>
 
-<tr><td><b>trial</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>trial</b></td><td></td><td></td></tr>
 
-<tr><td><b>p</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>p</b></td><td></td><td></td></tr>
 
 </table>
 

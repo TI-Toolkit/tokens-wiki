@@ -19,11 +19,11 @@ Selects all `Y=` functions or specified `Y=` functions.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>function#</td><td></td><td><b>No</b></td></tr>
+<tr><td>function#</td><td></td><td>Yes</td></tr>
 
-<tr><td>function#</td><td></td><td><b>No</b></td></tr>
+<tr><td>function#</td><td></td><td>Yes</td></tr>
 
-<tr><td>function n</td><td></td><td><b>No</b></td></tr>
+<tr><td>function n</td><td></td><td>Yes</td></tr>
 
 </table>
 

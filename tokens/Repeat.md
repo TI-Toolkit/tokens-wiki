@@ -19,11 +19,11 @@ Executes `commands` until `condition` is true.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>condition</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>condition</b></td><td></td><td></td></tr>
 
-<tr><td><b>commands</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>commands</b></td><td></td><td></td></tr>
 
-<tr><td><b>commands</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>commands</b></td><td></td><td></td></tr>
 
 </table>
 

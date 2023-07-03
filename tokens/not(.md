@@ -19,7 +19,7 @@ Returns `0` if `value` is ≠ 0. `value` can be a real number, expression, or li
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td></td><td></td></tr>
 
 </table>
 

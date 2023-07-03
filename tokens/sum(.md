@@ -19,11 +19,11 @@ Returns the sum of elements of `list` from `start` to `end`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>list</b></td><td>list</td><td></td></tr>
 
-<tr><td>start</td><td></td><td><b>No</b></td></tr>
+<tr><td>start</td><td></td><td>Yes</td></tr>
 
-<tr><td>end</td><td></td><td><b>No</b></td></tr>
+<tr><td>end</td><td></td><td>Yes</td></tr>
 
 </table>
 

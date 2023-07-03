@@ -19,13 +19,13 @@ Computes the sum, rounded to `roundvalue`, of the principal amount between `pmt1
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>Σ</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>Σ</b></td><td></td><td></td></tr>
 
-<tr><td><b>pmt1</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>pmt1</b></td><td></td><td></td></tr>
 
-<tr><td>pmt2</td><td></td><td><b>No</b></td></tr>
+<tr><td>pmt2</td><td></td><td>Yes</td></tr>
 
-<tr><td>roundvalue</td><td></td><td><b>No</b></td></tr>
+<tr><td>roundvalue</td><td></td><td>Yes</td></tr>
 
 </table>
 

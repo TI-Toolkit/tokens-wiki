@@ -20,13 +20,13 @@ Where # gives Plot1, Plot2 or Plot3.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>type</b></td><td>Histogram token</td><td>Yes</td></tr>
+<tr><td><b>type</b></td><td>Histogram token</td><td></td></tr>
 
-<tr><td><b>Xlist</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>Xlist</b></td><td>list</td><td></td></tr>
 
-<tr><td><b>freqlist</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>freqlist</b></td><td>list</td><td></td></tr>
 
-<tr><td><b>color#</b></td><td>colorNum</td><td>Yes</td></tr>
+<tr><td><b>color#</b></td><td>colorNum</td><td></td></tr>
 
 </table>
 

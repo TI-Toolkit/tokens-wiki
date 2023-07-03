@@ -19,9 +19,9 @@ The Off state will display the set Background Image Var or COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>row</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>row</b></td><td></td><td></td></tr>
 
-<tr><td><b>column</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>column</b></td><td></td><td></td></tr>
 
 </table>
 

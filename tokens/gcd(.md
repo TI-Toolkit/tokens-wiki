@@ -19,9 +19,9 @@ Returns the greatest common divisor of `valueA` and `valueB`, which can be real 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>valueA</b></td><td>real|expression|real[]</td><td>Yes</td></tr>
+<tr><td><b>valueA</b></td><td>real|expression|real[]</td><td></td></tr>
 
-<tr><td><b>valueB</b></td><td>real|expression|real[]</td><td>Yes</td></tr>
+<tr><td><b>valueB</b></td><td>real|expression|real[]</td><td></td></tr>
 
 </table>
 

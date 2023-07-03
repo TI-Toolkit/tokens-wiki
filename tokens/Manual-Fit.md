@@ -21,11 +21,11 @@ line style #: 1-4.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>equname</td><td></td><td><b>No</b></td></tr>
+<tr><td>equname</td><td></td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
-<tr><td>line style#</td><td></td><td><b>No</b></td></tr>
+<tr><td>line style#</td><td></td><td>Yes</td></tr>
 
 </table>
 

@@ -19,7 +19,7 @@ Converts the results from a fraction to mixed number or from a mixed number to a
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>◄►</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>◄►</b></td><td></td><td></td></tr>
 
 </table>
 

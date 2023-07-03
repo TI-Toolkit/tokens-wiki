@@ -19,13 +19,13 @@ Defines Plot# (1, 2, or 3) of type
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>type</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>type</b></td><td></td><td></td></tr>
 
-<tr><td><b>Xlist</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>Xlist</b></td><td>list</td><td></td></tr>
 
-<tr><td>freqlist</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>freqlist</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 

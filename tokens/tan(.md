@@ -19,7 +19,7 @@ Returns the tangent of a real number, expression, or list.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>value</b></td><td>real|expression|real[]</td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td>real|expression|real[]</td><td></td></tr>
 
 </table>
 

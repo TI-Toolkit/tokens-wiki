@@ -19,7 +19,7 @@ Displays `complex value` or list in rectangular format.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>complex value</b></td><td>complex</td><td>Yes</td></tr>
+<tr><td><b>complex value</b></td><td>complex</td><td></td></tr>
 
 </table>
 

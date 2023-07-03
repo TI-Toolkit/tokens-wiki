@@ -20,7 +20,7 @@ In sequence mode, SEQ(`n`) sets the sequence editor type to enter sequence funct
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>n</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>n</b></td><td></td><td></td></tr>
 
 </table>
 

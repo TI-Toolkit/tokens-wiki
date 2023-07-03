@@ -20,11 +20,11 @@ Computes a `t` confidence interval.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td>listname</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>listname</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>freqlist</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>freqlist</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>confidence level</td><td></td><td><b>No</b></td></tr>
+<tr><td>confidence level</td><td></td><td>Yes</td></tr>
 
 </table>
 
@@ -46,13 +46,13 @@ Computes a `t` confidence interval.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>x̄</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>x̄</b></td><td></td><td></td></tr>
 
-<tr><td><b>Sx</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>Sx</b></td><td></td><td></td></tr>
 
-<tr><td>n</td><td></td><td><b>No</b></td></tr>
+<tr><td>n</td><td></td><td>Yes</td></tr>
 
-<tr><td>confidence level</td><td></td><td><b>No</b></td></tr>
+<tr><td>confidence level</td><td></td><td>Yes</td></tr>
 
 </table>
 

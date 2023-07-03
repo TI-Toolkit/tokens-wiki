@@ -21,15 +21,15 @@ linestyle#: 1-2.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>X</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>X</b></td><td></td><td></td></tr>
 
-<tr><td><b>Y</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>Y</b></td><td></td><td></td></tr>
 
-<tr><td><b>radius</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>radius</b></td><td></td><td></td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
-<tr><td>linestyle#</td><td>integer</td><td><b>No</b></td></tr>
+<tr><td>linestyle#</td><td>integer</td><td>Yes</td></tr>
 
 </table>
 

@@ -19,9 +19,9 @@ Returns the variance of the elements in `list` with frequency `freqlist`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>list</b></td><td>list</td><td></td></tr>
 
-<tr><td>freqlist</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>freqlist</td><td>list</td><td>Yes</td></tr>
 
 </table>
 

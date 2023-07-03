@@ -22,9 +22,9 @@ Notice the token is "_and_" where "_" is a space.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>valueA</b></td><td>real|expression|real[]</td><td>Yes</td></tr>
+<tr><td><b>valueA</b></td><td>real|expression|real[]</td><td></td></tr>
 
-<tr><td><b>valueB</b></td><td>real|expression|real[]</td><td>Yes</td></tr>
+<tr><td><b>valueB</b></td><td>real|expression|real[]</td><td></td></tr>
 
 </table>
 

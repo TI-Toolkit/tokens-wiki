@@ -19,9 +19,9 @@ Returns a number, expression, list, or matrix rounded to `#decimals` ( 9).
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td></td><td></td></tr>
 
-<tr><td>#decimals</td><td></td><td><b>No</b></td></tr>
+<tr><td>#decimals</td><td></td><td>Yes</td></tr>
 
 </table>
 

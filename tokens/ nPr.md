@@ -19,9 +19,9 @@ Returns the number of permutations of `valueA` taken `valueB` at a time.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>valueA</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>valueA</b></td><td></td><td></td></tr>
 
-<tr><td><b>valueB</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>valueB</b></td><td></td><td></td></tr>
 
 </table>
 
@@ -42,9 +42,9 @@ Returns a list of the permutations of `value` taken each element in `list` at a 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td></td><td></td></tr>
 
-<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>list</b></td><td>list</td><td></td></tr>
 
 </table>
 
@@ -65,9 +65,9 @@ Returns a list of the permutations of each element in `list` taken `value` at a 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>list</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>list</b></td><td>list</td><td></td></tr>
 
-<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td></td><td></td></tr>
 
 </table>
 
@@ -88,9 +88,9 @@ Returns a list of the permutations of each element in `listA` taken each element
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>listA</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>listA</b></td><td>list</td><td></td></tr>
 
-<tr><td><b>listB</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>listB</b></td><td>list</td><td></td></tr>
 
 </table>
 

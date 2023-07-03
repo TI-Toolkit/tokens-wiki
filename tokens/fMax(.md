@@ -19,15 +19,15 @@ Returns the value of `variable` where the local maximum of `expression` occurs, 
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>expression</b></td><td>expression</td><td>Yes</td></tr>
+<tr><td><b>expression</b></td><td>expression</td><td></td></tr>
 
-<tr><td><b>variable</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>variable</b></td><td></td><td></td></tr>
 
-<tr><td><b>lower</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>lower</b></td><td></td><td></td></tr>
 
-<tr><td><b>upper</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>upper</b></td><td></td><td></td></tr>
 
-<tr><td>tolerance</td><td></td><td><b>No</b></td></tr>
+<tr><td>tolerance</td><td></td><td>Yes</td></tr>
 
 </table>
 

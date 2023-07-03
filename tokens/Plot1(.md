@@ -21,17 +21,17 @@ Note: `Xlist `and `Ylist `represent the Xlist and Ylist names.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>#</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>#</b></td><td></td><td></td></tr>
 
-<tr><td><b>type</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>type</b></td><td></td><td></td></tr>
 
-<tr><td><b>Xlist</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>Xlist</b></td><td>list</td><td></td></tr>
 
-<tr><td><b>Ylist</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>Ylist</b></td><td>list</td><td></td></tr>
 
-<tr><td>mark</td><td></td><td><b>No</b></td></tr>
+<tr><td>mark</td><td></td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 
@@ -54,15 +54,15 @@ Note: `Xlist `represents the Xlist name.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>#</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>#</b></td><td></td><td></td></tr>
 
-<tr><td><b>type</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>type</b></td><td></td><td></td></tr>
 
-<tr><td><b>Xlist</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>Xlist</b></td><td>list</td><td></td></tr>
 
-<tr><td>freqlist</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>freqlist</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 
@@ -85,17 +85,17 @@ Note: `Xlist `represents the Xlist name.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>#</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>#</b></td><td></td><td></td></tr>
 
-<tr><td><b>type</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>type</b></td><td></td><td></td></tr>
 
-<tr><td><b>Xlist</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>Xlist</b></td><td>list</td><td></td></tr>
 
-<tr><td>freqlist</td><td>list</td><td><b>No</b></td></tr>
+<tr><td>freqlist</td><td>list</td><td>Yes</td></tr>
 
-<tr><td>mark</td><td></td><td><b>No</b></td></tr>
+<tr><td>mark</td><td></td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 
@@ -118,17 +118,17 @@ Note: `datalist `represents the datalist name.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>#</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>#</b></td><td></td><td></td></tr>
 
-<tr><td><b>type</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>type</b></td><td></td><td></td></tr>
 
-<tr><td><b>datalist</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>datalist</b></td><td>list</td><td></td></tr>
 
-<tr><td>data axis</td><td></td><td><b>No</b></td></tr>
+<tr><td>data axis</td><td></td><td>Yes</td></tr>
 
-<tr><td>mark</td><td></td><td><b>No</b></td></tr>
+<tr><td>mark</td><td></td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 

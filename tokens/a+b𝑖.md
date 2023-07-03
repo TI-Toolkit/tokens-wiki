@@ -19,7 +19,7 @@ Sets the mode to rectangular complex number format (a+b`i`).
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>i</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>i</b></td><td></td><td></td></tr>
 
 </table>
 

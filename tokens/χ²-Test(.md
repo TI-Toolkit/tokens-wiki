@@ -20,15 +20,15 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>χ²-</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>χ²-</b></td><td></td><td></td></tr>
 
-<tr><td><b>observedmatrix</b></td><td>matrix</td><td>Yes</td></tr>
+<tr><td><b>observedmatrix</b></td><td>matrix</td><td></td></tr>
 
-<tr><td>expectedmatrix</td><td>matrix</td><td><b>No</b></td></tr>
+<tr><td>expectedmatrix</td><td>matrix</td><td>Yes</td></tr>
 
-<tr><td>drawflag</td><td></td><td><b>No</b></td></tr>
+<tr><td>drawflag</td><td></td><td>Yes</td></tr>
 
-<tr><td>color#</td><td>colorNum</td><td><b>No</b></td></tr>
+<tr><td>color#</td><td>colorNum</td><td>Yes</td></tr>
 
 </table>
 

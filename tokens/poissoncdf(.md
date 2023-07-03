@@ -19,9 +19,9 @@ Computes a cumulative probability at `x` for the discrete Poisson distribution w
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>μ</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>μ</b></td><td></td><td></td></tr>
 
-<tr><td><b>x</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>x</b></td><td></td><td></td></tr>
 
 </table>
 

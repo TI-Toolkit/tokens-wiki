@@ -19,9 +19,9 @@ Stores `value` to each element in `matrixname`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td></td><td></td></tr>
 
-<tr><td><b>matrixname</b></td><td>matrix</td><td>Yes</td></tr>
+<tr><td><b>matrixname</b></td><td>matrix</td><td></td></tr>
 
 </table>
 
@@ -42,9 +42,9 @@ Stores `value` to each element in `listname`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>value</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>value</b></td><td></td><td></td></tr>
 
-<tr><td><b>listname</b></td><td>list</td><td>Yes</td></tr>
+<tr><td><b>listname</b></td><td>list</td><td></td></tr>
 
 </table>
 

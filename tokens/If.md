@@ -19,11 +19,11 @@ If `condition` = 0 (false), skips `commandA`.
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>condition</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>condition</b></td><td></td><td></td></tr>
 
-<tr><td><b>commandA</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>commandA</b></td><td></td><td></td></tr>
 
-<tr><td><b>commands</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>commands</b></td><td></td><td></td></tr>
 
 </table>
 
@@ -46,13 +46,13 @@ Executes `commands` from `Then` to `End` if `condition` = 1 (true).
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>:</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>:</b></td><td></td><td></td></tr>
 
-<tr><td><b>condition</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>condition</b></td><td></td><td></td></tr>
 
-<tr><td><b>commands</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>commands</b></td><td></td><td></td></tr>
 
-<tr><td><b>commands</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>commands</b></td><td></td><td></td></tr>
 
 </table>
 
@@ -75,13 +75,13 @@ Executes `commands` from `Then` to `Else` if `condition` = 1 (true); from `Els
 <table>
 <tr><th>Name</th><th>Type</th><th>Optional</th></tr>
 
-<tr><td><b>condition</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>condition</b></td><td></td><td></td></tr>
 
-<tr><td><b>commands</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>commands</b></td><td></td><td></td></tr>
 
-<tr><td><b>commands</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>commands</b></td><td></td><td></td></tr>
 
-<tr><td><b>commands</b></td><td></td><td>Yes</td></tr>
+<tr><td><b>commands</b></td><td></td><td></td></tr>
 
 </table>
 
