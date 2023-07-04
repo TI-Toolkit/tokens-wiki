@@ -90,6 +90,10 @@ For more information about using SetUpEditor in the context of saving data, see 
 *   [Highscores](Highscores.md)
 *   [Program Cleanup](Program Cleanup.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: 2Tie, burr, DarkerLine, GoVegan, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

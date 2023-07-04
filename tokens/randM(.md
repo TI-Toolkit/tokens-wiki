@@ -61,6 +61,10 @@ The entries of randM( are actually the outputs of successive calls to randInt(-9
 *   [randBin(](randBin\(.md)
 *   [randIntNoRep(](randIntNoRep\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, MrTanookiMario.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -138,6 +138,10 @@ The first check, to see if the sizes are identical, is necessary because otherwi
 *   [sum(](sum\(.md)
 *   [prod(](prod\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

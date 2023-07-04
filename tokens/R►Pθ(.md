@@ -73,6 +73,10 @@ R►Pθ(x,y)/1°
 *   [angle(](angle\(.md)
 *   [tanֿ¹(](tanֿ¹\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

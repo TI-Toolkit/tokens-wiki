@@ -43,6 +43,10 @@ In order for the date format to work, you need to set the date using either the 
 *   [getDtFmt](getDtFmt.md)
 *   [getDtStr(](getDtStr\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, RandomProductions.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

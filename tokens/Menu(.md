@@ -98,6 +98,10 @@ Remove ClrHome
 
 Featured Article
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, Myles_Zadok, olin3434, Timothy Foster, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

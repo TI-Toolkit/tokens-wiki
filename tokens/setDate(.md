@@ -47,6 +47,10 @@ Once you have set the date, you can display it in three different formats on the
 *   [getDtStr(](getDtStr\(.md)
 *   [setDtFmt(](setDtFmt\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Jonathan King, RandomProductions, Timtech.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

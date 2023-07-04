@@ -92,6 +92,10 @@ Aside from statistical analysis, 2-Var Stats can also be used when you want to u
 
 *   [1-Var Stats](1-Var Stats.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

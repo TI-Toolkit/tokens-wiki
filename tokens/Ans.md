@@ -49,6 +49,10 @@ These cases can be very useful, allowing you to use Ans to store an expression r
 
 Storing a real value into <tt>Ans</tt> takes approximately 1.0 ms. This does not include the time needed to compute or retrieve the value, which may be significant.
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, burr, DarkerLine, GoVegan, kg583, lirtosiast, Myles_Zadok, rileyp, Timothy Foster, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

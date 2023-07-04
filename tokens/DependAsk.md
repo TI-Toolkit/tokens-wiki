@@ -30,6 +30,10 @@ The <tt>DependAsk</tt> setting might be useful when dealing with a difficult-to-
 *   <tt><a href="DependAuto.md">DependAuto</a></tt>
 *   <tt><a href="DispTable.md">DispTable</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

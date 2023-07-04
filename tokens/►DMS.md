@@ -52,6 +52,10 @@ Although <tt>►DMS</tt> is meant as a way to format angles in <tt><a href="Degr
 *   <tt><a href="►Polar.md">►Polar</a></tt>
 *   <tt><a href="►Rect.md">►Rect</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

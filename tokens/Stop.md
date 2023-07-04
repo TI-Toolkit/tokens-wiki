@@ -49,6 +49,10 @@ Remove the Stop
 
 *   [Subprograms](Subprograms.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

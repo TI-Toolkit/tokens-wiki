@@ -74,6 +74,10 @@ tan(π/4¹ )
 *   [cosֿ¹(](cosֿ¹\(.md)
 *   [tanֿ¹(](tanֿ¹\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Mr Dino, simplethinker, Timothy Foster, Weregoose, Xeda Elnara.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

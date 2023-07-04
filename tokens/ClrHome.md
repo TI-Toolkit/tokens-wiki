@@ -40,6 +40,10 @@ You want to make sure to clear the home screen when [exiting](cleanup) programs 
 *   [Program Setup](Program Setup.md)
 *   [Program Cleanup](Program Cleanup.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, burr, CloudVariable, DarkerLine, GoVegan, kg583, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

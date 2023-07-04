@@ -55,6 +55,10 @@ Keep in mind that Shade_t( is a drawing command and not the graph of an equation
 *   [invT(](invT\(.md)
 *   [Shade(](Shade\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -37,6 +37,10 @@ When in <tt>Classic</tt> mode, text and numbers are displayed much faster on the
 
 *   <tt><a href="MATHPRINT.md">MATHPRINT</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: ccrh2009, jonbush, Kydapoot, lirtosiast, Myles_Zadok, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

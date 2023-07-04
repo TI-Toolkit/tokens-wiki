@@ -27,6 +27,10 @@ Make sure to set the calculator to one of the modes before using the finance sol
 
 *   [Pmt_End](Pmt_End.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -59,6 +59,10 @@ If a list is sorted in ascending order, <tt>min(ΔList(<em>list</em>))</tt> will
 *   <tt><a href="cumSum(.md">cumSum(</a></tt>
 *   <tt><a href="augment(.md">augment(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

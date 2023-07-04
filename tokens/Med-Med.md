@@ -82,6 +82,10 @@ An example of Med-Med with all the optional arguments:
 *   [LinRegTInt](LinRegTInt.md)
 *   [Manual-Fit](Manual-Fit.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

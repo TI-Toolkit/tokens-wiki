@@ -110,6 +110,10 @@ The general conclusion you can take away from this table is that For( loops shou
 *   [While](While.md)
 *   [If](If.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

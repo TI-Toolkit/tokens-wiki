@@ -156,6 +156,10 @@ When using the optional argument of <tt>Pause</tt>, it is stored to <tt>Ans</tt>
 *   <tt><a href="Text(.md">Text(</a></tt>
 *   <tt><a href="Wait.md">Wait</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, burr, CloudVariable, DarkerLine, GoVegan, iPhoenixOnTIBD, jonbush, kg583, Myles_Zadok, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

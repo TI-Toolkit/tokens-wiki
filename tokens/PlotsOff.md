@@ -33,6 +33,10 @@ If it is given arguments, there can be any number of them (actually, no more tha
 *   [PlotsOn](PlotsOn.md)
 *   [Select(](Select\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

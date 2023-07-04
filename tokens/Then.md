@@ -131,6 +131,10 @@ Very slow
 *   <tt><a href="While.md">While</a></tt>
 *   <tt><a href="Repeat.md">Repeat</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, kg583, lirtosiast, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

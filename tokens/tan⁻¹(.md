@@ -67,6 +67,10 @@ Expressions of the form tanֿ¹(_y__/x_) are usually better recast as R►Pθ(_x
 *   [tan(](tan\(.md)
 *   [R►Pθ(](R►Pθ\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

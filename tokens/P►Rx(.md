@@ -81,6 +81,10 @@ can be
 *   [R►Pθ(](R►Pθ\(.md)
 *   [cos(](cos\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: CloudVariable, DarkerLine, GoVegan, simplethinker, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

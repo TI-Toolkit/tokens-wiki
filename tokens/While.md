@@ -89,6 +89,10 @@ While and Repeat loops are identical regarding speed, so that shouldn't be a fac
 *   [Repeat](Repeat.md)
 *   [If](If.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, eibmoz_, GoVegan, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

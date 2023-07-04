@@ -30,6 +30,10 @@ Sets horizontal split-screen mode.
 *   <tt><a href="Full.md">Full</a></tt>
 *   <tt><a href="G-T.md">G-T</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, Battlesquid, burr, DarkerLine, GoVegan, kg583, Xphoenix.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

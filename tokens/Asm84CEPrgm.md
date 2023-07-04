@@ -29,6 +29,10 @@ AsmComp(prgmNAME1,prgmNAME2
 
 Then, find the program you compressed and run it with either the [Asm(](Asm\(.md) command or like a normal BASIC progam.
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: jonbush, Myles_Zadok, Trenly, VoxelPrismatic.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -92,6 +92,10 @@ For a matrix, if you want to sum up the rows instead of the columns, use the <tt
 *   <tt><a href="ΔList(.md">ΔList(</a></tt>
 *   <tt><sup>T</sup></tt> (<tt><a href="transpose.md">transpose</a></tt>)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

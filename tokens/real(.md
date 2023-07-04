@@ -53,6 +53,10 @@ If a program you downloaded has an error and 2:Goto takes you to a line with rea
 
 *   [Assembly Libraries](Assembly Libraries.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

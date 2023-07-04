@@ -61,6 +61,10 @@ can be
 *   [or](or.md)
 *   [xor](xor.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

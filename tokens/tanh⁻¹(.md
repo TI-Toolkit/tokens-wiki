@@ -54,6 +54,10 @@ tanhֿ¹({-.5,.5})
 *   [coshֿ¹(](coshֿ¹\(.md)
 *   [tanh(](tanh\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

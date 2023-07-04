@@ -63,6 +63,10 @@ Using <tt><a href="DelVar.md">DelVar</a></tt> instead of <tt>ClrList</tt> allows
 *   <tt><a href="DelVar.md">DelVar</a></tt>
 *   <tt><a href="dim(.md">dim(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, jonbush, Myles_Zadok, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -90,6 +90,10 @@ The p-value, then, is the probability that the <tt>χ²</tt> statistic would be 
 
 *   [χ² Goodness-of-fit Test](χ² Goodness-of-fit Test.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -150,6 +150,10 @@ Here, the <tt>remainder(</tt> command fails because the input is out of range.. 
 *   [/](/.md)
 *   [n/d](n/d.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: 12Me21, DarkerLine, Deflect, kg583, Kydapoot, Michael2_3B, Silver Phantom, sonic65101, Timothy Foster, tyler999.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

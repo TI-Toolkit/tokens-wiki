@@ -29,6 +29,10 @@ Make sure not to confuse this with [Seq](seq-mode) mode, which is referred to in
 
 *   [Simul](Simul.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

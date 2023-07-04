@@ -100,6 +100,10 @@ All errors are thrown when plotting the stat plot, as opposed to when the comman
 *   <tt><a href="PlotsOn.md">PlotsOn</a></tt>
 *   <tt><a href="PlotsOff.md">PlotsOff</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

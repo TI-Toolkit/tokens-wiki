@@ -27,6 +27,10 @@ If you use a list in an equation, as with Y1={1,2,3}X, this will graph several e
 
 *   [Sequential](Sequential.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

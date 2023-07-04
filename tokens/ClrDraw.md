@@ -57,6 +57,10 @@ Footnotes
 
 [1](javascript:;). Fixed on the TI-84+CSE
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Austin 332000, burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

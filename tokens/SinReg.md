@@ -89,7 +89,9 @@ The [Levenberg-Marquardt](http://en.wikipedia.org/wiki/Levenberg-Marquardt_algor
 *   [ExpReg](ExpReg.md)
 *   [Logistic](Logistic.md)
 
-___
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk, Timothy Foster.___
 
 ## History
 | Calculator | OS Version | Description |

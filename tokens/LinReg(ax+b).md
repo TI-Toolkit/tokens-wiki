@@ -78,6 +78,10 @@ LinReg(ax+b), along with [LinReg(a+bx)](linreg-a-bx) and [Med-Med](Med-Med.md), 
 *   [Manual-Fit](Manual-Fit.md)
 *   [Med-Med](Med-Med.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Apersoma, burr, DarkerLine, GoVegan, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

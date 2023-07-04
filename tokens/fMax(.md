@@ -58,6 +58,10 @@ Keep in mind that the result is the value of _var_, and not the value of _f(var)
 *   <tt><a href="fnInt(.md">fnInt(</a></tt>
 *   <tt><a href="nDeriv(.md">nDeriv(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

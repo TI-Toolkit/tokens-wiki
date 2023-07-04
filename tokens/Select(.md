@@ -50,6 +50,10 @@ can be
 *   [Plot1(](plotn), [Plot2(](plotn), [Plot3(](plotn)
 *   [Input](Input.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

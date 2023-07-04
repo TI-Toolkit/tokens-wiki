@@ -70,6 +70,10 @@ To the calculator, only roots for which Irr>0 are considered to be viable.
 
 *   <tt><a href="npv(.md">npv(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

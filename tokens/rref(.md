@@ -66,6 +66,10 @@ This process can be done by a program fairly easily. However, unless you're cert
 *   <tt><a href="*row(.md">*row(</a></tt>
 *   <tt><a href="*row+(.md">*row+(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

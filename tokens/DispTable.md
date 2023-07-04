@@ -36,6 +36,10 @@ The user can't select any cells in the table to be evaluated if they're not, alr
 *   <tt><a href="DependAsk.md">DependAsk</a></tt>
 *   <tt><a href="DependAuto.md">DependAuto</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

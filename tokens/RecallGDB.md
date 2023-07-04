@@ -63,6 +63,10 @@ GDBs can also be useful in adding extra string storage. You can store strings to
 
 *   [Cleaning up](Cleaning up.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Zaphod Beeblebrox.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -86,6 +86,10 @@ This is identical to the output of randInt( in the sense that for the same seed,
 *   [randM(](randM\(.md)
 *   [randIntNoRep(](randIntNoRep\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, nap386, Xeda Elnara.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

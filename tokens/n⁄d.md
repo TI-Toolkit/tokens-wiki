@@ -19,9 +19,12 @@ Displays results as a simple fraction.
 <tt><kbd><b>alpha</b></kbd></tt>, <kbd>F1</kbd>, `1:n/d`
 <hr>
 
-The page _n_ you want to access does not exist.
+n/d is the template for entering a simple fraction.  
+n/d is accessible by pressing ALPHA then Y= then enter.
 
-*   [Create page](javascript:;)
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: ccrh2009.
 
 ## History
 | Calculator | OS Version | Description |

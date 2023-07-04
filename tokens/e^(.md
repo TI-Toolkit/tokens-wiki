@@ -77,6 +77,10 @@ This is then used to define exponentiation in general (for all real and even com
 *   <tt><a href="ln(.md">ln(</a></tt>
 *   <tt><a href="10^(.md">10^(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

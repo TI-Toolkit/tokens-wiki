@@ -112,6 +112,10 @@ An example of <tt>LinRegTTest</tt> with all the optional arguments:
 *   <tt><a href="Manual-Fit.md">Manual-Fit</a></tt>
 *   <tt><a href="Med-Med.md">Med-Med</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

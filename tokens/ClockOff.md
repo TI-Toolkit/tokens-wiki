@@ -29,6 +29,10 @@ The <tt>ClockOff</tt> command does not actually turn the clock off. The time can
 *   <tt><a href="getTime.md">getTime</a></tt>
 *   <tt><a href="getDate.md">getDate</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Jonathan King, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

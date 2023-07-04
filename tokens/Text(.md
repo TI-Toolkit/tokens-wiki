@@ -87,6 +87,10 @@ You can also try to get around the situation by storing and recalling pictures, 
 *   <tt><a href="Pause.md">Pause</a></tt>
 *   <tt><a href="TextColor(.md">TextColor(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, Edward H, GoVegan, iPhoenixOnTIBD, Ivoah, kg583, mattyjraps, Myles_Zadok, Timothy Foster, ztrumpet.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

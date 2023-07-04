@@ -35,6 +35,10 @@ The <tt>isClockOn</tt> command returns whether the clock on the TI-84+/SE calcul
 *   <tt><a href="ClockOff.md">ClockOff</a></tt>
 *   <tt><a href="ClockOn.md">ClockOn</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Jonathan King, kg583, Xphoenix.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -43,6 +43,10 @@ The conjugate of a number $z$ is often written $\overline{z}$, and is useful bec
 *   <tt><a href="real(.md">real(</a></tt>
 *   <tt><a href="imag(.md">imag(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

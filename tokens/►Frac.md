@@ -46,6 +46,10 @@ For a more versatile algorithm for finding fractions, see the [Decimal to Fracti
 
 *   [Decimal to Fraction](Decimal to Fraction.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, burr, CloudVariable, DarkerLine, GoVegan, kg583, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

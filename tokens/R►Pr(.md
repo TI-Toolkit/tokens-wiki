@@ -70,6 +70,10 @@ can be
 *   [abs(](abs\(.md)
 *   [√(](√\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

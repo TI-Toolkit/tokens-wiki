@@ -32,6 +32,10 @@ The <tt>Full</tt> command cancels the effects of either <tt><a href="Horiz.md">H
 *   <tt><a href="G-T.md">G-T</a></tt>
 *   <tt><a href="Horiz.md">Horiz</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, Timothy Foster, Xphoenix, ztrumpet.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -126,6 +126,10 @@ This formula is fairly intuitive. We want to know the probability that out of n 
 *   <tt><a href="geometpdf(.md">geometpdf(</a></tt>
 *   <tt><a href="geometcdf(.md">geometcdf(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, Myles_Zadok, Timothy Foster, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

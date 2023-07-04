@@ -27,6 +27,10 @@ The <tt>ExprOff</tt> command enables a "short" form of displaying the equation o
 *   <tt><a href="CoordOn.md">CoordOn</a></tt>
 *   <tt><a href="CoordOff.md">CoordOff</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

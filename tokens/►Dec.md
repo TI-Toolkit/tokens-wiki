@@ -42,6 +42,10 @@ In 2.53 MP or higher, typed fractions are displayed in fraction form. Therefore,
 
 *   <tt><a href="►Frac.md">►Frac</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, blue_bear_94, burr, CloudVariable, DarkerLine, GoVegan, Myles_Zadok, Timtech.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

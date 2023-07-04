@@ -40,6 +40,10 @@ As a side effect, the coordinates of the last point traced are stored to X and Y
 *   [DispGraph](DispGraph.md)
 *   [DispTable](DispTable.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: b2jammer, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

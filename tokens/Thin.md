@@ -35,6 +35,10 @@ The Thin command will set all lines in the current function type to be only 1 pi
 
 *   [Thick](Thick.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, kg583, MrWompWomp.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

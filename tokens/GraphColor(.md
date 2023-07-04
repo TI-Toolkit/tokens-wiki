@@ -50,6 +50,10 @@ GraphColor(3,17
 *   <tt><a href="GraphStyle(.md">GraphStyle(</a></tt>
 *   <tt><a href="BorderColor.md">BorderColor</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: kg583, Michael2_3B.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

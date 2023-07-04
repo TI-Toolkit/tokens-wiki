@@ -65,6 +65,10 @@ The easiest way to fix this problem is by wrapping the different arguments in a 
 *   [iPart(](iPart\(.md)
 *   [fPart(](fPart\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

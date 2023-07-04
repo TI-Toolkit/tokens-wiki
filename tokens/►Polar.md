@@ -53,6 +53,10 @@ To actually separate a number into the components of polar form, use [abs(](abs\
 *   [►Dec](►Dec.md)
 *   [►Rect](►Rect.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -38,6 +38,10 @@ To avoid garbage collecting often, reduce the amount of times you archive and un
 *   <tt><a href="Archive.md">Archive</a></tt>
 *   <tt><a href="UnArchive.md">UnArchive</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, kg583, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

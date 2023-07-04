@@ -72,6 +72,10 @@ The <tt>Get(</tt> command is usually used after a <tt><a href="Send.md">Send</a>
 *   <tt><a href="GetCalc(.md">GetCalc(</a></tt>
 *   <tt><a href="Send(.md">Send(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, jonbush, kg583, princetonlion, Timtech, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

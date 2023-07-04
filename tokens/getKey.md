@@ -64,6 +64,10 @@ Sometimes your program may do something for several seconds without user input (
 *   [Custom Menus](Custom Menus.md)
 *   [Movement in Maps](Movement in Maps.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: basickevin, burr, DarkerLine, Edward H, GoVegan, iPhoenixOnTIBD, Myles_Zadok, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

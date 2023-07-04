@@ -35,6 +35,10 @@ The <tt>Dot-Thin</tt> command sets all lines in the current function type to be 
 
 *   <tt><a href="Dot-Thick.md">Dot-Thick</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, kg583, MrWompWomp.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

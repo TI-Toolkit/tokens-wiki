@@ -35,6 +35,10 @@ As a side effect, <tt>ClrTable</tt> seems to have all the effects of <tt><a href
 *   <tt><a href="DispGraph.md">DispGraph</a></tt>
 *   <tt><a href="DispTable.md">DispTable</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

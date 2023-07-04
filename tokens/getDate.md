@@ -32,6 +32,10 @@ An interesting note about this command is that you cannot index <tt>getDate</tt>
 *   <tt><a href="setDate(.md">setDate(</a></tt>
 *   <tt><a href="setDtFmt(.md">setDtFmt(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Jonathan King, kg583, RandomProductions.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

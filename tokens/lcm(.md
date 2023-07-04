@@ -49,6 +49,10 @@ lcm({14,12},{6,8})
 
 *   [gcd(](gcd\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

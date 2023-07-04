@@ -84,6 +84,10 @@ An easier way to do this, without needing a flag or even an <tt><a href="If.md">
 *   <tt><a href="tan(.md">tan(</a></tt>
 *   <tt><a href="tanֿ¹(.md">tanֿ¹(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, simplethinker, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

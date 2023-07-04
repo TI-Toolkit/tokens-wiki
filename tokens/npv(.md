@@ -87,6 +87,10 @@ When a frequency list is used, the same formula can be applied if we expand the 
 
 *   <tt><a href="irr(.md">irr(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

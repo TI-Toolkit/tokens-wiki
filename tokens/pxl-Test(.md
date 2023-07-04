@@ -49,6 +49,10 @@ You can store the result of pxl-Test( to a variable for later use, or use the co
 *   [Pxl-Off(](Pxl-Off\(.md)
 *   [Pxl-Change(](Pxl-Change\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

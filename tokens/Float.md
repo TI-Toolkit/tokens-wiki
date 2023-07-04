@@ -34,6 +34,10 @@ Finally, note that the <tt>Float</tt> and <tt><a href="Fix.md">Fix</a></tt> comm
 *   <tt><a href="Sci.md">Sci</a></tt>
 *   <tt><a href="Eng.md">Eng</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

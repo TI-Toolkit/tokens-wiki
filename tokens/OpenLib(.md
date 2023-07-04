@@ -34,6 +34,10 @@ The following program, which displays the version of usb8x, is an example of how
 
 *   <tt><a href="ExecLib.md">ExecLib</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583, seb83.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

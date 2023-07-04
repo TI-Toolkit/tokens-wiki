@@ -83,6 +83,10 @@ For the arbitrary mean μ and standard deviation σ, normalcdf( is defined in te
 *   [invNorm(](invNorm\(.md)
 *   [ShadeNorm(](ShadeNorm\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

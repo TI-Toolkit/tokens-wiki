@@ -25,6 +25,10 @@ The <tt>ClockOn</tt> command turns on the clock display at the bottom of the [mo
 
 *   <tt><a href="ClockOff.md">ClockOff</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

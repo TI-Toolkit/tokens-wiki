@@ -85,6 +85,10 @@ eval(expr("2X+3
 *   [toString(](toString\(.md)
 *   [expr(](expr\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, jonbush, lirtosiast, Michael2_3B.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -57,6 +57,10 @@ toString(√-1     //returns imaginary number "i"
 *   <tt><a href="eval(.md">eval(</a></tt>
 *   <tt><a href="expr(.md">expr(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, jonbush, kg583, Michael2_3B, VoxelPrismatic.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -51,6 +51,10 @@ In addition, <tt>BackgroundOn</tt> can be used to fill the graphscreen with a so
 *   <tt><a href="BackgroundOff.md">BackgroundOff</a></tt>
 *   <tt><a href="RecallPic.md">RecallPic</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, Electromagnet8, MrWompWomp, Myles_Zadok, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

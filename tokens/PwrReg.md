@@ -74,6 +74,10 @@ An example of PwrReg with all the optional arguments:
 *   [ExpReg](ExpReg.md)
 *   [SinReg](SinReg.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

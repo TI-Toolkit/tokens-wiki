@@ -28,6 +28,10 @@ When the <tt>DependAuto</tt> setting (opposed to the <tt><a href="DependAsk.md">
 *   <tt><a href="DependAsk.md">DependAsk</a></tt>
 *   <tt><a href="DispTable.md">DispTable</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

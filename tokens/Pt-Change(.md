@@ -42,6 +42,10 @@ Pt-Change( can be an interactive command: when on the graph screen, you can sele
 *   [Pt-Off(](Pt-Off\(.md)
 *   [Pxl-Change(](Pxl-Change\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -72,6 +72,10 @@ For the arbitrary normal distribution with mean μ and standard deviation σ:
 *   <tt><a href="normalcdf(.md">normalcdf(</a></tt>
 *   <tt><a href="ShadeNorm(.md">ShadeNorm(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

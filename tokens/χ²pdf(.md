@@ -48,6 +48,10 @@ The value of <tt>χ²pdf(</tt> is given by
 *   <tt><a href="χ²cdf(.md">χ²cdf(</a></tt>
 *   <tt><a href="Shadeχ²(.md">Shadeχ²(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

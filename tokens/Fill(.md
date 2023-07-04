@@ -86,6 +86,10 @@ On a TI-84+CSE, using <tt>Fill(List,List)</tt> will cause a RAM clear. For examp
 *   <tt><a href="dim(.md">dim(</a></tt>
 *   <tt><a href="seq(.md">seq(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, iPhoenixOnTIBD, kg583, lirtosiast, Silver Phantom.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

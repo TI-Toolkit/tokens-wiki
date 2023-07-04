@@ -78,6 +78,10 @@ This derivative is undefined when calculated algebraically, but due to the metho
 *   <tt><a href="fMax(.md">fMax(</a></tt>
 *   <tt><a href="fnInt(.md">fnInt(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, Deoxal, GoVegan, kg583, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -95,6 +95,10 @@ The output strings are in Ans
 *   [randM(](randM\(.md)
 *   [randInt(](randInt\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, MrTanookiMario, Timothy Foster, Xeda Elnara.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

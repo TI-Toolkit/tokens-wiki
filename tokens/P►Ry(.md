@@ -81,6 +81,10 @@ can be
 *   [R►Pθ(](R►Pθ\(.md)
 *   [sin(](sin\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

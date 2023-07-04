@@ -57,6 +57,10 @@ The determinant is then calculated as the product of the diagonal elements of th
 *   <tt><a href="ref(.md">ref(</a></tt>
 *   <tt><a href="rref(.md">rref(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

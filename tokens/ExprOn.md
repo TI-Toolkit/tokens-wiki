@@ -31,6 +31,10 @@ When tracing a plot, the plot number is written, followed by the list or lists t
 *   <tt><a href="CoordOn.md">CoordOn</a></tt>
 *   <tt><a href="CoordOff.md">CoordOff</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -65,6 +65,10 @@ We are ready to use <tt>ΣInt(</tt>. We are interested in the payments made duri
 *   <tt><a href="ΣPrn(.md">ΣPrn(</a></tt>
 *   <tt><a href="tvm_Pmt.md">tvm_Pmt</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

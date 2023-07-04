@@ -34,6 +34,10 @@ Assembly programs can be run with <tt><a href="Asm(.md">Asm(</a></tt>.
 *   <tt><a href="Asm(.md">Asm(</a></tt>
 *   <tt><a href="AsmPrgm.md">AsmPrgm</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, MateoConLechuga, Myles_Zadok, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -35,6 +35,10 @@ When in Mathprint mode, text and numbers are displayed much slower than classic 
 
 *   [CLASSIC](CLASSIC.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, jonbush, Kydapoot.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

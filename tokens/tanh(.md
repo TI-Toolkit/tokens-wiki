@@ -69,6 +69,10 @@ The definition of the hyperbolic tangent is:
 *   [coshֿ¹(](coshֿ¹\(.md)
 *   [tanhֿ¹(](tanhֿ¹\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, Edward H, GoVegan, thornahawk, Timothy Foster, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

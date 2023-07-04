@@ -44,6 +44,10 @@ imag({3+4i,-2i,17})
 *   <tt><a href="angle(.md">angle(</a></tt>
 *   <tt><a href="conj(.md">conj(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, DarkerLine, GoVegan, kg583, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

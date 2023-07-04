@@ -66,6 +66,10 @@ This will turn the equation the user drew into a string which can then be used f
 *   [LinRegTTest](LinRegTTest.md)
 *   [Med-Med](Med-Med.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

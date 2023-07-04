@@ -48,6 +48,10 @@ sinhֿ¹({1,2,3})
 *   [tanh(](tanh\(.md)
 *   [tanhֿ¹(](tanhֿ¹\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

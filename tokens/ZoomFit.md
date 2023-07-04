@@ -35,6 +35,10 @@ When graphing an equation with ZoomFit, the calculator will first calculate all 
 *   [ZoomStat](ZoomStat.md)
 *   [ZBox](ZBox.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, HJTP.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

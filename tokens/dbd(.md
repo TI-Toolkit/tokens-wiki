@@ -67,6 +67,10 @@ The <tt>dbd(</tt> command can be used to calculate the [day of week](day-of-week
 
 *   [Day of Week](Day of Week.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

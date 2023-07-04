@@ -54,6 +54,10 @@ For one degree of freedom, <tt>invT(</tt> is expressible in terms of simpler fun
 *   <tt><a href="tcdf(.md">tcdf(</a></tt>
 *   <tt><a href="Shade_t(.md">Shade_t(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, jonbush, kg583, Thom M, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -154,6 +154,10 @@ can be
 *   [TInterval](TInterval.md)
 *   [2-SampTInt](2-SampTInt.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

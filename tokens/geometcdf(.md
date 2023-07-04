@@ -72,6 +72,10 @@ However, we can take a shortcut to arrive at a much simpler expression for <tt>g
 *   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
 *   <tt><a href="geometpdf(.md">geometpdf(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, Joe_Young, kg583, Timothy Foster, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

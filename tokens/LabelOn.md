@@ -33,6 +33,10 @@ One final comment: okay, so by the way the command works we know it was once _in
 *   [AxesOn](AxesOn.md)
 *   [AxesOff](AxesOff.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, burr, DarkerLine, GoVegan, kg583, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

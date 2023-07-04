@@ -70,6 +70,10 @@ You can use Send( with a Get( for a Norland calculator robot. The format called 
 *   [Get(](Get\(.md)
 *   [GetCalc(](GetCalc\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, jonbush, princetonlion.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

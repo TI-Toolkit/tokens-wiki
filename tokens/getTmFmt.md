@@ -29,6 +29,10 @@ The <tt>getTmFmt(</tt> command returns the current time format of the clock on t
 *   <tt><a href="setTmFmt(.md">setTmFmt(</a></tt>
 *   <tt><a href="getTmStr(.md">getTmStr(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, RandomProductions.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

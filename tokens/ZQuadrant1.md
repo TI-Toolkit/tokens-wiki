@@ -35,6 +35,10 @@ ZQuadrant1 was introduced in OS 2.53MP. As it's name might imply, it puts Quadra
 *   [ZDecimal](ZDecimal.md)
 *   [ZSquare](ZSquare.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, Xeda Elnara.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -41,6 +41,10 @@ Although the correlation statistics are displayed with <tt>DiagnosticOn</tt>, th
 
 *   <tt><a href="DiagnosticOff.md">DiagnosticOff</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

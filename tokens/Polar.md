@@ -47,6 +47,10 @@ The [window variables](system-variables#window) that apply to polar mode are:
 *   [Param](Param.md)
 *   [Seq](Seq.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -65,6 +65,10 @@ prod({1,2,3,4,5},3)
 *   [dim(](dim\(.md)
 *   [seq(](seq\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

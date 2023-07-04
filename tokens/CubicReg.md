@@ -76,6 +76,10 @@ Note that even if a relationship is actually linear or quadratic, since a cubic 
 *   <tt><a href="QuadReg.md">QuadReg</a></tt>
 *   <tt><a href="QuartReg.md">QuartReg</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

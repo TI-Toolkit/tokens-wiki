@@ -74,6 +74,10 @@ An example of <tt>ExpReg</tt> with all the optional arguments:
 *   <tt><a href="PwrReg.md">PwrReg</a></tt>
 *   <tt><a href="SinReg.md">SinReg</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

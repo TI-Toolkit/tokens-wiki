@@ -47,6 +47,10 @@ When nesting control structures, you need to remember to put the appropriate num
 *   <tt><a href="Repeat.md">Repeat</a></tt>
 *   <tt><a href="For(.md">For(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, MufinMcFlufin, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -50,6 +50,10 @@ Remove Mark
 *   [Pt-Change(](Pt-Change\(.md)
 *   [Pxl-Off(](Pxl-Off\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, my_name, Skwerlman.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

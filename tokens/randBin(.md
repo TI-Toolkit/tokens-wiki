@@ -68,6 +68,10 @@ This is identical to the output of randBin( in the sense that for the same seed,
 *   [randM(](randM\(.md)
 *   [randIntNoRep(](randIntNoRep\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, MrTanookiMario, nap386, Timothy Foster, Xeda Elnara.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

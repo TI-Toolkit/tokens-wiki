@@ -46,6 +46,10 @@ Once you have set the time, you can display it in two different formats on the [
 *   [getTmStr(](getTmStr\(.md)
 *   [setTmFmt(](setTmFmt\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, RandomProductions.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

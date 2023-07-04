@@ -64,6 +64,10 @@ The value of <tt>poissonpdf(</tt> is given by the formula
 *   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
 *   <tt><a href="poissoncdf(.md">poissoncdf(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -76,6 +76,10 @@ One caveat, though - if all of the elements occur 0 times, there's nothing to ta
 *   [stdDev(](stdDev\(.md)
 *   [variance(](variance\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, burr, DarkerLine, GoVegan, Mr Dino, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

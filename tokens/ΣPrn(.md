@@ -69,6 +69,10 @@ When the _roundvalue_ argument isn't given, we can substitute the explicit formu
 *   <tt><a href="ΣInt(.md">ΣInt(</a></tt>
 *   <tt><a href="tvm_Pmt.md">tvm_Pmt</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

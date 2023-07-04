@@ -123,6 +123,10 @@ Remove the Quotes
 *   <tt><a href="Text(.md">Text(</a></tt>
 *   <tt><a href="Pause.md">Pause</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, Myles_Zadok, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

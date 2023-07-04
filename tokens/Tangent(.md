@@ -82,6 +82,10 @@ Of course, you _can_ use Ans in the equation, if it's a real number, but that's 
 *   [DrawF](DrawF.md)
 *   [DrawInv](DrawInv.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

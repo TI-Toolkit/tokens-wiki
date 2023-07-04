@@ -19,9 +19,13 @@ Displays results as a mixed number, if applicable.
 <tt><kbd><b>math</b></kbd></tt>, `NUMC: Un/d`
 <hr>
 
-The page _un_ you want to access does not exist.
+Un/d is a template that allows you to input a fraction with a whole number in front of it.  
+Un/d is accessible from most screens by pressing ALPHA and Y= then 2.  
+What this command does is that it adds the whole number to the fraction. It does not calculate a product but instead it calculates an addition.
 
-*   [Create page](javascript:;)
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, ccrh2009, DracoMhuuh.
 
 ## History
 | Calculator | OS Version | Description |

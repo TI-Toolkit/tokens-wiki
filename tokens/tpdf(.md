@@ -55,6 +55,10 @@ The value of <tt>tpdf(</tt> is given by
 *   <tt><a href="invT(.md">invT(</a></tt>
 *   <tt><a href="Shade_t(.md">Shade_t(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

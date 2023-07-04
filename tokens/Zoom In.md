@@ -35,6 +35,10 @@ Aside from Xmin, Xmax, Ymin, and Ymax, no window variables are modified by this 
 *   [Zoom Out](Zoom Out.md)
 *   [ZBox](ZBox.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

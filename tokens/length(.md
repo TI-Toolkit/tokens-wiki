@@ -54,6 +54,10 @@ use sub(Str1,N,1 for the Nth character
 *   [inString(](inString\(.md)
 *   [sub(](sub\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, jonbush, kg583, Michael2_3B.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -48,6 +48,10 @@ The <tt>angle(</tt> command also works on [matrices](matrices.md), though not in
 *   <tt><a href="imag(.md">imag(</a></tt>
 *   <tt><a href="R►Pθ(.md">R►Pθ(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, Myles_Zadok, thornahawk, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -64,6 +64,10 @@ The [SetUpEditor](SetUpEditor.md) command is often used in place of the UnArchiv
 
 *   [Saving Data](Saving Data.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, nap386.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

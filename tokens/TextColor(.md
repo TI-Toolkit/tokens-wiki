@@ -122,6 +122,10 @@ When the calculator displays text on the graphscreen, it displays it on top of a
 *   <tt><a href="Text(.md">Text(</a></tt>
 *   <tt><a href="Pxl-On.md">Pxl-On</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, Electromagnet8, iPhoenixOnTIBD, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

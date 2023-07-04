@@ -102,6 +102,10 @@ can be
 *   <tt><a href="Z-Test(.md">Z-Test(</a></tt>
 *   <tt><a href="2-SampZTest(.md">2-SampZTest(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

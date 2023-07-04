@@ -149,6 +149,10 @@ can be
 *   <tt><a href="Fill(.md">Fill(</a></tt>
 *   <tt><a href="augment(.md">augment(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

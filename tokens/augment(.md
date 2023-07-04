@@ -103,6 +103,10 @@ However, the following way is faster and more memory-efficient while the program
 *   <tt><a href="seq(.md">seq(</a></tt>
 *   <tt><sup><a href="transpose">T</a></sup></tt> (transpose)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

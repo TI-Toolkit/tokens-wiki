@@ -35,6 +35,7 @@ turndownService.addRule('latexContent', {
 });
 
 const BASEURL = 'http://tibasicdev.wikidot.com/';
+const WDTOKEN = process.env.WDTOKEN || '';
 
 const pages = [
     ["1-PropZInt(",null],
@@ -212,7 +213,7 @@ const pages = [
     ["median(",null],
     ["Menu(",null],
     ["min(",null],
-    ["n/d","n⁄d"],
+    ["n-d","n⁄d"],
     ["nCr",null],
     ["nDeriv(",null],
     ["Normal",null],
@@ -345,7 +346,7 @@ const pages = [
     ["tvm","tvm_𝗡"],
     ["tvm","tvm_Pmt"],
     ["tvm","tvm_PV"],
-    ["Un/d","Un⁄d"],
+    ["Un-d","Un⁄d"],
     ["UnArchive",null],
     ["uvAxes",null],
     ["uwAxes",null],
@@ -383,7 +384,7 @@ const pages = [
     ["►Eff(",null],
     ["►Frac",null],
     ["►F◄►D",null],
-    ["►n/d◄►Un/d","►n⁄d◄►Un⁄d"],
+    ["►n-d◄►Un-d","►n⁄d◄►Un⁄d"],
     ["►Nom(",null],
     ["►Rect",null]
 ];
@@ -392,18 +393,51 @@ for (const page of pages) {
     const pagename = page[0];
     const tokname = page[1] ?? pagename;
 
-    const htmlOutFile = `./input/tibd_html/${tokname}.html`;
+    const fullHtmlOutFile = `./input/tibd_fullhtml/${tokname}.html`;
+    const articleHtmlOutFile = `./input/tibd_html/${tokname}.html`;
+    const authorsJsonOutFile = `./input/tibd_authors/${tokname}.json`;
     const mdOutFile = `./input/tibd_gen/${tokname}.md`;
 
-    let articleHTML = '';
-    if (!fs.existsSync(htmlOutFile)) {
+    let wholePageHTML = '', articleHTML = '';
+    let authors = [];
+
+    if (!fs.existsSync(fullHtmlOutFile)) {
         console.log(`Fetching ${tokname}...`);
-        const pageHTML = await (await fetch(BASEURL + pagename)).text();
-        articleHTML = (new JSDOM(pageHTML)).window.document.body.querySelector("#page-content").innerHTML;
-        fs.writeFileSync(htmlOutFile, articleHTML);
+        wholePageHTML = await (await fetch(BASEURL + pagename)).text();
+        fs.writeFileSync(fullHtmlOutFile, wholePageHTML);
     } else {
-        articleHTML = fs.readFileSync(htmlOutFile, 'utf8');
+        wholePageHTML = fs.readFileSync(fullHtmlOutFile, 'utf8');
     }
+
+    if (!fs.existsSync(articleHtmlOutFile)) {
+        articleHTML = (new JSDOM(wholePageHTML)).window.document.body.querySelector("#page-content").innerHTML;
+        fs.writeFileSync(articleHtmlOutFile, articleHTML);
+    } else {
+        articleHTML = fs.readFileSync(articleHtmlOutFile, 'utf8');
+    }
+
+    if (!fs.existsSync(authorsJsonOutFile)) {
+        const wdPageID = [...wholePageHTML.matchAll(/WIKIREQUEST\.info\.pageId = (\w+);/g)][0][1];
+        console.log(`Fetching authors of ${tokname} (page ID ${wdPageID})...`);
+        const resJson = await (await fetch(BASEURL + 'ajax-module-connector.php', {
+            "headers": {
+                "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+                "cookie": `wikidot_token7=${WDTOKEN}`
+            },
+            "body": `page=1&perpage=2000&page_id=${wdPageID}&options=%7B%22all%22%3Atrue%7D&moduleName=history%2FPageRevisionListModule&callbackIndex=3&wikidot_token7=${WDTOKEN}`,
+            "method": "POST"
+        })).json();
+        authors = new Set();
+        for (const match of resJson.body.matchAll(/return false;" ?>([^<]+)<\/a><\/span><\/td>/gm)) {
+            authors.add(match[1]);
+        }
+        fs.writeFileSync(authorsJsonOutFile, JSON.stringify(Array.from(authors).sort((a, b) => a.localeCompare(b))));
+    } else {
+        authors = new Set(JSON.parse(fs.readFileSync(authorsJsonOutFile, 'utf8')) ?? []);
+    }
+
+    articleHTML += '<hr><b>Source</b>: parts of this page were written by ';
+    articleHTML += authors.size ? `the following TI|BD contributors: ${Array.from(authors).join(', ')}.` : 'TI|BD contributors.';
 
     console.log(`Converting ${tokname}...`)
     // Discard the sidebar content (ends at the token size thing), remove the empty end, resize titles, and do some cleanup.

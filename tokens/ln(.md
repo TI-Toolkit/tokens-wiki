@@ -61,6 +61,10 @@ This is the exponent to which B must be raised, to get X.
 *   [log(](log\(.md)
 *   [logBASE(](logBASE\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

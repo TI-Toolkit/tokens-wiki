@@ -103,6 +103,10 @@ The speed of the <tt>DelVar</tt> command depends on the circumstance where it is
 
 *   [Program Cleanup](Program Cleanup.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: AntKou, basickevin, burr, DarkerLine, GoVegan, jonbush, kg583, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

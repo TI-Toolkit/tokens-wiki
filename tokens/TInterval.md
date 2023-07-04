@@ -131,6 +131,10 @@ can be
 *   <tt><a href="ZInterval.md">ZInterval</a></tt>
 *   <tt><a href="2-SampZInt(.md">2-SampZInt(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

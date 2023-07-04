@@ -37,6 +37,10 @@ The getTmStr( command returns the current time of the clock on the TI-84+/SE cal
 *   [setTime(](setTime\(.md)
 *   [setTmFmt(](setTmFmt\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, RandomProductions.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

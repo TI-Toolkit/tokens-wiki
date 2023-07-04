@@ -34,6 +34,10 @@ One source of confusion with this command can be the fact that ZoomSto and ZoomR
 *   [ZoomSto](ZoomSto.md)
 *   [ZPrevious](ZPrevious.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Kydapoot.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

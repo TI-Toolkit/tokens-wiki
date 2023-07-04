@@ -134,6 +134,10 @@ An alternative method would be to lock the program from being able to be edited.
 *   [Program Cleanup](Program Cleanup.md)
 *   [Program Protection](Program Protection.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, burr, DarkerLine, GoVegan, iPhoenixOnTIBD, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

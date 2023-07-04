@@ -68,6 +68,10 @@ We can also write the <tt>poissoncdf(</tt> command in terms of the [incomplete g
 *   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
 *   <tt><a href="poissonpdf(.md">poissonpdf(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

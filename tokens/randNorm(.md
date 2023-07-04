@@ -75,6 +75,10 @@ The following formula can be used to get a target interval where A and B are two
 *   [randM(](randM\(.md)
 *   [randIntNoRep(](randIntNoRep\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, MrTanookiMario, Silver Phantom, Timothy Foster, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

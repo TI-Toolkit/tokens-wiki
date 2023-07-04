@@ -62,6 +62,10 @@ As archived variables (and programs) can not be accessed by the calculator's inb
 *   <tt><a href="UnArchive.md">UnArchive</a></tt>
 *   <tt><a href="DelVar.md">DelVar</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, thornahawk, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

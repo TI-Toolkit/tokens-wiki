@@ -129,6 +129,10 @@ If you are drawing horizontal or vertical lines that stretch the entire graph sc
 
 *   [Friendly Graphing Window](Friendly Graphing Window.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: basickevin, burr, DarkerLine, GoVegan, kg583, Lionel Foxcroft, Weregoose, Xphoenix.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

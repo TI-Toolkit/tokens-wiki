@@ -57,6 +57,10 @@ A <tt>gcd(</tt> command can be nested inside another <tt>gcd(</tt> command to co
 
 *   [Extended Euclidean Algorithm](Extended Euclidean Algorithm.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, kg583, Myles_Zadok, thornahawk, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

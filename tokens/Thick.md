@@ -35,6 +35,10 @@ The Thick command converts all lines in the current function type to be drawn us
 
 *   [Thin](Thin.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, jonbush, kg583, MrWompWomp.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

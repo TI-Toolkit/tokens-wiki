@@ -78,6 +78,10 @@ LinReg(a+bx), along with [LinReg(ax+b)](linreg-ax-b), can be used to [convert a 
 *   [Manual-Fit](Manual-Fit.md)
 *   [Med-Med](Med-Med.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, jojo40605, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

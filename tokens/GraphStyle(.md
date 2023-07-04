@@ -67,6 +67,10 @@ In shading modes (3 and 4), the shading style cycles as follows:
 *   <tt><a href="Connected.md">Connected</a></tt>
 *   <tt><a href="Dot.md">Dot</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

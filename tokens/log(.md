@@ -75,6 +75,10 @@ This will return the number of digits <tt>N</tt> has, if <tt>N</tt> is a whole n
 *   <tt><a href="ln(.md">ln(</a></tt>
 *   <tt><a href="logBASE(.md">logBASE(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, Deflect, GoVegan, kg583, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

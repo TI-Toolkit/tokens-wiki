@@ -62,6 +62,10 @@ The values given for <tt>Xmin</tt>, <tt>Xmax</tt>, etc. above are only correct f
 
 *   [Friendly Graphing Windows](Friendly Graphing Windows.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

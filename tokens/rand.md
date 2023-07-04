@@ -90,6 +90,10 @@ Despite the presence of an [If](If.md) statement, you don't have to worry about 
 *   [randM(](randM\(.md)
 *   [randIntNoRep(](randIntNoRep\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: builderboy, burr, CloudVariable, DarkerLine, Deoxal, GoVegan, MrTanookiMario, thornahawk, Timothy Foster, ztrumpet.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

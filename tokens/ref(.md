@@ -60,6 +60,10 @@ In practice, it's easier to use <tt><a href="rref(.md">rref(</a></tt> instead fo
 *   <tt><a href="*row(.md">*row(</a></tt>
 *   <tt><a href="*row+(.md">*row+(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

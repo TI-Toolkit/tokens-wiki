@@ -38,6 +38,10 @@ Using [StoreGDB](StoreGDB.md) and [RecallGDB](RecallGDB.md) is an excellent way 
 *   [ZoomSto](ZoomSto.md)
 *   [ZoomRcl](ZoomRcl.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, HJTP.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

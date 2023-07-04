@@ -62,6 +62,10 @@ fnInt(ln(X),X,0,1,e-11)
 *   <tt><a href="fMax(.md">fMax(</a></tt>
 *   <tt><a href="nDeriv(.md">nDeriv(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

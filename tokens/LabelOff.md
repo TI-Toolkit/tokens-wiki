@@ -27,6 +27,10 @@ The LabelOff setting disables labels on the X and Y coordinate axes. This is unn
 *   [AxesOn](AxesOn.md)
 *   [AxesOff](AxesOff.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -68,6 +68,10 @@ For the trivial value of n=0, however, the above formula gives the incorrect val
 *   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
 *   <tt><a href="geometcdf(.md">geometcdf(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, kg583, Timothy Foster, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

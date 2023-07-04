@@ -92,6 +92,10 @@ LinRegTInt
 *   [Manual-Fit](Manual-Fit.md)
 *   [Med-Med](Med-Med.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Mapar007, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

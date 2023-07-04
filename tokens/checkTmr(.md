@@ -62,6 +62,10 @@ When testing code, be aware that many different things affect the time: the stre
 
 *   <tt><a href="startTmr.md">startTmr</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Austin 332000, burr, DarkerLine, Electromagnet8, GoVegan, Kenta Lynn, kg583, lirtosiast, Xphoenix.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -68,6 +68,10 @@ solve(Y1,X,0
 *   [fMin(](fMin\(.md)
 *   [fnInt(](fnInt\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, iPhoenixOnTIBD, Silver Phantom, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

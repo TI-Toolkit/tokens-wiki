@@ -56,6 +56,10 @@ You can add columns instead of rows with the aid of the <sup>T</sup> ([transpose
 *   [*row(](*row\(.md)
 *   [*row+(](*row+\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, jnesselr, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

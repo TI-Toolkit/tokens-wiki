@@ -77,6 +77,10 @@ cos(π/3ֿ¹ )
 
 *   [Look-Up Tables](Look-Up Tables.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, nap386, simplethinker, Xeda Elnara.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

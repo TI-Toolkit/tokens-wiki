@@ -66,6 +66,10 @@ List►matr({1,2,3},{10},{100,200},[A]
 
 *   [Matr►list(](Matr►list\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

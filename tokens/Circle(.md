@@ -72,6 +72,10 @@ For small radii, replace <tt>Circle(</tt> with <tt>Pt-On(</tt> instead.
 *   <tt><a href="Line(.md">Line(</a></tt>
 *   <tt><a href="Pt-On(.md">Pt-On(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: 15274, burr, CloudVariable, DarkerLine, GoVegan, jonbush, Myles_Zadok, Xphoenix, Zaphod Beeblebrox.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

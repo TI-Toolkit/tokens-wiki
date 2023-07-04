@@ -47,6 +47,10 @@ The most common use for <tt><a href="FnOn.md">FnOn</a></tt> and <tt>FnOff</tt> i
 *   <tt><a href="PlotsOn.md">PlotsOn</a></tt>
 *   <tt><a href="PlotsOff.md">PlotsOff</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

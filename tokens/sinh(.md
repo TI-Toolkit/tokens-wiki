@@ -52,6 +52,10 @@ The definition of hyperbolic sine is:
 *   [tanh(](tanh\(.md)
 *   [tanhֿ¹(](tanhֿ¹\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

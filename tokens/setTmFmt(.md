@@ -43,6 +43,10 @@ In order for the time format to work, you need to set the time using either the 
 *   [getTmFmt](getTmFmt.md)
 *   [getTmStr(](getTmStr\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, RandomProductions.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

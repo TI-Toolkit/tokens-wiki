@@ -76,6 +76,10 @@ Note that even if a relationship is actually linear, since a quartic regression 
 *   [QuadReg](QuadReg.md)
 *   [CubicReg](CubicReg.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

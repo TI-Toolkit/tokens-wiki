@@ -47,6 +47,10 @@ You can use <tt>DrawF</tt> to draw an expression instead of having to store an e
 *   <tt><a href="DrawInv.md">DrawInv</a></tt>
 *   <tt><a href="Tangent(.md">Tangent(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

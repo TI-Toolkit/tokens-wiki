@@ -120,6 +120,10 @@ Replace with Prompt
 *   <tt><a href="Prompt.md">Prompt</a></tt>
 *   <tt><a href="getKey.md">getKey</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -39,6 +39,10 @@ The following is a list of the available ZFrac_X_ commands:
 *   [ZSquare](ZSquare.md)
 *   [ZDecimal](ZDecimal.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Timothy Foster, Xeda Elnara.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

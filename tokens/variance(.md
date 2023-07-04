@@ -64,6 +64,10 @@ where $\overline{x}$ is the mean with frequencies included.
 *   <tt><a href="median(.md">median(</a></tt>
 *   <tt><a href="stdDev(.md">stdDev(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

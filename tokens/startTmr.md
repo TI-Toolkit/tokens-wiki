@@ -56,6 +56,10 @@ When testing code, be aware that many different things affect the time: the stre
 
 *   [checkTmr(](checkTmr\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Jonathan King, lirtosiast, Xphoenix.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

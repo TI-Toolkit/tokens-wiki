@@ -33,6 +33,10 @@ It's not recommended to use this in most programs, because entering an empty win
 *   [Zoom In](Zoom In.md)
 *   [Zoom Out](Zoom Out.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

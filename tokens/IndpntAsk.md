@@ -32,6 +32,10 @@ The alternative, <tt><a href="IndpntAuto.md">IndpntAuto</a></tt>, fills in sever
 *   <tt><a href="DependAsk.md">DependAsk</a></tt>
 *   <tt><a href="DispTable.md">DispTable</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -86,6 +86,10 @@ can be
 *   [Pause](Pause.md)
 *   [Menu(](Menu\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, jonbush, Michael2_3B.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

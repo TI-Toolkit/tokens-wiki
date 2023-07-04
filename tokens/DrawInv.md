@@ -55,6 +55,10 @@ For this reason, <tt>DrawInv</tt> can sometimes behave in an unexpected fashion:
 *   <tt><a href="DrawF.md">DrawF</a></tt>
 *   <tt><a href="Tangent(.md">Tangent(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

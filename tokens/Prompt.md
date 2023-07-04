@@ -72,6 +72,10 @@ Combine the Prompts
 *   <tt><a href="Input.md">Input</a></tt>
 *   <tt><a href="getKey.md">getKey</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, merthsoft.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

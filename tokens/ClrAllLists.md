@@ -36,6 +36,10 @@ Outside a program (or in a program for personal use), you might use this command
 *   <tt><a href="DelVar.md">DelVar</a></tt>
 *   <tt><a href="dim(.md">dim(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -83,6 +83,10 @@ This can be used, for example, to check if a number is divisible by another: if 
 *   [Compression](Compression.md)
 *   [Number Factorization](Number Factorization.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, ePIi, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

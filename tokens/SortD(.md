@@ -68,6 +68,10 @@ The algorithm used by SortD( and [SortA(](SortA\(.md) appears to be a modified s
 
 *   [SortA(](SortA\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

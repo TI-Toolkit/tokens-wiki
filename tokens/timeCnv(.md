@@ -43,6 +43,10 @@ The time conversion is 60 seconds for a minute, 3600 (60*60) seconds for an hour
 *   [getTime](getTime.md)
 *   [getDate](getDate.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Thom M, Xphoenix.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

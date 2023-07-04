@@ -38,6 +38,10 @@ For all plots except Histogram, ZoomStat will create a window with Xmin=Xmax (or
 *   [ZoomFit](ZoomFit.md)
 *   [ZBox](ZBox.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, seb83, Zaphod Beeblebrox.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

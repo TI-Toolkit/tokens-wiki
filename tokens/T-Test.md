@@ -161,6 +161,10 @@ can be
 *   [Z-Test(](Z-Test\(.md)
 *   [2-SampZTest(](2-SampZTest\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

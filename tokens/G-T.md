@@ -34,6 +34,10 @@ With OS version 2.30 (on the TI-84+ and TI-84+ SE calculators), <tt>G-T</tt> mod
 *   <tt><a href="Full.md">Full</a></tt>
 *   <tt><a href="Horiz.md">Horiz</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, mattyjraps, Xphoenix.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

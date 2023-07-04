@@ -60,6 +60,10 @@ As with other continuous distributions, we can define <tt>χ²cdf(</tt> in forms
 
 *   [Goodness-of-Fit Test](Goodness-of-Fit Test.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

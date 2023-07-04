@@ -43,6 +43,10 @@ ZSquare can be useful in setting up a [friendly window](friendly-window).
 
 *   [Friendly Graphing Windows](Friendly Graphing Windows.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, HJTP.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

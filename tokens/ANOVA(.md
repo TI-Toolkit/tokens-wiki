@@ -67,6 +67,10 @@ However, be careful because the Factor and Error tokens look exactly alike (even
 *   <tt><a href="χ²-Test(.md">χ²-Test(</a></tt>
 *   <tt><a href="2-SampFTest.md">2-SampFTest</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, Myles_Zadok, nap386, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

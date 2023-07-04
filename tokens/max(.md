@@ -165,6 +165,10 @@ where the bounds for which the number 1 must fall between are first argument of 
 *   <tt><a href="sum(.md">sum(</a></tt>
 *   <tt><a href="prod(.md">prod(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, coltonj96, DarkerLine, GoVegan, kg583, lirtosiast, Mapar007, simplethinker.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

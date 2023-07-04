@@ -52,6 +52,10 @@ Also, if a screen in your program takes more than a second to draw, and is displ
 *   <tt><a href="ClrDraw.md">ClrDraw</a></tt>
 *   <tt><a href="StorePic.md">StorePic</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, Zaphod Beeblebrox.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

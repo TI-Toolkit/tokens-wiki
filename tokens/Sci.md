@@ -37,6 +37,10 @@ Sci
 *   [Float](Float.md)
 *   [Fix](Fix.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

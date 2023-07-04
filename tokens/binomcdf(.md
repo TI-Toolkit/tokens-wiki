@@ -127,6 +127,10 @@ Since "at most N" is equivalent to "0 or 1 or 2 or 3 or … N", and since we can
 *   <tt><a href="geometpdf(.md">geometpdf(</a></tt>
 *   <tt><a href="geometcdf(.md">geometcdf(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, Myles_Zadok, Timothy Foster, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

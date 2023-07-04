@@ -29,6 +29,10 @@ The coordinates are displayed in practically every situation when you're moving 
 *   <tt><a href="RectGC.md">RectGC</a></tt>
 *   <tt><a href="PolarGC.md">PolarGC</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

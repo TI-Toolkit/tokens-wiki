@@ -95,6 +95,10 @@ For complex numbers given by a separate real and complex part, <tt>abs(X+iY)</tt
 *   <tt><a href="conj(.md">conj(</a></tt>
 *   <tt><a href="R►Pr(.md">R►Pr(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583, Myles_Zadok, thornahawk, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

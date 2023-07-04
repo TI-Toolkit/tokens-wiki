@@ -62,6 +62,10 @@ Keep in mind that <tt>Shadeχ²(</tt> is just a drawing command and not an actua
 *   <tt><a href="χ²cdf(.md">χ²cdf(</a></tt>
 *   <tt><a href="Shade(.md">Shade(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

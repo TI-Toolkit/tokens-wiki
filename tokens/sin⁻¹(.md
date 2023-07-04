@@ -84,6 +84,10 @@ An easier way to do this, without needing a flag or even an If statement, is usi
 *   [tan(](tan\(.md)
 *   [tanֿ¹(](tanֿ¹\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, simplethinker, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

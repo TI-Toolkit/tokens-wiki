@@ -29,6 +29,10 @@ This can be used to free some memory, although it's recommended not to do this i
 *   <tt><a href="ClrAllLists.md">ClrAllLists</a></tt>
 *   <tt><a href="GarbageCollect.md">GarbageCollect</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

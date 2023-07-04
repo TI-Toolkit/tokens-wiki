@@ -51,6 +51,10 @@ To actually separate a number into the components of rectangular form, use [real
 *   [►Dec](►Dec.md)
 *   [►Polar](►Polar.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

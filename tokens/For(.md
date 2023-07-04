@@ -224,6 +224,10 @@ Using a <tt>For(</tt> loop when it fits your purpose is much faster than adaptin
 *   <tt><a href="While.md">While</a></tt>
 *   <tt><a href="If.md">If</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, Edward H, Electromagnet8, GoVegan, kg583, lirtosiast, MI Wright, muffinzrock, Myles_Zadok, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

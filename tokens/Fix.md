@@ -40,6 +40,10 @@ Finally, note that the <tt><a href="Float.md">Float</a></tt> and <tt>Fix</tt> co
 *   <tt><a href="Sci.md">Sci</a></tt>
 *   <tt><a href="Eng.md">Eng</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

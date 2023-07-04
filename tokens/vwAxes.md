@@ -36,6 +36,10 @@ See "Related Commands" for other possibilities of graphing sequences.
 *   [uvAxes](uvAxes.md)
 *   [uwAxes](uwAxes.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

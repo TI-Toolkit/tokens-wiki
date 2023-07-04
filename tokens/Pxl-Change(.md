@@ -47,6 +47,10 @@ In addition to being easier to use because it is not affected by the window sett
 *   [pxl-Test(](pxl-Test\(.md)
 *   [Pt-Change(](Pt-Change\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, iPhoenixOnTIBD.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -78,6 +78,10 @@ sin(π/6ֿ¹)
 
 *   [Look-Up Tables](Look-Up Tables.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, simplethinker, Xeda Elnara.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

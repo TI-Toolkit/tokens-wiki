@@ -65,6 +65,10 @@ In the case that _roundvalue_ is given as an argument, the rounding is done at e
 *   <tt><a href="ΣInt(.md">ΣInt(</a></tt>
 *   <tt><a href="tvm_Pmt.md">tvm_Pmt</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok, Timothy Foster, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

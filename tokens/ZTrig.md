@@ -50,6 +50,10 @@ However, in <tt><a href="G-T.md">G-T</a></tt> mode, the size that the graph take
 
 *   [Friendly Graphing Windows](Friendly Graphing Windows.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

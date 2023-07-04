@@ -53,6 +53,10 @@ For other normal distributions, normalpdf( is defined in terms of the standard d
 *   [invNorm(](invNorm\(.md)
 *   [ShadeNorm(](ShadeNorm\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

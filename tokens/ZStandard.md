@@ -68,6 +68,10 @@ ZStandard is often used before commands such as [ZSquare](ZSquare.md) or [ZInteg
 *   [ZSquare](ZSquare.md)
 *   [ZInteger](ZInteger.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

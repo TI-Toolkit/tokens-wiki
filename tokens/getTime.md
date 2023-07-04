@@ -32,6 +32,10 @@ An interesting note about this command is that you cannot index individual eleme
 *   <tt><a href="setTime(.md">setTime(</a></tt>
 *   <tt><a href="setTmFmt(.md">setTmFmt(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Jonathan King, kg583, RandomProductions, Socks.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

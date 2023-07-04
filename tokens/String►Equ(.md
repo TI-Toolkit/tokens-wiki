@@ -63,6 +63,10 @@ It's also important to realize the difference between the String►Equ( command 
 *   [Equ►String(](Equ►String\(.md)
 *   [expr(](expr\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, Timtech.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

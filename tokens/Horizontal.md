@@ -62,6 +62,10 @@ Horizontal 5,GRAY
 *   <tt><a href="Line(.md">Line(</a></tt>
 *   <tt><a href="Vertical.md">Vertical</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, Xphoenix.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

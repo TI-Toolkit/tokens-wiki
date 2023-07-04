@@ -45,6 +45,10 @@ The [window variables](system-variables#window) that apply to function mode are:
 *   <tt><a href="Polar.md">Polar</a></tt>
 *   <tt><a href="Seq.md">Seq</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

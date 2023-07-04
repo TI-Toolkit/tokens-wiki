@@ -48,6 +48,10 @@ A graph window commonly used in programming can be created by using the [ZStanda
 
 *   [Friendly Graphing Windows](Friendly Graphing Windows.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, seb83.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

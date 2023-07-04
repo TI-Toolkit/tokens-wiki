@@ -54,6 +54,10 @@ Here, Eff is the effective rate, Nom is the nominal rate, and CP is the number o
 
 *   <tt><a href="►Nom(.md">►Nom(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, jonbush, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

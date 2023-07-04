@@ -56,6 +56,10 @@ If you give them arguments, the values you give will replace the values of the f
 *   [Pmt_End](Pmt_End.md)
 *   [Pmt_Bgn](Pmt_Bgn.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, J_Walker87.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

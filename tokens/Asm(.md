@@ -36,6 +36,10 @@ With the <tt><a href="AsmPrgm.md">AsmPrgm</a></tt> and <tt><a href="AsmComp(.md"
 
 *   [Assembly Shells](Assembly Shells.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, Myles_Zadok, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

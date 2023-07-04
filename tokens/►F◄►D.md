@@ -41,6 +41,10 @@ Ans►F◄ ►D
 *   <tt><a href="►Frac.md">►Frac</a></tt>
 *   <tt><a href="►Dec.md">►Dec</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, burr, ccrh2009, kg583, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

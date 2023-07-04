@@ -62,6 +62,10 @@ Now the <tt>DispGraph</tt> inside the loop ensures that the graph screen is upda
 *   <tt><a href="Disp.md">Disp</a></tt>
 *   <tt><a href="DispTable.md">DispTable</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

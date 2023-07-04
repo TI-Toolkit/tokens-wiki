@@ -31,6 +31,10 @@ Important as the number <tt><em>e</em></tt> is, nine times out of ten you won't 
 *   <tt><a href="ln(.md">ln(</a></tt>
 *   <tt><a href="log(.md">log(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, burr, DarkerLine, GoVegan, Myles_Zadok, simplethinker, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

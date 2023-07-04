@@ -38,6 +38,10 @@ The <tt>AxesOn</tt> command enables the X and Y axes on the graph screen, so tha
 *   <tt><a href="LabelOn.md">LabelOn</a></tt>
 *   <tt><a href="LabelOff.md">LabelOff</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

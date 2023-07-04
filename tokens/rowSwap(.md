@@ -56,6 +56,10 @@ You can swap columns instead of rows with the aid of the <sup>T</sup> ([transpos
 *   [*row(](*row\(.md)
 *   [*row+(](*row+\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

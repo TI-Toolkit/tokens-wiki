@@ -60,6 +60,10 @@ It's recommended, then, to use [Radian](radian-mode) mode whenever you're in re^
 *   [Real](Real.md)
 *   [a+bi](a+bi.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

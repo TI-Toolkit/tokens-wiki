@@ -27,6 +27,10 @@ The <tt>GridOff</tt> command disables the grid on the graph screen. This is the 
 *   <tt><a href="AxesOn.md">AxesOn</a></tt>
 *   <tt><a href="AxesOff.md">AxesOff</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

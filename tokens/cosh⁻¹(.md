@@ -54,6 +54,10 @@ coshֿ¹({2,3})
 *   <tt><a href="tanh(.md">tanh(</a></tt>
 *   <tt><a href="tanhֿ¹(.md">tanhֿ¹(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok, thornahawk.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

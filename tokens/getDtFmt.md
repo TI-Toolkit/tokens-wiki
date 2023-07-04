@@ -29,6 +29,10 @@ The <tt>getDtFmt(</tt> command returns the current date format of the clock on t
 *   <tt><a href="setDtFmt(.md">setDtFmt(</a></tt>
 *   <tt><a href="getDtStr(.md">getDtStr(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Jonathan King, kg583, RandomProductions.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

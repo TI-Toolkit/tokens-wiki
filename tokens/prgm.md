@@ -60,6 +60,10 @@ Each time you call a TI-Basic program, 16 bytes are used to save your place in t
 *   [Branching](Branching.md)
 *   [Variables](Variables.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Xphoenix.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -57,6 +57,10 @@ You can use <tt>Equâ–ºString(</tt> (outside a program) to get the <tt><a href="â
 
 *   <tt><a href="Number to String.md">Number to String</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

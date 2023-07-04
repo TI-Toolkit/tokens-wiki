@@ -114,6 +114,10 @@ The final argument of <tt>χ²-Test(</tt>, _draw?_, will display the results in 
 
 *   [Goodness-of-Fit Test](Goodness-of-Fit Test.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

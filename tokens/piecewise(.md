@@ -67,6 +67,10 @@ can be
 
 *   [Technique: Piecewise Expressions](Technique: Piecewise Expressions.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, iPhoenixOnTIBD, kg583, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

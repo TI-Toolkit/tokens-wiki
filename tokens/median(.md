@@ -66,6 +66,10 @@ Frequency lists don't need to be whole numbers. Amazing as that may sound, your 
 *   [stdDev(](stdDev\(.md)
 *   [variance(](variance\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, Mr Dino, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -104,6 +104,10 @@ Conclusion: <tt>int(</tt> scales with the length of its input while <tt>iPart(</
 
 *   [Compression](Compression.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, kg583, Timtech.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

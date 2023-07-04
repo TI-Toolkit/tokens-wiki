@@ -37,6 +37,10 @@ Eng
 *   <tt><a href="Float.md">Float</a></tt>
 *   <tt><a href="Fix.md">Fix</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

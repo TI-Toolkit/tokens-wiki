@@ -104,6 +104,10 @@ Conclusion: With 5 or fewer decimal places, you should consider using <tt>int(</
 
 *   [Compression](Compression.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, kg583, Timtech.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

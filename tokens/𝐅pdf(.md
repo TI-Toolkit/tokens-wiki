@@ -54,6 +54,10 @@ where _B(x,y)_ is the [Beta function](http://en.wikipedia.org/wiki/beta_function
 *   <tt><a href="Fcdf(.md">Fcdf(</a></tt>
 *   <tt><a href="ShadeF(.md">ShadeF(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

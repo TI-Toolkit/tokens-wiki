@@ -76,6 +76,10 @@ This is smaller when only one trig calculation needs to be done. Also, it doesn'
 *   <tt><sup><a href="ʳ.md">ʳ</a></sup></tt>
 *   <tt><a href="°.md">°</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Adriweb, burr, DarkerLine, GoVegan, kg583, pandather.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -40,6 +40,10 @@ can be
 
 *   <tt><a href="BackgroundOn.md">BackgroundOn</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, kg583, Michael2_3B, MrWompWomp, Myles_Zadok, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

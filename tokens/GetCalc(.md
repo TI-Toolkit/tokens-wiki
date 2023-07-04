@@ -50,6 +50,10 @@ The TI-84+ and TI-84+SE will use the USB port if it is connected to a USB cable,
 
 *   [Multiplayer](Multiplayer.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, jonbush, kg583, Myles_Zadok, Timtech.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

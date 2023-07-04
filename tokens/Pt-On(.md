@@ -59,6 +59,10 @@ should be
 *   [Pt-Change(](Pt-Change\(.md)
 *   [Pxl-On(](Pxl-On\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, my_name, Skwerlman, tyler999.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

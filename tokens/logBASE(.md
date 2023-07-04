@@ -72,6 +72,10 @@ The <tt>logBASE(</tt> command costs one extra byte compared to <tt>log(</tt>, pr
 *   <tt><a href="log(.md">log(</a></tt>
 *   <tt><a href="ln(.md">ln(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Deflect, kg583, Myles_Zadok, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

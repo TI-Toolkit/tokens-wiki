@@ -178,6 +178,10 @@ can be
 *   [T-Test](T-Test.md)
 *   [2-SampTTest](2-SampTTest.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

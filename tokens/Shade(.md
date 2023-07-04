@@ -69,6 +69,10 @@ Shade(Ymin,Ymax) is the smallest (though not the fastest) way to shade the entir
 
 *   [Shading Circles](Shading Circles.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, Timothy Foster.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -37,6 +37,10 @@ The <tt>getDtStr(</tt> command returns the current date of the clock on the TI-8
 *   <tt><a href="setDate(.md">setDate(</a></tt>
 *   <tt><a href="setDtFmt(.md">setDtFmt(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, RandomProductions.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

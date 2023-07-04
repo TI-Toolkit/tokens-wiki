@@ -38,6 +38,10 @@ Download usb8x [here](http://usb8x.sourceforge.net/). You may also be interested
 
 *   <tt><a href="OpenLib(.md">OpenLib(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: Battlesquid, DarkerLine, GoVegan, Mapar007, Myles_Zadok, seb83.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

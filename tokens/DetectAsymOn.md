@@ -27,6 +27,10 @@ An asymptote is, by definition, "a line that continually approaches a given curv
 
 *   <tt><a href="DetectAsymOff.md">DetectAsymOff</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: kg583, Michael2_3B, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

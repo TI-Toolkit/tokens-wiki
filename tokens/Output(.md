@@ -115,6 +115,10 @@ The <tt>Output(</tt> command is the fastest possible way of displaying text (sho
 *   <tt><a href="Text(.md">Text(</a></tt>
 *   <tt><a href="Pause.md">Pause</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, CloudVariable, DarkerLine, GoVegan, kg583, Myles_Zadok, persalteas, Sleight, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

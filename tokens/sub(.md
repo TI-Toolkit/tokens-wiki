@@ -113,6 +113,10 @@ You can use this command as a number to character converter, too, as shown:
 *   [inString(](inString\(.md)
 *   [length(](length\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: 7thAce, burr, DarkerLine, GoVegan, louwenus, luby19, Michael2_3B, QubicQuantum, Toothless the Dragon, Weregoose.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

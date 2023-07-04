@@ -27,9 +27,12 @@ Converts the results from a fraction to mixed number or from a mixed number to a
 <tt><kbd><b>alpha</b></kbd></tt>, <kbd>F1</kbd>, `3:`, `n/d`, `Un/d`
 <hr>
 
-The page _n_ you want to access does not exist.
+n/d_Un/d is the command for switching between an improper fraction and a mixed number.  
+It is accessible by pressing ALPHA then Y= then 3.
 
-*   [Create page](javascript:;)
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: ccrh2009.
 
 ## History
 | Calculator | OS Version | Description |

@@ -138,6 +138,10 @@ The <tt>seq(</tt> command itself can often be replaced with an unusual use of th
 *   <tt><a href="binompdf(.md">binompdf(</a></tt>
 *   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: alexrudd, burr, DarkerLine, GoVegan, kg583, Timothy Foster, Timtech, Zenohm.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

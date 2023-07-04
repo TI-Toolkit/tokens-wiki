@@ -62,6 +62,10 @@ This is the formula for sample standard deviation. The formula for population st
 *   [median(](median\(.md)
 *   [variance(](variance\(.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

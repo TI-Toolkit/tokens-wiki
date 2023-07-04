@@ -124,6 +124,10 @@ This approach assumes that a comma would never be in <tt>Str1</tt>, and words li
 *   <tt><a href="length(.md">length(</a></tt>
 *   <tt><a href="sub(.md">sub(</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: brt93yoda, burr, CloudVariable, ConorOBrien, DarkerLine, GoVegan, kg583, Lionel Foxcroft, Mr Dino, Trenly.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

@@ -49,6 +49,10 @@ The [window variables](system-variables#window) that apply to parametric mode ar
 *   [Polar](Polar.md)
 *   [Seq](Seq.md)
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

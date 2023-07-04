@@ -55,6 +55,10 @@ The above code returns 1, because the 30<sup>th</sup> of December, 2007, is a Su
 
 *   [Day of Week](day-of-week) — routine to calculate the day of the week
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, iPhoenixOnTIBD, Myles_Zadok, nap386, Weregoose, Xphoenix.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|

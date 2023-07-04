@@ -29,6 +29,10 @@ To turn it on, use the <tt><a href="CoordOn.md">CoordOn</a></tt> command.
 *   <tt><a href="RectGC.md">RectGC</a></tt>
 *   <tt><a href="PolarGC.md">PolarGC</a></tt>
 
+* * *
+
+**Source**: parts of this page were written by the following TI|BD contributors: DarkerLine, GoVegan, iPhoenixOnTIBD, Myles_Zadok.
+
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
