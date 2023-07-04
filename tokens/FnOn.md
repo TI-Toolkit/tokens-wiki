@@ -6,7 +6,7 @@
 
 # `FnOn `
 
-## Description
+## Overview
 Selects all `Y=` functions or specified `Y=` functions.
 
 
@@ -30,6 +30,8 @@ Selects all `Y=` functions or specified `Y=` functions.
 ## Location
 <tt><kbd><b>vars</b></kbd></tt>, `Y-VARS`, `4:On/Off1:FnOn`
 <hr>
+
+## Description
 
 The <tt>FnOn</tt> command is used to turn on equations in the current [graphing mode](graphing-mode). When you define an equation, it's turned on by default, but the <tt><a href="FnOff.md">FnOff</a></tt> command can turn an equation off (in which case, it's still defined, but isn't graphed). To turn functions on and off manually, put your cursor over the = symbol in the equation editor, and press enter.
 

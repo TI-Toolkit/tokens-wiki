@@ -6,7 +6,7 @@
 
 # `invT(`
 
-## Description
+## Overview
 Computes the inverse cumulative student-t probability function specified by degree of freedom, df for a given area under the curve.
 
 
@@ -28,6 +28,8 @@ Computes the inverse cumulative student-t probability function specified by degr
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `4:invT(`
 <hr>
+
+## Description
 
 <tt>invT(</tt> is the inverse of the cumulative Student t distribution function: given a probability _p_ and a specified degrees of freedom _v_, it will return the number _x_ such that <tt>tcdf(E-99,<em>x</em>,<em>v</em>)</tt> is equal to _p_
 

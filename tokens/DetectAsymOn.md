@@ -6,7 +6,7 @@
 
 # `DetectAsymOn`
 
-## Description
+## Overview
 Turns on checks for rational function asymptotes when graphing. Impacts graph speed. Performs more calculations and will not connect pixels across an asymptote on a graph.
 
 
@@ -18,6 +18,8 @@ Turns on checks for rational function asymptotes when graphing. Impacts graph sp
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>
 <hr>
+
+## Description
 
 When <tt>DetectAsymOn</tt> is selected, the calculator will detect asymptotes, adjusting the graph accordingly. This method of graphing is the most accurate but is also much slower than graphing with asymptotes turned off.
 

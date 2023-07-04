@@ -6,7 +6,7 @@
 
 # `tvm_Pmt`
 
-## Description
+## Overview
 Computes the amount of each payment.
 
 <b>Comment</b>:pre-CE french was vatPmt
@@ -37,6 +37,8 @@ Computes the amount of each payment.
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `2:tvm_Pmt`
 <hr>
+
+## Description
 
 The tvm__VAR_ commands use the TVM (Time Value of Money) solver to solve for the variable _VAR_. They're usually used in programs, since outside a program it's easier to use the interactive solver (the first option in the finance menu).
 

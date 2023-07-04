@@ -6,7 +6,7 @@
 
 # `irr(`
 
-## Description
+## Overview
 Returns the interest rate at which the net present value of the cash flow is equal to zero.
 
 
@@ -30,6 +30,8 @@ Returns the interest rate at which the net present value of the cash flow is equ
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `8:irr(`
 <hr>
+
+## Description
 
 The <tt>irr(</tt> command finds the [Internal Rate of Return](http://en.wikipedia.org/wiki/Internal_rate_of_return) of an investment, which is a measure of its efficiency. Its mathematical interpretation is the interest rate for which <tt><a href="npv(.md">npv(</a></tt> will return 0 for the same cash flows.
 

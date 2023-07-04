@@ -6,7 +6,7 @@
 
 # `Pt-Change(`
 
-## Description
+## Overview
 Toggles a point on or off at (`x`,`y`) on the graph area. Off will be in the Background color and On will be the specified
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -31,6 +31,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `3:Pt-Change(`
 <hr>
+
+## Description
 
 The Pt-Change( command is used to toggle a point (a pixel on the screen) on the graph screen at the given (X,Y) coordinates. If the point is on, it will be turned off and vice versa. Pt-Change( is affected by the window settings, which means you have to change the window settings accordingly, otherwise the point won't show up correctly on the screen.
 

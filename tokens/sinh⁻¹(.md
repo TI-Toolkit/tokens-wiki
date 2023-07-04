@@ -6,7 +6,7 @@
 
 # `sinh⁻¹(`
 
-## Description
+## Overview
 Returns the hyperbolic arcsine of a real number, expression, or list.
 
 
@@ -28,6 +28,8 @@ Returns the hyperbolic arcsine of a real number, expression, or list.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `sinh`
 <hr>
+
+## Description
 
 The sinhֿ¹( command calculates the inverse hyperbolic sine of a value. sinhֿ¹(x) is the number y such that x = sinh(y). Unlike for the standard trig functions, this uniquely determines the inverse hyperbolic sine of any real number.
 

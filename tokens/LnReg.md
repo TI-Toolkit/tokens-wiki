@@ -6,7 +6,7 @@
 
 # `LnReg `
 
-## Description
+## Overview
 Fits a logarithmic regression model to `Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.
 
 
@@ -32,6 +32,8 @@ Fits a logarithmic regression model to `Xlistname` and `Ylistname` with frequenc
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `9:LnReg`
 <hr>
+
+## Description
 
 LnReg tries to fit a logarithmic curve (y=a+b*lnx) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points.
 

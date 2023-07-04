@@ -6,7 +6,7 @@
 
 # `cosh⁻¹(`
 
-## Description
+## Overview
 Returns hyperbolic arccosine of a real number, expression, or list.
 
 
@@ -28,6 +28,8 @@ Returns hyperbolic arccosine of a real number, expression, or list.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `cosh`
 <hr>
+
+## Description
 
 The <tt>coshֿ¹(</tt> function gives the inverse hyperbolic cosine of a value. <tt>coshֿ¹(x)</tt> is the number y such that x = <tt>cosh(y)</tt>.
 

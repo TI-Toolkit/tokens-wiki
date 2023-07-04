@@ -6,7 +6,7 @@
 
 # `LinRegTTest `
 
-## Description
+## Overview
 Performs a linear regression and a `t`-test. `alternative`=-`1` is <; `alternative`=`0` is ≠; `alternative`=`1` is >.
 
 
@@ -34,6 +34,8 @@ Performs a linear regression and a `t`-test. `alternative`=-`1` is <; `alternati
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `F:LinRegTTest`
 <hr>
+
+## Description
 
 Like <tt><a href="linreg-ax-b">LinReg(ax+b)</a></tt> and similar commands, <tt>LinRegTTest</tt> finds the best fit line through a set of points. However, <tt>LinRegTTest</tt> adds another method of checking the quality of the fit, by performing a <tt><a href="t-test.md">t-test</a></tt> on the slope, testing the null hypothesis that the slope of the true best fit line is 0 (which implies the absence of correlation between the two variables, since a relation with a slope of zero means the x-variable does not affect the y-variable at all). If the p-value of the test is not low enough, then there is not enough data to assume a linear relation between the variables.
 

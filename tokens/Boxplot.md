@@ -6,7 +6,7 @@
 
 # `Boxplot`
 
-## Description
+## Overview
 Defines Plot# (1, 2, or 3) of type
 
 
@@ -32,6 +32,8 @@ Defines Plot# (1, 2, or 3) of type
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>
 <hr>
+
+## Description
 
 The commands <tt>Plot1(</tt>, <tt>Plot2(</tt>, and <tt>Plot3(</tt>, which are identical except for which stat plot (1, 2, or 3) they affect, define their corresponding stat plot. When the stat plot is defined, it is also turned on so no <tt><a href="PlotsOn.md">PlotsOn</a></tt> command is necessary.
 

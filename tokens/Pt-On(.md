@@ -6,7 +6,7 @@
 
 # `Pt-On(`
 
-## Description
+## Overview
 Draws a point at (`x`,`y`) on the graph area using `mark `and the specified `color#`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -33,6 +33,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `1:Pt-On(`
 <hr>
+
+## Description
 
 The Pt-On( command is used to draw a point on the graph screen at the given (X,Y) coordinates. Pt-On( is affected by the [window settings](system-variables#window) Xmin, Xmax, Ymin, and Ymax. Make sure to change these accordingly when using it in a program, otherwise, you don't know where the point will show up.
 

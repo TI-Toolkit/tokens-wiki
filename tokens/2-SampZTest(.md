@@ -6,7 +6,7 @@
 
 # `2-SampZTest(`
 
-## Description
+## Overview
 Computes a two-sample `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -48,7 +48,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `3:2-SampZTest(`
 <hr>
 
-## Description
+## Overview
 Computes a two-sample `z` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -93,6 +93,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `3:2-SampZTest(`
 <hr>
+
+## Description
 
 2-SampZTest( performs a _z_ significance test to compare the means of two populations. This test is valid for simple random samples from populations with known standard deviations. In addition, either the populations must be normally distributed, or the sample sizes have to be sufficiently large (usually, greater than 10).
 

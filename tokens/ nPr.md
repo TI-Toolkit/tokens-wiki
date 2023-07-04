@@ -6,7 +6,7 @@
 
 # ` nPr `
 
-## Description
+## Overview
 Returns the number of permutations of `valueA` taken `valueB` at a time.
 
 
@@ -29,7 +29,7 @@ Returns the number of permutations of `valueA` taken `valueB` at a time.
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `2:nPr`
 <hr>
 
-## Description
+## Overview
 Returns a list of the permutations of `value` taken each element in `list` at a time.
 
 
@@ -52,7 +52,7 @@ Returns a list of the permutations of `value` taken each element in `list` at a 
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `2:nPr`
 <hr>
 
-## Description
+## Overview
 Returns a list of the permutations of each element in `list` taken `value` at a time.
 
 
@@ -75,7 +75,7 @@ Returns a list of the permutations of each element in `list` taken `value` at a 
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `2:nPr`
 <hr>
 
-## Description
+## Overview
 Returns a list of the permutations of each element in `listA` taken each element in `listB` at a time.
 
 
@@ -97,6 +97,9 @@ Returns a list of the permutations of each element in `listA` taken each element
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `2:nPr`
 <hr>
+
+## Description
+
 
 ## Examples
 

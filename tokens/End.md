@@ -6,7 +6,7 @@
 
 # `End`
 
-## Description
+## Overview
 Identifies end of` For(`, `If`-`Then`-`Else`, `Repeat`, or `While` loop.
 
 
@@ -18,6 +18,8 @@ Identifies end of` For(`, `If`-`Then`-`Else`, `Repeat`, or `While` loop.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `7:End`
 <hr>
+
+## Description
 
 The <tt>End</tt> command is used together with the different control structures, including the <tt><a href="If.md">If</a></tt> conditional, <tt><a href="While.md">While</a></tt> loop, <tt><a href="Repeat.md">Repeat</a></tt> loop, and <tt><a href="For(.md">For(</a></tt> loop, to indicate the _end_ of the code block for the respective control structure. In the case of the <tt>If</tt> conditional, you also need to add a <tt><a href="Then.md">Then</a></tt> command, which is used to indicate the beginning of the control structure.
 

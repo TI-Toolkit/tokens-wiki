@@ -6,7 +6,7 @@
 
 # `Float`
 
-## Description
+## Overview
 Sets floating decimal mode.
 
 
@@ -18,6 +18,8 @@ Sets floating decimal mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Float`
 <hr>
+
+## Description
 
 The <tt>Float</tt> command makes the calculator display numbers with a "floating decimal point" — only as many digits after the decimal as needed are displayed (so whole numbers, for example, are shown without any decimal points). This is the default mode, and usually the most useful.
 

@@ -6,7 +6,7 @@
 
 # `RegEQ`
 
-## Description
+## Overview
 
 
 
@@ -16,6 +16,9 @@
 `RegEQ`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

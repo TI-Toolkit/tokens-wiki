@@ -6,7 +6,7 @@
 
 # `Σy²`
 
-## Description
+## Overview
 
 
 
@@ -15,6 +15,9 @@
 `Σy²`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

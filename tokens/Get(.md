@@ -6,7 +6,7 @@
 
 # `Get(`
 
-## Description
+## Overview
 Retrieves a value from a connected TI-Innovator™ Hub and stores the data to a variable on the receiving CE calculator.
 Note: See also Send( and eval(
 
@@ -28,7 +28,7 @@ Note: See also Send( and eval(
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `A:Get(`
 <hr>
 
-## Description
+## Overview
 Retrieves a value from a connected TI-Innovator™ Hub and stores the data to a variable on the receiving CE calculator.
 Note: See also Send( and eval(
 
@@ -52,6 +52,8 @@ Note: See also Send( and eval(
 Ti-Innovator™ Hub
 
 <hr>
+
+## Description
 
 The <tt>Get(</tt> command is meant for use with the CBL (Calculator Based Laboratory) device, or other compatible devices. When the calculator is connected by a link cable to such a device, <tt>Get(<em>variable</em>)</tt> will read data from the device and store it to _variable_. Usually, this data is a list, and so you want to <tt>Get(L₁)</tt> or some other list variable.
 

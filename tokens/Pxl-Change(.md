@@ -6,7 +6,7 @@
 
 # `Pxl-Change(`
 
-## Description
+## Overview
 Toggles Off to On in the graph area: with specified color# Toggles On to Off in the graph area: Off will display the set Background Image Var or Color.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -31,6 +31,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `6:Pxl-Change(`
 <hr>
+
+## Description
 
 The Pxl-Change( command is used to toggle the pixel at the given (Y,X) coordinates. If the pixel is on, it will be turned off and vice versa. Please note that the coordinates are switched around so that the row comes first and then the column — it's (Y,X) instead of (X,Y) like the [Pt-Change(](Pt-Change\(.md) command. Also note that the row decreases as you go _up_ which can confuse users.
 

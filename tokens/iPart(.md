@@ -6,7 +6,7 @@
 
 # `iPart(`
 
-## Description
+## Overview
 Returns the integer part of a real or complex number, expression, list, or matrix.
 
 
@@ -26,6 +26,8 @@ Returns the integer part of a real or complex number, expression, list, or matri
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `3:iPart(`
 <hr>
+
+## Description
 
 <tt>iPart(<em>value</em>)</tt> returns the integer part of _value_, and extends to complex numbers, lists, and matrices.
 

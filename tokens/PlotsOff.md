@@ -6,7 +6,7 @@
 
 # `PlotsOff `
 
-## Description
+## Overview
 Deselects all stat plots or one or more specified stat plots (`1`, `2`, or `3`).
 
 
@@ -18,6 +18,8 @@ Deselects all stat plots or one or more specified stat plots (`1`, `2`, or `3`).
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `4:PlotsOff`
 <hr>
+
+## Description
 
 By itself, the command will turn off all three stat plots.
 

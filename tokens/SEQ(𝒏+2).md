@@ -6,7 +6,7 @@
 
 # `SEQ(𝒏+2)`
 
-## Description
+## Overview
 In sequence mode, SEQ(`n+2`) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable `n+2`.   Can also be set from the Y= editor in SEQ mode.
 
 <b>Comment</b>:CE OS 5.2+
@@ -27,6 +27,9 @@ In sequence mode, SEQ(`n+2`) sets the sequence editor type to enter sequence fun
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `SEQ(n+2)`
 <hr>
+
+## Description
+
 
 ## Examples
 

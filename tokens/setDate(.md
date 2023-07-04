@@ -6,7 +6,7 @@
 
 # `setDate(`
 
-## Description
+## Overview
 Sets the date using a year, month, day format. The `year` must be 4 digits; `month` and `day` can be 1 or 2 digit.
 
 <b>Comment</b>:EFXX tokens are TI-84+ and later only
@@ -31,6 +31,8 @@ Sets the date using a year, month, day format. The `year` must be 4 digits; `mon
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `setDate(`
 <hr>
+
+## Description
 
 The setDate( command sets the date of the clock on the TI-84+/SE calculators. It takes three arguments: the year, the month, and the day. All three of these must be integers; in particular, year must be four digits, and month and day can be one or two digits. They represent the associated value that goes with a respective date. For example, this would set the date to January 1, 2008:
 

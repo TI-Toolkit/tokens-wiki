@@ -6,7 +6,7 @@
 
 # `Thin`
 
-## Description
+## Overview
 Resets all Y=editor line-style settings to Thin.
 
 
@@ -18,6 +18,8 @@ Resets all Y=editor line-style settings to Thin.
 ## Location
 `zT`, `Thin`
 <hr>
+
+## Description
 
 The Thin command will set all lines in the current function type to be only 1 pixel wide (hence "Thin"). The command can be run on the homescreen or within a program.
 

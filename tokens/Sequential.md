@@ -6,7 +6,7 @@
 
 # `Sequential`
 
-## Description
+## Overview
 Sets mode to graph functions sequentially.
 
 
@@ -18,6 +18,8 @@ Sets mode to graph functions sequentially.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Sequential`
 <hr>
+
+## Description
 
 Puts the calculator into sequential graphing mode (the default). When multiple equations are enabled at the same time, sequential graphing mode means that they will be graphed one after the other (as opposed to [Simul](Simul.md) mode, in which they will be graphed simultaneously)
 

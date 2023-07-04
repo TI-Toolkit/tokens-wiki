@@ -6,7 +6,7 @@
 
 # `DiagnosticOn`
 
-## Description
+## Overview
 Sets diagnostics-on mode; `r`, `r`², and `R`² are displayed as regression model results.
 
 
@@ -18,6 +18,8 @@ Sets diagnostics-on mode; `r`, `r`², and `R`² are displayed as regression mode
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `DiagnosticOn`
 <hr>
+
+## Description
 
 After the <tt>DiagnosticOn</tt> command is executed, all regression commands found in the STAT>CALC menu, as well as <tt><a href="LinRegTTest.md">LinRegTTest</a></tt>, will display the correlation statistics r and r² (or R<sup>2</sup> for regressions that are not linear). This is turned off by default, but there is no disadvantage whatsoever to turning it on. To reverse this command, execute the <tt><a href="DiagnosticOff.md">DiagnosticOff</a></tt> command.
 

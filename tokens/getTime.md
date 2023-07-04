@@ -6,7 +6,7 @@
 
 # `getTime`
 
-## Description
+## Overview
 Returns a list giving the time according to the current value of the clock. The list is in {hour,minute,second} format. The time is returned in the 24 hour format.
 
 
@@ -18,6 +18,8 @@ Returns a list giving the time according to the current value of the clock. The 
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getTime`
 <hr>
+
+## Description
 
 The <tt>getTime</tt> command returns the current time that the clock has on the TI-84+/SE/CE calculators in [list](lists) format — {_hour_, _minute_, _second_}. You can [store](store.md) this list to a variable for later use, or manipulate it the same way you do with other lists. Of course, this command only works if the time has actually been set, so you should use the <tt><a href="setTime(.md">setTime(</a></tt> command before using it.
 

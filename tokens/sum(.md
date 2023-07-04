@@ -6,7 +6,7 @@
 
 # `sum(`
 
-## Description
+## Overview
 Returns the sum of elements of `list` from `start` to `end`.
 
 
@@ -30,6 +30,8 @@ Returns the sum of elements of `list` from `start` to `end`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `5:sum(`
 <hr>
+
+## Description
 
 The sum( command calculates the sum of all or part of a list.
 

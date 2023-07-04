@@ -6,7 +6,7 @@
 
 # `►DMS`
 
-## Description
+## Overview
 Displays `value` in DMS format.
 
 
@@ -26,6 +26,8 @@ Displays `value` in DMS format.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>angle</kbd>, `ANGLE`, `4:DMS`
 <hr>
+
+## Description
 
 The <tt>►DMS</tt> command can be used when displaying a real number on the home screen, or with the <tt><a href="Disp.md">Disp</a></tt> and <tt><a href="Pause.md">Pause</a></tt> commands. It will then format the number as an angle with degree, minute, and second parts.
 

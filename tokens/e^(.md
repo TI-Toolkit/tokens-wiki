@@ -6,7 +6,7 @@
 
 # `e^(`
 
-## Description
+## Overview
 Returns `e` raised to `power`.
 
 
@@ -27,7 +27,7 @@ Returns `e` raised to `power`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>eˣ</kbd>
 <hr>
 
-## Description
+## Overview
 Returns a list of `e` raised to a `list` of powers.
 
 
@@ -47,6 +47,8 @@ Returns a list of `e` raised to a `list` of powers.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>eˣ</kbd>
 <hr>
+
+## Description
 
 The <tt><em>e</em>^(</tt> command raises the constant <tt><em><a href="e-value">e</a></em></tt> to a power. Since it's possible to just type out <tt><em>e</em></tt>, ^, and (, the reason for having a separate function isn't immediately obvious but in fact most of the time you need to use <tt><em>e</em></tt>, it's to raise it to a power.
 

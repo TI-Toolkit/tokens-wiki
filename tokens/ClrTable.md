@@ -6,7 +6,7 @@
 
 # `ClrTable`
 
-## Description
+## Overview
 Clears all values from the table.
 
 
@@ -18,6 +18,8 @@ Clears all values from the table.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `9:ClrTable`
 <hr>
+
+## Description
 
 The <tt>ClrTable</tt> command clears all calculations for the table screen shown if you press 2nd TABLE. That is, all already-calculated values in the table are cleared, and [TblInput](system-variables#window) is deleted. In <tt><a href="IndpntAuto.md">IndpntAuto</a></tt> and <tt><a href="DependAuto.md">DependAuto</a></tt> mode, this usually isn't noticeable because the table will be recalculated almost immediately when you next look at it (unless one of the entered functions is so complicated it takes a while to calculate). This mainly has an effect in <tt><a href="IndpntAsk.md">IndpntAsk</a></tt> or <tt><a href="DependAsk.md">DependAsk</a></tt> mode, where the corresponding parts of the table will be cleared entirely.
 

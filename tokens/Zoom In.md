@@ -6,7 +6,7 @@
 
 # `Zoom In`
 
-## Description
+## Overview
 Magnifies the part of the graph that surrounds the cursor location.
 
 
@@ -18,6 +18,8 @@ Magnifies the part of the graph that surrounds the cursor location.
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `2:Zoom In`
 <hr>
+
+## Description
 
 Outside a program, the Zoom In tool allows you to pick a point on the graph screen and change the graphing window to a smaller one centered at that point. The Zoom In command, used in a program, also changes the graphing window to a smaller one, but doesn't let you pick a point — it uses the center of the screen.
 

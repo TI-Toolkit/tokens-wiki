@@ -6,7 +6,7 @@
 
 # `lcm(`
 
-## Description
+## Overview
 Returns the least common multiple of `valueA` and `valueB`, which can be real numbers or lists.
 
 
@@ -28,6 +28,8 @@ Returns the least common multiple of `valueA` and `valueB`, which can be real nu
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `8:lcm(`
 <hr>
+
+## Description
 
 Returns the least common multiple (LCM) of two nonnegative integers; lcm(_a_,_b_) is equivalent to _a__b_/gcd(_a_,_b_). Also works on lists.
 

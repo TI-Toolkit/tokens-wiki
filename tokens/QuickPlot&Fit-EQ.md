@@ -6,7 +6,7 @@
 
 # `QuickPlot&Fit-EQ`
 
-## Description
+## Overview
 
 
 <b>Comment</b>:84+CSE and later
@@ -16,6 +16,9 @@
 `QuickPlot&Fit-EQ`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

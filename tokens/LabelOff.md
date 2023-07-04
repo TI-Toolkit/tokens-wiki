@@ -6,7 +6,7 @@
 
 # `LabelOff`
 
-## Description
+## Overview
 Turns off axes labels.
 
 
@@ -18,6 +18,8 @@ Turns off axes labels.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `LabelOff`
 <hr>
+
+## Description
 
 The LabelOff setting disables labels on the X and Y coordinate axes. This is unnecessary if you've disabled the axes themselves, since the labels are only displayed when the axes are. To enable the labels, use the reverse setting [LabelOn](LabelOn.md).
 

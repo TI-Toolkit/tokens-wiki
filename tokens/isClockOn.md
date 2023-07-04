@@ -6,7 +6,7 @@
 
 # `isClockOn`
 
-## Description
+## Overview
 Identifies if clock is ON or OFF. Returns 1 if the clock is ON. Returns 0 if the clock is OFF.
 
 
@@ -18,6 +18,8 @@ Identifies if clock is ON or OFF. Returns 1 if the clock is ON. Returns 0 if the
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `isClockOn`
 <hr>
+
+## Description
 
 The <tt>isClockOn</tt> command returns whether the clock on the TI-84+/SE calculators is on or off. The command will return 1 if the clock is enabled and 0 if it is not. You can store it to a [variable](variable.md) for later use, or use it in [conditionals](conditionals.md) and [loops](loops.md) as part of the condition. For example, here is how you would check to see if the clock is on:
 

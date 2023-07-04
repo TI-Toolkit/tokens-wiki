@@ -6,7 +6,7 @@
 
 # `ΣInt(`
 
-## Description
+## Overview
 Computes the sum, rounded to `roundvalue`, of the interest amount between `pmt1` and `pmt2` for an amortization schedule.
 
 
@@ -32,6 +32,8 @@ Computes the sum, rounded to `roundvalue`, of the interest amount between `pmt1`
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `A:Int(`
 <hr>
+
+## Description
 
 The <tt>ΣInt(</tt> command calculates, for an [amortization schedule](http://en.wikipedia.org/wiki/Amortization_schedule), the interest over a range of payments: the portion of those payments that went toward paying interest. Its two required arguments are _payment1_ and _payment2_, which define the range of payments we're interested in. However, it also uses the values of the finance variables <tt>PV</tt>, <tt>PMT</tt>, and <tt>I%</tt> in its calculations.
 

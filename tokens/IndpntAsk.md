@@ -6,7 +6,7 @@
 
 # `IndpntAsk`
 
-## Description
+## Overview
 Sets table to ask for independent-variable values.
 
 
@@ -18,6 +18,8 @@ Sets table to ask for independent-variable values.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Indpnt: Ask`
 <hr>
+
+## Description
 
 With the <tt>IndpntAsk</tt> setting, the independent variable (X, T, θ, or _n_ depending on [graphing mode](graphing-mode)) will not be calculated automatically in the table. Instead, when looking at the table, you must select an entry in the independent variable column, press ENTER, and enter a value. The values entered will also be stored to the <tt><a href="TblInput.md">TblInput</a></tt> list.
 

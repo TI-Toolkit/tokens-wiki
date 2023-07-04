@@ -6,7 +6,7 @@
 
 # `piecewise(`
 
-## Description
+## Overview
 New piecewise function to support entry of functions as they are seen in textbook. This command can be found in » MATH `B:piecewise(`
 
 <b>Comment</b>:CE OS 5.3+
@@ -19,6 +19,8 @@ New piecewise function to support entry of functions as they are seen in textboo
 ## Location
 <tt><kbd><b>math</b></kbd></tt>
 <hr>
+
+## Description
 
 The <tt>piecewise(</tt> command is a new addition in the release of OS 5.3 for the TI-84 Plus CE. As implied, it allows for the graphing of piecewise functions in the Y= editor. The example code demonstrates how this works from within a program.
 

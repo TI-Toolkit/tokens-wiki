@@ -6,7 +6,7 @@
 
 # `Send(`
 
-## Description
+## Overview
 Sends one or more TI-Innovator™ Hub commands to a connected hub.
 Notes:
 See also eval( and Get( command related to the Send( command.
@@ -30,7 +30,7 @@ TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `B:Send(`
 <hr>
 
-## Description
+## Overview
 Sends one or more TI-Innovator™ Hub commands to a connected hub.
 Notes:
 See also eval( and Get( command related to the Send( command.
@@ -53,6 +53,8 @@ TI-Innovator™ Hub commands are supported in the HUB submenu in the CE OS v.5.2
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `HUB`
 <hr>
+
+## Description
 
 The Send( command is used for sending data to a CBL (Calculator Based Laboratory) device (or another compatible device) via a link cable. With some exceptions, Send('s argument must be a variable: a real number, list, matrix, string, equation, picture, or GDB. An expression or a number will not work — Send(5) or Send([A][B]) is invalid.
 

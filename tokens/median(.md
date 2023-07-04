@@ -6,7 +6,7 @@
 
 # `median(`
 
-## Description
+## Overview
 Returns the median of `list` with frequency `freqlist`.
 
 
@@ -28,6 +28,8 @@ Returns the median of `list` with frequency `freqlist`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `4:median(`
 <hr>
+
+## Description
 
 The median( command finds the [median](https://en.wikipedia.org/wiki/Median) of a list. It takes a list of real numbers as a parameter. For example:
 

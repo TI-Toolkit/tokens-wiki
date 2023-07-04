@@ -6,7 +6,7 @@
 
 # `Pxl-On(`
 
-## Description
+## Overview
 Draws pixel on the graph area at (`row`,`column`) in the specified color.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -31,6 +31,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `4:Pxl-On(`
 <hr>
+
+## Description
 
 The Pxl-On( command is used to turn on the pixel at the given (Y,X) coordinates. Please note that the coordinates are switched around so that the row comes first and then the column — it's (Y,X) unlike the (X,Y) of the [Pt-On(](Pt-On\(.md) command. Also note that the (0,0) point is the upper left corner of the Graph screen.
 

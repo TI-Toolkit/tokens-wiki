@@ -6,7 +6,7 @@
 
 # `Pmt_End`
 
-## Description
+## Overview
 Specifies an ordinary annuity, where payments occur at the end of each payment period.
 
 
@@ -18,6 +18,8 @@ Specifies an ordinary annuity, where payments occur at the end of each payment p
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `E:Pmt_End`
 <hr>
+
+## Description
 
 The Pmt_End and [Pmt_Bgn](pmt-bgn) commands toggle a setting with the finance solver. In Pmt_End mode, the calculator assumes that the payments are made at the end of each time period, rather than at the beginning.
 

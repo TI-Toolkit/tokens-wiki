@@ -6,7 +6,7 @@
 
 # `TInterval `
 
-## Description
+## Overview
 Computes a `t` confidence interval.
 
 <b>Comment</b>:Data list input
@@ -32,7 +32,7 @@ Computes a `t` confidence interval.
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `8:TInterval`
 <hr>
 
-## Description
+## Overview
 Computes a `t` confidence interval.
 
 <b>Comment</b>:Summary stats input
@@ -59,6 +59,8 @@ Computes a `t` confidence interval.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `8:TInterval`
 <hr>
+
+## Description
 
 The <tt>TInterval</tt> command calculates a confidence interval for the mean value of a population, at a specific confidence level: for example, if the confidence level is 95%, you are 95% certain that the mean lies within the interval you get. Use <tt>TInterval</tt> when you have a single variable to analyze, and **don't** know the standard deviation. The <tt>TInterval</tt> assumes that your distribution is normal, but it will work for other distributions if the sample size is large enough.
 

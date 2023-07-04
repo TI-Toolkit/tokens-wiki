@@ -6,7 +6,7 @@
 
 # `Archive `
 
-## Description
+## Overview
 Moves the specified `variable` from RAM to the user data archive memory.
 
 
@@ -26,6 +26,8 @@ Moves the specified `variable` from RAM to the user data archive memory.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `5:Archive`
 <hr>
+
+## Description
 
 The <tt>Archive</tt> command moves a variable from [RAM](glossary#ram) to the archive (also known as [ROM](glossary#tom)). A quick synopsis of the difference between the two:
 

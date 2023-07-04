@@ -6,7 +6,7 @@
 
 # `getDate`
 
-## Description
+## Overview
 Returns a list giving the date according to the current value of the clock. The list is in {year,month,day} format.
 
 
@@ -18,6 +18,8 @@ Returns a list giving the date according to the current value of the clock. The 
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getDate`
 <hr>
+
+## Description
 
 The <tt>getDate</tt> command returns the current date that the clock has on the TI-84+/SE/CE calculators in [list](lists) format — {_year_, _month_, _day_}. You can [store](store.md) this list to a variable for later use, or manipulate it the same way you do with other lists. Of course, this command only works if the date has actually been set, so you should use the <tt><a href="setDate(.md">setDate(</a></tt> command before using it.
 

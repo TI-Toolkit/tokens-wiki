@@ -6,7 +6,7 @@
 
 # `Polar`
 
-## Description
+## Overview
 Sets polar graphing mode.
 
 
@@ -18,6 +18,8 @@ Sets polar graphing mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Polar`
 <hr>
+
+## Description
 
 The Polar command enables the [polar](graphing-mode#polar) graphing mode.
 

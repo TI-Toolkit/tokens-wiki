@@ -6,7 +6,7 @@
 
 # `Shade𝐅(`
 
-## Description
+## Overview
 Draws the density function for the 𝐅` `distribution specified by `numerator df` and `denominator df` and shades and colors the area between `lowerbound` and `upperbound`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -37,6 +37,9 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DRAW`, `4:Shade`, `(`
 <hr>
+
+## Description
+
 
 ## Examples
 

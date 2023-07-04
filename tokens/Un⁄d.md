@@ -6,7 +6,7 @@
 
 # `Un⁄d`
 
-## Description
+## Overview
 Displays results as a mixed number, if applicable.
 
 
@@ -18,6 +18,8 @@ Displays results as a mixed number, if applicable.
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `NUMC: Un/d`
 <hr>
+
+## Description
 
 Un/d is a template that allows you to input a fraction with a whole number in front of it.  
 Un/d is accessible from most screens by pressing ALPHA and Y= then 2.  

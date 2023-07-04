@@ -6,7 +6,7 @@
 
 # `setTmFmt(`
 
-## Description
+## Overview
 Sets the time format.
 12 = 12 hour format24 = 24 hour format
 
@@ -27,6 +27,8 @@ Sets the time format.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `setTmFmt(`
 <hr>
+
+## Description
 
 The setTmFmt( command sets the time format of the clock on the TI-84+/SE calculators when displaying the time on the [mode screen](settings). There are two different formats available, and you simply use the respective value (can be either a literal number or a variable) to display the desired one: 12 (12 hour) or 24 (24 hour). For example, this would set the time format to 24 hour:
 

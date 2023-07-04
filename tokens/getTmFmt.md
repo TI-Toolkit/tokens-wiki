@@ -6,7 +6,7 @@
 
 # `getTmFmt`
 
-## Description
+## Overview
 Returns an integer representing the clock time format that is currently set on the device.
 12 = 12 hour format24 = 24 hour format
 
@@ -19,6 +19,8 @@ Returns an integer representing the clock time format that is currently set on t
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getTmFmt`
 <hr>
+
+## Description
 
 The <tt>getTmFmt(</tt> command returns the current time format of the clock on the TI-84+/SE/CE calculators as an integer. There are two different time formats available: 12 (12 hour) and 24 (24 hours). You can store this value to a [variable](variables) for later use. Of course, this command only works if the time format has actually been set, so you should use the <tt><a href="setTmFmt(.md">setTmFmt(</a></tt> command before using it.
 

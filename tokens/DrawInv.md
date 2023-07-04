@@ -6,7 +6,7 @@
 
 # `DrawInv `
 
-## Description
+## Overview
 Draws the inverse of `expression` by plotting `X` values on the y-axis and `Y` values on the x-axis with specified
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -29,6 +29,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `8:DrawInv`
 <hr>
+
+## Description
 
 The <tt>DrawInv</tt> command draws the inverse of a curve in terms of X. Its single argument is an expression in terms of X.
 

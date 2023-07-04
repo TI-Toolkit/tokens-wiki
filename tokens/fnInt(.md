@@ -6,7 +6,7 @@
 
 # `fnInt(`
 
-## Description
+## Overview
 Returns the function integral of `expression` with respect to `variable`, between `lower` and `upper`, with specified `tolerance`.
 
 
@@ -34,6 +34,8 @@ Returns the function integral of `expression` with respect to `variable`, betwee
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `9:fnInt(`
 <hr>
+
+## Description
 
 <tt>fnInt(<em>f</em>(<em>var</em>),<em>var</em>,<em>a</em>,<em>b</em>[,<em>tol</em>])</tt> computes an approximation to the definite integral of _f_ with respect to _var_ from _a_ to _b_. _tol_ controls the accuracy of the integral computed. The default value of _tol_ is 10<sup>-5</sup>. fnInt( returns exact results for functions that are polynomials of small degree.
 

@@ -6,7 +6,7 @@
 
 # `R►Pθ(`
 
-## Description
+## Overview
 Returns θ, given rectangular coordinates `x` and `y` or a list of rectangular coordinates.
 
 
@@ -30,6 +30,8 @@ Returns θ, given rectangular coordinates `x` and `y` or a list of rectangular c
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>angle</kbd>, `ANGLE`
 <hr>
+
+## Description
 
 R►Pθ( (Rectangular to polar θ) takes the (_x_,_y_) (Cartesian) coordinate, and returns the angle that the ray from (0,0) to (_x_,_y_) makes with the positive x-axis. This is the θ-coordinate of the same point in (_r_,_θ_) (polar) mode. The identity used for this conversion is tan(_θ_)=_y__/x_, with the correct inverse being chosen depending on the quadrant that the point is in. The range of the angle returned is -π<_θ_≤π. R►Pθ( can also be used on lists.
 

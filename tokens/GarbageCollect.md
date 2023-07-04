@@ -6,7 +6,7 @@
 
 # `GarbageCollect`
 
-## Description
+## Overview
 Displays the garbage collection menu to allow cleanup of unused archive memory.
 
 
@@ -18,6 +18,8 @@ Displays the garbage collection menu to allow cleanup of unused archive memory.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `GarbageCollect`
 <hr>
+
+## Description
 
 A bit of a preamble: unlike RAM, which is the easy-to-access memory, Flash ROM (the archive), used for long-term storage on the 83+ and higher, can't be written to easily. Skipping over technicalities, what's written in the archive once is semi-permanent, and can't be written to again unless an entire 64KB sector of memory is erased.
 

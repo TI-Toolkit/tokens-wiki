@@ -6,7 +6,7 @@
 
 # `𝐅pdf(`
 
-## Description
+## Overview
 Computes the 𝐅 distribution probability between `lowerbound `and `upperbound` for the specified `numerator df` (degrees of freedom) and `denominator df`.
 
 
@@ -32,6 +32,8 @@ Computes the 𝐅 distribution probability between `lowerbound `and `upperbound`
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `9:pdf(`
 <hr>
+
+## Description
 
 <tt>Fpdf(</tt> is the _F_-distribution probability density function.
 

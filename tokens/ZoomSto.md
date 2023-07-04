@@ -6,7 +6,7 @@
 
 # `ZoomSto`
 
-## Description
+## Overview
 Immediately stores the current viewing window.
 
 
@@ -18,6 +18,8 @@ Immediately stores the current viewing window.
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `MEMORY`, `2:ZoomSto`
 <hr>
+
+## Description
 
 The ZoomSto command backs up all window settings applicable to the current graphing mode (those that are shown in the WINDOW menu) to backup variables used specifically for this command. These backup variables are found in the VARS>Zoom… menu, and are distinguished by a Z in front of their name. For example, Xmin is backed up to ZXmin, PlotStart is backed up to ZPlotStart, etc.
 

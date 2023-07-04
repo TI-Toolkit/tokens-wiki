@@ -6,7 +6,7 @@
 
 # `1-PropZInt(`
 
-## Description
+## Overview
 Computes a one-proportion `z` confidence interval.
 
 
@@ -30,6 +30,8 @@ Computes a one-proportion `z` confidence interval.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `A:1-PropZInt(`
 <hr>
+
+## Description
 
 The 1-PropZInt( command calculates a confidence interval for a proportion, at a specific confidence level: for example, if the confidence level is 95%, you are 95% certain that the proportion lies within the interval you get. The command assumes that the sample is large enough that the normal approximation to binomial distributions is valid: this is true if, in the sample you take, the positive and negative counts are both >5.
 

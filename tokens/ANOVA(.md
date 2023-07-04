@@ -6,7 +6,7 @@
 
 # `ANOVA(`
 
-## Description
+## Overview
 Performs a one-way analysis of variance for comparing the means of two to 20 populations.
 
 
@@ -34,6 +34,8 @@ Performs a one-way analysis of variance for comparing the means of two to 20 pop
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `H:ANOVA(`
 <hr>
+
+## Description
 
 The <tt>ANOVA</tt> (analysis of variance) command is used to test if there is a significant difference between the means of several populations (this is an extension of the [two-sample t-test](2-sampttest) which compares only two populations). The calculator assumes the null hypothesis, that all means are equal, and returns a probability value, p, of the differences in the data occurring if the null hypothesis were true. If p is small (usually, if it's less than .05), then it's unlikely we'd get such differences just by chance if the null hypothesis were true, so we reject it and conclude that at least one of the means is different.
 

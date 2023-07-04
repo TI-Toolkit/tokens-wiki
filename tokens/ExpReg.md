@@ -6,7 +6,7 @@
 
 # `ExpReg `
 
-## Description
+## Overview
 Fits an exponential regression model to `Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.
 
 
@@ -32,6 +32,8 @@ Fits an exponential regression model to `Xlistname` and `Ylistname` with frequen
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `0:ExpReg`
 <hr>
+
+## Description
 
 <tt>ExpReg</tt> tries to fit an exponential curve (y=a*b<sup>x</sup>) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates ordered so that the Nth element of one list matches up with the Nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points.
 

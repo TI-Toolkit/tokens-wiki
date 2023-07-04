@@ -6,7 +6,7 @@
 
 # `Zoom Out`
 
-## Description
+## Overview
 Displays a greater portion of the graph, centered on the cursor location.
 
 
@@ -18,6 +18,8 @@ Displays a greater portion of the graph, centered on the cursor location.
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `3:Zoom Out`
 <hr>
+
+## Description
 
 Outside a program, the Zoom Out tool allows you to pick a point on the graph screen and change the graphing window to a larger one centered at that point. The Zoom Out command, used in a program, also changes the graphing window to a larger one, but doesn't let you pick a point — it uses the center of the screen.
 

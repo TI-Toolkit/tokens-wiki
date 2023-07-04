@@ -6,7 +6,7 @@
 
 # `geometcdf(`
 
-## Description
+## Overview
 Computes a cumulative probability at `x`, the number of the trial on which the first success occurs, for the discrete geometric distribution with the specified probability of success `p.`
 
 
@@ -28,6 +28,8 @@ Computes a cumulative probability at `x`, the number of the trial on which the f
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `F:geometcdf(`
 <hr>
+
+## Description
 
 This command is used to calculate cumulative geometric probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
 

@@ -6,7 +6,7 @@
 
 # `min(`
 
-## Description
+## Overview
 Returns smaller of `valueA` and `valueB`.
 
 
@@ -29,7 +29,7 @@ Returns smaller of `valueA` and `valueB`.
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `6:min(`
 <hr>
 
-## Description
+## Overview
 Returns smallest real or complex element in `list`.
 
 
@@ -50,7 +50,7 @@ Returns smallest real or complex element in `list`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `1:min(`
 <hr>
 
-## Description
+## Overview
 Returns real or complex list of the smaller of each pair of elements in `listA` and `listB`.
 
 
@@ -73,7 +73,7 @@ Returns real or complex list of the smaller of each pair of elements in `listA` 
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `1:min(`
 <hr>
 
-## Description
+## Overview
 Returns a real or complex list of the smaller of `value` or each `list` element.
 
 
@@ -95,6 +95,8 @@ Returns a real or complex list of the smaller of `value` or each `list` element.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `1:min(`
 <hr>
+
+## Description
 
 min(_x_,_y_) returns the smallest of the two numbers _x_ and _y_. min(_list_) returns the smallest element of _list_. min(_list1_,_list2_) returns the pairwise minima of the two lists. min(_list1_,_x_) (equivalently, min(_x_,_list1_)) returns a list whose elements are the smaller of _x_ or the corresponding element of the original list.
 

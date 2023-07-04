@@ -6,7 +6,7 @@
 
 # `Lbl `
 
-## Description
+## Overview
 Creates a `label` of one or two characters.
 
 
@@ -26,6 +26,8 @@ Creates a `label` of one or two characters.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `9:Lbl`
 <hr>
+
+## Description
 
 The Lbl command is used together with the [Goto](Goto.md) command to jump (or branch) to another place in a program. When the calculator executes a Goto command, it stores the label name in memory, and then searches from the beginning of the program for the Lbl command with the supplied name. If it finds it, it continues running the program from that point; otherwise, if the label does not exist, it throws a [ERR: LABEL](errors#label) error.
 

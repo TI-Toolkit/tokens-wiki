@@ -6,7 +6,7 @@
 
 # `geometpdf(`
 
-## Description
+## Overview
 Computes a probability at `x`, the number of the trial on which the first success occurs, for the discrete geometric distribution with the specified probability of success `p.`
 
 
@@ -28,6 +28,8 @@ Computes a probability at `x`, the number of the trial on which the first succes
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `E:geometpdf(`
 <hr>
+
+## Description
 
 This command is used to calculate geometric probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
 

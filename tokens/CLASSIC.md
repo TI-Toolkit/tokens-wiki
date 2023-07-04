@@ -6,7 +6,7 @@
 
 # `CLASSIC`
 
-## Description
+## Overview
 Displays inputs and outputs on a single line, such as 1/2+3/4.
 
 
@@ -18,6 +18,8 @@ Displays inputs and outputs on a single line, such as 1/2+3/4.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `CLASSIC`
 <hr>
+
+## Description
 
 <tt>CLASSIC</tt> will put the calculator into <tt>Classic</tt> mode as opposed to <tt>MathPrint</tt> mode. The <tt>Classic</tt> mode will make the calculator display everything as pre-<tt>MathPrint</tt> OS would, including input. For instance, rather than superscripting exponents as <tt>MathPrint</tt> mode would, <tt>Classic</tt> mode uses the simple caret syntax (<tt><a href="^.md">^</a></tt>).
 

@@ -6,7 +6,7 @@
 
 # `rref(`
 
-## Description
+## Overview
 Returns the reduced row-echelon form of a `matrix`.
 
 
@@ -26,6 +26,8 @@ Returns the reduced row-echelon form of a `matrix`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `B:rref(`
 <hr>
+
+## Description
 
 Given a matrix with at least as many columns as rows, the <tt>rref(</tt> command puts a matrix into reduced row-echelon form using Gaussian elimination.
 

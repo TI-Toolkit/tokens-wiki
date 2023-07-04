@@ -6,7 +6,7 @@
 
 # `variance(`
 
-## Description
+## Overview
 Returns the variance of the elements in `list` with frequency `freqlist`.
 
 
@@ -28,6 +28,8 @@ Returns the variance of the elements in `list` with frequency `freqlist`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `8:variance(`
 <hr>
+
+## Description
 
 The <tt>variance(</tt> command finds the sample variance of a list, a measure of the spread of a distribution. It takes a list of real numbers as a parameter. For example:
 

@@ -6,7 +6,7 @@
 
 # `QuadReg `
 
-## Description
+## Overview
 Fits a quadratic regression model to` Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.
 
 
@@ -32,6 +32,8 @@ Fits a quadratic regression model to` Xlistname` and `Ylistname` with frequency 
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `5:QuadReg`
 <hr>
+
+## Description
 
 The QuadReg command can calculate the best fit quadratic through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points. You must have at least 3 points, because there are infinitely many quadratics that can go through 2 points or 1 point.
 

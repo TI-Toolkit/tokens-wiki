@@ -6,7 +6,7 @@
 
 # `ΣPrn(`
 
-## Description
+## Overview
 Computes the sum, rounded to `roundvalue`, of the principal amount between `pmt1` and `pmt2` for an amortization schedule.
 
 
@@ -32,6 +32,8 @@ Computes the sum, rounded to `roundvalue`, of the principal amount between `pmt1
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `0:Prn(`
 <hr>
+
+## Description
 
 The <tt>ΣPrn(</tt> command calculates, for an [amortization schedule](http://en.wikipedia.org/wiki/Amortization_schedule), the principal amount over a range of payments: the portion of those payments that went toward paying off the principal. Its two required arguments are _payment1_ and _payment2_, which define the range of payments we're interested in. However, it also uses the values of the finance variables PV, PMT, and I% in its calculations.
 

@@ -6,7 +6,7 @@
 
 # `►Rect`
 
-## Description
+## Overview
 Displays `complex value` or list in rectangular format.
 
 
@@ -26,6 +26,8 @@ Displays `complex value` or list in rectangular format.
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `6:Rect`
 <hr>
+
+## Description
 
 The ►Rect command can be used when displaying a complex number on the home screen, or with the [Disp](Disp.md) and [Pause](Pause.md) commands. It will then format the number as though [a+bi](a-bi) mode were enabled, even when it's not. It also works with lists.
 

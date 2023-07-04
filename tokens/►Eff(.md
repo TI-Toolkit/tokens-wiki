@@ -6,7 +6,7 @@
 
 # `►Eff(`
 
-## Description
+## Overview
 Computes the effective interest rate.
 
 
@@ -28,6 +28,8 @@ Computes the effective interest rate.
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `C:►Eff(`
 <hr>
+
+## Description
 
 The <tt>►Eff(</tt> command converts from a nominal interest rate to an effective interest rate. In other words, it converts an interest rate that does not take into account compounding periods into one that does. The two arguments are 1) the interest rate and 2) the number of compounding periods.
 

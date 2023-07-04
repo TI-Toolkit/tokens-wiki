@@ -6,7 +6,7 @@
 
 # `x₂`
 
-## Description
+## Overview
 
 
 
@@ -15,6 +15,9 @@
 `x₂`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

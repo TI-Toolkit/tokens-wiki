@@ -6,7 +6,7 @@
 
 # `int(`
 
-## Description
+## Overview
 Returns the largest integer ≤ a real or complex number, expression, list, or matrix.
 
 
@@ -26,6 +26,8 @@ Returns the largest integer ≤ a real or complex number, expression, list, or m
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `5:int(`
 <hr>
+
+## Description
 
 <tt>int(X)</tt> is the [floor function](https://mathworld.wolfram.com/FloorFunction.html). It returns the greatest integer less than or equal to _X_, and also works on complex numbers, lists and matrices.
 

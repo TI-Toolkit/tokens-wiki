@@ -6,7 +6,7 @@
 
 # `Thick`
 
-## Description
+## Overview
 Resets all Y=editor line-style settings to Thick.
 
 
@@ -18,6 +18,8 @@ Resets all Y=editor line-style settings to Thick.
 ## Location
 `zT`, `Thick`
 <hr>
+
+## Description
 
 The Thick command converts all lines in the current function type to be drawn using a 2-3 pixel wide line (hence "Thick"). This mode is the default line drawing mode. It can be called on the homescreen or in a program.
 

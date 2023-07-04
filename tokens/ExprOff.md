@@ -6,7 +6,7 @@
 
 # `ExprOff`
 
-## Description
+## Overview
 Turns off the expression display during TRACE.
 
 
@@ -18,6 +18,8 @@ Turns off the expression display during TRACE.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `ExprOff`
 <hr>
+
+## Description
 
 The <tt>ExprOff</tt> command enables a "short" form of displaying the equation or plot being traced. That is, only the number of the equation or plot will be displayed, in the top right corner of the screen. When tracing a plot, the number will be prefixed with a P to distinguish it from an equation.
 

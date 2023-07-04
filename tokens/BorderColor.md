@@ -6,7 +6,7 @@
 
 # `BorderColor `
 
-## Description
+## Overview
 Turns on a border color surrounding the graph area with the specified color. Color #:1-4.
 
 
@@ -26,6 +26,9 @@ Turns on a border color surrounding the graph area with the specified color. Col
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `BorderColor`
 <hr>
+
+## Description
+
 
 ## Examples
 

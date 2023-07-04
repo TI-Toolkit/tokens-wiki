@@ -6,7 +6,7 @@
 
 # `AxesOff`
 
-## Description
+## Overview
 Turns off the graph axes.
 
 
@@ -18,6 +18,8 @@ Turns off the graph axes.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `AxesOff`
 <hr>
+
+## Description
 
 The <tt>AxesOff</tt> command disables the X and Y axes on the graph screen, so that they aren't drawn. They can be enabled again with the <tt><a href="AxesOn.md">AxesOn</a></tt> command.
 

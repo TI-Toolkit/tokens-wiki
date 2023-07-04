@@ -6,7 +6,7 @@
 
 # `DispGraph`
 
-## Description
+## Overview
 Displays the graph.
 
 
@@ -18,6 +18,8 @@ Displays the graph.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `4:DispGraph`
 <hr>
+
+## Description
 
 The <tt>DispGraph</tt> command displays the graph screen, along with everything drawn or graphed on it.
 

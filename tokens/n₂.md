@@ -6,7 +6,7 @@
 
 # `n₂`
 
-## Description
+## Overview
 
 
 
@@ -15,6 +15,9 @@
 `n₂`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

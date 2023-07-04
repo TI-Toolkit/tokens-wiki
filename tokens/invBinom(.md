@@ -6,7 +6,7 @@
 
 # `invBinom(`
 
-## Description
+## Overview
 The inverse binomial cumulative distribution function results in the minimum number of successes, such that the cumulative probability for that minimum number of successes ≥ the given cumulative probability (area).  If more information is needed, also find the binomcdf for the result from invBinom( as shown below for a full analysis.
 Details:
 Assume the toss of a fair coin 30 times.  What is the minimum number of heads you must observe such that the cumulative probability for that number of observed heads is at least 0.95?
@@ -38,6 +38,9 @@ Set Y1=binomcdf(30,0.5,X) and use the table of values (starting at 0 and increme
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `C:invBinom(`
 <hr>
+
+## Description
+
 
 ## Examples
 

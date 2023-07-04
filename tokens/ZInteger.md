@@ -6,7 +6,7 @@
 
 # `ZInteger`
 
-## Description
+## Overview
 Redefines the viewing window using the following dimensions: `TraceStep=1, `Δ`X=0.5, Xscl=10, `Δ`Y=1, Yscl=10.`
 
 
@@ -18,6 +18,8 @@ Redefines the viewing window using the following dimensions: `TraceStep=1, `Δ`X
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `8:ZInteger`
 <hr>
+
+## Description
 
 When ZInteger is chosen as a menu option outside a program, it asks for a point on the graph screen. This point's coordinates are rounded to the nearest integer point. Then the [window variables](system-variables#window) are changed so the window is centered at this point, and so that the coordinates of every pixel are integers. ΔX and ΔY, the distances between two pixels next to each other, are both 1.
 

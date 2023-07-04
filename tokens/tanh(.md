@@ -6,7 +6,7 @@
 
 # `tanh(`
 
-## Description
+## Overview
 Returns hyperbolic tangent of a real number, expression, or list.
 
 
@@ -26,6 +26,8 @@ Returns hyperbolic tangent of a real number, expression, or list.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `tanh(`
 <hr>
+
+## Description
 
 Calculates the hyperbolic tangent of a value. The hyperbolic trig functions [sinh(](sinh\(.md), [cosh(](cosh\(.md), and tanh( are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of [e](e-value), and don't depend on the [Degree](degree-mode) or [Radian](radian-mode) mode setting.
 

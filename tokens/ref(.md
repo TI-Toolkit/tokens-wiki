@@ -6,7 +6,7 @@
 
 # `ref(`
 
-## Description
+## Overview
 Returns the row-echelon form of a `matrix`.
 
 
@@ -26,6 +26,8 @@ Returns the row-echelon form of a `matrix`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `A:ref(`
 <hr>
+
+## Description
 
 Given a matrix with at least as many columns as it has rows, the <tt>ref(</tt> command uses a technique called Gaussian elimination to put the matrix into row-echelon form.
 

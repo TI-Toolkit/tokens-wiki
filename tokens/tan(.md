@@ -6,7 +6,7 @@
 
 # `tan(`
 
-## Description
+## Overview
 Returns the tangent of a real number, expression, or list.
 
 
@@ -26,6 +26,8 @@ Returns the tangent of a real number, expression, or list.
 ## Location
 <tt><kbd><b>tan</b></kbd></tt>
 <hr>
+
+## Description
 
 tan(θ) calculates the [tangent](https://mathworld.wolfram.com/tangent.html) of the angle θ, which is defined by $\tan \theta=\frac{\sin \theta}{\cos \theta}$
 

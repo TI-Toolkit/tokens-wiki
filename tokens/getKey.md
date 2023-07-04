@@ -6,7 +6,7 @@
 
 # `getKey`
 
-## Description
+## Overview
 Returns the key code for the current keystroke, or `0`, if no key is pressed.
 
 
@@ -18,6 +18,8 @@ Returns the key code for the current keystroke, or `0`, if no key is pressed.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `7:getKey`
 <hr>
+
+## Description
 
 The <tt>getKey</tt> command returns the value of the last key pressed since the last time <tt>getKey</tt> was executed. Reading key presses with <tt>getKey</tt> allows a program to transfer control to the user, and you can combine <tt>getKey</tt> with other commands to create [menus](custommenus), [movement](movement.md), or whatever else you want.
 

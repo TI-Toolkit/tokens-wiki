@@ -6,7 +6,7 @@
 
 # `SinReg `
 
-## Description
+## Overview
 Attempts `iterations` times to fit a sinusoidal regression model to `Xlistname` and `Ylistname` using a `period` guess, and stores the regression equation to `regequ`.
 
 
@@ -34,6 +34,8 @@ Attempts `iterations` times to fit a sinusoidal regression model to `Xlistname` 
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `C:SinReg`
 <hr>
+
+## Description
 
 SinReg tries to fit a sine wave to a given list of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the _i_<sup>th</sup> element of one list matches up with the _i_<sup>th</sup> element of the other list (i.e. the first element of the x-list and the first element of the y-list make up an ordered pair). L₁ and L₂ are the default lists used, and the List Editor (STAT > Edit…) is a useful window for entering the points.
 

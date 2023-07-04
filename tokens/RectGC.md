@@ -6,7 +6,7 @@
 
 # `RectGC`
 
-## Description
+## Overview
 Sets rectangular graphing coordinates format.
 
 
@@ -18,6 +18,8 @@ Sets rectangular graphing coordinates format.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `RectGC`
 <hr>
+
+## Description
 
 The RectGC ("Rectangular Grid Coordinates") command (like its opposite, the [PolarGC](PolarGC.md)) command, affects how the coordinates of a point on the graph screen are displayed. When RectGC is enabled, the coordinates of a point are displayed as (X,Y).
 

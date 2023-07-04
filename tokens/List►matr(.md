@@ -6,7 +6,7 @@
 
 # `List►matr(`
 
-## Description
+## Overview
 Fills `matrixname` column by column with the elements from each specified `listname`.
 
 
@@ -32,6 +32,8 @@ Fills `matrixname` column by column with the elements from each specified `listn
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `0:List`, `matr(`
 <hr>
+
+## Description
 
 The List►matr( builds a matrix by combining several list expressions, and stores it to the specified variable ([A] through [J]). Each list specifies a column of the matrix: the first list will be stored down the first (leftmost) column, the second list down the second column, and so on. For example:
 

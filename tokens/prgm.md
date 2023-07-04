@@ -6,7 +6,7 @@
 
 # `prgm`
 
-## Description
+## Overview
 Executes the program `name`.
 
 
@@ -26,6 +26,8 @@ Executes the program `name`.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTRL`, `D:prgm`
 <hr>
+
+## Description
 
 The prgm command is used to execute a program from inside another program (at any time while the program is running), with the secondary program acting as a [subprogram](subprograms) for that program. Although they are listed in the program menu and can be executed independently like any other program, subprograms are primarily designed to do a particular task for the other program.
 

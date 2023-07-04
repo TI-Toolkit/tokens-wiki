@@ -6,7 +6,7 @@
 
 # `round(`
 
-## Description
+## Overview
 Returns a number, expression, list, or matrix rounded to `#decimals` ( 9).
 
 
@@ -28,6 +28,8 @@ Returns a number, expression, list, or matrix rounded to `#decimals` ( 9).
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `2:round(`
 <hr>
+
+## Description
 
 round(_value_[,_#decimals_]) returns _value_ rounded to _#decimals_ decimal places. _#decimals_ must be < 10. The default value for _#decimals_ is 9. Also works on complex numbers, lists and matrices.
 

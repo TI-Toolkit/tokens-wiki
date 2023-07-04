@@ -6,7 +6,7 @@
 
 # `RecallGDB `
 
-## Description
+## Overview
 Restores all settings stored in the graph database variable `GDBn`.
 
 
@@ -26,6 +26,8 @@ Restores all settings stored in the graph database variable `GDBn`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `STO`, `4:RecallGDB`
 <hr>
+
+## Description
 
 The RecallGDB command recalls graph settings a GDB (Graph DataBase) variable, one of GDB1, GDB2, …, GDB0 (as indicated by the argument). These settings can be stored to a GDB using the [StoreGDB](StoreGDB.md) command.
 

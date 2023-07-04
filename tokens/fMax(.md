@@ -6,7 +6,7 @@
 
 # `fMax(`
 
-## Description
+## Overview
 Returns the value of `variable` where the local maximum of `expression` occurs, between `lower` and `upper`,with specified `tolerance`.
 
 
@@ -34,6 +34,8 @@ Returns the value of `variable` where the local maximum of `expression` occurs, 
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `7:fMax(`
 <hr>
+
+## Description
 
 <tt>fMax(<em>f</em>(<em>var</em>),<em>var</em>,<em>lo</em>,<em>hi</em>[,<em>tol</em>])</tt> finds the value of _var_ between _lo_ and _hi_ at which the maximum of _f_(_var_) occurs. _tol_ controls the accuracy of the maximum value computed. The default value of _tol_ is 10<sup>-5</sup>.
 

@@ -6,7 +6,7 @@
 
 # `logBASE(`
 
-## Description
+## Overview
 Returns the logarithm of a specifed value determined from a specified base: logBASE(value, base).
 
 
@@ -28,6 +28,8 @@ Returns the logarithm of a specifed value determined from a specified base: logB
 ## Location
 <tt><kbd><b>math</b></kbd></tt>
 <hr>
+
+## Description
 
 The <tt>logBASE(</tt> command is a visual upgrade to the <tt><a href="log(.md">log(</a></tt> command to compute logarithms in any base _b_. That is, the command finds the exponent that base _b_ must be raised to obtain the given value.
 

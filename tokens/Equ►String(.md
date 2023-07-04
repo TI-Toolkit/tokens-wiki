@@ -6,7 +6,7 @@
 
 # `Equ►String(`
 
-## Description
+## Overview
 Converts the contents of a `Y= var` to a string and stores it in `Str``n`
 
 
@@ -28,6 +28,8 @@ Converts the contents of a `Y= var` to a string and stores it in `Str``n`
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `Equ►String(`
 <hr>
+
+## Description
 
 This command stores the contents of an equation variable (such as Y<sub>1</sub> or X<sub>1T</sub>) to a string (one of Str0, Str1, … Str9). This can be used when you want to display the equation as text (either using the <tt><a href="Text(.md">Text(</a></tt> command on the graph screen, or the <tt><a href="Output(.md">Output(</a></tt> or <tt><a href="Disp.md">Disp</a></tt> commands on the home screen). For example:
 

@@ -6,7 +6,7 @@
 
 # `2-PropZTest(`
 
-## Description
+## Overview
 Computes a two-proportion `z` test. `alternative`=-`1` is <; `alternative`=`0` is ≠; `alternative`=`1` is >. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -39,6 +39,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `6:2-PropZTest(`
 <hr>
+
+## Description
 
 <tt>2-PropZTest(</tt> performs a_z_-test to compare two population proportions. This test is valid for sufficiently large samples: only when the number of successes (_x_ in the command syntax) and the number of failures (_n_-_x_) are both >5, for both populations.
 

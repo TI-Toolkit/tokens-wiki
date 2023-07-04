@@ -70,7 +70,7 @@ for (const [bytes, token] of Object.entries(tokens)) {
         }
 
         page += `
-## Description
+## Overview
 ${info.description}
 
 ${info.comment ? ('<b>Comment</b>:' + info.comment + '\n') : ''}\n`;
@@ -146,9 +146,12 @@ ${info.specialCategory}
     let hasTIBDinfo = fs.existsSync(tibdPath);
     if (hasTIBDinfo) {
         const tibdFile = fs.readFileSync(tibdPath, 'utf8');
-        page += `\n${tibdFile}\n`;
+        page += `\n## Description\n\n${tibdFile}\n`;
     } else {
         page += `
+## Description
+
+
 ## Examples
 
 Explanation 1

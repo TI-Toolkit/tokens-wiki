@@ -6,7 +6,7 @@
 
 # `fPart(`
 
-## Description
+## Overview
 Returns the fractional part or parts of a real or complex number, expression, list, or matrix.
 
 
@@ -26,6 +26,8 @@ Returns the fractional part or parts of a real or complex number, expression, li
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `4:fPart(`
 <hr>
+
+## Description
 
 <tt>fPart(value)</tt> returns the fractional part of _value_, be it a variable, list, or matrix.
 

@@ -6,7 +6,7 @@
 
 # `pxl-Test(`
 
-## Description
+## Overview
 Returns 1 if pixel (`row`, `column`) is on, 0 if it is off;
 
 
@@ -28,6 +28,8 @@ Returns 1 if pixel (`row`, `column`) is on, 0 if it is off;
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `7:pxl-Test(`
 <hr>
+
+## Description
 
 The pxl-Test( command is used to test a pixel at the given (Y,X) coordinates of the graph screen, to see whether it is on or off. One is returned if the pixel is on and zero is returned if the pixel is off. Please note that the coordinates are switched around so that the row comes first and then the column — it's (Y,X) instead of (X,Y). This command's coordinates are independent of the window settings.
 

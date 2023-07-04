@@ -6,7 +6,7 @@
 
 # `sinh(`
 
-## Description
+## Overview
 Returns the hyperbolic sine of a real number, expression, or list.
 
 
@@ -26,6 +26,8 @@ Returns the hyperbolic sine of a real number, expression, or list.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `sinh(`
 <hr>
+
+## Description
 
 Calculates the hyperbolic sine of a value. The hyperbolic trig functions sinh(, [cosh(](cosh\(.md), and [tanh(](tanh\(.md) are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of [e](e-value), and don't depend on the [Degree](degree-mode) or [Radian](radian-mode) mode setting.
 

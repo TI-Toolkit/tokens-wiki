@@ -6,7 +6,7 @@
 
 # `DiagnosticOff`
 
-## Description
+## Overview
 Sets diagnostics-off mode; `r`, `r`², and `R`² are not displayed as regression model results.
 
 
@@ -18,6 +18,8 @@ Sets diagnostics-off mode; `r`, `r`², and `R`² are not displayed as regression
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `DiagnosticOff`
 <hr>
+
+## Description
 
 After the <tt>DiagnosticOff</tt> command is executed, all regression commands found in the STAT>CALC menu, as well as <tt><a href="LinRegTTest.md">LinRegTTest</a></tt>, will not display the correlation statistics r and r<sup>2</sup> (or just R<sup>2</sup> in some cases). This is already turned off by default, although there is no disadvantage whatsoever to turning it on. To reverse this command, execute the <tt><a href="DiagnosticOn.md">DiagnosticOn</a></tt> command.
 

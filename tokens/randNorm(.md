@@ -6,7 +6,7 @@
 
 # `randNorm(`
 
-## Description
+## Overview
 Generates and displays a random real number from a specified Normal distribution specified by μ and σ for a specified number of trials `numtrials`.
 
 
@@ -30,6 +30,8 @@ Generates and displays a random real number from a specified Normal distribution
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `6:randNorm(`
 <hr>
+
+## Description
 
 randNorm(_µ_,_σ_) generates a normally-distributed pseudorandom number with [mean](mean.md) _µ_ and [standard deviation](stddev) _σ_. The result returned will most probably be within the range _µ_±3_σ_. randNorm(_µ_,_σ_,_n_) generates a list of _n_ normally-distributed pseudorandom numbers with mean _µ_ and standard deviation _σ_.
 

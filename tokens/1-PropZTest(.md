@@ -6,7 +6,7 @@
 
 # `1-PropZTest(`
 
-## Description
+## Overview
 Computes a one-proportion `z` test. `alternative`=-`1` is <; `alternative`=`0` is ≠; `alternative`=`1` is >. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -37,6 +37,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `5:1-PropZTest(`
 <hr>
+
+## Description
 
 1-PropZTest performs an _z_-test to compare a population proportion to a hypothesis value. This test is valid for sufficiently large samples: only when the number of successes (_x_ in the command syntax) and the number of failures (_n_-_x_) are both >5.
 

@@ -6,7 +6,7 @@
 
 # `timeCnv(`
 
-## Description
+## Overview
 Converts seconds to units of time that can be more easily understood for evaluation. The list is in {days,hours,minutes,seconds} format.
 
 
@@ -26,6 +26,8 @@ Converts seconds to units of time that can be more easily understood for evaluat
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `timeCnv`
 <hr>
+
+## Description
 
 The timeCnv( command converts seconds into the equivalent days, hours, minutes, and seconds. You just specify a number of seconds (should be a whole number, although a decimal number would work too; the calculator will simply use the integer part and discard the decimal) and the calculator will automatically break the seconds up into the standard parts of time, storing them in [list](lists) format — {_days_,_hours_,_minutes_,_seconds_}. You can [store](store.md) this list to a variable for later use, or manipulate it the same way you do with other lists.
 

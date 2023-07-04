@@ -6,7 +6,7 @@
 
 # `Prompt `
 
-## Description
+## Overview
 Prompts for value for `variableA`, then `variableB`, and so on.
 
 
@@ -32,6 +32,8 @@ Prompts for value for `variableA`, then `variableB`, and so on.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Prompt`
 <hr>
+
+## Description
 
 The <tt>Prompt</tt> command is the simplest way of getting [user input](userinput) on the [home screen](homescreen) (getting user input on the [graph screen](graphscreen) is only possible with the <tt><a href="getKey.md">getKey</a></tt> command). Prompt displays [variables](variables.md) one per line, with an equal sign and question mark (=?) displayed to the right of each variable. After the user enters a value or expression for the variables and presses ENTER, the values will be stored to the variables and program execution will resume.
 

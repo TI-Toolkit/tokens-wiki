@@ -6,7 +6,7 @@
 
 # `Clear Entries`
 
-## Description
+## Overview
 Clears the contents of the Last Entry storage area.
 
 
@@ -18,6 +18,8 @@ Clears the contents of the Last Entry storage area.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `MEMORY`, `3:Clear Entries`
 <hr>
+
+## Description
 
 Normally, by pressing 2nd ENTER repeatedly, you can cycle through some of the recent entries on the home screen. With the <tt>Clear Entries</tt> command, this history is cleared (only <tt>Clear Entries</tt> remains in the history).
 

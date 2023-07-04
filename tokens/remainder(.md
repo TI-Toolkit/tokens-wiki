@@ -6,7 +6,7 @@
 
 # `remainder(`
 
-## Description
+## Overview
 Reports the remainder as a whole number from a division of two whole numbers where the divisor is not zero.
 
 
@@ -29,7 +29,7 @@ Reports the remainder as a whole number from a division of two whole numbers whe
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `0:remainder(`
 <hr>
 
-## Description
+## Overview
 Reports the remainder as a whole number from a division of two lists where the divisor is not zero.
 
 
@@ -52,7 +52,7 @@ Reports the remainder as a whole number from a division of two lists where the d
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `0:remainder(`
 <hr>
 
-## Description
+## Overview
 Reports the remainder as a whole number from a division of two whole numbers where the divisor is a list.
 
 
@@ -75,7 +75,7 @@ Reports the remainder as a whole number from a division of two whole numbers whe
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `0:remainder(`
 <hr>
 
-## Description
+## Overview
 Reports the remainder as a whole number from a division of two lists.
 
 
@@ -97,6 +97,8 @@ Reports the remainder as a whole number from a division of two lists.
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `0:remainder(`
 <hr>
+
+## Description
 
 The <tt>remainder(</tt> function divides the first number given by the second number, and returns the remainder similar to the modulus. This command is only available if you have the TI-84+/SE and the new 2.53 MP operating system on your calculator. This command can be used both on the Home screen and when programming.
 

@@ -6,7 +6,7 @@
 
 # `SortD(`
 
-## Description
+## Overview
 Sorts elements of `listname` in descending order.
 
 
@@ -27,7 +27,7 @@ Sorts elements of `listname` in descending order.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `2:SortD(`
 <hr>
 
-## Description
+## Overview
 Sorts elements of `keylistname` in descending order, then sorts each `dependlist` as a dependent list.
 
 
@@ -53,6 +53,8 @@ Sorts elements of `keylistname` in descending order, then sorts each `dependlist
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `2:SortD(`
 <hr>
+
+## Description
 
 The SortD( command sorts a list in descending order. It does not return it, but instead edits the original list variable (so it takes only list variables as arguments).
 

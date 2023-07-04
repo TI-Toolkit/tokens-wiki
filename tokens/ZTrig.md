@@ -6,7 +6,7 @@
 
 # `ZTrig`
 
-## Description
+## Overview
 Replots the functions immediately, updating the window variables to preset values for plotting trig functions.
 
 
@@ -18,6 +18,8 @@ Replots the functions immediately, updating the window variables to preset value
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `7:ZTrig`
 <hr>
+
+## Description
 
 The <tt>ZTrig</tt> command sets the screen to a special [friendly window](friendly-window) useful for trigonometric calculations. Unlike the <tt><a href="ZDecimal.md">ZDecimal</a></tt> and <tt><a href="ZInteger.md">ZInteger</a></tt> commands, for which the distance between two pixels is a short decimal or integer, <tt>ZTrig</tt> sets the horizontal distance between two pixels to be π/24 (in <tt><a href="Radian.md">Radian</a></tt> mode) or 7.5 (in <tt><a href="Degree.md">Degree</a></tt> mode) . The specific changes <tt>ZTrig</tt> makes are:
 

@@ -6,7 +6,7 @@
 
 # `tan⁻¹(`
 
-## Description
+## Overview
 Returns the arctangent of a real number, expression, or list.
 
 
@@ -28,6 +28,8 @@ Returns the arctangent of a real number, expression, or list.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tan⁻¹</kbd>
 <hr>
+
+## Description
 
 tanֿ¹( returns the [arctangent](https://mathworld.wolfram.com/InverseTangent.html) of its argument. It is the inverse of [tan(](tan\(.md), which means that tanֿ¹(n) produces an angle θ such that tan(θ)=n.
 

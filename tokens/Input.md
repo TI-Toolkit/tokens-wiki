@@ -6,7 +6,7 @@
 
 # `Input `
 
-## Description
+## Overview
 Displays graph.
 
 
@@ -19,7 +19,7 @@ Displays graph.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Input`
 <hr>
 
-## Description
+## Overview
 Prompts for value to store to `variable`.
 
 
@@ -40,7 +40,7 @@ Prompts for value to store to `variable`.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Input`
 <hr>
 
-## Description
+## Overview
 Displays `Strn` and stores entered value to `variable`.
 
 
@@ -62,6 +62,8 @@ Displays `Strn` and stores entered value to `variable`.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Input`
 <hr>
+
+## Description
 
 The <tt>Input</tt> command is the other way of getting user input on the [home screen](homescreen) (getting [user input](userinput) on the [graph screen](graphscreen) is only possible with the <tt><a href="getKey.md">getKey</a></tt> command). The <tt>Input</tt> command asks the user to enter a value for a [variable](variables) (only one variable can be inputted at a time), waiting until the user enters a value and then presses ENTER. It does not display what variable the user is being asked for, but instead just displays a question mark (?).
 

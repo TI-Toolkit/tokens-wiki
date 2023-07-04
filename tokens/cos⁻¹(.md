@@ -6,7 +6,7 @@
 
 # `cos⁻¹(`
 
-## Description
+## Overview
 Returns arccosine of a real number, expression, or list.
 
 
@@ -28,6 +28,8 @@ Returns arccosine of a real number, expression, or list.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>cos⁻¹</kbd>
 <hr>
+
+## Description
 
 <tt>cosֿ¹(</tt> returns the [arccosine](https://mathworld.wolfram.com/InverseCosine.html) of its argument. It is the inverse of <tt><a href="cos(.md">cos(</a></tt>, which means that <tt>cosֿ¹(n)</tt> produces an angle θ such that <tt>cos(θ)</tt>=n.
 

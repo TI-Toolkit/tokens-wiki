@@ -6,7 +6,7 @@
 
 # `DependAuto`
 
-## Description
+## Overview
 Sets table to generate dependent-variable values automatically.
 
 
@@ -18,6 +18,8 @@ Sets table to generate dependent-variable values automatically.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Depend: Auto`
 <hr>
+
+## Description
 
 When the <tt>DependAuto</tt> setting (opposed to the <tt><a href="DependAsk.md">DependAsk</a></tt> setting) is turned on, values in the table are automatically calculated. With <tt><a href="IndpntAuto.md">IndpntAuto</a></tt>, that means the table is automatically filled out completely; with <tt><a href="IndpntAsk.md">IndpntAsk</a></tt>, that means that as soon as you enter a value for the independent variable, all the values of the dependent variables are calculated. This is usually the setting you want to use.
 

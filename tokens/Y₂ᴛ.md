@@ -6,7 +6,7 @@
 
 # `Y₂ᴛ`
 
-## Description
+## Overview
 
 
 
@@ -15,6 +15,9 @@
 `Y₂ᴛ`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

@@ -6,7 +6,7 @@
 
 # `Shade(`
 
-## Description
+## Overview
 Draws `lowerfunc` and `upperfunc` in terms of `X` on the current graph and uses `pattern` and `patres` to shade and color the area bounded by `lowerfunc`, `upperfunc`, `Xleft`, and `Xright`. `lowerfunc `and `upperfunc `are shaded in the same specified color.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -39,6 +39,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `7:Shade(`
 <hr>
+
+## Description
 
 The Shade( command draws two functions and shades the area between them.
 

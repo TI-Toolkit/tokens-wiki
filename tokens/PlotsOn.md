@@ -6,7 +6,7 @@
 
 # `PlotsOn `
 
-## Description
+## Overview
 Selects all stat plots or one or more specified stat plots (`1`, `2`, or `3`).
 
 
@@ -18,6 +18,8 @@ Selects all stat plots or one or more specified stat plots (`1`, `2`, or `3`).
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `5:PlotsOn`
 <hr>
+
+## Description
 
 By itself, the command will turn on all three stat plots.
 

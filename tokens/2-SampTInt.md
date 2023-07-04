@@ -6,7 +6,7 @@
 
 # `2-SampTInt `
 
-## Description
+## Overview
 Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.
 
 <b>Comment</b>:Data list input
@@ -38,7 +38,7 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `0:2-SampTInt`
 <hr>
 
-## Description
+## Overview
 Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances.
 
 <b>Comment</b>:Summary stats input
@@ -79,6 +79,8 @@ Computes a two-sample `t` confidence interval. `pooled`=`1` pools variances; `po
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `0:2-SampTInt`
 <hr>
+
+## Description
 
 The 2-SampTInt command uses the techniques of T Intervals to compute an interval for the **difference** between the means of two independent populations, at a specified confidence level. Use 2-SampTInt( when you have two independent variables to compare, and you don't know their standard deviations. The 2-SampTInt command assumes that both your variables are normally distributed, but it will work for other distributions if the sample size is large enough.
 

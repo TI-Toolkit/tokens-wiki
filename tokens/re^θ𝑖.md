@@ -6,7 +6,7 @@
 
 # `re^θ𝑖`
 
-## Description
+## Overview
 Sets the mode to polar complex number mode (`re``^`θ`i`).
 
 
@@ -30,6 +30,8 @@ Sets the mode to polar complex number mode (`re``^`θ`i`).
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>
 <hr>
+
+## Description
 
 The re^θ𝑖 command puts the calculator into polar complex number mode. This means that:
 

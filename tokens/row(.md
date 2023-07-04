@@ -6,7 +6,7 @@
 
 # `*row(`
 
-## Description
+## Overview
 Returns a matrix with `row` of `matrix` multiplied by `value` and stored in `row`.
 
 
@@ -32,6 +32,9 @@ Returns a matrix with `row` of `matrix` multiplied by `value` and stored in `row
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `E:row(`
 <hr>
+
+## Description
+
 
 ## Examples
 

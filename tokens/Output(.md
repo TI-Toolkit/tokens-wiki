@@ -6,7 +6,7 @@
 
 # `Output(`
 
-## Description
+## Overview
 Displays `text` beginning at specified `row` and `column `of the home screen.
 
 
@@ -31,7 +31,7 @@ Displays `text` beginning at specified `row` and `column `of the home screen.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `6:Output(`
 <hr>
 
-## Description
+## Overview
 Displays `value` beginning at specified `row` and `column `of the home screen.
 
 
@@ -55,6 +55,8 @@ Displays `value` beginning at specified `row` and `column `of the home screen.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `6:Output(`
 <hr>
+
+## Description
 
 The <tt>Output(</tt> command is the fastest way to display text on the [home screen](homescreen). It takes three arguments: the row (1-8) at which you want to display something, the column (1-16), and whatever it is you want to display. It allows for more freedom than the <tt><a href="Disp.md">Disp</a></tt> command.
 

@@ -6,7 +6,7 @@
 
 # `[errorSS]`
 
-## Description
+## Overview
 
 
 
@@ -15,6 +15,9 @@
 `[errorSS]`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

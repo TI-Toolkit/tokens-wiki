@@ -6,7 +6,7 @@
 
 # `PolarGC`
 
-## Description
+## Overview
 Sets polar graphing coordinates format.
 
 
@@ -18,6 +18,8 @@ Sets polar graphing coordinates format.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `PolarGC`
 <hr>
+
+## Description
 
 The PolarGC ("Polar Grid Coordinates") command (like its opposite, the [RectGC](RectGC.md)) command, affects how the coordinates of a point on the graph screen are displayed. When PolarGC is enabled, the coordinates of a point are displayed as (R,θ).
 

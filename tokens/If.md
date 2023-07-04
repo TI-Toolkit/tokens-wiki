@@ -6,7 +6,7 @@
 
 # `If `
 
-## Description
+## Overview
 If `condition` = 0 (false), skips `commandA`.
 
 
@@ -33,7 +33,7 @@ If `condition` = 0 (false), skips `commandA`.
 
 # `If Then End`
 
-## Description
+## Overview
 Executes `commands` from `Then` to `End` if `condition` = 1 (true).
 
 
@@ -62,7 +62,7 @@ Executes `commands` from `Then` to `End` if `condition` = 1 (true).
 
 # `If Then Else End`
 
-## Description
+## Overview
 Executes `commands` from `Then` to `Else` if `condition` = 1 (true); from `Else` to `End` if `condition` = 0 (false).
 
 
@@ -88,6 +88,8 @@ Executes `commands` from `Then` to `Else` if `condition` = 1 (true); from `Els
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `3:Else`
 <hr>
+
+## Description
 
 The <tt>If</tt> command is crucial to most programs. It allows you to execute code if and only if an expression is not equal to zero. Advanced uses of the <tt>If</tt> command allow you to execute a different block of code if the check turns out to be false. The simplest form of the command is quite easy to understand:
 

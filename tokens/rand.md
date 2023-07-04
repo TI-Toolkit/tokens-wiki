@@ -6,7 +6,7 @@
 
 # `rand`
 
-## Description
+## Overview
 Returns a random number between 0 and 1 for a specified number of trials `numtrials`.
 
 
@@ -26,6 +26,8 @@ Returns a random number between 0 and 1 for a specified number of trials `numtri
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `1:rand`
 <hr>
+
+## Description
 
 rand generates a uniformly-distributed pseudorandom number (this page and others will sometimes drop the pseudo- prefix for simplicity) between 0 and 1. rand(_n_) generates a list of _n_ uniformly-distributed pseudorandom numbers between 0 and 1. _seed_→rand seeds (initializes) the built-in pseudorandom number generator. The factory default seed is 0.
 

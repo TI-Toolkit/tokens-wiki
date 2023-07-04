@@ -6,7 +6,7 @@
 
 # `ExprOn`
 
-## Description
+## Overview
 Turns on the expression display during TRACE.
 
 
@@ -18,6 +18,8 @@ Turns on the expression display during TRACE.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `ExprOn`
 <hr>
+
+## Description
 
 The <tt>ExprOn</tt> command enables a "long" form of displaying the equation or plot being traced.
 

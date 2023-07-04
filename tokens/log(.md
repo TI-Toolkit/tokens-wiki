@@ -6,7 +6,7 @@
 
 # `log(`
 
-## Description
+## Overview
 Returns logarithm of a real or complex number, expression, or list.
 
 
@@ -26,6 +26,8 @@ Returns logarithm of a real or complex number, expression, or list.
 ## Location
 <tt><kbd><b>log</b></kbd></tt>
 <hr>
+
+## Description
 
 The <tt>log(</tt> command computes the base 10 logarithm of a value — the exponent to which 10 must be raised, to get that value. This makes it the inverse of the <tt><a href="10^(.md">10^(</a></tt> command.
 

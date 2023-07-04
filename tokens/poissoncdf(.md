@@ -6,7 +6,7 @@
 
 # `poissoncdf(`
 
-## Description
+## Overview
 Computes a cumulative probability at `x` for the discrete Poisson distribution with specified mean μ.
 
 
@@ -28,6 +28,8 @@ Computes a cumulative probability at `x` for the discrete Poisson distribution w
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `D:poissoncdf(`
 <hr>
+
+## Description
 
 This command is used to calculate Poisson distribution cumulative probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
 

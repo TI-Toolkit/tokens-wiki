@@ -6,7 +6,7 @@
 
 # `2-SampTTest `
 
-## Description
+## Overview
 Computes a two-sample `t` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -42,7 +42,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `4:2-SampTTest`
 <hr>
 
-## Description
+## Overview
 Computes a two-sample `t` test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `pooled`=`1` pools variances; `pooled`=`0` does not pool variances. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -83,6 +83,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `4:2-SampTTest`
 <hr>
+
+## Description
 
 2-SampTTest performs a _t_ significance test to compare the means of two populations. This test is valid for simple random samples from populations with unknown standard deviations. In addition, either the populations must be normally distributed, or the sample sizes have to be sufficiently large (usually, greater than 10).
 

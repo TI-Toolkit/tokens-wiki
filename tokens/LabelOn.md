@@ -6,7 +6,7 @@
 
 # `LabelOn`
 
-## Description
+## Overview
 Turns on axes labels.
 
 
@@ -18,6 +18,8 @@ Turns on axes labels.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `LabelOn`
 <hr>
+
+## Description
 
 The <tt>LabelOn</tt> setting enables labels on the X and Y coordinate axes. If both <tt>LabelOn</tt>and <tt><a href="AxesOn.md">AxesOn</a></tt> are set, the axes will be displayed with an X next to the X (horizontal) axis, and a Y next to the Y (vertical) axis. To disable these labels, use the <tt><a href="LabelOff.md">LabelOff</a></tt> setting.
 

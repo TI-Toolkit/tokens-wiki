@@ -6,7 +6,7 @@
 
 # `Circle(`
 
-## Description
+## Overview
 Draws a circle with center (`X`,`Y`) and `radius` with specified
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 linestyle#: 1-2.
@@ -36,6 +36,8 @@ linestyle#: 1-2.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `9:Circle(`
 <hr>
+
+## Description
 
 <tt>Circle(<em>X</em>,<em>Y</em>,<em>r</em>)</tt> will draw a circle at (_X_,_Y_) with radius _r_. _X_ and _Y_ will be affected by the window settings. The radius will also be affected by the window settings.
 

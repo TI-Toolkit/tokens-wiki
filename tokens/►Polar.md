@@ -6,7 +6,7 @@
 
 # `►Polar`
 
-## Description
+## Overview
 Displays `complex value` in polar format.
 
 
@@ -26,6 +26,8 @@ Displays `complex value` in polar format.
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `7:Polar`
 <hr>
+
+## Description
 
 The ►Polar command can be used when displaying a complex number on the home screen, or with the [Disp](Disp.md) and [Pause](Pause.md) commands. It will then format the number as though [re^θ𝑖](re-thetai) mode were enabled. It also works with lists.
 

@@ -6,7 +6,7 @@
 
 # `tcdf(`
 
-## Description
+## Overview
 Computes the Student-`t` distribution probability between `lowerbound` and` upperbound` for the specified degrees of freedom` df`.
 
 
@@ -30,6 +30,8 @@ Computes the Student-`t` distribution probability between `lowerbound` and` uppe
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `6:tcdf(`
 <hr>
+
+## Description
 
 tcdf( is the Student's _t_ cumulative density function. If some random variable follows this distribution, you can use this command to find the probability that this variable will fall in the interval you supply.
 

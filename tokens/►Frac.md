@@ -6,7 +6,7 @@
 
 # `►Frac`
 
-## Description
+## Overview
 Displays a real or complex number, expression, list, or matrix as a fraction simplified to its simplest terms.
 
 
@@ -26,6 +26,8 @@ Displays a real or complex number, expression, list, or matrix as a fraction sim
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `1:Frac`
 <hr>
+
+## Description
 
 <tt>►Frac</tt> attempts to display the input in fraction form. It only works on the [home screen](homescreen) outside a program, or with the <tt><a href="Disp.md">Disp</a></tt> and <tt><a href="Pause.md">Pause</a></tt> commands in a program. It takes up to 12 decimal places of a non-terminating decimal to find the corresponding fraction. The decimal input is returned if <tt>►Frac</tt> fails to find the fraction form.
 

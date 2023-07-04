@@ -6,7 +6,7 @@
 
 # `Radian`
 
-## Description
+## Overview
 Sets radian angle mode.
 
 
@@ -18,6 +18,8 @@ Sets radian angle mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Radian`
 <hr>
+
+## Description
 
 The Radian command puts the calculator into Radian mode, where the inputs and/or outputs to trig functions are assumed to be radian angles.
 

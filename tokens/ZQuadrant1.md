@@ -6,7 +6,7 @@
 
 # `ZQuadrant1`
 
-## Description
+## Overview
 Displays the portion of the graph that is in quadrant 1.
 
 
@@ -18,6 +18,8 @@ Displays the portion of the graph that is in quadrant 1.
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `A:ZQuadrant1`
 <hr>
+
+## Description
 
 ZQuadrant1 was introduced in OS 2.53MP. As it's name might imply, it puts Quadrant I in the viewing window (the upper-left quadrant). Here are the window settings it affects:
 

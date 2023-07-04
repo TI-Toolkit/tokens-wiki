@@ -6,7 +6,7 @@
 
 # `Shadeχ²(`
 
-## Description
+## Overview
 Draws the density function for the χ² distribution specified by degrees of freedom `df`, and shades and colors the area between `lowerbound` and `upperbound`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -35,6 +35,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DRAW`, `3:Shade`, `(`
 <hr>
+
+## Description
 
 <tt>Shadeχ²(</tt> is equivalent to <tt><a href="χ²cdf(.md">χ²cdf(</a></tt> in terms of the probability it calculates: if a random variable follows the χ² distribution, you can use it to calculate the probability that the variable's value falls in a certain interval. However, in addition to calculating the probability, this command also draws the χ² curve, and shades the interval whose area represents the probability you want.
 

@@ -6,7 +6,7 @@
 
 # `G-T`
 
-## Description
+## Overview
 Sets graph-table vertical split-screen mode.
 
 
@@ -18,6 +18,8 @@ Sets graph-table vertical split-screen mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `GRAPH-TABLE`
 <hr>
+
+## Description
 
 <tt>G-T</tt> puts the calculator into "Graph-Table" mode: this mode shows the home screen at full size, but the graph screen and table will be displayed together, each taking up half the screen (divided vertically).
 

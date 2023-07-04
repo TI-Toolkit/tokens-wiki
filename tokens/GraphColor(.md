@@ -6,7 +6,7 @@
 
 # `GraphColor(`
 
-## Description
+## Overview
 Sets the color for `function#`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -29,6 +29,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `H:GraphColor(`
 <hr>
+
+## Description
 
 The <tt>GraphColor(</tt> command will change the color of any function from <tt>Y<sub>0</sub></tt> to <tt>Y<sub>9</sub></tt>. So, for example, to change the color of <tt>Y<sub>3</sub></tt> to NAVY, do:
 

@@ -6,7 +6,7 @@
 
 # `CoordOn`
 
-## Description
+## Overview
 Turns on cursor coordinate value display.
 
 
@@ -18,6 +18,8 @@ Turns on cursor coordinate value display.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `CoordOn`
 <hr>
+
+## Description
 
 When moving a cursor on a screen, it's possible for the calculator to display the coordinates of the current point (either polar or rectangular coordinates, depending on which of <tt><a href="RectGC.md">RectGC</a></tt> or <tt><a href="PolarGC.md">PolarGC</a></tt> is set). The <tt>CoordOn</tt> command turns on this option (to disable it, use the <tt><a href="CoordOff.md">CoordOff</a></tt> command).
 

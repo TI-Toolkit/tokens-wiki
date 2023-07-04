@@ -6,7 +6,7 @@
 
 # `STATWIZARD OFF`
 
-## Description
+## Overview
 Disables wizard syntax help for statistical commands, distributions, and seq(.
 
 
@@ -18,6 +18,9 @@ Disables wizard syntax help for statistical commands, distributions, and seq(.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `STATWIZARD OFF`
 <hr>
+
+## Description
+
 
 ## Examples
 

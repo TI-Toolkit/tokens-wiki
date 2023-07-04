@@ -6,7 +6,7 @@
 
 # `ZStandard`
 
-## Description
+## Overview
 Replots the functions immediately, updating the window variables to the default values.
 
 
@@ -18,6 +18,8 @@ Replots the functions immediately, updating the window variables to the default 
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `6:ZStandard`
 <hr>
+
+## Description
 
 The ZStandard command resets all [window variables](system-variables#window) found in the Window screen to their default values. This means that, unlike the other zoom commands, ZStandard can affect variables other than Xmin, Xmax, Ymin, and Ymax. However, it will only affect variables that have a purpose in the current [graphing mode](graphing-mode). Here are the default values set by ZStandard:
 

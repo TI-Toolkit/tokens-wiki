@@ -6,7 +6,7 @@
 
 # `►F◄►D`
 
-## Description
+## Overview
 Converts an answer from a fraction to a decimal or from a decimal to a fraction. Fraction and or decimal may be an approximation.
 
 
@@ -26,6 +26,8 @@ Converts an answer from a fraction to a decimal or from a decimal to a fraction.
 ## Location
 <tt><kbd><b>alpha</b></kbd></tt>, <kbd>F1</kbd>, `4:`
 <hr>
+
+## Description
 
 The <tt>►F◄►D</tt> command is used to convert a number from fraction form to decimal form, or vice versa. Regardless of what form the given number is, this command is meant to automatically determine the form so that it returns the other. It is in essence a combination of the <tt><a href="►Frac.md">►Frac</a></tt> and <tt><a href="►Dec.md">►Dec</a></tt> commands, applying <tt>►Frac</tt> if the input is in decimal form and <tt>►Dec</tt> if it is a fraction.
 

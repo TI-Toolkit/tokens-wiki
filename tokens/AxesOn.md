@@ -6,7 +6,7 @@
 
 # `AxesOn `
 
-## Description
+## Overview
 Turns on the graph axes with color. The `color `option allows the color of the axes to be specified.
 Color#: 10 - 24 or color name pasted from [vars] COLOR..
 
@@ -27,6 +27,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR..
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `AxesOn`
 <hr>
+
+## Description
 
 The <tt>AxesOn</tt> command enables the X and Y axes on the graph screen, so that they are drawn. They can be disabled with the <tt><a href="AxesOff.md">AxesOff</a></tt> command.
 

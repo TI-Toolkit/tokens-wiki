@@ -6,7 +6,7 @@
 
 # `Matr►list(`
 
-## Description
+## Overview
 Fills each `listname` with elements from each column in `matrix`.
 
 
@@ -33,7 +33,7 @@ Fills each `listname` with elements from each column in `matrix`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `A:Matr►list(`
 <hr>
 
-## Description
+## Overview
 Fills a `listname` with elements from a specified `column#` in `matrix`.
 
 
@@ -57,6 +57,8 @@ Fills a `listname` with elements from a specified `column#` in `matrix`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `A:Matr►list(`
 <hr>
+
+## Description
 
 The Matr►list( command stores one or more columns of a matrix (or expression resulting in a matrix) to list variables. The syntax is simple: first enter the matrix, then enter the list or lists you want to store columns to. The first (leftmost) column will be stored to the first list entered, the second column will be stored to the second list, and so on. For example:
 

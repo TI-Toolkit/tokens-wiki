@@ -6,7 +6,7 @@
 
 # `GridLine `
 
-## Description
+## Overview
 Turns on grid lines in the graph area in the specified color.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -27,6 +27,9 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `GridLine`
 <hr>
+
+## Description
+
 
 ## Examples
 

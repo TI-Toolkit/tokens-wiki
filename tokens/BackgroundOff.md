@@ -6,7 +6,7 @@
 
 # `BackgroundOff`
 
-## Description
+## Overview
 Turns off background image in the graph area.
 
 
@@ -18,6 +18,8 @@ Turns off background image in the graph area.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `BACKGROUND`, `2:BackgroundOff:`
 <hr>
+
+## Description
 
 The <tt>BackgroundOff</tt> command has only one purpose: turn the background off. Run the command on its own line in a program with no other characters or arguments.
 

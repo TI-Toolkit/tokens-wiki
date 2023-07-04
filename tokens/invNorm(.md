@@ -6,7 +6,7 @@
 
 # `invNorm(`
 
-## Description
+## Overview
 Computes the inverse cumulative normal distribution function for a given area under the normal distribution curve specified by μ and s.. The optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.
 The tokens LEFT, CENTER and RIGHT can be found in [catalog].
 
@@ -33,6 +33,8 @@ The tokens LEFT, CENTER and RIGHT can be found in [catalog].
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `3:invNorm(`
 <hr>
+
+## Description
 
 <tt>invNorm(</tt> is the inverse of the cumulative normal distribution function: given a probability, it will give you a z-score with that tail probability. The probability argument of <tt>invNorm(</tt> is between 0 and 1; 0 will give <tt>-1<span style="font-size:75%;">E</span>99</tt> instead of negative infinity, and 1 will give <tt>1<span style="font-size:75%;">E</span>99</tt> instead of positive infinity
 

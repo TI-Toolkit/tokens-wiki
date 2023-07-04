@@ -6,7 +6,7 @@
 
 # `n⁄d`
 
-## Description
+## Overview
 Displays results as a simple fraction.
 
 
@@ -18,6 +18,8 @@ Displays results as a simple fraction.
 ## Location
 <tt><kbd><b>alpha</b></kbd></tt>, <kbd>F1</kbd>, `1:n/d`
 <hr>
+
+## Description
 
 n/d is the template for entering a simple fraction.  
 n/d is accessible by pressing ALPHA then Y= then enter.

@@ -6,7 +6,7 @@
 
 # `Trace`
 
-## Description
+## Overview
 Displays the graph and enters TRACE mode.
 
 
@@ -18,6 +18,8 @@ Displays the graph and enters TRACE mode.
 ## Location
 <tt><kbd><b>trace</b></kbd></tt>
 <hr>
+
+## Description
 
 The Trace command displays the graph screen, and allows the user to trace any graphed equations or plots. It works in almost exactly the same way as pressing TRACE does outside a program. When the user presses ENTER, control returns to the program.
 

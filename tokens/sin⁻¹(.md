@@ -6,7 +6,7 @@
 
 # `sin⁻¹(`
 
-## Description
+## Overview
 Returns the arcsine of a real number, expression, or list.
 
 
@@ -28,6 +28,8 @@ Returns the arcsine of a real number, expression, or list.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>sin⁻¹</kbd>
 <hr>
+
+## Description
 
 sinֿ¹( returns the [arcsine](https://mathworld.wolfram.com/InverseSine.html) of its argument. It is the inverse of [sin(](sin\(.md), which means that sinֿ¹(z) produces an angle θ such that sin(θ)=z.
 

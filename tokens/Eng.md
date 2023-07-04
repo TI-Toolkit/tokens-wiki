@@ -6,7 +6,7 @@
 
 # `Eng`
 
-## Description
+## Overview
 Sets engineering display mode.
 
 
@@ -18,6 +18,8 @@ Sets engineering display mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Eng`
 <hr>
+
+## Description
 
 The <tt>Eng</tt> command puts the calculator in engineering notation mode. This is a variation on scientific notation in which the exponent is restricted to be a multiple of 3 (and the mantissa can range between 1 and 1000, not including 1000 itself)
 

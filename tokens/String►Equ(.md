@@ -6,7 +6,7 @@
 
 # `String►Equ(`
 
-## Description
+## Overview
 Converts `string` into an equation and stores it in `Y= var`.
 string can be a string or string variable.
 String►Equ( is the inverse of Equ►String(.
@@ -30,6 +30,8 @@ String►Equ( is the inverse of Equ►String(.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `D:String>Equ(`, `F:String>Equ(`
 <hr>
+
+## Description
 
 This command stores the contents of a string to an equation variable (such as Y<sub>1</sub> or X<sub>1T</sub>). This command can, in theory, be used whenever you need to set any equation variable.
 

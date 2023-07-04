@@ -6,7 +6,7 @@
 
 # `Real`
 
-## Description
+## Overview
 Sets mode to display complex results only when you enter complex numbers.
 
 
@@ -18,6 +18,8 @@ Sets mode to display complex results only when you enter complex numbers.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Real`
 <hr>
+
+## Description
 
 The Real command puts the calculator in real number-only mode. This shouldn't be taken quite literally, as you can still type in 𝑖 to get complex numbers, and do operations with them (they will be displayed as in [a+bi](a-bi) mode, in that case). However, any operation done with **real** numbers that comes out to a complex result, such as taking the square root of a negative number, will throw a [ERR:NONREAL ANS](errors#nonrealans) error.
 

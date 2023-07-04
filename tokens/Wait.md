@@ -6,7 +6,7 @@
 
 # `Wait `
 
-## Description
+## Overview
 Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 
 <b>Comment</b>:CE OS 5.2+
@@ -28,7 +28,7 @@ Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 <tt><kbd><b>prgm</b></kbd></tt>, `A:Wait`
 <hr>
 
-## Description
+## Overview
 Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 
 <b>Comment</b>:CE OS 5.2+
@@ -52,6 +52,8 @@ Suspends execution of a program for a given time.  Maximum time is 100 seconds.
 TI-Innovator™ Hub
 
 <hr>
+
+## Description
 
 The Wait command was introduced in TI-OS 5.2 for the TI-84+CE. The Wait command tells the calculator to wait for a specified number of seconds before continuing. The specified amount of seconds can be a decimal, as it is not limited to whole numbers. This command can be useful for displaying information momentarily before proceeding in a program. The Wait command functions similarly to the [Pause](Pause.md) command, but without the extra arguments.
 

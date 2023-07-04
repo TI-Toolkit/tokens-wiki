@@ -6,7 +6,7 @@
 
 # `AsmComp(`
 
-## Description
+## Overview
 
 
 
@@ -16,6 +16,8 @@
 `AsmComp(`
 
 <hr>
+
+## Description
 
 This command is used to compress an assembly program written using <tt><a href="AsmPrgm.md">AsmPrgm</a></tt> into an "assembled" assembly program. This will make the program about twice as small, and protect it from being edited, in addition to making execution faster.
 

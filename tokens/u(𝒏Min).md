@@ -6,7 +6,7 @@
 
 # `u(𝒏Min)`
 
-## Description
+## Overview
 
 
 
@@ -16,6 +16,9 @@
 `u(𝒏Min)`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

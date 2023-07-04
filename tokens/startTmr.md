@@ -6,7 +6,7 @@
 
 # `startTmr`
 
-## Description
+## Overview
 Starts the clock timer. Store or note the displayed value, and use it as the argument for `checkTmr( )` to check the elapsed time.
 
 
@@ -18,6 +18,8 @@ Starts the clock timer. Store or note the displayed value, and use it as the arg
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `startTmr`
 <hr>
+
+## Description
 
 The startTmr command is used with the built-in timer that is available on the TI-84+/SE calculators. It is used together with the [checkTmr(](checkTmr\(.md) command to determine how much time has elapsed since the timer was started. An application of these commands is [timing](timings) different commands or pieces of code, as well as countdowns in games, or a time-based score (such as in Minesweeper).
 

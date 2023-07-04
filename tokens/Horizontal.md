@@ -6,7 +6,7 @@
 
 # `Horizontal `
 
-## Description
+## Overview
 Draws a horizontal line at `y` in a specified
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 line style #: 1-4.
@@ -32,6 +32,8 @@ line style #: 1-4.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `3:Horizontal`
 <hr>
+
+## Description
 
 <tt>Horizontal Y</tt> draws a vertical line from the left of the graph screen to the right at _Y_. <tt>Horizontal</tt> is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart <tt><a href="Vertical.md">Vertical</a></tt>.
 

@@ -6,7 +6,7 @@
 
 # `IS>(`
 
-## Description
+## Overview
 Increments `variable` by 1; skips `commandA` if `variable`>`value`.
 
 <b>Comment</b>::commandA,:commands
@@ -33,6 +33,8 @@ Increments `variable` by 1; skips `commandA` if `variable`>`value`.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `A:IS>(`
 <hr>
+
+## Description
 
 The increment and skip if greater than command — <tt>IS&gt;(</tt> — is a specialized conditional command. It is equivalent to an [If](If.md) conditional, except the next command will be skipped when the condition is true and it has a [variable](variables) update built-in. However, it is not used very often (if anything, it is often misused as a looping command) because of its obscure name and somewhat limited application.
 
@@ -124,7 +126,7 @@ Note, however, that a quirk in the <tt><a href="For(.md">For(</a></tt> command (
 
 * * *
 
-**Source**: parts of this page were written by the following TI|BD contributors: kg583, GoVegan, DarkerLine, burr.
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583.
 
 ## History
 | Calculator | OS Version | Description |

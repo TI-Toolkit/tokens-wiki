@@ -6,7 +6,7 @@
 
 # ` and `
 
-## Description
+## Overview
 Returns 1 (true) when both `valueA` and `valueB` are true.  Otherwise, return is 0 (false).
 `valueA` and `valueB` can be real numbers, expressions, or lists.
 TI Connect™ Program Editor Tip:
@@ -31,6 +31,9 @@ Notice the token is "_and_" where "_" is a space.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>test</kbd>, `LOGIC`, `1:and`
 <hr>
+
+## Description
+
 
 ## Examples
 

@@ -6,7 +6,7 @@
 
 # `Sx₂`
 
-## Description
+## Overview
 
 
 
@@ -15,6 +15,9 @@
 `Sx₂`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

@@ -6,7 +6,7 @@
 
 # `tvm_𝗡`
 
-## Description
+## Overview
 Computes the number of payment periods.
 
 <b>Comment</b>:pre-CE french was vat_𝗡
@@ -39,6 +39,8 @@ Computes the number of payment periods.
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `5:tvm_`
 <hr>
+
+## Description
 
 The tvm__VAR_ commands use the TVM (Time Value of Money) solver to solve for the variable _VAR_. They're usually used in programs, since outside a program it's easier to use the interactive solver (the first option in the finance menu).
 

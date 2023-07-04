@@ -6,7 +6,7 @@
 
 # `tanh⁻¹(`
 
-## Description
+## Overview
 Returns the hyperbolic arctangent of a real number, expression, or list.
 
 
@@ -28,6 +28,8 @@ Returns the hyperbolic arctangent of a real number, expression, or list.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `tanh`
 <hr>
+
+## Description
 
 The tanhֿ¹( command calculates the inverse hyperbolic tangent of a value. tanhֿ¹(x) is the number y such that x = tanh(y).
 

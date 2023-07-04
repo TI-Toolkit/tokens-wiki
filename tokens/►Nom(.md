@@ -6,7 +6,7 @@
 
 # `►Nom(`
 
-## Description
+## Overview
 Computes the nominal interest rate.
 
 
@@ -28,6 +28,8 @@ Computes the nominal interest rate.
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `B:►Nom(`
 <hr>
+
+## Description
 
 The ►Nom( command converts from an effective interest rate to a nominal interest rate. In other words, it converts an interest rate that takes compounding periods into account into one that doesn't. The two arguments are 1) the interest rate and 2) the number of compounding periods.
 

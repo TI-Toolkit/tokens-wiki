@@ -6,7 +6,7 @@
 
 # `ln(`
 
-## Description
+## Overview
 Returns the natural logarithm of a real or complex number, expression, or list.
 
 
@@ -26,6 +26,8 @@ Returns the natural logarithm of a real or complex number, expression, or list.
 ## Location
 <tt><kbd><b>ln</b></kbd></tt>
 <hr>
+
+## Description
 
 The ln( command computes the natural logarithm of a value — the exponent to which the constant _[e](e-value)_ must be raised, to get that value. This makes it the inverse of the _[e^(](e-exponent)_ command.
 

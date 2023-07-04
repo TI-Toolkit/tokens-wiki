@@ -6,7 +6,7 @@
 
 # `Menu(`
 
-## Description
+## Overview
 Generates a menu of up to seven items during program execution.
 
 
@@ -36,6 +36,8 @@ Generates a menu of up to seven items during program execution.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `C:Menu(`
 <hr>
+
+## Description
 
 Menus are used for organization, to provide a list of choices for the user to select from, as well as a good way for users to interact with and navigate programs. Although using the Menu( command requires [branching](goto) (which is generally frowned upon in most circumstances), the menu looks like a generic built-in menu, so it is familiar and easy to use for the user.
 

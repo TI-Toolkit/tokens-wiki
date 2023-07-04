@@ -6,7 +6,7 @@
 
 # `Manual-Fit `
 
-## Description
+## Overview
 Fits a linear equation to a scatter plot with specified color and line style.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 line style #: 1-4.
@@ -32,6 +32,8 @@ line style #: 1-4.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `D:Manual-Fit`
 <hr>
+
+## Description
 
 This command will allow the user to create a line of best fit according to their judgment. Activate the command by just pasting it on the screen. Then, click on a point for the line to begin followed by an end point. The calculator will then draw your line and display its equation at the top left corner of the screen. You can modify it by selecting the equation part and pressing enter. Input your desired value for the calculator to change it. The equation is stored into Y₁. If you specify what equation you want to store it to, then it will store to that function.
 

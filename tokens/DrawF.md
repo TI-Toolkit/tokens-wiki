@@ -6,7 +6,7 @@
 
 # `DrawF `
 
-## Description
+## Overview
 Draws `expression` (in terms of `X`) on the graph with specified
 Color#:10 - 24 or color name pasted from [vars] COLOR.
 
@@ -29,6 +29,8 @@ Color#:10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `6:DrawF`
 <hr>
+
+## Description
 
 The <tt>DrawF</tt> commands draws a single expression on the graph screen in terms of X using <tt><a href="Func.md">Func</a></tt> graphing mode, regardless of what graphing mode the calculator is actually in. For example, <tt>DrawF X²</tt> will draw a [parabola](http://en.wikipedia.org/wiki/parabola) in the shape of a U on the screen. Of course, how it is displayed all depends on the window dimensions of the graph screen; you should use a [friendly window](friendly-window) to ensure it shows up as you intend.
 

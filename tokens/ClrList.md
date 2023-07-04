@@ -6,7 +6,7 @@
 
 # `ClrList `
 
-## Description
+## Overview
 Sets the dimension of one or more listnames to 0.
 
 
@@ -30,6 +30,8 @@ Sets the dimension of one or more listnames to 0.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `EDIT`, `4:ClrList`
 <hr>
+
+## Description
 
 <tt>ClrList</tt> sets the length of a list (or several lists) to 0. This is virtually equivalent to deleting the list, except for several differences:
 

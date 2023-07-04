@@ -6,7 +6,7 @@
 
 # `Param`
 
-## Description
+## Overview
 Sets parametric graphing mode.
 
 
@@ -18,6 +18,8 @@ Sets parametric graphing mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Par`
 <hr>
+
+## Description
 
 The Param command enables [parametric](graphing-mode#parametric) graphing mode.
 

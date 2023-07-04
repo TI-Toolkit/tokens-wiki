@@ -6,7 +6,7 @@
 
 # `Sci`
 
-## Description
+## Overview
 Sets scientific notation display mode.
 
 
@@ -18,6 +18,8 @@ Sets scientific notation display mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Sci`
 <hr>
+
+## Description
 
 The Sci command puts the calculator in scientific notation mode, so that all results are displayed in scientific notation: as a (possibly fractional) number between 1 and 10 (not including 10) multiplied by a power of 10.
 

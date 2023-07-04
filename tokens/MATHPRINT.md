@@ -6,7 +6,7 @@
 
 # `MATHPRINT`
 
-## Description
+## Overview
 Displays most entries and answers the way they are displayed in textbooks, such as .
 
 
@@ -18,6 +18,8 @@ Displays most entries and answers the way they are displayed in textbooks, such 
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>
 <hr>
+
+## Description
 
 MATHPRINT will put the calculator into Mathprint mode as opposed to Classic mode. In MathPrint mode, enhanced homescreen input formatting is available. The Classic mode will make the calculator display everything as a calculator of lower OS would, including input. For instance, rather than superscripting exponents as Mathprint mode would, Classic mode uses the simple caret syntax ([^](power)).
 

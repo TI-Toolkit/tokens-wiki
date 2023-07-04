@@ -6,7 +6,7 @@
 
 # `Goto `
 
-## Description
+## Overview
 Transfers control to `label`.
 
 
@@ -26,6 +26,8 @@ Transfers control to `label`.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `0:Goto`
 <hr>
+
+## Description
 
 The <tt>Goto</tt> command is used together with the <tt><a href="Lbl.md">Lbl</a></tt> command to jump (or branch) to another place in a program. When the calculator executes a <tt>Goto</tt> command, it stores the label name in memory, and then searches from the beginning of the program for the <tt>Lbl</tt> command with the supplied name. If it finds it, it continues running the program from that point; otherwise, if the label does not exist, it throws an [ERR: LABEL](errors#label) error.
 

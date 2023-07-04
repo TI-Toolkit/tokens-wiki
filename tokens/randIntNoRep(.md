@@ -6,7 +6,7 @@
 
 # `randIntNoRep(`
 
-## Description
+## Overview
 Returns a random ordered list of integers from a lower integer to an upper integer which may include the lower integer and upper integer. If the optional argument `numelements` is specified, the first `numelements` are listed. The first `numelements` term in the list of random integers are displayed.
 
 
@@ -30,6 +30,8 @@ Returns a random ordered list of integers from a lower integer to an upper integ
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `8:randIntNoRep(`
 <hr>
+
+## Description
 
 randIntNoRep( is used when you need to create a list of numbers in random order in which no integer is repeated. This command is useful for things such as simulating decks of cards. Commonly, before this command was introduced, the following code would shuffle a deck:
 

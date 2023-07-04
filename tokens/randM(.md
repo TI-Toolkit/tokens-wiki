@@ -6,7 +6,7 @@
 
 # `randM(`
 
-## Description
+## Overview
 Returns a random matrix of `rows` × `columns`.
 Max rows x columns = 400 matrix elements.
 
@@ -29,6 +29,8 @@ Max rows x columns = 400 matrix elements.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `6:randM(`
 <hr>
+
+## Description
 
 randM(_M_, _N_) generates an M by N matrix whose entries are pseudorandom integers between -9 and 9 inclusive.
 

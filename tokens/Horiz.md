@@ -6,7 +6,7 @@
 
 # `Horiz`
 
-## Description
+## Overview
 Sets horizontal split-screen mode.
 
 
@@ -18,6 +18,8 @@ Sets horizontal split-screen mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Horiz`
 <hr>
+
+## Description
 
 <tt>Horiz</tt> is usually at the beginning of a program. It is used at the beginning to ensure that the screen mode is <tt>Horiz</tt>, for programs such as Hangman that want to use <tt><a href="Input.md">Input</a></tt> but also have the graph screen shown. Note that if you use pixels, the y-coordinate can be no larger than 30, since that is the maximum pixel's range.
 

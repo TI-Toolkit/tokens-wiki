@@ -6,7 +6,7 @@
 
 # `expr(`
 
-## Description
+## Overview
 Converts the character string contained in `string` to an expression and executes the expression. `string` can be a string or a string variable.
 
 
@@ -26,6 +26,8 @@ Converts the character string contained in `string` to an expression and execute
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>
 <hr>
+
+## Description
 
 The expr( command is used to evaluate an expression that's stored in a string (an expression is merely anything that returns a value - of any type). Expressions are occasionally stored to strings, rather than evaluated outright, so that their value has the capacity to change when the variables stored inside them change. The expr( command's result depends on the kind of expression that's in the string you pass it — it may return a number, a list, a matrix, or even another string.
 

@@ -6,7 +6,7 @@
 
 # `npv(`
 
-## Description
+## Overview
 Computes the sum of the present values for cash inflows and outflows.
 
 
@@ -32,6 +32,8 @@ Computes the sum of the present values for cash inflows and outflows.
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `7:npv(`
 <hr>
+
+## Description
 
 The <tt>npv(</tt> command computes the net present value of money over a specified time period. If a positive value is returned after executing <tt>npv(</tt>, that means it was a positive cashflow; otherwise it was a negative cashflow. The <tt>npv(</tt> command takes four arguments, and the fourth one is optional:
 

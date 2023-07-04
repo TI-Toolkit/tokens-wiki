@@ -6,7 +6,7 @@
 
 # `For(`
 
-## Description
+## Overview
 Executes `commands` through `End`, incrementing `variable` from `begin` by `increment`  until `variable`>`end`.
 
 
@@ -36,6 +36,8 @@ Executes `commands` through `End`, incrementing `variable` from `begin` by `incr
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `4:For(`
 <hr>
+
+## Description
 
 A <tt>For(</tt> loop is generally used to do something a specific number of times or to go through each one of a bunch of things (such as elements of a list, or the pixels of your screen). Of all the loops, it's the most complicated. The syntax:
 

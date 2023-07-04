@@ -6,7 +6,7 @@
 
 # `While `
 
-## Description
+## Overview
 Executes `commands` while `condition` is true.
 
 
@@ -31,6 +31,8 @@ Executes `commands` while `condition` is true.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `5:While`
 <hr>
+
+## Description
 
 A While loop executes a block of commands between the While and End commands as long as the specified condition is true. The condition is tested at the beginning of the loop (when the End command is encountered), so if the condition is initially false, the block of commands will never get executed. This distinguishes it from the [Repeat](Repeat.md) command.
 

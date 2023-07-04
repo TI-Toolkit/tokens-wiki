@@ -6,7 +6,7 @@
 
 # `Func`
 
-## Description
+## Overview
 Sets function graphing mode.
 
 
@@ -18,6 +18,8 @@ Sets function graphing mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Func`
 <hr>
+
+## Description
 
 The <tt>Func</tt> command enables the default [function](graphing-mode#function) graphing mode. This command is usually unnecessary in a program, but if you want to graph a Y= equation, you'd want to make sure the calculator is in function mode first.
 

@@ -6,7 +6,7 @@
 
 # `tvm_I%`
 
-## Description
+## Overview
 Computes the annual interest rate.
 
 <b>Comment</b>:pre-CE french was vat_I
@@ -39,6 +39,8 @@ Computes the annual interest rate.
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `3:tvm_`
 <hr>
+
+## Description
 
 The tvm__VAR_ commands use the TVM (Time Value of Money) solver to solve for the variable _VAR_. They're usually used in programs, since outside a program it's easier to use the interactive solver (the first option in the finance menu).
 

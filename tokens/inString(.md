@@ -6,7 +6,7 @@
 
 # `inString(`
 
-## Description
+## Overview
 Returns the character position in `string` of the first character of `substring `beginning at `start`.
 
 
@@ -30,6 +30,8 @@ Returns the character position in `string` of the first character of `substring 
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `inString(`
 <hr>
+
+## Description
 
 The <tt>inString(</tt> command searches a string for occurrences of a smaller string (similar to the Find feature on a computer), and returns the first such occurrence.
 

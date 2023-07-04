@@ -6,7 +6,7 @@
 
 # `Normal`
 
-## Description
+## Overview
 Sets normal display mode.
 
 
@@ -18,6 +18,8 @@ Sets normal display mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Normal`
 <hr>
+
+## Description
 
 The Normal command puts the calculator in normal number mode, in which it only uses scientific notation for large enough numbers (10 000 000 000 or higher), negative numbers large enough in absolute value (-10 000 000 000 or lower), or numbers close enough to 0 (less than .001 and greater than -.001)
 

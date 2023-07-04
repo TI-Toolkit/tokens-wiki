@@ -6,7 +6,7 @@
 
 # `angle(`
 
-## Description
+## Overview
 Returns the polar angle of a complex number or list of complex numbers.
 
 
@@ -26,6 +26,8 @@ Returns the polar angle of a complex number or list of complex numbers.
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `4:angle(`
 <hr>
+
+## Description
 
 <tt>angle(z)</tt> returns the [complex argument](https://mathworld.wolfram.com/ComplexArgument.html) (also known as the polar angle) of the complex number _z_. If _z_ is represented as _x_+i_y_ where _x_ and _y_ are both real, <tt>angle(z)</tt> returns R►Pθ(_x_,_y_) (which is equivalent to tanֿ¹(_y__/x_) if x is nonzero). Also works on a list of complex numbers.
 

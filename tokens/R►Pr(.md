@@ -6,7 +6,7 @@
 
 # `R►Pr(`
 
-## Description
+## Overview
 Returns `R`, given rectangular coordinates `x` and `y` or a list of rectangular coordinates.
 
 
@@ -28,6 +28,8 @@ Returns `R`, given rectangular coordinates `x` and `y` or a list of rectangular 
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>angle</kbd>, `ANGLE`, `5:R`, `Pr(`
 <hr>
+
+## Description
 
 R►Pr( (Rectangular to polar radius) takes the (_x_,_y_) (Cartesian) coordinates, and gives the radius coordinate _r_ of the same point in (_r_,_θ_) (polar) mode. The identity used for this conversion is _r_² = _x_²+_y_²
 

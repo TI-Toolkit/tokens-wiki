@@ -6,7 +6,7 @@
 
 # `ExecLib`
 
-## Description
+## Overview
 Extends TI-Basic (not available)
 
 
@@ -18,6 +18,8 @@ Extends TI-Basic (not available)
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>
 <hr>
+
+## Description
 
 Together with <tt><a href="OpenLib(.md">OpenLib(</a></tt>, <tt>ExecLib</tt> is used on the TI-84 Plus and TI-84 Plus SE for running routines from a Flash App library. This only works, of course, with libraries that have been specifically written for this purpose. The only such library so far is [usb8x](http://usb8x.sourceforge.net/), for advanced interfacing with the USB port.
 

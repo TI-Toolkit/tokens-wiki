@@ -6,7 +6,7 @@
 
 # `x̄`
 
-## Description
+## Overview
 
 
 
@@ -15,6 +15,9 @@
 `x̄`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

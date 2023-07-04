@@ -6,7 +6,7 @@
 
 # `Web`
 
-## Description
+## Overview
 Sets sequence graphs to trace as webs.
 
 
@@ -18,6 +18,8 @@ Sets sequence graphs to trace as webs.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `Web`
 <hr>
+
+## Description
 
 In Web mode, sequence equations are graphed as [web diagrams](https://mathworld.wolfram.com/WebDiagram.html). This is a way of visualizing iterations of a function (that is, the sequence n, f(n), f(f(n)), f(f(f(n))), … for some function f and starting value n). For this mode to properly work, each sequence equation should be in terms of its previous value only: u(_n_) should be a function of u(_n_-1). Referencing other sequence equations, or u(_n_-2), will yield [ERR:INVALID](errors#invalid); referencing the value _n_ is allowed by the calculator, but makes the result meaningless so you should avoid it.
 

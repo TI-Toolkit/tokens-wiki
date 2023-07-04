@@ -6,7 +6,7 @@
 
 # `P►Rx(`
 
-## Description
+## Overview
 Returns `X`, given polar coordinates `r` and θ or a list of polar coordinates.
 
 
@@ -28,6 +28,8 @@ Returns `X`, given polar coordinates `r` and θ or a list of polar coordinates.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>angle</kbd>, `ANGLE`, `7:P`, `Rx(`
 <hr>
+
+## Description
 
 P►Rx( (polar►rectangular x-coordinate) calculates the x-coordinate of a polar point. Polar coordinates are of the form (r,θ), where θ is the counterclockwise angle made with the positive x-axis, and r is the distance away from the origin (the point (0,0)). The conversion identity x=r*cos(θ) is used to calculate P►Rx(.
 

@@ -6,7 +6,7 @@
 
 # `cos(`
 
-## Description
+## Overview
 Returns cosine of a real number, expression, or list.
 
 
@@ -26,6 +26,8 @@ Returns cosine of a real number, expression, or list.
 ## Location
 <tt><kbd><b>cos</b></kbd></tt>
 <hr>
+
+## Description
 
 <tt>cos(θ)</tt> returns the [cosine](https://mathworld.wolfram.com/Cosine.html) of θ, which is defined as the x-value of the point of intersection of the unit circle and a line containing the origin that makes an angle θ with the positive x-axis
 

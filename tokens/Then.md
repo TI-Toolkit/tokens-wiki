@@ -6,7 +6,7 @@
 
 # `Then`
 
-## Description
+## Overview
 
 
 
@@ -26,6 +26,8 @@
 ## Location
 <kbd>Then</kbd>
 <hr>
+
+## Description
 
 The <tt>If</tt> command is crucial to most programs. It allows you to execute code if and only if an expression is not equal to zero. Advanced uses of the <tt>If</tt> command allow you to execute a different block of code if the check turns out to be false. The simplest form of the command is quite easy to understand:
 

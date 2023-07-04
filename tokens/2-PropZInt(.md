@@ -6,7 +6,7 @@
 
 # `2-PropZInt(`
 
-## Description
+## Overview
 Computes a two-proportion `z` confidence interval.
 
 
@@ -34,6 +34,8 @@ Computes a two-proportion `z` confidence interval.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `B:2-PropZInt(`
 <hr>
+
+## Description
 
 The 2-PropZInt( command calculates a confidence interval for the difference between two proportions, at a specific confidence level: for example, if the confidence level is 95%, you are 95% certain that the difference lies within the interval you get. The command assumes that the sample is large enough that the normal approximation to binomial distributions is valid: this is true if, in both samples involved, the positive and negative counts are both >5.
 

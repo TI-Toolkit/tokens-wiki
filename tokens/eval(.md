@@ -6,7 +6,7 @@
 
 # `eval(`
 
-## Description
+## Overview
 Returns an evaluated expression as a string with 8 significant digits.  The expression must be real.
 
 <b>Comment</b>:CE OS 5.2+
@@ -28,7 +28,7 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `C:eval(`
 <hr>
 
-## Description
+## Overview
 Returns an evaluated expression as a string with 8 significant digits.  The expression must simplify to a real expression.
 
 <b>Comment</b>:CE OS 5.2+
@@ -52,6 +52,8 @@ Returns an evaluated expression as a string with 8 significant digits.  The expr
 TI-Innovator™ Hub
 
 <hr>
+
+## Description
 
 The <tt>eval(</tt> command, given an expression that evaluates to a real number, returns the string representation of that number.
 

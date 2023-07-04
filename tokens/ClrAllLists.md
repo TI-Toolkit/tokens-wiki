@@ -6,7 +6,7 @@
 
 # `ClrAllLists`
 
-## Description
+## Overview
 Sets to `0` the dimension of all lists in memory.
 
 
@@ -18,6 +18,8 @@ Sets to `0` the dimension of all lists in memory.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `MEMORY`, `4:ClrAllLists`
 <hr>
+
+## Description
 
 The <tt>ClrAllLists</tt> command sets the dimension (length) of all lists to zero. This is virtually equivalent to deleting the lists, except for two differences:
 

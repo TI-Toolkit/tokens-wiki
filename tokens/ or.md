@@ -6,7 +6,7 @@
 
 # ` or `
 
-## Description
+## Overview
 Returns 1 if `valueA` or `valueB` is ≠ 0. `valueA` and `valueB` can be real numbers, expressions, or lists.
 
 
@@ -28,6 +28,9 @@ Returns 1 if `valueA` or `valueB` is ≠ 0. `valueA` and `valueB` can be real nu
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>test</kbd>, `LOGIC`, `2:or`
 <hr>
+
+## Description
+
 
 ## Examples
 

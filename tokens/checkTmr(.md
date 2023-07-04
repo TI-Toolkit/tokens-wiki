@@ -6,7 +6,7 @@
 
 # `checkTmr(`
 
-## Description
+## Overview
 Returns the number of seconds since you used `startTmr` to start the timer. The `starttime` is the value displayed by `startTmr`.
 
 
@@ -26,6 +26,8 @@ Returns the number of seconds since you used `startTmr` to start the timer. The 
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `checkTmr(`
 <hr>
+
+## Description
 
 The <tt>checkTmr(</tt> command is used together with the <tt><a href="startTmr.md">startTmr</a></tt> command to determine how much time has elapsed since the timer was started on the TI-84+/SE calculators. In particular, it returns the number of seconds since the built-in timer was started. An application of these commands is [timing](timings) different commands or pieces of code, as well as countdowns in games, or a time-based score (such as in Minesweeper).
 

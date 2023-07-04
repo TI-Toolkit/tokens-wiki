@@ -6,7 +6,7 @@
 
 # `►Dec`
 
-## Description
+## Overview
 Displays a real or complex number, expression, list, or matrix in decimal format.
 
 
@@ -26,6 +26,8 @@ Displays a real or complex number, expression, list, or matrix in decimal format
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `2:Dec`
 <hr>
+
+## Description
 
 This command is generally useless. Its supposed use is to convert numbers into decimal form, but any typed fractions are displayed as decimals anyway.
 

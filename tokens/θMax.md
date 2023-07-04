@@ -6,7 +6,7 @@
 
 # `θMax`
 
-## Description
+## Overview
 
 
 
@@ -16,6 +16,9 @@
 `θMax`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

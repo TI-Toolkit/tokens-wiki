@@ -6,7 +6,7 @@
 
 # `bal(`
 
-## Description
+## Overview
 Computes the balance at `npmt `for an amortization schedule using stored values for `PV`, I%, and `PMT` and rounds the computation to `roundvalue.`
 
 
@@ -28,6 +28,8 @@ Computes the balance at `npmt `for an amortization schedule using stored values 
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `9:bal(`
 <hr>
+
+## Description
 
 The <tt>bal(</tt> command calculates the remaining balance after _n_ payments in an [amortization schedule](http://en.wikipedia.org/wiki/Amortization_schedule). It has only one required argument: _n_, the payment number. However, it also uses the values of the finance variables PV, PMT, and I% in its calculations.
 

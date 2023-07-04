@@ -6,7 +6,7 @@
 
 # `normalpdf(`
 
-## Description
+## Overview
 Computes the probability density function for the normal distribution at a specified `x` value for the specified μ and σ.
 
 
@@ -30,6 +30,8 @@ Computes the probability density function for the normal distribution at a speci
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `1:normalpdf(`
 <hr>
+
+## Description
 
 normalpdf( is the normal (Gaussian) probability density function.
 

@@ -6,7 +6,7 @@
 
 # `Dot-Thick`
 
-## Description
+## Overview
 Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thick.
 
 
@@ -18,6 +18,8 @@ Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thick.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Dot-Thick`
 <hr>
+
+## Description
 
 The <tt>Dot-Thick</tt> command sets all lines in the current function type to be drawn using a series of thick points, about the size of a point drawn using <tt><a href="Pt-On(.md">Pt-On(</a></tt>, at each interval of the <tt>TraceStep</tt>. This command can be called on the homescreen or within a program.
 

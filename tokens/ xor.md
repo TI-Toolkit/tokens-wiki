@@ -6,7 +6,7 @@
 
 # ` xor `
 
-## Description
+## Overview
 Returns 1 if only `valueA` or `valueB` = 0. `valueA` and `valueB` can be real numbers, expressions, or lists.
 
 
@@ -28,6 +28,9 @@ Returns 1 if only `valueA` or `valueB` = 0. `valueA` and `valueB` can be real nu
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>test</kbd>, `LOGIC`, `3:xor`
 <hr>
+
+## Description
+
 
 ## Examples
 

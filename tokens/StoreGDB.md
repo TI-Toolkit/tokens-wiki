@@ -6,7 +6,7 @@
 
 # `StoreGDB `
 
-## Description
+## Overview
 Stores current graph in database `GDBn`.
 
 
@@ -26,6 +26,8 @@ Stores current graph in database `GDBn`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `STO`, `3:StoreGDB`
 <hr>
+
+## Description
 
 The StoreGDB command stores all graph settings needed to reconstruct the current graph to a GDB (Graph DataBase) variable, one of GDB1, GDB2, …, GDB0 (as indicated by the argument). These settings can then be recalled using the [RecallGDB](RecallGDB.md) command.
 

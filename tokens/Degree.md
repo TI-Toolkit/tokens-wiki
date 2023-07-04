@@ -6,7 +6,7 @@
 
 # `Degree`
 
-## Description
+## Overview
 Sets degree angle mode.
 
 
@@ -18,6 +18,8 @@ Sets degree angle mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Degree`
 <hr>
+
+## Description
 
 The <tt>Degree</tt> command puts the calculator into Degree mode, where the inputs and/or outputs to trig functions are assumed to be degree angles.
 

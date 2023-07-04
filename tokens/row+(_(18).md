@@ -6,7 +6,7 @@
 
 # `*row+(`
 
-## Description
+## Overview
 Returns a matrix with `rowA` of `matrix` multiplied by `value`, added to `rowB`, and stored in `rowB`.
 
 
@@ -34,6 +34,9 @@ Returns a matrix with `rowA` of `matrix` multiplied by `value`, added to `rowB`,
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `F:row+(`
 <hr>
+
+## Description
+
 
 ## Examples
 

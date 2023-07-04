@@ -6,7 +6,7 @@
 
 # `Repeat `
 
-## Description
+## Overview
 Executes `commands` until `condition` is true.
 
 
@@ -30,6 +30,8 @@ Executes `commands` until `condition` is true.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `6:Repeat`
 <hr>
+
+## Description
 
 A Repeat loop executes a block of commands between the Repeat and End commands until the specified condition is true. The condition is tested at the end of the loop (when the End command is encountered), so the loop will always be executed at least once. This means that you sometimes don't have to declare or initialize the variables in the condition before the loop.
 

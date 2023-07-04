@@ -6,7 +6,7 @@
 
 # `Med-Med `
 
-## Description
+## Overview
 Fits a median-median model to `Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.
 
 
@@ -32,6 +32,8 @@ Fits a median-median model to `Xlistname` and `Ylistname` with frequency `freqli
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `3:Med-Med`
 <hr>
+
+## Description
 
 The Med-Med command is one of several that can calculate a line of best fit through a set of points. However, unlike the [LinReg(ax+b)](linreg-ax-b) and [LinReg(a+bx)](linreg-a-bx) commands, which generate the same result in different formats, Med-Med produces a different line entirely, known as the 'median fit line' or the 'median-median model'. This model is more resistant to outliers than the best-fit line produced by LinReg(ax+b)-type commands, in much the same way that the median of a set of data is more resistant to outliers than the mean. The process of calculating a median fit line is roughly as follows ([reference](http://www.amstat.org/publications/jse/v14n2/morrell.html)):
 

@@ -6,7 +6,7 @@
 
 # `ClrHome`
 
-## Description
+## Overview
 Clears the home screen.
 
 
@@ -18,6 +18,8 @@ Clears the home screen.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `8:ClrHome`
 <hr>
+
+## Description
 
 There are numerous times in a program that you need a clear screen, so that you can display whatever text you want without it being interrupted. One place, in particular, is at the [beginning](setup) of a program, since the previous program call(s) and any other text is typically still displayed on the screen. The simple <tt>ClrHome</tt> command is the command you use to clear the home screen.
 

@@ -6,7 +6,7 @@
 
 # `Line(`
 
-## Description
+## Overview
 Draws a line from (`X1`,`Y1`) to (`X2`,`Y2`) with the following options: erase #: 1,0, color #: 10-24, and line style #: 1-4.
 
 
@@ -39,7 +39,7 @@ Draws a line from (`X1`,`Y1`) to (`X2`,`Y2`) with the following options: erase 
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `2:Line(`
 <hr>
 
-## Description
+## Overview
 Erases a line (erase #: 1,0) from (`X1`,`Y1`) to (`X2`,`Y2`).
 
 
@@ -67,6 +67,8 @@ Erases a line (erase #: 1,0) from (`X1`,`Y1`) to (`X2`,`Y2`).
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `2:Line(`
 <hr>
+
+## Description
 
 The Line( command is used to draw lines at any angle, as opposed to only drawing [vertical](vertical.md) or [horizontal](horizontal.md) lines. Line(X<sub>1</sub>,Y<sub>1</sub>,X<sub>2</sub>,Y<sub>2</sub>) will draw a line from (X<sub>1</sub>,Y<sub>1</sub>) to (X<sub>2</sub>,Y<sub>2</sub>). Line( is affected by the window settings, although you can use a [friendly window](friendly-window) so there is no impact on the command.
 

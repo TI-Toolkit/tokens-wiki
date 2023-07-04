@@ -6,7 +6,7 @@
 
 # `χ²pdf(`
 
-## Description
+## Overview
 Computes the probability density function (pdf) for the χ² distribution at a specified `x` value for the specified degrees of freedom `df`.
 
 
@@ -30,6 +30,8 @@ Computes the probability density function (pdf) for the χ² distribution at a s
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `7:pdf(`
 <hr>
+
+## Description
 
 <tt>χ²pdf(</tt> is the χ² probability density function.
 

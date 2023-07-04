@@ -6,7 +6,7 @@
 
 # `χ²-Test(`
 
-## Description
+## Overview
 Performs a chi-square test. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -35,6 +35,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `C:Test(`
 <hr>
+
+## Description
 
 This command performs a <tt>χ²</tt> test of independence. This test is used to assess the independence of two categorical variables with known frequencies. The test is only valid for a simple random sample from the population, and only if all the frequencies are sufficiently large (greater than 5).
 

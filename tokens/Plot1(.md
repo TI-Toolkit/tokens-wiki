@@ -6,7 +6,7 @@
 
 # `Plot1(`
 
-## Description
+## Overview
 Defines `Plot#` (`1`, `2`, or `3`) of `type` `Scatter` or `xyLine` for `Xlist` and `Ylist` using `mark `and `color. `
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 Note: `Xlist `and `Ylist `represent the Xlist and Ylist names.
@@ -39,7 +39,7 @@ Note: `Xlist `and `Ylist `represent the Xlist and Ylist names.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
 
-## Description
+## Overview
 Defines `Plot#` (`1`, `2`, or `3`) of `type` ` Histogram` or `Boxplot` for `Xlist` with frequency `freqlist `and color #.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 Note: `Xlist `represents the Xlist name.
@@ -70,7 +70,7 @@ Note: `Xlist `represents the Xlist name.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
 
-## Description
+## Overview
 Defines `Plot#` (`1`, `2`, or `3`) of `type` ` ModBoxplot` for `Xlist` with frequency `freqlist` using `mark `and `color #`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 Note: `Xlist `represents the Xlist name.
@@ -103,7 +103,7 @@ Note: `Xlist `represents the Xlist name.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
 
-## Description
+## Overview
 Defines `Plot#` (`1`, `2`, or `3`) of `type` ` NormProbPlot` for `datalist` on `data axis` using `mark `and `color #` `data axis` can be `X` or `Y`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 Note: `datalist `represents the datalist name.
@@ -135,6 +135,8 @@ Note: `datalist `represents the datalist name.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>stat plot</kbd>, `STAT PLOTS`, `1:Plot12:Plot23:Plot3`
 <hr>
+
+## Description
 
 The commands <tt>Plot1(</tt>, <tt>Plot2(</tt>, and <tt>Plot3(</tt>, which are identical except for which stat plot (1, 2, or 3) they affect, define their corresponding stat plot. When the stat plot is defined, it is also turned on so no <tt><a href="PlotsOn.md">PlotsOn</a></tt> command is necessary.
 

@@ -6,7 +6,7 @@
 
 # `DelVar `
 
-## Description
+## Overview
 Deletes from memory the contents of `variable`.
 
 
@@ -26,6 +26,8 @@ Deletes from memory the contents of `variable`.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `G:DelVar`
 <hr>
+
+## Description
 
 The <tt>DelVar</tt> command deletes the contents of a [variable](variables) (and thus the variable itself) from memory. You can use the <tt>DelVar</tt> command with any variable: reals, lists, matrices, strings, pictures, etc. However, you cannot use <tt>DelVar</tt> on specific elements of a matrix or string; it will actually throw a [ERR:SYNTAX](errors#syntax) error. (It also does not work on programs, unfortunately.)
 

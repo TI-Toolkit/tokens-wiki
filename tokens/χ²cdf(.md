@@ -6,7 +6,7 @@
 
 # `χ²cdf(`
 
-## Description
+## Overview
 Computes the χ²distribution probability between `lowerbound` and` upperbound` for the specified degrees of freedom `df`.
 
 
@@ -32,6 +32,8 @@ Computes the χ²distribution probability between `lowerbound` and` upperbound` 
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `8:cdf(`
 <hr>
+
+## Description
 
 <tt>χ²cdf(</tt> is the χ² cumulative density function. If some random variable follows a χ² distribution, you can use this command to find the probability that this variable will fall in the interval you supply.
 

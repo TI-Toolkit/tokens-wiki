@@ -6,7 +6,7 @@
 
 # `E`
 
-## Description
+## Overview
 
 
 
@@ -16,6 +16,8 @@
 `E`
 
 <hr>
+
+## Description
 
 <tt><em>e</em></tt> is a constant on the TI-83 series calculators. The constant holds the approximate value of [Euler's number](https://mathworld.wolfram.com/e.html), fairly important in calculus and other higher-level mathematics.
 

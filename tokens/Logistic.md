@@ -6,7 +6,7 @@
 
 # `Logistic `
 
-## Description
+## Overview
 Fits a logistic regression model to` Xlistname `and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.
 
 
@@ -32,6 +32,8 @@ Fits a logistic regression model to` Xlistname `and `Ylistname` with frequency `
 ## Location
 `CALC`, `B:Logistic`
 <hr>
+
+## Description
 
 Logistic tries to fit a logistic curve (y=_c_/(1+_a_*_e_<sup>-<em>b</em>*x</sup>)) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the _i_<sup>th</sup> element of one list matches up with the _i_<sup>th</sup> element of the other list. L₁ and L₂ are the default lists used, and the List Editor (STAT > Edit…) is a useful window for entering the points.
 

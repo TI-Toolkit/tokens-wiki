@@ -6,7 +6,7 @@
 
 # `STATWIZARD ON`
 
-## Description
+## Overview
 Enables wizard syntax help for statistical commands, distributions, and seq(.
 
 
@@ -18,6 +18,9 @@ Enables wizard syntax help for statistical commands, distributions, and seq(.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `STATWIZARD ON(`
 <hr>
+
+## Description
+
 
 ## Examples
 

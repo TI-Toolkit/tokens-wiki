@@ -6,7 +6,7 @@
 
 # `GraphStyle(`
 
-## Description
+## Overview
 Sets a `graphstyle` for `function#`.
 
 
@@ -28,6 +28,8 @@ Sets a `graphstyle` for `function#`.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `H:GraphStyle(`
 <hr>
+
+## Description
 
 The <tt>GraphStyle(</tt> command allows you to set the graphing style of an equation (line, thick line, dotted line, etc.) from within a program.
 

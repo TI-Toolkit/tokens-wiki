@@ -6,7 +6,7 @@
 
 # `Text(`
 
-## Description
+## Overview
 Writes `text` on graph beginning at pixel (`row`,`column`), where 0 ≤ `row` ≤ 164 and 0 ≤ `column` ≤ 264.
 Full mode, row must be <=148; column must be 256
 Horiz mode, row must be row<=66 and column must be <=256
@@ -39,6 +39,8 @@ G-T mode, row must be row <=126; column must be 176
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `0:Text(`
 <hr>
+
+## Description
 
 The <tt>Text(</tt> command allows you to display text on the graph screen, using the small font. It takes three arguments: the row, which can range from 0 to the number of pixels tall the screen is (62 on grayscale, 164 on color) at which you want to display something, the column, which can range from 0 to the number of pixels wide the screen is (94 on grayscale, 264 on color), and whatever it is you want to display. Like the <tt><a href="Output(.md">Output(</a></tt> command, it is limited to numbers and strings. If part of what you want to display goes off the screen, it will not be displayed - the calculator will cut you off at the most characters that will fit on the screen entirely.
 

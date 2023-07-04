@@ -6,7 +6,7 @@
 
 # `normalcdf(`
 
-## Description
+## Overview
 Computes the normal distribution probability between `lowerbound` and `upperbound` for the specified μ and σ.
 
 
@@ -32,6 +32,8 @@ Computes the normal distribution probability between `lowerbound` and `upperboun
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `2:normalcdf(`
 <hr>
+
+## Description
 
 normalcdf( is the normal (Gaussian) cumulative density function. If some random variable follows a normal distribution, you can use this command to find the probability that this variable will fall in the interval you supply.
 

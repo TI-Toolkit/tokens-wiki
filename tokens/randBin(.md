@@ -6,7 +6,7 @@
 
 # `randBin(`
 
-## Description
+## Overview
 Generates and displays a random real number from a specified Binomial distribution.
 
 
@@ -30,6 +30,8 @@ Generates and displays a random real number from a specified Binomial distributi
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `7:randBin(`
 <hr>
+
+## Description
 
 randBin(_n_,_p_) generates a pseudorandom integer between 0 and _n_ inclusive according to the binomial distribution B(_n_,_p_) - that is, _n_ trials of an event with probability of success _p_ are performed, and the number of successes is returned. randBin(_n_,_p_,_simulations_) performs the above calculation _simulations_ times, and returns a list of the results. The expected (average) result is _n_*_p_.
 

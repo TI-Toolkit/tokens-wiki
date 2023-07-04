@@ -6,7 +6,7 @@
 
 # `ΔList(`
 
-## Description
+## Overview
 Returns a list containing the differences between consecutive elements in `list`.
 
 
@@ -28,6 +28,8 @@ Returns a list containing the differences between consecutive elements in `list`
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `7:List(`
 <hr>
+
+## Description
 
 <tt>ΔList(</tt> calculates the differences between consecutive terms of a list, and returns them in a new list.
 

@@ -6,7 +6,7 @@
 
 # `prod(`
 
-## Description
+## Overview
 Returns product of `list` elements between `start` and `end`
 
 
@@ -30,6 +30,8 @@ Returns product of `list` elements between `start` and `end`
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `6:prod(`
 <hr>
+
+## Description
 
 The prod( command calculates the product of all or part of a list.
 

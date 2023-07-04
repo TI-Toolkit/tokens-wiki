@@ -6,7 +6,7 @@
 
 # `Simul`
 
-## Description
+## Overview
 Sets mode to graph functions simultaneously.
 
 
@@ -18,6 +18,8 @@ Sets mode to graph functions simultaneously.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Simul`
 <hr>
+
+## Description
 
 Simul puts the calculator into simultaneous graphing mode. When multiple equations are enabled at the same time, simultaneous graphing mode graphs them at the same time (as opposed to [Sequential](Sequential.md) mode, in which they will be graphed one after the other)
 

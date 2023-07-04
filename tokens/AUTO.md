@@ -6,7 +6,7 @@
 
 # `AUTO`
 
-## Description
+## Overview
 Displays answers in a similar format as the input.
 
 
@@ -18,6 +18,9 @@ Displays answers in a similar format as the input.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Answers: AUTO`
 <hr>
+
+## Description
+
 
 ## Examples
 

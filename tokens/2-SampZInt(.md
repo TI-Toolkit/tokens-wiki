@@ -6,7 +6,7 @@
 
 # `2-SampZInt(`
 
-## Description
+## Overview
 Computes a two-sample `z` confidence interval.
 
 <b>Comment</b>:Data list input
@@ -44,7 +44,7 @@ Computes a two-sample `z` confidence interval.
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `9:2-SampZInt(`
 <hr>
 
-## Description
+## Overview
 Computes a two-sample `z` confidence interval.
 
 <b>Comment</b>:Summary stats input
@@ -85,6 +85,8 @@ Computes a two-sample `z` confidence interval.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `9:2-SampZInt(`
 <hr>
+
+## Description
 
 The 2-SampZInt( command uses the techniques of Z Intervals to compute an interval for the **difference** between the means of two independent populations, at a specified confidence level. Use 2-SampZInt( when you have two independent variables to compare, and you already know their standard deviations. The 2-SampZInt( command assumes that both variables are distributed normally, but it will work for other distributions if the sample size is large enough.
 

@@ -6,7 +6,7 @@
 
 # `length(`
 
-## Description
+## Overview
 Returns the number of characters in `string`.
 
 
@@ -26,6 +26,8 @@ Returns the number of characters in `string`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `length(`
 <hr>
+
+## Description
 
 This command is used to determine the length of a string. Unlike the [dim(](dim\(.md) command for lists and matrices, it cannot be used to change this length, as there is no null character for strings (the null value is 0 for lists and matrices).
 

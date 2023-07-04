@@ -6,7 +6,7 @@
 
 # `Full`
 
-## Description
+## Overview
 Sets full screen mode.
 
 
@@ -18,6 +18,8 @@ Sets full screen mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Full`
 <hr>
+
+## Description
 
 The <tt>Full</tt> command cancels the effects of either <tt><a href="Horiz.md">Horiz</a></tt> or <tt><a href="G-T.md">G-T</a></tt>.
 

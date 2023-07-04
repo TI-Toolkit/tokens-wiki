@@ -6,7 +6,7 @@
 
 # `TextColor(`
 
-## Description
+## Overview
 Set text color prior to using the `Text( `command.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -27,6 +27,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `A:TextColor(`
 <hr>
+
+## Description
 
 The <tt>TextColor(</tt> token is used to set the color for <tt><a href="Text(.md">Text(</a></tt>. Although the default color is Blue, the calculator saves the color until it is changed again using <tt>TextColor(</tt> or when a memory reset occurs. When a memory reset occurs, the text color is reset back to blue.
 

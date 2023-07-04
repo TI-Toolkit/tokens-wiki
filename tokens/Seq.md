@@ -6,7 +6,7 @@
 
 # `Seq`
 
-## Description
+## Overview
 Sets sequence graphing mode.
 
 
@@ -18,6 +18,8 @@ Sets sequence graphing mode.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Seq`
 <hr>
+
+## Description
 
 The Seq command enables [sequence](graphing-mode#sequential) graphing mode.
 

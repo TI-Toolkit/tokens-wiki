@@ -6,7 +6,7 @@
 
 # `Pmt_Bgn`
 
-## Description
+## Overview
 Specifies an annuity due, where payments occur at the beginning of each payment period.
 
 
@@ -18,6 +18,8 @@ Specifies an annuity due, where payments occur at the beginning of each payment 
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `F:Pmt_Bgn`
 <hr>
+
+## Description
 
 The Pmt_Bgn and [Pmt_End](pmt-end) commands toggle a setting with the finance solver. In Pmt_Bgn mode, the calculator assumes that the payments are made at the beginning of each time period, rather than at the end.
 

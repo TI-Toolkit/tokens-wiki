@@ -6,7 +6,7 @@
 
 # `not(`
 
-## Description
+## Overview
 Returns `0` if `value` is ≠ 0. `value` can be a real number, expression, or list.
 
 
@@ -26,6 +26,8 @@ Returns `0` if `value` is ≠ 0. `value` can be a real number, expression, or li
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>test</kbd>, `LOGIC`, `4:not(`
 <hr>
+
+## Description
 
 The last logical operator available on the 83 series takes only one value as input. **not(** comes with its own parentheses to make up for this loss. Quite simply, it negates the input: False becomes True (1) and True returns False (0). not( can be nested; one use is to make any True value into a 1.
 

@@ -6,7 +6,7 @@
 
 # `Pause `
 
-## Description
+## Overview
 Suspends program execution until you press Í.
 
 
@@ -19,7 +19,7 @@ Suspends program execution until you press Í.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `8:Pause`
 <hr>
 
-## Description
+## Overview
 Displays `value`; suspends program execution until you press Í.
 
 
@@ -40,7 +40,7 @@ Displays `value`; suspends program execution until you press Í.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `8:Pause`
 <hr>
 
-## Description
+## Overview
 Displays value on the current home screen and execution of the program continues after the time period specified. For time only, use Pause `“”,time` where the value is a blank string. Time is in seconds.
 Pause `value,time`.
 
@@ -63,6 +63,8 @@ Pause `value,time`.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `8:Pause`
 <hr>
+
+## Description
 
 The <tt>Pause</tt> command is used for suspending the execution of a program at a certain point. This is useful when you have text or instructions on the home screen that you want the user to read before the program continues on to the next thing. While the program is paused, the pause indicator turns on in the top-right corner of the screen (it is the dotted line that moves around).
 

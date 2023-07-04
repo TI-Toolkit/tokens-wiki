@@ -6,7 +6,7 @@
 
 # `UnArchive `
 
-## Description
+## Overview
 Moves the specified variables from the user data archive memory to RAM.
 To archive variables, use `Archive`.
 
@@ -27,6 +27,8 @@ To archive variables, use `Archive`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `6:UnArchive`
 <hr>
+
+## Description
 
 The UnArchive command moves a variable from the archive (also known as [ROM](glossary#R)) to [RAM](glossary#R). A quick synopsis of the difference between the two:
 

@@ -6,7 +6,7 @@
 
 # `Pxl-Off(`
 
-## Description
+## Overview
 The Off state will display the set Background Image Var or COLOR.
 
 
@@ -28,6 +28,8 @@ The Off state will display the set Background Image Var or COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `5:Pxl-Off(`
 <hr>
+
+## Description
 
 The Pxl-Off( command is used to turn off the pixel at the given (Y,X) coordinates. Please note that the coordinates are switched around so that the row comes first and then the column — it's (Y,X) instead of (X,Y) like the [Pt-Off(](Pt-Off\(.md) command. Also note that the (0,0) point is the upper left corner of the Graph screen.
 

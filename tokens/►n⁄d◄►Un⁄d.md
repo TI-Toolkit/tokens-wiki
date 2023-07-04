@@ -6,7 +6,7 @@
 
 # `►n⁄d◄►Un⁄d`
 
-## Description
+## Overview
 Converts the results from a fraction to mixed number or from a mixed number to a fraction, if applicable.
 
 
@@ -26,6 +26,8 @@ Converts the results from a fraction to mixed number or from a mixed number to a
 ## Location
 <tt><kbd><b>alpha</b></kbd></tt>, <kbd>F1</kbd>, `3:`, `n/d`, `Un/d`
 <hr>
+
+## Description
 
 n/d_Un/d is the command for switching between an improper fraction and a mixed number.  
 It is accessible by pressing ALPHA then Y= then 3.

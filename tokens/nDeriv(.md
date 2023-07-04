@@ -6,7 +6,7 @@
 
 # `nDeriv(`
 
-## Description
+## Overview
 When command is used in Classic mode, returns approximate numerical derivative of `expression` with respect to `variable` at `value`, with specific tolerance ε.
 In MathPrint mode, numeric derivative template pastes and uses default tolerance ε.
 
@@ -33,6 +33,8 @@ In MathPrint mode, numeric derivative template pastes and uses default tolerance
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `8:nDeriv(`
 <hr>
+
+## Description
 
 <tt>nDeriv(f(var),var,value[,h])</tt> computes an approximation to the value of the derivative of _f_(_var_) with respect to _var_ at _var_=_value_. _h_ is the step size used in the approximation of the derivative. The default value of _h_ is 0.001.
 

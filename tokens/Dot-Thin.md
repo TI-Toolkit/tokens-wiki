@@ -6,7 +6,7 @@
 
 # `Dot-Thin`
 
-## Description
+## Overview
 Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thin.
 
 
@@ -18,6 +18,8 @@ Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thin.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `Dot-Thin`
 <hr>
+
+## Description
 
 The <tt>Dot-Thin</tt> command sets all lines in the current function type to be drawn using a series of individual pixels at each interval of <tt>TraceStep</tt>. The command can be called on the homescreen or within a program.
 

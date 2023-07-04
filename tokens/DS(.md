@@ -6,7 +6,7 @@
 
 # `DS<(`
 
-## Description
+## Overview
 Decrements `variable` by 1; skips `commandA` if `variable `< `value`.
 
 
@@ -32,6 +32,8 @@ Decrements `variable` by 1; skips `commandA` if `variable `< `value`.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `B:DS<(`
 <hr>
+
+## Description
 
 The decrement and skip if less than command — <tt>DS&lt;(</tt> — is a specialized conditional command. It is equivalent to an <tt><a href="If.md">If</a></tt> conditional, except the next command will be skipped when the condition is true and it has a [variable](variables) update built-in. However, it is not used very often (if anything, it is often misused as a looping command) because of its obscure name and somewhat limited application.
 
@@ -130,7 +132,7 @@ Note, however, that a quirk in the <tt><a href="For(.md">For(</a></tt> command (
 
 * * *
 
-**Source**: parts of this page were written by the following TI|BD contributors: kg583, Marcsine, GoVegan, DarkerLine, burr.
+**Source**: parts of this page were written by the following TI|BD contributors: burr, DarkerLine, GoVegan, kg583, Marcsine.
 
 ## History
 | Calculator | OS Version | Description |

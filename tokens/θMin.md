@@ -6,7 +6,7 @@
 
 # `θMin`
 
-## Description
+## Overview
 
 
 
@@ -16,6 +16,9 @@
 `θMin`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

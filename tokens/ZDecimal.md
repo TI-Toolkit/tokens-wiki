@@ -6,7 +6,7 @@
 
 # `ZDecimal`
 
-## Description
+## Overview
 Adjusts the viewing window so that `TraceStep=0.1`, Δ`X=0.5` and Δ`Y=0.5`, and displays the graph screen with the origin centered on the screen.
 
 
@@ -18,6 +18,8 @@ Adjusts the viewing window so that `TraceStep=0.1`, Δ`X=0.5` and Δ`Y=0.5`, and
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `4:ZDecimal`
 <hr>
+
+## Description
 
 The <tt>ZDecimal</tt> command makes the following changes to the [window variables](system-variables#window):
 

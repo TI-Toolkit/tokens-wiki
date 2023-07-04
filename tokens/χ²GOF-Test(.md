@@ -6,7 +6,7 @@
 
 # `χ²GOF-Test(`
 
-## Description
+## Overview
 Performs a test to confirm that sample data is from a population that conforms to a specified distribution.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -39,6 +39,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `D:`, `GOF`, `Test(`
 <hr>
+
+## Description
 
 The <tt>χ²GOF-Test(</tt> command performs a <tt>χ²</tt> goodness-of-fit test. Given an expected ideal distribution of a variable across several categories, and a sample from this variable, it tests the hypothesis that the variable actually fits the ideal distribution. As a special case, you could take the ideal distribution to be evenly divided across all categories. Then, the goodness-of-fit test will test the hypothesis that the variable is independent of the category.
 

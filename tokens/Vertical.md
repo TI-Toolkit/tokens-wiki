@@ -6,7 +6,7 @@
 
 # `Vertical `
 
-## Description
+## Overview
 Draws a vertical line at `x `with specified color and line style.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 line style #: 1-4.
@@ -32,6 +32,8 @@ line style #: 1-4.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `4:Vertical`
 <hr>
+
+## Description
 
 Vertical _X_ draws a vertical line from the top of the graph screen to the bottom at _X_. Vertical is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart [Horizontal](Horizontal.md).
 

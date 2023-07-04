@@ -6,7 +6,7 @@
 
 # `dayOfWk(`
 
-## Description
+## Overview
 Returns an integer from 1 to 7, with each integer representing a day of the week. Use `dayOfWk(` to determine on which day of the week a particular date would occur. The `year` must be 4 digits; `month` and `day` can be 1 or 2 digits.
 
 
@@ -30,6 +30,8 @@ Returns an integer from 1 to 7, with each integer representing a day of the week
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `dayOfWk(`, `1:Sunday`, `2:Monday`, `3:Tuesday...`
 <hr>
+
+## Description
 
 <tt>dayOfWk(<em>year</em>,<em>month</em>,<em>day</em>)</tt> returns an integer from 1 to 7, each representing a separate day of the week. 1 represents Sunday, 2 represents Monday, and so on, with 7 representing Saturday. The date format is different than the normal American format (month/day/year), so be careful to put the arguments in the right order. You can remember this by thinking of the descending lengths of time in each of the arguments.
 

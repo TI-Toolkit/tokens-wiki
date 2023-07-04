@@ -6,7 +6,7 @@
 
 # `conj(`
 
-## Description
+## Overview
 Returns the complex conjugate of a complex number or list of complex numbers.
 
 
@@ -26,6 +26,8 @@ Returns the complex conjugate of a complex number or list of complex numbers.
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `1:conj(`
 <hr>
+
+## Description
 
 <tt>conj(<em>z</em>)</tt> returns the complex conjugate of the complex number _z_. If _z_ is represented as _x_+i_y_ where _x_ and _y_ are both real, <tt>conj(<em>z</em>)</tt> returns _x_-i_y_. Also works on a list of complex numbers.
 

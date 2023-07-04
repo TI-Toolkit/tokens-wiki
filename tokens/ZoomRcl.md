@@ -6,7 +6,7 @@
 
 # `ZoomRcl`
 
-## Description
+## Overview
 Graphs the selected functions in a user-defined viewing window.
 
 
@@ -18,6 +18,8 @@ Graphs the selected functions in a user-defined viewing window.
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `MEMORY`, `3:ZoomRcl`
 <hr>
+
+## Description
 
 The ZoomRcl command restores a backup of the window settings previously saved by [ZoomSto](ZoomSto.md) — this backup is stored in special variables found in the VARS>Zoom… menu, which are distinguished by a Z in front of their name. For example, Xmin is restored from ZXmin, PlotStart is restored from ZPlotStart, etc.
 

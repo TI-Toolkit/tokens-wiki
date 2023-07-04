@@ -6,7 +6,7 @@
 
 # `rowSwap(`
 
-## Description
+## Overview
 Returns a matrix with `rowA` of `matrix` swapped with `rowB`.
 
 
@@ -30,6 +30,8 @@ Returns a matrix with `rowA` of `matrix` swapped with `rowB`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `C:rowSwap(`
 <hr>
+
+## Description
 
 The rowSwap( command swaps two rows of a matrix and returns the result. It is an elementary row operation used in Gaussian Elimination.
 

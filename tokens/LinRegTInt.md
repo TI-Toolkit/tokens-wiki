@@ -6,7 +6,7 @@
 
 # `LinRegTInt `
 
-## Description
+## Overview
 Performs a linear regression and computes the t confidence interval for the slope coefficient b.
 
 
@@ -34,6 +34,8 @@ Performs a linear regression and computes the t confidence interval for the slop
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `G:LinRegTInt`
 <hr>
+
+## Description
 
 Like [LinReg(ax+b)](linreg-ax-b) and similar commands, LinRegTInt finds the best fit line through a set of points. However, LinRegTInt adds another method of checking the quality of the fit, by calculating a t confidence interval for the slope b. If the confidence interval calculated contains zero, the data supplied is insufficient to conclude a linear relation between the variables.
 

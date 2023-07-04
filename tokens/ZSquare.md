@@ -6,7 +6,7 @@
 
 # `ZSquare`
 
-## Description
+## Overview
 Adjusts the `X` or `Y` window settings so that each pixel represents an equal width and height in the coordinate system, and updates the viewing window.
 
 
@@ -18,6 +18,8 @@ Adjusts the `X` or `Y` window settings so that each pixel represents an equal wi
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `5:ZSquare`
 <hr>
+
+## Description
 
 The ZSquare command changes the [window variables](system-variables#window) Xmin and Xmax, or Ymin and Ymax, so that ΔX=ΔY, preserving all other settings and the coordinate of the center of the screen. This ensures that a numerical distance on the graphscreen has the same physical length on the calculator display, no matter if it's vertical, horizontal, or diagonal. Probably the most obvious effect of this change is that circles (whether graphed with an equation or drawn with the [Circle(](Circle\(.md) command) are actually circles and not ovals.
 

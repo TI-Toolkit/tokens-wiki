@@ -6,7 +6,7 @@
 
 # `setTime(`
 
-## Description
+## Overview
 Sets the time using an hour, minute, second format. The `hour` must be in 24 hour format, in which 13 = 1 p.m.
 
 
@@ -30,6 +30,8 @@ Sets the time using an hour, minute, second format. The `hour` must be in 24 hou
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `setTime(`
 <hr>
+
+## Description
 
 The setTime( command sets the time of the clock on the TI-84+/SE calculators. It takes three arguments: the hour, the minute, and the second. The hour must be in 24 hour format — where 13 is equal to 1 P.M. — and the minute and second need to be a valid number within the appropriate range (1-60). For example, this would set the time to 12:30:30:
 

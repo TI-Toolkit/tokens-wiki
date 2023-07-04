@@ -6,7 +6,7 @@
 
 # `2-Var Stats `
 
-## Description
+## Overview
 Performs two-variable analysis on the data in `Xlistname` and `Ylistname` with frequency `freqlist`.
 
 
@@ -30,6 +30,8 @@ Performs two-variable analysis on the data in `Xlistname` and `Ylistname` with f
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `2:2-Var Stats`
 <hr>
+
+## Description
 
 This command calculates a bunch of common (and a few uncommon) statistics for a pair of [lists](lists.md) (it uses L1 and L2 by default, but you can use any list by supplying it as an argument). You have to store the lists to variables first, though, before calculating statistics for them. For example:
 

@@ -6,7 +6,7 @@
 
 # `Tangent(`
 
-## Description
+## Overview
 Draws a line tangent to `expression` at `X`=`value` with specified `color` #: 10-24 and line style `linestyle #: `1-2.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -33,6 +33,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `5:Tangent(`
 <hr>
+
+## Description
 
 The Tangent( command draws a graph of an expression and then draws a line tangent to that expression, with the line touching the graph at the point of the specified value. You can either use a [equation variable](system-variables#equation) (such as Y<sub>1</sub>) or an expression in terms of X (such as X²). Though you can use equation variables from any [graphing mode](graphing-mode), they will be treated as functions in terms of X. Tangent( also ignores the graphing mode currently selected.
 

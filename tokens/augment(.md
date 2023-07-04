@@ -6,7 +6,7 @@
 
 # `augment(`
 
-## Description
+## Overview
 Returns a matrix, which is `matrixB` appended to `matrixA` as new columns.
 
 
@@ -29,7 +29,7 @@ Returns a matrix, which is `matrixB` appended to `matrixA` as new columns.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `7:augment(`
 <hr>
 
-## Description
+## Overview
 Returns a list, which is `listB` concatenated to the end of `listA`.
 
 
@@ -51,6 +51,8 @@ Returns a list, which is `listB` concatenated to the end of `listA`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `9:augment(`
 <hr>
+
+## Description
 
 The <tt>augment(</tt> command is used to combine two lists or two matrices into one. For lists, this is done the obvious way: adding the elements of the second on to the elements of the first. For example:
 

@@ -6,7 +6,7 @@
 
 # `Fix `
 
-## Description
+## Overview
 Sets fixed-decimal mode for # of decimal places.
 
 
@@ -26,6 +26,8 @@ Sets fixed-decimal mode for # of decimal places.
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `0123456789`
 <hr>
+
+## Description
 
 The <tt>Fix</tt> command puts the calculator in fixed-point display mode: all numbers will be displayed with a fixed number of digits (0-9) after the decimal, depending on the argument of <tt>Fix</tt>. This could be useful if you're trying to display potentially fractional numbers in a limited amount of space.
 

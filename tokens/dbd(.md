@@ -6,7 +6,7 @@
 
 # `dbd(`
 
-## Description
+## Overview
 Calculates the number of days between `date1` and `date2` using the actual-day-count method.
 
 
@@ -28,6 +28,8 @@ Calculates the number of days between `date1` and `date2` using the actual-day-c
 ## Location
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `D:dbd(`
 <hr>
+
+## Description
 
 The <tt>dbd(</tt> command calculates the number of days between two dates. Each date is encoded as a single number in one of two formats (two formats can be mixed in the same command):
 

@@ -6,7 +6,7 @@
 
 # `row+(`
 
-## Description
+## Overview
 Returns a matrix with `rowA` of `matrix` added to `rowB` and stored in `rowB`.
 
 
@@ -30,6 +30,8 @@ Returns a matrix with `rowA` of `matrix` added to `rowB` and stored in `rowB`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `D:row+(`
 <hr>
+
+## Description
 
 The row+( command adds one row of a matrix to the second, and returns the result. It is an elementary row operation used in Gaussian Elimination.
 

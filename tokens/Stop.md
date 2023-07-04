@@ -6,7 +6,7 @@
 
 # `Stop`
 
-## Description
+## Overview
 Ends program execution; returns to home screen.
 
 
@@ -18,6 +18,8 @@ Ends program execution; returns to home screen.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `F:Stop`
 <hr>
+
+## Description
 
 When the Stop command is used in a program it exits the program (terminating the program execution) and returns you to the home screen. If it is encountered within [loops](controlflow), the loops will be stopped.
 

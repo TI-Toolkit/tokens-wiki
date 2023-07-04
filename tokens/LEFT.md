@@ -6,7 +6,7 @@
 
 # `LEFT`
 
-## Description
+## Overview
 LEFT is a tail argument for the invNorm( command where the optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.
 See also invNorm(.
 
@@ -20,6 +20,9 @@ See also invNorm(.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>
 <hr>
+
+## Description
+
 
 ## Examples
 

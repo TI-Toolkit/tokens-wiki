@@ -6,7 +6,7 @@
 
 # `BackgroundOn `
 
-## Description
+## Overview
 Displays a menu the Background Image Var n (Image#n) specified in the graph area.
 
 
@@ -18,6 +18,8 @@ Displays a menu the Background Image Var n (Image#n) specified in the graph area
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `BACKGROUND`, `1:BackgroundOn`
 <hr>
+
+## Description
 
 With the introduction of color and a higher resolution screen than the monochrome calculators, the TI-84+CSE and TI-84+CE included the ability to display a background image on the graphscreen. The images variables are similar to the picture variables in that there 10 slots. In addition, functions can be drawn on top of images.
 

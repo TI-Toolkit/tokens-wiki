@@ -6,7 +6,7 @@
 
 # `Time`
 
-## Description
+## Overview
 Sets sequence graphs to plot with respect to time.
 
 
@@ -18,6 +18,8 @@ Sets sequence graphs to plot with respect to time.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `Time`
 <hr>
+
+## Description
 
 > **NOTE**: This article is about the Time setting for sequence graphing. If you're looking for the clock commands on the TI-84 Plus and TI-84 Plus SE, see [Time and Date Commands](time-and-date).
 

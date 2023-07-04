@@ -6,7 +6,7 @@
 
 # `max(`
 
-## Description
+## Overview
 Returns the larger of `valueA` and `valueB`.
 
 
@@ -29,7 +29,7 @@ Returns the larger of `valueA` and `valueB`.
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `7:max(`
 <hr>
 
-## Description
+## Overview
 Returns the larger of `valueA` and `valueB`.
 
 
@@ -50,7 +50,7 @@ Returns the larger of `valueA` and `valueB`.
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `7:max(`
 <hr>
 
-## Description
+## Overview
 Returns largest real or complex element in `list`.
 
 
@@ -71,7 +71,7 @@ Returns largest real or complex element in `list`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `2:max(`
 <hr>
 
-## Description
+## Overview
 Returns a real or complex list of the larger of each pair of elements in `listA` and `listB`.
 
 
@@ -94,7 +94,7 @@ Returns a real or complex list of the larger of each pair of elements in `listA`
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `2:max(`
 <hr>
 
-## Description
+## Overview
 Returns a real or complex list of the larger of `value` or each `list` element.
 
 
@@ -116,6 +116,8 @@ Returns a real or complex list of the larger of `value` or each `list` element.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `2:max(`
 <hr>
+
+## Description
 
 <tt>max(X,Y)</tt> returns the largest of the two numbers <tt>X</tt> and <tt>Y</tt>. <tt>max(<em>list</em>)</tt> returns the largest element of _list_. <tt>max(<em>list1</em>,<em>list2</em>)</tt> returns the pairwise maxima of the two lists. <tt>max(<em>list1</em>,X)</tt> (equivalently, <tt>max(X,<em>list1</em>)</tt>) returns a list whose elements are the larger of <tt>X</tt> or the corresponding element of the original list.
 

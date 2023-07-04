@@ -6,7 +6,7 @@
 
 # `ClrDraw`
 
-## Description
+## Overview
 Clears all drawn elements from a graph or drawing.
 
 
@@ -18,6 +18,8 @@ Clears all drawn elements from a graph or drawing.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `1:ClrDraw`
 <hr>
+
+## Description
 
 The <tt>ClrDraw</tt> command is useful clearing away something drawn on the graph screen; in particular, you want to do this at the beginning of a program that uses the graph screen, to get rid of anything that might be on it initially. If there are functions, plots, axes, labels, or grid enabled, these will be redrawn even after you <tt>ClrDraw</tt>. If you don't want these, you should turn them off before the <tt>ClrDraw</tt> command.
 

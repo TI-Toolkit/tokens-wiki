@@ -6,7 +6,7 @@
 
 # `DependAsk`
 
-## Description
+## Overview
 Sets table to ask for dependent-variable values.
 
 
@@ -18,6 +18,8 @@ Sets table to ask for dependent-variable values.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Depend: Ask`
 <hr>
+
+## Description
 
 When the <tt>DependAsk</tt> setting (opposed to the <tt><a href="DependAuto.md">DependAuto</a></tt> setting) is turned on, values in the table are not automatically calculated. To calculate the value of an equation, you have to select the column corresponding to that equation in the row corresponding to the value at which to calculate it, and press ENTER. For example, to calculate Y1 at X=0, select the X=0 column, scroll right to Y1, and press ENTER.
 

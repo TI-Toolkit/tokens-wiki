@@ -6,7 +6,7 @@
 
 # `ZFrac1⁄5`
 
-## Description
+## Overview
 Sets the window variables so that you can trace in increments of , if possible. Sets `TraceStep `to  and Δ`X` and Δ`Y `to .
 
 
@@ -18,6 +18,8 @@ Sets the window variables so that you can trace in increments of , if possible. 
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `E:ZFrac1/5`
 <hr>
+
+## Description
 
 ZFrac_X_ refers to a collection of Zoom commands in for the OS 2.53MP and up. The calculator boasts six such commands, each replacing _X_ with a fraction of some sort. The commands all essentially operate in the same manner, so they are all covered here on this page.
 

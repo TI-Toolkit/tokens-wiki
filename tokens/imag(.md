@@ -6,7 +6,7 @@
 
 # `imag(`
 
-## Description
+## Overview
 Returns the imaginary (non-real) part of a complex number or list of complex numbers.
 
 
@@ -26,6 +26,8 @@ Returns the imaginary (non-real) part of a complex number or list of complex num
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `3:imag(`
 <hr>
+
+## Description
 
 <tt>imag(z)</tt> returns the imaginary part of the complex number _z_. If _z_ is represented as _x_+i_y_ where _x_ and _y_ are both real, <tt>imag(z)</tt> returns _y_. Also works on a list of complex numbers.
 

@@ -6,7 +6,7 @@
 
 # `Ans`
 
-## Description
+## Overview
 Returns the last answer.
 
 
@@ -18,6 +18,8 @@ Returns the last answer.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>ans</kbd>
 <hr>
+
+## Description
 
 The <tt>Ans</tt> variable holds the last answer that was stored in the calculator. Because <tt>Ans</tt> is stored in a special storage area built-in to the calculator, and it is extensively used by the calculator, you cannot delete it. Ans is also useful; it can make your programs both smaller and faster:
 

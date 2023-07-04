@@ -6,7 +6,7 @@
 
 # `solve(`
 
-## Description
+## Overview
 Solves `expression` for `variable`, given an initial `guess` and `lower` and `upper` bounds within which the solution is sought.
 
 
@@ -34,6 +34,8 @@ Solves `expression` for `variable`, given an initial `guess` and `lower` and `up
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `0:solve(`
 <hr>
+
+## Description
 
 The solve( command attempts to iteratively find a real root of a given equation, given the variable to solve for, and an initial guess; i.e., given _f_(_x_), solve( will attempt to find a value of _x_ such that _f_(_x_)=0. solve( can take a list {_lower_,_upper_} as an optional fourth argument, in which case it attempts to find a root between _lower_ and _upper_ inclusive (by default, _lower_ and _upper_ are taken to be -E99 and E99 respectively). [Brent's method](https://mathworld.wolfram.com/BrentsMethod.html) is used for finding the root.
 

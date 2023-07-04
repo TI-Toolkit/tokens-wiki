@@ -6,7 +6,7 @@
 
 # `binompdf(`
 
-## Description
+## Overview
 Computes a probability at `x` for the discrete binomial distribution with the specified `numtrials` and probability `p` of success on each trial.
 
 
@@ -30,6 +30,8 @@ Computes a probability at `x` for the discrete binomial distribution with the sp
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `A:binompdf(`
 <hr>
+
+## Description
 
 This command is used to calculate the binomial probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
 

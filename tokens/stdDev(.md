@@ -6,7 +6,7 @@
 
 # `stdDev(`
 
-## Description
+## Overview
 Returns the standard deviation of the elements in `list` with frequency `freqlist`.
 
 
@@ -28,6 +28,8 @@ Returns the standard deviation of the elements in `list` with frequency `freqlis
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `7:stdDev(`
 <hr>
+
+## Description
 
 The stdDev( command finds the sample standard deviation of a list, a measure of the spread of a distribution. It takes a list of real numbers as a parameter. For example:
 

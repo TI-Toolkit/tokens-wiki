@@ -6,7 +6,7 @@
 
 # `dim(`
 
-## Description
+## Overview
 Returns the dimension of `listname`.
 
 
@@ -27,7 +27,7 @@ Returns the dimension of `listname`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `3:dim(`
 <hr>
 
-## Description
+## Overview
 Returns the dimension of `matrixname` as a list.
 
 
@@ -48,7 +48,7 @@ Returns the dimension of `matrixname` as a list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `3:dim(`
 <hr>
 
-## Description
+## Overview
 Assigns a new dimension (`length`) to a new or existing `listname`.
 
 
@@ -71,7 +71,7 @@ Assigns a new dimension (`length`) to a new or existing `listname`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `3:dim(`
 <hr>
 
-## Description
+## Overview
 Assigns new dimensions to a new or existing `matrixname`.
 
 
@@ -95,6 +95,8 @@ Assigns new dimensions to a new or existing `matrixname`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `3:dim(`
 <hr>
+
+## Description
 
 The <tt>dim(</tt> command is used to find the size of an existing list or matrix. It takes only one argument - the list or matrix you want the size of. For a list, it returns the number of elements; for a matrix, it returns a two-element list of the number of rows and the number of columns.
 

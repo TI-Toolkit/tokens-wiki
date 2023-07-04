@@ -6,7 +6,7 @@
 
 # `cumSum(`
 
-## Description
+## Overview
 Returns a list of the cumulative sums of the elements in `list`, starting with the first element.
 
 
@@ -27,7 +27,7 @@ Returns a list of the cumulative sums of the elements in `list`, starting with t
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `6:cumSum(`
 <hr>
 
-## Description
+## Overview
 Returns a matrix of the cumulative sums of `matrix` elements. Each element in the returned matrix is a cumulative sum of a `matrix` column from top to bottom.
 
 
@@ -47,6 +47,8 @@ Returns a matrix of the cumulative sums of `matrix` elements. Each element in th
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `0:cumSum(`
 <hr>
+
+## Description
 
 <tt>cumSum(</tt> calculates the cumulative sums of a list, or of the columns of a matrix, and outputs them in a new list or matrix variable.
 

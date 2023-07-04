@@ -6,7 +6,7 @@
 
 # `Disp `
 
-## Description
+## Overview
 Displays the home screen.
 
 
@@ -19,7 +19,7 @@ Displays the home screen.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `3:Disp`
 <hr>
 
-## Description
+## Overview
 Displays each value.
 
 
@@ -47,6 +47,8 @@ Displays each value.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `3:Disp`
 <hr>
+
+## Description
 
 The first, and easiest, way to display text is using the <tt>Disp</tt> command. You can display whatever combination of text and values that you want. Text is displayed on the left side of the screen, while numbers, variables and expressions are displayed on the right side. Text can be moved over to the right by padding it with spaces, but there is no equivalent for numbers, variables, and expressions.
 

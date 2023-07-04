@@ -6,7 +6,7 @@
 
 # `poissonpdf(`
 
-## Description
+## Overview
 Computes a probability at `x` for the discrete Poisson distribution with the specified mean μ.
 
 
@@ -28,6 +28,8 @@ Computes a probability at `x` for the discrete Poisson distribution with the spe
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `C:poissonpdf(`
 <hr>
+
+## Description
 
 This command is used to calculate Poisson distribution probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
 

@@ -6,7 +6,7 @@
 
 # `real(`
 
-## Description
+## Overview
 Returns the real part of a complex number or list of complex numbers.
 
 
@@ -26,6 +26,8 @@ Returns the real part of a complex number or list of complex numbers.
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `CPLX`, `2:real(`
 <hr>
+
+## Description
 
 real(_z_) returns the real part of the complex number _z_. If _z_ is represented as _x_+i_y_ where _x_ and _y_ are both real, real(_z_) returns _x_. Also works on a list of complex numbers.
 

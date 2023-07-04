@@ -6,7 +6,7 @@
 
 # `T-Test `
 
-## Description
+## Overview
 Performs a `t` test with frequency `freqlist`. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -41,7 +41,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `2:T-Test`
 <hr>
 
-## Description
+## Overview
 Performs a `t` test with frequency `freqlist`. `alternative`=-`1` is < ; `alternative`=`0` is Ä; `alternative`=`1` is >. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -76,6 +76,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `2:T-Test`
 <hr>
+
+## Description
 
 T-Test performs a _t_ significance test of a null hypothesis you supply. This test is valid for simple random samples from a population with an unknown standard deviation. In addition, either the population must be normally distributed, or the sample size has to be sufficiently large.
 

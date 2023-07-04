@@ -6,7 +6,7 @@
 
 # `Pt-Off(`
 
-## Description
+## Overview
 Erases a point at (`x`,`y`) on the graph area using `mark`. The Off state may be the background color determined by the `ImageVar` or `color` setting.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -31,6 +31,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `2:Pt-Off(`
 <hr>
+
+## Description
 
 The Pt-Off( command is used to turn off a point (a pixel on the screen) on the graph screen at the given (X,Y) coordinates. Pt-Off( is affected by the window settings, which means you have to change the window settings accordingly, otherwise the point won't show up correctly on the screen.
 

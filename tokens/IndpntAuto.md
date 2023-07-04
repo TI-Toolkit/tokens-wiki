@@ -6,7 +6,7 @@
 
 # `IndpntAuto`
 
-## Description
+## Overview
 Sets table to generate independent-variable values automatically.
 
 
@@ -18,6 +18,8 @@ Sets table to generate independent-variable values automatically.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Indpnt: Auto`
 <hr>
+
+## Description
 
 The <tt>IndpntAuto</tt> setting sets the independent variable (X, T, θ, or _n_ depending on [graphing mode](graphing-mode)) to be filled in automatically in the table (which is accessible by pressing 2nd TABLE, or from a program with the <tt><a href="DispTable.md">DispTable</a></tt> command).
 

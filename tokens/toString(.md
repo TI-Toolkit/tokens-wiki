@@ -6,7 +6,7 @@
 
 # `toString(`
 
-## Description
+## Overview
 Converts value to a string where `value` can be real, complex, an evaluated expression, list, or matrix.  String `value` displays in classic `format` (0) following the mode setting AUTO/DEC or in decimal `format` (1).
 
 <b>Comment</b>:CE OS 5.2+
@@ -29,6 +29,8 @@ Converts value to a string where `value` can be real, complex, an evaluated expr
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `E:toString(`, `C:toString(`
 <hr>
+
+## Description
 
 The <tt>toString(</tt> command, given any value including real numbers, complex numbers, lists, or matrices, returns the string representation of the value of the input.
 

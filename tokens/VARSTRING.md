@@ -6,7 +6,7 @@
 
 # `VARSTRING`
 
-## Description
+## Overview
 
 
 
@@ -15,6 +15,9 @@
 `VARSTRING`
 
 <hr>
+
+## Description
+
 
 ## Examples
 

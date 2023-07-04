@@ -6,7 +6,7 @@
 
 # `Shade_t(`
 
-## Description
+## Overview
 Draws the density function for the Student-t distribution specified by degrees of freedom df, and shades or colors the area between `lowerbound` and `upperbound`.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -33,6 +33,8 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DRAW`, `2:Shade_t(`
 <hr>
+
+## Description
 
 Shade_t( is equivalent to [tcdf(](tcdf\(.md) in terms of the probability it calculates: if a random variable follows the Student's _t_ distribution, you can use it to calculate the probability that the variable's value falls in a certain interval. However, in addition to calculating the probability, this command also draws the distribution, and shades the interval whose area represents the probability you want.
 

@@ -6,7 +6,7 @@
 
 # `vwAxes`
 
-## Description
+## Overview
 Sets sequence graphs to plot `v(n``)` on the x-axis and `w(``n``)` on the y-axis.
 
 
@@ -18,6 +18,8 @@ Sets sequence graphs to plot `v(n``)` on the x-axis and `w(``n``)` on the y-axis
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `vw`
 <hr>
+
+## Description
 
 When vwAxes is enabled, and the calculator is in [Seq](seq-mode) mode, the equations v and w will be graphed against each other (that is, the points (v(_n_),w(_n_)) are graphed for the values of _n_ between _n_Min and _n_Max). With this setting, sequence mode graphs are a bit like [parametric](param) mode, except the parameter _n_ is always an integer, and recursive definitions are possible.
 

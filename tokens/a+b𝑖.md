@@ -6,7 +6,7 @@
 
 # `a+b𝑖`
 
-## Description
+## Overview
 Sets the mode to rectangular complex number format (a+b`i`).
 
 
@@ -26,6 +26,8 @@ Sets the mode to rectangular complex number format (a+b`i`).
 ## Location
 <tt><kbd><b>mode</b></kbd></tt>, `a+b`, `𝑖`
 <hr>
+
+## Description
 
 The <tt>a+b𝑖</tt> command puts the calculator into rectangular complex number mode. This means that:
 

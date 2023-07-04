@@ -6,7 +6,7 @@
 
 # `2-Samp𝐅Test `
 
-## Description
+## Overview
 Performs a two-sample 𝐅 test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -42,7 +42,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `E:2-Samp`, `Test`
 <hr>
 
-## Description
+## Overview
 Performs a two-sample 𝐅 test. `alternative`=-`1` is `<`; `alternative`=`0` is ≠; `alternative`=`1` is `>`. `drawflag`=`1` draws results; `drawflag`=`0` calculates results.
 Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
@@ -77,6 +77,9 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `E:2-Samp`, `Test`
 <hr>
+
+## Description
+
 
 ## Examples
 

@@ -6,7 +6,7 @@
 
 # `StorePic `
 
-## Description
+## Overview
 Stores current picture in picture `Picn`.
 
 
@@ -26,6 +26,8 @@ Stores current picture in picture `Picn`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `STO`, `1:StorePic`
 <hr>
+
+## Description
 
 <tt>StorePic</tt> saves the graph screen to a picture (to recall it later, use <tt>RecallPic</tt>). Every detail of the graph screen will be stored as it appears, with the sole exception of X and Y labels on the axes (if they are shown).
 

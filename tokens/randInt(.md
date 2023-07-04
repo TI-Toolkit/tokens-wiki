@@ -6,7 +6,7 @@
 
 # `randInt(`
 
-## Description
+## Overview
 Generates and displays a random integer within a range specified by `lower` and `upper` integer bounds for a specified number of trials `numtrials`.
 
 
@@ -30,6 +30,8 @@ Generates and displays a random integer within a range specified by `lower` and 
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `5:randInt(`
 <hr>
+
+## Description
 
 randInt(_min_,_max_) generates a uniformly-distributed pseudorandom integer between _min_ and _max_ inclusive. randInt(_min_,_max_,_n_) generates a list of _n_ uniformly-distributed pseudorandom integers between _min_ and _max_.
 

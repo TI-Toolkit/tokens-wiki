@@ -6,7 +6,7 @@
 
 # `identity(`
 
-## Description
+## Overview
 Returns the identity matrix of `dimension` rows x `dimension` columns.
 
 
@@ -26,6 +26,8 @@ Returns the identity matrix of `dimension` rows x `dimension` columns.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `5:identity(`
 <hr>
+
+## Description
 
 The <tt>identity(</tt> command generates an identity matrix: that is, a matrix [B] such that for any other matrix [A], [A]*[B]=[A] (if [A] is the right size to make the multiplication valid).
 

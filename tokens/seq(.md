@@ -6,7 +6,7 @@
 
 # `seq(`
 
-## Description
+## Overview
 Returns list created by evaluating `expression` with regard to `variable`, from `begin` to `end` by `increment.`
 
 
@@ -34,6 +34,8 @@ Returns list created by evaluating `expression` with regard to `variable`, from 
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `5:seq(`
 <hr>
+
+## Description
 
 The <tt>seq(</tt> command is very powerful, as it is (almost) the only command that can create a whole [list](list.md) as output. This means that you will need make use of it almost every time that you use lists. The <tt>seq(</tt> command creates a list by evaluating a formula with one variable taking on a range of several values.
 

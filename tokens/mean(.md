@@ -6,7 +6,7 @@
 
 # `mean(`
 
-## Description
+## Overview
 Returns the mean of `list` with frequency `freqlist`.
 
 
@@ -28,6 +28,8 @@ Returns the mean of `list` with frequency `freqlist`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `3:mean(`
 <hr>
+
+## Description
 
 The mean( command finds the [mean](http://en.wikipedia.org/wiki/Mean), or the average, of a list. It's pretty elementary. It takes a list of real numbers as a parameter. For example:
 

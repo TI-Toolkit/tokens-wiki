@@ -6,7 +6,7 @@
 
 # `Return`
 
-## Description
+## Overview
 Returns to the calling program.
 
 
@@ -18,6 +18,8 @@ Returns to the calling program.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `E:Return`
 <hr>
+
+## Description
 
 When the Return command is used in a program it exits the program (terminating the program execution) and returns the user to the home screen. If it is encountered within [loops](while), the loops will be stopped.
 

@@ -6,7 +6,7 @@
 
 # `ZPrevious`
 
-## Description
+## Overview
 Replots the graph using the window variables of the graph that was displayed before you executed the last ZOOM instruction.
 
 
@@ -18,6 +18,8 @@ Replots the graph using the window variables of the graph that was displayed bef
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `MEMORY`, `1:ZPrevious`
 <hr>
+
+## Description
 
 The ZPrevious command (and menu option) restore the [window variables](system-variables#window) Xmin, Xmax, Xscl, Ymin, Ymax, and Yscl to the values they had before the last [zoom](zoom.md) command. This means, of course, that using ZPrevious a second time will cancel its effects.
 

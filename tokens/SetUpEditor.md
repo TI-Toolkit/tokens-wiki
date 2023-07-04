@@ -6,7 +6,7 @@
 
 # `SetUpEditor `
 
-## Description
+## Overview
 Removes all list names from the stat list editor, and then restores list names `L1` through `L6` to columns `1` through `6`.
 
 
@@ -19,7 +19,7 @@ Removes all list names from the stat list editor, and then restores list names `
 <tt><kbd><b>stat</b></kbd></tt>, `EDIT`, `5:SetUpEditor`
 <hr>
 
-## Description
+## Overview
 Removes all list names from the stat list editor, then sets it up to display one or more `listnames` in the specified order, starting with column `1`.
 
 
@@ -45,6 +45,8 @@ Removes all list names from the stat list editor, then sets it up to display one
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `EDIT`, `5:SetUpEditor`
 <hr>
+
+## Description
 
 The SetUpEditor command is meant as an auxiliary for the List Editor (which can be accessed by pressing STAT ENTER (Edit…)). The list editor provides a convenient interface for looking at the elements in lists, or editing those elements (especially when the elements of two lists are connected to each other, such as a list for X-coordinates and one for Y-coordinates, since they will be shown in the same row).
 

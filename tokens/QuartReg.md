@@ -6,7 +6,7 @@
 
 # `QuartReg `
 
-## Description
+## Overview
 Fits a quartic regression model to` Xlistname` and `Ylistname` with frequency `freqlist`, and stores the regression equation to `regequ`.
 
 
@@ -32,6 +32,8 @@ Fits a quartic regression model to` Xlistname` and `Ylistname` with frequency `f
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `7:QuartReg`
 <hr>
+
+## Description
 
 The QuartReg command can calculate the best fit quartic equation through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the Nth element of one list matches up with the Nth element of the other list. L1 and L2 are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points. You must have at least 5 points, because there's infinitely many quadratics that can go through 4 points or less
 

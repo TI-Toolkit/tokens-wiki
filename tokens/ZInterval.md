@@ -6,7 +6,7 @@
 
 # `ZInterval `
 
-## Description
+## Overview
 Computes a `z` confidence interval.
 
 <b>Comment</b>:Data list input
@@ -34,7 +34,7 @@ Computes a `z` confidence interval.
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `7:ZInterval`
 <hr>
 
-## Description
+## Overview
 Computes a `z` confidence interval.
 
 <b>Comment</b>:Summary stats input
@@ -61,6 +61,8 @@ Computes a `z` confidence interval.
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `7:ZInterval`
 <hr>
+
+## Description
 
 The ZInterval command calculates a confidence interval for the mean value of a population, at a specific confidence level: for example, if the confidence level is 95%, you are 95% certain that the mean lies within the interval you get. Use ZInterval when you have a single variable to analyze, and you already know the standard deviation. The ZInterval assumes that your distribution is normal, but it will work for other distributions if the sample size is large enough.
 

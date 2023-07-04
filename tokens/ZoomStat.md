@@ -6,7 +6,7 @@
 
 # `ZoomStat`
 
-## Description
+## Overview
 Redefines the viewing window so that all statistical data points are displayed.
 
 
@@ -18,6 +18,8 @@ Redefines the viewing window so that all statistical data points are displayed.
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `9:ZoomStat`
 <hr>
+
+## Description
 
 The ZoomStat command command zooms to a graphing window that accurately represents all the currently defined stat plots (see the [PlotN(](PlotN\(.md) commands). You can think of it as [ZoomFit](ZoomFit.md), but for plots rather than equations.
 

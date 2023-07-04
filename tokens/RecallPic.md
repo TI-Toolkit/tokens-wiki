@@ -6,7 +6,7 @@
 
 # `RecallPic `
 
-## Description
+## Overview
 Displays the graph and adds the picture stored in `Picn`.
 
 
@@ -26,6 +26,8 @@ Displays the graph and adds the picture stored in `Picn`.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `STO`, `2:RecallPic`
 <hr>
+
+## Description
 
 <tt>RecallPic</tt> draws a saved picture to the graph screen (to save a picture, draw it on the graph screen, then save it with <tt><a href="StorePic.md">StorePic</a></tt>). If something is already drawn on the graph screen, <tt>RecallPic</tt> will draw new pixels where needed, but it will not erase anything. As a result, you often want to <tt><a href="ClrDraw.md">ClrDraw</a></tt> before recalling a picture.
 

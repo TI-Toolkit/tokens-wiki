@@ -6,7 +6,7 @@
 
 # `gcd(`
 
-## Description
+## Overview
 Returns the greatest common divisor of `valueA` and `valueB`, which can be real numbers or lists.
 
 
@@ -28,6 +28,8 @@ Returns the greatest common divisor of `valueA` and `valueB`, which can be real 
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `9:gcd(`
 <hr>
+
+## Description
 
 The <tt>gcd(</tt> command returns the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) (GCD) of two nonnegative integers. It also works on lists.
 

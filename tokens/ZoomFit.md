@@ -6,7 +6,7 @@
 
 # `ZoomFit`
 
-## Description
+## Overview
 Recalculates `Ymin` and `Ymax` to include the minimum and maximum `Y` values, between `Xmin` and `Xmax`, of the selected functions and replots the functions.
 
 
@@ -18,6 +18,8 @@ Recalculates `Ymin` and `Ymax` to include the minimum and maximum `Y` values, be
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `0:ZoomFit`
 <hr>
+
+## Description
 
 The ZoomFit zooms to the smallest window that contains all points of the currently graphed equations. In [Func](Func.md) mode, this means that it calculates the minimum and maximum Y-value for the current Xmin to Xmax range, and sets Ymin and Ymax to those values (Xmin and Xmax remain unchanged). In other graphing modes, this process is done for both X and Y over the range of T, θ, or _n_.
 

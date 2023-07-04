@@ -6,7 +6,7 @@
 
 # `DispTable`
 
-## Description
+## Overview
 Displays the table.
 
 
@@ -18,6 +18,8 @@ Displays the table.
 ## Location
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `5:DispTable`
 <hr>
+
+## Description
 
 The <tt>DispTable</tt> comand displays the table screen you normally see by pressing 2nd TABLE, from a running program. The user will see the table screen with a "paused" run indicator, and will be able to use arrows to scroll through it. Pressing ENTER will exit the screen and continue the program.
 

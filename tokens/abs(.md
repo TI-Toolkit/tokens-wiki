@@ -6,7 +6,7 @@
 
 # `abs(`
 
-## Description
+## Overview
 Returns the absolute value of a real number, expression, list, or matrix.
 
 
@@ -27,7 +27,7 @@ Returns the absolute value of a real number, expression, list, or matrix.
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `1:abs(`
 <hr>
 
-## Description
+## Overview
 Returns the magnitude of a complex number or list.
 
 
@@ -47,6 +47,8 @@ Returns the magnitude of a complex number or list.
 ## Location
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `5:abs(`
 <hr>
+
+## Description
 
 <tt>abs(<em>x</em>)</tt> returns the absolute value of the real number _x_. Also works on a list or matrix of real numbers.
 

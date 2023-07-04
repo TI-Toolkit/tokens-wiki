@@ -6,7 +6,7 @@
 
 # `sin(`
 
-## Description
+## Overview
 Returns the sine of a real number, expression, or list.
 
 
@@ -26,6 +26,8 @@ Returns the sine of a real number, expression, or list.
 ## Location
 <tt><kbd><b>sin</b></kbd></tt>
 <hr>
+
+## Description
 
 
 

@@ -6,7 +6,7 @@
 
 # `1-Var Stats `
 
-## Description
+## Overview
 Performs one-variable analysis on the data in `Xlistname` with frequency `freqlist`.
 
 
@@ -28,6 +28,8 @@ Performs one-variable analysis on the data in `Xlistname` with frequency `freqli
 ## Location
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `1:1-Var Stats`
 <hr>
+
+## Description
 
 This command calculates a bunch of common (and a few uncommon) statistics for a [list](lists) (it uses L1 by default, but you can use any list by supplying it as an argument). You have to store the list to a variable first, though, before calculating statistics for it. For example:
 

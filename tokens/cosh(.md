@@ -6,7 +6,7 @@
 
 # `cosh(`
 
-## Description
+## Overview
 Returns hyperbolic cosine of a real number, expression, or list.
 
 
@@ -26,6 +26,8 @@ Returns hyperbolic cosine of a real number, expression, or list.
 ## Location
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `cosh(`
 <hr>
+
+## Description
 
 Calculates the hyperbolic cosine of a value. The hyperbolic trig functions <tt><a href="sinh(.md">sinh(</a></tt>, <tt>cosh(</tt>, and <tt><a href="tanh(.md">tanh(</a></tt> are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of <tt><a href="e.md">e</a></tt>, and don't depend on the [Degree](degree-mode) or [Radian](radian-mode) mode setting.
 

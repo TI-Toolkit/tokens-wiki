@@ -6,7 +6,7 @@
 
 # `ZBox`
 
-## Description
+## Overview
 Displays a graph, lets you draw a box that defines a new viewing window, and updates the window.
 
 
@@ -18,6 +18,8 @@ Displays a graph, lets you draw a box that defines a new viewing window, and upd
 ## Location
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `1:ZBox`
 <hr>
+
+## Description
 
 The ZBox command allows the user to select a smaller window within the current graphing window to zoom in to. To select the window, use the arrow keys and ENTER to select one corner of the window; then as you use the arrow keys and ENTER to select the other corner, a rectangle of the window's dimensions will be shown.
 
