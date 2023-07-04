@@ -60,9 +60,9 @@ The value of <tt>poissonpdf(</tt> is given by the formula
 
 ## Related Commands
 
-*   <tt><a href="/binompdf">binompdf(</a></tt>
-*   <tt><a href="/binomcdf">binomcdf(</a></tt>
-*   <tt><a href="/poissoncdf">poissoncdf(</a></tt>
+*   <tt><a href="binompdf(.md">binompdf(</a></tt>
+*   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
+*   <tt><a href="poissoncdf(.md">poissoncdf(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

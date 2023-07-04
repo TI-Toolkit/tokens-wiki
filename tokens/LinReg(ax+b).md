@@ -43,7 +43,7 @@ In its simplest form, LinReg(ax+b) takes no arguments, and calculates a best fit
 :LinReg(ax+b)
 ```
 
-On the home screen, or as the last line of a program, this will display the equation of the line of best fit: you'll be shown the format, y=ax+b, and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, r, and r² will be set as well. These latter two variables will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](/diagnosticon) and [DiagnosticOff](/diagnosticoff)).
+On the home screen, or as the last line of a program, this will display the equation of the line of best fit: you'll be shown the format, y=ax+b, and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, r, and r² will be set as well. These latter two variables will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](DiagnosticOn.md) and [DiagnosticOff](DiagnosticOff.md)).
 
 You don't have to do the regression on L₁ and L₂, but if you don't you'll have to enter the names of the lists after the command. For example:
 
@@ -68,15 +68,15 @@ An example of LinReg(ax+b) with all the optional arguments:
 
 ## Advanced Uses (for programmers)
 
-LinReg(ax+b), along with [LinReg(a+bx)](/linreg-a-bx) and [Med-Med](/med-med), can be used to [convert a number to a string](/number-to-string).
+LinReg(ax+b), along with [LinReg(a+bx)](linreg-a-bx) and [Med-Med](Med-Med.md), can be used to [convert a number to a string](number-to-string).
 
 ## Related Commands
 
-*   [LinReg(a+bx)](/linreg-a-bx)
-*   [LinRegTTest](/linregttest)
-*   [LinRegTInt](/linregtint)
-*   [Manual-Fit](/manual-fit)
-*   [Med-Med](/med-med)
+*   [LinReg(a+bx)](linreg-a-bx)
+*   [LinRegTTest](LinRegTTest.md)
+*   [LinRegTInt](LinRegTInt.md)
+*   [Manual-Fit](Manual-Fit.md)
+*   [Med-Med](Med-Med.md)
 
 ## History
 | Calculator | OS Version | Description |

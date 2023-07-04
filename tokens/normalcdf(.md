@@ -49,7 +49,7 @@ for the normal distribution with mean 10 and std. dev. 2.5
 
 Often, you want to find a "tail probability" - a special case for which the interval has no lower or no upper bound. For example, "what is the probability x is greater than 2?". The TI-83+ has no special symbol for infinity, but you can use E99 to get a very large number that will work equally well in this case (E is the decimal exponent obtained by pressing [2nd] [EE]). Use E99 for positive infinity, and -E99 for negative infinity.
 
-The normal distribution is often used to approximate the binomial distribution when there are a lot of trials. This isn't really necessary on the TI-83+ because the [binompdf(](/binompdf) and [binomcdf(](/binomcdf) commands are already very fast - however, the normal distribution can be slightly faster, and the skill can come in handy if you don't have access to a calculator but do have a table of normal distributions (yeah, right). Here is how to convert a binomial distribution to a normal one:
+The normal distribution is often used to approximate the binomial distribution when there are a lot of trials. This isn't really necessary on the TI-83+ because the [binompdf(](binompdf\(.md) and [binomcdf(](binomcdf\(.md) commands are already very fast - however, the normal distribution can be slightly faster, and the skill can come in handy if you don't have access to a calculator but do have a table of normal distributions (yeah, right). Here is how to convert a binomial distribution to a normal one:
 
 ```ti-basic
 :binompdf(N,P,X
@@ -65,7 +65,7 @@ How much faster this is will depend on N and P, since the binomial distribution 
 
 ## Formulas
 
-As with other continuous distributions, any probability is an integral of the probability density function. Here, too, we can define normalcdf( for the standard normal case in terms of [normalpdf(](/normalpdf):
+As with other continuous distributions, any probability is an integral of the probability density function. Here, too, we can define normalcdf( for the standard normal case in terms of [normalpdf(](normalpdf\(.md):
 
 (1) $`\begin{align} \texttt{normalcdf}(a,b)=\int_a^b \texttt{normalpdf}(x) \, \mathrm{d}x=\frac1{\sqrt{2\pi\,}} \int_a^b e^{-\frac1{2}x^2} \, \mathrm{d}x \end{align}`$ 
 
@@ -79,9 +79,9 @@ For the arbitrary mean μ and standard deviation σ, normalcdf( is defined in te
 
 ## Related Commands
 
-*   [normalpdf(](/normalpdf)
-*   [invNorm(](/invnorm)
-*   [ShadeNorm(](/shadenorm)
+*   [normalpdf(](normalpdf\(.md)
+*   [invNorm(](invNorm\(.md)
+*   [ShadeNorm(](ShadeNorm\(.md)
 
 ## History
 | Calculator | OS Version | Description |

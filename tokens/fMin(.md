@@ -48,20 +48,20 @@ Keep in mind that the result is the value of _var_, and not the value of _f(var)
 
 ## Advanced Uses
 
-<tt>fMin(</tt> is sometimes useful in finding so-called "multiple roots" of a function. If the graph of your function appears "flat" near the root, <tt>fMin(</tt> might be able to find the value of the root more accurately than <tt><a href="/solve">solve(</a></tt>.
+<tt>fMin(</tt> is sometimes useful in finding so-called "multiple roots" of a function. If the graph of your function appears "flat" near the root, <tt>fMin(</tt> might be able to find the value of the root more accurately than <tt><a href="solve(.md">solve(</a></tt>.
 
 ## Error Conditions
 
-*   **[ERR:BOUND](/errors#bound)** is thrown if the lower bound is greater than the upper bound.
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if _tol_ is 0.
-*   **[ERR:TOL NOT MET](/errors#tolnotmet)** is thrown if the tolerance is too small for this specific function.
+*   **[ERR:BOUND](errors#bound)** is thrown if the lower bound is greater than the upper bound.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if _tol_ is 0.
+*   **[ERR:TOL NOT MET](errors#tolnotmet)** is thrown if the tolerance is too small for this specific function.
 
 ## Related Commands
 
-*   <tt><a href="/fmax">fMax(</a></tt>
-*   <tt><a href="/fnint">fnInt(</a></tt>
-*   <tt><a href="/nderiv">nDeriv(</a></tt>
-*   <tt><a href="/solve">solve(</a></tt>
+*   <tt><a href="fMax(.md">fMax(</a></tt>
+*   <tt><a href="fnInt(.md">fnInt(</a></tt>
+*   <tt><a href="nDeriv(.md">nDeriv(</a></tt>
+*   <tt><a href="solve(.md">solve(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

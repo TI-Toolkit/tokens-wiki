@@ -31,7 +31,7 @@ Returns the hyperbolic arctangent of a real number, expression, or list.
 
 The tanhֿ¹( command calculates the inverse hyperbolic tangent of a value. tanhֿ¹(x) is the number y such that x = tanh(y).
 
-tanhֿ¹(x), although it can be defined for all real and complex numbers, is real-valued only for x in the open interval (-1,1). Since Z80 calculators have their hyperbolic functions and inverses restricted to real values, [ERR:DOMAIN](/errors#domain) is thrown when x is outside the interval (-1,1).
+tanhֿ¹(x), although it can be defined for all real and complex numbers, is real-valued only for x in the open interval (-1,1). Since Z80 calculators have their hyperbolic functions and inverses restricted to real values, [ERR:DOMAIN](errors#domain) is thrown when x is outside the interval (-1,1).
 
 The tanhֿ¹( command also works for lists.
 
@@ -44,15 +44,15 @@ tanhֿ¹({-.5,.5})
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** when taking the inverse tanh of a number not between -1 and 1.
+*   **[ERR:DOMAIN](errors#domain)** when taking the inverse tanh of a number not between -1 and 1.
 
 ## Related Commands
 
-*   [sinh(](/sinh)
-*   [sinhֿ¹(](/arsinh)
-*   [cosh(](/cosh)
-*   [coshֿ¹(](/arcosh)
-*   [tanh(](/tanh)
+*   [sinh(](sinh\(.md)
+*   [sinhֿ¹(](sinhֿ¹\(.md)
+*   [cosh(](cosh\(.md)
+*   [coshֿ¹(](coshֿ¹\(.md)
+*   [tanh(](tanh\(.md)
 
 ## History
 | Calculator | OS Version | Description |

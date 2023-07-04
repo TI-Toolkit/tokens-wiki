@@ -35,8 +35,8 @@ To avoid garbage collecting often, reduce the amount of times you archive and un
 
 ## Related Commands
 
-*   <tt><a href="/archive">Archive</a></tt>
-*   <tt><a href="/unarchive">UnArchive</a></tt>
+*   <tt><a href="Archive.md">Archive</a></tt>
+*   <tt><a href="UnArchive.md">UnArchive</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

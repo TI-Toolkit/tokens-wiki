@@ -19,7 +19,7 @@ Sets sequence graphing mode.
 <tt><kbd><b>mode</b></kbd></tt>, `Seq`
 <hr>
 
-The Seq command enables [sequence](/graphing-mode#sequential) graphing mode.
+The Seq command enables [sequence](graphing-mode#sequential) graphing mode.
 
 Sequential mode is used for graphing sequences, which can be thought of as functions from the positive (or non-negative) integers. The TI-83 calculators let _n_ be the independent variable in this situation, and the three sequences, instead of using subscripts, use the letters u, v, and w.
 
@@ -31,9 +31,9 @@ When you're using more than one previous value — both u(_n_-1) and u(_n_-2)) �
 
 ## Advanced Uses
 
-Sequence graphing mode has several submodes that can be selected from the 2nd FORMAT screen. They are [Time](/time), [Web](/web), [uvAxes](/uvaxes), [uwAxes](/uwaxes), and [vwAxes](/vwaxes). Sequences are still defined in the same way, but these modes control the way that they're graphed.
+Sequence graphing mode has several submodes that can be selected from the 2nd FORMAT screen. They are [Time](Time.md), [Web](Web.md), [uvAxes](uvAxes.md), [uwAxes](uwAxes.md), and [vwAxes](vwAxes.md). Sequences are still defined in the same way, but these modes control the way that they're graphed.
 
-The [window variables](/system-variables#window) that apply to sequence mode are:
+The [window variables](system-variables#window) that apply to sequence mode are:
 
 *   **_n_Min** — Determines the minimum _n_-value calculated for equations.
 *   **_n_Max** — Determines the maximum _n_-value calculated for equations.
@@ -41,16 +41,16 @@ The [window variables](/system-variables#window) that apply to sequence mode are
 *   **PlotStep** — Determines the difference between consecutive _graphed_ values of _n_.
 *   **Xmin** — Determines the minimum X-value shown on the screen.
 *   **Xmax** — Determines the maximum X-value shown on the screen.
-*   **Xscl** — Determines the horizontal space between marks on the X-axis in [AxesOn](/axeson) mode or dots in [GridOn](/gridon) mode.
+*   **Xscl** — Determines the horizontal space between marks on the X-axis in [AxesOn](AxesOn.md) mode or dots in [GridOn](GridOn.md) mode.
 *   **Ymin** — Determines the minimum Y-value shown on the screen.
 *   **Ymax** — Determines the maximum Y-value shown on the screen.
-*   **Yscl** — Determines the vertical space between marks on the Y-axis in [AxesOn](/axeson) mode or dots in [GridOn](/gridon) mode.
+*   **Yscl** — Determines the vertical space between marks on the Y-axis in [AxesOn](AxesOn.md) mode or dots in [GridOn](GridOn.md) mode.
 
 ## Related Commands
 
-*   [Func](/func)
-*   [Param](/param)
-*   [Polar](/polar-mode)
+*   [Func](Func.md)
+*   [Param](Param.md)
+*   [Polar](Polar.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -29,7 +29,7 @@ Returns the tangent of a real number, expression, or list.
 
 tan(θ) calculates the [tangent](https://mathworld.wolfram.com/tangent.html) of the angle θ, which is defined by $\tan \theta=\frac{\sin \theta}{\cos \theta}$
 
-The value returned depends on whether the calculator is in [Radian](/radian-mode) or [Degree](/degree-mode) mode. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion from radians to degrees is angle*180/π and from degrees to radians is angle*π/180. The tan( command also works on a list of real numbers.
+The value returned depends on whether the calculator is in [Radian](radian-mode) or [Degree](degree-mode) mode. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion from radians to degrees is angle*180/π and from degrees to radians is angle*π/180. The tan( command also works on a list of real numbers.
 
 Since tangent is defined as the quotient of sine divided by cosine, it is undefined for any angle such that cos(θ)=0.
 
@@ -49,7 +49,7 @@ tan(45)
 
 ## Advanced Uses
 
-You can bypass the mode setting by using the [°](/degree-symbol) (degree) and <sup><a href="/radian-symbol">r</a></sup> (radian) symbols. These next two commands will return the same values no matter if your calculator is in degrees or radians:
+You can bypass the mode setting by using the [°](°.md) (degree) and <sup><a href="ʳ.md">ʳ</a></sup> (radian) symbols. These next two commands will return the same values no matter if your calculator is in degrees or radians:
 
 ```ti-basic
 tan(45°)
@@ -63,16 +63,16 @@ tan(π/4¹ )
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if you supply a matrix or a complex argument.
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if you supply an angle of π/2±nπ (in radians, where n is an integer) or 90±180n (in degrees, where n is an integer), or when the input is ≥1E12.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if you supply a matrix or a complex argument.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if you supply an angle of π/2±nπ (in radians, where n is an integer) or 90±180n (in degrees, where n is an integer), or when the input is ≥1E12.
 
 ## Related Commands
 
-*   [sin(](/sin)
-*   [sinֿ¹(](/arcsin)
-*   [cos(](/cos)
-*   [cosֿ¹(](/arccos)
-*   [tanֿ¹(](/arctan)
+*   [sin(](sin\(.md)
+*   [sinֿ¹(](sinֿ¹\(.md)
+*   [cos(](cos\(.md)
+*   [cosֿ¹(](cosֿ¹\(.md)
+*   [tanֿ¹(](tanֿ¹\(.md)
 
 ## History
 | Calculator | OS Version | Description |

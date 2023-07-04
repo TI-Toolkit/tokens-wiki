@@ -36,22 +36,22 @@ real(3+4i)
 
 ## Advanced Uses
 
-The real( command is expanded by several [assembly libraries](/asmlibs) (such as [xLIB](/xlib) and [Omnicalc](/omnicalc)) to call their own routines. If xLib is installed, then real( will no longer work as intended even in programs that want to use it for its intended purpose.
+The real( command is expanded by several [assembly libraries](asmlibs) (such as [xLIB](xLIB.md) and [Omnicalc](Omnicalc.md)) to call their own routines. If xLib is installed, then real( will no longer work as intended even in programs that want to use it for its intended purpose.
 
-If you actually want to take the real part of a complex number, and want the program to work with one of these assembly libraries, you could use the [imag(](/imag) command instead - real(Z) is equivalent to imag(Z𝑖). Alternatively, you could tell people using your program to uninstall xLIB or Omnicalc first.
+If you actually want to take the real part of a complex number, and want the program to work with one of these assembly libraries, you could use the [imag(](imag\(.md) command instead - real(Z) is equivalent to imag(Z𝑖). Alternatively, you could tell people using your program to uninstall xLIB or Omnicalc first.
 
 If a program you downloaded has an error and 2:Goto takes you to a line with real( and a bunch of arguments, this is probably because the program uses Omnicalc or xLIB which you don't have installed.
 
 ## Related Commands
 
-*   [abs(](/abs)
-*   [angle(](/angle)
-*   [conj(](/conj)
-*   [imag(](/imag)
+*   [abs(](abs\(.md)
+*   [angle(](angle\(.md)
+*   [conj(](conj\(.md)
+*   [imag(](imag\(.md)
 
 ## See Also
 
-*   [Assembly Libraries](/asmlibs)
+*   [Assembly Libraries](Assembly Libraries.md)
 
 ## History
 | Calculator | OS Version | Description |

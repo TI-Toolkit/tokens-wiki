@@ -29,11 +29,11 @@ The <tt>Dot-Thin</tt> command sets all lines in the current function type to be 
 
 ## Error Conditions
 
-*   **[ERR:SYNTAX](/errors#syntax)** is thrown if the command is executed with any additional arguments
+*   **[ERR:SYNTAX](errors#syntax)** is thrown if the command is executed with any additional arguments
 
 ## Related Commands
 
-*   <tt><a href="/dot-thick">Dot-Thick</a></tt>
+*   <tt><a href="Dot-Thick.md">Dot-Thick</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

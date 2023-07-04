@@ -25,9 +25,9 @@ This can be used to free some memory, although it's recommended not to do this i
 
 ## Related Commands
 
-*   <tt><a href="/clrlist">ClrList</a></tt>
-*   <tt><a href="/clralllists">ClrAllLists</a></tt>
-*   <tt><a href="/garbagecollect">GarbageCollect</a></tt>
+*   <tt><a href="ClrList.md">ClrList</a></tt>
+*   <tt><a href="ClrAllLists.md">ClrAllLists</a></tt>
+*   <tt><a href="GarbageCollect.md">GarbageCollect</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

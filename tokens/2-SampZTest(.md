@@ -174,9 +174,9 @@ can be
 
 ## Related Commands
 
-*   [Z-Test(](/z-test)
-*   [T-Test](/t-test)
-*   [2-SampTTest](/2-sampttest)
+*   [Z-Test(](Z-Test\(.md)
+*   [T-Test](T-Test.md)
+*   [2-SampTTest](2-SampTTest.md)
 
 ## History
 | Calculator | OS Version | Description |

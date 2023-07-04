@@ -29,23 +29,23 @@ Returns the logarithm of a specifed value determined from a specified base: logB
 <tt><kbd><b>math</b></kbd></tt>
 <hr>
 
-The <tt>logBASE(</tt> command is a visual upgrade to the <tt><a href="/log">log(</a></tt> command to compute logarithms in any base _b_. That is, the command finds the exponent that base _b_ must be raised to obtain the given value.
+The <tt>logBASE(</tt> command is a visual upgrade to the <tt><a href="log(.md">log(</a></tt> command to compute logarithms in any base _b_. That is, the command finds the exponent that base _b_ must be raised to obtain the given value.
 
-This command can be used on both the home screen and while programming. If you are using <tt><a href="/classic-mode">CLASSIC</a></tt> mode, the command appears as:
+This command can be used on both the home screen and while programming. If you are using <tt><a href="CLASSIC.md">CLASSIC</a></tt> mode, the command appears as:
 
 ```ti-basic
 logBASE(8,2)
             3
 ```
 
-But in [MATHPRINT](/mathprint-mode) mode, this is improved to:
+But in [MATHPRINT](mathprint-mode) mode, this is improved to:
 
 log<sub>2</sub>(8)  
             3
 
 ## Formulas
 
-The log in base _b_ can also be found using the <tt><a href="/ln">ln(</a></tt> or <tt><a href="/log">log(</a></tt> commands. This can be done indirectly using the change-of-base formula:
+The log in base _b_ can also be found using the <tt><a href="ln(.md">ln(</a></tt> or <tt><a href="log(.md">log(</a></tt> commands. This can be done indirectly using the change-of-base formula:
 
 (1) $`\begin{align} \log_bx = {\ln x \over \ln b} = {\log x \over \log b} \end{align}`$ 
 
@@ -63,14 +63,14 @@ The <tt>logBASE(</tt> command costs one extra byte compared to <tt>log(</tt>, pr
 
 ## Error Conditions
 
-*   **[ERR:ARGUMENT](/errors#argument)** when a base is not specified
-*   **[ERR:DOMAIN](/errors#domain)** when trying to compute the logarithm of 0
-*   **[ERR:NONREAL ANS](/errors#nonrealans)** when trying to compute the logarithm of a negative number in <tt><a href="/real-mode">Real</a></tt> mode
+*   **[ERR:ARGUMENT](errors#argument)** when a base is not specified
+*   **[ERR:DOMAIN](errors#domain)** when trying to compute the logarithm of 0
+*   **[ERR:NONREAL ANS](errors#nonrealans)** when trying to compute the logarithm of a negative number in <tt><a href="Real.md">Real</a></tt> mode
 
 ## Related Commands
 
-*   <tt><a href="/log">log(</a></tt>
-*   <tt><a href="/ln">ln(</a></tt>
+*   <tt><a href="log(.md">log(</a></tt>
+*   <tt><a href="ln(.md">ln(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

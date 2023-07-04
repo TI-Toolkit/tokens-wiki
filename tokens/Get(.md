@@ -57,7 +57,7 @@ The <tt>Get(</tt> command is meant for use with the CBL (Calculator Based Labora
 
 ## Advanced Uses
 
-In fact, the <tt>Get(</tt> command can also be used for linking two calculators, in which case it functions precisely like <tt><a href="/getcalc">GetCalc(</a></tt>. This is probably for compatibility with the TI-82, which used <tt>Get(</tt> rather than <tt>GetCalc(</tt> for linking two calculators. However, since this isn't a documented feature (in fact, your TI-83+ manual will insist that <tt>Get(</tt> **cannot** be used in this way), it isn't guaranteed to work with future calculator versions.
+In fact, the <tt>Get(</tt> command can also be used for linking two calculators, in which case it functions precisely like <tt><a href="GetCalc(.md">GetCalc(</a></tt>. This is probably for compatibility with the TI-82, which used <tt>Get(</tt> rather than <tt>GetCalc(</tt> for linking two calculators. However, since this isn't a documented feature (in fact, your TI-83+ manual will insist that <tt>Get(</tt> **cannot** be used in this way), it isn't guaranteed to work with future calculator versions.
 
 ## Optimization
 
@@ -65,12 +65,12 @@ Nevertheless, using <tt>Get(</tt> instead of <tt>GetCalc(</tt> will make your pr
 
 ## Norland Robot
 
-The <tt>Get(</tt> command is usually used after a <tt><a href="/send">Send</a></tt> command to confirm its transmission like this: <tt>Get(<em>var</em>)</tt>. The variable in the parentheses is where the time of the robot's movement is stored. You can display the time moved with a <tt><a href="/disp">Disp</a></tt> command.
+The <tt>Get(</tt> command is usually used after a <tt><a href="Send.md">Send</a></tt> command to confirm its transmission like this: <tt>Get(<em>var</em>)</tt>. The variable in the parentheses is where the time of the robot's movement is stored. You can display the time moved with a <tt><a href="Disp.md">Disp</a></tt> command.
 
 ## Related Commands
 
-*   <tt><a href="/getcalc">GetCalc(</a></tt>
-*   <tt><a href="/send">Send(</a></tt>
+*   <tt><a href="GetCalc(.md">GetCalc(</a></tt>
+*   <tt><a href="Send(.md">Send(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

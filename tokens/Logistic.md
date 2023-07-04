@@ -47,7 +47,7 @@ In its simplest form, Logistic takes no arguments, and fits a logistic curve thr
 :Logistic
 ```
 
-On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, y=_c_/(1+_a__e_^(-_b_x)), and the values of _a_, _b_ and _c_. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables _a_, _b_, and _c_ will be set as well. There are no correlation statistics available for Logistic even if Diagnostic Mode is turned on (see [DiagnosticOn](/diagnosticon) and [DiagnosticOff](/diagnosticoff)).
+On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, y=_c_/(1+_a__e_^(-_b_x)), and the values of _a_, _b_ and _c_. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables _a_, _b_, and _c_ will be set as well. There are no correlation statistics available for Logistic even if Diagnostic Mode is turned on (see [DiagnosticOn](DiagnosticOn.md) and [DiagnosticOff](DiagnosticOff.md)).
 
 You do not have to do the regression on L₁ and L₂, in which case you will have to enter the names of the lists after the command. For example:
 
@@ -76,16 +76,16 @@ The [Levenberg-Marquardt](http://en.wikipedia.org/wiki/Levenberg-Marquardt_algor
 
 ## Error Conditions
 
-*   **[ERR:ARGUMENT](/errors#argument)** is thrown by using only one list.
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if the dimensions of two lists do not match.
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if Logistic is left without using lists or enough instructions.
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if lists are not used, or a list contains a number like "4i".
+*   **[ERR:ARGUMENT](errors#argument)** is thrown by using only one list.
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown if the dimensions of two lists do not match.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if Logistic is left without using lists or enough instructions.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if lists are not used, or a list contains a number like "4i".
 
 ## Related Commands
 
-*   [LinReg(ax+b)](/linreg-ax-b)
-*   [ExpReg](/expreg)
-*   [SinReg](/sinreg)
+*   [LinReg(ax+b)](linreg-ax-b)
+*   [ExpReg](ExpReg.md)
+*   [SinReg](SinReg.md)
 
 ___
 

@@ -29,11 +29,11 @@ Returns the arcsine of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>sin⁻¹</kbd>
 <hr>
 
-sinֿ¹( returns the [arcsine](https://mathworld.wolfram.com/InverseSine.html) of its argument. It is the inverse of [sin(](/sin), which means that sinֿ¹(z) produces an angle θ such that sin(θ)=z.
+sinֿ¹( returns the [arcsine](https://mathworld.wolfram.com/InverseSine.html) of its argument. It is the inverse of [sin(](sin\(.md), which means that sinֿ¹(z) produces an angle θ such that sin(θ)=z.
 
-Like sin(, the result of sinֿ¹( depends on whether the calculator is in [Radian](/radian-mode) or [Degree](/degree-mode) mode. However, unlike sine, the result is in degrees or radians, not the argument. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion of θ=sinֿ¹(n) from radians to degrees is θ*180/π and from degrees to radians is θ*π/180. The sinֿ¹( command also works on lists.
+Like sin(, the result of sinֿ¹( depends on whether the calculator is in [Radian](radian-mode) or [Degree](degree-mode) mode. However, unlike sine, the result is in degrees or radians, not the argument. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion of θ=sinֿ¹(n) from radians to degrees is θ*180/π and from degrees to radians is θ*π/180. The sinֿ¹( command also works on lists.
 
-The sinֿ¹( function can be defined for all real and complex numbers; however, the function assumes real values only in the closed interval [-1,1]. Because the trigonometric functions and their inverses in the Z80 calculators are restricted only to real values, the calculator will throw [ERR:DOMAIN](/errors#domain) if the argument is outside of this interval, no matter what the mode setting may be.
+The sinֿ¹( function can be defined for all real and complex numbers; however, the function assumes real values only in the closed interval [-1,1]. Because the trigonometric functions and their inverses in the Z80 calculators are restricted only to real values, the calculator will throw [ERR:DOMAIN](errors#domain) if the argument is outside of this interval, no matter what the mode setting may be.
 
 In radians:
 
@@ -52,7 +52,7 @@ In degrees:
 
 ## Advanced Uses
 
-Since the function sine itself doesn't have the restrictions that arcsine does, and since arcsine is the inverse of sine, you can use sinֿ¹(sin( to keep a variable within a certain range (most useful on the [graph screen](/graphscreen)). Here is an example for a game like [pong](/pong). The ball travels between -6 and 6.
+Since the function sine itself doesn't have the restrictions that arcsine does, and since arcsine is the inverse of sine, you can use sinֿ¹(sin( to keep a variable within a certain range (most useful on the [graph screen](graphscreen)). Here is an example for a game like [pong](pong.md). The ball travels between -6 and 6.
 
 You could use a flag like this:
 
@@ -73,16 +73,16 @@ An easier way to do this, without needing a flag or even an If statement, is usi
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if you input a complex value or a matrix.
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if you supplied an argument outside the interval [-1,1]
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if you input a complex value or a matrix.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if you supplied an argument outside the interval [-1,1]
 
 ## Related Commands
 
-*   [sin(](/sin)
-*   [cos(](/cos)
-*   [cosֿ¹(](/arccos)
-*   [tan(](/tan)
-*   [tanֿ¹(](/arctan)
+*   [sin(](sin\(.md)
+*   [cos(](cos\(.md)
+*   [cosֿ¹(](cosֿ¹\(.md)
+*   [tan(](tan\(.md)
+*   [tanֿ¹(](tanֿ¹\(.md)
 
 ## History
 | Calculator | OS Version | Description |

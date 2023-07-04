@@ -63,11 +63,11 @@ eval(2.0-3.0    //returns "‾1"
 eval(.0001234   //returns "1.234ᴇ‾4"
 ```
 
-<tt>eval(</tt> has more limitations than the <tt><a href="/tostring">toString(</a></tt> command. It cannot handle lists, matrices, or complex numbers (even when the imaginary part of the complex number is zero). Another difference from <tt>toString(</tt> is that <tt>eval(</tt> is unaffected by display mode changes like <tt><a href="/fix">Fix</a></tt>.
+<tt>eval(</tt> has more limitations than the <tt><a href="toString(.md">toString(</a></tt> command. It cannot handle lists, matrices, or complex numbers (even when the imaginary part of the complex number is zero). Another difference from <tt>toString(</tt> is that <tt>eval(</tt> is unaffected by display mode changes like <tt><a href="Fix.md">Fix</a></tt>.
 
 ## Advanced Uses
 
-Use <tt>eval(</tt> in conjunction with <tt><a href="/expr">expr(</a></tt> to evaluate a real expression in a string and return the answer in a string.
+Use <tt>eval(</tt> in conjunction with <tt><a href="expr(.md">expr(</a></tt> to evaluate a real expression in a string and return the answer in a string.
 
 ```ti-basic
 3.14->X
@@ -77,13 +77,13 @@ eval(expr("2X+3
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown when the expression contains a list, matrix, imaginary number, or string.
-*   **[ERR:SYNTAX](/errors#syntax)** is thrown when trying to evaluate a command that doesn't return a value.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown when the expression contains a list, matrix, imaginary number, or string.
+*   **[ERR:SYNTAX](errors#syntax)** is thrown when trying to evaluate a command that doesn't return a value.
 
 ## Related Commands
 
-*   [toString(](/tostring)
-*   [expr(](/expr)
+*   [toString(](toString\(.md)
+*   [expr(](expr\(.md)
 
 ## History
 | Calculator | OS Version | Description |

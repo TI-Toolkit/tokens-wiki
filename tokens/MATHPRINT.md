@@ -19,7 +19,7 @@ Displays most entries and answers the way they are displayed in textbooks, such 
 <tt><kbd><b>mode</b></kbd></tt>
 <hr>
 
-MATHPRINT will put the calculator into Mathprint mode as opposed to Classic mode. In MathPrint mode, enhanced homescreen input formatting is available. The Classic mode will make the calculator display everything as a calculator of lower OS would, including input. For instance, rather than superscripting exponents as Mathprint mode would, Classic mode uses the simple caret syntax ([^](/power)).
+MATHPRINT will put the calculator into Mathprint mode as opposed to Classic mode. In MathPrint mode, enhanced homescreen input formatting is available. The Classic mode will make the calculator display everything as a calculator of lower OS would, including input. For instance, rather than superscripting exponents as Mathprint mode would, Classic mode uses the simple caret syntax ([^](power)).
 
 _Mathprint mode_:  
 2<sup>4</sup>  
@@ -33,7 +33,7 @@ When in Mathprint mode, text and numbers are displayed much slower than classic 
 
 ## Related Commands
 
-*   [CLASSIC](/classic-mode)
+*   [CLASSIC](CLASSIC.md)
 
 ## History
 | Calculator | OS Version | Description |

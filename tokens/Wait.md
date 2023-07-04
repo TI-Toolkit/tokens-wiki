@@ -53,7 +53,7 @@ TI-Innovator™ Hub
 
 <hr>
 
-The Wait command was introduced in TI-OS 5.2 for the TI-84+CE. The Wait command tells the calculator to wait for a specified number of seconds before continuing. The specified amount of seconds can be a decimal, as it is not limited to whole numbers. This command can be useful for displaying information momentarily before proceeding in a program. The Wait command functions similarly to the [Pause](/pause) command, but without the extra arguments.
+The Wait command was introduced in TI-OS 5.2 for the TI-84+CE. The Wait command tells the calculator to wait for a specified number of seconds before continuing. The specified amount of seconds can be a decimal, as it is not limited to whole numbers. This command can be useful for displaying information momentarily before proceeding in a program. The Wait command functions similarly to the [Pause](Pause.md) command, but without the extra arguments.
 
 ```ti-basic
 :Disp "WAIT FOR IT!
@@ -63,9 +63,9 @@ The Wait command was introduced in TI-OS 5.2 for the TI-84+CE. The Wait command 
 
 ## Advanced Uses
 
-The Wait command is useful for facilitating automatic linking within programs. Since the [Get(](/get) and [GetCalc(](/getcalc) commands only work when the sending calculator is in a preemptible state, including a small Wait delay will allow the other calculator to receive data.
+The Wait command is useful for facilitating automatic linking within programs. Since the [Get(](Get\(.md) and [GetCalc(](GetCalc\(.md) commands only work when the sending calculator is in a preemptible state, including a small Wait delay will allow the other calculator to receive data.
 
-Because the Wait command is relatively new, it may be advisable to avoid using it to ensure compatibility with older operating systems. Similar functionality can be achieved with the second optional argument to the [Pause](/pause) command.
+Because the Wait command is relatively new, it may be advisable to avoid using it to ensure compatibility with older operating systems. Similar functionality can be achieved with the second optional argument to the [Pause](Pause.md) command.
 
 ## Optimization
 
@@ -79,12 +79,12 @@ can be
 
 ## Error Conditions
 
-*   **[ERROR: INVALID](/errors#invalid)** is thrown if the Wait command is executed on the home screen.
+*   **[ERROR: INVALID](errors#invalid)** is thrown if the Wait command is executed on the home screen.
 
 ## Related Commands
 
-*   [Pause](/pause)
-*   [Menu(](/menu)
+*   [Pause](Pause.md)
+*   [Menu(](Menu\(.md)
 
 ## History
 | Calculator | OS Version | Description |

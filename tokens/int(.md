@@ -40,13 +40,13 @@ int(‾4/5)
                ‾1
 ```
 
-The difference between <tt><a href="/ipart">iPart(</a></tt> and <tt>int(</tt> is subtle, and many people aren't even aware of it, but it exists. Whereas <tt>iPart(</tt> always truncates its parameters, simply removing the fractional part, <tt>int(</tt> always rounds down. This means that they return the same answers for positive numbers, but <tt>int(</tt> will return an answer 1 less than <tt>iPart(</tt> for (non-integer) negative numbers. For example, <tt>iPart(-5.32)</tt> is -5, while <tt>int(-5.32)</tt> is -6.
+The difference between <tt><a href="iPart(.md">iPart(</a></tt> and <tt>int(</tt> is subtle, and many people aren't even aware of it, but it exists. Whereas <tt>iPart(</tt> always truncates its parameters, simply removing the fractional part, <tt>int(</tt> always rounds down. This means that they return the same answers for positive numbers, but <tt>int(</tt> will return an answer 1 less than <tt>iPart(</tt> for (non-integer) negative numbers. For example, <tt>iPart(-5.32)</tt> is -5, while <tt>int(-5.32)</tt> is -6.
 
-Most of the time, however, you're dealing with only positive numbers anyway. In this case, the decision to use <tt>iPart(</tt> or <tt>int(</tt> is mostly a matter of preference - some people use <tt>int(</tt> because it is shorter; some use <tt>iPart(</tt> when there is a corresponding <tt><a href="/fpart">fPart(</a></tt> taken. However, if speed is a consideration, one should check the Command Timings section.
+Most of the time, however, you're dealing with only positive numbers anyway. In this case, the decision to use <tt>iPart(</tt> or <tt>int(</tt> is mostly a matter of preference - some people use <tt>int(</tt> because it is shorter; some use <tt>iPart(</tt> when there is a corresponding <tt><a href="fPart(.md">fPart(</a></tt> taken. However, if speed is a consideration, one should check the Command Timings section.
 
 ## Advanced Uses
 
-<tt>int(</tt>, along with <tt><a href="/ipart">iPart(</a></tt> and <tt><a href="/fpart">fPart(</a></tt>, can be used for integer [compression](/compression).
+<tt>int(</tt>, along with <tt><a href="iPart(.md">iPart(</a></tt> and <tt><a href="fPart(.md">fPart(</a></tt>, can be used for integer [compression](compression.md).
 
 ## Command Timings
 
@@ -96,13 +96,13 @@ Conclusion: <tt>int(</tt> scales with the length of its input while <tt>iPart(</
 
 ## Related Commands
 
-*   <tt><a href="/ipart">iPart(</a></tt>
-*   <tt><a href="/fpart">fPart(</a></tt>
-*   <tt><a href="/round">round(</a></tt>
+*   <tt><a href="iPart(.md">iPart(</a></tt>
+*   <tt><a href="fPart(.md">fPart(</a></tt>
+*   <tt><a href="round(.md">round(</a></tt>
 
 ## See Also
 
-*   [Compression](/compression)
+*   [Compression](Compression.md)
 
 ## History
 | Calculator | OS Version | Description |

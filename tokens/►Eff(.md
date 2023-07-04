@@ -48,11 +48,11 @@ Here, Eff is the effective rate, Nom is the nominal rate, and CP is the number o
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if the number of compounding periods is not positive, or if the nominal rate is -100% or lower (an exception's made for the nominal rate if there is only one compounding period, since <tt>►Eff(</tt>X,1<tt>)</tt>=X)
+*   **[ERR:DOMAIN](errors#domain)** is thrown if the number of compounding periods is not positive, or if the nominal rate is -100% or lower (an exception's made for the nominal rate if there is only one compounding period, since <tt>►Eff(</tt>X,1<tt>)</tt>=X)
 
 ## Related Commands
 
-*   <tt><a href="/nom">►Nom(</a></tt>
+*   <tt><a href="►Nom(.md">►Nom(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

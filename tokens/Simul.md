@@ -19,13 +19,13 @@ Sets mode to graph functions simultaneously.
 <tt><kbd><b>mode</b></kbd></tt>, `Simul`
 <hr>
 
-Simul puts the calculator into simultaneous graphing mode. When multiple equations are enabled at the same time, simultaneous graphing mode graphs them at the same time (as opposed to [Sequential](/sequential) mode, in which they will be graphed one after the other)
+Simul puts the calculator into simultaneous graphing mode. When multiple equations are enabled at the same time, simultaneous graphing mode graphs them at the same time (as opposed to [Sequential](Sequential.md) mode, in which they will be graphed one after the other)
 
 If you use a list in an equation, as with Y1={1,2,3}X, this will graph several equations that will always graph separately, regardless of this setting, which only affects multiple functions in different equation variables.
 
 ## Related Commands
 
-*   [Sequential](/sequential)
+*   [Sequential](Sequential.md)
 
 ## History
 | Calculator | OS Version | Description |

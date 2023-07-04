@@ -32,11 +32,11 @@ The <tt>a+b𝑖</tt> command puts the calculator into rectangular complex number
 *   Taking square roots of negative numbers, and similar operations, no longer returns an error.
 *   Complex results are displayed in the form <tt>a+b𝑖</tt> (hence the name of the command)
 
-This is the standard way of displaying complex numbers, though they can also be displayed in polar form (see <tt><a href="/re-thetai">re^θi</a></tt> for more details). To extract the coefficients a and b, use the <tt><a href="/real-func">real(</a></tt> and <tt><a href="/imag">imag(</a></tt> commands.
+This is the standard way of displaying complex numbers, though they can also be displayed in polar form (see <tt><a href="re^θ𝑖.md">re^θ𝑖</a></tt> for more details). To extract the coefficients a and b, use the <tt><a href="real(.md">real(</a></tt> and <tt><a href="imag(.md">imag(</a></tt> commands.
 
 ## Advanced Uses
 
-Rather than switch to a+b𝑖 mode, you might want to force the calculations to use complex numbers by making the original argument complex. The general way to do this is by adding +0𝑖 to the number. However, there may be an optimization in any particular case. See the [quadratic formula](/quadratic-formula) routine for a good example of this.
+Rather than switch to a+b𝑖 mode, you might want to force the calculations to use complex numbers by making the original argument complex. The general way to do this is by adding +0𝑖 to the number. However, there may be an optimization in any particular case. See the [quadratic formula](quadratic-formula) routine for a good example of this.
 
 ```ti-basic
 Real
@@ -49,12 +49,12 @@ Real
 
 ## Related Commands
 
-*   <tt><a href="/real-mode">Real</a></tt>
-*   <tt><a href="/re-thetai">re^θi</a></tt>
+*   <tt><a href="Real.md">Real</a></tt>
+*   <tt><a href="re^θ𝑖.md">re^θ𝑖</a></tt>
 
 ## See Also
 
-*   [Quadratic Formula](/quadratic-formula)
+*   [Quadratic Formula](Quadratic Formula.md)
 
 ## History
 | Calculator | OS Version | Description |

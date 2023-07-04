@@ -25,13 +25,13 @@ It's not recommended to use this in most programs, because entering an empty win
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this command is used outside a program.
-*   **[ERR:ZOOM](/errors#zoom)** is thrown if an empty window is selected (with no width or no height)
+*   **[ERR:INVALID](errors#invalid)** occurs if this command is used outside a program.
+*   **[ERR:ZOOM](errors#zoom)** is thrown if an empty window is selected (with no width or no height)
 
 ## Related Commands
 
-*   [Zoom In](/zoom-in)
-*   [Zoom Out](/zoom-out)
+*   [Zoom In](Zoom In.md)
+*   [Zoom Out](Zoom Out.md)
 
 ## History
 | Calculator | OS Version | Description |

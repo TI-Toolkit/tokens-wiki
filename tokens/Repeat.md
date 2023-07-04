@@ -45,11 +45,11 @@ When using Repeat loops, you have to provide the code to break out of the loop (
 :End
 ```
 
-Each time the program enters a Repeat block, the calculator uses 35+(size of the condition) bytes of memory to keep track of this. This memory is given back to you as soon as the program reaches End. This isn't really a problem unless you're low on RAM, or have a lot of nested Repeat statements. However, if you use [Goto](/goto) to jump out of a Repeat block, you lose those bytes for as long as the program is running — and if you keep doing this, you might easily run out of memory, resulting in [ERR:MEMORY](/errors#memory).
+Each time the program enters a Repeat block, the calculator uses 35+(size of the condition) bytes of memory to keep track of this. This memory is given back to you as soon as the program reaches End. This isn't really a problem unless you're low on RAM, or have a lot of nested Repeat statements. However, if you use [Goto](Goto.md) to jump out of a Repeat block, you lose those bytes for as long as the program is running — and if you keep doing this, you might easily run out of memory, resulting in [ERR:MEMORY](errors#memory).
 
 ## Optimization
 
-The [Ans](/ans) variable (last answer) is a temporary variable that can hold any variable. Ans is changed when there is an expression or variable storage or when pausing with the [Pause](/pause) command. It is mostly useful when you are just manipulating one variable. To use Ans just put an expression on a line by itself; it will automatically be stored to Ans. You can then change the expressions on the next line where the variable was called and put Ans there instead.
+The [Ans](Ans.md) variable (last answer) is a temporary variable that can hold any variable. Ans is changed when there is an expression or variable storage or when pausing with the [Pause](Pause.md) command. It is mostly useful when you are just manipulating one variable. To use Ans just put an expression on a line by itself; it will automatically be stored to Ans. You can then change the expressions on the next line where the variable was called and put Ans there instead.
 
 Because Repeat loops are executed at least once, you can sometimes put Ans in the condition instead of the variable.
 
@@ -65,7 +65,7 @@ can be
 
 ## Command Timings
 
-When deciding whether to use a Repeat loop, as opposed to a For or While loop, it's good to know how Repeat loops stack up against them. This comparison comes from the [Code Timings](/timings) page showing the speeds of the three different kinds of loops:
+When deciding whether to use a Repeat loop, as opposed to a For or While loop, it's good to know how Repeat loops stack up against them. This comparison comes from the [Code Timings](timings) page showing the speeds of the three different kinds of loops:
 
 Format
 
@@ -102,13 +102,13 @@ The general conclusion you can take away from this table is that For( loops shou
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
 
 ## Related Commands
 
-*   [For(](/for)
-*   [While](/while)
-*   [If](/if)
+*   [For(](For\(.md)
+*   [While](While.md)
+*   [If](If.md)
 
 ## History
 | Calculator | OS Version | Description |

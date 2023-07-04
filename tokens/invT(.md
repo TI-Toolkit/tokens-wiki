@@ -42,7 +42,7 @@ Computes the inverse cumulative student-t probability function specified by degr
 
 ## Formulas
 
-Unlike the <tt><a href="/tpdf">tpdf(</a></tt> and <tt><a href="/tcdf">tcdf(</a></tt> commands, the invT( command does not have a closed-form formula. However, it can be expressed in terms of the inverse incomplete beta function.
+Unlike the <tt><a href="tpdf(.md">tpdf(</a></tt> and <tt><a href="tcdf(.md">tcdf(</a></tt> commands, the invT( command does not have a closed-form formula. However, it can be expressed in terms of the inverse incomplete beta function.
 
 For one degree of freedom, <tt>invT(</tt> is expressible in terms of simpler functions:
 
@@ -50,9 +50,9 @@ For one degree of freedom, <tt>invT(</tt> is expressible in terms of simpler fun
 
 ## Related Commands
 
-*   <tt><a href="/tpdf">tpdf(</a></tt>
-*   <tt><a href="/tcdf">tcdf(</a></tt>
-*   <tt><a href="/shade-t">Shade_t(</a></tt>
+*   <tt><a href="tpdf(.md">tpdf(</a></tt>
+*   <tt><a href="tcdf(.md">tcdf(</a></tt>
+*   <tt><a href="Shade_t(.md">Shade_t(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

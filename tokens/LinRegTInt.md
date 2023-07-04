@@ -35,7 +35,7 @@ Performs a linear regression and computes the t confidence interval for the slop
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `G:LinRegTInt`
 <hr>
 
-Like [LinReg(ax+b)](/linreg-ax-b) and similar commands, LinRegTInt finds the best fit line through a set of points. However, LinRegTInt adds another method of checking the quality of the fit, by calculating a t confidence interval for the slope b. If the confidence interval calculated contains zero, the data supplied is insufficient to conclude a linear relation between the variables.
+Like [LinReg(ax+b)](linreg-ax-b) and similar commands, LinRegTInt finds the best fit line through a set of points. However, LinRegTInt adds another method of checking the quality of the fit, by calculating a t confidence interval for the slope b. If the confidence interval calculated contains zero, the data supplied is insufficient to conclude a linear relation between the variables.
 
 To use LinRegTInt, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points. You do not have to do the regression on L₁ and L₂, but if you don't you'll have to enter the names of the lists after the command.
 
@@ -76,7 +76,7 @@ LinRegTInt
     r=.9948497512
 ```
 
-(the last two lines will only appear if diagnostics have been turned on - see [DiagnosticOn](/diagnosticon))
+(the last two lines will only appear if diagnostics have been turned on - see [DiagnosticOn](DiagnosticOn.md))
 
 *   The first line shows the confidence interval containing the slope of the fitted line; as mentioned above, if the interval contains 0, it cannot be concluded that the two variables have a linear relationship. Also, the smaller the difference between the two numbers, the more precision that can be attributed to the calculated slope.
 *   df is the degrees of freedom, equal to the number of points minus two.
@@ -86,11 +86,11 @@ LinRegTInt
 
 ## Related Commands
 
-*   [LinReg(ax+b)](/linreg-ax-b)
-*   [LinReg(a+bx)](/linreg-a-bx)
-*   [LinRegTTest](/linregttest)
-*   [Manual-Fit](/manual-fit)
-*   [Med-Med](/med-med)
+*   [LinReg(ax+b)](linreg-ax-b)
+*   [LinReg(a+bx)](linreg-a-bx)
+*   [LinRegTTest](LinRegTTest.md)
+*   [Manual-Fit](Manual-Fit.md)
+*   [Med-Med](Med-Med.md)
 
 ## History
 | Calculator | OS Version | Description |

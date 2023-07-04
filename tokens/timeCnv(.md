@@ -27,7 +27,7 @@ Converts seconds to units of time that can be more easily understood for evaluat
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `timeCnv`
 <hr>
 
-The timeCnv( command converts seconds into the equivalent days, hours, minutes, and seconds. You just specify a number of seconds (should be a whole number, although a decimal number would work too; the calculator will simply use the integer part and discard the decimal) and the calculator will automatically break the seconds up into the standard parts of time, storing them in [list](/lists) format — {_days_,_hours_,_minutes_,_seconds_}. You can [store](/store) this list to a variable for later use, or manipulate it the same way you do with other lists.
+The timeCnv( command converts seconds into the equivalent days, hours, minutes, and seconds. You just specify a number of seconds (should be a whole number, although a decimal number would work too; the calculator will simply use the integer part and discard the decimal) and the calculator will automatically break the seconds up into the standard parts of time, storing them in [list](lists) format — {_days_,_hours_,_minutes_,_seconds_}. You can [store](store.md) this list to a variable for later use, or manipulate it the same way you do with other lists.
 
 The number of seconds you specify can be as small or large as you want, although the number must be at least zero (in which case, the time list will be all zeroes). At the same time, you will run into the standard number precision problems that plague TI-Basic when specifying an extremely large or small number. Because of this, you should try to use numbers with less than 10 digits. Here is a simple example, where the time is exactly 1 day, 1 hour, 1 minute, and 1 second:
 
@@ -40,8 +40,8 @@ The time conversion is 60 seconds for a minute, 3600 (60*60) seconds for an hour
 
 ## Related Commands
 
-*   [getTime](/gettime)
-*   [getDate](/getdate)
+*   [getTime](getTime.md)
+*   [getDate](getDate.md)
 
 ## History
 | Calculator | OS Version | Description |

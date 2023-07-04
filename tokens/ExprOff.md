@@ -23,9 +23,9 @@ The <tt>ExprOff</tt> command enables a "short" form of displaying the equation o
 
 ## Related Commands
 
-*   <tt><a href="/expron">ExprOn</a></tt>
-*   <tt><a href="/coordon">CoordOn</a></tt>
-*   <tt><a href="/coordoff">CoordOff</a></tt>
+*   <tt><a href="ExprOn.md">ExprOn</a></tt>
+*   <tt><a href="CoordOn.md">CoordOn</a></tt>
+*   <tt><a href="CoordOff.md">CoordOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

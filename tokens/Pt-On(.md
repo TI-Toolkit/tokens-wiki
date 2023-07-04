@@ -34,7 +34,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `1:Pt-On(`
 <hr>
 
-The Pt-On( command is used to draw a point on the graph screen at the given (X,Y) coordinates. Pt-On( is affected by the [window settings](/system-variables#window) Xmin, Xmax, Ymin, and Ymax. Make sure to change these accordingly when using it in a program, otherwise, you don't know where the point will show up.
+The Pt-On( command is used to draw a point on the graph screen at the given (X,Y) coordinates. Pt-On( is affected by the [window settings](system-variables#window) Xmin, Xmax, Ymin, and Ymax. Make sure to change these accordingly when using it in a program, otherwise, you don't know where the point will show up.
 
 ## Advanced Uses
 
@@ -55,9 +55,9 @@ should be
 
 ## Related Commands
 
-*   [Pt-Off(](/pt-off)
-*   [Pt-Change(](/pt-change)
-*   [Pxl-On(](/pxl-on)
+*   [Pt-Off(](Pt-Off\(.md)
+*   [Pt-Change(](Pt-Change\(.md)
+*   [Pxl-On(](Pxl-On\(.md)
 
 ## History
 | Calculator | OS Version | Description |

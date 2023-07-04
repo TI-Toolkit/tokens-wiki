@@ -19,11 +19,11 @@ Returns the key code for the current keystroke, or `0`, if no key is pressed.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `7:getKey`
 <hr>
 
-The <tt>getKey</tt> command returns the value of the last key pressed since the last time <tt>getKey</tt> was executed. Reading key presses with <tt>getKey</tt> allows a program to transfer control to the user, and you can combine <tt>getKey</tt> with other commands to create [menus](/custommenus), [movement](/movement), or whatever else you want.
+The <tt>getKey</tt> command returns the value of the last key pressed since the last time <tt>getKey</tt> was executed. Reading key presses with <tt>getKey</tt> allows a program to transfer control to the user, and you can combine <tt>getKey</tt> with other commands to create [menus](custommenus), [movement](movement.md), or whatever else you want.
 
-Every key has a number assigned to it, except for ON (which is used for breaking out of programs). The numbering system consists of a row and column: the rows go from one to ten, starting at the top; and the columns go from one to six, starting from the left. You just put the row and column together to get the key's number — for example, the ENTER key is located in row 10, column 5, making its value 105. The arrow keys look like they would be numbered separately from the other keys, but they actually follow this pattern as well. See the [key codes](/key-codes) page for a picture of the key codes on the calculator.
+Every key has a number assigned to it, except for ON (which is used for breaking out of programs). The numbering system consists of a row and column: the rows go from one to ten, starting at the top; and the columns go from one to six, starting from the left. You just put the row and column together to get the key's number — for example, the ENTER key is located in row 10, column 5, making its value 105. The arrow keys look like they would be numbered separately from the other keys, but they actually follow this pattern as well. See the [key codes](key-codes) page for a picture of the key codes on the calculator.
 
-The value of <tt>getKey</tt> is cleared every time you read from it, until a new key is pressed. For this reason, except in very rare cases, you do not want to use the value of <tt>getKey</tt> in an expression directly, but store it to a [variable](/variables) first. It is also common to use <tt>getKey</tt> inside of a <tt><a href="/repeat">Repeat</a></tt> loop, so that the program can wait for the user to press a key.
+The value of <tt>getKey</tt> is cleared every time you read from it, until a new key is pressed. For this reason, except in very rare cases, you do not want to use the value of <tt>getKey</tt> in an expression directly, but store it to a [variable](variables) first. It is also common to use <tt>getKey</tt> inside of a <tt><a href="Repeat.md">Repeat</a></tt> loop, so that the program can wait for the user to press a key.
 
 ```ti-basic
 :Repeat Ans
@@ -47,22 +47,22 @@ Unlike the other keys, the arrow and DEL keys can actually be held down, which w
 
 * * *
 
-Sometimes your program may do something for several seconds without user input (say, playing an [animation](/animation)), then pause and wait for a key to be pressed. The problem is that if a key is pressed during the animation, the next <tt>getKey</tt> will return the value of that key, and any loop set up to wait for a key press will exit immediately. The solution is to run a "dummy" <tt>getKey</tt> just before the loop begins — its value won't be used for anything, and it will reset the value of <tt>getKey</tt> to 0. This can also be used to clear keypresses meant for loading programs from inside a [shell](/asmshells).
+Sometimes your program may do something for several seconds without user input (say, playing an [animation](animation.md)), then pause and wait for a key to be pressed. The problem is that if a key is pressed during the animation, the next <tt>getKey</tt> will return the value of that key, and any loop set up to wait for a key press will exit immediately. The solution is to run a "dummy" <tt>getKey</tt> just before the loop begins — its value won't be used for anything, and it will reset the value of <tt>getKey</tt> to 0. This can also be used to clear keypresses meant for loading programs from inside a [shell](asmshells).
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
 
 ## Related Commands
 
-*   <tt><a href="/input">Input</a></tt>
-*   <tt><a href="/prompt">Prompt</a></tt>
+*   <tt><a href="Input.md">Input</a></tt>
+*   <tt><a href="Prompt.md">Prompt</a></tt>
 
 ## See Also
 
-*   [Key Codes](/key-codes)
-*   [Custom Menus](/custommenus)
-*   [Movement in Maps](/movement)
+*   [Key Codes](Key Codes.md)
+*   [Custom Menus](Custom Menus.md)
+*   [Movement in Maps](Movement in Maps.md)
 
 ## History
 | Calculator | OS Version | Description |

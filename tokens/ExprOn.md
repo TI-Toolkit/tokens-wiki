@@ -27,9 +27,9 @@ When tracing a plot, the plot number is written, followed by the list or lists t
 
 ## Related Commands
 
-*   <tt><a href="/exproff">ExprOff</a></tt>
-*   <tt><a href="/coordon">CoordOn</a></tt>
-*   <tt><a href="/coordoff">CoordOff</a></tt>
+*   <tt><a href="ExprOff.md">ExprOff</a></tt>
+*   <tt><a href="CoordOn.md">CoordOn</a></tt>
+*   <tt><a href="CoordOff.md">CoordOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

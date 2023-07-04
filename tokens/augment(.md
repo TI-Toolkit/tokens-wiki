@@ -69,7 +69,7 @@ augment([[1][2]],[[3][4]
 
 ## Advanced Uses
 
-Use the <tt><sup><a href="/transpose">T</a></sup></tt> (transpose) command if you want to combine two matrices vertically, rather than horizontally. For example:
+Use the <tt><sup><a href="transpose">T</a></sup></tt> (transpose) command if you want to combine two matrices vertically, rather than horizontally. For example:
 
 ```ti-basic
 augment([[1,2]]T,[[3,4]]T)T
@@ -93,15 +93,15 @@ However, the following way is faster and more memory-efficient while the program
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if you try to augment a single number to a list, a common error — use {X instead of X.
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if you try to augment two matrices with a different number of rows.
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if one of the arguments is a list with dimension 0, or if the result would have dimension over 999 (for lists) or 99x99 (for matrices).
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if you try to augment a single number to a list, a common error — use {X instead of X.
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown if you try to augment two matrices with a different number of rows.
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if one of the arguments is a list with dimension 0, or if the result would have dimension over 999 (for lists) or 99x99 (for matrices).
 
 ## Related Commands
 
-*   <tt><a href="/dim">dim(</a></tt>
-*   <tt><a href="/seq-list">seq(</a></tt>
-*   <tt><sup><a href="/transpose">T</a></sup></tt> (transpose)
+*   <tt><a href="dim(.md">dim(</a></tt>
+*   <tt><a href="seq(.md">seq(</a></tt>
+*   <tt><sup><a href="transpose">T</a></sup></tt> (transpose)
 
 ## History
 | Calculator | OS Version | Description |

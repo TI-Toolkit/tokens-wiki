@@ -63,11 +63,11 @@ Since there are 7 days, there are 6 (one less) degrees of freedom. So the result
 
 The output will give a <tt>χ²</tt> of 10.32394366, and a p value of 0.1116563376. This is higher than 5%, so the test is not significant on a 95 percent level. It's perfectly possible, in other words, that the number of customers is independent of the day of week.
 
-(Note that in this case, if you suspected the number of customers to be higher on weekends, you could use a more sensitive test for only two categories: <tt><a href="/2-sampttest">2-SampTTest</a></tt>)
+(Note that in this case, if you suspected the number of customers to be higher on weekends, you could use a more sensitive test for only two categories: <tt><a href="2-SampTTest.md">2-SampTTest</a></tt>)
 
 ## Advanced Uses
 
-The <tt>χ²GOF-Test(</tt> command is only on TI-84 Plus and newer calculator models. However, it's possible to use the <tt><a href="/chisquarecdf">χ²cdf(</a></tt> command to simulate it on the other calculators: see the [χ² Goodness-of-fit Test](/goodness-of-fit) routine.
+The <tt>χ²GOF-Test(</tt> command is only on TI-84 Plus and newer calculator models. However, it's possible to use the <tt><a href="χ²cdf(.md">χ²cdf(</a></tt> command to simulate it on the other calculators: see the [χ² Goodness-of-fit Test](goodness-of-fit) routine.
 
 ## Formulas
 
@@ -75,20 +75,20 @@ The formula for calculating the test statistic is as follows (O<sub>i</sub> is t
 
 (1) $`\begin{align} \chi_{n-1}^2 = \sum_{i=1}^n \frac{(O_i-E_i)^2}{E_i} \end{align}`$ 
 
-The p-value, then, is the probability that the <tt>χ²</tt> statistic would be this high, using the <tt><a href="/chisquarecdf">χ²cdf(</a></tt> command with the appropriate value for degrees of freedom.
+The p-value, then, is the probability that the <tt>χ²</tt> statistic would be this high, using the <tt><a href="χ²cdf(.md">χ²cdf(</a></tt> command with the appropriate value for degrees of freedom.
 
 ## Error Conditions
 
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if the two lists are of different length.
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if they only have one element, or if _df_ is not a positive integer.
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown if the two lists are of different length.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if they only have one element, or if _df_ is not a positive integer.
 
 ## Related Commands
 
-*   <tt><a href="/chisquare-test">χ²-Test(</a></tt>
+*   <tt><a href="χ²-Test(.md">χ²-Test(</a></tt>
 
 ## See Also
 
-*   [χ² Goodness-of-fit Test](/goodness-of-fit)
+*   [χ² Goodness-of-fit Test](χ² Goodness-of-fit Test.md)
 
 ## History
 | Calculator | OS Version | Description |

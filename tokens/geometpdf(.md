@@ -64,9 +64,9 @@ For the trivial value of n=0, however, the above formula gives the incorrect val
 
 ## Related Commands
 
-*   <tt><a href="/binompdf">binompdf(</a></tt>
-*   <tt><a href="/binomcdf">binomcdf(</a></tt>
-*   <tt><a href="/geometcdf">geometcdf(</a></tt>
+*   <tt><a href="binompdf(.md">binompdf(</a></tt>
+*   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
+*   <tt><a href="geometcdf(.md">geometcdf(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

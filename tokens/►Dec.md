@@ -40,7 +40,7 @@ In 2.53 MP or higher, typed fractions are displayed in fraction form. Therefore,
 
 ## Related Commands
 
-*   <tt><a href="/frac">►Frac</a></tt>
+*   <tt><a href="►Frac.md">►Frac</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

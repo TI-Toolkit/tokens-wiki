@@ -38,7 +38,7 @@ can be
 
 ## Related Commands
 
-*   <tt><a href="http://tibasicdev.wikidot.com/backgroundon">BackgroundOn</a></tt>
+*   <tt><a href="BackgroundOn.md">BackgroundOn</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

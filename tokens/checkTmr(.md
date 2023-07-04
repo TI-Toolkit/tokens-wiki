@@ -27,9 +27,9 @@ Returns the number of seconds since you used `startTmr` to start the timer. The 
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `checkTmr(`
 <hr>
 
-The <tt>checkTmr(</tt> command is used together with the <tt><a href="/starttmr">startTmr</a></tt> command to determine how much time has elapsed since the timer was started on the TI-84+/SE calculators. In particular, it returns the number of seconds since the built-in timer was started. An application of these commands is [timing](/timings) different commands or pieces of code, as well as countdowns in games, or a time-based score (such as in Minesweeper).
+The <tt>checkTmr(</tt> command is used together with the <tt><a href="startTmr.md">startTmr</a></tt> command to determine how much time has elapsed since the timer was started on the TI-84+/SE calculators. In particular, it returns the number of seconds since the built-in timer was started. An application of these commands is [timing](timings) different commands or pieces of code, as well as countdowns in games, or a time-based score (such as in Minesweeper).
 
-To use the timer, you first store <tt>startTmr</tt> to a [variable](/variables) (usually, a real variable) whenever you want the count to start. Now, whenever you want to check the elapsed time, you can use checkTmr( with the variable from above, giving you the number of seconds that have passed. Using <tt>checkTmr(</tt> doesn't stop the timer, you can do it as many times as you want to.
+To use the timer, you first store <tt>startTmr</tt> to a [variable](variables) (usually, a real variable) whenever you want the count to start. Now, whenever you want to check the elapsed time, you can use checkTmr( with the variable from above, giving you the number of seconds that have passed. Using <tt>checkTmr(</tt> doesn't stop the timer, you can do it as many times as you want to.
 
 In the case of Minesweeper, for example, you would store <tt>startTmr</tt> to, for example, <tt>T</tt>, after setting up and displaying the board, display the result of <tt>checkTmr(T)</tt> in the game's key-reading loop, and store <tt>checkTmr(T)</tt> to the player's score if he wins.
 
@@ -48,7 +48,7 @@ To time a command or routine using <tt>startTmr</tt> and <tt>checkTmr(</tt>, use
 :checkTmr(T+1)/(number)
 ```
 
-Making (number) higher increases accuracy, but takes longer. Also, make sure not to modify the variables <tt><em>n</em></tt> or <tt>T</tt> inside the <tt><a href="/for">For(</a></tt> loop.
+Making (number) higher increases accuracy, but takes longer. Also, make sure not to modify the variables <tt><em>n</em></tt> or <tt>T</tt> inside the <tt><a href="For(.md">For(</a></tt> loop.
 
 While this method eliminates human error from counting, it's prone to its own faults. For example, <tt>startTmr</tt> and <tt>checkTmr(</tt> always return the time rounded down to a whole second. To take this into account, replace the last line:
 
@@ -56,11 +56,11 @@ While this method eliminates human error from counting, it's prone to its own fa
 :(checkTmr(T+{1,0})/(number)
 ```
 
-When testing code, be aware that many different things affect the time: the strength of the batteries, the amount of free RAM, and including the closing parenthesis on the For( loop. The last one, in particular, has an impact when using a single-line <tt><a href="/if">If</a></tt> statement or one of the <tt><a href="/is">IS&gt;(</a></tt> and <tt><a href="/ds">DS&lt;(</a></tt> commands on the first line inside a For( loop.
+When testing code, be aware that many different things affect the time: the strength of the batteries, the amount of free RAM, and including the closing parenthesis on the For( loop. The last one, in particular, has an impact when using a single-line <tt><a href="If.md">If</a></tt> statement or one of the <tt><a href="IS(.md">IS&gt;(</a></tt> and <tt><a href="DS(.md">DS&lt;(</a></tt> commands on the first line inside a For( loop.
 
 ## Related Commands
 
-*   <tt><a href="/starttmr">startTmr</a></tt>
+*   <tt><a href="startTmr.md">startTmr</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

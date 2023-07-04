@@ -59,12 +59,12 @@ List►matr({1,2,3},{10},{100,200},[A]
 
 ## Error Conditions
 
-*   **[ERR:ARGUMENT](/errors#argument)** is thrown if there are more than 99 lists (since a matrix can be at most 99x99)
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if one of the lists is longer than 99 elements (since a matrix can be at most 99x99)
+*   **[ERR:ARGUMENT](errors#argument)** is thrown if there are more than 99 lists (since a matrix can be at most 99x99)
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if one of the lists is longer than 99 elements (since a matrix can be at most 99x99)
 
 ## Related Commands
 
-*   [Matr►list(](/matr-list)
+*   [Matr►list(](Matr►list\(.md)
 
 ## History
 | Calculator | OS Version | Description |

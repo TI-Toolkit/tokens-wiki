@@ -90,7 +90,7 @@ L1
 
 ## Advanced Uses
 
-While the command deals with columns, occasionally you might want to store the matrix to lists by rows. The <sup><a href="/transpose">T</a></sup> (transpose) command is your friend here: applying it to the matrix will flip it diagonally, so that all rows will become columns and vice-versa. For example:
+While the command deals with columns, occasionally you might want to store the matrix to lists by rows. The <sup><a href="transpose">T</a></sup> (transpose) command is your friend here: applying it to the matrix will flip it diagonally, so that all rows will become columns and vice-versa. For example:
 
 [[11,12,13,14][21,22,23,24][31,32,33,34  
          [[11 12 13 14]  
@@ -123,8 +123,8 @@ can be
 
 ## Related Commands
 
-*   [List►matr(](/list-matr)
-*   <sup>T</sup> ([transpose](/transpose))
+*   [List►matr(](List►matr\(.md)
+*   <sup>T</sup> ([transpose](transpose.md))
 
 ## History
 | Calculator | OS Version | Description |

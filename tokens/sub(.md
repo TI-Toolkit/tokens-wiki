@@ -55,11 +55,11 @@ If only one argument is given, and it contains an expression that evaluates to a
     {3/100+1/20i,-1/25i}
 ```
 
-Much like the use of the [%](/percent) symbol, this is an undocumented feature that was introduced in OS version 1.15. Thus, care should be taken when using sub( in this way, as older versions will not support it.
+Much like the use of the [%](percent) symbol, this is an undocumented feature that was introduced in OS version 1.15. Thus, care should be taken when using sub( in this way, as older versions will not support it.
 
 * * *
 
-Together with the [inString(](/instring) command, sub( can be used to store a "list of strings" in a string, that you can then get each individual string from. To do this, think of a delimiter, such as a comma, to separate each individual string in the "list" (the delimiter must never occur in an individual string). The code will be simpler if the delimiter also occurs at the end of the string, as in "CAT,DOG,RAT,FISH,".
+Together with the [inString(](inString\(.md) command, sub( can be used to store a "list of strings" in a string, that you can then get each individual string from. To do this, think of a delimiter, such as a comma, to separate each individual string in the "list" (the delimiter must never occur in an individual string). The code will be simpler if the delimiter also occurs at the end of the string, as in "CAT,DOG,RAT,FISH,".
 
 This routine will display each string in a "list of strings". You can adapt it to your own needs.
 
@@ -101,17 +101,17 @@ You can use this command as a number to character converter, too, as shown:
 
 ## Error Conditions
 
-*   **[ERR:ARCHIVED](/errors#archived)** is thrown if you try to take the substring of an archived string.
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if the starting and/or length value is less than 1, or if it is not an integer.
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if the starting and/or length value is beyond the length of the string.
-*   **[ERR:UNDEFINED](/errors#undefined)** is thrown if you try to take the substring of a non-existent string.
+*   **[ERR:ARCHIVED](errors#archived)** is thrown if you try to take the substring of an archived string.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if the starting and/or length value is less than 1, or if it is not an integer.
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if the starting and/or length value is beyond the length of the string.
+*   **[ERR:UNDEFINED](errors#undefined)** is thrown if you try to take the substring of a non-existent string.
 
 ## Related Commands
 
-*   [%](/percent)
-*   [expr(](/expr)
-*   [inString(](/instring)
-*   [length(](/length)
+*   [%](%.md)
+*   [expr(](expr\(.md)
+*   [inString(](inString\(.md)
+*   [length(](length\(.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -55,12 +55,12 @@ Now the <tt>DispGraph</tt> inside the loop ensures that the graph screen is upda
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
 
 ## Related Commands
 
-*   <tt><a href="/disp">Disp</a></tt>
-*   <tt><a href="/disptable">DispTable</a></tt>
+*   <tt><a href="Disp.md">Disp</a></tt>
+*   <tt><a href="DispTable.md">DispTable</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

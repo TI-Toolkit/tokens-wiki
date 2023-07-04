@@ -38,15 +38,15 @@ R►Pθ(3,4)
 
 When writing a complex number _z_ in the form $re^{i\theta}$ (or, equivalently, $r(\cos\theta+i\sin\theta)$), then $\theta$ is equal to the value of <tt>angle(z)</tt>, suitably reduced so that the result returned is in the interval $-\pi<\theta\leq\pi$.
 
-The <tt>angle(</tt> command also works on [matrices](/matrices), though not in any useful way: <tt>angle(</tt>[A] will return a matrix of the same size as [A], but with all elements 0. If you plan to use this, **don't**: 0[A] does the same thing, but is smaller and not as questionable (because this behavior is clearly unintentional on TI's part, and may be changed in an OS update).
+The <tt>angle(</tt> command also works on [matrices](matrices.md), though not in any useful way: <tt>angle(</tt>[A] will return a matrix of the same size as [A], but with all elements 0. If you plan to use this, **don't**: 0[A] does the same thing, but is smaller and not as questionable (because this behavior is clearly unintentional on TI's part, and may be changed in an OS update).
 
 ## Related Commands
 
-*   <tt><a href="/abs">abs(</a></tt>
-*   <tt><a href="/conj">conj(</a></tt>
-*   <tt><a href="/real-func">real(</a></tt>
-*   <tt><a href="/imag">imag(</a></tt>
-*   <tt><a href="/r-ptheta">R►Pθ(</a></tt>
+*   <tt><a href="abs(.md">abs(</a></tt>
+*   <tt><a href="conj(.md">conj(</a></tt>
+*   <tt><a href="real(.md">real(</a></tt>
+*   <tt><a href="imag(.md">imag(</a></tt>
+*   <tt><a href="R►Pθ(.md">R►Pθ(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

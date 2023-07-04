@@ -36,7 +36,7 @@ The stdDev( command finds the sample standard deviation of a list, a measure of 
 :Disp "STD. DEV. OF L1",stdDev(L1
 ```
 
-Caution: the standard deviation found by this command is the **sample** standard deviation, not the **population** standard deviation, which is the one most commonly used when dealing with a sample rather than the whole population. The formula for population standard deviation is similar, but N-1 is replaced by N. There is no single command that will calculate population standard deviation for you, but [1-Var Stats](/1-var-stats) will return both (sample standard deviation, the one returned by stdDev(), is Sx, while population standard deviation is σx). You can also calculate population standard deviation of L1 with the following code:
+Caution: the standard deviation found by this command is the **sample** standard deviation, not the **population** standard deviation, which is the one most commonly used when dealing with a sample rather than the whole population. The formula for population standard deviation is similar, but N-1 is replaced by N. There is no single command that will calculate population standard deviation for you, but [1-Var Stats](1-var-stats) will return both (sample standard deviation, the one returned by stdDev(), is Sx, while population standard deviation is σx). You can also calculate population standard deviation of L1 with the following code:
 
 ```ti-basic
 :stdDev(augment(L1,{mean(L1
@@ -58,9 +58,9 @@ This is the formula for sample standard deviation. The formula for population st
 
 ## Related Commands
 
-*   [mean(](/mean)
-*   [median(](/median)
-*   [variance(](/variance)
+*   [mean(](mean\(.md)
+*   [median(](median\(.md)
+*   [variance(](variance\(.md)
 
 ## History
 | Calculator | OS Version | Description |

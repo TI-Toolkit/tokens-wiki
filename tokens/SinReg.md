@@ -39,7 +39,7 @@ SinReg tries to fit a sine wave to a given list of points. To use it, you must f
 
 ___
 
-SinReg requires that the lists contain at least 4 points. Also, if you do not provide two data points per cycle, the calculator may return a wrong answer. These conditions are an absolute minimum, and the command may fail to work even when they are met, and throw a [ERR:SINGULAR MAT](/errors#singularmat) error. This is also likely to happen if the data are not actually periodic in nature.
+SinReg requires that the lists contain at least 4 points. Also, if you do not provide two data points per cycle, the calculator may return a wrong answer. These conditions are an absolute minimum, and the command may fail to work even when they are met, and throw a [ERR:SINGULAR MAT](errors#singularmat) error. This is also likely to happen if the data are not actually periodic in nature.
 
 In addition, to use SinReg in its simplest form, the x-coordinates must be sorted in increasing order, and the difference between consecutive x-coordinates must be the same throughout (i.e., _x_<sub>𝑖+1</sub>-_x_<sub>𝑖</sub> should be the same for all i). You can then call SinReg with no arguments, and it will attempt to fit a sine wave to the data in L₁ and L₂:
 
@@ -49,9 +49,9 @@ In addition, to use SinReg in its simplest form, the x-coordinates must be sorte
 :SinReg
 ```
 
-On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, _y_=_a_*sin(_b__x_+_c_)+_d_, and the values of _a_, _b_, _c_ and _d_. It will also be stored in the RegEQ variable, but you will not be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables _a_, _b_, _c_, and _d_ will be set to the values computed as well. There are no correlation statistics available for SinReg even if Diagnostic Mode is turned on (see [DiagnosticOn](/diagnosticon) and [DiagnosticOff](/diagnosticoff)).
+On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, _y_=_a_*sin(_b__x_+_c_)+_d_, and the values of _a_, _b_, _c_ and _d_. It will also be stored in the RegEQ variable, but you will not be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables _a_, _b_, _c_, and _d_ will be set to the values computed as well. There are no correlation statistics available for SinReg even if Diagnostic Mode is turned on (see [DiagnosticOn](DiagnosticOn.md) and [DiagnosticOff](DiagnosticOff.md)).
 
-A word of caution: the calculator assumes that [Radian](/radian-mode) mode is enabled. If the calculator is set to [Degree](/degree-mode) mode, the equation will still be in terms of radians: it will be correct, but values plugged in will give wrong answers. You will have to either switch to Radian mode, or multiply the values of _b_ and _c_ by 180/π.
+A word of caution: the calculator assumes that [Radian](radian-mode) mode is enabled. If the calculator is set to [Degree](degree-mode) mode, the equation will still be in terms of radians: it will be correct, but values plugged in will give wrong answers. You will have to either switch to Radian mode, or multiply the values of _b_ and _c_ by 180/π.
 
 You do not have to do the regression on L₁ and L₂, in which case you'll have to enter the names of the lists after the command. For example:
 
@@ -81,13 +81,13 @@ The [Levenberg-Marquardt](http://en.wikipedia.org/wiki/Levenberg-Marquardt_algor
 
 ## Error Conditions
 
-*   **[ERR:SINGULAR MAT](/errors#singularmat)** is thrown if you don't provide the calculator at least 4 points, or two data points per cycle.
+*   **[ERR:SINGULAR MAT](errors#singularmat)** is thrown if you don't provide the calculator at least 4 points, or two data points per cycle.
 
 ## Related Commands
 
-*   [LinReg(ax+b)](/linreg-ax-b)
-*   [ExpReg](/expreg)
-*   [Logistic](/logistic)
+*   [LinReg(ax+b)](linreg-ax-b)
+*   [ExpReg](ExpReg.md)
+*   [Logistic](Logistic.md)
 
 ___
 

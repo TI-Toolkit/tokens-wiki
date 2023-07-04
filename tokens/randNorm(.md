@@ -31,7 +31,7 @@ Generates and displays a random real number from a specified Normal distribution
 <tt><kbd><b>math</b></kbd></tt>, `PRB`, `6:randNorm(`
 <hr>
 
-randNorm(_µ_,_σ_) generates a normally-distributed pseudorandom number with [mean](/mean) _µ_ and [standard deviation](/stddev) _σ_. The result returned will most probably be within the range _µ_±3_σ_. randNorm(_µ_,_σ_,_n_) generates a list of _n_ normally-distributed pseudorandom numbers with mean _µ_ and standard deviation _σ_.
+randNorm(_µ_,_σ_) generates a normally-distributed pseudorandom number with [mean](mean.md) _µ_ and [standard deviation](stddev) _σ_. The result returned will most probably be within the range _µ_±3_σ_. randNorm(_µ_,_σ_,_n_) generates a list of _n_ normally-distributed pseudorandom numbers with mean _µ_ and standard deviation _σ_.
 
 _seed_→rand affects the output of randNorm(.
 
@@ -48,11 +48,11 @@ Although a theoretical normally distributed variable could take on any real valu
 
 ## Optimization
 
-When the mean is 0 and the standard deviation 1, [invNorm(](/invnorm)rand) and invNorm(rand(N)) save space over randNorm(0,1) and randNorm(0,1,N) respectively.
+When the mean is 0 and the standard deviation 1, [invNorm(](invNorm\(.md)rand) and invNorm(rand(N)) save space over randNorm(0,1) and randNorm(0,1,N) respectively.
 
 ## Formulas
 
-The value of randNorm( for a given seed can be expressed in terms of [rand](/rand):
+The value of randNorm( for a given seed can be expressed in terms of [rand](rand.md):
 
 ```ti-basic
 randNorm(µ,σ)=µ-σinvNorm(rand
@@ -69,11 +69,11 @@ The following formula can be used to get a target interval where A and B are two
 
 ## Related Commands
 
-*   [rand](/rand)
-*   [randInt(](/randint)
-*   [randBin(](/randbin)
-*   [randM(](/randm)
-*   [randIntNoRep(](/randintnorep)
+*   [rand](rand.md)
+*   [randInt(](randInt\(.md)
+*   [randBin(](randBin\(.md)
+*   [randM(](randM\(.md)
+*   [randIntNoRep(](randIntNoRep\(.md)
 
 ## History
 | Calculator | OS Version | Description |

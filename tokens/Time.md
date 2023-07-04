@@ -19,9 +19,9 @@ Sets sequence graphs to plot with respect to time.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `Time`
 <hr>
 
-> **NOTE**: This article is about the Time setting for sequence graphing. If you're looking for the clock commands on the TI-84 Plus and TI-84 Plus SE, see [Time and Date Commands](/time-and-date).
+> **NOTE**: This article is about the Time setting for sequence graphing. If you're looking for the clock commands on the TI-84 Plus and TI-84 Plus SE, see [Time and Date Commands](time-and-date).
 
-The Time command sets equations in [sequence](/seq-mode) mode to graph as the points (_n_, u(_n_)) (for the u equation; (_n_, v(_n_)) and (_n_, w(_n_)) for the other two) - the default setting. In dot mode, only the points themselves will be plotted, but if you change the graphing style to connected line or thick line, the points will be connected.
+The Time command sets equations in [sequence](seq-mode) mode to graph as the points (_n_, u(_n_)) (for the u equation; (_n_, v(_n_)) and (_n_, w(_n_)) for the other two) - the default setting. In dot mode, only the points themselves will be plotted, but if you change the graphing style to connected line or thick line, the points will be connected.
 
 Essentially, this mode makes sequence graphs a limited version of function graphs, but with the possibility of recursion.
 
@@ -29,10 +29,10 @@ See "Related Commands" for other possibilities of graphing sequences.
 
 ## Related Commands
 
-*   [Web](/web)
-*   [uvAxes](/uvaxes)
-*   [uwAxes](/uwaxes)
-*   [vwAxes](/vwaxes)
+*   [Web](Web.md)
+*   [uvAxes](uvAxes.md)
+*   [uwAxes](uwAxes.md)
+*   [vwAxes](vwAxes.md)
 
 ## History
 | Calculator | OS Version | Description |

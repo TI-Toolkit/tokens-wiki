@@ -32,20 +32,20 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `POINTS`, `6:Pxl-Change(`
 <hr>
 
-The Pxl-Change( command is used to toggle the pixel at the given (Y,X) coordinates. If the pixel is on, it will be turned off and vice versa. Please note that the coordinates are switched around so that the row comes first and then the column — it's (Y,X) instead of (X,Y) like the [Pt-Change(](/pt-change) command. Also note that the row decreases as you go _up_ which can confuse users.
+The Pxl-Change( command is used to toggle the pixel at the given (Y,X) coordinates. If the pixel is on, it will be turned off and vice versa. Please note that the coordinates are switched around so that the row comes first and then the column — it's (Y,X) instead of (X,Y) like the [Pt-Change(](Pt-Change\(.md) command. Also note that the row decreases as you go _up_ which can confuse users.
 
 In addition to being easier to use because it is not affected by the window settings (meaning you don't have to set them when using the command), Pxl-Change( is faster than its equivalent Pt-Change( command, so it should generally be used instead whenever possible.
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is triggered if the coordinates are not whole numbers or not in the right range ([0..62] for row, [0..94] for column). These bounds are also affected by split screen mode.
+*   **[ERR:DOMAIN](errors#domain)** is triggered if the coordinates are not whole numbers or not in the right range ([0..62] for row, [0..94] for column). These bounds are also affected by split screen mode.
 
 ## Related Commands
 
-*   [Pxl-On(](/pxl-on)
-*   [Pxl-Off(](/pxl-off)
-*   [pxl-Test(](/pxl-test)
-*   [Pt-Change(](/pt-change)
+*   [Pxl-On(](Pxl-On\(.md)
+*   [Pxl-Off(](Pxl-Off\(.md)
+*   [pxl-Test(](pxl-Test\(.md)
+*   [Pt-Change(](Pt-Change\(.md)
 
 ## History
 | Calculator | OS Version | Description |

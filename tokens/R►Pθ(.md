@@ -44,17 +44,17 @@ R►Pθ(0,{1,-1})
     {1.570796327, -1.57096327}
 ```
 
-R►Pθ( is affected by [Degree](/degree-mode) and [Radian](/radian-mode) mode in its output, which is an angle measured in degrees or radians respectively.
+R►Pθ( is affected by [Degree](degree-mode) and [Radian](radian-mode) mode in its output, which is an angle measured in degrees or radians respectively.
 
 ## Advanced Uses
 
-If you want the result to always be a radian angle, regardless of mode settings, you can divide the result by 1<sup><a href="/radian-symbol">r</a></sup>:
+If you want the result to always be a radian angle, regardless of mode settings, you can divide the result by 1<sup><a href="ʳ.md">ʳ</a></sup>:
 
 ```ti-basic
 R►Pθ(x,y)/1^^r
 ```
 
-If you want the result to always be a degree angle, regardless of mode settings, you can divide the result by 1[°](/degree-symbol):
+If you want the result to always be a degree angle, regardless of mode settings, you can divide the result by 1[°](°.md):
 
 ```ti-basic
 R►Pθ(x,y)/1°
@@ -62,16 +62,16 @@ R►Pθ(x,y)/1°
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if you input a complex argument.
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if two list arguments have different dimensions.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if you input a complex argument.
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown if two list arguments have different dimensions.
 
 ## Related Commands
 
-*   [P►Rx(](/p-rx)
-*   [P►Ry(](/p-ry)
-*   [R►Pr(](/r-pr)
-*   [angle(](/angle)
-*   [tanֿ¹(](/tan)
+*   [P►Rx(](P►Rx\(.md)
+*   [P►Ry(](P►Ry\(.md)
+*   [R►Pr(](R►Pr\(.md)
+*   [angle(](angle\(.md)
+*   [tanֿ¹(](tanֿ¹\(.md)
 
 ## History
 | Calculator | OS Version | Description |

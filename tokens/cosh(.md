@@ -27,7 +27,7 @@ Returns hyperbolic cosine of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `cosh(`
 <hr>
 
-Calculates the hyperbolic cosine of a value. The hyperbolic trig functions <tt><a href="/sinh">sinh(</a></tt>, <tt>cosh(</tt>, and <tt><a href="/tanh">tanh(</a></tt> are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of <tt><a href="/e-value">e</a></tt>, and don't depend on the [Degree](/degree-mode) or [Radian](/radian-mode) mode setting.
+Calculates the hyperbolic cosine of a value. The hyperbolic trig functions <tt><a href="sinh(.md">sinh(</a></tt>, <tt>cosh(</tt>, and <tt><a href="tanh(.md">tanh(</a></tt> are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of <tt><a href="e.md">e</a></tt>, and don't depend on the [Degree](degree-mode) or [Radian](radian-mode) mode setting.
 
 ```ti-basic
 cosh(0)
@@ -36,7 +36,7 @@ cosh(1)
     1.543080635
 ```
 
-Like normal trig commands, <tt>cosh(</tt> works on [lists](/lists) as well, but not on complex numbers, even though the function is often extended to the complex numbers in mathematics.
+Like normal trig commands, <tt>cosh(</tt> works on [lists](lists.md) as well, but not on complex numbers, even though the function is often extended to the complex numbers in mathematics.
 
 ## Formulas
 
@@ -46,11 +46,11 @@ The definition of hyperbolic cosine is:
 
 ## Related Commands
 
-*   <tt><a href="/sinh">sinh(</a></tt>
-*   <tt><a href="/arsinh">sinh‾¹(</a></tt>
-*   <tt><a href="/arcosh">cosh‾¹(</a></tt>
-*   <tt><a href="/tanh">tanh(</a></tt>
-*   <tt><a href="/artanh">tanh‾¹(</a></tt>
+*   <tt><a href="sinh(.md">sinh(</a></tt>
+*   <tt><a href="sinh⁻¹(.md">sinh⁻¹(</a></tt>
+*   <tt><a href="cosh⁻¹(.md">cosh⁻¹(</a></tt>
+*   <tt><a href="tanh(.md">tanh(</a></tt>
+*   <tt><a href="tanh⁻¹(.md">tanh⁻¹(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

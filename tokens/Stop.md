@@ -19,9 +19,9 @@ Ends program execution; returns to home screen.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `F:Stop`
 <hr>
 
-When the Stop command is used in a program it exits the program (terminating the program execution) and returns you to the home screen. If it is encountered within [loops](/controlflow), the loops will be stopped.
+When the Stop command is used in a program it exits the program (terminating the program execution) and returns you to the home screen. If it is encountered within [loops](controlflow), the loops will be stopped.
 
-There is some distinction when using Stop with [subprograms](/subprograms): the Stop command will stop the program execution of the subprogram, as well as the calling program, and return you to the home screen; the program will stop completely. If this functionality is not desired, then you should use the [Return](/return) command instead.
+There is some distinction when using Stop with [subprograms](subprograms.md): the Stop command will stop the program execution of the subprogram, as well as the calling program, and return you to the home screen; the program will stop completely. If this functionality is not desired, then you should use the [Return](Return.md) command instead.
 
 ## Optimization
 
@@ -38,16 +38,16 @@ Remove the Stop
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
 
 ## Related Commands
 
-*   [prgm](/prgm)
-*   [Return](/return)
+*   [prgm](prgm.md)
+*   [Return](Return.md)
 
 ## See Also
 
-*   [Subprograms](/subprograms)
+*   [Subprograms](Subprograms.md)
 
 ## History
 | Calculator | OS Version | Description |

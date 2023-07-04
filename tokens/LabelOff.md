@@ -19,13 +19,13 @@ Turns off axes labels.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `LabelOff`
 <hr>
 
-The LabelOff setting disables labels on the X and Y coordinate axes. This is unnecessary if you've disabled the axes themselves, since the labels are only displayed when the axes are. To enable the labels, use the reverse setting [LabelOn](/labelon).
+The LabelOff setting disables labels on the X and Y coordinate axes. This is unnecessary if you've disabled the axes themselves, since the labels are only displayed when the axes are. To enable the labels, use the reverse setting [LabelOn](LabelOn.md).
 
 ## Related Commands
 
-*   [LabelOn](/labelon)
-*   [AxesOn](/axeson)
-*   [AxesOff](/axesoff)
+*   [LabelOn](LabelOn.md)
+*   [AxesOn](AxesOn.md)
+*   [AxesOff](AxesOff.md)
 
 ## History
 | Calculator | OS Version | Description |

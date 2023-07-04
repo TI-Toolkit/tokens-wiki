@@ -159,9 +159,9 @@ can be
 
 ## Related Commands
 
-*   [2-SampZTest(](/2-sampztest)
-*   [T-Test](/t-test)
-*   [2-SampTTest](/2-sampttest)
+*   [2-SampZTest(](2-SampZTest\(.md)
+*   [T-Test](T-Test.md)
+*   [2-SampTTest](2-SampTTest.md)
 
 ## History
 | Calculator | OS Version | Description |

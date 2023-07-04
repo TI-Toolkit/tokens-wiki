@@ -59,16 +59,16 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if you input a complex argument.
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if two list arguments have different dimensions.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if you input a complex argument.
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown if two list arguments have different dimensions.
 
 ## Related Commands
 
-*   [P►Rx(](/p-rx)
-*   [P►Ry(](/p-ry)
-*   [R►Pθ(](/r-ptheta)
-*   [abs(](/abs)
-*   [√(](/square-root)
+*   [P►Rx(](P►Rx\(.md)
+*   [P►Ry(](P►Ry\(.md)
+*   [R►Pθ(](R►Pθ\(.md)
+*   [abs(](abs\(.md)
+*   [√(](√\(.md)
 
 ## History
 | Calculator | OS Version | Description |

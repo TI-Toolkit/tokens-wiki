@@ -27,7 +27,7 @@ Moves the specified `variable` from RAM to the user data archive memory.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `5:Archive`
 <hr>
 
-The <tt>Archive</tt> command moves a variable from [RAM](/glossary#ram) to the archive (also known as [ROM](/glossary#tom)). A quick synopsis of the difference between the two:
+The <tt>Archive</tt> command moves a variable from [RAM](glossary#ram) to the archive (also known as [ROM](glossary#tom)). A quick synopsis of the difference between the two:
 
 *   Data in the archive cannot be accessed, but it's protected from RAM clears (which may occur during battery removal if not done carefully); also, the archive can hold much more data.
 *   Data in RAM can be accessed for calculations, but it can also be deleted during a RAM clear or accidentally overwritten by another program.
@@ -39,28 +39,28 @@ You might want to use this command to protect data such as saved games from bein
 Also, some variables cannot be archived. These include:
 
 *   The real variables R, T, X, Y, θ, and _n_ (due to their use in graphing)
-*   The [equation](/system-variables#equation) variables Y<sub>n</sub>, X<sub>nT</sub>, Y<sub>nT</sub>, r<sub>n</sub>, u, v, and w
+*   The [equation](system-variables#equation) variables Y<sub>n</sub>, X<sub>nT</sub>, Y<sub>nT</sub>, r<sub>n</sub>, u, v, and w
 *   The stat plots Plot_#_
-*   [Window](/system-variables#window), table, and zoom variables such as TblInput or Xmin
-*   [Statistical](/system-variables#statistical) variables and the list ʟRESID
-*   [Finance](/system-variables#finance) variables
+*   [Window](system-variables#window), table, and zoom variables such as TblInput or Xmin
+*   [Statistical](system-variables#statistical) variables and the list ʟRESID
+*   [Finance](system-variables#finance) variables
 
-Finally, the <tt>Archive</tt> command does not work on programs when using it from a program (it does, however, archive programs from the home screen). However, an [assembly program](/hexcodes#toc0) can be executed as a subroutine so that <tt>Archive</tt> and <tt><a href="/unarchive">UnArchive</a></tt> can be used within a program. The program should however be run again afterwards.
+Finally, the <tt>Archive</tt> command does not work on programs when using it from a program (it does, however, archive programs from the home screen). However, an [assembly program](hexcodes#toc0) can be executed as a subroutine so that <tt>Archive</tt> and <tt><a href="UnArchive.md">UnArchive</a></tt> can be used within a program. The program should however be run again afterwards.
 
 ## Advanced Uses
 
-As archived variables (and programs) can not be accessed by the calculator's inbuilt OS, archiving programs can be quite problematic when trying to execute them. However; by enabling your programs to be viewable in [assembly shells](/asmshells), you can execute your programs without needing to unarchive them first. This is because the assembly shell _copies_ the program to the RAM automatically, and is then executed. Closing the program will automatically remove the copy from the RAM, so no RAM is lost in the end.
+As archived variables (and programs) can not be accessed by the calculator's inbuilt OS, archiving programs can be quite problematic when trying to execute them. However; by enabling your programs to be viewable in [assembly shells](asmshells), you can execute your programs without needing to unarchive them first. This is because the assembly shell _copies_ the program to the RAM automatically, and is then executed. Closing the program will automatically remove the copy from the RAM, so no RAM is lost in the end.
 
 ## Error Conditions
 
-*   **[ERR:ARCHIVE FULL](/errors#archivefull)** is thrown when there isn't enough space in the archive for the variable.
-*   **[ERR:INVALID](/errors#invalid)** is thrown when trying to archive a program from within a program.
-*   **[ERR:VARIABLE](/errors#variable)** is thrown when trying to archive a variable that cannot be archived.
+*   **[ERR:ARCHIVE FULL](errors#archivefull)** is thrown when there isn't enough space in the archive for the variable.
+*   **[ERR:INVALID](errors#invalid)** is thrown when trying to archive a program from within a program.
+*   **[ERR:VARIABLE](errors#variable)** is thrown when trying to archive a variable that cannot be archived.
 
 ## Related Commands
 
-*   <tt><a href="/unarchive">UnArchive</a></tt>
-*   <tt><a href="/delvar">DelVar</a></tt>
+*   <tt><a href="UnArchive.md">UnArchive</a></tt>
+*   <tt><a href="DelVar.md">DelVar</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

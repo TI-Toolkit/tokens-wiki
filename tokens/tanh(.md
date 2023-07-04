@@ -27,7 +27,7 @@ Returns hyperbolic tangent of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `tanh(`
 <hr>
 
-Calculates the hyperbolic tangent of a value. The hyperbolic trig functions [sinh(](/sinh), [cosh(](/cosh), and tanh( are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of [e](/e-value), and don't depend on the [Degree](/degree-mode) or [Radian](/radian-mode) mode setting.
+Calculates the hyperbolic tangent of a value. The hyperbolic trig functions [sinh(](sinh\(.md), [cosh(](cosh\(.md), and tanh( are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of [e](e-value), and don't depend on the [Degree](degree-mode) or [Radian](radian-mode) mode setting.
 
 ```ti-basic
 tanh(0)
@@ -63,11 +63,11 @@ The definition of the hyperbolic tangent is:
 
 ## Related Commands
 
-*   [sinh(](/sinh)
-*   [sinhֿ¹(](/arsinh)
-*   [cosh(](/cosh)
-*   [coshֿ¹(](/arcosh)
-*   [tanhֿ¹(](/artanh)
+*   [sinh(](sinh\(.md)
+*   [sinhֿ¹(](sinhֿ¹\(.md)
+*   [cosh(](cosh\(.md)
+*   [coshֿ¹(](coshֿ¹\(.md)
+*   [tanhֿ¹(](tanhֿ¹\(.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -31,8 +31,8 @@ With OS version 2.30 (on the TI-84+ and TI-84+ SE calculators), <tt>G-T</tt> mod
 
 ## Related Commands
 
-*   <tt><a href="/full">Full</a></tt>
-*   <tt><a href="/horiz">Horiz</a></tt>
+*   <tt><a href="Full.md">Full</a></tt>
+*   <tt><a href="Horiz.md">Horiz</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

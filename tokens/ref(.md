@@ -46,19 +46,19 @@ ref(Ans)►Frac
 
 In theory, a system of linear equations in N variables can be solved using the <tt>ref(</tt> command - an equation of the form $a_1x_1+\dots + a_nx_n = b$ becomes a row $a_1, \dots, a_n, b$, and is put into the matrix. If there is a sufficient number of conditions, the last row of the reduced matrix will give you the value of the last variable, and back-substitution will give you the others.
 
-In practice, it's easier to use <tt><a href="/rref">rref(</a></tt> instead for the same purpose.
+In practice, it's easier to use <tt><a href="rref(.md">rref(</a></tt> instead for the same purpose.
 
 ## Error Conditions
 
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if the matrix has more rows than columns.
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if the matrix has more rows than columns.
 
 ## Related Commands
 
-*   <tt><a href="/rref">rref(</a></tt>
-*   <tt><a href="/rowswap">rowSwap(</a></tt>
-*   <tt><a href="/rowplus">row+(</a></tt>
-*   <tt><a href="/timesrow">*row(</a></tt>
-*   <tt><a href="/timesrowplus">*row+(</a></tt>
+*   <tt><a href="rref(.md">rref(</a></tt>
+*   <tt><a href="rowSwap(.md">rowSwap(</a></tt>
+*   <tt><a href="row+(.md">row+(</a></tt>
+*   <tt><a href="*row(.md">*row(</a></tt>
+*   <tt><a href="*row+(.md">*row+(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

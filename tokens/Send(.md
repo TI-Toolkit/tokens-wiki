@@ -67,8 +67,8 @@ You can use Send( with a Get( for a Norland calculator robot. The format called 
 
 ## Related Commands
 
-*   [Get(](/get)
-*   [GetCalc(](/getcalc)
+*   [Get(](Get\(.md)
+*   [GetCalc(](GetCalc\(.md)
 
 ## History
 | Calculator | OS Version | Description |

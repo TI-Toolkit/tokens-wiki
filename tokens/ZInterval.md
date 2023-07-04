@@ -110,9 +110,9 @@ can be
 
 ## Related Commands
 
-*   [2-SampZInt(](/2-sampzint)
-*   [TInterval](/tinterval)
-*   [2-SampTInt](/2-samptint)
+*   [2-SampZInt(](2-SampZInt\(.md)
+*   [TInterval](TInterval.md)
+*   [2-SampTInt](2-SampTInt.md)
 
 ## History
 | Calculator | OS Version | Description |

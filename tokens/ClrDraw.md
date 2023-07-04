@@ -29,7 +29,7 @@ Unless the final state of the graph screen is the intended effect of the program
 
 Caution: if the graph screen is displayed even before you execute <tt>ClrDraw</tt>, the user variable Y will be reset to 0. This might be useful as a side effect, but it's more likely to turn out to be a nuisance if you were relying on Y to store something useful. Also, such a wacky effect might get removed in later OS versions<sup class="footnoteref"><a id="footnoteref-1" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-1')">1</a></sup>, so it's a gamble relying on it to work for all users.
 
-The <tt><a href="/recallpic">RecallPic</a></tt> command does not erase what is previously on the graph screen when recalling a picture. Unless this is what you intend, use <tt>ClrDraw</tt> to erase the graph screen's old contents before recalling a picture.
+The <tt><a href="RecallPic.md">RecallPic</a></tt> command does not erase what is previously on the graph screen when recalling a picture. Unless this is what you intend, use <tt>ClrDraw</tt> to erase the graph screen's old contents before recalling a picture.
 
 ## Optimization
 
@@ -43,15 +43,15 @@ A lot of people choose their preferred window settings using the following two c
 ZStandard:ZInteger
 ```
 
-Since this actually switches two window settings, at least one will be different from the previous settings, so the next time the graph screen is shown, it will be cleared without a <tt>ClrDraw</tt> command. There are other [friendly window](/friendly-window) settings that you can use as well.
+Since this actually switches two window settings, at least one will be different from the previous settings, so the next time the graph screen is shown, it will be cleared without a <tt>ClrDraw</tt> command. There are other [friendly window](friendly-window) settings that you can use as well.
 
 ## Related Commands
 
-*   <tt><a href="/clrhome">ClrHome</a></tt>
+*   <tt><a href="ClrHome.md">ClrHome</a></tt>
 
 ## See Also
 
-*   [Friendly Graphing Window](/friendly-window)
+*   [Friendly Graphing Window](Friendly Graphing Window.md)
 
 Footnotes
 

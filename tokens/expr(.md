@@ -29,17 +29,17 @@ Converts the character string contained in `string` to an expression and execute
 
 The expr( command is used to evaluate an expression that's stored in a string (an expression is merely anything that returns a value - of any type). Expressions are occasionally stored to strings, rather than evaluated outright, so that their value has the capacity to change when the variables stored inside them change. The expr( command's result depends on the kind of expression that's in the string you pass it — it may return a number, a list, a matrix, or even another string.
 
-As a special case of an expression, the expr( command can also be used to convert a string like "123" to the number 123. Going in the reverse direction (123 to "123") is [more complicated](/number-to-string).
+As a special case of an expression, the expr( command can also be used to convert a string like "123" to the number 123. Going in the reverse direction (123 to "123") is [more complicated](number-to-string).
 
 The expr( command has limitations. Here are the situations in which expr( will not work:
 
 *   When the code in the string does not return an answer, and thus is not an expression: e.g. expr("Line(0,0,1,1" or expr("prgmHELLO" is invalid
-*   When the expression in the string contains an expr( command itself, e.g. expr("expr(Str1" — this will throw an [ERR:ILLEGAL NEST](/errors#illegalnest) error.
+*   When the expression in the string contains an expr( command itself, e.g. expr("expr(Str1" — this will throw an [ERR:ILLEGAL NEST](errors#illegalnest) error.
 *   In place of a variable (rather than an expression), e.g. 5→expr("X" isn't a substitute for 5→X because expr("X" evaluates to the value of X and not to X itself.
 
 ## Advanced Uses
 
-expr( is often used in conjunction with the [Input](/input) command to prompt the user to enter a list. Although the Input command can already handle lists, it requires the user to enter the opening bracket that signifies a list. With expr(, this can be avoided.
+expr( is often used in conjunction with the [Input](Input.md) command to prompt the user to enter a list. Although the Input command can already handle lists, it requires the user to enter the opening bracket that signifies a list. With expr(, this can be avoided.
 
 Instead of:
 
@@ -67,15 +67,15 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:ILLEGAL NEST](/errors#illegalnest)** is thrown when the string to be evaluated contains an expr( itself.
-*   **[ERR:INVALID](/errors#invalid)** is thrown when trying to evaluate the empty string.
-*   **[ERR:SYNTAX](/errors#syntax)** is thrown when trying to evaluate a command that doesn't return a value.
+*   **[ERR:ILLEGAL NEST](errors#illegalnest)** is thrown when the string to be evaluated contains an expr( itself.
+*   **[ERR:INVALID](errors#invalid)** is thrown when trying to evaluate the empty string.
+*   **[ERR:SYNTAX](errors#syntax)** is thrown when trying to evaluate a command that doesn't return a value.
 
 ## Related Commands
 
-*   [sub(](/sub)
-*   [inString(](/instring)
-*   [length(](/length)
+*   [sub(](sub\(.md)
+*   [inString(](inString\(.md)
+*   [length(](length\(.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -94,13 +94,13 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if the values of the arguments entered are not integers.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if the values of the arguments entered are not integers.
 
 ## Related Commands
 
-*   <tt><a href="/1-propztest">1-PropZTest(</a></tt>
-*   <tt><a href="/z-test">Z-Test(</a></tt>
-*   <tt><a href="/2-sampztest">2-SampZTest(</a></tt>
+*   <tt><a href="1-PropZTest(.md">1-PropZTest(</a></tt>
+*   <tt><a href="Z-Test(.md">Z-Test(</a></tt>
+*   <tt><a href="2-SampZTest(.md">2-SampZTest(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

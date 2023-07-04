@@ -63,7 +63,7 @@ Displays `Strn` and stores entered value to `variable`.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Input`
 <hr>
 
-The <tt>Input</tt> command is the other way of getting user input on the [home screen](/homescreen) (getting [user input](/userinput) on the [graph screen](/graphscreen) is only possible with the <tt><a href="/getkey">getKey</a></tt> command). The <tt>Input</tt> command asks the user to enter a value for a [variable](/variables) (only one variable can be inputted at a time), waiting until the user enters a value and then presses ENTER. It does not display what variable the user is being asked for, but instead just displays a question mark (?).
+The <tt>Input</tt> command is the other way of getting user input on the [home screen](homescreen) (getting [user input](userinput) on the [graph screen](graphscreen) is only possible with the <tt><a href="getKey.md">getKey</a></tt> command). The <tt>Input</tt> command asks the user to enter a value for a [variable](variables) (only one variable can be inputted at a time), waiting until the user enters a value and then presses ENTER. It does not display what variable the user is being asked for, but instead just displays a question mark (?).
 
 Because just displaying a question mark on the screen does not really tell the user what to enter for input or what the input will be used for, the <tt>Input</tt> command has an optional text message that can be either text or a string variable that will be displayed alongside the input.
 
@@ -81,9 +81,9 @@ Input can be used to display every variable just before it requests user input, 
 
 ## Advanced Uses
 
-When you just use the <tt>Input</tt> command by itself (without any arguments), the graph screen will be shown and the user can move the cursor around. Program execution will then [pause](/pause) until the user presses ENTER, at which time the coordinates of the cursor will be stored to the respective variables (R and θ for <tt><a href="/polargc">PolarGC</a></tt> format, otherwise X and Y).
+When you just use the <tt>Input</tt> command by itself (without any arguments), the graph screen will be shown and the user can move the cursor around. Program execution will then [pause](pause.md) until the user presses ENTER, at which time the coordinates of the cursor will be stored to the respective variables (R and θ for <tt><a href="PolarGC.md">PolarGC</a></tt> format, otherwise X and Y).
 
-If a text message is longer than twelve characters or you want to give the user plenty of space to enter a value, you can put a <tt><a href="/disp">Disp</a></tt> command before the <tt>Input</tt> command. You break the text message up and display it in parts. The <tt>Input</tt> command will be displayed one line lower, though, because the <tt>Disp</tt> command automatically creates a new line.
+If a text message is longer than twelve characters or you want to give the user plenty of space to enter a value, you can put a <tt><a href="Disp.md">Disp</a></tt> command before the <tt>Input</tt> command. You break the text message up and display it in parts. The <tt>Input</tt> command will be displayed one line lower, though, because the <tt>Disp</tt> command automatically creates a new line.
 
 ```ti-basic
 :Disp "What is your"
@@ -92,7 +92,7 @@ If a text message is longer than twelve characters or you want to give the user 
 
 Normally you can't get a quote character into a string (because quotes are used to identify the beginning and end of the string), but the <tt>Input</tt> command actually allows the user to enter a quote character (") as part of a string. This works without problems, and the quote can even be accessed by the user afterwards.
 
-Because a user-defined [list](/lists) variable doesn't need the <tt>ʟ</tt> prefixed character before it when referring to the list, you may be only asking the user to input a simple real variable but a list would also be allowed. There is nothing you can really do about this problem, except including the <tt>ʟ</tt> prefixed character when wanting a list inputted and trying to limit your use of <tt>Input</tt> and <tt><a href="/prompt">Prompt</a></tt>.
+Because a user-defined [list](lists) variable doesn't need the <tt>ʟ</tt> prefixed character before it when referring to the list, you may be only asking the user to input a simple real variable but a list would also be allowed. There is nothing you can really do about this problem, except including the <tt>ʟ</tt> prefixed character when wanting a list inputted and trying to limit your use of <tt>Input</tt> and <tt><a href="Prompt.md">Prompt</a></tt>.
 
 ```ti-basic
 :Input A
@@ -113,12 +113,12 @@ Replace with Prompt
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
 
 ## Related Commands
 
-*   <tt><a href="/prompt">Prompt</a></tt>
-*   <tt><a href="/getkey">getKey</a></tt>
+*   <tt><a href="Prompt.md">Prompt</a></tt>
+*   <tt><a href="getKey.md">getKey</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

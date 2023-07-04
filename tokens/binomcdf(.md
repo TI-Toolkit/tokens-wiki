@@ -66,7 +66,7 @@ Several other probability problems actually are the same as this one. For exampl
 
 ## Advanced (for programmers)
 
-The <tt><a href="/binompdf">binompdf(</a></tt> and <tt>binomcdf(</tt> commands are the only ones apart from <tt><a href="/seq-list">seq(</a></tt> that can return a list of a given length, and they do it much more quickly. It therefore makes sense, in some situations, to use these commands as substitutes for <tt><a href="/seq-list">seq(</a></tt>.
+The <tt><a href="binompdf(.md">binompdf(</a></tt> and <tt>binomcdf(</tt> commands are the only ones apart from <tt><a href="seq(.md">seq(</a></tt> that can return a list of a given length, and they do it much more quickly. It therefore makes sense, in some situations, to use these commands as substitutes for <tt><a href="seq(.md">seq(</a></tt>.
 
 Here's how to do it:
 
@@ -109,7 +109,7 @@ This will not work if some command inside <tt>seq(</tt> can take only a number a
 
 ## Formulas
 
-Since "at most N" is equivalent to "0 or 1 or 2 or 3 or … N", and since we can combine these probabilities by adding them, we can come up with an expression for <tt>binomcdf(</tt> by adding up values of <tt><a href="/binompdf">binompdf(</a></tt>:
+Since "at most N" is equivalent to "0 or 1 or 2 or 3 or … N", and since we can combine these probabilities by adding them, we can come up with an expression for <tt>binomcdf(</tt> by adding up values of <tt><a href="binompdf(.md">binompdf(</a></tt>:
 
 (1) $`\begin{align} \texttt{binomcdf}(n,p,k) = \sum_{i=0}^{k}\texttt{binompdf}(n,p,i) = \sum_{i=0}^{k}\binom{n}{i}\,p^i\,(1-p)^{n-i} \end{align}`$ 
 
@@ -117,15 +117,15 @@ Since "at most N" is equivalent to "0 or 1 or 2 or 3 or … N", and since we can
 
 ## Error Conditions
 
-*   **[ERR:DATATYPE](/errors#datatype)** is thrown if you try to generate a list of probabilities with _p_ equal to 0 or 1, and at least 257 trials.
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if the number of trials is at least 1 000 000 (unless the other arguments make the problem trivial).
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if you try to generate a list of probabilities with at least 999 trials.
+*   **[ERR:DATATYPE](errors#datatype)** is thrown if you try to generate a list of probabilities with _p_ equal to 0 or 1, and at least 257 trials.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if the number of trials is at least 1 000 000 (unless the other arguments make the problem trivial).
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if you try to generate a list of probabilities with at least 999 trials.
 
 ## Related Commands
 
-*   <tt><a href="/binompdf">binompdf(</a></tt>
-*   <tt><a href="/geometpdf">geometpdf(</a></tt>
-*   <tt><a href="/geometcdf">geometcdf(</a></tt>
+*   <tt><a href="binompdf(.md">binompdf(</a></tt>
+*   <tt><a href="geometpdf(.md">geometpdf(</a></tt>
+*   <tt><a href="geometcdf(.md">geometcdf(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

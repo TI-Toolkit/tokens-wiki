@@ -29,11 +29,11 @@ The Thick command converts all lines in the current function type to be drawn us
 
 ## Error Conditions
 
-*   **[ERR:SYNTAX](/errors#syntax)** is thrown if any character is included in the same line as the Thick command.
+*   **[ERR:SYNTAX](errors#syntax)** is thrown if any character is included in the same line as the Thick command.
 
 ## Related Commands
 
-*   [Thin](http://www.tibasicdev.wikidot.com/thin)
+*   [Thin](Thin.md)
 
 ## History
 | Calculator | OS Version | Description |

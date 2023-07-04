@@ -41,7 +41,7 @@ The command itself takes one argument: the size of the matrix, used for both row
 
 ## Optimization
 
-The <tt>identity(</tt> command can be used as a quick way to create an empty square matrix: <tt>0identity(n)</tt> will create an _n_ by _n_ matrix containing only 0 as an element. This is faster and smaller than the <tt><a href="/dim">dim(</a></tt> and <tt><a href="/fill">Fill(</a></tt> commands used for the same purpose:
+The <tt>identity(</tt> command can be used as a quick way to create an empty square matrix: <tt>0identity(n)</tt> will create an _n_ by _n_ matrix containing only 0 as an element. This is faster and smaller than the <tt><a href="dim(.md">dim(</a></tt> and <tt><a href="Fill(.md">Fill(</a></tt> commands used for the same purpose:
 
 ```ti-basic
 :{5,5→dim([A]
@@ -52,12 +52,12 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:INVALID DIM](/errors#invaliddim)** occurs if the size is not an integer 1-99. In practice, however, <tt>identity(21)</tt> is already too large for the calculator to generate.
-*   **[ERR:MEMORY](/errors#memory)** occurs if the size of the created matrix exceeds memory limits. This limit is hard-fixed to 3611 bytes (the size of a 20x20 matrix), regardless of having sufficient RAM to hold a larger matrix.
+*   **[ERR:INVALID DIM](errors#invaliddim)** occurs if the size is not an integer 1-99. In practice, however, <tt>identity(21)</tt> is already too large for the calculator to generate.
+*   **[ERR:MEMORY](errors#memory)** occurs if the size of the created matrix exceeds memory limits. This limit is hard-fixed to 3611 bytes (the size of a 20x20 matrix), regardless of having sufficient RAM to hold a larger matrix.
 
 ## Related Commands
 
-*   <tt><a href="/det">det(</a></tt>
+*   <tt><a href="det(.md">det(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

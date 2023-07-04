@@ -29,9 +29,9 @@ Gets contents of `variable` on another TI-84 Plus CE and stores it to `variable`
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `0:GetCalc(`
 <hr>
 
-The <tt>GetCalc(</tt> command allows you to make [multiplayer](/multiplayer) games, where two calculators communicate with each other across a link cable that is connected between them. The <tt>GetCalc(</tt> command can only receive one variable from another calculator, and the variable can be any variable (a real, list, matrix, string, etc.). The calculator doesn't exchange variable values when the variable is received, but instead replace the variable of the same name on the receiving calculator.
+The <tt>GetCalc(</tt> command allows you to make [multiplayer](multiplayer.md) games, where two calculators communicate with each other across a link cable that is connected between them. The <tt>GetCalc(</tt> command can only receive one variable from another calculator, and the variable can be any variable (a real, list, matrix, string, etc.). The calculator doesn't exchange variable values when the variable is received, but instead replace the variable of the same name on the receiving calculator.
 
-For the <tt>GetCalc(</tt> command to work correctly, the sending calculator must be in a preemptible state and it cannot be executing an [assembly](/assembly) program. (The sending calculator is the one which is _not_ executing the <tt>GetCalc(</tt> command.) The two main commands that you should use to ensure this are <tt><a href="/pause">Pause</a></tt> and <tt><a href="/menu">Menu(</a></tt>; however, any command that is waiting for user input will also work perfectly fine (such as <tt><a href="/prompt">Prompt</a></tt> and <tt><a href="/input">Input</a></tt>).
+For the <tt>GetCalc(</tt> command to work correctly, the sending calculator must be in a preemptible state and it cannot be executing an [assembly](assembly.md) program. (The sending calculator is the one which is _not_ executing the <tt>GetCalc(</tt> command.) The two main commands that you should use to ensure this are <tt><a href="Pause.md">Pause</a></tt> and <tt><a href="Menu(.md">Menu(</a></tt>; however, any command that is waiting for user input will also work perfectly fine (such as <tt><a href="Prompt.md">Prompt</a></tt> and <tt><a href="Input.md">Input</a></tt>).
 
 The <tt>GetCalc(</tt> command behaves a little differently in the older TI-83 models. If the sending calculator is idle with the <tt>Pause</tt> or <tt>Menu(</tt> command, it will automatically "press enter" when the receiving calculator executes <tt>GetCalc(</tt>. This can be frustrating when in a menu, because it prevents the user's opportunity to make a selection.
 
@@ -43,12 +43,12 @@ The TI-84+ and TI-84+SE will use the USB port if it is connected to a USB cable,
 
 ## Related Commands
 
-*   <tt><a href="/get">Get(</a></tt>
-*   <tt><a href="/send">Send(</a></tt>
+*   <tt><a href="Get(.md">Get(</a></tt>
+*   <tt><a href="Send(.md">Send(</a></tt>
 
 ## See Also
 
-*   [Multiplayer](/multiplayer)
+*   [Multiplayer](Multiplayer.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -33,9 +33,9 @@ line style #: 1-4.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `3:Horizontal`
 <hr>
 
-<tt>Horizontal Y</tt> draws a vertical line from the left of the graph screen to the right at _Y_. <tt>Horizontal</tt> is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart <tt><a href="/vertical">Vertical</a></tt>.
+<tt>Horizontal Y</tt> draws a vertical line from the left of the graph screen to the right at _Y_. <tt>Horizontal</tt> is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart <tt><a href="Vertical.md">Vertical</a></tt>.
 
-<tt>Horizontal</tt> is affected by the window settings, unlike the <tt><a href="/pxl-on">Pxl-</a></tt> commands.
+<tt>Horizontal</tt> is affected by the window settings, unlike the <tt><a href="Pxl-.md">Pxl-</a></tt> commands.
 
 ```ti-basic
 :Horizontal 5
@@ -59,8 +59,8 @@ Horizontal 5,GRAY
 
 ## Related Commands
 
-*   <tt><a href="/line">Line(</a></tt>
-*   <tt><a href="/vertical">Vertical</a></tt>
+*   <tt><a href="Line(.md">Line(</a></tt>
+*   <tt><a href="Vertical.md">Vertical</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

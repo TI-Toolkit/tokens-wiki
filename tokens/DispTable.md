@@ -23,18 +23,18 @@ The <tt>DispTable</tt> comand displays the table screen you normally see by pres
 
 ## Advanced Uses
 
-The user can't select any cells in the table to be evaluated if they're not, already. So it's best to select the <tt><a href="/indpntauto">IndpntAuto</a></tt> and <tt><a href="/dependauto">DependAuto</a></tt> options from the 2nd TBLSET menu before using this command. <tt><a href="/indpntask">IndpntAsk</a></tt> can also work, however, as long as you store to <tt><a href="/system-variables#window">TblInput</a></tt> first.
+The user can't select any cells in the table to be evaluated if they're not, already. So it's best to select the <tt><a href="IndpntAuto.md">IndpntAuto</a></tt> and <tt><a href="DependAuto.md">DependAuto</a></tt> options from the 2nd TBLSET menu before using this command. <tt><a href="IndpntAsk.md">IndpntAsk</a></tt> can also work, however, as long as you store to <tt><a href="TblInput.md">TblInput</a></tt> first.
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
 
 ## Related Commands
 
-*   <tt><a href="/indpntask">IndpntAsk</a></tt>
-*   <tt><a href="/indpntauto">IndpntAuto</a></tt>
-*   <tt><a href="/dependask">DependAsk</a></tt>
-*   <tt><a href="/dependauto">DependAuto</a></tt>
+*   <tt><a href="IndpntAsk.md">IndpntAsk</a></tt>
+*   <tt><a href="IndpntAuto.md">IndpntAuto</a></tt>
+*   <tt><a href="DependAsk.md">DependAsk</a></tt>
+*   <tt><a href="DependAuto.md">DependAuto</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

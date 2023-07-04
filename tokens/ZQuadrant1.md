@@ -32,8 +32,8 @@ ZQuadrant1 was introduced in OS 2.53MP. As it's name might imply, it puts Quadra
 
 ## Related Commands
 
-*   [ZDecimal](/zdecimal)
-*   [ZSquare](/zsquare)
+*   [ZDecimal](ZDecimal.md)
+*   [ZSquare](ZSquare.md)
 
 ## History
 | Calculator | OS Version | Description |

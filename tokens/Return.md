@@ -19,9 +19,9 @@ Returns to the calling program.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `E:Return`
 <hr>
 
-When the Return command is used in a program it exits the program (terminating the program execution) and returns the user to the home screen. If it is encountered within [loops](/while), the loops will be stopped.
+When the Return command is used in a program it exits the program (terminating the program execution) and returns the user to the home screen. If it is encountered within [loops](while), the loops will be stopped.
 
-There is some distinction when using Return with [subprograms](/subprograms): the Return command will stop the program execution of the subprogram, and program execution will go back to the calling program, continuing right after the subprogram call. If this functionality is not desired, then you should use the [Stop](/stop) command instead. Generally, though, you should use Return instead of Stop.
+There is some distinction when using Return with [subprograms](subprograms.md): the Return command will stop the program execution of the subprogram, and program execution will go back to the calling program, continuing right after the subprogram call. If this functionality is not desired, then you should use the [Stop](Stop.md) command instead. Generally, though, you should use Return instead of Stop.
 
 ```ti-basic
 :ClrHome
@@ -48,16 +48,16 @@ Remove the Return
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
 
 ## Related Commands
 
-*   [prgm](/prgm)
-*   [Stop](/stop)
+*   [prgm](prgm.md)
+*   [Stop](Stop.md)
 
 ## See Also
 
-*   [Subprograms](/subprograms)
+*   [Subprograms](Subprograms.md)
 
 ## History
 | Calculator | OS Version | Description |

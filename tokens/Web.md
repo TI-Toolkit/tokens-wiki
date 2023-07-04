@@ -19,11 +19,11 @@ Sets sequence graphs to trace as webs.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `Web`
 <hr>
 
-In Web mode, sequence equations are graphed as [web diagrams](https://mathworld.wolfram.com/WebDiagram.html). This is a way of visualizing iterations of a function (that is, the sequence n, f(n), f(f(n)), f(f(f(n))), … for some function f and starting value n). For this mode to properly work, each sequence equation should be in terms of its previous value only: u(_n_) should be a function of u(_n_-1). Referencing other sequence equations, or u(_n_-2), will yield [ERR:INVALID](/errors#invalid); referencing the value _n_ is allowed by the calculator, but makes the result meaningless so you should avoid it.
+In Web mode, sequence equations are graphed as [web diagrams](https://mathworld.wolfram.com/WebDiagram.html). This is a way of visualizing iterations of a function (that is, the sequence n, f(n), f(f(n)), f(f(f(n))), … for some function f and starting value n). For this mode to properly work, each sequence equation should be in terms of its previous value only: u(_n_) should be a function of u(_n_-1). Referencing other sequence equations, or u(_n_-2), will yield [ERR:INVALID](errors#invalid); referencing the value _n_ is allowed by the calculator, but makes the result meaningless so you should avoid it.
 
-When you go to the graph screen, the associated function y=f(x) will be graphed. That is, if you define u(_n_) = cos(u(_n_-1)), the function y=cos(x) will be graphed. If you have [AxesOn](/axeson) enabled, the line y=x will also be graphed. It's easy to see that the intersection points of the graphs y=f(x) and the line y=x represent the fixed points (points such that f(x)=x) of the function.
+When you go to the graph screen, the associated function y=f(x) will be graphed. That is, if you define u(_n_) = cos(u(_n_-1)), the function y=cos(x) will be graphed. If you have [AxesOn](AxesOn.md) enabled, the line y=x will also be graphed. It's easy to see that the intersection points of the graphs y=f(x) and the line y=x represent the fixed points (points such that f(x)=x) of the function.
 
-The web diagram itself will be drawn if you press TRACE or use the [Trace](/trace) command. First you will choose the equation (u, v, or w) to trace; then, by pressing RIGHT repeatedly, the web will be drawn, starting from the initial value _n_Min. In a web diagram, a point (n, f(n)) on the graph of y=f(x) is connected by a horizontal segment to the point (f(n), f(n)) on the graph of y=x, and then by a vertical segment to the point (f(n), f(f(n))) on the graph of y=f(x) again; this process is repeated. Each pair of a horizontal and vertical segment represents an added iteration of.
+The web diagram itself will be drawn if you press TRACE or use the [Trace](Trace.md) command. First you will choose the equation (u, v, or w) to trace; then, by pressing RIGHT repeatedly, the web will be drawn, starting from the initial value _n_Min. In a web diagram, a point (n, f(n)) on the graph of y=f(x) is connected by a horizontal segment to the point (f(n), f(n)) on the graph of y=x, and then by a vertical segment to the point (f(n), f(f(n))) on the graph of y=f(x) again; this process is repeated. Each pair of a horizontal and vertical segment represents an added iteration of.
 
 Web diagrams can be used to look at the attracting behavior of fixed points. For example:
 
@@ -35,14 +35,14 @@ See "Related Commands" for other possibilities of graphing sequences.
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** is thrown if an equation being graphed references other sequence equations or the _n_-2 term.
+*   **[ERR:INVALID](errors#invalid)** is thrown if an equation being graphed references other sequence equations or the _n_-2 term.
 
 ## Related Commands
 
-*   [Time](/time)
-*   [uvAxes](/uvaxes)
-*   [uwAxes](/uwaxes)
-*   [vwAxes](/vwaxes)
+*   [Time](Time.md)
+*   [uvAxes](uvAxes.md)
+*   [uwAxes](uwAxes.md)
+*   [vwAxes](vwAxes.md)
 
 ## History
 | Calculator | OS Version | Description |

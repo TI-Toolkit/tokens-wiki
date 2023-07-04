@@ -109,11 +109,11 @@ min({1,3},2)
      {1 2}
 ```
 
-Unlike [relational operators](/operators#relational), such as < and >, min( can also compare complex numbers. To do this, both arguments must be complex — either complex numbers or complex lists: min(2,𝑖) will throw a [ERR:DATA TYPE](/errors#datatype) error even though min(2+0𝑖,𝑖) won't. In the case of complex numbers, the number with the smallest absolute value will be returned. When the two numbers have the same absolute value, the second one will be returned: min(𝑖,-𝑖) returns -𝑖 and min(-𝑖,𝑖) returns 𝑖.
+Unlike [relational operators](operators#relational), such as < and >, min( can also compare complex numbers. To do this, both arguments must be complex — either complex numbers or complex lists: min(2,𝑖) will throw a [ERR:DATA TYPE](errors#datatype) error even though min(2+0𝑖,𝑖) won't. In the case of complex numbers, the number with the smallest absolute value will be returned. When the two numbers have the same absolute value, the second one will be returned: min(𝑖,-𝑖) returns -𝑖 and min(-𝑖,𝑖) returns 𝑖.
 
 ## Advanced Uses
 
-min( can be used in Boolean comparisons to see if every value of a list is 1 (true) — useful because commands like [If](/if) or [While](/while) only deal with numbers, and not [lists](/lists), but comparisons like L1=L2 return a list of values. In general, the behavior you want varies, and you will use the min( or [max(](/max) functions accordingly.
+min( can be used in Boolean comparisons to see if every value of a list is 1 (true) — useful because commands like [If](If.md) or [While](While.md) only deal with numbers, and not [lists](lists.md), but comparisons like L1=L2 return a list of values. In general, the behavior you want varies, and you will use the min( or [max(](max\(.md) functions accordingly.
 
 Using min( will give you a strict test — only if every single value of a list is true will min( return true. For example, the following code will test if two lists are identical — they have the same exact elements — and print EQUAL in that case:
 
@@ -125,18 +125,18 @@ Using min( will give you a strict test — only if every single value of a list 
 :End
 ```
 
-The first check, to see if the sizes are identical, is necessary because otherwise comparing the lists will return a [ERR:DIM MISMATCH](/errors#dimmismatch) error.
+The first check, to see if the sizes are identical, is necessary because otherwise comparing the lists will return a [ERR:DIM MISMATCH](errors#dimmismatch) error.
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown when comparing a real and a complex number. This can be avoided by adding 0𝑖 to the real number.
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown, when using min( with two lists, if they have different dimensions.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown when comparing a real and a complex number. This can be avoided by adding 0𝑖 to the real number.
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown, when using min( with two lists, if they have different dimensions.
 
 ## Related Commands
 
-*   [max(](/max)
-*   [sum(](/sum)
-*   [prod(](/prod)
+*   [max(](max\(.md)
+*   [sum(](sum\(.md)
+*   [prod(](prod\(.md)
 
 ## History
 | Calculator | OS Version | Description |

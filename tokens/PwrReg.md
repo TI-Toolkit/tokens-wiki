@@ -35,7 +35,7 @@ Fits a power regression model to `Xlistname` and `Ylistname` with frequency `fre
 
 PwrReg tries to fit a power curve (y=a*x<sup>b</sup>) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points.
 
-The calculator does this regression by taking the natural log [ln(](/ln) of the x- and of the y-coordinates (this isn't stored anywhere) and then doing a linear regression. The result, ln(y)=b*ln(x)+ln(a), is transformed into y=e<sup>ln(a)</sup>*x<sup>b</sup>, which is a power curve. This algorithm shows that if any coordinates are negative or 0, the calculator will instantly quit with ERR:DOMAIN.
+The calculator does this regression by taking the natural log [ln(](ln\(.md) of the x- and of the y-coordinates (this isn't stored anywhere) and then doing a linear regression. The result, ln(y)=b*ln(x)+ln(a), is transformed into y=e<sup>ln(a)</sup>*x<sup>b</sup>, which is a power curve. This algorithm shows that if any coordinates are negative or 0, the calculator will instantly quit with ERR:DOMAIN.
 
 In its simplest form, PwrReg takes no arguments, and fits a power curve through the points in L₁ and L₂:
 
@@ -45,7 +45,7 @@ In its simplest form, PwrReg takes no arguments, and fits a power curve through 
 :LnReg
 ```
 
-On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, y=a*x^b, and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, r, and r² will be set as well. These latter two variables will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](/diagnosticon) and [DiagnosticOff](/diagnosticoff)).
+On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, y=a*x^b, and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, r, and r² will be set as well. These latter two variables will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](DiagnosticOn.md) and [DiagnosticOff](DiagnosticOff.md)).
 
 You don't have to do the regression on L₁ and L₂, but if you don't you'll have to enter the names of the lists after the command. For example:
 
@@ -70,9 +70,9 @@ An example of PwrReg with all the optional arguments:
 
 ## Related Commands
 
-*   [LnReg](/lnreg)
-*   [ExpReg](/expreg)
-*   [SinReg](/sinreg)
+*   [LnReg](LnReg.md)
+*   [ExpReg](ExpReg.md)
+*   [SinReg](SinReg.md)
 
 ## History
 | Calculator | OS Version | Description |

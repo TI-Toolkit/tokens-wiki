@@ -31,21 +31,21 @@ Selects all `Y=` functions or specified `Y=` functions.
 <tt><kbd><b>vars</b></kbd></tt>, `Y-VARS`, `4:On/Off1:FnOn`
 <hr>
 
-The <tt>FnOn</tt> command is used to turn on equations in the current [graphing mode](/graphing-mode). When you define an equation, it's turned on by default, but the <tt><a href="/fnoff">FnOff</a></tt> command can turn an equation off (in which case, it's still defined, but isn't graphed). To turn functions on and off manually, put your cursor over the = symbol in the equation editor, and press enter.
+The <tt>FnOn</tt> command is used to turn on equations in the current [graphing mode](graphing-mode). When you define an equation, it's turned on by default, but the <tt><a href="FnOff.md">FnOff</a></tt> command can turn an equation off (in which case, it's still defined, but isn't graphed). To turn functions on and off manually, put your cursor over the = symbol in the equation editor, and press enter.
 
-When <tt>FnOn</tt> is used by itself, it will turn on all defined equations in the current graphing mode. You can also specify which equations to turn on, by writing their numbers after <tt>FnOn</tt>: for example, <tt>FnOn 1</tt> will turn off the first equation, and <tt>FnOn 2,3,4,5</tt> will turn the second, third, fourth, and fifth. The numbers you give <tt>FnOn</tt> have to be valid equation numbers in the graphing mode. When turning equations on and off in [sequence](/seq-mode) mode, use 1 for <tt>u</tt>, 2 for <tt>v</tt>, and 3 for <tt>w</tt>.
+When <tt>FnOn</tt> is used by itself, it will turn on all defined equations in the current graphing mode. You can also specify which equations to turn on, by writing their numbers after <tt>FnOn</tt>: for example, <tt>FnOn 1</tt> will turn off the first equation, and <tt>FnOn 2,3,4,5</tt> will turn the second, third, fourth, and fifth. The numbers you give <tt>FnOn</tt> have to be valid equation numbers in the graphing mode. When turning equations on and off in [sequence](seq-mode) mode, use 1 for <tt>u</tt>, 2 for <tt>v</tt>, and 3 for <tt>w</tt>.
 
-The most common use for <tt>FnOn</tt> and <tt><a href="/fnoff">FnOff</a></tt> is to disable functions when running a program, so that they won't interfere with what you're doing on the graph screen, then enable them again when you're done.
+The most common use for <tt>FnOn</tt> and <tt><a href="FnOff.md">FnOff</a></tt> is to disable functions when running a program, so that they won't interfere with what you're doing on the graph screen, then enable them again when you're done.
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if an equation number isn't valid in the current graphing mode, or at all.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if an equation number isn't valid in the current graphing mode, or at all.
 
 ## Related Commands
 
-*   <tt><a href="/fnoff">FnOff</a></tt>
-*   <tt><a href="/plotson">PlotsOn</a></tt>
-*   <tt><a href="/plotsoff">PlotsOff</a></tt>
+*   <tt><a href="FnOff.md">FnOff</a></tt>
+*   <tt><a href="PlotsOn.md">PlotsOn</a></tt>
+*   <tt><a href="PlotsOff.md">PlotsOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

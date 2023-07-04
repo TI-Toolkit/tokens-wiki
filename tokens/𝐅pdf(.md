@@ -51,8 +51,8 @@ where _B(x,y)_ is the [Beta function](http://en.wikipedia.org/wiki/beta_function
 
 ## Related Commands
 
-*   <tt><a href="/fcdf">Fcdf(</a></tt>
-*   <tt><a href="/shadef">ShadeF(</a></tt>
+*   <tt><a href="Fcdf(.md">Fcdf(</a></tt>
+*   <tt><a href="ShadeF(.md">ShadeF(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

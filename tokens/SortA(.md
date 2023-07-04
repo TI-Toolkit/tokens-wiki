@@ -62,11 +62,11 @@ However, SortA( is not stable: if several elements in the first list are equal, 
 
 ## Algorithm
 
-The algorithm used by SortA( and [SortD(](/sortd) appears to be a modified selection sort. It is still O(n<sup>2</sup>) on all inputs, but for some reason takes twice as long on a list with all equal elements. It is not stable.
+The algorithm used by SortA( and [SortD(](SortD\(.md) appears to be a modified selection sort. It is still O(n<sup>2</sup>) on all inputs, but for some reason takes twice as long on a list with all equal elements. It is not stable.
 
 ## Related Commands
 
-*   [SortD(](/sortd)
+*   [SortD(](SortD\(.md)
 
 ## History
 | Calculator | OS Version | Description |

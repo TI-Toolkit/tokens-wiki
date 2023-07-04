@@ -39,10 +39,10 @@ imag({3+4i,-2i,17})
 
 ## Related Commands
 
-*   <tt><a href="/real-func">real(</a></tt>
-*   <tt><a href="/abs">abs(</a></tt>
-*   <tt><a href="/angle">angle(</a></tt>
-*   <tt><a href="/conj">conj(</a></tt>
+*   <tt><a href="real(.md">real(</a></tt>
+*   <tt><a href="abs(.md">abs(</a></tt>
+*   <tt><a href="angle(.md">angle(</a></tt>
+*   <tt><a href="conj(.md">conj(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

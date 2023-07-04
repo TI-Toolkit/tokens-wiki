@@ -27,7 +27,7 @@ Returns the number of characters in `string`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `length(`
 <hr>
 
-This command is used to determine the length of a string. Unlike the [dim(](/dim) command for lists and matrices, it cannot be used to change this length, as there is no null character for strings (the null value is 0 for lists and matrices).
+This command is used to determine the length of a string. Unlike the [dim(](dim\(.md) command for lists and matrices, it cannot be used to change this length, as there is no null character for strings (the null value is 0 for lists and matrices).
 
 ```ti-basic
 :length("HELLO
@@ -50,9 +50,9 @@ use sub(Str1,N,1 for the Nth character
 
 ## Related Commands
 
-*   [expr(](/expr)
-*   [inString(](/instring)
-*   [sub(](/sub)
+*   [expr(](expr\(.md)
+*   [inString(](inString\(.md)
+*   [sub(](sub\(.md)
 
 ## History
 | Calculator | OS Version | Description |

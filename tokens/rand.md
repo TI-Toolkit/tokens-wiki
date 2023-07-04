@@ -40,7 +40,7 @@ rand(2)
      {.908318861 .1466878292}
 ```
 
-**Note:** Due to specifics of the random number generating algorithm, the smallest number possible to generate is slightly greater than 0. The largest number possible _is_ actually 1, but since returning a result of 1 would mess up the output of [randBin(](/randbin) and [randNorm(](/randnorm), the actual value returned in such cases is 1-1.11e-12 (which is displayed as 1, and is "equal" to 1 for the purposes of the [=](/equal) command). To see 1, store 196164532 to rand and then run the random number generator. If you instead try to store the “random” value directly to a list element, the value as viewed inside of the list editor will be 1-1.11e-12, displayed as 0.99999999999889.
+**Note:** Due to specifics of the random number generating algorithm, the smallest number possible to generate is slightly greater than 0. The largest number possible _is_ actually 1, but since returning a result of 1 would mess up the output of [randBin(](randBin\(.md) and [randNorm(](randNorm\(.md), the actual value returned in such cases is 1-1.11e-12 (which is displayed as 1, and is "equal" to 1 for the purposes of the [=](equal) command). To see 1, store 196164532 to rand and then run the random number generator. If you instead try to store the “random” value directly to a list element, the value as viewed inside of the list editor will be 1-1.11e-12, displayed as 0.99999999999889.
 
 ## Advanced Uses
 
@@ -69,26 +69,26 @@ Since generating random numbers is a fairly time-consuming operation, the rand(_
 ```
 
   
-The bigger N is, the longer the delay. In relation to the commonly used [For(](/for) loop delay, the number used in the rand( delay is about 10 times smaller. However, this code has a side effect of storing a list of random numbers to [Ans](/ans), which may be undesirable. To avoid this, use this somewhat longer line:
+The bigger N is, the longer the delay. In relation to the commonly used [For(](For\(.md) loop delay, the number used in the rand( delay is about 10 times smaller. However, this code has a side effect of storing a list of random numbers to [Ans](Ans.md), which may be undesirable. To avoid this, use this somewhat longer line:
 
 ```ti-basic
 :If dim(rand(N))
 ```
 
   
-Despite the presence of an [If](/if) statement, you don't have to worry about the next line being skipped, since dim(rand(N)) will always be true.
+Despite the presence of an [If](If.md) statement, you don't have to worry about the next line being skipped, since dim(rand(N)) will always be true.
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** if you try to generate a list of random numbers and the list length isn't an integer 1-999.
+*   **[ERR:DOMAIN](errors#domain)** if you try to generate a list of random numbers and the list length isn't an integer 1-999.
 
 ## Related Commands
 
-*   [randInt(](/randint)
-*   [randBin(](/randbin)
-*   [randNorm(](/randnorm)
-*   [randM(](/randm)
-*   [randIntNoRep(](/randintnorep)
+*   [randInt(](randInt\(.md)
+*   [randBin(](randBin\(.md)
+*   [randNorm(](randNorm\(.md)
+*   [randM(](randM\(.md)
+*   [randIntNoRep(](randIntNoRep\(.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -27,7 +27,7 @@ Displays `value` in DMS format.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>angle</kbd>, `ANGLE`, `4:DMS`
 <hr>
 
-The <tt>►DMS</tt> command can be used when displaying a real number on the home screen, or with the <tt><a href="/disp">Disp</a></tt> and <tt><a href="/pause">Pause</a></tt> commands. It will then format the number as an angle with degree, minute, and second parts.
+The <tt>►DMS</tt> command can be used when displaying a real number on the home screen, or with the <tt><a href="Disp.md">Disp</a></tt> and <tt><a href="Pause.md">Pause</a></tt> commands. It will then format the number as an angle with degree, minute, and second parts.
 
 ```ti-basic
 30►DMS
@@ -36,21 +36,21 @@ The <tt>►DMS</tt> command can be used when displaying a real number on the hom
     11°6'40"
 ```
 
-It will also work when displaying a number by putting it on the last line of a program by itself. It does **not** work with <tt><a href="/output">Output(</a></tt>, <tt><a href="/text">Text(</a></tt>, or any other more complicated display commands.
+It will also work when displaying a number by putting it on the last line of a program by itself. It does **not** work with <tt><a href="Output(.md">Output(</a></tt>, <tt><a href="Text(.md">Text(</a></tt>, or any other more complicated display commands.
 
-Although <tt>►DMS</tt> is meant as a way to format angles in <tt><a href="/degree-mode">Degree mode</a></tt>, it doesn't depend on the angle mode chosen, only on the number itself. Note that entering a number as _degree_°_minute_'_second_" will also work, in any mode, and it will not be converted to radians in <tt><a href="/radian-mode">Radian mode</a></tt>.
+Although <tt>►DMS</tt> is meant as a way to format angles in <tt><a href="Degree mode.md">Degree mode</a></tt>, it doesn't depend on the angle mode chosen, only on the number itself. Note that entering a number as _degree_°_minute_'_second_" will also work, in any mode, and it will not be converted to radians in <tt><a href="Radian mode.md">Radian mode</a></tt>.
 
 ## Error Conditions
 
-*   **[ERR:SYNTAX](/errors#syntax)** is thrown if the command is used somewhere other than the allowed display commands.
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if the value is complex, or if given a list or matrix as argument.
+*   **[ERR:SYNTAX](errors#syntax)** is thrown if the command is used somewhere other than the allowed display commands.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if the value is complex, or if given a list or matrix as argument.
 
 ## Related Commands
 
-*   <tt><a href="/dec">►Dec</a></tt>
-*   <tt><a href="/frac">►Frac</a></tt>
-*   <tt><a href="/polar-display">►Polar</a></tt>
-*   <tt><a href="/rect">►Rect</a></tt>
+*   <tt><a href="►Dec.md">►Dec</a></tt>
+*   <tt><a href="►Frac.md">►Frac</a></tt>
+*   <tt><a href="►Polar.md">►Polar</a></tt>
+*   <tt><a href="►Rect.md">►Rect</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

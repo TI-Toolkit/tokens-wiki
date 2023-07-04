@@ -68,7 +68,7 @@ Erases a line (erase #: 1,0) from (`X1`,`Y1`) to (`X2`,`Y2`).
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `2:Line(`
 <hr>
 
-The Line( command is used to draw lines at any angle, as opposed to only drawing [vertical](/vertical) or [horizontal](/horizontal) lines. Line(X<sub>1</sub>,Y<sub>1</sub>,X<sub>2</sub>,Y<sub>2</sub>) will draw a line from (X<sub>1</sub>,Y<sub>1</sub>) to (X<sub>2</sub>,Y<sub>2</sub>). Line( is affected by the window settings, although you can use a [friendly window](/friendly-window) so there is no impact on the command.
+The Line( command is used to draw lines at any angle, as opposed to only drawing [vertical](vertical.md) or [horizontal](horizontal.md) lines. Line(X<sub>1</sub>,Y<sub>1</sub>,X<sub>2</sub>,Y<sub>2</sub>) will draw a line from (X<sub>1</sub>,Y<sub>1</sub>) to (X<sub>2</sub>,Y<sub>2</sub>). Line( is affected by the window settings, although you can use a [friendly window](friendly-window) so there is no impact on the command.
 
 ```ti-basic
 :Line(5,5,20,3)
@@ -90,7 +90,7 @@ can be
 :Line(5,5,20,3)
 ```
 
-The ending argument can be a formula, which is useful for [movement applications](/movement) and other things such as health bars where the lines drawn are constantly different. The following draws or erases a line depending on whether a key is pressed.
+The ending argument can be a formula, which is useful for [movement applications](movement) and other things such as health bars where the lines drawn are constantly different. The following draws or erases a line depending on whether a key is pressed.
 
 ```ti-basic
 :getKey
@@ -118,16 +118,16 @@ shaded below
 
 ## Command Timings
 
-If you are drawing horizontal or vertical lines that stretch the entire graph screen, such as a border, it is better to use [Vertical](/vertical) or [Horizontal](/horizontal). These are smaller and are usually faster as well.
+If you are drawing horizontal or vertical lines that stretch the entire graph screen, such as a border, it is better to use [Vertical](Vertical.md) or [Horizontal](Horizontal.md). These are smaller and are usually faster as well.
 
 ## Related Commands
 
-*   [Vertical](/vertical)
-*   [Horizontal](/horizontal)
+*   [Vertical](Vertical.md)
+*   [Horizontal](Horizontal.md)
 
 ## See Also
 
-*   [Friendly Graphing Window](/friendly-window)
+*   [Friendly Graphing Window](Friendly Graphing Window.md)
 
 ## History
 | Calculator | OS Version | Description |

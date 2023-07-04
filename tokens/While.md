@@ -32,7 +32,7 @@ Executes `commands` while `condition` is true.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `5:While`
 <hr>
 
-A While loop executes a block of commands between the While and End commands as long as the specified condition is true. The condition is tested at the beginning of the loop (when the End command is encountered), so if the condition is initially false, the block of commands will never get executed. This distinguishes it from the [Repeat](/repeat) command.
+A While loop executes a block of commands between the While and End commands as long as the specified condition is true. The condition is tested at the beginning of the loop (when the End command is encountered), so if the condition is initially false, the block of commands will never get executed. This distinguishes it from the [Repeat](Repeat.md) command.
 
 After each time the While loop is executed, the condition is checked to see if it is still true. If it is, the block of commands is executed again, otherwise the program resumes after the End statement.
 
@@ -46,7 +46,7 @@ When using While loops, you have to provide the code to break out of the loop (i
 :End
 ```
 
-Each time the program enters an While block, the calculator uses 35+(size of the condition) bytes of memory to keep track of this. This memory is given back to you as soon as the program reaches End. This isn't really a problem unless you're low on RAM, or have a lot of nested While statements. However, if you use [Goto](/goto) to jump out of a While block, you lose those bytes for as long as the program is running — and if you keep doing this, you might easily run out of memory, resulting in [ERR:MEMORY](/errors#memory).
+Each time the program enters an While block, the calculator uses 35+(size of the condition) bytes of memory to keep track of this. This memory is given back to you as soon as the program reaches End. This isn't really a problem unless you're low on RAM, or have a lot of nested While statements. However, if you use [Goto](Goto.md) to jump out of a While block, you lose those bytes for as long as the program is running — and if you keep doing this, you might easily run out of memory, resulting in [ERR:MEMORY](errors#memory).
 
 ## Optimization
 
@@ -65,7 +65,7 @@ Example: we want the user to pick a number, but it has to be positive, so we'll 
 :End
 ```
 
-Another example: we want to wait for the user to [press a key](/getkey).
+Another example: we want to wait for the user to [press a key](getkey).
 
 1.  We're not going to have any code in the loop, all that the loop will have is a condition. So the answer to question 1 is irrelevant.
 2.  We can phrase the problem as "run the loop until a key is pressed" or as "run the loop while no key is pressed." However, we have a good way of testing for the former (getKey), while the latter can only be checked with not(getKey). Therefore, it's better to use a Repeat command:
@@ -81,13 +81,13 @@ While and Repeat loops are identical regarding speed, so that shouldn't be a fac
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
 
 ## Related Commands
 
-*   [For(](/for)
-*   [Repeat](/repeat)
-*   [If](/if)
+*   [For(](For\(.md)
+*   [Repeat](Repeat.md)
+*   [If](If.md)
 
 ## History
 | Calculator | OS Version | Description |

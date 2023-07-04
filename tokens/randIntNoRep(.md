@@ -89,11 +89,11 @@ The output strings are in Ans
 
 ## Related Commands
 
-*   [rand](/rand)
-*   [randBin(](/randbin)
-*   [randNorm(](/randnorm)
-*   [randM(](/randm)
-*   [randInt(](/randint)
+*   [rand](rand.md)
+*   [randBin(](randBin\(.md)
+*   [randNorm(](randNorm\(.md)
+*   [randM(](randM\(.md)
+*   [randInt(](randInt\(.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -60,11 +60,11 @@ This will turn the equation the user drew into a string which can then be used f
 
 ## Related Commands
 
-*   [LinReg(ax+b)](/linreg-ax-b)
-*   [LinReg(a+bx)](/linreg-a-bx)
-*   [LinRegTInt](/linregtint)
-*   [LinRegTTest](/linregttest)
-*   [Med-Med](/med-med)
+*   [LinReg(ax+b)](linreg-ax-b)
+*   [LinReg(a+bx)](linreg-a-bx)
+*   [LinRegTInt](LinRegTInt.md)
+*   [LinRegTTest](LinRegTTest.md)
+*   [Med-Med](Med-Med.md)
 
 ## History
 | Calculator | OS Version | Description |

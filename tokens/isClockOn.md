@@ -19,7 +19,7 @@ Identifies if clock is ON or OFF. Returns 1 if the clock is ON. Returns 0 if the
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `isClockOn`
 <hr>
 
-The <tt>isClockOn</tt> command returns whether the clock on the TI-84+/SE calculators is on or off. The command will return 1 if the clock is enabled and 0 if it is not. You can store it to a [variable](/variable) for later use, or use it in [conditionals](/conditionals) and [loops](/loops) as part of the condition. For example, here is how you would check to see if the clock is on:
+The <tt>isClockOn</tt> command returns whether the clock on the TI-84+/SE calculators is on or off. The command will return 1 if the clock is enabled and 0 if it is not. You can store it to a [variable](variable.md) for later use, or use it in [conditionals](conditionals.md) and [loops](loops.md) as part of the condition. For example, here is how you would check to see if the clock is on:
 
 ```ti-basic
 :If isClockOn
@@ -32,8 +32,8 @@ The <tt>isClockOn</tt> command returns whether the clock on the TI-84+/SE calcul
 
 ## Related Commands
 
-*   <tt><a href="/clockoff">ClockOff</a></tt>
-*   <tt><a href="/clockon">ClockOn</a></tt>
+*   <tt><a href="ClockOff.md">ClockOff</a></tt>
+*   <tt><a href="ClockOn.md">ClockOn</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

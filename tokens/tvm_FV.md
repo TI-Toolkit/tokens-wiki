@@ -46,13 +46,13 @@ If you give them arguments, the values you give will replace the values of the f
 
 ## Error Conditions
 
-*   **[ERR:ITERATIONS](/errors#iterations)** is thrown if the maximum amount of iterations was exceeded in computing I% (this usually means there is no solution)
-*   **[ERR:NO SIGN CHG](/errors#nosignchg)** is thrown if calculating I% when FV, (N*PMT), and PV all have the same sign.
+*   **[ERR:ITERATIONS](errors#iterations)** is thrown if the maximum amount of iterations was exceeded in computing I% (this usually means there is no solution)
+*   **[ERR:NO SIGN CHG](errors#nosignchg)** is thrown if calculating I% when FV, (N*PMT), and PV all have the same sign.
 
 ## Related Commands
 
-*   [Pmt_End](/pmt-end)
-*   [Pmt_Bgn](/pmt-bgn)
+*   [Pmt_End](Pmt_End.md)
+*   [Pmt_Bgn](Pmt_Bgn.md)
 
 ## History
 | Calculator | OS Version | Description |

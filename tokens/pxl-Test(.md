@@ -31,7 +31,7 @@ Returns 1 if pixel (`row`, `column`) is on, 0 if it is off;
 
 The pxl-Test( command is used to test a pixel at the given (Y,X) coordinates of the graph screen, to see whether it is on or off. One is returned if the pixel is on and zero is returned if the pixel is off. Please note that the coordinates are switched around so that the row comes first and then the column — it's (Y,X) instead of (X,Y). This command's coordinates are independent of the window settings.
 
-You can store the result of pxl-Test( to a variable for later use, or use the command in a [conditional](/if) or [loop](/controlflow).
+You can store the result of pxl-Test( to a variable for later use, or use the command in a [conditional](if) or [loop](controlflow).
 
 ```ti-basic
 :Pxl-On(25,25
@@ -41,13 +41,13 @@ You can store the result of pxl-Test( to a variable for later use, or use the co
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is triggered if the coordinates are not whole numbers or not in the right range ([0..62] for row, [0..94] for column). These bounds are also affected by split screen mode ([Horiz](http://tibasicdev.wikidot.com/horiz))
+*   **[ERR:DOMAIN](errors#domain)** is triggered if the coordinates are not whole numbers or not in the right range ([0..62] for row, [0..94] for column). These bounds are also affected by split screen mode ([Horiz](horiz))
 
 ## Related Commands
 
-*   [Pxl-On(](/pxl-on)
-*   [Pxl-Off(](/pxl-off)
-*   [Pxl-Change(](/pxl-change)
+*   [Pxl-On(](Pxl-On\(.md)
+*   [Pxl-Off(](Pxl-Off\(.md)
+*   [Pxl-Change(](Pxl-Change\(.md)
 
 ## History
 | Calculator | OS Version | Description |

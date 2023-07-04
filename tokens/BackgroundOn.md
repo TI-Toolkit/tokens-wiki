@@ -36,7 +36,7 @@ Intrestingly, the following is a valid syntax, which fills the graphscreen with 
 :BackgroundOn B+3
 ```
 
-In addition, <tt>BackgroundOn</tt> can be used to fill the graphscreen with a solid color. The color variables range from 10 to 24, blue to dark gray, as documented [here](/textcolor). For example, <tt>BackgroundOn</tt> 12 will fill the graphscreen with black.
+In addition, <tt>BackgroundOn</tt> can be used to fill the graphscreen with a solid color. The color variables range from 10 to 24, blue to dark gray, as documented [here](textcolor). For example, <tt>BackgroundOn</tt> 12 will fill the graphscreen with black.
 
 ```ti-basic
 :BackgroundOn 12
@@ -44,12 +44,12 @@ In addition, <tt>BackgroundOn</tt> can be used to fill the graphscreen with a so
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#dimmismatch)** is thrown if the number is not an integer between 0 and 24.
+*   **[ERR:DOMAIN](errors#dimmismatch)** is thrown if the number is not an integer between 0 and 24.
 
 ## Related Commands
 
-*   <tt><a href="/backgroundoff">BackgroundOff</a></tt>
-*   <tt><a href="/recallpic">RecallPic</a></tt>
+*   <tt><a href="BackgroundOff.md">BackgroundOff</a></tt>
+*   <tt><a href="RecallPic.md">RecallPic</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

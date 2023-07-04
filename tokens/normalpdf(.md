@@ -49,9 +49,9 @@ For other normal distributions, normalpdf( is defined in terms of the standard d
 
 ## Related Commands
 
-*   [normalcdf(](/normalcdf)
-*   [invNorm(](/invnorm)
-*   [ShadeNorm(](/shadenorm)
+*   [normalcdf(](normalcdf\(.md)
+*   [invNorm(](invNorm\(.md)
+*   [ShadeNorm(](ShadeNorm\(.md)
 
 ## History
 | Calculator | OS Version | Description |

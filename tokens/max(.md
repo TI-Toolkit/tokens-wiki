@@ -134,16 +134,16 @@ Unlike comparison operators such as < and >, <tt>max(</tt> can also compare comp
 
 ## Advanced Uses
 
-<tt>max(</tt> can be used in Boolean comparisons to see if at least one of a list is 1 (true) — useful because commands like <tt><a href="/if">If</a></tt> or <tt><a href="/while">While</a></tt> only deal with numbers, and not lists, but comparisons like <tt>L₁=L₂</tt> return a list of values. In general, the behavior you want varies, and you will use the <tt><a href="/min">min(</a></tt> function or the <tt>max(</tt> function accordingly.
+<tt>max(</tt> can be used in Boolean comparisons to see if at least one of a list is 1 (true) — useful because commands like <tt><a href="If.md">If</a></tt> or <tt><a href="While.md">While</a></tt> only deal with numbers, and not lists, but comparisons like <tt>L₁=L₂</tt> return a list of values. In general, the behavior you want varies, and you will use the <tt><a href="min(.md">min(</a></tt> function or the <tt>max(</tt> function accordingly.
 
-Using <tt>max(</tt> will give you a lenient test — if any one element of the list is 1 (true), then the <tt>max(</tt> of the list is true — this is equivalent to putting an <tt><a href="/or">or</a></tt> in between every element. For example, this tests if K is equal to any of 24, 25, 26, or 34 (the <tt><a href="/getkey">getKey</a></tt> arrow key values):
+Using <tt>max(</tt> will give you a lenient test — if any one element of the list is 1 (true), then the <tt>max(</tt> of the list is true — this is equivalent to putting an <tt><a href="or.md">or</a></tt> in between every element. For example, this tests if K is equal to any of 24, 25, 26, or 34 (the <tt><a href="getKey.md">getKey</a></tt> arrow key values):
 
 ```ti-basic
 :If max(K={24,25,26,34
 :Disp "ARROW KEY
 ```
 
-To get the element of a real list in <tt><a href="/ans">Ans</a></tt> with the greatest absolute value, use <tt>imag(max(𝑖Ans))</tt> or <tt>max(abs(Ans))</tt>.
+To get the element of a real list in <tt><a href="Ans.md">Ans</a></tt> with the greatest absolute value, use <tt>imag(max(𝑖Ans))</tt> or <tt>max(abs(Ans))</tt>.
 
 <tt>max(</tt> can be also used along with <tt>min(</tt> to constrain a value between a lower and upper number:
 
@@ -156,14 +156,14 @@ where the bounds for which the number 1 must fall between are first argument of 
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown when comparing a real and a complex number. This can be avoided by adding +0𝑖 to the real number (or _i^4_ right after it, for those who are familiar with complex numbers)
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown, when using <tt>max(</tt> with two lists, if they have different dimensions.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown when comparing a real and a complex number. This can be avoided by adding +0𝑖 to the real number (or _i^4_ right after it, for those who are familiar with complex numbers)
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown, when using <tt>max(</tt> with two lists, if they have different dimensions.
 
 ## Related Commands
 
-*   <tt><a href="/min">min(</a></tt>
-*   <tt><a href="/sum">sum(</a></tt>
-*   <tt><a href="/prod">prod(</a></tt>
+*   <tt><a href="min(.md">min(</a></tt>
+*   <tt><a href="sum(.md">sum(</a></tt>
+*   <tt><a href="prod(.md">prod(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

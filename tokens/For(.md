@@ -64,15 +64,15 @@ This is perhaps best explained with an example. The following code will display 
 :End
 ```
 
-Now, all of this could be done with a <tt><a href="/repeat">Repeat</a></tt> or <tt><a href="/while">While</a></tt> command and some manipulation, except that this is faster because it's a single command. Still, why have a separate command for something that seems so specific and arbitrary? Well, it's because <tt>For(</tt> has so many uses!
+Now, all of this could be done with a <tt><a href="Repeat.md">Repeat</a></tt> or <tt><a href="While.md">While</a></tt> command and some manipulation, except that this is faster because it's a single command. Still, why have a separate command for something that seems so specific and arbitrary? Well, it's because <tt>For(</tt> has so many uses!
 
 *   Do something to each element of a list, matrix, or string.
 *   Draw several similar objects on the graph screen.
-*   Create [animations](/animation).
+*   Create [animations](animation).
 *   Easily add the possibility of levels to many games.
 *   Any number of other things…
 
-An advanced note: each time the program enters a <tt>For(</tt> loop, the calculator uses 43 bytes of memory to keep track of this. This memory is given back to you as soon as the program reaches <tt>End</tt>. This isn't really a problem unless you're low on RAM, or have a lot of nested <tt>For(</tt> statements. However, if you use <tt><a href="/goto">Goto</a></tt> to jump out of a <tt>For(</tt> loop, you lose those bytes for as long as the program is running—and if you keep doing this, you might easily run out of memory, resulting in [ERR:MEMORY](/errors#memory).
+An advanced note: each time the program enters a <tt>For(</tt> loop, the calculator uses 43 bytes of memory to keep track of this. This memory is given back to you as soon as the program reaches <tt>End</tt>. This isn't really a problem unless you're low on RAM, or have a lot of nested <tt>For(</tt> statements. However, if you use <tt><a href="Goto.md">Goto</a></tt> to jump out of a <tt>For(</tt> loop, you lose those bytes for as long as the program is running—and if you keep doing this, you might easily run out of memory, resulting in [ERR:MEMORY](errors#memory).
 
 ## Advanced Uses
 
@@ -99,7 +99,7 @@ Sometimes you want to exit out of a <tt>For(</tt> loop when it hasn't finished. 
   
 If X is _end_, the delay will be about X/1000 seconds for the TI-83/83+, and X/400 for other calculators.
 
-Unlike delays that use <tt><a href="/rand">rand</a></tt>, a <tt>For(</tt> loop delay can execute an animation or other code during the delay.
+Unlike delays that use <tt><a href="rand.md">rand</a></tt>, a <tt>For(</tt> loop delay can execute an animation or other code during the delay.
 
 * * *
 
@@ -148,7 +148,7 @@ X
 
 * * *
 
-<tt>For(</tt> loops can also be used to exceed the normal [overflow](/errors#overflow) limit of $10^{100}$ for variables and computations. For example, utilizing the optional _step_ argument,
+<tt>For(</tt> loops can also be used to exceed the normal [overflow](errors#overflow) limit of $10^{100}$ for variables and computations. For example, utilizing the optional _step_ argument,
 
 ```ti-basic
 :For(A,9E99,9E99,9E99
@@ -166,7 +166,7 @@ which doubles the value of A (so <tt>1.8E100</tt> becomes <tt>3.6E100</tt>). Thi
 
 ## Optimization
 
-The <tt><a href="/seq-list">seq(</a></tt> command, or simple math, can often be used in place of the <tt>For(</tt> command when dealing with lists. For example:
+The <tt><a href="seq(.md">seq(</a></tt> command, or simple math, can often be used in place of the <tt>For(</tt> command when dealing with lists. For example:
 
 ```ti-basic
 :For(A,1,dim(L1
@@ -188,10 +188,10 @@ and
 
 One rather strange optimization when using <tt>For(</tt> loops is actually leaving on the ending parenthesis of the <tt>For(</tt> loop in certain cases. If you don't do this, the following cases will be processed **much** slower when they are the first line of code in the loop:
 
-*   <tt><a href="/is">IS&gt;(</a></tt> and <tt><a href="/ds">DS&lt;(</a></tt> (no matter if the following command is skipped or not).
-*   A lone <tt><a href="/if">If</a></tt> without an accompanying <tt>Then</tt>, but **only** when the condition is false (<tt>If</tt> with a true condition is unchanged).
+*   <tt><a href="IS(.md">IS&gt;(</a></tt> and <tt><a href="DS(.md">DS&lt;(</a></tt> (no matter if the following command is skipped or not).
+*   A lone <tt><a href="If.md">If</a></tt> without an accompanying <tt>Then</tt>, but **only** when the condition is false (<tt>If</tt> with a true condition is unchanged).
 
-If the condition of the <tt><a href="/if">If</a></tt> command can be false (as in most actual cases), you should add a closing parenthesis because the difference is so great.
+If the condition of the <tt><a href="If.md">If</a></tt> command can be false (as in most actual cases), you should add a closing parenthesis because the difference is so great.
 
 An example use of this optimization:
 
@@ -214,15 +214,15 @@ Using a <tt>For(</tt> loop when it fits your purpose is much faster than adaptin
 
 ## Error Conditions
 
-*   **[ERR:INCREMENT](/errors#increment)** is thrown if the increment of the <tt>For(</tt> loop is 0.
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
-*   **[ERR:UNDEFINED](/errors#undefined)** is thrown if you <tt>DelVar</tt> the loop variable while inside the loop.
+*   **[ERR:INCREMENT](errors#increment)** is thrown if the increment of the <tt>For(</tt> loop is 0.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:UNDEFINED](errors#undefined)** is thrown if you <tt>DelVar</tt> the loop variable while inside the loop.
 
 ## Related Commands
 
-*   <tt><a href="/repeat">Repeat</a></tt>
-*   <tt><a href="/while">While</a></tt>
-*   <tt><a href="/if">If</a></tt>
+*   <tt><a href="Repeat.md">Repeat</a></tt>
+*   <tt><a href="While.md">While</a></tt>
+*   <tt><a href="If.md">If</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

@@ -46,16 +46,16 @@ A <tt>gcd(</tt> command can be nested inside another <tt>gcd(</tt> command to co
 
 ## Error Conditions
 
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if the arguments are two lists that don't have the same number of elements.
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if the arguments aren't positive integers (or lists of positive integers) less than <tt>1E12</tt>.
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown if the arguments are two lists that don't have the same number of elements.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if the arguments aren't positive integers (or lists of positive integers) less than <tt>1E12</tt>.
 
 ## Related Commands
 
-*   <tt><a href="/lcm">lcm(</a></tt>
+*   <tt><a href="lcm(.md">lcm(</a></tt>
 
 ## See Also
 
-*   [Extended Euclidean Algorithm](/extended-euclidean-algorithm)
+*   [Extended Euclidean Algorithm](Extended Euclidean Algorithm.md)
 
 ## History
 | Calculator | OS Version | Description |

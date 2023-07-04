@@ -33,7 +33,7 @@ Fits a median-median model to `Xlistname` and `Ylistname` with frequency `freqli
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `3:Med-Med`
 <hr>
 
-The Med-Med command is one of several that can calculate a line of best fit through a set of points. However, unlike the [LinReg(ax+b)](/linreg-ax-b) and [LinReg(a+bx)](/linreg-a-bx) commands, which generate the same result in different formats, Med-Med produces a different line entirely, known as the 'median fit line' or the 'median-median model'. This model is more resistant to outliers than the best-fit line produced by LinReg(ax+b)-type commands, in much the same way that the median of a set of data is more resistant to outliers than the mean. The process of calculating a median fit line is roughly as follows ([reference](http://www.amstat.org/publications/jse/v14n2/morrell.html)):
+The Med-Med command is one of several that can calculate a line of best fit through a set of points. However, unlike the [LinReg(ax+b)](linreg-ax-b) and [LinReg(a+bx)](linreg-a-bx) commands, which generate the same result in different formats, Med-Med produces a different line entirely, known as the 'median fit line' or the 'median-median model'. This model is more resistant to outliers than the best-fit line produced by LinReg(ax+b)-type commands, in much the same way that the median of a set of data is more resistant to outliers than the mean. The process of calculating a median fit line is roughly as follows ([reference](http://www.amstat.org/publications/jse/v14n2/morrell.html)):
 
 1.  Divide the data into three equal groups by their x-values (the smallest third, the middle third, and the largest third)
 2.  Find the "median point" for each group by pairing the median x-value in the group with the median y-value (this need not be an actual data point).
@@ -51,7 +51,7 @@ In its simplest form, Med-Med takes no arguments, and calculates a regression li
 :Med-Med
 ```
 
-On the home screen, or as the last line of a program, this will display the equation of the regression line: you'll be shown the format, y=ax+b, and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a and b will be set as well. There are no diagnostics available for the Med-Med command, so r and r² will not be calculated or displayed even if you run [DiagnosticOn](/diagnosticon).
+On the home screen, or as the last line of a program, this will display the equation of the regression line: you'll be shown the format, y=ax+b, and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a and b will be set as well. There are no diagnostics available for the Med-Med command, so r and r² will not be calculated or displayed even if you run [DiagnosticOn](DiagnosticOn.md).
 
 You don't have to do the regression on L₁ and L₂, but if you don't you'll have to enter the names of the lists after the command. For example:
 
@@ -76,11 +76,11 @@ An example of Med-Med with all the optional arguments:
 
 ## Related Commands
 
-*   [LinReg(ax+b)](/linreg-ax-b)
-*   [LinReg(a+bx)](/linreg-a-bx)
-*   [LinRegTTest](/linregttest)
-*   [LinRegTInt](/linregtint)
-*   [Manual-Fit](/manual-fit)
+*   [LinReg(ax+b)](linreg-ax-b)
+*   [LinReg(a+bx)](linreg-a-bx)
+*   [LinRegTTest](LinRegTTest.md)
+*   [LinRegTInt](LinRegTInt.md)
+*   [Manual-Fit](Manual-Fit.md)
 
 ## History
 | Calculator | OS Version | Description |

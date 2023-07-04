@@ -54,11 +54,11 @@ This is the only inverse of a probability distribution function available (at le
 :int(.5+invNorm(X,NP,√(NP(1-P
 ```
 
-You can also use <tt>invNorm()</tt> to approximate the [inverse of a t-distribution](/invt). Since a normal distribution is a t-distribution with infinite degrees of freedom, this will be an overestimate for probabilities below 1/2, and an underestimate for probabilities above 1/2.
+You can also use <tt>invNorm()</tt> to approximate the [inverse of a t-distribution](invt). Since a normal distribution is a t-distribution with infinite degrees of freedom, this will be an overestimate for probabilities below 1/2, and an underestimate for probabilities above 1/2.
 
 ## Formulas
 
-Unlike the <tt><a href="/normalpdf">normalpdf(</a></tt> and <tt><a href="/normalcdf">normalcdf(</a></tt> commands, the <tt>invNorm(</tt> command does not have a closed-form formula. It can however be expressed in terms of the [inverse error function](http://en.wikipedia.org/wiki/Error_function):
+Unlike the <tt><a href="normalpdf(.md">normalpdf(</a></tt> and <tt><a href="normalcdf(.md">normalcdf(</a></tt> commands, the <tt>invNorm(</tt> command does not have a closed-form formula. It can however be expressed in terms of the [inverse error function](http://en.wikipedia.org/wiki/Error_function):
 
 (1) $`\begin{align} \texttt{invNorm}(p) = \sqrt{2}\,\texttt{erf}^{-1}(2p-1) \end{align}`$ 
 
@@ -68,9 +68,9 @@ For the arbitrary normal distribution with mean μ and standard deviation σ:
 
 ## Related Commands
 
-*   <tt><a href="/normalpdf">normalpdf(</a></tt>
-*   <tt><a href="/normalcdf">normalcdf(</a></tt>
-*   <tt><a href="/shadenorm">ShadeNorm(</a></tt>
+*   <tt><a href="normalpdf(.md">normalpdf(</a></tt>
+*   <tt><a href="normalcdf(.md">normalcdf(</a></tt>
+*   <tt><a href="ShadeNorm(.md">ShadeNorm(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

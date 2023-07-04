@@ -51,19 +51,19 @@ round([[1.8,3.5,120.3][3,‾1,0.2]],0)
 
 ## Advanced Uses
 
-Sometimes, round-off error will cause the result of an expression to be slightly off of the correct integer value — for example, a result may be 5.0000000013 instead of 5. If the error is small enough, it will not even be visible if you recall the variable on the home screen. However, this is enough to cause a [ERR:DOMAIN](/errors#domain) error with commands such as [sub(](/sub) and [Output(](/output), which require their arguments to be integers.
+Sometimes, round-off error will cause the result of an expression to be slightly off of the correct integer value — for example, a result may be 5.0000000013 instead of 5. If the error is small enough, it will not even be visible if you recall the variable on the home screen. However, this is enough to cause a [ERR:DOMAIN](errors#domain) error with commands such as [sub(](sub\(.md) and [Output(](Output\(.md), which require their arguments to be integers.
 
-The easiest way to fix this problem is by wrapping the different arguments in a round( instruction. For example, you may replace Output(X,1,">") with Output(round(X),1,">"). The [int(](/int) command will not work here because the round-off error may be negative, such as 4.9999999986 instead of 5, in which case the number will be rounded down to 4.
+The easiest way to fix this problem is by wrapping the different arguments in a round( instruction. For example, you may replace Output(X,1,">") with Output(round(X),1,">"). The [int(](int\(.md) command will not work here because the round-off error may be negative, such as 4.9999999986 instead of 5, in which case the number will be rounded down to 4.
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** if the number of places to round to is not an integer 0 through 9.
+*   **[ERR:DOMAIN](errors#domain)** if the number of places to round to is not an integer 0 through 9.
 
 ## Related Commands
 
-*   [int(](/int)
-*   [iPart(](/ipart)
-*   [fPart(](/fpart)
+*   [int(](int\(.md)
+*   [iPart(](iPart\(.md)
+*   [fPart(](fPart\(.md)
 
 ## History
 | Calculator | OS Version | Description |

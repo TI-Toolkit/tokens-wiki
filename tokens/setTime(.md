@@ -37,14 +37,14 @@ The setTime( command sets the time of the clock on the TI-84+/SE calculators. It
 :setTime(12,30,30
 ```
 
-Once you have set the time, you can display it in two different formats on the [mode screen](/settings) using the [setTmFmt(](/settmfmt) command: 12 (12 hour) or 24 (24 hour). Of course, the time will only show up if the clock is on; if you need to turn the clock on, use the [ClockOn](/clockon) command, or scroll down to the 'TURN CLOCK ON' message that is displayed in place of the clock on the mode screen and press ENTER twice.
+Once you have set the time, you can display it in two different formats on the [mode screen](settings) using the [setTmFmt(](setTmFmt\(.md) command: 12 (12 hour) or 24 (24 hour). Of course, the time will only show up if the clock is on; if you need to turn the clock on, use the [ClockOn](ClockOn.md) command, or scroll down to the 'TURN CLOCK ON' message that is displayed in place of the clock on the mode screen and press ENTER twice.
 
 ## Related Commands
 
-*   [getTime](/gettime)
-*   [getTmFmt](/gettmfmt)
-*   [getTmStr(](/gettmstr)
-*   [setTmFmt(](/settmfmt)
+*   [getTime](getTime.md)
+*   [getTmFmt](getTmFmt.md)
+*   [getTmStr(](getTmStr\(.md)
+*   [setTmFmt(](setTmFmt\(.md)
 
 ## History
 | Calculator | OS Version | Description |

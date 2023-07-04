@@ -32,10 +32,10 @@ Eng
 
 ## Related Commands
 
-*   <tt><a href="/normal">Normal</a></tt>
-*   <tt><a href="/sci">Sci</a></tt>
-*   <tt><a href="/float">Float</a></tt>
-*   <tt><a href="/fix">Fix</a></tt>
+*   <tt><a href="Normal.md">Normal</a></tt>
+*   <tt><a href="Sci.md">Sci</a></tt>
+*   <tt><a href="Float.md">Float</a></tt>
+*   <tt><a href="Fix.md">Fix</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

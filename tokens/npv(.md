@@ -36,7 +36,7 @@ Computes the sum of the present values for cash inflows and outflows.
 The <tt>npv(</tt> command computes the net present value of money over a specified time period. If a positive value is returned after executing <tt>npv(</tt>, that means it was a positive cashflow; otherwise it was a negative cashflow. The <tt>npv(</tt> command takes four arguments, and the fourth one is optional:
 
 *   **interest rate** — the percentage of the money that is paid for the use of that money over each individual period of time.
-*   **CF0** — the initial amount of money that you start out with; this number must be a real number, otherwise you will get a [ERR:DATA TYPE](/errors#datatype) error.
+*   **CF0** — the initial amount of money that you start out with; this number must be a real number, otherwise you will get a [ERR:DATA TYPE](errors#datatype) error.
 *   **CFList** — the list of cash flows added or subtracted after the initial money.
 *   **CFFreq** — the list of frequencies of each cash flow added after the initial money; if this is left off, each cash flow in the cash flow list will just appear once by default.
 
@@ -80,12 +80,12 @@ When a frequency list is used, the same formula can be applied if we expand the 
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if you try to use anything other than a real number for the interest rate.
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if the list of cash flows and the list of cash flow frequencies have different dimensions.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if you try to use anything other than a real number for the interest rate.
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown if the list of cash flows and the list of cash flow frequencies have different dimensions.
 
 ## Related Commands
 
-*   <tt><a href="/irr">irr(</a></tt>
+*   <tt><a href="irr(.md">irr(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

@@ -77,7 +77,7 @@ can be
 
 In general, the first number, A, in the expression <tt>A&gt;abs(X-B)</tt> should be half the length of the range, half of 10 in this case, and the second number, B, should be the midpoint of the range (here, 15).
 
-This can be taken to extreme degrees. For example, the following code uses abs( three times to test if X is the [getKey](/getkey) keycode of one of the keys 1, 2, 3, 4, 5, 6, 7, 8, or 9:
+This can be taken to extreme degrees. For example, the following code uses abs( three times to test if X is the [getKey](getKey.md) keycode of one of the keys 1, 2, 3, 4, 5, 6, 7, 8, or 9:
 
 ```ti-basic
 :If 2>abs(5-abs(5-abs(X-83
@@ -89,11 +89,11 @@ For complex numbers given by a separate real and complex part, <tt>abs(X+iY)</tt
 
 ## Related Commands
 
-*   <tt><a href="/angle">angle(</a></tt>
-*   <tt><a href="/real-func">real(</a></tt>
-*   <tt><a href="/imag">imag(</a></tt>
-*   <tt><a href="/conj">conj(</a></tt>
-*   <tt><a href="/r-pr">R►Pr(</a></tt>
+*   <tt><a href="angle(.md">angle(</a></tt>
+*   <tt><a href="real(.md">real(</a></tt>
+*   <tt><a href="imag(.md">imag(</a></tt>
+*   <tt><a href="conj(.md">conj(</a></tt>
+*   <tt><a href="R►Pr(.md">R►Pr(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

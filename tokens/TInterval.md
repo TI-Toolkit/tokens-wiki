@@ -117,19 +117,19 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** occurs if complex numbers are used (in some cases, **[ERR:ARGUMENT](/errors#argument)** is thrown instead).
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** occurs if the data and frequency lists aren't the same size.
-*   **[ERR:DOMAIN](/errors#domain)** occurs in any of the following cases:
+*   **[ERR:DATA TYPE](errors#datatype)** occurs if complex numbers are used (in some cases, **[ERR:ARGUMENT](errors#argument)** is thrown instead).
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** occurs if the data and frequency lists aren't the same size.
+*   **[ERR:DOMAIN](errors#domain)** occurs in any of the following cases:
     *   The confidence level isn't in the range (0 .. 100).
     *   The standard deviation isn't positive.
     *   The sample size isn't an integer greater than 1.
-*   **[ERR:STAT](/errors#stat)** occurs if the frequency list's elements aren't integers.
+*   **[ERR:STAT](errors#stat)** occurs if the frequency list's elements aren't integers.
 
 ## Related Commands
 
-*   <tt><a href="/2-samptint">2-SampTInt</a></tt>
-*   <tt><a href="/zinterval">ZInterval</a></tt>
-*   <tt><a href="/2-sampzint">2-SampZInt(</a></tt>
+*   <tt><a href="2-SampTInt.md">2-SampTInt</a></tt>
+*   <tt><a href="ZInterval.md">ZInterval</a></tt>
+*   <tt><a href="2-SampZInt(.md">2-SampZInt(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

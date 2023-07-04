@@ -101,6 +101,7 @@ const pages = [
     ["dbd(",null],
     ["DEC Answer",null],
     ["degree-mode","Degree"],
+    ["degree-symbol","°"],
     ["deltalist","ΔList("],
     ["DelVar",null],
     ["DependAsk",null],
@@ -261,6 +262,7 @@ const pages = [
     ["QuartReg",null],
     ["r-ptheta","R►Pθ("],
     ["radian-mode","Radian"],
+    ["radian-symbol","ʳ"],
     ["rand",null],
     ["randBin(",null],
     ["randInt(",null],
@@ -407,8 +409,17 @@ for (const page of pages) {
     // Discard the sidebar content (ends at the token size thing), remove the empty end, resize titles, and do some cleanup.
     articleHTML = articleHTML
         .replace(/.*Token Size<\/a><\/strong><\/p>\n<p>(?:N\/A|\d bytes?(?: \(\w+\))?)<\/p>\n(?:<p><sub>\*OS [\d.]{1,10} or later<\/sub><\/p>\n)?<\/div>\n/s, '')
+        .replaceAll('re^θi', 're^θ𝑖')
         .replaceAll('<a class="newpage" href="/"></a>', '')
+        .replaceAll('<a href="http://tibasicdev.wikidot.com/', '<a href="')
+        .replaceAll('<a href="/', '<a href="')
+        .replaceAll('<a href="radian-symbol">r</a>', '<a href="ʳ">ʳ</a>')
+        .replaceAll(/<(li|tt)><a href="([^"]+)">([^<(]+)\(<\/a><\/\1>/gmi, '<$1><a href="$3\\(.md">$3(</a></$1>')
+        .replaceAll(/<(li|tt)><a href="([^"]+)">([^<(]+)<\/a><\/\1>/gmi, '<$1><a href="$3.md">$3</a></$1>')
+        .replaceAll(/<a href="([^"]+)">(\1)\(<\/a>/gmi, '<a href="$2\\(.md">$2(</a>')
+        .replaceAll(/<a href="([^"]+)">(\1)<\/a>/gmi, '<a href="$2.md">$2</a>')
         .replaceAll('<div style="display : none;">\n<p>.</p>\n</div>', '')
+        .replaceAll('‾¹', '⁻¹')
         .replaceAll('<h5', '<h6').replaceAll('</h5', '</h6')
         .replaceAll('<h4', '<h5').replaceAll('</h4', '</h5')
         .replaceAll('<h3', '<h4').replaceAll('</h3', '</h4')
@@ -416,12 +427,18 @@ for (const page of pages) {
         .replaceAll('<h1', '<h2').replaceAll('</h1', '</h2')
         .replaceAll('http://mathworld.wolfram.com', 'https://mathworld.wolfram.com')
         .replaceAll('∟', 'ʟ')
-        .replaceAll('<em>i</em>', '𝑖')
         .replaceAll('\\operatorname{', '\\texttt{')
+        .replaceAll('<em>i</em>', '𝑖')
         .replaceAll('𝑖th', '<em>i<em><sup>th</sup>');
 
     const markdown = turndownService.turndown(articleHTML)
-        .replaceAll(/____$/gm, '');
+        .replaceAll(/____$/gm, '')
+        .replaceAll('\\(.md">', '(.md">') // fix up bad link stuff after "escaping" transformation above
+        .replaceAll('[°](degree-symbol)', '[°](°.md)')
+        .replaceAll('<a href="degree-symbol">°</a>', '<a href="°.md">°</a>')
+        .replaceAll(/<a href="([^"]*)[<>]([^"]*)\.md">/gmi, '<a href="$1$2.md">')
+        .replaceAll('[IS>(](is)', '[IS>(](IS\(.md)').replaceAll('[DS<(](ds)', '[DS<(](DS\(.md)')
+        .replaceAll(/^> \*\*NOTE\*\*: Due to the limitations of the wiki markup language.*$/gm, '');
 
     fs.writeFileSync(mdOutFile, markdown);
 }

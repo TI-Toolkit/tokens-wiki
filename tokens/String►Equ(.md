@@ -33,7 +33,7 @@ String►Equ( is the inverse of Equ►String(.
 
 This command stores the contents of a string to an equation variable (such as Y<sub>1</sub> or X<sub>1T</sub>). This command can, in theory, be used whenever you need to set any equation variable.
 
-In practice, however, this command is useless. This is because the [→](/store) (store) operation can be used for the same purpose:
+In practice, however, this command is useless. This is because the [→](store) (store) operation can be used for the same purpose:
 
 ```ti-basic
 :String►Equ(Str1,Y1
@@ -45,7 +45,7 @@ This replacement is universal, takes the same time to run (because it actually u
 
 ## Advanced
 
-Unlike any normal use of the → (store) operation, this situation is different because it doesn't modify [Ans](/ans). For example:
+Unlike any normal use of the → (store) operation, this situation is different because it doesn't modify [Ans](Ans.md). For example:
 
 ```ti-basic
 :125
@@ -60,8 +60,8 @@ It's also important to realize the difference between the String►Equ( command 
 
 ## Related Commands
 
-*   [Equ►String(](/equ-string)
-*   [expr(](/expr)
+*   [Equ►String(](Equ►String\(.md)
+*   [expr(](expr\(.md)
 
 ## History
 | Calculator | OS Version | Description |

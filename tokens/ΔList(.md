@@ -38,26 +38,26 @@ Returns a list containing the differences between consecutive elements in `list`
 
 ## Advanced Uses
 
-The ΔList( command is very nearly the inverse of the [cumSum(](/cumsum) command, which calculates the cumulative sums of a list. For any list, <tt>ΔList(cumSum(<em>list</em>))</tt> will return the same list, but without its first element:
+The ΔList( command is very nearly the inverse of the [cumSum(](cumSum\(.md) command, which calculates the cumulative sums of a list. For any list, <tt>ΔList(cumSum(<em>list</em>))</tt> will return the same list, but without its first element:
 
 ```ti-basic
 ΔList(cumSum({1,2,3,4,5,6,7}))
     {2 3 4 5 6 7}
 ```
 
-Removing the first element would otherwise be a difficult procedure involving the [seq(](/seq-list) command, so this is a useful trick to know.
+Removing the first element would otherwise be a difficult procedure involving the [seq(](seq-list) command, so this is a useful trick to know.
 
 If a list is sorted in ascending order, <tt>min(ΔList(<em>list</em>))</tt> will return 0 (false) if there are repeating values in the list, and a value corresponding to true if they are all distinct. The number of repeating elements can be determined similarly via <tt>1+sum(0≠ΔList(<em>list</em>))</tt> (again, so long as the list is sorted).
 
 ## Error Conditions
 
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if <tt>ΔList(</tt> is run on a single element list.
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if <tt>ΔList(</tt> is run on a single element list.
 
 ## Related Commands
 
-*   <tt><a href="/sum">sum(</a></tt>
-*   <tt><a href="/cumsum">cumSum(</a></tt>
-*   <tt><a href="/augment">augment(</a></tt>
+*   <tt><a href="sum(.md">sum(</a></tt>
+*   <tt><a href="cumSum(.md">cumSum(</a></tt>
+*   <tt><a href="augment(.md">augment(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

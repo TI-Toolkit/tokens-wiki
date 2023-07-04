@@ -95,7 +95,7 @@ In the summary stats syntax, _σ<sub>1</sub>_ and _σ<sub>2</sub>_ are the two s
 
 The output will contain an open interval (a, b) that is your answer: the difference between the two means will lie in this interval. Specifically, it is the second mean subtracted from the first - μ<sub>1</sub>-μ<sub>2</sub>. If you're interested in the reverse difference, just flip the signs on the interval.
 
-Tip: don't use this command in a matched-pairs setting when you can match the two samples up by units or subjects. Instead, take the difference between the two samples in each matched pair, and use a regular [ZInterval](/zinterval).
+Tip: don't use this command in a matched-pairs setting when you can match the two samples up by units or subjects. Instead, take the difference between the two samples in each matched pair, and use a regular [ZInterval](ZInterval.md).
 
 ## Sample Problem
 
@@ -150,9 +150,9 @@ can be
 
 ## Related Commands
 
-*   [ZInterval](/zinterval)
-*   [TInterval](/tinterval)
-*   [2-SampTInt](/2-samptint)
+*   [ZInterval](ZInterval.md)
+*   [TInterval](TInterval.md)
+*   [2-SampTInt](2-SampTInt.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -29,7 +29,7 @@ Performs one-variable analysis on the data in `Xlistname` with frequency `freqli
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `1:1-Var Stats`
 <hr>
 
-This command calculates a bunch of common (and a few uncommon) statistics for a [list](/lists) (it uses L1 by default, but you can use any list by supplying it as an argument). You have to store the list to a variable first, though, before calculating statistics for it. For example:
+This command calculates a bunch of common (and a few uncommon) statistics for a [list](lists) (it uses L1 by default, but you can use any list by supplying it as an argument). You have to store the list to a variable first, though, before calculating statistics for it. For example:
 
 ```ti-basic
 :{5,12,7,8,4,9→L1
@@ -54,17 +54,17 @@ is the frequency-list equivalent of:
 
 When you're running it from the home screen, 1-Var Stats will display the statistics; this won't happen if you do it inside a program. Either way, it will also store what it calculated to the statistics variables found in VARS>Statistics… The variables 1-Var Stats affects are:
 
-*   $\overline{\textrm{x}}$ is the mean (average) of the elements, as returned by [mean(](/mean)
-*   Σx is the sum of the elements, as returned by [sum(](/sum)
+*   $\overline{\textrm{x}}$ is the mean (average) of the elements, as returned by [mean(](mean\(.md)
+*   Σx is the sum of the elements, as returned by [sum(](sum\(.md)
 *   Σx² is the sum of the squares of the elements
-*   Sx is the sample standard deviation, as returned by [stdDev(](/stddev)
+*   Sx is the sample standard deviation, as returned by [stdDev(](stdDev\(.md)
 *   σx is population standard deviation
-*   n is the number of elements in the list, as returned by [dim(](/dim)
-*   minX is the minimum value, as returned by [min(](/min)
+*   n is the number of elements in the list, as returned by [dim(](dim\(.md)
+*   minX is the minimum value, as returned by [min(](min\(.md)
 *   Q1 is the first quartile
-*   Med is the median, as returned by [median(](/median)
+*   Med is the median, as returned by [median(](median\(.md)
 *   Q3 is the third quartile
-*   maxX is the maximum value, as returned by [max(](/max)
+*   maxX is the maximum value, as returned by [max(](max\(.md)
 
 1-Var Stats will not work with "reserved" list names that the calculator uses internally. The only known such reserved list is the list RESID, and there's no reason to suspect there are any others. Ans, TblInput, and any expression which resolves to a list, are also not appropriate for this command: store all of these to a list before doing 1-Var Stats on them.
 
@@ -81,7 +81,7 @@ can be
 
 ## Related Commands
 
-*   [2-Var Stats](/2-var-stats)
+*   [2-Var Stats](2-Var Stats.md)
 
 ## History
 | Calculator | OS Version | Description |

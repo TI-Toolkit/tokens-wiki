@@ -60,12 +60,12 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** is thrown if expressions are not defined.
-*   **[ERR:DATA TYPE](/errors#data-type)** is thrown if a quotation mark is not placed before a piecewise command that is to be stored to an equation variable.
+*   **[ERR:INVALID](errors#invalid)** is thrown if expressions are not defined.
+*   **[ERR:DATA TYPE](errors#data-type)** is thrown if a quotation mark is not placed before a piecewise command that is to be stored to an equation variable.
 
 ## See Also
 
-*   [Technique: Piecewise Expressions](/piecewise-expressions)
+*   [Technique: Piecewise Expressions](Technique: Piecewise Expressions.md)
 
 ## History
 | Calculator | OS Version | Description |

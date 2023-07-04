@@ -38,9 +38,9 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 
 This command performs a <tt>χ²</tt> test of independence. This test is used to assess the independence of two categorical variables with known frequencies. The test is only valid for a simple random sample from the population, and only if all the frequencies are sufficiently large (greater than 5).
 
-Note: this test is different from the <tt>χ²</tt> goodness of fit test, which the TI-83 calculators don't have a command for. For a program that will perform the <tt>χ²</tt> goodness-of-fit test, see the [goodness-of-fit test](/goodness-of-fit) routine.
+Note: this test is different from the <tt>χ²</tt> goodness of fit test, which the TI-83 calculators don't have a command for. For a program that will perform the <tt>χ²</tt> goodness-of-fit test, see the [goodness-of-fit test](goodness-of-fit) routine.
 
-To use this test, you need a [matrix](/matrices) containing a _contingency table_. This is a table in which every row corresponds to a value of the first variable, and every column to a value of the second. The number in each cell represents the frequency with which the corresponding values of the two variables occur together. For example: suppose that the two variables are sex (male and female) and eye color (blue, brown, and green). The contingency table would have two rows and three columns. The cell in the first row and column would be the number of blue-eyed men in the sample, the cell in the second row and first column would be the number of blue-eyed women, and so on.
+To use this test, you need a [matrix](matrices) containing a _contingency table_. This is a table in which every row corresponds to a value of the first variable, and every column to a value of the second. The number in each cell represents the frequency with which the corresponding values of the two variables occur together. For example: suppose that the two variables are sex (male and female) and eye color (blue, brown, and green). The contingency table would have two rows and three columns. The cell in the first row and column would be the number of blue-eyed men in the sample, the cell in the second row and first column would be the number of blue-eyed women, and so on.
 
 The <tt>χ²-Test(</tt> command takes two arguments: the _observed_ matrix and _expected_ matrix. The first of these should be the contingency table you've already completed, presumably in the Matrix editor. The expected matrix does not need to already exist: the <tt>χ²-Test(</tt> command will calculate and store the expected frequencies (under the assumption that the variables are independent) to this matrix.
 
@@ -107,12 +107,12 @@ The final argument of <tt>χ²-Test(</tt>, _draw?_, will display the results in 
 
 ## Related Commands
 
-*   <tt><a href="/chisquaregof-test">χ²GOF-Test(</a></tt>
-*   <tt><a href="/chisquarecdf">χ²cdf(</a></tt>
+*   <tt><a href="χ²GOF-Test(.md">χ²GOF-Test(</a></tt>
+*   <tt><a href="χ²cdf(.md">χ²cdf(</a></tt>
 
 ## See Also
 
-*   [Goodness-of-Fit Test](/goodness-of-fit)
+*   [Goodness-of-Fit Test](Goodness-of-Fit Test.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -69,14 +69,14 @@ This derivative is undefined when calculated algebraically, but due to the metho
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if _h_ is 0 (since this would yield division by 0 in the formula)
-*   **[ERR:ILLEGAL NEST](/errors#illegalnest)** is thrown if <tt>nDeriv(</tt> commands are nested more than one level deep. Just having one <tt>nDeriv(</tt> command inside another is okay, though.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if _h_ is 0 (since this would yield division by 0 in the formula)
+*   **[ERR:ILLEGAL NEST](errors#illegalnest)** is thrown if <tt>nDeriv(</tt> commands are nested more than one level deep. Just having one <tt>nDeriv(</tt> command inside another is okay, though.
 
 ## Related Commands
 
-*   <tt><a href="/fmin">fMin(</a></tt>
-*   <tt><a href="/fmax">fMax(</a></tt>
-*   <tt><a href="/fnint">fnInt(</a></tt>
+*   <tt><a href="fMin(.md">fMin(</a></tt>
+*   <tt><a href="fMax(.md">fMax(</a></tt>
+*   <tt><a href="fnInt(.md">fnInt(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

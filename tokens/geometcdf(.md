@@ -52,7 +52,7 @@ The syntax here is <tt>geometcdf(<em>probability</em>, <em>trials</em>)</tt>. In
   
 This will give about .684 when you run it, so there's a .684 probability that he'll make a shot within 4 throws.
 
-Note the relationship between <tt><a href="/geometpdf">geometpdf(</a></tt> and <tt>geometcdf(</tt>. Since <tt>geometpdf(</tt> is the probability it will take **exactly** N trials, we can write that <tt>geometcdf(1/4,4) = geometpdf(1/4,1) + geometpdf(1/4,2) + geometpdf(1/4,3) + geometpdf(1/4,4)</tt>.
+Note the relationship between <tt><a href="geometpdf(.md">geometpdf(</a></tt> and <tt>geometcdf(</tt>. Since <tt>geometpdf(</tt> is the probability it will take **exactly** N trials, we can write that <tt>geometcdf(1/4,4) = geometpdf(1/4,1) + geometpdf(1/4,2) + geometpdf(1/4,3) + geometpdf(1/4,4)</tt>.
 
 ## Formulas
 
@@ -68,9 +68,9 @@ However, we can take a shortcut to arrive at a much simpler expression for <tt>g
 
 ## Related Commands
 
-*   <tt><a href="/binompdf">binompdf(</a></tt>
-*   <tt><a href="/binomcdf">binomcdf(</a></tt>
-*   <tt><a href="/geometpdf">geometpdf(</a></tt>
+*   <tt><a href="binompdf(.md">binompdf(</a></tt>
+*   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
+*   <tt><a href="geometpdf(.md">geometpdf(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

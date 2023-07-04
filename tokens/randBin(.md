@@ -48,7 +48,7 @@ randBin(5,1/2,10
 
 ## Formulas
 
-The value of randBin( for a given seed can be expressed in terms of [rand](/rand):
+The value of randBin( for a given seed can be expressed in terms of [rand](rand.md):
 
 ```ti-basic
 randBin(N,P)=sum(P>rand(N
@@ -58,15 +58,15 @@ This is identical to the output of randBin( in the sense that for the same seed,
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is triggered if the probability is not on the interval from 0 to 1.
+*   **[ERR:DOMAIN](errors#domain)** is triggered if the probability is not on the interval from 0 to 1.
 
 ## Related Commands
 
-*   [rand](/rand)
-*   [randInt(](/randint)
-*   [randNorm(](/randnorm)
-*   [randM(](/randm)
-*   [randIntNoRep(](/randintnorep)
+*   [rand](rand.md)
+*   [randInt(](randInt\(.md)
+*   [randNorm(](randNorm\(.md)
+*   [randM(](randM\(.md)
+*   [randIntNoRep(](randIntNoRep\(.md)
 
 ## History
 | Calculator | OS Version | Description |

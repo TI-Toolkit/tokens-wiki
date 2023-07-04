@@ -28,15 +28,15 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR..
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `AxesOn`
 <hr>
 
-The <tt>AxesOn</tt> command enables the X and Y axes on the graph screen, so that they are drawn. They can be disabled with the <tt><a href="/axesoff">AxesOff</a></tt> command.
+The <tt>AxesOn</tt> command enables the X and Y axes on the graph screen, so that they are drawn. They can be disabled with the <tt><a href="AxesOff.md">AxesOff</a></tt> command.
 
-(the y=x line that is drawn when both <tt><a href="/seq-mode">Seq</a></tt> and <tt><a href="/web">Web</a></tt> modes are enabled is also controlled by this command)
+(the y=x line that is drawn when both <tt><a href="Seq.md">Seq</a></tt> and <tt><a href="Web.md">Web</a></tt> modes are enabled is also controlled by this command)
 
 ## Related Commands
 
-*   <tt><a href="/axesoff">AxesOff</a></tt>
-*   <tt><a href="/labelon">LabelOn</a></tt>
-*   <tt><a href="/labeloff">LabelOff</a></tt>
+*   <tt><a href="AxesOff.md">AxesOff</a></tt>
+*   <tt><a href="LabelOn.md">LabelOn</a></tt>
+*   <tt><a href="LabelOff.md">LabelOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

@@ -43,7 +43,7 @@ In its simplest form, QuadReg takes no arguments, and calculates a quadratic thr
 :QuadReg
 ```
 
-On the home screen, or as the last line of a program, this will display the equation of the quadratic: you'll be shown the format, y=ax²+bx+c, and the values of a, b, and c. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, c, and R² will be set as well. This latter variable will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](/diagnosticon) and [DiagnosticOff](/diagnosticoff)).
+On the home screen, or as the last line of a program, this will display the equation of the quadratic: you'll be shown the format, y=ax²+bx+c, and the values of a, b, and c. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, c, and R² will be set as well. This latter variable will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](DiagnosticOn.md) and [DiagnosticOff](DiagnosticOff.md)).
 
 You don't have to do the regression on L₁ and L₂, but if you don't you'll have to enter the names of the lists after the command. For example:
 
@@ -72,9 +72,9 @@ Note that even if a relationship is actually linear, since a quadratic regressio
 
 ## Related Commands
 
-*   [LinReg(ax+b)](/linreg-ax-b)
-*   [CubicReg](/cubicreg)
-*   [QuartReg](/quartreg)
+*   [LinReg(ax+b)](linreg-ax-b)
+*   [CubicReg](CubicReg.md)
+*   [QuartReg](QuartReg.md)
 
 ## History
 | Calculator | OS Version | Description |

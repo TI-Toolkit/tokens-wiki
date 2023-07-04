@@ -19,15 +19,15 @@ Turns off the clock display in the mode screen.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `ClockOff`
 <hr>
 
-The <tt>ClockOff</tt> command turns off the clock display at the bottom of the [mode screen](/settings) on the TI-84+/SE calculators. You can turn the clock back on by using the <tt><a href="/clockon">ClockOn</a></tt> command, or by selecting 'TURN CLOCK ON' ,displayed in place of the clock on the mode screen.
+The <tt>ClockOff</tt> command turns off the clock display at the bottom of the [mode screen](settings) on the TI-84+/SE calculators. You can turn the clock back on by using the <tt><a href="ClockOn.md">ClockOn</a></tt> command, or by selecting 'TURN CLOCK ON' ,displayed in place of the clock on the mode screen.
 
-The <tt>ClockOff</tt> command does not actually turn the clock off. The time can still be accessed through use of the <tt><a href="http://tibasicdev.wikidot.com/gettime">getTime</a></tt> and <tt><a href="http://tibasicdev.wikidot.com/getdate">getDate</a></tt> commands, and all their cousins.
+The <tt>ClockOff</tt> command does not actually turn the clock off. The time can still be accessed through use of the <tt><a href="getTime.md">getTime</a></tt> and <tt><a href="getDate.md">getDate</a></tt> commands, and all their cousins.
 
 ## Related Commands
 
-*   <tt><a href="/clockon">ClockOn</a></tt>
-*   <tt><a href="/gettime">getTime</a></tt>
-*   <tt><a href="/getdate">getDate</a></tt>
+*   <tt><a href="ClockOn.md">ClockOn</a></tt>
+*   <tt><a href="getTime.md">getTime</a></tt>
+*   <tt><a href="getDate.md">getDate</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

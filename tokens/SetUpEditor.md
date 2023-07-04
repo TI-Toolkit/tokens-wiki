@@ -64,9 +64,9 @@ The List Editor doesn't do anything when you are running a program, so it may se
 
 ## Advanced Uses
 
-Due to this side effect, SetUpEditor can be used for lists with external data such as [saved](/saving) games or [high scores](/highscores). When the user first runs the program, the assumption is you don't know anything about the state of those lists: they may be archived, or they may not even exist. You can deal with both of those individually: storing to the dimension will create the list if it didn't exist, and the [UnArchive](/unarchive) command will move the list to RAM if it wasn't there.
+Due to this side effect, SetUpEditor can be used for lists with external data such as [saved](saving) games or [high scores](highscores). When the user first runs the program, the assumption is you don't know anything about the state of those lists: they may be archived, or they may not even exist. You can deal with both of those individually: storing to the dimension will create the list if it didn't exist, and the [UnArchive](UnArchive.md) command will move the list to RAM if it wasn't there.
 
-However, if you're wrong about the list, both of these commands will cause an error. If the list exists but is archived, storing to its dimension will cause an [ERR:ARCHIVE](/errors#archive) error. If the list doesn't exist, unarchiving it will cause an [ERR:UNDEFINED](/errors#undefined) error. Sounds like a vicious circle.
+However, if you're wrong about the list, both of these commands will cause an error. If the list exists but is archived, storing to its dimension will cause an [ERR:ARCHIVE](errors#archive) error. If the list doesn't exist, unarchiving it will cause an [ERR:UNDEFINED](errors#undefined) error. Sounds like a vicious circle.
 
 The SetUpEditor command allows you to deal with both of these problems at once. Say the program saves its data in LSAVE. Use the SetUpEditor command on it, and from then on you know that the list exists AND that it is unarchived.
 
@@ -74,21 +74,21 @@ The SetUpEditor command allows you to deal with both of these problems at once. 
 :SetUpEditor SAVE
 ```
 
-At the end of the program, you should [clean up](/cleanup) after yourself, though. You don't want the user to see the list SAVE in the editor (he might be tempted to edit it and give himself a huge high score, for one thing). So you should use the SetUpEditor command again, this time without arguments, to reset the editor to its default state.
+At the end of the program, you should [clean up](cleanup) after yourself, though. You don't want the user to see the list SAVE in the editor (he might be tempted to edit it and give himself a huge high score, for one thing). So you should use the SetUpEditor command again, this time without arguments, to reset the editor to its default state.
 
-For more information about using SetUpEditor in the context of saving data, see the page on [saving](/saving).
+For more information about using SetUpEditor in the context of saving data, see the page on [saving](saving.md).
 
 ## Similar Commands
 
-*   [dim(](/dim)
-*   [ClrList](/clrlist)
-*   [UnArchive](/unarchive)
+*   [dim(](dim\(.md)
+*   [ClrList](ClrList.md)
+*   [UnArchive](UnArchive.md)
 
 ## See Also
 
-*   [Saving Data](/saving)
-*   [Highscores](/highscores)
-*   [Program Cleanup](/cleanup)
+*   [Saving Data](Saving Data.md)
+*   [Highscores](Highscores.md)
+*   [Program Cleanup](Program Cleanup.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -19,7 +19,7 @@ Identifies end of` For(`, `If`-`Then`-`Else`, `Repeat`, or `While` loop.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `7:End`
 <hr>
 
-The <tt>End</tt> command is used together with the different control structures, including the <tt><a href="/if">If</a></tt> conditional, <tt><a href="/while">While</a></tt> loop, <tt><a href="/repeat">Repeat</a></tt> loop, and <tt><a href="/for">For(</a></tt> loop, to indicate the _end_ of the code block for the respective control structure. In the case of the <tt>If</tt> conditional, you also need to add a <tt><a href="/if">Then</a></tt> command, which is used to indicate the beginning of the control structure.
+The <tt>End</tt> command is used together with the different control structures, including the <tt><a href="If.md">If</a></tt> conditional, <tt><a href="While.md">While</a></tt> loop, <tt><a href="Repeat.md">Repeat</a></tt> loop, and <tt><a href="For(.md">For(</a></tt> loop, to indicate the _end_ of the code block for the respective control structure. In the case of the <tt>If</tt> conditional, you also need to add a <tt><a href="Then.md">Then</a></tt> command, which is used to indicate the beginning of the control structure.
 
 ## Advanced Uses
 
@@ -36,16 +36,16 @@ When nesting control structures, you need to remember to put the appropriate num
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
-*   **[ERR:SYNTAX](/errors#invalid)** occurs if this statement is used before a logic block has been initiated.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:SYNTAX](errors#invalid)** occurs if this statement is used before a logic block has been initiated.
 
 ## Related Commands
 
-*   <tt><a href="/if">If</a></tt>
-*   <tt><a href="/then">Then</a></tt>
-*   <tt><a href="/while">While</a></tt>
-*   <tt><a href="/repeat">Repeat</a></tt>
-*   <tt><a href="/for">For(</a></tt>
+*   <tt><a href="If.md">If</a></tt>
+*   <tt><a href="Then.md">Then</a></tt>
+*   <tt><a href="While.md">While</a></tt>
+*   <tt><a href="Repeat.md">Repeat</a></tt>
+*   <tt><a href="For(.md">For(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

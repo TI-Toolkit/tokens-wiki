@@ -33,7 +33,7 @@ The number passed to <tt>StorePic</tt> must be one of 0 through 9. It has to be 
 
 ## Advanced Uses
 
-A combination of <tt>StorePic</tt> and <tt>RecallPic</tt> can be used to maintain a background over which another [sprite](/glossary#s) moves:
+A combination of <tt>StorePic</tt> and <tt>RecallPic</tt> can be used to maintain a background over which another [sprite](glossary#s) moves:
 
 First, draw the background, and save it to a picture file with <tt>StorePic</tt>.  
 Next, draw the sprite to the screen.  
@@ -44,12 +44,12 @@ Also, if a screen in your program takes more than a second to draw, and is displ
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if the argument is not a **number** 0 through 9.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if the argument is not a **number** 0 through 9.
 
 ## Related Commands
 
-*   <tt><a href="/clrdraw">ClrDraw</a></tt>
-*   <tt><a href="/recallpic">RecallPic</a></tt>
+*   <tt><a href="ClrDraw.md">ClrDraw</a></tt>
+*   <tt><a href="RecallPic.md">RecallPic</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

@@ -35,7 +35,7 @@ Performs a linear regression and a `t`-test. `alternative`=-`1` is <; `alternati
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `F:LinRegTTest`
 <hr>
 
-Like <tt><a href="/linreg-ax-b">LinReg(ax+b)</a></tt> and similar commands, <tt>LinRegTTest</tt> finds the best fit line through a set of points. However, <tt>LinRegTTest</tt> adds another method of checking the quality of the fit, by performing a <tt><a href="/t-test">t-test</a></tt> on the slope, testing the null hypothesis that the slope of the true best fit line is 0 (which implies the absence of correlation between the two variables, since a relation with a slope of zero means the x-variable does not affect the y-variable at all). If the p-value of the test is not low enough, then there is not enough data to assume a linear relation between the variables.
+Like <tt><a href="linreg-ax-b">LinReg(ax+b)</a></tt> and similar commands, <tt>LinRegTTest</tt> finds the best fit line through a set of points. However, <tt>LinRegTTest</tt> adds another method of checking the quality of the fit, by performing a <tt><a href="t-test.md">t-test</a></tt> on the slope, testing the null hypothesis that the slope of the true best fit line is 0 (which implies the absence of correlation between the two variables, since a relation with a slope of zero means the x-variable does not affect the y-variable at all). If the p-value of the test is not low enough, then there is not enough data to assume a linear relation between the variables.
 
 To use <tt>LinRegTTest</tt>, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points.
 
@@ -65,7 +65,7 @@ LinRegTTest
 ```
 
   
-(the last two lines will only appear if diagnostics have been turned on - see <tt><a href="/diagnosticon">DiagnosticOn</a></tt>)
+(the last two lines will only appear if diagnostics have been turned on - see <tt><a href="DiagnosticOn.md">DiagnosticOn</a></tt>)
 
 *   β and ρ: this line represents the alternative hypothesis. β is the true value of the statistic b (it is what we would get if the regression was done on the entire population, rather than a sample); ρ is the true value of the statistic r.
 *   t is the test statistic, used to calculate p.
@@ -106,11 +106,11 @@ An example of <tt>LinRegTTest</tt> with all the optional arguments:
 
 ## Related Commands
 
-*   <tt><a href="/linreg-ax-b">LinReg(ax+b)</a></tt>
-*   <tt><a href="/linreg-a-bx">LinReg(a+bx)</a></tt>
-*   <tt><a href="/linregtint">LinRegTInt</a></tt>
-*   <tt><a href="/manual-fit">Manual-Fit</a></tt>
-*   <tt><a href="/med-med">Med-Med</a></tt>
+*   <tt><a href="linreg-ax-b">LinReg(ax+b)</a></tt>
+*   <tt><a href="linreg-a-bx">LinReg(a+bx)</a></tt>
+*   <tt><a href="LinRegTInt.md">LinRegTInt</a></tt>
+*   <tt><a href="Manual-Fit.md">Manual-Fit</a></tt>
+*   <tt><a href="Med-Med.md">Med-Med</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

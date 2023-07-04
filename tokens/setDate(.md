@@ -38,14 +38,14 @@ The setDate( command sets the date of the clock on the TI-84+/SE calculators. It
 :setDate(2008,1,1
 ```
 
-Once you have set the date, you can display it in three different formats on the [mode screen](/settings) using the [setDtFmt(](/setdtfmt) command: Month/Day/Year, Day/Month/Year, or Year/Month/Day. Of course, the date will only show up if the clock is on; if you need to turn the clock on, use the [ClockOn](/clockon) command or select 'TURN CLOCK ON' , displayed in place of the clock on the mode screen.
+Once you have set the date, you can display it in three different formats on the [mode screen](settings) using the [setDtFmt(](setDtFmt\(.md) command: Month/Day/Year, Day/Month/Year, or Year/Month/Day. Of course, the date will only show up if the clock is on; if you need to turn the clock on, use the [ClockOn](ClockOn.md) command or select 'TURN CLOCK ON' , displayed in place of the clock on the mode screen.
 
 ## Related Commands
 
-*   [getDate](/getdate)
-*   [getDtFmt](/getdtfmt)
-*   [getDtStr(](/getdtstr)
-*   [setDtFmt(](/setdtfmt)
+*   [getDate](getDate.md)
+*   [getDtFmt](getDtFmt.md)
+*   [getDtStr(](getDtStr\(.md)
+*   [setDtFmt(](setDtFmt\(.md)
 
 ## History
 | Calculator | OS Version | Description |

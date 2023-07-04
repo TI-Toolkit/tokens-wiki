@@ -124,7 +124,7 @@ remainder(A,B
 ```
 
   
-<tt><a href="/fpart">fPart(</a></tt> is a command that works in more OSes and more models. They also are the same size (5 bytes), as long as B is one byte.
+<tt><a href="fPart(.md">fPart(</a></tt> is a command that works in more OSes and more models. They also are the same size (5 bytes), as long as B is one byte.
 
 There is one difference: <tt>remainder(</tt> is guaranteed to return the correct answer for inputs in its accepted domain, and if you enter numbers that are too large, it will throw an error. The method with <tt>fPart(</tt>, on the other hand, will work for numbers of any size that does not actually cause an overflow - but when the numbers get too large, it will give the wrong answer. Compare:
 
@@ -140,15 +140,15 @@ Here, the <tt>remainder(</tt> command fails because the input is out of range.. 
 
 ## Error Conditions
 
-*   **[ERR:DIVIDE BY 0](/errors#divideby0)** occurs if the divisor is zero.
-*   **[ERR:DOMAIN](/errors#domain)** occurs if the divisor or dividend is out of range: only integers between 0 and 1E12 are allowed.
-*   **[ERR:SYNTAX](/errors#syntax)** occurs if the divisor or dividend is a symbol, or character or non-real number
-*   **[ERR:DATA TYPE](/errors#datatype)** occurs if the divisor or dividend is not a number, (i.e. text)
+*   **[ERR:DIVIDE BY 0](errors#divideby0)** occurs if the divisor is zero.
+*   **[ERR:DOMAIN](errors#domain)** occurs if the divisor or dividend is out of range: only integers between 0 and 1E12 are allowed.
+*   **[ERR:SYNTAX](errors#syntax)** occurs if the divisor or dividend is a symbol, or character or non-real number
+*   **[ERR:DATA TYPE](errors#datatype)** occurs if the divisor or dividend is not a number, (i.e. text)
 
 ## Related Commands
 
-*   [/](/divide)
-*   [n/d](/n-d)
+*   [/](/.md)
+*   [n/d](n/d.md)
 
 ## History
 | Calculator | OS Version | Description |

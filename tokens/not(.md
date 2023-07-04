@@ -57,9 +57,9 @@ can be
 
 ## Related Commands
 
-*   [and](/and)
-*   [or](/or)
-*   [xor](/xor)
+*   [and](and.md)
+*   [or](or.md)
+*   [xor](xor.md)
 
 ## History
 | Calculator | OS Version | Description |

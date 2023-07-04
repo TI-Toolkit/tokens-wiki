@@ -35,7 +35,7 @@ Fits a logarithmic regression model to `Xlistname` and `Ylistname` with frequenc
 
 LnReg tries to fit a logarithmic curve (y=a+b*lnx) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points.
 
-The calculator does this regression by taking the natural log [ln(](/ln) of the x-coordinates (this isn't stored anywhere) and then doing a linear regression. This means that if any x-coordinates are negative or 0, the calculator will instantly quit with [ERR:DOMAIN](/errors#domain).
+The calculator does this regression by taking the natural log [ln(](ln\(.md) of the x-coordinates (this isn't stored anywhere) and then doing a linear regression. This means that if any x-coordinates are negative or 0, the calculator will instantly quit with [ERR:DOMAIN](errors#domain).
 
 In its simplest form, LnReg takes no arguments, and fits a logarithmic curve through the points in L₁ and L₂:
 
@@ -45,7 +45,7 @@ In its simplest form, LnReg takes no arguments, and fits a logarithmic curve thr
 :LnReg
 ```
 
-On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, y=a+b*ln(x), and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, r, and r² will be set as well. These latter two variables will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](/diagnosticon) and [DiagnosticOff](/diagnosticoff)).
+On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, y=a+b*ln(x), and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, r, and r² will be set as well. These latter two variables will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](DiagnosticOn.md) and [DiagnosticOff](DiagnosticOff.md)).
 
 You don't have to do the regression on L₁ and L₂, but if you don't you'll have to enter the names of the lists after the command. For example:
 
@@ -70,13 +70,13 @@ An example of LnReg with all the optional arguments:
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if any x-coordinates are negative or 0.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if any x-coordinates are negative or 0.
 
 ## Related Commands
 
-*   [ExpReg](/expreg)
-*   [PwrReg](/pwrreg)
-*   [SinReg](/sinreg)
+*   [ExpReg](ExpReg.md)
+*   [PwrReg](PwrReg.md)
+*   [SinReg](SinReg.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -21,19 +21,19 @@ Displays a greater portion of the graph, centered on the cursor location.
 
 Outside a program, the Zoom Out tool allows you to pick a point on the graph screen and change the graphing window to a larger one centered at that point. The Zoom Out command, used in a program, also changes the graphing window to a larger one, but doesn't let you pick a point — it uses the center of the screen.
 
-The variables [XFact](/system-variables#window) and [YFact](/system-variables#window) are used to determine how much the graphing window changes: the total width of the screen, Xmax-Xmin, is multiplied by XFact, and the total height, Ymax-Ymin, is multiplied by YFact. Because you can't store a value less than 1 to either of these variables, the screen is guaranteed to get no smaller.
+The variables [XFact](system-variables#window) and [YFact](system-variables#window) are used to determine how much the graphing window changes: the total width of the screen, Xmax-Xmin, is multiplied by XFact, and the total height, Ymax-Ymin, is multiplied by YFact. Because you can't store a value less than 1 to either of these variables, the screen is guaranteed to get no smaller.
 
-Aside from Xmin, Xmax, Ymin, and Ymax, no window variables are modified by this command (although ΔX and ΔY change [as they are defined](/system-variables#window)).
+Aside from Xmin, Xmax, Ymin, and Ymax, no window variables are modified by this command (although ΔX and ΔY change [as they are defined](system-variables#window)).
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this command is used outside a program.
-*   **[ERR:ZOOM](/errors#zoom)** is thrown if an overflow occurs calculating the new window dimensions (the window is too big)
+*   **[ERR:INVALID](errors#invalid)** occurs if this command is used outside a program.
+*   **[ERR:ZOOM](errors#zoom)** is thrown if an overflow occurs calculating the new window dimensions (the window is too big)
 
 ## Related Commands
 
-*   [Zoom In](/zoom-in)
-*   [ZBox](/zbox)
+*   [Zoom In](Zoom In.md)
+*   [ZBox](ZBox.md)
 
 ## History
 | Calculator | OS Version | Description |

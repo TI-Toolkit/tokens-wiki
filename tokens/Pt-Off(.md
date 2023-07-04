@@ -46,9 +46,9 @@ Remove Mark
 
 ## Related Commands
 
-*   [Pt-On(](/pt-on)
-*   [Pt-Change(](/pt-change)
-*   [Pxl-Off(](/pxl-off)
+*   [Pt-On(](Pt-On\(.md)
+*   [Pt-Change(](Pt-Change\(.md)
+*   [Pxl-Off(](Pxl-Off\(.md)
 
 ## History
 | Calculator | OS Version | Description |

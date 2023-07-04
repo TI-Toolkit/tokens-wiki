@@ -44,17 +44,17 @@ row+(Ans,1,2)
 
 ## Advanced Uses
 
-You can add columns instead of rows with the aid of the <sup>T</sup> ([transpose](/transpose)) command.
+You can add columns instead of rows with the aid of the <sup>T</sup> ([transpose](transpose.md)) command.
 
 ## Error Conditions
 
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if one of the row arguments isn't a valid row (larger than the matrix size, or otherwise bad)
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if one of the row arguments isn't a valid row (larger than the matrix size, or otherwise bad)
 
 ## Related Commands
 
-*   [rowSwap(](/rowswap)
-*   [*row(](/timesrow)
-*   [*row+(](/timesrowplus)
+*   [rowSwap(](rowSwap\(.md)
+*   [*row(](*row\(.md)
+*   [*row+(](*row+\(.md)
 
 ## History
 | Calculator | OS Version | Description |

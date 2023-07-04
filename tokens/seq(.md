@@ -35,9 +35,9 @@ Returns list created by evaluating `expression` with regard to `variable`, from 
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `5:seq(`
 <hr>
 
-The <tt>seq(</tt> command is very powerful, as it is (almost) the only command that can create a whole [list](/list) as output. This means that you will need make use of it almost every time that you use lists. The <tt>seq(</tt> command creates a list by evaluating a formula with one variable taking on a range of several values.
+The <tt>seq(</tt> command is very powerful, as it is (almost) the only command that can create a whole [list](list.md) as output. This means that you will need make use of it almost every time that you use lists. The <tt>seq(</tt> command creates a list by evaluating a formula with one variable taking on a range of several values.
 
-It is similar in this to the <tt><a href="/for">For(</a></tt> command, but unlike <tt>For(</tt>, instead of running a block of commands, it only evaluates a formula. Like the For( command, there is an optional "step" that you can use to get every 3rd, every 5th, etc. value in the range.
+It is similar in this to the <tt><a href="For(.md">For(</a></tt> command, but unlike <tt>For(</tt>, instead of running a block of commands, it only evaluates a formula. Like the For( command, there is an optional "step" that you can use to get every 3rd, every 5th, etc. value in the range.
 
 Some sample uses of the command:
 
@@ -81,7 +81,7 @@ You can use <tt>seq(</tt> to get a "sublist", that is, to get a list that is onl
 :seq(L1(I),I,2,10
 ```
 
-While using <tt>seq(</tt>, the calculator can still interpret keypresses and store them to <tt><a href="/getkey">getKey</a></tt>. One possible way you can use this feature is to make a [password](/protection#hash) function that asks the user to enter in the correct password before time expires.
+While using <tt>seq(</tt>, the calculator can still interpret keypresses and store them to <tt><a href="getKey.md">getKey</a></tt>. One possible way you can use this feature is to make a [password](protection#hash) function that asks the user to enter in the correct password before time expires.
 
 ## Optimizations
 
@@ -112,7 +112,7 @@ In cases where such a list is to be generated, it is beneficial to generate a li
 :cumSum(L1→L1
 ```
 
-This operation can be sped up even more using <tt><a href="/binomcdf">binomcdf(</a></tt> or <tt><a href="/binompdf">binompdf(</a></tt>.
+This operation can be sped up even more using <tt><a href="binomcdf(.md">binomcdf(</a></tt> or <tt><a href="binompdf(.md">binompdf(</a></tt>.
 
 A <tt>seq(</tt> command can replace a <tt>For(</tt> command, if all you're doing inside the <tt>For(</tt> command is storing to an element of a list. This will improve on both speed and size of your program. For example:
 
@@ -128,15 +128,15 @@ The <tt>seq(</tt> command itself can often be replaced with an unusual use of th
 
 ## Error Conditions
 
-*   **[ERR:ILLEGAL NEST](/errors#illegalnest)** is thrown if you try to use seq( inside of another seq( command.
-*   **[ERR:DATA TYPE](/errors#datatype)** occurs when any of the inputted arguments are imaginary or complex.
-*   **[ERR:INVALID DIM](/errors#invaliddim)** occurs when the generated list has a dimension larger than 999.
+*   **[ERR:ILLEGAL NEST](errors#illegalnest)** is thrown if you try to use seq( inside of another seq( command.
+*   **[ERR:DATA TYPE](errors#datatype)** occurs when any of the inputted arguments are imaginary or complex.
+*   **[ERR:INVALID DIM](errors#invaliddim)** occurs when the generated list has a dimension larger than 999.
 
 ## Related Commands
 
-*   <tt><a href="/for">For(</a></tt>
-*   <tt><a href="/binompdf">binompdf(</a></tt>
-*   <tt><a href="/binomcdf">binomcdf(</a></tt>
+*   <tt><a href="For(.md">For(</a></tt>
+*   <tt><a href="binompdf(.md">binompdf(</a></tt>
+*   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

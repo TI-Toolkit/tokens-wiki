@@ -25,13 +25,13 @@ If it is given arguments, there can be any number of them (actually, no more tha
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if a plot that is not 1, 2, or 3 is specified.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if a plot that is not 1, 2, or 3 is specified.
 
 ## Related Commands
 
-*   [Plot1(, Plot2(, Plot3(](/plotn)
-*   [PlotsOff](/plotsoff)
-*   [Select(](/select)
+*   [Plot1(, Plot2(, Plot3(](plotn)
+*   [PlotsOff](PlotsOff.md)
+*   [Select(](Select\(.md)
 
 ## History
 | Calculator | OS Version | Description |

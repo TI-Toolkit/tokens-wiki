@@ -88,13 +88,13 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if _p<sub>0</sub>_ or _x__/n_ are not between 0 and 1, or _x_ is negative or greater than _n_ (however, any real value for _alternative_ and _draw?_ will work)
+*   **[ERR:DOMAIN](errors#domain)** is thrown if _p<sub>0</sub>_ or _x__/n_ are not between 0 and 1, or _x_ is negative or greater than _n_ (however, any real value for _alternative_ and _draw?_ will work)
 
 ## Related Commands
 
-*   [2-PropZTest(](/2-propztest)
-*   [Z-Test(](/z-test)
-*   [2-SampZTest(](/2-sampztest)
+*   [2-PropZTest(](2-PropZTest\(.md)
+*   [Z-Test(](Z-Test\(.md)
+*   [2-SampZTest(](2-SampZTest\(.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -19,7 +19,7 @@ Displays inputs and outputs on a single line, such as 1/2+3/4.
 <tt><kbd><b>mode</b></kbd></tt>, `CLASSIC`
 <hr>
 
-<tt>CLASSIC</tt> will put the calculator into <tt>Classic</tt> mode as opposed to <tt>MathPrint</tt> mode. The <tt>Classic</tt> mode will make the calculator display everything as pre-<tt>MathPrint</tt> OS would, including input. For instance, rather than superscripting exponents as <tt>MathPrint</tt> mode would, <tt>Classic</tt> mode uses the simple caret syntax (<tt><a href="/power">^</a></tt>).
+<tt>CLASSIC</tt> will put the calculator into <tt>Classic</tt> mode as opposed to <tt>MathPrint</tt> mode. The <tt>Classic</tt> mode will make the calculator display everything as pre-<tt>MathPrint</tt> OS would, including input. For instance, rather than superscripting exponents as <tt>MathPrint</tt> mode would, <tt>Classic</tt> mode uses the simple caret syntax (<tt><a href="^.md">^</a></tt>).
 
 _MathPrint mode_:  
 2<sup>4</sup>  
@@ -35,7 +35,7 @@ When in <tt>Classic</tt> mode, text and numbers are displayed much faster on the
 
 ## Related Commands
 
-*   <tt><a href="/mathprint-mode">MATHPRINT</a></tt>
+*   <tt><a href="MATHPRINT.md">MATHPRINT</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

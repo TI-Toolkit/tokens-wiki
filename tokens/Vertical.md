@@ -33,9 +33,9 @@ line style #: 1-4.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `4:Vertical`
 <hr>
 
-Vertical _X_ draws a vertical line from the top of the graph screen to the bottom at _X_. Vertical is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart [Horizontal](/horizontal).
+Vertical _X_ draws a vertical line from the top of the graph screen to the bottom at _X_. Vertical is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart [Horizontal](Horizontal.md).
 
-Vertical is affected by the window settings, unlike the [Pxl-](/pxl-on) commands.
+Vertical is affected by the window settings, unlike the [Pxl-](pxl-on) commands.
 
 ```ti-basic
 :Vertical 5
@@ -51,8 +51,8 @@ Vertical 5,BLACK
 
 ## Related Commands
 
-*   [Line(](/line)
-*   [Horizontal](/horizontal)
+*   [Line(](Line\(.md)
+*   [Horizontal](Horizontal.md)
 
 ## History
 | Calculator | OS Version | Description |

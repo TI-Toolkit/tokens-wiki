@@ -33,7 +33,7 @@ Computes the probability density function (pdf) for the Student-`t` distribution
 
 Since the _t_ distribution is continuous, the value of <tt>tpdf(</tt> doesn't represent an actual probability — in fact, one of the few uses for this command is to draw a graph of the bell curve. You could also use it for various calculus purposes, such as finding inflection points.
 
-The command takes two arguments: the first is the value where the PDF is to be evaluated, and the second is the number of degrees of freedom (so the calculator knows which _t_ distribution to use). As the degrees of freedom increases without bound, <tt>tpdf(</tt> approaches <tt><a href="/normalpdf">normalpdf(</a></tt>; i.e.
+The command takes two arguments: the first is the value where the PDF is to be evaluated, and the second is the number of degrees of freedom (so the calculator knows which _t_ distribution to use). As the degrees of freedom increases without bound, <tt>tpdf(</tt> approaches <tt><a href="normalpdf(.md">normalpdf(</a></tt>; i.e.
 
 (1) $`\begin{align} \lim_{\nu\rightarrow\infty}\texttt{tpdf}(x,\nu)=\texttt{normalpdf}(x) \end{align}`$ 
 
@@ -51,9 +51,9 @@ The value of <tt>tpdf(</tt> is given by
 
 ## Related Commands
 
-*   <tt><a href="/tcdf">tcdf(</a></tt>
-*   <tt><a href="/invt">invT(</a></tt>
-*   <tt><a href="/shade-t">Shade_t(</a></tt>
+*   <tt><a href="tcdf(.md">tcdf(</a></tt>
+*   <tt><a href="invT(.md">invT(</a></tt>
+*   <tt><a href="Shade_t(.md">Shade_t(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

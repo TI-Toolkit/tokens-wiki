@@ -42,20 +42,20 @@ toString([[1,2][3,4]]   //returns "[[1,2][3,4]]"
 toString(√-1     //returns imaginary number "i"
 ```
 
-<tt>toString(</tt> has less limitations than the <tt><a href="/eval">eval(</a></tt> command. It can handle lists, matrices, and complex numbers. Another difference from <tt>eval(</tt> is that <tt>toString(</tt> is affected by display mode changes like <tt><a href="/fix">Fix</a></tt>.
+<tt>toString(</tt> has less limitations than the <tt><a href="eval(.md">eval(</a></tt> command. It can handle lists, matrices, and complex numbers. Another difference from <tt>eval(</tt> is that <tt>toString(</tt> is affected by display mode changes like <tt><a href="Fix.md">Fix</a></tt>.
 
-<tt>toString(</tt> replaces the old [number-to-string](/number-to-string) routine previously used prior to OS 5.2.
+<tt>toString(</tt> replaces the old [number-to-string](number-to-string.md) routine previously used prior to OS 5.2.
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown when the input is a string.
-*   **[ERR:NONREAL ANSWERS](/errors#nonrealans)** is thrown when the input is a complex number and your calculator is in REAL mode.
-*   **[ERR:SYNTAX](/errors#syntax)** is thrown when trying to evaluate a command that doesn't return a value.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown when the input is a string.
+*   **[ERR:NONREAL ANSWERS](errors#nonrealans)** is thrown when the input is a complex number and your calculator is in REAL mode.
+*   **[ERR:SYNTAX](errors#syntax)** is thrown when trying to evaluate a command that doesn't return a value.
 
 ## Related Commands
 
-*   <tt><a href="/eval">eval(</a></tt>
-*   <tt><a href="/expr">expr(</a></tt>
+*   <tt><a href="eval(.md">eval(</a></tt>
+*   <tt><a href="expr(.md">expr(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

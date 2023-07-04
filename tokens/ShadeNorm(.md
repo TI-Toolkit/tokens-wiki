@@ -38,7 +38,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DRAW`, `1:ShadeNorm(`
 <hr>
 
-ShadeNorm( is equivalent to [normalcdf(](/normalcdf) in terms of the probability it calculates: if a random variable follows the normal distribution, you can use it to calculate the probability that the variable's value falls in a certain interval. However, in addition to calculating the probability, this command also draws the normal curve, and shades the interval whose area represents the probability you want.
+ShadeNorm( is equivalent to [normalcdf(](normalcdf\(.md) in terms of the probability it calculates: if a random variable follows the normal distribution, you can use it to calculate the probability that the variable's value falls in a certain interval. However, in addition to calculating the probability, this command also draws the normal curve, and shades the interval whose area represents the probability you want.
 
 Note that this command does not actually return the value it calculates in Ans or anywhere else: it's merely displayed on the graph. If you're going to use the value in further calculations, you'll have to use normalcdf( as well.
 
@@ -60,14 +60,14 @@ It can be hard to find the best window for ShadeNorm( to work in, since it doesn
 
 For nonstandard curves, increasing the standard deviation stretches and flattens the curve; by dividing Ymax and multiplying Xmin and Xmax by the standard deviation, you'll account for this effect. To account for the mean, add it to both Xmin and Xmax. You may also choose to standardize the lower and upper values instead by applying the formula (z-μ)/σ.
 
-Keep in mind that ShadeNorm is just a drawing command and not an actual graphed function, so resizing the window, [ClrDraw](/clrdraw), and a bunch of other things will simply get rid of it.
+Keep in mind that ShadeNorm is just a drawing command and not an actual graphed function, so resizing the window, [ClrDraw](ClrDraw.md), and a bunch of other things will simply get rid of it.
 
 ## Related Commands
 
-*   [normalpdf(](/normalpdf)
-*   [normalcdf(](/normalcdf)
-*   [invNorm(](/invnorm)
-*   [Shade(](/shade)
+*   [normalpdf(](normalpdf\(.md)
+*   [normalcdf(](normalcdf\(.md)
+*   [invNorm(](invNorm\(.md)
+*   [Shade(](Shade\(.md)
 
 ## History
 | Calculator | OS Version | Description |

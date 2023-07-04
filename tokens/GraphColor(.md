@@ -47,8 +47,8 @@ GraphColor(3,17
 
 ## Related Commands
 
-*   <tt><a href="/graphstyle">GraphStyle(</a></tt>
-*   <tt><a href="/bordercolor">BorderColor</a></tt>
+*   <tt><a href="GraphStyle(.md">GraphStyle(</a></tt>
+*   <tt><a href="BorderColor.md">BorderColor</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

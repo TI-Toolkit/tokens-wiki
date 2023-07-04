@@ -29,11 +29,11 @@ Returns arccosine of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>cos⁻¹</kbd>
 <hr>
 
-<tt>cosֿ¹(</tt> returns the [arccosine](https://mathworld.wolfram.com/InverseCosine.html) of its argument. It is the inverse of <tt><a href="/cos">cos(</a></tt>, which means that <tt>cosֿ¹(n)</tt> produces an angle θ such that <tt>cos(θ)</tt>=n.
+<tt>cosֿ¹(</tt> returns the [arccosine](https://mathworld.wolfram.com/InverseCosine.html) of its argument. It is the inverse of <tt><a href="cos(.md">cos(</a></tt>, which means that <tt>cosֿ¹(n)</tt> produces an angle θ such that <tt>cos(θ)</tt>=n.
 
-Like <tt>cos(</tt>, the result of <tt>cosֿ¹(</tt> depends on whether the calculator is in [Radian](/radian-mode) or [Degree](/degree-mode) mode. However, unlike cosine, the result is in degrees or radians, not the argument. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion of θ=<tt>cosֿ¹(n)</tt> from radians to degrees is θ*180/π and from degrees to radians is θ*π/180. The <tt>cosֿ¹(</tt> command also works on a list.
+Like <tt>cos(</tt>, the result of <tt>cosֿ¹(</tt> depends on whether the calculator is in [Radian](radian-mode) or [Degree](degree-mode) mode. However, unlike cosine, the result is in degrees or radians, not the argument. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion of θ=<tt>cosֿ¹(n)</tt> from radians to degrees is θ*180/π and from degrees to radians is θ*π/180. The <tt>cosֿ¹(</tt> command also works on a list.
 
-The <tt>cosֿ¹(</tt> function can be defined for all real and complex numbers, but assumes real values only in the closed interval [-1,1]. Because Z80 calculators have their trigonometric functions and inverses restricted only to real values, the calculator will throw [ERR:DOMAIN](/errors#domain) if the argument is outside of this interval, no matter what the mode setting may be.
+The <tt>cosֿ¹(</tt> function can be defined for all real and complex numbers, but assumes real values only in the closed interval [-1,1]. Because Z80 calculators have their trigonometric functions and inverses restricted only to real values, the calculator will throw [ERR:DOMAIN](errors#domain) if the argument is outside of this interval, no matter what the mode setting may be.
 
 In radians:
 
@@ -52,7 +52,7 @@ In degrees:
 
 ## Advanced Uses
 
-Since the function cosine itself doesn't have the restrictions that arccosine does, and since arccosine is the inverse of cosine, you can use <tt>cosֿ¹(cos(</tt> to keep a variable within a certain range (most useful for the [home screen](/homescreen)). Here is an example for a game like [pong](/pong). The ball travels between 0 and 12.
+Since the function cosine itself doesn't have the restrictions that arccosine does, and since arccosine is the inverse of cosine, you can use <tt>cosֿ¹(cos(</tt> to keep a variable within a certain range (most useful for the [home screen](homescreen)). Here is an example for a game like [pong](pong.md). The ball travels between 0 and 12.
 
 You could use a flag like this:
 
@@ -63,7 +63,7 @@ You could use a flag like this:
 :Output(8,X,"=
 ```
 
-An easier way to do this, without needing a flag or even an <tt><a href="/if">If</a></tt> statement, is using <tt>cosֿ¹(cos(</tt>
+An easier way to do this, without needing a flag or even an <tt><a href="If.md">If</a></tt> statement, is using <tt>cosֿ¹(cos(</tt>
 
 ```ti-basic
 :X+1→X        \\ Note: the calculator is in Degree mode
@@ -73,16 +73,16 @@ An easier way to do this, without needing a flag or even an <tt><a href="/if">If
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if you supplied an argument outside the interval [-1,1]
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if you input a complex value or a matrix.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if you supplied an argument outside the interval [-1,1]
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if you input a complex value or a matrix.
 
 ## Related Commands
 
-*   <tt><a href="/sin">sin(</a></tt>
-*   <tt><a href="/arcsin">sinֿ¹(</a></tt>
-*   <tt><a href="/cos">cos(</a></tt>
-*   <tt><a href="/tan">tan(</a></tt>
-*   <tt><a href="/arctan">tanֿ¹(</a></tt>
+*   <tt><a href="sin(.md">sin(</a></tt>
+*   <tt><a href="sinֿ¹(.md">sinֿ¹(</a></tt>
+*   <tt><a href="cos(.md">cos(</a></tt>
+*   <tt><a href="tan(.md">tan(</a></tt>
+*   <tt><a href="tanֿ¹(.md">tanֿ¹(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

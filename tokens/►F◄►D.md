@@ -27,7 +27,7 @@ Converts an answer from a fraction to a decimal or from a decimal to a fraction.
 <tt><kbd><b>alpha</b></kbd></tt>, <kbd>F1</kbd>, `4:`
 <hr>
 
-The <tt>►F◄►D</tt> command is used to convert a number from fraction form to decimal form, or vice versa. Regardless of what form the given number is, this command is meant to automatically determine the form so that it returns the other. It is in essence a combination of the <tt><a href="/frac">►Frac</a></tt> and <tt><a href="/dec">►Dec</a></tt> commands, applying <tt>►Frac</tt> if the input is in decimal form and <tt>►Dec</tt> if it is a fraction.
+The <tt>►F◄►D</tt> command is used to convert a number from fraction form to decimal form, or vice versa. Regardless of what form the given number is, this command is meant to automatically determine the form so that it returns the other. It is in essence a combination of the <tt><a href="►Frac.md">►Frac</a></tt> and <tt><a href="►Dec.md">►Dec</a></tt> commands, applying <tt>►Frac</tt> if the input is in decimal form and <tt>►Dec</tt> if it is a fraction.
 
 ```ti-basic
 7.5►F◄ ►D
@@ -38,8 +38,8 @@ Ans►F◄ ►D
 
 ## Related Commands
 
-*   <tt><a href="/frac">►Frac</a></tt>
-*   <tt><a href="/dec">►Dec</a></tt>
+*   <tt><a href="►Frac.md">►Frac</a></tt>
+*   <tt><a href="►Dec.md">►Dec</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

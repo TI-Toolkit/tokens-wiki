@@ -120,17 +120,17 @@ If a list or matrix doesn't exist before its size is changed, the <tt>dim(</tt> 
 
 ## Advanced Uses
 
-In the case of lists, the <tt>dim(</tt> command is used in adding an element to the end of a list. Although <tt><a href="/augment">augment(</a></tt> can be used for the same task, <tt>dim(</tt> is faster - but takes more memory. For example, to add the element 5 to the end of L1:
+In the case of lists, the <tt>dim(</tt> command is used in adding an element to the end of a list. Although <tt><a href="augment(.md">augment(</a></tt> can be used for the same task, <tt>dim(</tt> is faster - but takes more memory. For example, to add the element 5 to the end of L1:
 
 ```ti-basic
 :5→L1(1+dim(L1
 ```
 
-It's also possible, using the <tt>dim(</tt> command, to set the size of a list to 0. In this case, the list exists, but doesn't take up any memory, and cannot be used in expressions (similar to the output of <tt><a href="/clrlist">ClrList</a></tt>). This is not really useful.
+It's also possible, using the <tt>dim(</tt> command, to set the size of a list to 0. In this case, the list exists, but doesn't take up any memory, and cannot be used in expressions (similar to the output of <tt><a href="ClrList.md">ClrList</a></tt>). This is not really useful.
 
 ## Optimization
 
-When creating a list or matrix using <tt>dim(</tt>, all the elements are preset to 0; this can be used in place of the <tt><a href="/fill">Fill(</a></tt> command to set a list or matrix to a bunch of zeros in a program. Since we don't usually know for sure that the list or matrix doesn't exist, we must first delete it with <tt><a href="/delvar">DelVar</a></tt>.
+When creating a list or matrix using <tt>dim(</tt>, all the elements are preset to 0; this can be used in place of the <tt><a href="Fill(.md">Fill(</a></tt> command to set a list or matrix to a bunch of zeros in a program. Since we don't usually know for sure that the list or matrix doesn't exist, we must first delete it with <tt><a href="DelVar.md">DelVar</a></tt>.
 
 ```ti-basic
 :{5,5→dim([A]
@@ -141,13 +141,13 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if you try to make a list or matrix bigger than 999 or 99x99 elements respectively, or if you try to create a matrix that isn't 2-dimensional.
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if you try to make a list or matrix bigger than 999 or 99x99 elements respectively, or if you try to create a matrix that isn't 2-dimensional.
 
 ## Related Commands
 
-*   <tt><a href="/length">length(</a></tt>
-*   <tt><a href="/fill">Fill(</a></tt>
-*   <tt><a href="/augment">augment(</a></tt>
+*   <tt><a href="length(.md">length(</a></tt>
+*   <tt><a href="Fill(.md">Fill(</a></tt>
+*   <tt><a href="augment(.md">augment(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

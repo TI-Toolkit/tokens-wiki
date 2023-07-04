@@ -56,14 +56,14 @@ prod({1,2,3,4,5},3)
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** if the starting or ending value aren't positive integers.
-*   **[ERR:INVALID DIM](/errors#invaliddim)** if the starting or ending value exceed the size of the list, or are in the wrong order.
+*   **[ERR:DOMAIN](errors#domain)** if the starting or ending value aren't positive integers.
+*   **[ERR:INVALID DIM](errors#invaliddim)** if the starting or ending value exceed the size of the list, or are in the wrong order.
 
 ## Related Commands
 
-*   [sum(](/sum)
-*   [dim(](/dim)
-*   [seq(](/seq-list)
+*   [sum(](sum\(.md)
+*   [dim(](dim\(.md)
+*   [seq(](seq\(.md)
 
 ## History
 | Calculator | OS Version | Description |

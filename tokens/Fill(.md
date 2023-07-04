@@ -74,7 +74,7 @@ When <tt>Fill(</tt> is called on a list, the datatype of the list becomes the da
 
 ## Optimization
 
-When creating a new list or matrix you want to fill with zeroes, it's better to delete it then create it with <tt><a href="/dim">dim(</a></tt>, which will set all entries to 0, than to set its dimensions with dim( (which may not clear what was there before) then use Fill(.
+When creating a new list or matrix you want to fill with zeroes, it's better to delete it then create it with <tt><a href="dim(.md">dim(</a></tt>, which will set all entries to 0, than to set its dimensions with dim( (which may not clear what was there before) then use Fill(.
 
 ## Errors
 
@@ -82,9 +82,9 @@ On a TI-84+CSE, using <tt>Fill(List,List)</tt> will cause a RAM clear. For examp
 
 ## Related Commands
 
-*   <tt><a href="/augment">augment(</a></tt>
-*   <tt><a href="/dim">dim(</a></tt>
-*   <tt><a href="/seq">seq(</a></tt>
+*   <tt><a href="augment(.md">augment(</a></tt>
+*   <tt><a href="dim(.md">dim(</a></tt>
+*   <tt><a href="seq(.md">seq(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

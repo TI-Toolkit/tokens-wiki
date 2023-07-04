@@ -42,7 +42,7 @@ fPart(‾4/5)
 
 ## Advanced Uses
 
-<tt>fPart(</tt>, along with <tt><a href="/int">int(</a></tt> or <tt><a href="/ipart">iPart(</a></tt>, can be used for integer [compression](/compression).
+<tt>fPart(</tt>, along with <tt><a href="int(.md">int(</a></tt> or <tt><a href="iPart(.md">iPart(</a></tt>, can be used for integer [compression](compression.md).
 
 * * *
 
@@ -70,18 +70,18 @@ Finally, the easiest way to check if a number is a whole number is <tt>not(fPart
 :End
 ```
 
-This can be used, for example, to check if a number is divisible by another: if X is divisible by N, then X/N is a whole number. This is useful for finding the [factors](/factorization) of a number. Warning: when storing values with repeating decimals and later multiplying them to see if a number makes it an integer it can return a value of 1 or -1 instead of 0 even if it is an integer do rounding errors. Example: storing 1/3 to X and computing<tt>fPart(3X)</tt> will return 1 instead of 0. This is because <tt>fPart(.999…)</tt> results in .999… and then rounds to 1 when displaying rather than rounding to 1.0 and then displaying the <tt>fPart(</tt> as 0.
+This can be used, for example, to check if a number is divisible by another: if X is divisible by N, then X/N is a whole number. This is useful for finding the [factors](factorization) of a number. Warning: when storing values with repeating decimals and later multiplying them to see if a number makes it an integer it can return a value of 1 or -1 instead of 0 even if it is an integer do rounding errors. Example: storing 1/3 to X and computing<tt>fPart(3X)</tt> will return 1 instead of 0. This is because <tt>fPart(.999…)</tt> results in .999… and then rounds to 1 when displaying rather than rounding to 1.0 and then displaying the <tt>fPart(</tt> as 0.
 
 ## Related Commands
 
-*   <tt><a href="/int">int(</a></tt>
-*   <tt><a href="/ipart">iPart(</a></tt>
-*   <tt><a href="/round">round(</a></tt>
+*   <tt><a href="int(.md">int(</a></tt>
+*   <tt><a href="iPart(.md">iPart(</a></tt>
+*   <tt><a href="round(.md">round(</a></tt>
 
 ## See Also
 
-*   [Compression](/compression)
-*   [Number Factorization](/factorization)
+*   [Compression](Compression.md)
+*   [Number Factorization](Number Factorization.md)
 
 ## History
 | Calculator | OS Version | Description |

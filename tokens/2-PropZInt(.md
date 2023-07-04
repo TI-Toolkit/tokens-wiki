@@ -82,13 +82,13 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if either proportion is not between 0 and 1, or _x<sub>i</sub>_ is negative or greater than _n<sub>i</sub>_, or the confidence level is negative or at least 100.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if either proportion is not between 0 and 1, or _x<sub>i</sub>_ is negative or greater than _n<sub>i</sub>_, or the confidence level is negative or at least 100.
 
 ## Related Commands
 
-*   [1-PropZInt(](/1-propzint)
-*   [ZInterval](/zinterval)
-*   [2-SampZInt(](/2-sampzint)
+*   [1-PropZInt(](1-PropZInt\(.md)
+*   [ZInterval](ZInterval.md)
+*   [2-SampZInt(](2-SampZInt\(.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -74,13 +74,13 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if the sample proportion is not between 0 and 1, any argument is negative, or the confidence level is 100 or more.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if the sample proportion is not between 0 and 1, any argument is negative, or the confidence level is 100 or more.
 
 ## Related Commands
 
-*   [2-PropZInt(](/2-propzint)
-*   [ZInterval](/zinterval)
-*   [2-SampZInt(](/2-sampzint)
+*   [2-PropZInt(](2-PropZInt\(.md)
+*   [ZInterval](ZInterval.md)
+*   [2-SampZInt(](2-SampZInt\(.md)
 
 ## History
 | Calculator | OS Version | Description |

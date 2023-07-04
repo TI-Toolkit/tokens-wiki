@@ -64,7 +64,7 @@ This will come to {.0625 .25 .375 .25 .0625} when you run it. These are the prob
 
 ## Advanced (for programmers)
 
-The <tt>binompdf(</tt> and <tt><a href="/binomcdf">binomcdf(</a></tt> commands are the only ones apart from <tt><a href="/seq-list">seq(</a></tt> that can return a list of a given length, and they do it much more quickly. It therefore makes sense, in some situations, to use these commands as substitutes for <tt>seq(</tt>.
+The <tt>binompdf(</tt> and <tt><a href="binomcdf(.md">binomcdf(</a></tt> commands are the only ones apart from <tt><a href="seq(.md">seq(</a></tt> that can return a list of a given length, and they do it much more quickly. It therefore makes sense, in some situations, to use these commands as substitutes for <tt>seq(</tt>.
 
 Here's how to do it:
 
@@ -117,14 +117,14 @@ This formula is fairly intuitive. We want to know the probability that out of n 
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if the number of trials is at least 1 000 000 (unless the other arguments make the problem trivial).
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if you try to generate a list of probabilities with at least 999 trials.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if the number of trials is at least 1 000 000 (unless the other arguments make the problem trivial).
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if you try to generate a list of probabilities with at least 999 trials.
 
 ## Related Commands
 
-*   <tt><a href="/binomcdf">binomcdf(</a></tt>
-*   <tt><a href="/geometpdf">geometpdf(</a></tt>
-*   <tt><a href="/geometcdf">geometcdf(</a></tt>
+*   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
+*   <tt><a href="geometpdf(.md">geometpdf(</a></tt>
+*   <tt><a href="geometcdf(.md">geometcdf(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

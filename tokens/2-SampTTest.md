@@ -169,9 +169,9 @@ can be just
 
 ## Related Commands
 
-*   [T-Test](/t-test)
-*   [Z-Test(](/z-test)
-*   [2-SampZTest(](/2-sampztest)
+*   [T-Test](T-Test.md)
+*   [Z-Test(](Z-Test\(.md)
+*   [2-SampZTest(](2-SampZTest\(.md)
 
 ## History
 | Calculator | OS Version | Description |

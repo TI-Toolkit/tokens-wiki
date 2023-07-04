@@ -27,13 +27,13 @@ Returns the natural logarithm of a real or complex number, expression, or list.
 <tt><kbd><b>ln</b></kbd></tt>
 <hr>
 
-The ln( command computes the natural logarithm of a value — the exponent to which the constant _[e](/e-value)_ must be raised, to get that value. This makes it the inverse of the _[e^(](/e-exponent)_ command.
+The ln( command computes the natural logarithm of a value — the exponent to which the constant _[e](e-value)_ must be raised, to get that value. This makes it the inverse of the _[e^(](e-exponent)_ command.
 
-ln( is a real number for all positive real values. For negative numbers, ln( is an imaginary number (so taking ln( of a negative number will cause [ERR:NONREAL ANS](/errors#nonrealans) to be thrown in [Real](/real-mode) mode), and of course it's a complex number for complex values. ln( is not defined at 0, even if you're in a complex mode.
+ln( is a real number for all positive real values. For negative numbers, ln( is an imaginary number (so taking ln( of a negative number will cause [ERR:NONREAL ANS](errors#nonrealans) to be thrown in [Real](real-mode) mode), and of course it's a complex number for complex values. ln( is not defined at 0, even if you're in a complex mode.
 
 ## Advanced Uses
 
-Using either the ln( or the [log(](/log) command, logarithms of any base can be calculated, using the identity:
+Using either the ln( or the [log(](log\(.md) command, logarithms of any base can be calculated, using the identity:
 
 (1) $`\begin{align} \log_b{x} = \frac{\ln{x}}{\ln{b}} = \frac{\log{x}}{\log{b}} \end{align}`$ 
 
@@ -51,15 +51,15 @@ This is the exponent to which B must be raised, to get X.
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** when calculating ln(0).
-*   **[ERR:NONREAL ANS](/errors#nonrealans)** if taking ln( of a negative number in [Real](/real-mode) mode.
+*   **[ERR:DOMAIN](errors#domain)** when calculating ln(0).
+*   **[ERR:NONREAL ANS](errors#nonrealans)** if taking ln( of a negative number in [Real](real-mode) mode.
 
 ## Related Commands
 
-*   _[e](/e-value)_
-*   _[e^(](/e-exponent)_
-*   [log(](/log)
-*   [logBASE(](/logbase)
+*   _[e](e-value)_
+*   _[e^(](e-exponent)_
+*   [log(](log\(.md)
+*   [logBASE(](logBASE\(.md)
 
 ## History
 | Calculator | OS Version | Description |

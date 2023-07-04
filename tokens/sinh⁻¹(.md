@@ -42,11 +42,11 @@ sinhֿ¹({1,2,3})
 
 ## Related Commands
 
-*   [sinh(](/sinh)
-*   [cosh(](/cosh)
-*   [coshֿ¹(](/arcosh)
-*   [tanh(](/tanh)
-*   [tanhֿ¹(](/artanh)
+*   [sinh(](sinh\(.md)
+*   [cosh(](cosh\(.md)
+*   [coshֿ¹(](coshֿ¹\(.md)
+*   [tanh(](tanh\(.md)
+*   [tanhֿ¹(](tanhֿ¹\(.md)
 
 ## History
 | Calculator | OS Version | Description |

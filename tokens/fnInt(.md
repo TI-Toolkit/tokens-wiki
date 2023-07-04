@@ -52,15 +52,15 @@ fnInt(ln(X),X,0,1,e-11)
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if _tol_ is 0.
-*   **[ERR:ILLEGAL NEST](/errors#illegalnest)** is thrown if <tt>fnInt(</tt> occurs in the expression to be integrated.
-*   **[ERR:TOL NOT MET](/errors#tolnotmet)** may occur if the tolerance is too small.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if _tol_ is 0.
+*   **[ERR:ILLEGAL NEST](errors#illegalnest)** is thrown if <tt>fnInt(</tt> occurs in the expression to be integrated.
+*   **[ERR:TOL NOT MET](errors#tolnotmet)** may occur if the tolerance is too small.
 
 ## Related Commands
 
-*   <tt><a href="/fmin">fMin(</a></tt>
-*   <tt><a href="/fmax">fMax(</a></tt>
-*   <tt><a href="/nderiv">nDeriv(</a></tt>
+*   <tt><a href="fMin(.md">fMin(</a></tt>
+*   <tt><a href="fMax(.md">fMax(</a></tt>
+*   <tt><a href="nDeriv(.md">nDeriv(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

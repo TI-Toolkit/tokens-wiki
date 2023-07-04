@@ -19,14 +19,14 @@ Sets table to generate dependent-variable values automatically.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Depend: Auto`
 <hr>
 
-When the <tt>DependAuto</tt> setting (opposed to the <tt><a href="/dependask">DependAsk</a></tt> setting) is turned on, values in the table are automatically calculated. With <tt><a href="/indpntauto">IndpntAuto</a></tt>, that means the table is automatically filled out completely; with <tt><a href="/indpntask">IndpntAsk</a></tt>, that means that as soon as you enter a value for the independent variable, all the values of the dependent variables are calculated. This is usually the setting you want to use.
+When the <tt>DependAuto</tt> setting (opposed to the <tt><a href="DependAsk.md">DependAsk</a></tt> setting) is turned on, values in the table are automatically calculated. With <tt><a href="IndpntAuto.md">IndpntAuto</a></tt>, that means the table is automatically filled out completely; with <tt><a href="IndpntAsk.md">IndpntAsk</a></tt>, that means that as soon as you enter a value for the independent variable, all the values of the dependent variables are calculated. This is usually the setting you want to use.
 
 ## Related Commands
 
-*   <tt><a href="/indpntauto">IndpntAuto</a></tt>
-*   <tt><a href="/indpntask">IndpntAsk</a></tt>
-*   <tt><a href="/dependask">DependAsk</a></tt>
-*   <tt><a href="/disptable">DispTable</a></tt>
+*   <tt><a href="IndpntAuto.md">IndpntAuto</a></tt>
+*   <tt><a href="IndpntAsk.md">IndpntAsk</a></tt>
+*   <tt><a href="DependAsk.md">DependAsk</a></tt>
+*   <tt><a href="DispTable.md">DispTable</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

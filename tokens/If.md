@@ -140,7 +140,7 @@ End
 
 ## Memory Leaks
 
-Each time the program enters an <tt>If-Then</tt> block, the calculator uses 35+(size of the condition) bytes of memory to keep track of the block. This memory is given back to you as soon as the program reaches an <tt><a href="/end">End</a></tt> statement. This isn't really a problem unless you're low on RAM, or have a lot of nested If-Then statements. However, if you use <tt><a href="/goto">Goto</a></tt> to jump out of such a statement, you lose those bytes for as long as the program is running — and if you keep doing this, you might easily run out of memory, resulting in [ERR:MEMORY](/errors#memory).
+Each time the program enters an <tt>If-Then</tt> block, the calculator uses 35+(size of the condition) bytes of memory to keep track of the block. This memory is given back to you as soon as the program reaches an <tt><a href="End.md">End</a></tt> statement. This isn't really a problem unless you're low on RAM, or have a lot of nested If-Then statements. However, if you use <tt><a href="Goto.md">Goto</a></tt> to jump out of such a statement, you lose those bytes for as long as the program is running — and if you keep doing this, you might easily run out of memory, resulting in [ERR:MEMORY](errors#memory).
 
 ## Optimization
 
@@ -155,7 +155,7 @@ can be
 :Disp "A IS NOT 0
 ```
 
-When code in a single-line <tt>If</tt> statement simply changes a variable, it can often be replaced with an equivalent [piecewise expression](/piecewise-expression), which will be smaller and faster.
+When code in a single-line <tt>If</tt> statement simply changes a variable, it can often be replaced with an equivalent [piecewise expression](piecewise-expression), which will be smaller and faster.
 
 ```ti-basic
 :If A=B
@@ -167,7 +167,7 @@ can be
 
 ## Code Timings
 
-Single-line <tt>If</tt> statements are greatly slowed when they are the first line in <tt><a href="/for">For(</a></tt> loops without a closing parenthesis. For example,
+Single-line <tt>If</tt> statements are greatly slowed when they are the first line in <tt><a href="For(.md">For(</a></tt> loops without a closing parenthesis. For example,
 
 ```ti-basic
 Very slow
@@ -183,15 +183,15 @@ Very slow
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** occurs if the parameter is complex, even if it's complex in a silly way like 0i.
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
-*   **[ERR:SYNTAX](/errors#syntax)** occurs if an If is the last statement in the program, or the last except for one empty line.
+*   **[ERR:DATA TYPE](errors#datatype)** occurs if the parameter is complex, even if it's complex in a silly way like 0i.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:SYNTAX](errors#syntax)** occurs if an If is the last statement in the program, or the last except for one empty line.
 
 ## Related Commands
 
-*   <tt><a href="/for">For(</a></tt>
-*   <tt><a href="/while">While</a></tt>
-*   <tt><a href="/repeat">Repeat</a></tt>
+*   <tt><a href="For(.md">For(</a></tt>
+*   <tt><a href="While.md">While</a></tt>
+*   <tt><a href="Repeat.md">Repeat</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

@@ -56,14 +56,14 @@ sum({1,2,3,4,5},3)
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if the starting or ending value aren't positive integers.
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if the starting or ending value exceed the size of the list, or are in the wrong order.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if the starting or ending value aren't positive integers.
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if the starting or ending value exceed the size of the list, or are in the wrong order.
 
 ## Related Commands
 
-*   [prod(](/prod)
-*   [dim(](/dim)
-*   [seq(](/seq-list)
+*   [prod(](prod\(.md)
+*   [dim(](dim\(.md)
+*   [seq(](seq\(.md)
 
 ## History
 | Calculator | OS Version | Description |

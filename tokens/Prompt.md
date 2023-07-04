@@ -33,7 +33,7 @@ Prompts for value for `variableA`, then `variableB`, and so on.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Prompt`
 <hr>
 
-The <tt>Prompt</tt> command is the simplest way of getting [user input](/userinput) on the [home screen](/homescreen) (getting user input on the [graph screen](/graphscreen) is only possible with the <tt><a href="/getkey">getKey</a></tt> command). Prompt displays [variables](/variables) one per line, with an equal sign and question mark (=?) displayed to the right of each variable. After the user enters a value or expression for the variables and presses ENTER, the values will be stored to the variables and program execution will resume.
+The <tt>Prompt</tt> command is the simplest way of getting [user input](userinput) on the [home screen](homescreen) (getting user input on the [graph screen](graphscreen) is only possible with the <tt><a href="getKey.md">getKey</a></tt> command). Prompt displays [variables](variables.md) one per line, with an equal sign and question mark (=?) displayed to the right of each variable. After the user enters a value or expression for the variables and presses ENTER, the values will be stored to the variables and program execution will resume.
 
 <tt>Prompt</tt> can be used with every variable, but some of the variables have to be entered in a certain way. If the variable is a string or equation, the user must put quotes ("") around the value; the user must also put curly braces ({}) around lists and square brackets ([]) around matrices. Of course, ending quotes, braces, and brackets can be left off as usual.
 
@@ -43,7 +43,7 @@ During the Prompt, the user can press [2nd][MODE] to quit the program immediatel
 
 ## Advanced Uses
 
-Because simply displaying what variable the value will be stored to does not really tell the user what the variable will be used for, you can put a <tt><a href="/disp">Disp</a></tt> command before <tt>Prompt</tt> to give the user some more insight into what an appropriate value for the variable would be. The <tt>Prompt</tt> command will be displayed one line lower, though, because the <tt>Disp</tt> command automatically creates a new line after itself. (Of course, you could also just use the <tt><a href="/input">Input</a></tt> command.)
+Because simply displaying what variable the value will be stored to does not really tell the user what the variable will be used for, you can put a <tt><a href="Disp.md">Disp</a></tt> command before <tt>Prompt</tt> to give the user some more insight into what an appropriate value for the variable would be. The <tt>Prompt</tt> command will be displayed one line lower, though, because the <tt>Disp</tt> command automatically creates a new line after itself. (Of course, you could also just use the <tt><a href="Input.md">Input</a></tt> command.)
 
 ```ti-basic
 :Disp "Enter the Score
@@ -65,12 +65,12 @@ Combine the Prompts
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this statement is used outside a program.
+*   **[ERR:INVALID](errors#invalid)** occurs if this statement is used outside a program.
 
 ## Related Commands
 
-*   <tt><a href="/input">Input</a></tt>
-*   <tt><a href="/getkey">getKey</a></tt>
+*   <tt><a href="Input.md">Input</a></tt>
+*   <tt><a href="getKey.md">getKey</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

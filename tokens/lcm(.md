@@ -42,12 +42,12 @@ lcm({14,12},{6,8})
 
 ## Error Conditions
 
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if the arguments are two lists that don't have the same number of elements.
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if the arguments aren't positive integers (or lists of positive integers) less than 1e12.
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown if the arguments are two lists that don't have the same number of elements.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if the arguments aren't positive integers (or lists of positive integers) less than 1e12.
 
 ## Related Commands
 
-*   [gcd(](/gcd)
+*   [gcd(](gcd\(.md)
 
 ## History
 | Calculator | OS Version | Description |

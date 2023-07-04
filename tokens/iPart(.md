@@ -40,13 +40,13 @@ iPart(‾4/5)
                0
 ```
 
-The difference between <tt>iPart(</tt> and <tt><a href="/int">int(</a></tt> is subtle; while <tt>iPart(</tt> always truncates its parameters, simply removing the integer part, <tt>int(</tt> always rounds down. This means that they return the same answers for positive numbers, but <tt>int(</tt> will return an answer 1 less than <tt>iPart(</tt> for (non-integer) negative numbers. For example, <tt>iPart(-5.32)</tt> is -5, while <tt>int(-5.32)</tt> is -6.
+The difference between <tt>iPart(</tt> and <tt><a href="int(.md">int(</a></tt> is subtle; while <tt>iPart(</tt> always truncates its parameters, simply removing the integer part, <tt>int(</tt> always rounds down. This means that they return the same answers for positive numbers, but <tt>int(</tt> will return an answer 1 less than <tt>iPart(</tt> for (non-integer) negative numbers. For example, <tt>iPart(-5.32)</tt> is -5, while <tt>int(-5.32)</tt> is -6.
 
-In this case of positive values, though, the decision to use <tt>iPart(</tt> or <tt>int(</tt> is mostly a matter of preference - some people only use <tt>int(</tt> because it is shorter, some people use <tt>iPart(</tt> when there is a corresponding <tt><a href="/fpart">fPart(</a></tt> taken. However, see the Command Timings section.
+In this case of positive values, though, the decision to use <tt>iPart(</tt> or <tt>int(</tt> is mostly a matter of preference - some people only use <tt>int(</tt> because it is shorter, some people use <tt>iPart(</tt> when there is a corresponding <tt><a href="fPart(.md">fPart(</a></tt> taken. However, see the Command Timings section.
 
 ## Advanced Uses
 
-<tt>iPart(</tt>, along with <tt>fPart(</tt> and <tt>int(</tt>, can be used for integer [compression](/compression).
+<tt>iPart(</tt>, along with <tt>fPart(</tt> and <tt>int(</tt>, can be used for integer [compression](compression.md).
 
 ## Command Timings
 
@@ -96,13 +96,13 @@ Conclusion: With 5 or fewer decimal places, you should consider using <tt>int(</
 
 ## Related Commands
 
-*   <tt><a href="/int">int(</a></tt>
-*   <tt><a href="/fpart">fPart(</a></tt>
-*   <tt><a href="/round">round(</a></tt>
+*   <tt><a href="int(.md">int(</a></tt>
+*   <tt><a href="fPart(.md">fPart(</a></tt>
+*   <tt><a href="round(.md">round(</a></tt>
 
 ## See Also
 
-*   [Compression](/compression)
+*   [Compression](Compression.md)
 
 ## History
 | Calculator | OS Version | Description |

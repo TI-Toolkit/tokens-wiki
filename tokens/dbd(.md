@@ -53,19 +53,19 @@ dbd(1.0107,{2.0107,3.0107,4.0107})
 
 ## Advanced Uses
 
-The <tt>dbd(</tt> command can be used to calculate the [day of week](/day-of-week) without using the <tt><a href="/dayofwk">dayOfWk(</a></tt> command, which is only available on the TI-84+ or higher.
+The <tt>dbd(</tt> command can be used to calculate the [day of week](day-of-week) without using the <tt><a href="dayOfWk(.md">dayOfWk(</a></tt> command, which is only available on the TI-84+ or higher.
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if a date is improperly formatted.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if a date is improperly formatted.
 
 ## Related Commands
 
-*   <tt><a href="/dayofwk">dayOfWk(</a></tt>
+*   <tt><a href="dayOfWk(.md">dayOfWk(</a></tt>
 
 ## See Also
 
-*   [Day of Week](/day-of-week)
+*   [Day of Week](Day of Week.md)
 
 ## History
 | Calculator | OS Version | Description |

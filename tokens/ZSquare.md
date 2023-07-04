@@ -19,29 +19,29 @@ Adjusts the `X` or `Y` window settings so that each pixel represents an equal wi
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `5:ZSquare`
 <hr>
 
-The ZSquare command changes the [window variables](/system-variables#window) Xmin and Xmax, or Ymin and Ymax, so that ΔX=ΔY, preserving all other settings and the coordinate of the center of the screen. This ensures that a numerical distance on the graphscreen has the same physical length on the calculator display, no matter if it's vertical, horizontal, or diagonal. Probably the most obvious effect of this change is that circles (whether graphed with an equation or drawn with the [Circle(](/circle) command) are actually circles and not ovals.
+The ZSquare command changes the [window variables](system-variables#window) Xmin and Xmax, or Ymin and Ymax, so that ΔX=ΔY, preserving all other settings and the coordinate of the center of the screen. This ensures that a numerical distance on the graphscreen has the same physical length on the calculator display, no matter if it's vertical, horizontal, or diagonal. Probably the most obvious effect of this change is that circles (whether graphed with an equation or drawn with the [Circle(](Circle\(.md) command) are actually circles and not ovals.
 
 When determining which of Xmin and Xmax or Ymin and Ymax to change, the command picks the ones that would be increased, and not decreased. This way, the window can never get smaller.
 
-Note that [ZDecimal](/zdecimal), [ZInteger](/zinteger), and to an extent [ZTrig](/ztrig) already have the same proportions, and don't require a ZSquare command to follow them.
+Note that [ZDecimal](ZDecimal.md), [ZInteger](ZInteger.md), and to an extent [ZTrig](ZTrig.md) already have the same proportions, and don't require a ZSquare command to follow them.
 
 ## Advanced Uses
 
-ZSquare can be useful in setting up a [friendly window](/friendly-window).
+ZSquare can be useful in setting up a [friendly window](friendly-window).
 
 ## Error Conditions
 
-*   **[ERR:INVALID](/errors#invalid)** occurs if this command is used outside a program.
+*   **[ERR:INVALID](errors#invalid)** occurs if this command is used outside a program.
 
 ## Related Commands
 
-*   [ZDecimal](/zdecimal)
-*   [ZInteger](/zinteger)
-*   [ZStandard](/zstandard)
+*   [ZDecimal](ZDecimal.md)
+*   [ZInteger](ZInteger.md)
+*   [ZStandard](ZStandard.md)
 
 ## See Also
 
-*   [Friendly Graphing Windows](/friendly-window)
+*   [Friendly Graphing Windows](Friendly Graphing Windows.md)
 
 ## History
 | Calculator | OS Version | Description |

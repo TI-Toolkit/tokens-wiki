@@ -61,13 +61,13 @@ Shade(Ymin,Ymax) is the smallest (though not the fastest) way to shade the entir
 
 ## Related Commands
 
-*   [DrawF](/drawf)
-*   [DrawInv](/drawinv)
-*   [Tangent(](/tangent)
+*   [DrawF](DrawF.md)
+*   [DrawInv](DrawInv.md)
+*   [Tangent(](Tangent\(.md)
 
 ## See Also
 
-*   [Shading Circles](/shading-circles)
+*   [Shading Circles](Shading Circles.md)
 
 ## History
 | Calculator | OS Version | Description |

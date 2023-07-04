@@ -54,7 +54,7 @@ This will give about .265 when you run it, so there's a .265 probability that in
 
 ## Formulas
 
-The <tt>poissoncdf(</tt> command can be seen as a sum of <tt><a href="/poissonpdf">poissonpdf(</a></tt> commands:
+The <tt>poissoncdf(</tt> command can be seen as a sum of <tt><a href="poissonpdf(.md">poissonpdf(</a></tt> commands:
 
 (1) $`\begin{align} \texttt{poissoncdf}(\lambda,k)=\sum_{i=0}^k \texttt{poissonpdf}(\lambda,i) = \sum_{i=0}^k \frac {e^{-\lambda} \lambda^i}{i!} \end{align}`$ 
 
@@ -64,9 +64,9 @@ We can also write the <tt>poissoncdf(</tt> command in terms of the [incomplete g
 
 ## Related Commands
 
-*   <tt><a href="/binompdf">binompdf(</a></tt>
-*   <tt><a href="/binomcdf">binomcdf(</a></tt>
-*   <tt><a href="/poissonpdf">poissonpdf(</a></tt>
+*   <tt><a href="binompdf(.md">binompdf(</a></tt>
+*   <tt><a href="binomcdf(.md">binomcdf(</a></tt>
+*   <tt><a href="poissonpdf(.md">poissonpdf(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

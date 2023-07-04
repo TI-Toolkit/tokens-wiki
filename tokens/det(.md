@@ -27,7 +27,7 @@ Returns determinant of `matrix`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `1:det(`
 <hr>
 
-The <tt>det(</tt> command calculates the [determinant](https://mathworld.wolfram.com/Determinant.html) of a square matrix. If its argument is not a square matrix, [ERR:INVALID DIM](/errors#invaliddim) will be thrown.
+The <tt>det(</tt> command calculates the [determinant](https://mathworld.wolfram.com/Determinant.html) of a square matrix. If its argument is not a square matrix, [ERR:INVALID DIM](errors#invaliddim) will be thrown.
 
 ## Advanced Uses
 
@@ -49,13 +49,13 @@ The determinant is then calculated as the product of the diagonal elements of th
 
 ## Error Conditions
 
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown when the matrix is not square.
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown when the matrix is not square.
 
 ## Related Commands
 
-*   <tt><a href="/identity">identity(</a></tt>
-*   <tt><a href="/ref">ref(</a></tt>
-*   <tt><a href="/rref">rref(</a></tt>
+*   <tt><a href="identity(.md">identity(</a></tt>
+*   <tt><a href="ref(.md">ref(</a></tt>
+*   <tt><a href="rref(.md">rref(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

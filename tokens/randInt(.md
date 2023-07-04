@@ -64,7 +64,7 @@ In this particular example, the only values that you will ever get are -1 or 1.
 
 ## Formulas
 
-The value of randInt( for a given seed can be expressed in terms of [rand](/rand):
+The value of randInt( for a given seed can be expressed in terms of [rand](rand.md):
 
 randInt(A,B)=
 
@@ -75,16 +75,16 @@ This is identical to the output of randInt( in the sense that for the same seed,
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if any of the arguments is a decimal.
-*   **[ERR: DATA TYPE](/errors#datatype)** is given if you use imaginary numbers like 6i or something like Matrices or Lists. This error is used instead of ERR:DOMAIN for "i".
+*   **[ERR:DOMAIN](errors#domain)** is thrown if any of the arguments is a decimal.
+*   **[ERR: DATA TYPE](errors#datatype)** is given if you use imaginary numbers like 6i or something like Matrices or Lists. This error is used instead of ERR:DOMAIN for "i".
 
 ## Related Commands
 
-*   [rand](/rand)
-*   [randBin(](/randbin)
-*   [randNorm(](/randnorm)
-*   [randM(](/randm)
-*   [randIntNoRep(](/randintnorep)
+*   [rand](rand.md)
+*   [randBin(](randBin\(.md)
+*   [randNorm(](randNorm\(.md)
+*   [randM(](randM\(.md)
+*   [randIntNoRep(](randIntNoRep\(.md)
 
 ## History
 | Calculator | OS Version | Description |

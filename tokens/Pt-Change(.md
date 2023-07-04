@@ -38,9 +38,9 @@ Pt-Change( can be an interactive command: when on the graph screen, you can sele
 
 ## Related Commands
 
-*   [Pt-On(](/pt-on)
-*   [Pt-Off(](/pt-off)
-*   [Pxl-Change(](/pxl-change)
+*   [Pt-On(](Pt-On\(.md)
+*   [Pt-Off(](Pt-Off\(.md)
+*   [Pxl-Change(](Pxl-Change\(.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -43,7 +43,7 @@ In its simplest form, QuartReg takes no arguments, and calculates a quartic thro
 :QuartReg
 ```
 
-On the home screen, or as the last line of a program, this will display the equation of the quartic: you'll be shown the format, y=ax<sup>4</sup>+bx<sup>3</sup>+cx<sup>2</sup>+dx+e, and the values of a, b, c, d, and e. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, c, d, e, and R<sup>2</sup> will be set as well. This latter variable will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](/diagnosticon) and [DiagnosticOff](/diagnosticoff)).
+On the home screen, or as the last line of a program, this will display the equation of the quartic: you'll be shown the format, y=ax<sup>4</sup>+bx<sup>3</sup>+cx<sup>2</sup>+dx+e, and the values of a, b, c, d, and e. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, c, d, e, and R<sup>2</sup> will be set as well. This latter variable will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](DiagnosticOn.md) and [DiagnosticOff](DiagnosticOff.md)).
 
 You don't have to do the regression on L1 and L2, but if you don't you'll have to enter the names of the lists after the command. For example:
 
@@ -72,9 +72,9 @@ Note that even if a relationship is actually linear, since a quartic regression 
 
 ## Related Commands
 
-*   [LinReg(ax+b)](/linreg-ax-b)
-*   [QuadReg](/quadreg)
-*   [CubicReg](/cubicreg)
+*   [LinReg(ax+b)](linreg-ax-b)
+*   [QuadReg](QuadReg.md)
+*   [CubicReg](CubicReg.md)
 
 ## History
 | Calculator | OS Version | Description |

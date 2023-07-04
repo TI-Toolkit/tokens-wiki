@@ -35,7 +35,7 @@ Fits an exponential regression model to `Xlistname` and `Ylistname` with frequen
 
 <tt>ExpReg</tt> tries to fit an exponential curve (y=a*b<sup>x</sup>) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates ordered so that the Nth element of one list matches up with the Nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points.
 
-The calculator does this regression by taking the natural log [ln(](/ln) of the y-coordinates (this isn't stored anywhere) and then doing a linear regression. The result, ln(y)=ln(a)+x*ln(b), is transformed into y=e<sup>ln(a)</sup>(e<sup>ln(b)</sup>)<sup>x</sup>, which is an exponential curve. This algorithm shows that if any y-coordinates are negative or 0, the calculator will instantly quit with ERR:DOMAIN.
+The calculator does this regression by taking the natural log [ln(](ln\(.md) of the y-coordinates (this isn't stored anywhere) and then doing a linear regression. The result, ln(y)=ln(a)+x*ln(b), is transformed into y=e<sup>ln(a)</sup>(e<sup>ln(b)</sup>)<sup>x</sup>, which is an exponential curve. This algorithm shows that if any y-coordinates are negative or 0, the calculator will instantly quit with ERR:DOMAIN.
 
 In its simplest form, <tt>ExpReg</tt> takes no arguments, and fits an exponential curve through the points in L₁ and L₂:
 
@@ -45,7 +45,7 @@ In its simplest form, <tt>ExpReg</tt> takes no arguments, and fits an exponentia
 :LnReg
 ```
 
-On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, y=a*b^x, and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, r, and r² will be set as well. These latter two variables will be displayed only if "Diagnostic Mode" is turned on (see <tt><a href="/diagnosticon">DiagnosticOn</a></tt> and <tt><a href="/diagnosticoff">DiagnosticOff</a></tt>).
+On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, y=a*b^x, and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, r, and r² will be set as well. These latter two variables will be displayed only if "Diagnostic Mode" is turned on (see <tt><a href="DiagnosticOn.md">DiagnosticOn</a></tt> and <tt><a href="DiagnosticOff.md">DiagnosticOff</a></tt>).
 
 You don't have to do the regression on L₁ and L₂, but if you don't you'll have to enter the names of the lists after the command. For example:
 
@@ -70,9 +70,9 @@ An example of <tt>ExpReg</tt> with all the optional arguments:
 
 ## Related Commands
 
-*   <tt><a href="/lnreg">LnReg</a></tt>
-*   <tt><a href="/pwrreg">PwrReg</a></tt>
-*   <tt><a href="/sinreg">SinReg</a></tt>
+*   <tt><a href="LnReg.md">LnReg</a></tt>
+*   <tt><a href="PwrReg.md">PwrReg</a></tt>
+*   <tt><a href="SinReg.md">SinReg</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

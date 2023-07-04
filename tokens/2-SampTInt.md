@@ -88,7 +88,7 @@ In the summary stats syntax, _x<sub>1</sub>_ and _x<sub>2</sub>_ the two sample 
 
 The output will contain an open interval (a, b) that is your answer: the difference between the two means will lie in this interval. Specifically, it is the second mean subtracted from the first - μ<sub>1</sub>-μ<sub>2</sub>. If you're interested in the reverse difference, just flip the signs on the interval.
 
-Tip: don't use this command in a matched-pairs setting when you can match the two samples up by units or subjects. Instead, take the difference between the two samples in each matched pair, and use a regular [TInterval](/tinterval).
+Tip: don't use this command in a matched-pairs setting when you can match the two samples up by units or subjects. Instead, take the difference between the two samples in each matched pair, and use a regular [TInterval](TInterval.md).
 
 ## Sample Problem
 
@@ -145,9 +145,9 @@ can be
 
 ## Related Commands
 
-*   [TInterval](/tinterval)
-*   [ZInterval](/zinterval)
-*   [2-SampZInt(](/2-sampzint)
+*   [TInterval](TInterval.md)
+*   [ZInterval](ZInterval.md)
+*   [2-SampZInt(](2-SampZInt\(.md)
 
 ## History
 | Calculator | OS Version | Description |

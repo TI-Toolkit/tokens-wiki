@@ -66,15 +66,15 @@ One caveat, though - if all of the elements occur 0 times, there's nothing to ta
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown, among other cases, if the data list is complex, or if the frequencies are not all positive and real.
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown if the frequency list and the data list have a different number of elements.
-*   **[ERR:DIVIDE BY 0](/errors#divideby0)** is thrown if the frequency list's elements are all 0.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown, among other cases, if the data list is complex, or if the frequencies are not all positive and real.
+*   **[ERR:DIM MISMATCH](errors#dimmismatch)** is thrown if the frequency list and the data list have a different number of elements.
+*   **[ERR:DIVIDE BY 0](errors#divideby0)** is thrown if the frequency list's elements are all 0.
 
 ## Related Commands
 
-*   [median(](/median)
-*   [stdDev(](/stddev)
-*   [variance(](/variance)
+*   [median(](median\(.md)
+*   [stdDev(](stdDev\(.md)
+*   [variance(](variance\(.md)
 
 ## History
 | Calculator | OS Version | Description |

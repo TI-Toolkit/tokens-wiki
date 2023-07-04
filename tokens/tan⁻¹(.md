@@ -29,9 +29,9 @@ Returns the arctangent of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tan⁻¹</kbd>
 <hr>
 
-tanֿ¹( returns the [arctangent](https://mathworld.wolfram.com/InverseTangent.html) of its argument. It is the inverse of [tan(](/tan), which means that tanֿ¹(n) produces an angle θ such that tan(θ)=n.
+tanֿ¹( returns the [arctangent](https://mathworld.wolfram.com/InverseTangent.html) of its argument. It is the inverse of [tan(](tan\(.md), which means that tanֿ¹(n) produces an angle θ such that tan(θ)=n.
 
-Like tan(, the result of tanֿ¹( depends on whether the calculator is in [Radian](/radian-mode) or [Degree](/degree-mode) mode. However, unlike tangent, the result is in degrees or radians, not the argument. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion of θ=tanֿ¹(n) from radians to degrees is θ*180/π and from degrees to radians is θ*π/180. The tanֿ¹( command also works on a list.
+Like tan(, the result of tanֿ¹( depends on whether the calculator is in [Radian](radian-mode) or [Degree](degree-mode) mode. However, unlike tangent, the result is in degrees or radians, not the argument. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion of θ=tanֿ¹(n) from radians to degrees is θ*180/π and from degrees to radians is θ*π/180. The tanֿ¹( command also works on a list.
 
 tanֿ¹( will always return a value between -π/2 and π/2 (or -90° and 90°).
 
@@ -56,16 +56,16 @@ Expressions of the form tanֿ¹(_y__/x_) are usually better recast as R►Pθ(_x
 
 ## Error Conditions
 
-*   **[ERR:DATA TYPE](/errors#datatype)** is thrown if you input a complex value or a matrix.
+*   **[ERR:DATA TYPE](errors#datatype)** is thrown if you input a complex value or a matrix.
 
 ## Related Commands
 
-*   [sin(](/sin)
-*   [sinֿ¹(](/arcsin)
-*   [cos(](/cos)
-*   [cosֿ¹(](/arccos)
-*   [tan(](/tan)
-*   [R►Pθ(](/r-ptheta)
+*   [sin(](sin\(.md)
+*   [sinֿ¹(](sinֿ¹\(.md)
+*   [cos(](cos\(.md)
+*   [cosֿ¹(](cosֿ¹\(.md)
+*   [tan(](tan\(.md)
+*   [R►Pθ(](R►Pθ\(.md)
 
 ## History
 | Calculator | OS Version | Description |

@@ -45,8 +45,8 @@ The value of <tt>χ²pdf(</tt> is given by
 
 ## Related Commands
 
-*   <tt><a href="/chisquarecdf">χ²cdf(</a></tt>
-*   <tt><a href="/shadechisquare">Shadeχ²(</a></tt>
+*   <tt><a href="χ²cdf(.md">χ²cdf(</a></tt>
+*   <tt><a href="Shadeχ²(.md">Shadeχ²(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

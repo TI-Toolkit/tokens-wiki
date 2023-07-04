@@ -51,15 +51,15 @@ The entries of randM( are actually the outputs of successive calls to randInt(-9
 
 ## Error Conditions
 
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if the number of rows or columns of the matrix isn't an integer 1-99.
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if the number of rows or columns of the matrix isn't an integer 1-99.
 
 ## Related Commands
 
-*   [rand](/rand)
-*   [randInt(](/randint)
-*   [randNorm(](/randnorm)
-*   [randBin(](/randbin)
-*   [randIntNoRep(](/randintnorep)
+*   [rand](rand.md)
+*   [randInt(](randInt\(.md)
+*   [randNorm(](randNorm\(.md)
+*   [randBin(](randBin\(.md)
+*   [randIntNoRep(](randIntNoRep\(.md)
 
 ## History
 | Calculator | OS Version | Description |

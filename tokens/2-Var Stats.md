@@ -31,7 +31,7 @@ Performs two-variable analysis on the data in `Xlistname` and `Ylistname` with f
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `2:2-Var Stats`
 <hr>
 
-This command calculates a bunch of common (and a few uncommon) statistics for a pair of [lists](/lists) (it uses L1 and L2 by default, but you can use any list by supplying it as an argument). You have to store the lists to variables first, though, before calculating statistics for them. For example:
+This command calculates a bunch of common (and a few uncommon) statistics for a pair of [lists](lists.md) (it uses L1 and L2 by default, but you can use any list by supplying it as an argument). You have to store the lists to variables first, though, before calculating statistics for them. For example:
 
 ```ti-basic
 :{5,12,7,8,4,9→L1
@@ -90,7 +90,7 @@ Aside from statistical analysis, 2-Var Stats can also be used when you want to u
 
 ## Related Commands
 
-*   [1-Var Stats](/1-var-stats)
+*   [1-Var Stats](1-Var Stats.md)
 
 ## History
 | Calculator | OS Version | Description |

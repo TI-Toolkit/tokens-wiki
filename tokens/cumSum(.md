@@ -74,23 +74,23 @@ cumSum(Ans)
 
 ## Advanced Uses
 
-The <tt><a href="/deltalist">ΔList(</a></tt> command is very nearly the inverse of the cumSum( command - it calculates the differences between consecutive elements. For any list, <tt>ΔList(cumSum(<em>list</em>))</tt> will return the same list, but without its first element:
+The <tt><a href="ΔList(.md">ΔList(</a></tt> command is very nearly the inverse of the cumSum( command - it calculates the differences between consecutive elements. For any list, <tt>ΔList(cumSum(<em>list</em>))</tt> will return the same list, but without its first element:
 
 ```ti-basic
 ΔList(cumSum({1,2,3,4,5,6,7}))
     {2 3 4 5 6 7}
 ```
 
-Removing the first element would otherwise be a difficult procedure involving the <tt><a href="/seq-list">seq(</a></tt> command, so this is a useful trick to know.
+Removing the first element would otherwise be a difficult procedure involving the <tt><a href="seq(.md">seq(</a></tt> command, so this is a useful trick to know.
 
 * * *
 
-For a matrix, if you want to sum up the rows instead of the columns, use the <tt><sup>T</sup></tt> (<tt><a href="/transpose">transpose</a></tt>) command.
+For a matrix, if you want to sum up the rows instead of the columns, use the <tt><sup>T</sup></tt> (<tt><a href="transpose.md">transpose</a></tt>) command.
 
 ## Related Commands
 
-*   <tt><a href="/deltalist">ΔList(</a></tt>
-*   <tt><sup>T</sup></tt> (<tt><a href="/transpose">transpose</a></tt>)
+*   <tt><a href="ΔList(.md">ΔList(</a></tt>
+*   <tt><sup>T</sup></tt> (<tt><a href="transpose.md">transpose</a></tt>)
 
 ## History
 | Calculator | OS Version | Description |

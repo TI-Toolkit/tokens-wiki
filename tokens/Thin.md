@@ -29,11 +29,11 @@ The Thin command will set all lines in the current function type to be only 1 pi
 
 ## Error Conditions
 
-*   **[ERR:SYNTAX](/errors#syntax)** is thrown if additional arguments are put on the command.
+*   **[ERR:SYNTAX](errors#syntax)** is thrown if additional arguments are put on the command.
 
 ## Related Commands
 
-*   [Thick](http://www.tibasicdev.wikidot.com/thick)
+*   [Thick](Thick.md)
 
 ## History
 | Calculator | OS Version | Description |

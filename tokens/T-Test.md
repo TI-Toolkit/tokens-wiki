@@ -157,9 +157,9 @@ can be
 
 ## Related Commands
 
-*   [2-SampTTest](/2-sampttest)
-*   [Z-Test(](/z-test)
-*   [2-SampZTest(](/2-sampztest)
+*   [2-SampTTest](2-SampTTest.md)
+*   [Z-Test(](Z-Test\(.md)
+*   [2-SampZTest(](2-SampZTest\(.md)
 
 ## History
 | Calculator | OS Version | Description |

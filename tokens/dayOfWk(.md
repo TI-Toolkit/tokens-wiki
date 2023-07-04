@@ -42,18 +42,18 @@ The above code returns 1, because the 30<sup>th</sup> of December, 2007, is a Su
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if any of the arguments are non-integers, or the date does not exist, such as the 42<sup>nd</sup> of February. However, the year does not matter (a date that takes place in the year 10000 is valid). However, there are exceptions, even if some dates do exist, this error may still occur. If you attempt to calculate the previous day of a week such as the previous day, the error may still occur.
+*   **[ERR:DOMAIN](errors#domain)** is thrown if any of the arguments are non-integers, or the date does not exist, such as the 42<sup>nd</sup> of February. However, the year does not matter (a date that takes place in the year 10000 is valid). However, there are exceptions, even if some dates do exist, this error may still occur. If you attempt to calculate the previous day of a week such as the previous day, the error may still occur.
 
 ## Related Commands
 
-*   <tt><a href="/dbd">dbd(</a></tt>
-*   <tt><a href="/setdate">setDate(</a></tt>
-*   <tt><a href="/getdate">getDate</a></tt>
-*   <tt><a href="/getdtfmt">getDtFmt</a></tt>
+*   <tt><a href="dbd(.md">dbd(</a></tt>
+*   <tt><a href="setDate(.md">setDate(</a></tt>
+*   <tt><a href="getDate.md">getDate</a></tt>
+*   <tt><a href="getDtFmt.md">getDtFmt</a></tt>
 
 ## See Also
 
-*   [Day of Week](/day-of-week) — routine to calculate the day of the week
+*   [Day of Week](day-of-week) — routine to calculate the day of the week
 
 ## History
 | Calculator | OS Version | Description |

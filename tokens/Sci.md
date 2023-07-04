@@ -32,10 +32,10 @@ Sci
 
 ## Related Commands
 
-*   [Normal](/normal)
-*   [Eng](/eng)
-*   [Float](/float)
-*   [Fix](/fix)
+*   [Normal](Normal.md)
+*   [Eng](Eng.md)
+*   [Float](Float.md)
+*   [Fix](Fix.md)
 
 ## History
 | Calculator | OS Version | Description |

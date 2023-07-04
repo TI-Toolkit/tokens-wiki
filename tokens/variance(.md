@@ -60,9 +60,9 @@ where $\overline{x}$ is the mean with frequencies included.
 
 ## Related Commands
 
-*   <tt><a href="/mean">mean(</a></tt>
-*   <tt><a href="/median">median(</a></tt>
-*   <tt><a href="/stddev">stdDev(</a></tt>
+*   <tt><a href="mean(.md">mean(</a></tt>
+*   <tt><a href="median(.md">median(</a></tt>
+*   <tt><a href="stdDev(.md">stdDev(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

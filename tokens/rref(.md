@@ -52,19 +52,19 @@ Then, use <tt>rref(</tt> on the matrix. There are three possibilities now:
 *   If the system is inconsistent, and has no solution, then it will end with rows that are all 0 except for the last entry.
 *   If the system has infinitely many solutions, it will end with rows that are all 0, including the last entry.
 
-This process can be done by a program fairly easily. However, unless you're certain that the system will always have a unique solution, you should check that the result is in the correct form, before taking the values in the last column as your solution. The <tt><a href="/matr-list">Matr►list(</a></tt> command can be used to store this column to a list.
+This process can be done by a program fairly easily. However, unless you're certain that the system will always have a unique solution, you should check that the result is in the correct form, before taking the values in the last column as your solution. The <tt><a href="Matr►list(.md">Matr►list(</a></tt> command can be used to store this column to a list.
 
 ## Error Conditions
 
-*   **[ERR:INVALID DIM](/errors#invaliddim)** is thrown if the matrix has more rows than columns.
+*   **[ERR:INVALID DIM](errors#invaliddim)** is thrown if the matrix has more rows than columns.
 
 ## Related Commands
 
-*   <tt><a href="/ref">ref(</a></tt>
-*   <tt><a href="/rowswap">rowSwap(</a></tt>
-*   <tt><a href="/rowplus">row+(</a></tt>
-*   <tt><a href="/timesrow">*row(</a></tt>
-*   <tt><a href="/timesrowplus">*row+(</a></tt>
+*   <tt><a href="ref(.md">ref(</a></tt>
+*   <tt><a href="rowSwap(.md">rowSwap(</a></tt>
+*   <tt><a href="row+(.md">row+(</a></tt>
+*   <tt><a href="*row(.md">*row(</a></tt>
+*   <tt><a href="*row+(.md">*row+(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

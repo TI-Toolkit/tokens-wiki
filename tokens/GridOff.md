@@ -19,13 +19,13 @@ Turns off grid format.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `GridOff`
 <hr>
 
-The <tt>GridOff</tt> command disables the grid on the graph screen. This is the default setting. Use <tt><a href="/gridon">GridOn</a></tt> to enable the grid.
+The <tt>GridOff</tt> command disables the grid on the graph screen. This is the default setting. Use <tt><a href="GridOn.md">GridOn</a></tt> to enable the grid.
 
 ## Related Commands
 
-*   <tt><a href="/gridon">GridOn</a></tt>
-*   <tt><a href="/axeson">AxesOn</a></tt>
-*   <tt><a href="/axesoff">AxesOff</a></tt>
+*   <tt><a href="GridOn.md">GridOn</a></tt>
+*   <tt><a href="AxesOn.md">AxesOn</a></tt>
+*   <tt><a href="AxesOff.md">AxesOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

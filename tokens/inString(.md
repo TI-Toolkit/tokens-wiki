@@ -66,7 +66,7 @@ You can use <tt>inString(</tt> to convert a character to a number. For example:
 ```
 
   
-Assuming <tt>Str1</tt> is one character long and contains a capital letter, <tt>N</tt> will hold a value of 1-26 that corresponds to that letter. This value can then be stored in a real number, list, or matrix, where a character of a string couldn't be stored. To get the character value of the number, you can use the <tt><a href="/sub">sub(</a></tt> command:
+Assuming <tt>Str1</tt> is one character long and contains a capital letter, <tt>N</tt> will hold a value of 1-26 that corresponds to that letter. This value can then be stored in a real number, list, or matrix, where a character of a string couldn't be stored. To get the character value of the number, you can use the <tt><a href="sub(.md">sub(</a></tt> command:
 
 ```ti-basic
 :sub("ABCDEFGHIJKLMNOPQRSTUVWXYZ",N,1→Str1
@@ -116,13 +116,13 @@ This approach assumes that a comma would never be in <tt>Str1</tt>, and words li
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if _starting point_ is not a positive integer (_starting point_ may be longer than the length of the _source string_, though).
+*   **[ERR:DOMAIN](errors#domain)** is thrown if _starting point_ is not a positive integer (_starting point_ may be longer than the length of the _source string_, though).
 
 ## Related Commands
 
-*   <tt><a href="/expr">expr(</a></tt>
-*   <tt><a href="/length">length(</a></tt>
-*   <tt><a href="/sub">sub(</a></tt>
+*   <tt><a href="expr(.md">expr(</a></tt>
+*   <tt><a href="length(.md">length(</a></tt>
+*   <tt><a href="sub(.md">sub(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

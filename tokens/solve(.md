@@ -60,13 +60,13 @@ solve(Y1,X,0
 
 ## Error Conditions
 
-*   **[ERR:BAD GUESS](/errors#badguess)** will be thrown if guess wasn't within the lower and upper bound, or else the function is undefined at that point, or if a string is used for an equation.
+*   **[ERR:BAD GUESS](errors#badguess)** will be thrown if guess wasn't within the lower and upper bound, or else the function is undefined at that point, or if a string is used for an equation.
 
 ## Related Commands
 
-*   [fMax(](/fmax)
-*   [fMin(](/fmin)
-*   [fnInt(](/fnint)
+*   [fMax(](fMax\(.md)
+*   [fMin(](fMin\(.md)
+*   [fnInt(](fnInt\(.md)
 
 ## History
 | Calculator | OS Version | Description |

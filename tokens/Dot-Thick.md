@@ -19,7 +19,7 @@ Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thick.
 <tt><kbd><b>mode</b></kbd></tt>, `Dot-Thick`
 <hr>
 
-The <tt>Dot-Thick</tt> command sets all lines in the current function type to be drawn using a series of thick points, about the size of a point drawn using <tt><a href="/pt-on">Pt-On(</a></tt>, at each interval of the <tt>TraceStep</tt>. This command can be called on the homescreen or within a program.
+The <tt>Dot-Thick</tt> command sets all lines in the current function type to be drawn using a series of thick points, about the size of a point drawn using <tt><a href="Pt-On(.md">Pt-On(</a></tt>, at each interval of the <tt>TraceStep</tt>. This command can be called on the homescreen or within a program.
 
 ```ti-basic
 :AxesOff
@@ -29,11 +29,11 @@ The <tt>Dot-Thick</tt> command sets all lines in the current function type to be
 
 ## Error Conditions
 
-*   **[ERR:SYNTAX](/errors#syntax)** is thrown if any additional arguments are used with the command
+*   **[ERR:SYNTAX](errors#syntax)** is thrown if any additional arguments are used with the command
 
 ## Related Commands
 
-*   <tt><a href="/dot-thin">Dot-Thin</a></tt>
+*   <tt><a href="Dot-Thin.md">Dot-Thin</a></tt>
 
 ## History
 | Calculator | OS Version | Description |
