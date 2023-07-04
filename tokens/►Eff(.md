@@ -29,9 +29,9 @@ Computes the effective interest rate.
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `C:►Eff(`
 <hr>
 
-The `►Eff(` command converts from a nominal interest rate to an effective interest rate. In other words, it converts an interest rate that does not take into account compounding periods into one that does. The two arguments are 1) the interest rate and 2) the number of compounding periods.
+The <tt>►Eff(</tt> command converts from a nominal interest rate to an effective interest rate. In other words, it converts an interest rate that does not take into account compounding periods into one that does. The two arguments are 1) the interest rate and 2) the number of compounding periods.
 
-For example, take an interest rate of 7.5% per year, compounded monthly. You can use `►Eff(` to find out the actual percent of interest per year:
+For example, take an interest rate of 7.5% per year, compounded monthly. You can use <tt>►Eff(</tt> to find out the actual percent of interest per year:
 
 ```ti-basic
 ►Eff(7.5,12)
@@ -48,11 +48,11 @@ Here, Eff is the effective rate, Nom is the nominal rate, and CP is the number o
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if the number of compounding periods is not positive, or if the nominal rate is -100% or lower (an exception's made for the nominal rate if there is only one compounding period, since `►Eff(`X,1`)`=X)
+*   **[ERR:DOMAIN](/errors#domain)** is thrown if the number of compounding periods is not positive, or if the nominal rate is -100% or lower (an exception's made for the nominal rate if there is only one compounding period, since <tt>►Eff(</tt>X,1<tt>)</tt>=X)
 
 ## Related Commands
 
-*   [►Nom(](/nom)
+*   <tt><a href="/nom">►Nom(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

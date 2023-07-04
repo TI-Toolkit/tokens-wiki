@@ -31,22 +31,22 @@ Computes the probability density function (pdf) for the χ² distribution at a s
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `7:pdf(`
 <hr>
 
-`χ²pdf(` is the χ² probability density function.
+<tt>χ²pdf(</tt> is the χ² probability density function.
 
-Since the χ² distribution is continuous, the value of `χ²pdf(` doesn't represent an actual probability — in fact, one of the only uses for this command is to draw a graph of the χ² curve. You could also use it for various calculus purposes, such as finding inflection points.
+Since the χ² distribution is continuous, the value of <tt>χ²pdf(</tt> doesn't represent an actual probability — in fact, one of the only uses for this command is to draw a graph of the χ² curve. You could also use it for various calculus purposes, such as finding inflection points.
 
 The command takes two arguments: the value at which to evaluate the p.d.f., and _df_, the number of 'degrees of freedom'.
 
 ## Formulas
 
-The value of `χ²pdf(` is given by
+The value of <tt>χ²pdf(</tt> is given by
 
 (1) $`\begin{align} \texttt{\chi^2pdf}(x,k)=\frac{(1/2)^{k/2}}{(k/2-1)!}\,x^{k/2-1}e^{-x/2} \end{align}`$ 
 
 ## Related Commands
 
-*   [χ²cdf(](/chisquarecdf)
-*   [Shadeχ²(](/shadechisquare)
+*   <tt><a href="/chisquarecdf">χ²cdf(</a></tt>
+*   <tt><a href="/shadechisquare">Shadeχ²(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

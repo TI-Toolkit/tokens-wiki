@@ -17,9 +17,9 @@
 
 <hr>
 
-The commands `Plot1(`, `Plot2(`, and `Plot3(`, which are identical except for which stat plot (1, 2, or 3) they affect, define their corresponding stat plot. When the stat plot is defined, it is also turned on so no [PlotsOn](/plotson) command is necessary.
+The commands <tt>Plot1(</tt>, <tt>Plot2(</tt>, and <tt>Plot3(</tt>, which are identical except for which stat plot (1, 2, or 3) they affect, define their corresponding stat plot. When the stat plot is defined, it is also turned on so no <tt><a href="/plotson">PlotsOn</a></tt> command is necessary.
 
-The first argument of the commands is always the type of plot, and is one of [Scatter](/plotn#scatter), [xyLine](/plotn#xyline), [Histogram](/plotn#histogram), [Boxplot](/plotn#boxplot), [ModBoxplot](/plotn#modboxplot), and [NormProbPlot](/plotn#normprobplot) - these types are found in the TYPE submenu of the stat plot menu. The other arguments vary. For all but `Histogram` and `Boxplot`, there is a _mark_ argument - this is a dot, a cross, or a box, symbols that can be found in the MARK submenu of the stat plot menu. On color calculators, there is an optional final argument to specify the color of the plot.
+The first argument of the commands is always the type of plot, and is one of <tt><a href="/plotn#scatter">Scatter</a></tt>, <tt><a href="/plotn#xyline">xyLine</a></tt>, <tt><a href="/plotn#histogram">Histogram</a></tt>, <tt><a href="/plotn#boxplot">Boxplot</a></tt>, <tt><a href="/plotn#modboxplot">ModBoxplot</a></tt>, and <tt><a href="/plotn#normprobplot">NormProbPlot</a></tt> - these types are found in the TYPE submenu of the stat plot menu. The other arguments vary. For all but <tt>Histogram</tt> and <tt>Boxplot</tt>, there is a _mark_ argument - this is a dot, a cross, or a box, symbols that can be found in the MARK submenu of the stat plot menu. On color calculators, there is an optional final argument to specify the color of the plot.
 
 ### Scatter plot
 
@@ -29,13 +29,13 @@ _x-list_ and _y-list_ must be the same length.
 
 ### xyLine plot
 
-Plot#(xyLine, _x-list_, _y-list_, _mark_) defines an `xyLine` plot. Similarly to a scatter plot, the points defined by _x-list_ and _y-list_ are plotted using _mark_ on the graph screen, but with an `xyLine` plot they are also connected by a line, in the order that they occur in the lists.
+Plot#(xyLine, _x-list_, _y-list_, _mark_) defines an <tt>xyLine</tt> plot. Similarly to a scatter plot, the points defined by _x-list_ and _y-list_ are plotted using _mark_ on the graph screen, but with an <tt>xyLine</tt> plot they are also connected by a line, in the order that they occur in the lists.
 
 _x-list_ and _y-list_ must be the same length.
 
 ### Histogram plot
 
-Plot#(Histogram, _x-list_, _freq list_) defines a `Histogram` plot. The x-axis is divided into intervals that are [Xscl](/system-variables#window) wide. A bar is drawn in in each interval whose height corresponds to the number of points in the interval. Points that are not between [Xmin](/system-variables#window) and [Xmax](/system-variables#window) are not tallied.
+Plot#(Histogram, _x-list_, _freq list_) defines a <tt>Histogram</tt> plot. The x-axis is divided into intervals that are [Xscl](/system-variables#window) wide. A bar is drawn in in each interval whose height corresponds to the number of points in the interval. Points that are not between [Xmin](/system-variables#window) and [Xmax](/system-variables#window) are not tallied.
 
 Xscl must not be too small - it can divide the screen into no more than 47 different bars.
 
@@ -80,9 +80,9 @@ All errors are thrown when plotting the stat plot, as opposed to when the comman
 
 ## Related Commands
 
-*   [Select(](/select)
-*   [PlotsOn](/plotson)
-*   [PlotsOff](/plotsoff)
+*   <tt><a href="/select">Select(</a></tt>
+*   <tt><a href="/plotson">PlotsOn</a></tt>
+*   <tt><a href="/plotsoff">PlotsOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

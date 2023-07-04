@@ -64,15 +64,15 @@ Pause `value,time`.
 <tt><kbd><b>prgm</b></kbd></tt>, `8:Pause`
 <hr>
 
-The `Pause` command is used for suspending the execution of a program at a certain point. This is useful when you have text or instructions on the home screen that you want the user to read before the program continues on to the next thing. While the program is paused, the pause indicator turns on in the top-right corner of the screen (it is the dotted line that moves around).
+The <tt>Pause</tt> command is used for suspending the execution of a program at a certain point. This is useful when you have text or instructions on the home screen that you want the user to read before the program continues on to the next thing. While the program is paused, the pause indicator turns on in the top-right corner of the screen (it is the dotted line that moves around).
 
-After the user is done reading the text or instructions, they must press ENTER to resume program execution. One place the `Pause` command is commonly used is right before clearing the screen with [ClrHome](/clrhome), because otherwise the text on the screen will show up for a split second before it is erased. The `Pause` command gives the user ample time to look at and read the text.
+After the user is done reading the text or instructions, they must press ENTER to resume program execution. One place the <tt>Pause</tt> command is commonly used is right before clearing the screen with <tt><a href="/clrhome">ClrHome</a></tt>, because otherwise the text on the screen will show up for a split second before it is erased. The <tt>Pause</tt> command gives the user ample time to look at and read the text.
 
 ```ti-basic
 :Pause
 ```
 
-An alternative to the `Pause` command that is commonly used is a [Repeat](/repeat) loop with a [getKey](/getkey) command as the condition. This is sometimes more appropriate in a program if you don't want to bring the program to a complete standstill, and you want the user to be able to resume program execution with any key instead of just ENTER (see [usability](/usability) for more information).
+An alternative to the <tt>Pause</tt> command that is commonly used is a <tt><a href="/repeat">Repeat</a></tt> loop with a <tt><a href="/getkey">getKey</a></tt> command as the condition. This is sometimes more appropriate in a program if you don't want to bring the program to a complete standstill, and you want the user to be able to resume program execution with any key instead of just ENTER (see [usability](/usability) for more information).
 
 ```ti-basic
 :Repeat getKey
@@ -81,11 +81,11 @@ An alternative to the `Pause` command that is commonly used is a [Repeat](/repea
 
 ## Advanced Uses
 
-The `Pause` command has an optional argument that can either be text, a number, a variable, or an expression. This argument will be displayed on the next available blank line on the home screen while the program is paused, and it can be scrolled if it is larger than the screen. Although the `Pause` command can be used with the graph screen, the argument will still be displayed on the home screen.
+The <tt>Pause</tt> command has an optional argument that can either be text, a number, a variable, or an expression. This argument will be displayed on the next available blank line on the home screen while the program is paused, and it can be scrolled if it is larger than the screen. Although the <tt>Pause</tt> command can be used with the graph screen, the argument will still be displayed on the home screen.
 
-**Caution**: Unlike any other text command, or indeed any other command at all, this optional argument will be stored to [Ans](/ans) after the pause! This could be used to your advantage, but most of the time, it's a nuisance, and if you use Ans for optimization, watch out for this side effect.
+**Caution**: Unlike any other text command, or indeed any other command at all, this optional argument will be stored to <tt><a href="/ans">Ans</a></tt> after the pause! This could be used to your advantage, but most of the time, it's a nuisance, and if you use Ans for optimization, watch out for this side effect.
 
-Displaying text with the `Pause` command follows the same pattern as the [Disp](/disp) command, so text is displayed on the left and everything else is displayed on the right. It also means that if there is already text on the seventh row, it will automatically move everything up one row so it can display its text. In addition, the Pause command is affected by the [Output(](/output) command and its text.
+Displaying text with the <tt>Pause</tt> command follows the same pattern as the <tt><a href="/disp">Disp</a></tt> command, so text is displayed on the left and everything else is displayed on the right. It also means that if there is already text on the seventh row, it will automatically move everything up one row so it can display its text. In addition, the Pause command is affected by the <tt><a href="/output">Output(</a></tt> command and its text.
 
 ```ti-basic
 PROGRAM:PAUSE
@@ -96,7 +96,7 @@ PROGRAM:PAUSE
 :Pause Ans
 ```
 
-When the calculator is paused, it is possible for another linked calculator to use the [GetCalc(](/getcalc) command to transfer a variable.
+When the calculator is paused, it is possible for another linked calculator to use the <tt><a href="/getcalc">GetCalc(</a></tt> command to transfer a variable.
 
 [+ Show TI-84+CE specific information](javascript:;)
 
@@ -116,7 +116,7 @@ Using the empty string "" with the optional second argument will cause the Pause
 ```
 
   
-The more recent [Wait](/wait) command can do this as well. Here’s the first example, but using Wait:
+The more recent <tt><a href="/wait">Wait</a></tt> command can do this as well. Here’s the first example, but using Wait:
 
 ```ti-basic
 :Disp “HELLO
@@ -125,7 +125,7 @@ The more recent [Wait](/wait) command can do this as well. Here’s the first ex
 
 ## Optimization
 
-When you have a `Disp` command before a `Pause` command, you can take the text or variable from the `Disp` command and place it after the Pause command as its optional argument. This allows you to remove the `Disp` command. If the `Disp` command has multiple arguments, you just take the last one off and put it as the optional argument.
+When you have a <tt>Disp</tt> command before a <tt>Pause</tt> command, you can take the text or variable from the <tt>Disp</tt> command and place it after the Pause command as its optional argument. This allows you to remove the <tt>Disp</tt> command. If the <tt>Disp</tt> command has multiple arguments, you just take the last one off and put it as the optional argument.
 
 ```ti-basic
 :Disp A
@@ -134,7 +134,7 @@ can be
 :Pause A
 ```
 
-When using the optional argument of `Pause`, it is stored to `Ans`, and this can in rare cases be used for optimization. The most common one would probably be using `Pause` to show work for a calculation, as in the following program:
+When using the optional argument of <tt>Pause</tt>, it is stored to <tt>Ans</tt>, and this can in rare cases be used for optimization. The most common one would probably be using <tt>Pause</tt> to show work for a calculation, as in the following program:
 
 ```ti-basic
 :Disp "A+B=
@@ -151,10 +151,10 @@ When using the optional argument of `Pause`, it is stored to `Ans`, and this can
 
 ## Related Commands
 
-*   [Disp](/disp)
-*   [Output(](/output)
-*   [Text(](/text)
-*   [Wait](/wait)
+*   <tt><a href="/disp">Disp</a></tt>
+*   <tt><a href="/output">Output(</a></tt>
+*   <tt><a href="/text">Text(</a></tt>
+*   <tt><a href="/wait">Wait</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

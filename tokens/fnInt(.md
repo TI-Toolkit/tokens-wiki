@@ -35,11 +35,11 @@ Returns the function integral of `expression` with respect to `variable`, betwee
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `9:fnInt(`
 <hr>
 
-`fnInt(` computes an approximation to the definite integral of _f_ with respect to _var_ from _a_ to _b_. _tol_ controls the accuracy of the integral computed. The default value of _tol_ is 10<sup>-5</sup>. fnInt( returns exact results for functions that are polynomials of small degree.
+<tt>fnInt(<em>f</em>(<em>var</em>),<em>var</em>,<em>a</em>,<em>b</em>[,<em>tol</em>])</tt> computes an approximation to the definite integral of _f_ with respect to _var_ from _a_ to _b_. _tol_ controls the accuracy of the integral computed. The default value of _tol_ is 10<sup>-5</sup>. fnInt( returns exact results for functions that are polynomials of small degree.
 
-`fnInt(` only works for real numbers and expressions. The [Gauss-Kronrod method](https://mathworld.wolfram.com/Gauss-KronrodQuadrature.html) is used for approximating the integral.
+<tt>fnInt(</tt> only works for real numbers and expressions. The [Gauss-Kronrod method](https://mathworld.wolfram.com/Gauss-KronrodQuadrature.html) is used for approximating the integral.
 
-**Tip**: Sometimes, to get an answer of acceptable accuracy out of `fnInt(`, substitution of variables and analytic manipulation may be needed.
+**Tip**: Sometimes, to get an answer of acceptable accuracy out of <tt>fnInt(</tt>, substitution of variables and analytic manipulation may be needed.
 
 ```ti-basic
 fnInt(1/X,X,1,2)
@@ -53,14 +53,14 @@ fnInt(ln(X),X,0,1,e-11)
 ## Error Conditions
 
 *   **[ERR:DOMAIN](/errors#domain)** is thrown if _tol_ is 0.
-*   **[ERR:ILLEGAL NEST](/errors#illegalnest)** is thrown if `fnInt(` occurs in the expression to be integrated.
+*   **[ERR:ILLEGAL NEST](/errors#illegalnest)** is thrown if <tt>fnInt(</tt> occurs in the expression to be integrated.
 *   **[ERR:TOL NOT MET](/errors#tolnotmet)** may occur if the tolerance is too small.
 
 ## Related Commands
 
-*   [fMin(](/fmin)
-*   [fMax(](/fmax)
-*   [nDeriv(](/nderiv)
+*   <tt><a href="/fmin">fMin(</a></tt>
+*   <tt><a href="/fmax">fMax(</a></tt>
+*   <tt><a href="/nderiv">nDeriv(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

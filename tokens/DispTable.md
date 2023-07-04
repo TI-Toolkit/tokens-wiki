@@ -19,11 +19,11 @@ Displays the table.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `5:DispTable`
 <hr>
 
-The `DispTable` comand displays the table screen you normally see by pressing 2nd TABLE, from a running program. The user will see the table screen with a "paused" run indicator, and will be able to use arrows to scroll through it. Pressing ENTER will exit the screen and continue the program.
+The <tt>DispTable</tt> comand displays the table screen you normally see by pressing 2nd TABLE, from a running program. The user will see the table screen with a "paused" run indicator, and will be able to use arrows to scroll through it. Pressing ENTER will exit the screen and continue the program.
 
 ## Advanced Uses
 
-The user can't select any cells in the table to be evaluated if they're not, already. So it's best to select the [IndpntAuto](/indpntauto) and [DependAuto](/dependauto) options from the 2nd TBLSET menu before using this command. [IndpntAsk](/indpntask) can also work, however, as long as you store to [TblInput](/system-variables#window) first.
+The user can't select any cells in the table to be evaluated if they're not, already. So it's best to select the <tt><a href="/indpntauto">IndpntAuto</a></tt> and <tt><a href="/dependauto">DependAuto</a></tt> options from the 2nd TBLSET menu before using this command. <tt><a href="/indpntask">IndpntAsk</a></tt> can also work, however, as long as you store to <tt><a href="/system-variables#window">TblInput</a></tt> first.
 
 ## Error Conditions
 
@@ -31,10 +31,10 @@ The user can't select any cells in the table to be evaluated if they're not, alr
 
 ## Related Commands
 
-*   [IndpntAsk](/indpntask)
-*   [IndpntAuto](/indpntauto)
-*   [DependAsk](/dependask)
-*   [DependAuto](/dependauto)
+*   <tt><a href="/indpntask">IndpntAsk</a></tt>
+*   <tt><a href="/indpntauto">IndpntAuto</a></tt>
+*   <tt><a href="/dependask">DependAsk</a></tt>
+*   <tt><a href="/dependauto">DependAuto</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

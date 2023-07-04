@@ -19,7 +19,7 @@ Sets diagnostics-on mode; `r`, `r`², and `R`² are displayed as regression mode
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `DiagnosticOn`
 <hr>
 
-After the `DiagnosticOn` command is executed, all regression commands found in the STAT>CALC menu, as well as [LinRegTTest](/linregttest), will display the correlation statistics r and r² (or R<sup>2</sup> for regressions that are not linear). This is turned off by default, but there is no disadvantage whatsoever to turning it on. To reverse this command, execute the [DiagnosticOff](/diagnosticoff) command.
+After the <tt>DiagnosticOn</tt> command is executed, all regression commands found in the STAT>CALC menu, as well as <tt><a href="/linregttest">LinRegTTest</a></tt>, will display the correlation statistics r and r² (or R<sup>2</sup> for regressions that are not linear). This is turned off by default, but there is no disadvantage whatsoever to turning it on. To reverse this command, execute the <tt><a href="/diagnosticoff">DiagnosticOff</a></tt> command.
 
 The statistic r, known as the Pearson correlation coefficient, measures the strength and direction of any linear relationship in the data. If r is close to 1, then the relationship is strong and positive (that is, the variables increase and decrease together). If r is close to -1, then the relationship is strong and negative (that is, as one variable increases, the other decreases). If r is close to 0, there is no linear relationship.
 
@@ -35,11 +35,11 @@ You should also consider what your regression line implies about the nature of t
 
 ## Command Timings
 
-Although the correlation statistics are displayed with `DiagnosticOn`, they are calculated in either case. This means that `DiagnosticOn` and [DiagnosticOff](/diagnosticoff) will not change how fast regressions are calculated.
+Although the correlation statistics are displayed with <tt>DiagnosticOn</tt>, they are calculated in either case. This means that <tt>DiagnosticOn</tt> and <tt><a href="/diagnosticoff">DiagnosticOff</a></tt> will not change how fast regressions are calculated.
 
 ## Related Commands
 
-*   [DiagnosticOff](/diagnosticoff)
+*   <tt><a href="/diagnosticoff">DiagnosticOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

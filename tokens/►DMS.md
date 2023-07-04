@@ -27,7 +27,7 @@ Displays `value` in DMS format.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>angle</kbd>, `ANGLE`, `4:DMS`
 <hr>
 
-The `►DMS` command can be used when displaying a real number on the home screen, or with the [Disp](/disp) and [Pause](/pause) commands. It will then format the number as an angle with degree, minute, and second parts.
+The <tt>►DMS</tt> command can be used when displaying a real number on the home screen, or with the <tt><a href="/disp">Disp</a></tt> and <tt><a href="/pause">Pause</a></tt> commands. It will then format the number as an angle with degree, minute, and second parts.
 
 ```ti-basic
 30►DMS
@@ -36,9 +36,9 @@ The `►DMS` command can be used when displaying a real number on the home scree
     11°6'40"
 ```
 
-It will also work when displaying a number by putting it on the last line of a program by itself. It does **not** work with [Output(](/output), [Text(](/text), or any other more complicated display commands.
+It will also work when displaying a number by putting it on the last line of a program by itself. It does **not** work with <tt><a href="/output">Output(</a></tt>, <tt><a href="/text">Text(</a></tt>, or any other more complicated display commands.
 
-Although `►DMS` is meant as a way to format angles in [Degree mode](/degree-mode), it doesn't depend on the angle mode chosen, only on the number itself. Note that entering a number as _degree_°_minute_'_second_" will also work, in any mode, and it will not be converted to radians in [Radian mode](/radian-mode).
+Although <tt>►DMS</tt> is meant as a way to format angles in <tt><a href="/degree-mode">Degree mode</a></tt>, it doesn't depend on the angle mode chosen, only on the number itself. Note that entering a number as _degree_°_minute_'_second_" will also work, in any mode, and it will not be converted to radians in <tt><a href="/radian-mode">Radian mode</a></tt>.
 
 ## Error Conditions
 
@@ -47,10 +47,10 @@ Although `►DMS` is meant as a way to format angles in [Degree mode](/degree-mo
 
 ## Related Commands
 
-*   [►Dec](/dec)
-*   [►Frac](/frac)
-*   [►Polar](/polar-display)
-*   [►Rect](/rect)
+*   <tt><a href="/dec">►Dec</a></tt>
+*   <tt><a href="/frac">►Frac</a></tt>
+*   <tt><a href="/polar-display">►Polar</a></tt>
+*   <tt><a href="/rect">►Rect</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

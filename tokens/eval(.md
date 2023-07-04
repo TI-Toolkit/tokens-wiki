@@ -53,7 +53,7 @@ TI-Innovator™ Hub
 
 <hr>
 
-The `eval(` command, given an expression that evaluates to a real number, returns the string representation of that number.
+The <tt>eval(</tt> command, given an expression that evaluates to a real number, returns the string representation of that number.
 
 ```ti-basic
 eval(1337       //returns "1337"
@@ -63,11 +63,11 @@ eval(2.0-3.0    //returns "‾1"
 eval(.0001234   //returns "1.234ᴇ‾4"
 ```
 
-`eval(` has more limitations than the [toString(](/tostring) command. It cannot handle lists, matrices, or complex numbers (even when the imaginary part of the complex number is zero). Another difference from `toString(` is that `eval(` is unaffected by display mode changes like [Fix](/fix).
+<tt>eval(</tt> has more limitations than the <tt><a href="/tostring">toString(</a></tt> command. It cannot handle lists, matrices, or complex numbers (even when the imaginary part of the complex number is zero). Another difference from <tt>toString(</tt> is that <tt>eval(</tt> is unaffected by display mode changes like <tt><a href="/fix">Fix</a></tt>.
 
 ## Advanced Uses
 
-Use `eval(` in conjunction with [expr(](/expr) to evaluate a real expression in a string and return the answer in a string.
+Use <tt>eval(</tt> in conjunction with <tt><a href="/expr">expr(</a></tt> to evaluate a real expression in a string and return the answer in a string.
 
 ```ti-basic
 3.14->X

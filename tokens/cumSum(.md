@@ -48,7 +48,7 @@ Returns a matrix of the cumulative sums of `matrix` elements. Each element in th
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `0:cumSum(`
 <hr>
 
-`cumSum(` calculates the cumulative sums of a list, or of the columns of a matrix, and outputs them in a new list or matrix variable.
+<tt>cumSum(</tt> calculates the cumulative sums of a list, or of the columns of a matrix, and outputs them in a new list or matrix variable.
 
 For a list, this means that the Nth element of the result is the sum of the first N elements of the list:
 
@@ -57,7 +57,7 @@ cumSum({1,3,5,7,9})
     {1 4 9 16 25}
 ```
 
-For a matrix, `cumSum(` is applied to each column in the same way as it would be for a list (but numbers in different columns are never added):
+For a matrix, <tt>cumSum(</tt> is applied to each column in the same way as it would be for a list (but numbers in different columns are never added):
 
 ```ti-basic
 [[0,1,1][0,1,3][0,1,5][0,1,7]]
@@ -74,23 +74,23 @@ cumSum(Ans)
 
 ## Advanced Uses
 
-The [ΔList(](/deltalist) command is very nearly the inverse of the cumSum( command - it calculates the differences between consecutive elements. For any list, `ΔList(cumSum(` will return the same list, but without its first element:
+The <tt><a href="/deltalist">ΔList(</a></tt> command is very nearly the inverse of the cumSum( command - it calculates the differences between consecutive elements. For any list, <tt>ΔList(cumSum(<em>list</em>))</tt> will return the same list, but without its first element:
 
 ```ti-basic
 ΔList(cumSum({1,2,3,4,5,6,7}))
     {2 3 4 5 6 7}
 ```
 
-Removing the first element would otherwise be a difficult procedure involving the [seq(](/seq-list) command, so this is a useful trick to know.
+Removing the first element would otherwise be a difficult procedure involving the <tt><a href="/seq-list">seq(</a></tt> command, so this is a useful trick to know.
 
 * * *
 
-For a matrix, if you want to sum up the rows instead of the columns, use the <sup>T</sup> ([transpose](/transpose)) command.
+For a matrix, if you want to sum up the rows instead of the columns, use the <tt><sup>T</sup></tt> (<tt><a href="/transpose">transpose</a></tt>) command.
 
 ## Related Commands
 
-*   [ΔList(](/deltalist)
-*   <sup>T</sup> ([transpose](/transpose))
+*   <tt><a href="/deltalist">ΔList(</a></tt>
+*   <tt><sup>T</sup></tt> (<tt><a href="/transpose">transpose</a></tt>)
 
 ## History
 | Calculator | OS Version | Description |

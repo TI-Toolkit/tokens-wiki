@@ -36,11 +36,11 @@ This command is generally useless. Its supposed use is to convert numbers into d
      .3333333333
 ```
 
-In 2.53 MP or higher, typed fractions are displayed in fraction form. Therefore, the `►Dec` command is useful in this case.
+In 2.53 MP or higher, typed fractions are displayed in fraction form. Therefore, the <tt>►Dec</tt> command is useful in this case.
 
 ## Related Commands
 
-*   [►Frac](/frac)
+*   <tt><a href="/frac">►Frac</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

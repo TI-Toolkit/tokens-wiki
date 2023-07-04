@@ -52,7 +52,7 @@ Returns a list, which is `listB` concatenated to the end of `listA`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `OPS`, `9:augment(`
 <hr>
 
-The `augment(` command is used to combine two lists or two matrices into one. For lists, this is done the obvious way: adding the elements of the second on to the elements of the first. For example:
+The <tt>augment(</tt> command is used to combine two lists or two matrices into one. For lists, this is done the obvious way: adding the elements of the second on to the elements of the first. For example:
 
 ```ti-basic
 augment({1,2,3,4},{5,6,7
@@ -69,7 +69,7 @@ augment([[1][2]],[[3][4]
 
 ## Advanced Uses
 
-Use the <sup><a href="/transpose">T</a></sup> (transpose) command if you want to combine two matrices vertically, rather than horizontally. For example:
+Use the <tt><sup><a href="/transpose">T</a></sup></tt> (transpose) command if you want to combine two matrices vertically, rather than horizontally. For example:
 
 ```ti-basic
 augment([[1,2]]T,[[3,4]]T)T
@@ -79,7 +79,7 @@ augment([[1,2]]T,[[3,4]]T)T
 
 ## Optimization
 
-You may be tempted to use `augment(` to add one element to the end of a list:
+You may be tempted to use <tt>augment(</tt> to add one element to the end of a list:
 
 ```ti-basic
 :augment(L1,{X→L1
@@ -99,9 +99,9 @@ However, the following way is faster and more memory-efficient while the program
 
 ## Related Commands
 
-*   [dim(](/dim)
-*   [seq(](/seq-list)
-*   <sup><a href="/transpose">T</a></sup> (transpose)
+*   <tt><a href="/dim">dim(</a></tt>
+*   <tt><a href="/seq-list">seq(</a></tt>
+*   <tt><sup><a href="/transpose">T</a></sup></tt> (transpose)
 
 ## History
 | Calculator | OS Version | Description |

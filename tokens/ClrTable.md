@@ -19,21 +19,21 @@ Clears all values from the table.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `9:ClrTable`
 <hr>
 
-The `ClrTable` command clears all calculations for the table screen shown if you press 2nd TABLE. That is, all already-calculated values in the table are cleared, and [TblInput](/system-variables#window) is deleted. In [IndpntAuto](/indpntauto) and [DependAuto](/dependauto) mode, this usually isn't noticeable because the table will be recalculated almost immediately when you next look at it (unless one of the entered functions is so complicated it takes a while to calculate). This mainly has an effect in [IndpntAsk](/indpntask) or [DependAsk](/dependask) mode, where the corresponding parts of the table will be cleared entirely.
+The <tt>ClrTable</tt> command clears all calculations for the table screen shown if you press 2nd TABLE. That is, all already-calculated values in the table are cleared, and [TblInput](/system-variables#window) is deleted. In <tt><a href="/indpntauto">IndpntAuto</a></tt> and <tt><a href="/dependauto">DependAuto</a></tt> mode, this usually isn't noticeable because the table will be recalculated almost immediately when you next look at it (unless one of the entered functions is so complicated it takes a while to calculate). This mainly has an effect in <tt><a href="/indpntask">IndpntAsk</a></tt> or <tt><a href="/dependask">DependAsk</a></tt> mode, where the corresponding parts of the table will be cleared entirely.
 
 ## Advanced Uses
 
-As a side effect, `ClrTable` seems to have all the effects of [ClrDraw](/clrdraw) — it clears the graph screen, and any equations or plots will be regraphed the next time the graph screen is displayed.
+As a side effect, <tt>ClrTable</tt> seems to have all the effects of <tt><a href="/clrdraw">ClrDraw</a></tt> — it clears the graph screen, and any equations or plots will be regraphed the next time the graph screen is displayed.
 
 ## Command Timings
 
-`ClrTable` and `ClrDraw` take the same amount of time to clear the screen.
+<tt>ClrTable</tt> and <tt>ClrDraw</tt> take the same amount of time to clear the screen.
 
 ## Related Commands
 
-*   [ClrDraw](/clrdraw)
-*   [DispGraph](/dispgraph)
-*   [DispTable](/disptable)
+*   <tt><a href="/clrdraw">ClrDraw</a></tt>
+*   <tt><a href="/dispgraph">DispGraph</a></tt>
+*   <tt><a href="/disptable">DispTable</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

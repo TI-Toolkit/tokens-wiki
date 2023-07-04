@@ -43,7 +43,7 @@ For example, consider a basketball player that always makes a shot with 1/3 prob
 3.  The probability of a success - making a shot - is 1/3
 4.  We're interested in the probability that it takes 3 trials to get a success
 
-The syntax here is `geometpdf(`. In this case:
+The syntax here is <tt>geometpdf(<em>probability</em>, <em>trials</em>)</tt>. In this case:
 
 ```ti-basic
 :geometpdf(1/3,3
@@ -54,7 +54,7 @@ This will give about .148 when you run it, so there's a .148 probability that it
 
 ## Formulas
 
-The value of `geometpdf(` is given by the formula
+The value of <tt>geometpdf(</tt> is given by the formula
 
 (1) $`\begin{align} \texttt{geometpdf}(p,n) = p(1-p)^{n-1} \end{align}`$ 
 
@@ -64,9 +64,9 @@ For the trivial value of n=0, however, the above formula gives the incorrect val
 
 ## Related Commands
 
-*   [binompdf(](/binompdf)
-*   [binomcdf(](/binomcdf)
-*   [geometcdf(](/geometcdf)
+*   <tt><a href="/binompdf">binompdf(</a></tt>
+*   <tt><a href="/binomcdf">binomcdf(</a></tt>
+*   <tt><a href="/geometcdf">geometcdf(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

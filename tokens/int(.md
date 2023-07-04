@@ -27,7 +27,7 @@ Returns the largest integer ≤ a real or complex number, expression, list, or m
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `5:int(`
 <hr>
 
-`int(X)` is the [floor function](https://mathworld.wolfram.com/FloorFunction.html). It returns the greatest integer less than or equal to _X_, and also works on complex numbers, lists and matrices.
+<tt>int(X)</tt> is the [floor function](https://mathworld.wolfram.com/FloorFunction.html). It returns the greatest integer less than or equal to _X_, and also works on complex numbers, lists and matrices.
 
 ```ti-basic
 int(5.32)
@@ -40,17 +40,17 @@ int(‾4/5)
                ‾1
 ```
 
-The difference between [iPart(](/ipart) and `int(` is subtle, and many people aren't even aware of it, but it exists. Whereas `iPart(` always truncates its parameters, simply removing the fractional part, `int(` always rounds down. This means that they return the same answers for positive numbers, but `int(` will return an answer 1 less than `iPart(` for (non-integer) negative numbers. For example, `iPart(-5.32)` is -5, while `int(-5.32)` is -6.
+The difference between <tt><a href="/ipart">iPart(</a></tt> and <tt>int(</tt> is subtle, and many people aren't even aware of it, but it exists. Whereas <tt>iPart(</tt> always truncates its parameters, simply removing the fractional part, <tt>int(</tt> always rounds down. This means that they return the same answers for positive numbers, but <tt>int(</tt> will return an answer 1 less than <tt>iPart(</tt> for (non-integer) negative numbers. For example, <tt>iPart(-5.32)</tt> is -5, while <tt>int(-5.32)</tt> is -6.
 
-Most of the time, however, you're dealing with only positive numbers anyway. In this case, the decision to use `iPart(` or `int(` is mostly a matter of preference - some people use `int(` because it is shorter; some use `iPart(` when there is a corresponding [fPart(](/fpart) taken. However, if speed is a consideration, one should check the Command Timings section.
+Most of the time, however, you're dealing with only positive numbers anyway. In this case, the decision to use <tt>iPart(</tt> or <tt>int(</tt> is mostly a matter of preference - some people use <tt>int(</tt> because it is shorter; some use <tt>iPart(</tt> when there is a corresponding <tt><a href="/fpart">fPart(</a></tt> taken. However, if speed is a consideration, one should check the Command Timings section.
 
 ## Advanced Uses
 
-`int(`, along with [iPart(](/ipart) and [fPart(](/fpart), can be used for integer [compression](/compression).
+<tt>int(</tt>, along with <tt><a href="/ipart">iPart(</a></tt> and <tt><a href="/fpart">fPart(</a></tt>, can be used for integer [compression](/compression).
 
 ## Command Timings
 
-The following table compares the speeds of `int(` and `iPart(`. Each command was timed over 2000 iterations to find a noticeable difference.
+The following table compares the speeds of <tt>int(</tt> and <tt>iPart(</tt>. Each command was timed over 2000 iterations to find a noticeable difference.
 
 Format
 
@@ -92,13 +92,13 @@ int(1.643759
 
 82
 
-Conclusion: `int(` scales with the length of its input while `iPart(` does not. For fewer than 6 decimals, `int(` will most often be faster; for 6 or more decimals, consider using `iPart(`.
+Conclusion: <tt>int(</tt> scales with the length of its input while <tt>iPart(</tt> does not. For fewer than 6 decimals, <tt>int(</tt> will most often be faster; for 6 or more decimals, consider using <tt>iPart(</tt>.
 
 ## Related Commands
 
-*   [iPart(](/ipart)
-*   [fPart(](/fpart)
-*   [round(](/round)
+*   <tt><a href="/ipart">iPart(</a></tt>
+*   <tt><a href="/fpart">fPart(</a></tt>
+*   <tt><a href="/round">round(</a></tt>
 
 ## See Also
 

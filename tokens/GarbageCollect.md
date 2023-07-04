@@ -25,9 +25,9 @@ As a result, when you delete a variable from archive, the calculator doesn't del
 
 Naturally, this can't be done forever: sooner or later you'll run out of space in the archive because all of it is taken up by these "garbage variables". At this point, the calculator does something known as "garbage collecting". It copies the actually-used variables in each sector to a backup sector (set aside just for this purpose), then erases it; the process is repeated for the other sectors. Additionally, the variables are rearranged so that they aren't spread out all over the place; this makes it more likely that a spot will be found for large variables.
 
-While "garbage collecting" will be done automatically when it's absolutely necessary, this may be a time-consuming process at that stage. Instead, you can call the `GarbageCollect` command yourself periodically (how often depends on your calculator habits, but generally once a month or so could work) to keep the Flash ROM in a semi-neat state, and then it will be a fairly quick process.
+While "garbage collecting" will be done automatically when it's absolutely necessary, this may be a time-consuming process at that stage. Instead, you can call the <tt>GarbageCollect</tt> command yourself periodically (how often depends on your calculator habits, but generally once a month or so could work) to keep the Flash ROM in a semi-neat state, and then it will be a fairly quick process.
 
-During garbage collection, a menu will appear that asks you "Garbage Collect?", giving you the options No and Yes. If you didn't select the `GarbageCollect` command yourself, it's highly recommended to select Yes. If you did select it, you probably want to garbage collect, so you should also select Yes. At that point, the message "Garbage collecting…" will be displayed for some time, and then the process will end.
+During garbage collection, a menu will appear that asks you "Garbage Collect?", giving you the options No and Yes. If you didn't select the <tt>GarbageCollect</tt> command yourself, it's highly recommended to select Yes. If you did select it, you probably want to garbage collect, so you should also select Yes. At that point, the message "Garbage collecting…" will be displayed for some time, and then the process will end.
 
 ## Advanced Uses
 
@@ -35,8 +35,8 @@ To avoid garbage collecting often, reduce the amount of times you archive and un
 
 ## Related Commands
 
-*   [Archive](/archive)
-*   [UnArchive](/unarchive)
+*   <tt><a href="/archive">Archive</a></tt>
+*   <tt><a href="/unarchive">UnArchive</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

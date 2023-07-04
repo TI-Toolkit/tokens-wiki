@@ -28,7 +28,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `A:TextColor(`
 <hr>
 
-The `TextColor(` token is used to set the color for [Text(](/text). Although the default color is Blue, the calculator saves the color until it is changed again using `TextColor(` or when a memory reset occurs. When a memory reset occurs, the text color is reset back to blue.
+The <tt>TextColor(</tt> token is used to set the color for <tt><a href="/text">Text(</a></tt>. Although the default color is Blue, the calculator saves the color until it is changed again using <tt>TextColor(</tt> or when a memory reset occurs. When a memory reset occurs, the text color is reset back to blue.
 
 ```ti-basic
 :TextColor(BLUE
@@ -111,7 +111,7 @@ The color tokens can be used in calculations. For example, LTBLUE/3 will equal 6
 
 ## Background Colors
 
-When the calculator displays text on the graphscreen, it displays it on top of a predetermined background color. This background color is white for all colors of text, except for yellow, white, and light gray (LTGRAY), which have a background color of medium gray (MEDGRAY). If you want to display text in your game without the annoying text-background, you need to have the graphscreen background be white or medium gray so the text-background doesn't show. The only known alternative is to use [Pxl-On](/pxl-on) to draw the text manually, so how you work around this issue depends almost entirely on how lazy you are. You can see how this works by looking at the image in the Command Summary sidebar.
+When the calculator displays text on the graphscreen, it displays it on top of a predetermined background color. This background color is white for all colors of text, except for yellow, white, and light gray (LTGRAY), which have a background color of medium gray (MEDGRAY). If you want to display text in your game without the annoying text-background, you need to have the graphscreen background be white or medium gray so the text-background doesn't show. The only known alternative is to use <tt><a href="/pxl-on">Pxl-On</a></tt> to draw the text manually, so how you work around this issue depends almost entirely on how lazy you are. You can see how this works by looking at the image in the Command Summary sidebar.
 
 ## Error Conditions
 
@@ -119,8 +119,8 @@ When the calculator displays text on the graphscreen, it displays it on top of a
 
 ## Related Commands
 
-*   [Text(](/text)
-*   [Pxl-On](/pxl-on)
+*   <tt><a href="/text">Text(</a></tt>
+*   <tt><a href="/pxl-on">Pxl-On</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

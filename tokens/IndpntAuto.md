@@ -19,22 +19,22 @@ Sets table to generate independent-variable values automatically.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>tblset</kbd>, `Indpnt: Auto`
 <hr>
 
-The `IndpntAuto` setting sets the independent variable (X, T, θ, or _n_ depending on [graphing mode](/graphing-mode)) to be filled in automatically in the table (which is accessible by pressing 2nd TABLE, or from a program with the [DispTable](/disptable) command).
+The <tt>IndpntAuto</tt> setting sets the independent variable (X, T, θ, or _n_ depending on [graphing mode](/graphing-mode)) to be filled in automatically in the table (which is accessible by pressing 2nd TABLE, or from a program with the <tt><a href="/disptable">DispTable</a></tt> command).
 
-The values which will be filled in start at the value [TblStart](/system-variables#window) and increment by `ΔTbl`(which can be negative, but not 0). They will also be stored in the list `TblInput`. All these variables can be accessed through the VARS|6:Table… menu; `TblStart` and `ΔTbl` can also be edited in the [2ND][TBLSET] menu.
+The values which will be filled in start at the value <tt><a href="/system-variables#window">TblStart</a></tt> and increment by <tt>ΔTbl</tt>(which can be negative, but not 0). They will also be stored in the list <tt>TblInput</tt>. All these variables can be accessed through the VARS|6:Table… menu; <tt>TblStart</tt> and <tt>ΔTbl</tt> can also be edited in the [2ND][TBLSET] menu.
 
-The other possibility for this setting is [IndpntAsk](/indpntask) - if that setting is turned on, you must scroll to the corresponding row in the independent variable column, and enter a value.
+The other possibility for this setting is <tt><a href="/indpntask">IndpntAsk</a></tt> - if that setting is turned on, you must scroll to the corresponding row in the independent variable column, and enter a value.
 
 ## Error Conditions
 
-*   **[ERR:DOMAIN](/errors#domain)** is thrown if `ΔTbl=0`.
+*   **[ERR:DOMAIN](/errors#domain)** is thrown if <tt>ΔTbl=0</tt>.
 
 ## Related Commands
 
-*   [IndpntAsk](/indpntask)
-*   [DependAuto](/dependauto)
-*   [DependAsk](/dependask)
-*   [DispTable](/disptable)
+*   <tt><a href="/indpntask">IndpntAsk</a></tt>
+*   <tt><a href="/dependauto">DependAuto</a></tt>
+*   <tt><a href="/dependask">DependAsk</a></tt>
+*   <tt><a href="/disptable">DispTable</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

@@ -27,7 +27,7 @@ Moves the specified `variable` from RAM to the user data archive memory.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>mem</kbd>, `5:Archive`
 <hr>
 
-The `Archive` command moves a variable from [RAM](/glossary#ram) to the archive (also known as [ROM](/glossary#tom)). A quick synopsis of the difference between the two:
+The <tt>Archive</tt> command moves a variable from [RAM](/glossary#ram) to the archive (also known as [ROM](/glossary#tom)). A quick synopsis of the difference between the two:
 
 *   Data in the archive cannot be accessed, but it's protected from RAM clears (which may occur during battery removal if not done carefully); also, the archive can hold much more data.
 *   Data in RAM can be accessed for calculations, but it can also be deleted during a RAM clear or accidentally overwritten by another program.
@@ -45,7 +45,7 @@ Also, some variables cannot be archived. These include:
 *   [Statistical](/system-variables#statistical) variables and the list ʟRESID
 *   [Finance](/system-variables#finance) variables
 
-Finally, the `Archive` command does not work on programs when using it from a program (it does, however, archive programs from the home screen). However, an [assembly program](/hexcodes#toc0) can be executed as a subroutine so that `Archive` and [UnArchive](/unarchive) can be used within a program. The program should however be run again afterwards.
+Finally, the <tt>Archive</tt> command does not work on programs when using it from a program (it does, however, archive programs from the home screen). However, an [assembly program](/hexcodes#toc0) can be executed as a subroutine so that <tt>Archive</tt> and <tt><a href="/unarchive">UnArchive</a></tt> can be used within a program. The program should however be run again afterwards.
 
 ## Advanced Uses
 
@@ -59,8 +59,8 @@ As archived variables (and programs) can not be accessed by the calculator's inb
 
 ## Related Commands
 
-*   [UnArchive](/unarchive)
-*   [DelVar](/delvar)
+*   <tt><a href="/unarchive">UnArchive</a></tt>
+*   <tt><a href="/delvar">DelVar</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

@@ -35,9 +35,9 @@ Performs a one-way analysis of variance for comparing the means of two to 20 pop
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `H:ANOVA(`
 <hr>
 
-The `ANOVA` (analysis of variance) command is used to test if there is a significant difference between the means of several populations (this is an extension of the [two-sample t-test](/2-sampttest) which compares only two populations). The calculator assumes the null hypothesis, that all means are equal, and returns a probability value, p, of the differences in the data occurring if the null hypothesis were true. If p is small (usually, if it's less than .05), then it's unlikely we'd get such differences just by chance if the null hypothesis were true, so we reject it and conclude that at least one of the means is different.
+The <tt>ANOVA</tt> (analysis of variance) command is used to test if there is a significant difference between the means of several populations (this is an extension of the [two-sample t-test](/2-sampttest) which compares only two populations). The calculator assumes the null hypothesis, that all means are equal, and returns a probability value, p, of the differences in the data occurring if the null hypothesis were true. If p is small (usually, if it's less than .05), then it's unlikely we'd get such differences just by chance if the null hypothesis were true, so we reject it and conclude that at least one of the means is different.
 
-There are two reasons why we don't test the means in pairs using a simpler test. First of all, it would take a long time: there's so many pairs to compare. Second of all, when you're doing many tests, there's a high probability you'll get a low p-value by chance. Imagine that you're doing 10 tests. If the probability of getting a low p-value on one test is .05, then the probability that at least one test will return one is 1-.95<sup>10</sup>: about 0.4 - this is quite likely to happen. The `ANOVA` test avoids this by having only one null hypothesis to test.
+There are two reasons why we don't test the means in pairs using a simpler test. First of all, it would take a long time: there's so many pairs to compare. Second of all, when you're doing many tests, there's a high probability you'll get a low p-value by chance. Imagine that you're doing 10 tests. If the probability of getting a low p-value on one test is .05, then the probability that at least one test will return one is 1-.95<sup>10</sup>: about 0.4 - this is quite likely to happen. The <tt>ANOVA</tt> test avoids this by having only one null hypothesis to test.
 
 If you're only interested in the result of the test, the only thing you'll need in the output is the second line: "p=…" This is your p-value, and determines whether you should reject the null hypothesis or not. If you need more detail, here are the meanings of the other variables:
 
@@ -52,7 +52,7 @@ If you're only interested in the result of the test, the only thing you'll need 
 
 The statistics **F**, p, and Sxp will be stored to the appropriate variables after this test. The other six statistics do not have a normal variable associated with them. However, the [two-byte tokens](/statistics-tokens) 0x6237 through 0x623C are, in fact, used to store the values of Factor MS, Factor SS, Factor df, Error MS, Error SS, and Error df respectively. They can't be accessed through a menu, but if you use a hex editor to paste them into your program, you will be able to use them just like any other variable.
 
-However, be careful because the Factor and Error tokens look exactly alike (even though they refer to different variables), and can be confused. Also, there is a chance that future OS versions will change the behavior of `ANOVA(`, though this is unlikely, and this trick will no longer work.
+However, be careful because the Factor and Error tokens look exactly alike (even though they refer to different variables), and can be confused. Also, there is a chance that future OS versions will change the behavior of <tt>ANOVA(</tt>, though this is unlikely, and this trick will no longer work.
 
 ## Error Conditions
 
@@ -63,9 +63,9 @@ However, be careful because the Factor and Error tokens look exactly alike (even
 
 ## Related Commands
 
-*   [2-SampTTest](/2-sampttest)
-*   [χ²-Test(](/chisquare-test)
-*   [2-SampFTest](/2-sampftest)
+*   <tt><a href="/2-sampttest">2-SampTTest</a></tt>
+*   <tt><a href="/chisquare-test">χ²-Test(</a></tt>
+*   <tt><a href="/2-sampftest">2-SampFTest</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

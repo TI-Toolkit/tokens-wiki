@@ -19,18 +19,18 @@ Returns a list giving the time according to the current value of the clock. The 
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `getTime`
 <hr>
 
-The `getTime` command returns the current time that the clock has on the TI-84+/SE/CE calculators in [list](/lists) format — {_hour_, _minute_, _second_}. You can [store](/store) this list to a variable for later use, or manipulate it the same way you do with other lists. Of course, this command only works if the time has actually been set, so you should use the [setTime(](/settime) command before using it.
+The <tt>getTime</tt> command returns the current time that the clock has on the TI-84+/SE/CE calculators in [list](/lists) format — {_hour_, _minute_, _second_}. You can [store](/store) this list to a variable for later use, or manipulate it the same way you do with other lists. Of course, this command only works if the time has actually been set, so you should use the <tt><a href="/settime">setTime(</a></tt> command before using it.
 
-An interesting note about this command is that you cannot index individual elements directly; if you try, each element of the clock is multiplied by the index. You can, however, call the demand and thus store the result in [Ans](/ans), and then retrieve the individual elements.
+An interesting note about this command is that you cannot index individual elements directly; if you try, each element of the clock is multiplied by the index. You can, however, call the demand and thus store the result in <tt><a href="/ans">Ans</a></tt>, and then retrieve the individual elements.
 
 ![SCREEN01.JPG](http://tibasicdev.wikidot.com/local--files/gettime/SCREEN01.JPG)
 
 ## Related Commands
 
-*   [getTmFmt](/gettmfmt)
-*   [getTmStr(](/gettmstr)
-*   [setTime(](/settime)
-*   [setTmFmt(](/settmfmt)
+*   <tt><a href="/gettmfmt">getTmFmt</a></tt>
+*   <tt><a href="/gettmstr">getTmStr(</a></tt>
+*   <tt><a href="/settime">setTime(</a></tt>
+*   <tt><a href="/settmfmt">setTmFmt(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

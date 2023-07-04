@@ -35,11 +35,11 @@ Performs a linear regression and a `t`-test. `alternative`=-`1` is <; `alternati
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `F:LinRegTTest`
 <hr>
 
-Like [LinReg(ax+b)](/linreg-ax-b) and similar commands, `LinRegTTest` finds the best fit line through a set of points. However, `LinRegTTest` adds another method of checking the quality of the fit, by performing a [t-test](/t-test) on the slope, testing the null hypothesis that the slope of the true best fit line is 0 (which implies the absence of correlation between the two variables, since a relation with a slope of zero means the x-variable does not affect the y-variable at all). If the p-value of the test is not low enough, then there is not enough data to assume a linear relation between the variables.
+Like <tt><a href="/linreg-ax-b">LinReg(ax+b)</a></tt> and similar commands, <tt>LinRegTTest</tt> finds the best fit line through a set of points. However, <tt>LinRegTTest</tt> adds another method of checking the quality of the fit, by performing a <tt><a href="/t-test">t-test</a></tt> on the slope, testing the null hypothesis that the slope of the true best fit line is 0 (which implies the absence of correlation between the two variables, since a relation with a slope of zero means the x-variable does not affect the y-variable at all). If the p-value of the test is not low enough, then there is not enough data to assume a linear relation between the variables.
 
-To use `LinRegTTest`, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points.
+To use <tt>LinRegTTest</tt>, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points.
 
-In its simplest form, `LinRegTTest` takes no arguments, and calculates a best fit line through the points in L₁ and L₂:
+In its simplest form, <tt>LinRegTTest</tt> takes no arguments, and calculates a best fit line through the points in L₁ and L₂:
 
 ```ti-basic
 :{9,13,21,30,31,31,34→L₁
@@ -65,7 +65,7 @@ LinRegTTest
 ```
 
   
-(the last two lines will only appear if diagnostics have been turned on - see [DiagnosticOn](/diagnosticon))
+(the last two lines will only appear if diagnostics have been turned on - see <tt><a href="/diagnosticon">DiagnosticOn</a></tt>)
 
 *   β and ρ: this line represents the alternative hypothesis. β is the true value of the statistic b (it is what we would get if the regression was done on the entire population, rather than a sample); ρ is the true value of the statistic r.
 *   t is the test statistic, used to calculate p.
@@ -95,7 +95,7 @@ Obviously, if you want the alternative hypothesis to be β≠0 and ρ≠0, the d
 
 Finally, you can enter an equation variable (such as Y₁) after the command, so that the line of best fit is stored to this equation automatically. This doesn't require you to supply the names of the lists, but if you do, the equation variable must come last. You can use polar, parametric, or sequential variables as well, but since the line of best fit will be in terms of X anyway, this doesn't make much sense.
 
-An example of `LinRegTTest` with all the optional arguments:
+An example of <tt>LinRegTTest</tt> with all the optional arguments:
 
 ```ti-basic
 :{9,13,21,30,31,31,34→FAT
@@ -106,11 +106,11 @@ An example of `LinRegTTest` with all the optional arguments:
 
 ## Related Commands
 
-*   [LinReg(ax+b)](/linreg-ax-b)
-*   [LinReg(a+bx)](/linreg-a-bx)
-*   [LinRegTInt](/linregtint)
-*   [Manual-Fit](/manual-fit)
-*   [Med-Med](/med-med)
+*   <tt><a href="/linreg-ax-b">LinReg(ax+b)</a></tt>
+*   <tt><a href="/linreg-a-bx">LinReg(a+bx)</a></tt>
+*   <tt><a href="/linregtint">LinRegTInt</a></tt>
+*   <tt><a href="/manual-fit">Manual-Fit</a></tt>
+*   <tt><a href="/med-med">Med-Med</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

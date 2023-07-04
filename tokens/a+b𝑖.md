@@ -27,12 +27,12 @@ Sets the mode to rectangular complex number format (a+b`i`).
 <tt><kbd><b>mode</b></kbd></tt>, `a+b`, `𝑖`
 <hr>
 
-The `a+b𝑖` command puts the calculator into rectangular complex number mode. This means that:
+The <tt>a+b𝑖</tt> command puts the calculator into rectangular complex number mode. This means that:
 
 *   Taking square roots of negative numbers, and similar operations, no longer returns an error.
-*   Complex results are displayed in the form `a+b𝑖` (hence the name of the command)
+*   Complex results are displayed in the form <tt>a+b𝑖</tt> (hence the name of the command)
 
-This is the standard way of displaying complex numbers, though they can also be displayed in polar form (see [re^θi](/re-thetai) for more details). To extract the coefficients a and b, use the [real(](/real-func) and [imag(](/imag) commands.
+This is the standard way of displaying complex numbers, though they can also be displayed in polar form (see <tt><a href="/re-thetai">re^θi</a></tt> for more details). To extract the coefficients a and b, use the <tt><a href="/real-func">real(</a></tt> and <tt><a href="/imag">imag(</a></tt> commands.
 
 ## Advanced Uses
 
@@ -49,8 +49,8 @@ Real
 
 ## Related Commands
 
-*   [Real](/real-mode)
-*   [re^θi](/re-thetai)
+*   <tt><a href="/real-mode">Real</a></tt>
+*   <tt><a href="/re-thetai">re^θi</a></tt>
 
 ## See Also
 

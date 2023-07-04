@@ -27,7 +27,7 @@ Returns the complex conjugate of a complex number or list of complex numbers.
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `1:conj(`
 <hr>
 
-`conj(` returns the complex conjugate of the complex number _z_. If _z_ is represented as _x_+i_y_ where _x_ and _y_ are both real, `conj(` returns _x_-i_y_. Also works on a list of complex numbers.
+<tt>conj(<em>z</em>)</tt> returns the complex conjugate of the complex number _z_. If _z_ is represented as _x_+i_y_ where _x_ and _y_ are both real, <tt>conj(<em>z</em>)</tt> returns _x_-i_y_. Also works on a list of complex numbers.
 
 ```ti-basic
 conj(3+4i)
@@ -38,10 +38,10 @@ The conjugate of a number $z$ is often written $\overline{z}$, and is useful bec
 
 ## Related Commands
 
-*   [abs(](/abs)
-*   [angle(](/angle)
-*   [real(](/real-func)
-*   [imag(](/imag)
+*   <tt><a href="/abs">abs(</a></tt>
+*   <tt><a href="/angle">angle(</a></tt>
+*   <tt><a href="/real-func">real(</a></tt>
+*   <tt><a href="/imag">imag(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

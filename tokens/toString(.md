@@ -30,7 +30,7 @@ Converts value to a string where `value` can be real, complex, an evaluated expr
 <tt><kbd><b>prgm</b></kbd></tt>, `E:toString(`, `C:toString(`
 <hr>
 
-The `toString(` command, given any value including real numbers, complex numbers, lists, or matrices, returns the string representation of the value of the input.
+The <tt>toString(</tt> command, given any value including real numbers, complex numbers, lists, or matrices, returns the string representation of the value of the input.
 
 ```ti-basic
 toString(1337       //returns "1337"
@@ -42,9 +42,9 @@ toString([[1,2][3,4]]   //returns "[[1,2][3,4]]"
 toString(√-1     //returns imaginary number "i"
 ```
 
-`toString(` has less limitations than the [eval(](/eval) command. It can handle lists, matrices, and complex numbers. Another difference from `eval(` is that `toString(` is affected by display mode changes like [Fix](/fix).
+<tt>toString(</tt> has less limitations than the <tt><a href="/eval">eval(</a></tt> command. It can handle lists, matrices, and complex numbers. Another difference from <tt>eval(</tt> is that <tt>toString(</tt> is affected by display mode changes like <tt><a href="/fix">Fix</a></tt>.
 
-`toString(` replaces the old [number-to-string](/number-to-string) routine previously used prior to OS 5.2.
+<tt>toString(</tt> replaces the old [number-to-string](/number-to-string) routine previously used prior to OS 5.2.
 
 ## Error Conditions
 
@@ -54,8 +54,8 @@ toString(√-1     //returns imaginary number "i"
 
 ## Related Commands
 
-*   [eval(](/eval)
-*   [expr(](/expr)
+*   <tt><a href="/eval">eval(</a></tt>
+*   <tt><a href="/expr">expr(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

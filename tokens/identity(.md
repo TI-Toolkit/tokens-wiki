@@ -27,11 +27,11 @@ Returns the identity matrix of `dimension` rows x `dimension` columns.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `5:identity(`
 <hr>
 
-The `identity(` command generates an identity matrix: that is, a matrix [B] such that for any other matrix [A], [A]*[B]=[A] (if [A] is the right size to make the multiplication valid).
+The <tt>identity(</tt> command generates an identity matrix: that is, a matrix [B] such that for any other matrix [A], [A]*[B]=[A] (if [A] is the right size to make the multiplication valid).
 
 The identity matrix is square (that is, the row dimension equals the column dimension); all of its elements are 0 except for the elements along the main diagonal (the diagonal going from top left to bottom right).
 
-The command itself takes one argument: the size of the matrix, used for both row and column size, that is, `identity(n)` creates an _n_ by _n_ matrix.
+The command itself takes one argument: the size of the matrix, used for both row and column size, that is, <tt>identity(n)</tt> creates an _n_ by _n_ matrix.
 
 ```ti-basic
 :dim([A]
@@ -41,7 +41,7 @@ The command itself takes one argument: the size of the matrix, used for both row
 
 ## Optimization
 
-The `identity(` command can be used as a quick way to create an empty square matrix: `0identity(n)` will create an _n_ by _n_ matrix containing only 0 as an element. This is faster and smaller than the [dim(](/dim) and [Fill(](/fill) commands used for the same purpose:
+The <tt>identity(</tt> command can be used as a quick way to create an empty square matrix: <tt>0identity(n)</tt> will create an _n_ by _n_ matrix containing only 0 as an element. This is faster and smaller than the <tt><a href="/dim">dim(</a></tt> and <tt><a href="/fill">Fill(</a></tt> commands used for the same purpose:
 
 ```ti-basic
 :{5,5→dim([A]
@@ -52,12 +52,12 @@ can be
 
 ## Error Conditions
 
-*   **[ERR:INVALID DIM](/errors#invaliddim)** occurs if the size is not an integer 1-99. In practice, however, `identity(21)` is already too large for the calculator to generate.
+*   **[ERR:INVALID DIM](/errors#invaliddim)** occurs if the size is not an integer 1-99. In practice, however, <tt>identity(21)</tt> is already too large for the calculator to generate.
 *   **[ERR:MEMORY](/errors#memory)** occurs if the size of the created matrix exceeds memory limits. This limit is hard-fixed to 3611 bytes (the size of a 20x20 matrix), regardless of having sufficient RAM to hold a larger matrix.
 
 ## Related Commands
 
-*   [det(](/det)
+*   <tt><a href="/det">det(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

@@ -60,15 +60,15 @@ Computes a `t` confidence interval.
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `8:TInterval`
 <hr>
 
-The `TInterval` command calculates a confidence interval for the mean value of a population, at a specific confidence level: for example, if the confidence level is 95%, you are 95% certain that the mean lies within the interval you get. Use `TInterval` when you have a single variable to analyze, and **don't** know the standard deviation. The `TInterval` assumes that your distribution is normal, but it will work for other distributions if the sample size is large enough.
+The <tt>TInterval</tt> command calculates a confidence interval for the mean value of a population, at a specific confidence level: for example, if the confidence level is 95%, you are 95% certain that the mean lies within the interval you get. Use <tt>TInterval</tt> when you have a single variable to analyze, and **don't** know the standard deviation. The <tt>TInterval</tt> assumes that your distribution is normal, but it will work for other distributions if the sample size is large enough.
 
-There are two ways to call the `TInterval` command: by supplying it with needed sample statistics (mean, sample standard deviation, and sample size), or by entering a list and letting the calculator work the statistics out.
+There are two ways to call the <tt>TInterval</tt> command: by supplying it with needed sample statistics (mean, sample standard deviation, and sample size), or by entering a list and letting the calculator work the statistics out.
 
 ## Sample Problem
 
 You want to know the average height of a student at your school. You haven't asked everyone, but you took a random sample of 30 people and found out their heights (and stored it to L<sub>1</sub>). You've decided to use a 95% confidence interval.
 
-Since the syntax for entering a data list is `TInterval` _list_, _confidence level_, here is your code:
+Since the syntax for entering a data list is <tt>TInterval</tt> _list_, _confidence level_, here is your code:
 
 ```ti-basic
 :TInterval L1,95
@@ -78,7 +78,7 @@ you can also use
 
 Alternatively, you could calculate the mean, sample size, and standard deviation, and enter those instead. The sample size is 30; let's say the mean was 63 inches and the standard deviation was 6.2 inches.
 
-The syntax for entering statistics is `TInterval` _mean_, _std. deviation_, _sample size_, _confidence level_, so your code would look like:
+The syntax for entering statistics is <tt>TInterval</tt> _mean_, _std. deviation_, _sample size_, _confidence level_, so your code would look like:
 
 ```ti-basic
 :TInterval 63,6.2,30,95
@@ -86,9 +86,9 @@ you can also use
 :TInterval 63,6.2,30,.95
 ```
 
-Of course, the main use of the `TInterval` command is in a program. While you can enter the `TInterval` command on the home screen as well (just look in the catalog for it), it would probably be easier to select `TInterval`… from the STAT>TEST menu (see the sidebar).
+Of course, the main use of the <tt>TInterval</tt> command is in a program. While you can enter the <tt>TInterval</tt> command on the home screen as well (just look in the catalog for it), it would probably be easier to select <tt>TInterval</tt>… from the STAT>TEST menu (see the sidebar).
 
-One thing to note about using `TInterval` in a program is that it will not display data if there are lines of code after it. Either the command is on the last line of code, or it will not display anything. The way to work around this is to display the lower and upper variables, as that is where TInterval stores the results.
+One thing to note about using <tt>TInterval</tt> in a program is that it will not display data if there are lines of code after it. Either the command is on the last line of code, or it will not display anything. The way to work around this is to display the lower and upper variables, as that is where TInterval stores the results.
 
 ```ti-basic
 :TInterval //some statistical data
@@ -127,9 +127,9 @@ can be
 
 ## Related Commands
 
-*   [2-SampTInt](/2-samptint)
-*   [ZInterval](/zinterval)
-*   [2-SampZInt(](/2-sampzint)
+*   <tt><a href="/2-samptint">2-SampTInt</a></tt>
+*   <tt><a href="/zinterval">ZInterval</a></tt>
+*   <tt><a href="/2-sampzint">2-SampZInt(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

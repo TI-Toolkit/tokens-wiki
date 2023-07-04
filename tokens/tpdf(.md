@@ -29,17 +29,17 @@ Computes the probability density function (pdf) for the Student-`t` distribution
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>distr</kbd>, `DISTR`, `5:tpdf(`
 <hr>
 
-`tpdf(` is the Student's _t_ probability density function.
+<tt>tpdf(</tt> is the Student's _t_ probability density function.
 
-Since the _t_ distribution is continuous, the value of `tpdf(` doesn't represent an actual probability — in fact, one of the few uses for this command is to draw a graph of the bell curve. You could also use it for various calculus purposes, such as finding inflection points.
+Since the _t_ distribution is continuous, the value of <tt>tpdf(</tt> doesn't represent an actual probability — in fact, one of the few uses for this command is to draw a graph of the bell curve. You could also use it for various calculus purposes, such as finding inflection points.
 
-The command takes two arguments: the first is the value where the PDF is to be evaluated, and the second is the number of degrees of freedom (so the calculator knows which _t_ distribution to use). As the degrees of freedom increases without bound, `tpdf(` approaches [normalpdf(](/normalpdf); i.e.
+The command takes two arguments: the first is the value where the PDF is to be evaluated, and the second is the number of degrees of freedom (so the calculator knows which _t_ distribution to use). As the degrees of freedom increases without bound, <tt>tpdf(</tt> approaches <tt><a href="/normalpdf">normalpdf(</a></tt>; i.e.
 
 (1) $`\begin{align} \lim_{\nu\rightarrow\infty}\texttt{tpdf}(x,\nu)=\texttt{normalpdf}(x) \end{align}`$ 
 
 ## Formulas
 
-The value of `tpdf(` is given by
+The value of <tt>tpdf(</tt> is given by
 
 (2) $`\begin{align} \texttt{tpdf}(t,\nu) = \frac{\Gamma((\nu+1)/2)}{\sqrt{\nu\pi}\,\Gamma(\nu/2)}\,\left(1+\frac{t^2}{\nu}\right)^{-\frac1{2}(\nu+1)} \end{align}`$ 
 
@@ -51,9 +51,9 @@ The value of `tpdf(` is given by
 
 ## Related Commands
 
-*   [tcdf(](/tcdf)
-*   [invT(](/invt)
-*   [Shade_t(](/shade-t)
+*   <tt><a href="/tcdf">tcdf(</a></tt>
+*   <tt><a href="/invt">invT(</a></tt>
+*   <tt><a href="/shade-t">Shade_t(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

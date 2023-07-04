@@ -31,7 +31,7 @@ Returns an integer from 1 to 7, with each integer representing a day of the week
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `dayOfWk(`, `1:Sunday`, `2:Monday`, `3:Tuesday...`
 <hr>
 
-`dayOfWk(` returns an integer from 1 to 7, each representing a separate day of the week. 1 represents Sunday, 2 represents Monday, and so on, with 7 representing Saturday. The date format is different than the normal American format (month/day/year), so be careful to put the arguments in the right order. You can remember this by thinking of the descending lengths of time in each of the arguments.
+<tt>dayOfWk(<em>year</em>,<em>month</em>,<em>day</em>)</tt> returns an integer from 1 to 7, each representing a separate day of the week. 1 represents Sunday, 2 represents Monday, and so on, with 7 representing Saturday. The date format is different than the normal American format (month/day/year), so be careful to put the arguments in the right order. You can remember this by thinking of the descending lengths of time in each of the arguments.
 
 ```ti-basic
 :dayOfWk(2007,12,30)
@@ -46,10 +46,10 @@ The above code returns 1, because the 30<sup>th</sup> of December, 2007, is a Su
 
 ## Related Commands
 
-*   [dbd(](/dbd)
-*   [setDate(](/setdate)
-*   [getDate](/getdate)
-*   [getDtFmt](/getdtfmt)
+*   <tt><a href="/dbd">dbd(</a></tt>
+*   <tt><a href="/setdate">setDate(</a></tt>
+*   <tt><a href="/getdate">getDate</a></tt>
+*   <tt><a href="/getdtfmt">getDtFmt</a></tt>
 
 ## See Also
 

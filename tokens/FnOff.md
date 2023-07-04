@@ -31,11 +31,11 @@ Deselects all `Y=` functions or specified `Y=` functions.
 <tt><kbd><b>vars</b></kbd></tt>, `Y-VARS`, `4:On/Off2:FnOff`
 <hr>
 
-The `FnOff` command is used to turn off equations in the current [graphing mode](/graphing-mode). When you turn off an equation, it's still defined, but isn't graphed; you can reverse this with the [FnOn](/fnon) command. To turn functions on and off manually, put your cursor over the = symbol in the equation editor, and press enter.
+The <tt>FnOff</tt> command is used to turn off equations in the current [graphing mode](/graphing-mode). When you turn off an equation, it's still defined, but isn't graphed; you can reverse this with the <tt><a href="/fnon">FnOn</a></tt> command. To turn functions on and off manually, put your cursor over the = symbol in the equation editor, and press enter.
 
-When `FnOff` is used by itself, it will turn off all defined equations in the current graphing mode. You can also specify which equations to turn off, by writing their numbers after `FnOff`: for example, `FnOff 1` will turn off the first equation, and `FnOff 2,3,4,5` will off turn the second, third, fourth, and fifth. The numbers you give `FnOff` have to be valid equation numbers in the graphing mode. When turning equations on and off in [sequence](/seq-mode) mode, use 1 for `u`, 2 for `v`, and 3 for `w`.
+When <tt>FnOff</tt> is used by itself, it will turn off all defined equations in the current graphing mode. You can also specify which equations to turn off, by writing their numbers after <tt>FnOff</tt>: for example, <tt>FnOff 1</tt> will turn off the first equation, and <tt>FnOff 2,3,4,5</tt> will off turn the second, third, fourth, and fifth. The numbers you give <tt>FnOff</tt> have to be valid equation numbers in the graphing mode. When turning equations on and off in [sequence](/seq-mode) mode, use 1 for <tt>u</tt>, 2 for <tt>v</tt>, and 3 for <tt>w</tt>.
 
-The most common use for [FnOn](/fnon) and `FnOff` is to disable functions when running a program, so that they won't interfere with what you're doing on the graph screen, then enable them again when you're done.
+The most common use for <tt><a href="/fnon">FnOn</a></tt> and <tt>FnOff</tt> is to disable functions when running a program, so that they won't interfere with what you're doing on the graph screen, then enable them again when you're done.
 
 ## Error Conditions
 
@@ -43,9 +43,9 @@ The most common use for [FnOn](/fnon) and `FnOff` is to disable functions when r
 
 ## Related Commands
 
-*   [FnOn](/fnon)
-*   [PlotsOn](/plotson)
-*   [PlotsOff](/plotsoff)
+*   <tt><a href="/fnon">FnOn</a></tt>
+*   <tt><a href="/plotson">PlotsOn</a></tt>
+*   <tt><a href="/plotsoff">PlotsOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

@@ -33,25 +33,25 @@ Computes the sum, rounded to `roundvalue`, of the interest amount between `pmt1`
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `A:Int(`
 <hr>
 
-The `ΣInt(` command calculates, for an [amortization schedule](http://en.wikipedia.org/wiki/Amortization_schedule), the interest over a range of payments: the portion of those payments that went toward paying interest. Its two required arguments are _payment1_ and _payment2_, which define the range of payments we're interested in. However, it also uses the values of the finance variables `PV`, `PMT`, and `I%` in its calculations.
+The <tt>ΣInt(</tt> command calculates, for an [amortization schedule](http://en.wikipedia.org/wiki/Amortization_schedule), the interest over a range of payments: the portion of those payments that went toward paying interest. Its two required arguments are _payment1_ and _payment2_, which define the range of payments we're interested in. However, it also uses the values of the finance variables <tt>PV</tt>, <tt>PMT</tt>, and <tt>I%</tt> in its calculations.
 
-The optional argument, _roundvalue_, is the number of digits to which the calculator will round all internal calculations. Since this rounding affects further steps, this isn't the same as using [round(](/round) to round the result of `ΣInt(` to the same number of digits.
+The optional argument, _roundvalue_, is the number of digits to which the calculator will round all internal calculations. Since this rounding affects further steps, this isn't the same as using <tt><a href="/round">round(</a></tt> to round the result of <tt>ΣInt(</tt> to the same number of digits.
 
-Usually, you will know the values of **N**, `PV`, and `I%`, but not `PMT`. This means you'll have to use the finance solver to solve for `PMT` before calculating `ΣInt(`; virtually always, `FV` will equal 0.
+Usually, you will know the values of **N**, <tt>PV</tt>, and <tt>I%</tt>, but not <tt>PMT</tt>. This means you'll have to use the finance solver to solve for <tt>PMT</tt> before calculating <tt>ΣInt(</tt>; virtually always, <tt>FV</tt> will equal 0.
 
 ## Sample Problem
 
 _Imagine that you have taken out a 30-year fixed-rate mortgage. The loan amount is $100000, and the annual interest rate (APR) is 8%. Payments will be made monthly. How much of the amount that was paid in the first five years went towards interest?_
 
-We know the values of **N**, `I%`, and `PV`, though we still need to convert them to monthly values (since payments are made monthly). **N** is 30*12, and `I%` is 8/12. `PV` is just 100000.
+We know the values of **N**, <tt>I%</tt>, and <tt>PV</tt>, though we still need to convert them to monthly values (since payments are made monthly). **N** is 30*12, and <tt>I%</tt> is 8/12. <tt>PV</tt> is just 100000.
 
-Now, we use the finance solver to solve for `PMT`. Since you intend to pay out the entire loan, `FV` is 0. Using either the interactive TVM solver, or the [tvm_Pmt](/tvm) command, we get a value of about -$733.76 for `PMT`.
+Now, we use the finance solver to solve for <tt>PMT</tt>. Since you intend to pay out the entire loan, <tt>FV</tt> is 0. Using either the interactive TVM solver, or the <tt><a href="/tvm">tvm_Pmt</a></tt> command, we get a value of about -$733.76 for <tt>PMT</tt>.
 
-We are ready to use `ΣInt(`. We are interested in the payments made during the first five years; that is, between the 1<sup>st</sup> payment and the 5*12=60<sup>th</sup> payment. `ΣInt(1,60)` gives us the answer: -$39095.73 (the negative sign simply indicates the direction of cash flow)
+We are ready to use <tt>ΣInt(</tt>. We are interested in the payments made during the first five years; that is, between the 1<sup>st</sup> payment and the 5*12=60<sup>th</sup> payment. <tt>ΣInt(1,60)</tt> gives us the answer: -$39095.73 (the negative sign simply indicates the direction of cash flow)
 
 ## Formulas
 
-`ΣInt(` is calculated in terms of [ΣPrn(](/sigmaprn), for which a recurrence exists. Since the total amount paid during an interval is known (it's the payment size, multiplied by the number of payments), we can subtract `ΣPrn(` from this total to get `ΣInt(`:
+<tt>ΣInt(</tt> is calculated in terms of <tt><a href="/sigmaprn">ΣPrn(</a></tt>, for which a recurrence exists. Since the total amount paid during an interval is known (it's the payment size, multiplied by the number of payments), we can subtract <tt>ΣPrn(</tt> from this total to get <tt>ΣInt(</tt>:
 
 (1) $`\begin{align} \texttt{\Sigma Int}(n_1,n_2)=(n_2-n_1+1)\texttt{PMT}-\texttt{\Sigma Prn}(n_1,n_2) \end{align}`$ 
 
@@ -61,9 +61,9 @@ We are ready to use `ΣInt(`. We are interested in the payments made during the 
 
 ## Related Commands
 
-*   [bal(](/bal)
-*   [ΣPrn(](/sigmaprn)
-*   [tvm_Pmt](/tvm)
+*   <tt><a href="/bal">bal(</a></tt>
+*   <tt><a href="/sigmaprn">ΣPrn(</a></tt>
+*   <tt><a href="/tvm">tvm_Pmt</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

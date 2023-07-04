@@ -35,9 +35,9 @@ Returns the value of `variable` where the local maximum of `expression` occurs, 
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `7:fMax(`
 <hr>
 
-`fMax(` finds the value of _var_ between _lo_ and _hi_ at which the maximum of _f_(_var_) occurs. _tol_ controls the accuracy of the maximum value computed. The default value of _tol_ is 10<sup>-5</sup>.
+<tt>fMax(<em>f</em>(<em>var</em>),<em>var</em>,<em>lo</em>,<em>hi</em>[,<em>tol</em>])</tt> finds the value of _var_ between _lo_ and _hi_ at which the maximum of _f_(_var_) occurs. _tol_ controls the accuracy of the maximum value computed. The default value of _tol_ is 10<sup>-5</sup>.
 
-`fMax(` only works for real numbers and expressions. Brent's method for optimization is used for approximating the maximum value.
+<tt>fMax(</tt> only works for real numbers and expressions. Brent's method for optimization is used for approximating the maximum value.
 
 ```ti-basic
 fMax(sin(X)cos(X),X,0,3)
@@ -54,9 +54,9 @@ Keep in mind that the result is the value of _var_, and not the value of _f(var)
 
 ## Related Commands
 
-*   [fMin(](/fmin)
-*   [fnInt(](/fnint)
-*   [nDeriv(](/nderiv)
+*   <tt><a href="/fmin">fMin(</a></tt>
+*   <tt><a href="/fnint">fnInt(</a></tt>
+*   <tt><a href="/nderiv">nDeriv(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

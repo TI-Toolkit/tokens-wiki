@@ -33,11 +33,11 @@ Fits an exponential regression model to `Xlistname` and `Ylistname` with frequen
 <tt><kbd><b>stat</b></kbd></tt>, `CALC`, `0:ExpReg`
 <hr>
 
-`ExpReg` tries to fit an exponential curve (y=a*b<sup>x</sup>) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates ordered so that the Nth element of one list matches up with the Nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points.
+<tt>ExpReg</tt> tries to fit an exponential curve (y=a*b<sup>x</sup>) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates ordered so that the Nth element of one list matches up with the Nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit…) is a useful window for entering the points.
 
 The calculator does this regression by taking the natural log [ln(](/ln) of the y-coordinates (this isn't stored anywhere) and then doing a linear regression. The result, ln(y)=ln(a)+x*ln(b), is transformed into y=e<sup>ln(a)</sup>(e<sup>ln(b)</sup>)<sup>x</sup>, which is an exponential curve. This algorithm shows that if any y-coordinates are negative or 0, the calculator will instantly quit with ERR:DOMAIN.
 
-In its simplest form, `ExpReg` takes no arguments, and fits an exponential curve through the points in L₁ and L₂:
+In its simplest form, <tt>ExpReg</tt> takes no arguments, and fits an exponential curve through the points in L₁ and L₂:
 
 ```ti-basic
 :{9,13,21,30,31,31,34→L₁
@@ -45,7 +45,7 @@ In its simplest form, `ExpReg` takes no arguments, and fits an exponential curve
 :LnReg
 ```
 
-On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, y=a*b^x, and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, r, and r² will be set as well. These latter two variables will be displayed only if "Diagnostic Mode" is turned on (see [DiagnosticOn](/diagnosticon) and [DiagnosticOff](/diagnosticoff)).
+On the home screen, or as the last line of a program, this will display the equation of the curve: you'll be shown the format, y=a*b^x, and the values of a and b. It will also be stored in the RegEQ variable, but you won't be able to use this variable in a program - accessing it just pastes the equation wherever your cursor was. Finally, the statistical variables a, b, r, and r² will be set as well. These latter two variables will be displayed only if "Diagnostic Mode" is turned on (see <tt><a href="/diagnosticon">DiagnosticOn</a></tt> and <tt><a href="/diagnosticoff">DiagnosticOff</a></tt>).
 
 You don't have to do the regression on L₁ and L₂, but if you don't you'll have to enter the names of the lists after the command. For example:
 
@@ -59,7 +59,7 @@ You can attach frequencies to points, for when a point occurs more than once, by
 
 Finally, you can enter an equation variable (such as Y₁) after the command, so that the curve's equation is stored in this variable automatically. This doesn't require you to supply the names of the lists, but if you do, the equation variable must come last. You can use polar, parametric, or sequential variables as well, but since the equation will be in terms of X anyway, this doesn't make much sense.
 
-An example of `ExpReg` with all the optional arguments:
+An example of <tt>ExpReg</tt> with all the optional arguments:
 
 ```ti-basic
 :{9,13,21,30,31,31,34→FAT
@@ -70,9 +70,9 @@ An example of `ExpReg` with all the optional arguments:
 
 ## Related Commands
 
-*   [LnReg](/lnreg)
-*   [PwrReg](/pwrreg)
-*   [SinReg](/sinreg)
+*   <tt><a href="/lnreg">LnReg</a></tt>
+*   <tt><a href="/pwrreg">PwrReg</a></tt>
+*   <tt><a href="/sinreg">SinReg</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

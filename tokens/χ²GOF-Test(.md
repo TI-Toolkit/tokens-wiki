@@ -40,7 +40,7 @@ Color#: 10 - 24 or color name pasted from [vars] COLOR.
 <tt><kbd><b>stat</b></kbd></tt>, `TESTS`, `D:`, `GOF`, `Test(`
 <hr>
 
-The `χ²GOF-Test(` command performs a `χ²` goodness-of-fit test. Given an expected ideal distribution of a variable across several categories, and a sample from this variable, it tests the hypothesis that the variable actually fits the ideal distribution. As a special case, you could take the ideal distribution to be evenly divided across all categories. Then, the goodness-of-fit test will test the hypothesis that the variable is independent of the category.
+The <tt>χ²GOF-Test(</tt> command performs a <tt>χ²</tt> goodness-of-fit test. Given an expected ideal distribution of a variable across several categories, and a sample from this variable, it tests the hypothesis that the variable actually fits the ideal distribution. As a special case, you could take the ideal distribution to be evenly divided across all categories. Then, the goodness-of-fit test will test the hypothesis that the variable is independent of the category.
 
 The command takes three arguments:
 
@@ -50,7 +50,7 @@ The command takes three arguments:
 
 The output is two-fold:
 
-*   The test statistic, `χ²`. If the null hypothesis (that the variable fits the distribution) is true, this should be close to 1.
+*   The test statistic, <tt>χ²</tt>. If the null hypothesis (that the variable fits the distribution) is true, this should be close to 1.
 *   The probability, p, of the observed distribution assuming the null hypothesis. If this value is low (usually, if it's lower than .05, or lower than .01) this is sufficient evidence to reject the null hypothesis, and conclude that the variable fits a different distribution.
 
 ## Sample Problem
@@ -59,15 +59,15 @@ Working as a sales clerk, you're wondering if the number of customers depends on
 
 There were a total of sum(L1)=142 customers. So the expected number of customers on each day was 142/7. Store all the expected counts: {142/7,142/7,142/7,142/7,142/7,142/7,142/7} to L2 (as a shortcut, you can store 142/7{1,1,1,1,1,1,1}).
 
-Since there are 7 days, there are 6 (one less) degrees of freedom. So the resulting command is `χ²GOF-Test(L1,L2,6)`.
+Since there are 7 days, there are 6 (one less) degrees of freedom. So the resulting command is <tt>χ²GOF-Test(L1,L2,6)</tt>.
 
-The output will give a `χ²` of 10.32394366, and a p value of 0.1116563376. This is higher than 5%, so the test is not significant on a 95 percent level. It's perfectly possible, in other words, that the number of customers is independent of the day of week.
+The output will give a <tt>χ²</tt> of 10.32394366, and a p value of 0.1116563376. This is higher than 5%, so the test is not significant on a 95 percent level. It's perfectly possible, in other words, that the number of customers is independent of the day of week.
 
-(Note that in this case, if you suspected the number of customers to be higher on weekends, you could use a more sensitive test for only two categories: [2-SampTTest](/2-sampttest))
+(Note that in this case, if you suspected the number of customers to be higher on weekends, you could use a more sensitive test for only two categories: <tt><a href="/2-sampttest">2-SampTTest</a></tt>)
 
 ## Advanced Uses
 
-The `χ²GOF-Test(` command is only on TI-84 Plus and newer calculator models. However, it's possible to use the [χ²cdf(](/chisquarecdf) command to simulate it on the other calculators: see the [χ² Goodness-of-fit Test](/goodness-of-fit) routine.
+The <tt>χ²GOF-Test(</tt> command is only on TI-84 Plus and newer calculator models. However, it's possible to use the <tt><a href="/chisquarecdf">χ²cdf(</a></tt> command to simulate it on the other calculators: see the [χ² Goodness-of-fit Test](/goodness-of-fit) routine.
 
 ## Formulas
 
@@ -75,7 +75,7 @@ The formula for calculating the test statistic is as follows (O<sub>i</sub> is t
 
 (1) $`\begin{align} \chi_{n-1}^2 = \sum_{i=1}^n \frac{(O_i-E_i)^2}{E_i} \end{align}`$ 
 
-The p-value, then, is the probability that the `χ²` statistic would be this high, using the [χ²cdf(](/chisquarecdf) command with the appropriate value for degrees of freedom.
+The p-value, then, is the probability that the <tt>χ²</tt> statistic would be this high, using the <tt><a href="/chisquarecdf">χ²cdf(</a></tt> command with the appropriate value for degrees of freedom.
 
 ## Error Conditions
 
@@ -84,7 +84,7 @@ The p-value, then, is the probability that the `χ²` statistic would be this hi
 
 ## Related Commands
 
-*   [χ²-Test(](/chisquare-test)
+*   <tt><a href="/chisquare-test">χ²-Test(</a></tt>
 
 ## See Also
 

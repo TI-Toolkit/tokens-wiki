@@ -53,24 +53,24 @@ Ti-Innovator™ Hub
 
 <hr>
 
-The `Get(` command is meant for use with the CBL (Calculator Based Laboratory) device, or other compatible devices. When the calculator is connected by a link cable to such a device, `Get(` will read data from the device and store it to _variable_. Usually, this data is a list, and so you want to `Get(L₁)` or some other list variable.
+The <tt>Get(</tt> command is meant for use with the CBL (Calculator Based Laboratory) device, or other compatible devices. When the calculator is connected by a link cable to such a device, <tt>Get(<em>variable</em>)</tt> will read data from the device and store it to _variable_. Usually, this data is a list, and so you want to <tt>Get(L₁)</tt> or some other list variable.
 
 ## Advanced Uses
 
-In fact, the `Get(` command can also be used for linking two calculators, in which case it functions precisely like [GetCalc(](/getcalc). This is probably for compatibility with the TI-82, which used `Get(` rather than `GetCalc(` for linking two calculators. However, since this isn't a documented feature (in fact, your TI-83+ manual will insist that `Get(` **cannot** be used in this way), it isn't guaranteed to work with future calculator versions.
+In fact, the <tt>Get(</tt> command can also be used for linking two calculators, in which case it functions precisely like <tt><a href="/getcalc">GetCalc(</a></tt>. This is probably for compatibility with the TI-82, which used <tt>Get(</tt> rather than <tt>GetCalc(</tt> for linking two calculators. However, since this isn't a documented feature (in fact, your TI-83+ manual will insist that <tt>Get(</tt> **cannot** be used in this way), it isn't guaranteed to work with future calculator versions.
 
 ## Optimization
 
-Nevertheless, using `Get(` instead of `GetCalc(` will make your program smaller, and probably preserve functionality.
+Nevertheless, using <tt>Get(</tt> instead of <tt>GetCalc(</tt> will make your program smaller, and probably preserve functionality.
 
 ## Norland Robot
 
-The `Get(` command is usually used after a [Send](/send) command to confirm its transmission like this: `Get(`. The variable in the parentheses is where the time of the robot's movement is stored. You can display the time moved with a [Disp](/disp) command.
+The <tt>Get(</tt> command is usually used after a <tt><a href="/send">Send</a></tt> command to confirm its transmission like this: <tt>Get(<em>var</em>)</tt>. The variable in the parentheses is where the time of the robot's movement is stored. You can display the time moved with a <tt><a href="/disp">Disp</a></tt> command.
 
 ## Related Commands
 
-*   [GetCalc(](/getcalc)
-*   [Send(](/send)
+*   <tt><a href="/getcalc">GetCalc(</a></tt>
+*   <tt><a href="/send">Send(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

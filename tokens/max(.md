@@ -117,7 +117,7 @@ Returns a real or complex list of the larger of `value` or each `list` element.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `2:max(`
 <hr>
 
-`max(X,Y)` returns the largest of the two numbers `X` and `Y`. `max(` returns the largest element of _list_. `max(` returns the pairwise maxima of the two lists. `max(` (equivalently, `max(X,`) returns a list whose elements are the larger of `X` or the corresponding element of the original list.
+<tt>max(X,Y)</tt> returns the largest of the two numbers <tt>X</tt> and <tt>Y</tt>. <tt>max(<em>list</em>)</tt> returns the largest element of _list_. <tt>max(<em>list1</em>,<em>list2</em>)</tt> returns the pairwise maxima of the two lists. <tt>max(<em>list1</em>,X)</tt> (equivalently, <tt>max(X,<em>list1</em>)</tt>) returns a list whose elements are the larger of <tt>X</tt> or the corresponding element of the original list.
 
 ```ti-basic
 max(2,3)
@@ -130,40 +130,40 @@ max({1,3},2)
      {2 3}
 ```
 
-Unlike comparison operators such as < and >, `max(` can also compare complex numbers. To do this, both arguments must be complex — either complex numbers or complex lists: `max(2,𝑖)` will throw an error even though `max(2+0𝑖,𝑖)` won't. In the case of complex numbers, the number with the largest absolute value will be returned. When the two numbers have the same absolute value, the first one will be returned: `max(𝑖,-𝑖)` returns 𝑖 and `max(-𝑖,𝑖)` returns -𝑖.
+Unlike comparison operators such as < and >, <tt>max(</tt> can also compare complex numbers. To do this, both arguments must be complex — either complex numbers or complex lists: <tt>max(2,𝑖)</tt> will throw an error even though <tt>max(2+0𝑖,𝑖)</tt> won't. In the case of complex numbers, the number with the largest absolute value will be returned. When the two numbers have the same absolute value, the first one will be returned: <tt>max(𝑖,-𝑖)</tt> returns 𝑖 and <tt>max(-𝑖,𝑖)</tt> returns -𝑖.
 
 ## Advanced Uses
 
-`max(` can be used in Boolean comparisons to see if at least one of a list is 1 (true) — useful because commands like [If](/if) or [While](/while) only deal with numbers, and not lists, but comparisons like `L₁=L₂` return a list of values. In general, the behavior you want varies, and you will use the [min(](/min) function or the `max(` function accordingly.
+<tt>max(</tt> can be used in Boolean comparisons to see if at least one of a list is 1 (true) — useful because commands like <tt><a href="/if">If</a></tt> or <tt><a href="/while">While</a></tt> only deal with numbers, and not lists, but comparisons like <tt>L₁=L₂</tt> return a list of values. In general, the behavior you want varies, and you will use the <tt><a href="/min">min(</a></tt> function or the <tt>max(</tt> function accordingly.
 
-Using `max(` will give you a lenient test — if any one element of the list is 1 (true), then the `max(` of the list is true — this is equivalent to putting an [or](/or) in between every element. For example, this tests if K is equal to any of 24, 25, 26, or 34 (the [getKey](/getkey) arrow key values):
+Using <tt>max(</tt> will give you a lenient test — if any one element of the list is 1 (true), then the <tt>max(</tt> of the list is true — this is equivalent to putting an <tt><a href="/or">or</a></tt> in between every element. For example, this tests if K is equal to any of 24, 25, 26, or 34 (the <tt><a href="/getkey">getKey</a></tt> arrow key values):
 
 ```ti-basic
 :If max(K={24,25,26,34
 :Disp "ARROW KEY
 ```
 
-To get the element of a real list in [Ans](/ans) with the greatest absolute value, use `imag(max(𝑖Ans))` or `max(abs(Ans))`.
+To get the element of a real list in <tt><a href="/ans">Ans</a></tt> with the greatest absolute value, use <tt>imag(max(𝑖Ans))</tt> or <tt>max(abs(Ans))</tt>.
 
-`max(` can be also used along with `min(` to constrain a value between a lower and upper number:
+<tt>max(</tt> can be also used along with <tt>min(</tt> to constrain a value between a lower and upper number:
 
 ```ti-basic
 :max(-1,min(1,100)) // returns 1 because 1 is between -1 & 100
 :max(-1,min(1,0)) // returns 0 because 1 is not between -1 & 0
 ```
 
-where the bounds for which the number 1 must fall between are first argument of `max(` and the second argument of `min(` in the above code.
+where the bounds for which the number 1 must fall between are first argument of <tt>max(</tt> and the second argument of <tt>min(</tt> in the above code.
 
 ## Error Conditions
 
 *   **[ERR:DATA TYPE](/errors#datatype)** is thrown when comparing a real and a complex number. This can be avoided by adding +0𝑖 to the real number (or _i^4_ right after it, for those who are familiar with complex numbers)
-*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown, when using `max(` with two lists, if they have different dimensions.
+*   **[ERR:DIM MISMATCH](/errors#dimmismatch)** is thrown, when using <tt>max(</tt> with two lists, if they have different dimensions.
 
 ## Related Commands
 
-*   [min(](/min)
-*   [sum(](/sum)
-*   [prod(](/prod)
+*   <tt><a href="/min">min(</a></tt>
+*   <tt><a href="/sum">sum(</a></tt>
+*   <tt><a href="/prod">prod(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

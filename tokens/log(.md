@@ -27,13 +27,13 @@ Returns logarithm of a real or complex number, expression, or list.
 <tt><kbd><b>log</b></kbd></tt>
 <hr>
 
-The `log(` command computes the base 10 logarithm of a value — the exponent to which 10 must be raised, to get that value. This makes it the inverse of the [10^(](/ten-exponent) command.
+The <tt>log(</tt> command computes the base 10 logarithm of a value — the exponent to which 10 must be raised, to get that value. This makes it the inverse of the <tt><a href="/ten-exponent">10^(</a></tt> command.
 
-`log(` is a real number for all positive real values. For negative numbers, `log(` is an imaginary number (so taking log( of a negative number will cause [ERR:NONREAL ANS](/errors#nonrealans) to be thrown in [Real](/real-mode) mode), and of course it's a complex number for complex values. log( is not defined at 0, even if you're in a complex mode.
+<tt>log(</tt> is a real number for all positive real values. For negative numbers, <tt>log(</tt> is an imaginary number (so taking log( of a negative number will cause [ERR:NONREAL ANS](/errors#nonrealans) to be thrown in <tt><a href="/real-mode">Real</a></tt> mode), and of course it's a complex number for complex values. log( is not defined at 0, even if you're in a complex mode.
 
 ## Advanced Uses
 
-Using either the [ln(](/ln) or the `log(` command, logarithms of any base can be calculated, using the identity:
+Using either the <tt><a href="/ln">ln(</a></tt> or the <tt>log(</tt> command, logarithms of any base can be calculated, using the identity:
 
 (1) $`\begin{align} \log_b{x} = \frac{\ln{x}}{\ln{b}} = \frac{\log{x}}{\log{b}} \end{align}`$ 
 
@@ -53,7 +53,7 @@ This is the exponent to which B must be raised, to get X. If using OS 2.53 MP or
 :log(X,B)
 ```
 
-This form is functionally identical to the [logBASE](/logbase) command with the same arguments available with the same OS, but unlike its counterpart does not have any special visual rendering when in `MATHPRINT` mode. Both `logBASE` and the second argument of `log(` are disabled in exam mode.
+This form is functionally identical to the <tt><a href="/logbase">logBASE</a></tt> command with the same arguments available with the same OS, but unlike its counterpart does not have any special visual rendering when in <tt>MATHPRINT</tt> mode. Both <tt>logBASE</tt> and the second argument of <tt>log(</tt> are disabled in exam mode.
 
 The base 10 logarithm specifically can also be used to calculate the number of digits a whole number has:
 
@@ -61,19 +61,19 @@ The base 10 logarithm specifically can also be used to calculate the number of d
 :1+int(log(N))
 ```
 
-This will return the number of digits `N` has, if `N` is a whole number. If `N` is a decimal, it will ignore the decimal digits of `N`.
+This will return the number of digits <tt>N</tt> has, if <tt>N</tt> is a whole number. If <tt>N</tt> is a decimal, it will ignore the decimal digits of <tt>N</tt>.
 
 ## Error Conditions
 
-*   **[ERR:ARGUMENT](/errors#argument)** when attempting to use the second argument of `log(` in exam mode.
-*   **[ERR:DOMAIN](/errors#domain)** when calculating `log(0)`.
-*   **[ERR:NONREAL ANS](/errors#nonrealans)** if taking `log(` of a negative number in [Real](/real-mode) mode.
+*   **[ERR:ARGUMENT](/errors#argument)** when attempting to use the second argument of <tt>log(</tt> in exam mode.
+*   **[ERR:DOMAIN](/errors#domain)** when calculating <tt>log(0)</tt>.
+*   **[ERR:NONREAL ANS](/errors#nonrealans)** if taking <tt>log(</tt> of a negative number in <tt><a href="/real-mode">Real</a></tt> mode.
 
 ## Related Commands
 
-*   [10^(](/ten-exponent)
-*   [ln(](/ln)
-*   [logBASE(](/logbase)
+*   <tt><a href="/ten-exponent">10^(</a></tt>
+*   <tt><a href="/ln">ln(</a></tt>
+*   <tt><a href="/logbase">logBASE(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

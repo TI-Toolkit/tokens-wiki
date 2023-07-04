@@ -27,7 +27,7 @@ Displays a real or complex number, expression, list, or matrix as a fraction sim
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `1:Frac`
 <hr>
 
-`►Frac` attempts to display the input in fraction form. It only works on the [home screen](/homescreen) outside a program, or with the [Disp](/disp) and [Pause](/pause) commands in a program. It takes up to 12 decimal places of a non-terminating decimal to find the corresponding fraction. The decimal input is returned if `►Frac` fails to find the fraction form.
+<tt>►Frac</tt> attempts to display the input in fraction form. It only works on the [home screen](/homescreen) outside a program, or with the <tt><a href="/disp">Disp</a></tt> and <tt><a href="/pause">Pause</a></tt> commands in a program. It takes up to 12 decimal places of a non-terminating decimal to find the corresponding fraction. The decimal input is returned if <tt>►Frac</tt> fails to find the fraction form.
 
 For a more versatile algorithm for finding fractions, see the [Decimal to Fraction](/decimal-to-fraction) routine.
 
@@ -40,7 +40,7 @@ For a more versatile algorithm for finding fractions, see the [Decimal to Fracti
 
 ## Related Commands
 
-*   [►Dec](/dec)
+*   <tt><a href="/dec">►Dec</a></tt>
 
 ## See Also
 

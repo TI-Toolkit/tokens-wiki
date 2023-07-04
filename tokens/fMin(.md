@@ -35,9 +35,9 @@ Returns the value of `variable` where the local minimum of `expression` occurs, 
 <tt><kbd><b>math</b></kbd></tt>, `MATH`, `6:fMin(`
 <hr>
 
-`fMin(` finds the value of _var_ between _lo_ and _hi_ at which the minimum of _f_(_var_) occurs. _tol_ controls the accuracy of the minimum value computed. The default value of _tol_ is 10<sup>-5</sup>.
+<tt>fMin(<em>f</em>(<em>var</em>),<em>var</em>,<em>lo</em>,<em>hi</em>[,<em>tol</em>])</tt> finds the value of _var_ between _lo_ and _hi_ at which the minimum of _f_(_var_) occurs. _tol_ controls the accuracy of the minimum value computed. The default value of _tol_ is 10<sup>-5</sup>.
 
-`fMin(` only works for real numbers and expressions. Brent's method for optimization is used for approximating the minimum value.
+<tt>fMin(</tt> only works for real numbers and expressions. Brent's method for optimization is used for approximating the minimum value.
 
 ```ti-basic
 fMin(cos(sin(X)+Xcos(X)),X,0,2)
@@ -48,7 +48,7 @@ Keep in mind that the result is the value of _var_, and not the value of _f(var)
 
 ## Advanced Uses
 
-`fMin(` is sometimes useful in finding so-called "multiple roots" of a function. If the graph of your function appears "flat" near the root, `fMin(` might be able to find the value of the root more accurately than [solve(](/solve).
+<tt>fMin(</tt> is sometimes useful in finding so-called "multiple roots" of a function. If the graph of your function appears "flat" near the root, <tt>fMin(</tt> might be able to find the value of the root more accurately than <tt><a href="/solve">solve(</a></tt>.
 
 ## Error Conditions
 
@@ -58,10 +58,10 @@ Keep in mind that the result is the value of _var_, and not the value of _f(var)
 
 ## Related Commands
 
-*   [fMax(](/fmax)
-*   [fnInt(](/fnint)
-*   [nDeriv(](/nderiv)
-*   [solve(](/solve)
+*   <tt><a href="/fmax">fMax(</a></tt>
+*   <tt><a href="/fnint">fnInt(</a></tt>
+*   <tt><a href="/nderiv">nDeriv(</a></tt>
+*   <tt><a href="/solve">solve(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

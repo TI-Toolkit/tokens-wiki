@@ -19,7 +19,7 @@ Sets horizontal split-screen mode.
 <tt><kbd><b>mode</b></kbd></tt>, `Horiz`
 <hr>
 
-`Horiz` is usually at the beginning of a program. It is used at the beginning to ensure that the screen mode is `Horiz`, for programs such as Hangman that want to use [Input](/input) but also have the graph screen shown. Note that if you use pixels, the y-coordinate can be no larger than 30, since that is the maximum pixel's range.
+<tt>Horiz</tt> is usually at the beginning of a program. It is used at the beginning to ensure that the screen mode is <tt>Horiz</tt>, for programs such as Hangman that want to use <tt><a href="/input">Input</a></tt> but also have the graph screen shown. Note that if you use pixels, the y-coordinate can be no larger than 30, since that is the maximum pixel's range.
 
 ```ti-basic
 :Horiz
@@ -27,8 +27,8 @@ Sets horizontal split-screen mode.
 
 ## Related Commands
 
-*   [Full](/full)
-*   [G-T](/g-t)
+*   <tt><a href="/full">Full</a></tt>
+*   <tt><a href="/g-t">G-T</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

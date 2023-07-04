@@ -48,11 +48,11 @@ Returns a list of `e` raised to a `list` of powers.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>eˣ</kbd>
 <hr>
 
-The _e_^( command raises the constant _[e](/e-value)_ to a power. Since it's possible to just type out _e_, ^, and (, the reason for having a separate function isn't immediately obvious but in fact most of the time you need to use _e_, it's to raise it to a power.
+The <tt><em>e</em>^(</tt> command raises the constant <tt><em><a href="/e-value">e</a></em></tt> to a power. Since it's possible to just type out <tt><em>e</em></tt>, ^, and (, the reason for having a separate function isn't immediately obvious but in fact most of the time you need to use <tt><em>e</em></tt>, it's to raise it to a power.
 
-The trigonometric and hyperbolic functions can be expressed, and in fact are usually defined, in terms of _e_^(.
+The trigonometric and hyperbolic functions can be expressed, and in fact are usually defined, in terms of <tt><em>e</em>^(</tt>.
 
-_e_^( accepts numbers and lists (but unfortunately not matrices) as arguments. It also works, and is often used for, complex numbers (in fact, one of the standard forms of complex numbers on TI-83 series calculators is [re^θi](/re-thetai), which uses the _e_^( function`)`
+<tt><em>e</em>^(</tt> accepts numbers and lists (but unfortunately not matrices) as arguments. It also works, and is often used for, complex numbers (in fact, one of the standard forms of complex numbers on TI-83 series calculators is <tt><a href="/re-thetai">re^θi</a></tt>, which uses the <tt><em>e</em>^(</tt> function<tt>)</tt>
 
 ```ti-basic
 e^(2)
@@ -65,7 +65,7 @@ e^({-1,0,1})
 
 ## Formulas
 
-The _e_^( is usually defined by an infinite series:
+The <tt><em>e</em>^(</tt> is usually defined by an infinite series:
 
 (1) $`\begin{align} e^x=\sum_{n=0}^\infty{\frac{x^n}{n!}} \end{align}`$ 
 
@@ -73,9 +73,9 @@ This is then used to define exponentiation in general (for all real and even com
 
 ## Related Commands
 
-*   _[e](/e-value)_
-*   [ln(](/ln)
-*   [10^(](/ten-exponent)
+*   <tt><em><a href="/e-value">e</a></em></tt>
+*   <tt><a href="/ln">ln(</a></tt>
+*   <tt><a href="/ten-exponent">10^(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

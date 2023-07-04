@@ -27,7 +27,7 @@ Returns the row-echelon form of a `matrix`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>matrix</kbd>, `MATH`, `A:ref(`
 <hr>
 
-Given a matrix with at least as many columns as it has rows, the `ref(` command uses a technique called Gaussian elimination to put the matrix into row-echelon form.
+Given a matrix with at least as many columns as it has rows, the <tt>ref(</tt> command uses a technique called Gaussian elimination to put the matrix into row-echelon form.
 
 This means that the leftmost N columns (if the matrix has N rows) of the matrix are upper triangular - all entries below the main diagonal are zero. What's more, every entry on the main diagonal is either 0 or 1.
 
@@ -44,9 +44,9 @@ ref(Ans)►Frac
 
 ## Advanced Uses
 
-In theory, a system of linear equations in N variables can be solved using the `ref(` command - an equation of the form $a_1x_1+\dots + a_nx_n = b$ becomes a row $a_1, \dots, a_n, b$, and is put into the matrix. If there is a sufficient number of conditions, the last row of the reduced matrix will give you the value of the last variable, and back-substitution will give you the others.
+In theory, a system of linear equations in N variables can be solved using the <tt>ref(</tt> command - an equation of the form $a_1x_1+\dots + a_nx_n = b$ becomes a row $a_1, \dots, a_n, b$, and is put into the matrix. If there is a sufficient number of conditions, the last row of the reduced matrix will give you the value of the last variable, and back-substitution will give you the others.
 
-In practice, it's easier to use [rref(](/rref) instead for the same purpose.
+In practice, it's easier to use <tt><a href="/rref">rref(</a></tt> instead for the same purpose.
 
 ## Error Conditions
 
@@ -54,11 +54,11 @@ In practice, it's easier to use [rref(](/rref) instead for the same purpose.
 
 ## Related Commands
 
-*   [rref(](/rref)
-*   [rowSwap(](/rowswap)
-*   [row+(](/rowplus)
-*   [*row(](/timesrow)
-*   [*row+(](/timesrowplus)
+*   <tt><a href="/rref">rref(</a></tt>
+*   <tt><a href="/rowswap">rowSwap(</a></tt>
+*   <tt><a href="/rowplus">row+(</a></tt>
+*   <tt><a href="/timesrow">*row(</a></tt>
+*   <tt><a href="/timesrowplus">*row+(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

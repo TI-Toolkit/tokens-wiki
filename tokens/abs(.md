@@ -48,7 +48,7 @@ Returns the magnitude of a complex number or list.
 <tt><kbd><b>math</b></kbd></tt>, `CMPLX`, `5:abs(`
 <hr>
 
-`abs(` returns the absolute value of the real number _x_. Also works on a list or matrix of real numbers.
+<tt>abs(<em>x</em>)</tt> returns the absolute value of the real number _x_. Also works on a list or matrix of real numbers.
 
 ```ti-basic
 abs(3)
@@ -58,7 +58,7 @@ abs(‾3)
      3
 ```
 
-For complex numbers, `abs(z)` returns the absolute value (also known as the complex modulus, norm, or a hundred other terms) of the complex number _z_. If _z_ is represented as _x_+i_y_ where x and y are both real, `abs(z)` returns √(_x_²+_y_²). Also works on a list of complex numbers.
+For complex numbers, <tt>abs(z)</tt> returns the absolute value (also known as the complex modulus, norm, or a hundred other terms) of the complex number _z_. If _z_ is represented as _x_+i_y_ where x and y are both real, <tt>abs(z)</tt> returns √(_x_²+_y_²). Also works on a list of complex numbers.
 
 ```ti-basic
 abs(3+4i)
@@ -67,7 +67,7 @@ abs(3+4i)
 
 ## Optimization
 
-The `abs(` command, used properly, may be a smaller method of testing if a variable is in some range. For example:
+The <tt>abs(</tt> command, used properly, may be a smaller method of testing if a variable is in some range. For example:
 
 ```ti-basic
 :If 10<X and X<20
@@ -75,7 +75,7 @@ can be
 :If 5>abs(X-15
 ```
 
-In general, the first number, A, in the expression `A>abs(X-B)` should be half the length of the range, half of 10 in this case, and the second number, B, should be the midpoint of the range (here, 15).
+In general, the first number, A, in the expression <tt>A&gt;abs(X-B)</tt> should be half the length of the range, half of 10 in this case, and the second number, B, should be the midpoint of the range (here, 15).
 
 This can be taken to extreme degrees. For example, the following code uses abs( three times to test if X is the [getKey](/getkey) keycode of one of the keys 1, 2, 3, 4, 5, 6, 7, 8, or 9:
 
@@ -85,15 +85,15 @@ This can be taken to extreme degrees. For example, the following code uses abs( 
 
 * * *
 
-For complex numbers given by a separate real and complex part, `abs(X+iY)` can be optimized to R►Pr(X,Y).
+For complex numbers given by a separate real and complex part, <tt>abs(X+iY)</tt> can be optimized to R►Pr(X,Y).
 
 ## Related Commands
 
-*   [angle(](/angle)
-*   [real(](/real-func)
-*   [imag(](/imag)
-*   [conj(](/conj)
-*   [R►Pr(](/r-pr)
+*   <tt><a href="/angle">angle(</a></tt>
+*   <tt><a href="/real-func">real(</a></tt>
+*   <tt><a href="/imag">imag(</a></tt>
+*   <tt><a href="/conj">conj(</a></tt>
+*   <tt><a href="/r-pr">R►Pr(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

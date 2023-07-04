@@ -19,7 +19,7 @@ Replots the functions immediately, updating the window variables to preset value
 <tt><kbd><b>zoom</b></kbd></tt>, `ZOOM`, `7:ZTrig`
 <hr>
 
-The `ZTrig` command sets the screen to a special [friendly window](/friendly-window) useful for trigonometric calculations. Unlike the [ZDecimal](/zdecimal) and [ZInteger](/zinteger) commands, for which the distance between two pixels is a short decimal or integer, `ZTrig` sets the horizontal distance between two pixels to be π/24 (in [Radian](/radian-mode) mode) or 7.5 (in [Degree](/degree-mode) mode) . The specific changes `ZTrig` makes are:
+The <tt>ZTrig</tt> command sets the screen to a special [friendly window](/friendly-window) useful for trigonometric calculations. Unlike the <tt><a href="/zdecimal">ZDecimal</a></tt> and <tt><a href="/zinteger">ZInteger</a></tt> commands, for which the distance between two pixels is a short decimal or integer, <tt>ZTrig</tt> sets the horizontal distance between two pixels to be π/24 (in <tt><a href="/radian-mode">Radian</a></tt> mode) or 7.5 (in <tt><a href="/degree-mode">Degree</a></tt> mode) . The specific changes <tt>ZTrig</tt> makes are:
 
 *   Xmin=-352.5[°](/degree-symbol) or -47/24π<sup><a href="/radian-symbol">r</a></sup>
 *   Xmax=352.5° or 47/24π<sup>r</sup>
@@ -28,13 +28,13 @@ The `ZTrig` command sets the screen to a special [friendly window](/friendly-win
 *   Ymax=4
 *   Yscl=1
 
-Although this window is not quite square (and therefore, distances in the X and Y direction are not exactly equally proportioned), it is quite close, when in `Radian` mode. In a square window (such as the output of [ZSquare](/zsquare)), Ymax would have to be 31/24π, which is approximately 4.05789. As you can see, the value of 4 that `ZTrig` uses is not too far off.
+Although this window is not quite square (and therefore, distances in the X and Y direction are not exactly equally proportioned), it is quite close, when in <tt>Radian</tt> mode. In a square window (such as the output of <tt><a href="/zsquare">ZSquare</a></tt>), Ymax would have to be 31/24π, which is approximately 4.05789. As you can see, the value of 4 that <tt>ZTrig</tt> uses is not too far off.
 
 ## Advanced Uses
 
-In theory, `ZTrig` should be quite useful in graphing trigonometric functions, since the calculated points would fall exactly on important angles; for example, it would graph the asymptotes of Y=[tan(](/tan)X) correctly. This is actually only true when in [Degree](/degree-mode) mode. In [Radian](/radian-mode) mode, due to round-off error, the pixels far away from the origin do not _exactly_ correspond to rational multiples of π. For example, the pixel which was supposed to correspond to π/2 actually has a value of .5000000001*π, which is enough to make this command mostly useless.
+In theory, <tt>ZTrig</tt> should be quite useful in graphing trigonometric functions, since the calculated points would fall exactly on important angles; for example, it would graph the asymptotes of Y=<tt><a href="/tan">tan(</a></tt>X) correctly. This is actually only true when in <tt><a href="/degree-mode">Degree</a></tt> mode. In <tt><a href="/radian-mode">Radian</a></tt> mode, due to round-off error, the pixels far away from the origin do not _exactly_ correspond to rational multiples of π. For example, the pixel which was supposed to correspond to π/2 actually has a value of .5000000001*π, which is enough to make this command mostly useless.
 
-However, in [G-T](/g-t) mode, the size that the graph takes up on the screen is different, and `ZTrig` uses the same values, unlike [ZDecimal](/zdecimal).
+However, in <tt><a href="/g-t">G-T</a></tt> mode, the size that the graph takes up on the screen is different, and <tt>ZTrig</tt> uses the same values, unlike <tt><a href="/zdecimal">ZDecimal</a></tt>.
 
 ## Error Conditions
 
@@ -42,9 +42,9 @@ However, in [G-T](/g-t) mode, the size that the graph takes up on the screen is 
 
 ## Related Commands
 
-*   [ZDecimal](/zdecimal)
-*   [ZInteger](/zinteger)
-*   [ZStandard](/zstandard)
+*   <tt><a href="/zdecimal">ZDecimal</a></tt>
+*   <tt><a href="/zinteger">ZInteger</a></tt>
+*   <tt><a href="/zstandard">ZStandard</a></tt>
 
 ## See Also
 

@@ -33,9 +33,9 @@ line style #: 1-4.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `DRAW`, `3:Horizontal`
 <hr>
 
-`Horizontal Y` draws a vertical line from the left of the graph screen to the right at _Y_. `Horizontal` is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart [Vertical](/vertical).
+<tt>Horizontal Y</tt> draws a vertical line from the left of the graph screen to the right at _Y_. <tt>Horizontal</tt> is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart <tt><a href="/vertical">Vertical</a></tt>.
 
-`Horizontal` is affected by the window settings, unlike the [Pxl-](/pxl-on) commands.
+<tt>Horizontal</tt> is affected by the window settings, unlike the <tt><a href="/pxl-on">Pxl-</a></tt> commands.
 
 ```ti-basic
 :Horizontal 5
@@ -51,7 +51,7 @@ One of the fastest ways to make the entire screen black is by drawing horizontal
 :End
 ```
 
-If working with TI 84+C version calculators, the `Horizontal` command takes an additional color argument, as shown below:
+If working with TI 84+C version calculators, the <tt>Horizontal</tt> command takes an additional color argument, as shown below:
 
 ```ti-basic
 Horizontal 5,GRAY
@@ -59,8 +59,8 @@ Horizontal 5,GRAY
 
 ## Related Commands
 
-*   [Line(](/line)
-*   [Vertical](/vertical)
+*   <tt><a href="/line">Line(</a></tt>
+*   <tt><a href="/vertical">Vertical</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

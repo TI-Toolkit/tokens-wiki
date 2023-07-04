@@ -29,7 +29,7 @@ Calculates the number of days between `date1` and `date2` using the actual-day-c
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `D:dbd(`
 <hr>
 
-The `dbd(` command calculates the number of days between two dates. Each date is encoded as a single number in one of two formats (two formats can be mixed in the same command):
+The <tt>dbd(</tt> command calculates the number of days between two dates. Each date is encoded as a single number in one of two formats (two formats can be mixed in the same command):
 
 *   day, month, year — DDMM.YY (e.g. April 26, 1989 would be 2604.89)
 *   month, day, year — MM.DDYY (e.g. April 26, 1989 would be 04.2689 or just 4.2689)
@@ -38,9 +38,9 @@ Because this is just a number like any other, leading zeroes and trailing zeroes
 
 Since there are only two digits for the year, obviously only a century's worth of dates can be handled. The calculator assumes this range to be from January 1, 1950 to December 31, 2049.
 
-If the second date comes before the first, `dbd(` will return a negative number of days, so the range of possible results is from -36524 to 36524.
+If the second date comes before the first, <tt>dbd(</tt> will return a negative number of days, so the range of possible results is from -36524 to 36524.
 
-Finally, `dbd(` will also work for list inputs in the usual manner: a single date will be compared against every date in a list, and two lists of dates will be paired up.
+Finally, <tt>dbd(</tt> will also work for list inputs in the usual manner: a single date will be compared against every date in a list, and two lists of dates will be paired up.
 
 ```ti-basic
 dbd(612.07,2512.07
@@ -53,7 +53,7 @@ dbd(1.0107,{2.0107,3.0107,4.0107})
 
 ## Advanced Uses
 
-The `dbd(` command can be used to calculate the [day of week](/day-of-week) without using the [dayOfWk(](/dayofwk) command, which is only available on the TI-84+ or higher.
+The <tt>dbd(</tt> command can be used to calculate the [day of week](/day-of-week) without using the <tt><a href="/dayofwk">dayOfWk(</a></tt> command, which is only available on the TI-84+ or higher.
 
 ## Error Conditions
 
@@ -61,7 +61,7 @@ The `dbd(` command can be used to calculate the [day of week](/day-of-week) with
 
 ## Related Commands
 
-*   [dayOfWk(](/dayofwk)
+*   <tt><a href="/dayofwk">dayOfWk(</a></tt>
 
 ## See Also
 

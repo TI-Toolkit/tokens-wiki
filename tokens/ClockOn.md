@@ -19,11 +19,11 @@ Turns on the clock display in the mode screen.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `ClockOn`
 <hr>
 
-The `ClockOn` command turns on the clock display at the bottom of the [mode screen](/settings) on the TI-84+/SE calculators. Alternatively, you can scroll down to the 'TURN CLOCK ON' message that is displayed in place of the clock on the mode screen and press ENTER twice. You can turn the clock off by using the [ClockOff](/clockoff) command.
+The <tt>ClockOn</tt> command turns on the clock display at the bottom of the [mode screen](/settings) on the TI-84+/SE calculators. Alternatively, you can scroll down to the 'TURN CLOCK ON' message that is displayed in place of the clock on the mode screen and press ENTER twice. You can turn the clock off by using the <tt><a href="/clockoff">ClockOff</a></tt> command.
 
 ## Related Commands
 
-*   [ClockOff](/clockoff)
+*   <tt><a href="/clockoff">ClockOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

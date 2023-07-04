@@ -19,9 +19,9 @@ Sets full screen mode.
 <tt><kbd><b>mode</b></kbd></tt>, `Full`
 <hr>
 
-The `Full` command cancels the effects of either [Horiz](/horiz) or [G-T](/g-t).
+The <tt>Full</tt> command cancels the effects of either <tt><a href="/horiz">Horiz</a></tt> or <tt><a href="/g-t">G-T</a></tt>.
 
-`Full` is usually used either at the beginning and/or ending of a program. It is used at the beginning to ensure that the screen mode is `Full`, the standard setting. It is used at the end if the screen mode was changed in the middle of the program (as [clean up](/cleanup)).
+<tt>Full</tt> is usually used either at the beginning and/or ending of a program. It is used at the beginning to ensure that the screen mode is <tt>Full</tt>, the standard setting. It is used at the end if the screen mode was changed in the middle of the program (as [clean up](/cleanup)).
 
 ```ti-basic
 :Full
@@ -29,8 +29,8 @@ The `Full` command cancels the effects of either [Horiz](/horiz) or [G-T](/g-t).
 
 ## Related Commands
 
-*   [G-T](/g-t)
-*   [Horiz](/horiz)
+*   <tt><a href="/g-t">G-T</a></tt>
+*   <tt><a href="/horiz">Horiz</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

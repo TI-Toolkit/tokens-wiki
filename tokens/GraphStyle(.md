@@ -29,7 +29,7 @@ Sets a `graphstyle` for `function#`.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `H:GraphStyle(`
 <hr>
 
-The `GraphStyle(` command allows you to set the graphing style of an equation (line, thick line, dotted line, etc.) from within a program.
+The <tt>GraphStyle(</tt> command allows you to set the graphing style of an equation (line, thick line, dotted line, etc.) from within a program.
 
 Its first argument, _equation #_, is the number of the equation whose graphing style you want to change - this depends on the mode you're in. For example, if you wanted to change the graphing style of Y<sub>1</sub>, you would need to be in [function](/func) mode and use the value 1 for this argument. If you wanted to change the graphing style of r<sub>4</sub>, you would need to be in [polar](/polar-mode) mode and use the value 4.
 
@@ -43,7 +43,7 @@ The second argument is a number from 1 to 7, which translates to a graphing styl
 *   6 - animated: a ball moving along the graph (not valid in sequential mode).
 *   7 - a dotted line.
 
-Compare this to the effect of [Connected](/connected) or [Dot](/dot) mode. When either of these modes is set, all equations, from all graphing modes, are reverted to line style or dotted line style respectively; furthermore, it becomes the default graph style and clearing an equation will revert it to this graph style. The `GraphStyle(` command simply overrides these modes temporarily.
+Compare this to the effect of <tt><a href="/connected">Connected</a></tt> or <tt><a href="/dot">Dot</a></tt> mode. When either of these modes is set, all equations, from all graphing modes, are reverted to line style or dotted line style respectively; furthermore, it becomes the default graph style and clearing an equation will revert it to this graph style. The <tt>GraphStyle(</tt> command simply overrides these modes temporarily.
 
 ## Advanced
 
@@ -62,10 +62,10 @@ In shading modes (3 and 4), the shading style cycles as follows:
 
 ## Related Commands
 
-*   [FnOn](/fnon)
-*   [FnOff](/fnoff)
-*   [Connected](/connected)
-*   [Dot](/dot)
+*   <tt><a href="/fnon">FnOn</a></tt>
+*   <tt><a href="/fnoff">FnOff</a></tt>
+*   <tt><a href="/connected">Connected</a></tt>
+*   <tt><a href="/dot">Dot</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

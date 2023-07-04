@@ -98,7 +98,7 @@ Reports the remainder as a whole number from a division of two lists.
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `0:remainder(`
 <hr>
 
-The `remainder(` function divides the first number given by the second number, and returns the remainder similar to the modulus. This command is only available if you have the TI-84+/SE and the new 2.53 MP operating system on your calculator. This command can be used both on the Home screen and when programming.
+The <tt>remainder(</tt> function divides the first number given by the second number, and returns the remainder similar to the modulus. This command is only available if you have the TI-84+/SE and the new 2.53 MP operating system on your calculator. This command can be used both on the Home screen and when programming.
 
 See the code segment below for an example:
 
@@ -124,9 +124,9 @@ remainder(A,B
 ```
 
   
-[fPart(](/fpart) is a command that works in more OSes and more models. They also are the same size (5 bytes), as long as B is one byte.
+<tt><a href="/fpart">fPart(</a></tt> is a command that works in more OSes and more models. They also are the same size (5 bytes), as long as B is one byte.
 
-There is one difference: `remainder(` is guaranteed to return the correct answer for inputs in its accepted domain, and if you enter numbers that are too large, it will throw an error. The method with `fPart(`, on the other hand, will work for numbers of any size that does not actually cause an overflow - but when the numbers get too large, it will give the wrong answer. Compare:
+There is one difference: <tt>remainder(</tt> is guaranteed to return the correct answer for inputs in its accepted domain, and if you enter numbers that are too large, it will throw an error. The method with <tt>fPart(</tt>, on the other hand, will work for numbers of any size that does not actually cause an overflow - but when the numbers get too large, it will give the wrong answer. Compare:
 
 ```ti-basic
 remainder(18!,19
@@ -136,7 +136,7 @@ remainder(18!,19
 ```
 
   
-Here, the `remainder(` command fails because the input is out of range.. The `fPart(` method returns an answer, but it is wrong: 18! is not divisible by 19, because 18! is the product of the integers 1 through 18, and none of them are divisible by the prime number 19. When using `fPart(` as a substitute for `remainder(`, make sure that the inputs are within the proper range.
+Here, the <tt>remainder(</tt> command fails because the input is out of range.. The <tt>fPart(</tt> method returns an answer, but it is wrong: 18! is not divisible by 19, because 18! is the product of the integers 1 through 18, and none of them are divisible by the prime number 19. When using <tt>fPart(</tt> as a substitute for <tt>remainder(</tt>, make sure that the inputs are within the proper range.
 
 ## Error Conditions
 

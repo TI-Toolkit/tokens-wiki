@@ -19,7 +19,7 @@ Sets engineering display mode.
 <tt><kbd><b>mode</b></kbd></tt>, `Eng`
 <hr>
 
-The `Eng` command puts the calculator in engineering notation mode. This is a variation on scientific notation in which the exponent is restricted to be a multiple of 3 (and the mantissa can range between 1 and 1000, not including 1000 itself)
+The <tt>Eng</tt> command puts the calculator in engineering notation mode. This is a variation on scientific notation in which the exponent is restricted to be a multiple of 3 (and the mantissa can range between 1 and 1000, not including 1000 itself)
 
 ```ti-basic
 Eng
@@ -32,10 +32,10 @@ Eng
 
 ## Related Commands
 
-*   [Normal](/normal)
-*   [Sci](/sci)
-*   [Float](/float)
-*   [Fix](/fix)
+*   <tt><a href="/normal">Normal</a></tt>
+*   <tt><a href="/sci">Sci</a></tt>
+*   <tt><a href="/float">Float</a></tt>
+*   <tt><a href="/fix">Fix</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

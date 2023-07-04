@@ -19,7 +19,7 @@ Turns on the expression display during TRACE.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `ExprOn`
 <hr>
 
-The `ExprOn` command enables a "long" form of displaying the equation or plot being traced.
+The <tt>ExprOn</tt> command enables a "long" form of displaying the equation or plot being traced.
 
 In this mode, when tracing an equation, the equation's name and its formula are written in small font at the top of the screen. For example, when tracing Y<sub>1</sub> which is equal to 2X, "Y1=2X" will be displayed.
 
@@ -27,9 +27,9 @@ When tracing a plot, the plot number is written, followed by the list or lists t
 
 ## Related Commands
 
-*   [ExprOff](/exproff)
-*   [CoordOn](/coordon)
-*   [CoordOff](/coordoff)
+*   <tt><a href="/exproff">ExprOff</a></tt>
+*   <tt><a href="/coordon">CoordOn</a></tt>
+*   <tt><a href="/coordoff">CoordOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

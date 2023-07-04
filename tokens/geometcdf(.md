@@ -43,7 +43,7 @@ For example, consider a basketball player that always makes a shot with 1/4 prob
 3.  The probability of a success - making a shot - is 1/4
 4.  We're interested in the probability that it takes at most 4 trials to get a success
 
-The syntax here is `geometcdf(`. In this case:
+The syntax here is <tt>geometcdf(<em>probability</em>, <em>trials</em>)</tt>. In this case:
 
 ```ti-basic
 :geometcdf(1/4,4
@@ -52,25 +52,25 @@ The syntax here is `geometcdf(`. In this case:
   
 This will give about .684 when you run it, so there's a .684 probability that he'll make a shot within 4 throws.
 
-Note the relationship between [geometpdf(](/geometpdf) and `geometcdf(`. Since `geometpdf(` is the probability it will take **exactly** N trials, we can write that `geometcdf(1/4,4) = geometpdf(1/4,1) + geometpdf(1/4,2) + geometpdf(1/4,3) + geometpdf(1/4,4)`.
+Note the relationship between <tt><a href="/geometpdf">geometpdf(</a></tt> and <tt>geometcdf(</tt>. Since <tt>geometpdf(</tt> is the probability it will take **exactly** N trials, we can write that <tt>geometcdf(1/4,4) = geometpdf(1/4,1) + geometpdf(1/4,2) + geometpdf(1/4,3) + geometpdf(1/4,4)</tt>.
 
 ## Formulas
 
-Going off of the relationship between `geometpdf(` and `geometcdf(`, we can write a formula for `geometcdf(` in terms of `geometpdf(`:
+Going off of the relationship between <tt>geometpdf(</tt> and <tt>geometcdf(</tt>, we can write a formula for <tt>geometcdf(</tt> in terms of <tt>geometpdf(</tt>:
 
 (1) $`\begin{align} \texttt{geometcdf}(p,n) = \sum_{i=1}^{n} \texttt{geometpdf}(p,i) = \sum_{i=1}^{n} p\,(1-p)^{i-1} \end{align}`$ 
 
 (If you're unfamiliar with sigma notation, $\sum_{i=1}^{n}$ just means "add up the following for all values of i from 1 to n")
 
-However, we can take a shortcut to arrive at a much simpler expression for `geometcdf(`. Consider the opposite probability to the one we're interested in, the probability that it will **not** take "at most N trials", that is, the probability that it will take more than N trials. This means that the first N trials are failures. So `geometcdf(p,N)` = (1 - "probability that the first N trials are failures"), or:
+However, we can take a shortcut to arrive at a much simpler expression for <tt>geometcdf(</tt>. Consider the opposite probability to the one we're interested in, the probability that it will **not** take "at most N trials", that is, the probability that it will take more than N trials. This means that the first N trials are failures. So <tt>geometcdf(p,N)</tt> = (1 - "probability that the first N trials are failures"), or:
 
 (2) $`\begin{align} \texttt{geometcdf}(p,n) = 1-(1-p)^n \end{align}`$ 
 
 ## Related Commands
 
-*   [binompdf(](/binompdf)
-*   [binomcdf(](/binomcdf)
-*   [geometpdf(](/geometpdf)
+*   <tt><a href="/binompdf">binompdf(</a></tt>
+*   <tt><a href="/binomcdf">binomcdf(</a></tt>
+*   <tt><a href="/geometpdf">geometpdf(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

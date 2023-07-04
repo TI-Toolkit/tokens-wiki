@@ -29,7 +29,7 @@ Returns the variance of the elements in `list` with frequency `freqlist`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>list</kbd>, `MATH`, `8:variance(`
 <hr>
 
-The `variance(` command finds the sample variance of a list, a measure of the spread of a distribution. It takes a list of real numbers as a parameter. For example:
+The <tt>variance(</tt> command finds the sample variance of a list, a measure of the spread of a distribution. It takes a list of real numbers as a parameter. For example:
 
 ```ti-basic
 :Prompt L1
@@ -50,7 +50,7 @@ This is the formula for sample variance. The formula for population variance, wh
 
 (2) $`\begin{align} \sigma^2 = \frac{1}{N} \sum_{i=1}^N (x_i - \overline{x})^2 \end{align}`$ 
 
-If the population variance is required, just multiply the result of `variance()` by $1-1/N$.
+If the population variance is required, just multiply the result of <tt>variance()</tt> by $1-1/N$.
 
 With frequencies _w<sub>i</sub>_, the formula becomes
 
@@ -60,9 +60,9 @@ where $\overline{x}$ is the mean with frequencies included.
 
 ## Related Commands
 
-*   [mean(](/mean)
-*   [median(](/median)
-*   [stdDev(](/stddev)
+*   <tt><a href="/mean">mean(</a></tt>
+*   <tt><a href="/median">median(</a></tt>
+*   <tt><a href="/stddev">stdDev(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

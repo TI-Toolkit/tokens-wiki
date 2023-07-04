@@ -27,7 +27,7 @@ Returns the integer part of a real or complex number, expression, list, or matri
 <tt><kbd><b>math</b></kbd></tt>, `NUM`, `3:iPart(`
 <hr>
 
-`iPart(` returns the integer part of _value_, and extends to complex numbers, lists, and matrices.
+<tt>iPart(<em>value</em>)</tt> returns the integer part of _value_, and extends to complex numbers, lists, and matrices.
 
 ```ti-basic
 iPart(5.32)
@@ -40,17 +40,17 @@ iPart(‾4/5)
                0
 ```
 
-The difference between `iPart(` and [int(](/int) is subtle; while `iPart(` always truncates its parameters, simply removing the integer part, `int(` always rounds down. This means that they return the same answers for positive numbers, but `int(` will return an answer 1 less than `iPart(` for (non-integer) negative numbers. For example, `iPart(-5.32)` is -5, while `int(-5.32)` is -6.
+The difference between <tt>iPart(</tt> and <tt><a href="/int">int(</a></tt> is subtle; while <tt>iPart(</tt> always truncates its parameters, simply removing the integer part, <tt>int(</tt> always rounds down. This means that they return the same answers for positive numbers, but <tt>int(</tt> will return an answer 1 less than <tt>iPart(</tt> for (non-integer) negative numbers. For example, <tt>iPart(-5.32)</tt> is -5, while <tt>int(-5.32)</tt> is -6.
 
-In this case of positive values, though, the decision to use `iPart(` or `int(` is mostly a matter of preference - some people only use `int(` because it is shorter, some people use `iPart(` when there is a corresponding [fPart(](/fpart) taken. However, see the Command Timings section.
+In this case of positive values, though, the decision to use <tt>iPart(</tt> or <tt>int(</tt> is mostly a matter of preference - some people only use <tt>int(</tt> because it is shorter, some people use <tt>iPart(</tt> when there is a corresponding <tt><a href="/fpart">fPart(</a></tt> taken. However, see the Command Timings section.
 
 ## Advanced Uses
 
-`iPart(`, along with `fPart(` and `int(`, can be used for integer [compression](/compression).
+<tt>iPart(</tt>, along with <tt>fPart(</tt> and <tt>int(</tt>, can be used for integer [compression](/compression).
 
 ## Command Timings
 
-The following table compares the speeds of `int(` and `iPart(`. Each command was timed over 2000 iterations to find a noticeable difference.
+The following table compares the speeds of <tt>int(</tt> and <tt>iPart(</tt>. Each command was timed over 2000 iterations to find a noticeable difference.
 
 Format
 
@@ -92,13 +92,13 @@ int(1.643759
 
 82
 
-Conclusion: With 5 or fewer decimal places, you should consider using `int(` because of its speed, but with more decimals, `iPart(` remains constant to eventually beat out its counterpart.
+Conclusion: With 5 or fewer decimal places, you should consider using <tt>int(</tt> because of its speed, but with more decimals, <tt>iPart(</tt> remains constant to eventually beat out its counterpart.
 
 ## Related Commands
 
-*   [int(](/int)
-*   [fPart(](/fpart)
-*   [round(](/round)
+*   <tt><a href="/int">int(</a></tt>
+*   <tt><a href="/fpart">fPart(</a></tt>
+*   <tt><a href="/round">round(</a></tt>
 
 ## See Also
 

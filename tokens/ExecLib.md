@@ -19,11 +19,11 @@ Extends TI-Basic (not available)
 <tt><kbd><b>prgm</b></kbd></tt>
 <hr>
 
-Together with [OpenLib(](/openlib), `ExecLib` is used on the TI-84 Plus and TI-84 Plus SE for running routines from a Flash App library. This only works, of course, with libraries that have been specifically written for this purpose. The only such library so far is [usb8x](http://usb8x.sourceforge.net/), for advanced interfacing with the USB port.
+Together with <tt><a href="/openlib">OpenLib(</a></tt>, <tt>ExecLib</tt> is used on the TI-84 Plus and TI-84 Plus SE for running routines from a Flash App library. This only works, of course, with libraries that have been specifically written for this purpose. The only such library so far is [usb8x](http://usb8x.sourceforge.net/), for advanced interfacing with the USB port.
 
-Since `ExecLib` doesn't have any arguments, it would normally be able to run only one library routine. To get around this, usb8x uses a list passed in `Ans` as arguments to the command. This is most likely how any future libraries will do it as well.
+Since <tt>ExecLib</tt> doesn't have any arguments, it would normally be able to run only one library routine. To get around this, usb8x uses a list passed in <tt>Ans</tt> as arguments to the command. This is most likely how any future libraries will do it as well.
 
-The following program, which displays the version of usb8x, is an example of how to use `OpenLib(` and `ExecLib`:
+The following program, which displays the version of usb8x, is an example of how to use <tt>OpenLib(</tt> and <tt>ExecLib</tt>:
 
 ```ti-basic
 :OpenLib(USBDRV8X
@@ -36,7 +36,7 @@ Download usb8x [here](http://usb8x.sourceforge.net/). You may also be interested
 
 ## Related Commands
 
-*   [OpenLib(](/openlib)
+*   <tt><a href="/openlib">OpenLib(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

@@ -33,29 +33,29 @@ Computes the sum, rounded to `roundvalue`, of the principal amount between `pmt1
 <tt><kbd><b>apps</b></kbd></tt>, `1:Finance`, `CALC`, `0:Prn(`
 <hr>
 
-The `ΣPrn(` command calculates, for an [amortization schedule](http://en.wikipedia.org/wiki/Amortization_schedule), the principal amount over a range of payments: the portion of those payments that went toward paying off the principal. Its two required arguments are _payment1_ and _payment2_, which define the range of payments we're interested in. However, it also uses the values of the finance variables PV, PMT, and I% in its calculations.
+The <tt>ΣPrn(</tt> command calculates, for an [amortization schedule](http://en.wikipedia.org/wiki/Amortization_schedule), the principal amount over a range of payments: the portion of those payments that went toward paying off the principal. Its two required arguments are _payment1_ and _payment2_, which define the range of payments we're interested in. However, it also uses the values of the finance variables PV, PMT, and I% in its calculations.
 
-The optional argument, _roundvalue_, is the number of digits to which the calculator will round all internal calculations. Since this rounding affects further steps, this isn't the same as using [round(](/round) to round the result of `ΣPrn(` to the same number of digits.
+The optional argument, _roundvalue_, is the number of digits to which the calculator will round all internal calculations. Since this rounding affects further steps, this isn't the same as using <tt><a href="/round">round(</a></tt> to round the result of <tt>ΣPrn(</tt> to the same number of digits.
 
-Usually, you will know the values of **N**, `PV`, and `I%`, but not `PMT`. This means you'll have to use the finance solver to solve for `PMT` before calculating `ΣPrn(`; virtually always, `FV` will equal 0.
+Usually, you will know the values of <tt><strong>N</strong></tt>, <tt>PV</tt>, and <tt>I%</tt>, but not <tt>PMT</tt>. This means you'll have to use the finance solver to solve for <tt>PMT</tt> before calculating <tt>ΣPrn(</tt>; virtually always, <tt>FV</tt> will equal 0.
 
 ## Sample Problem
 
 _Imagine that you have taken out a 30-year fixed-rate mortgage. The loan amount is $100000, and the annual interest rate (APR) is 8%. Payments will be made monthly. How much of the principal amount was paid in the first five years?_
 
-We know the values of **N**, `I%`, and `PV`, though we still need to convert them to monthly values (since payments are made monthly). **N** is 30*12, and `I%` is 8/12. `PV` is just 100000.
+We know the values of <tt><strong>N</strong></tt>, <tt>I%</tt>, and <tt>PV</tt>, though we still need to convert them to monthly values (since payments are made monthly). <tt><strong>N</strong></tt> is 30*12, and <tt>I%</tt> is 8/12. <tt>PV</tt> is just 100000.
 
-Now, we use the finance solver to solve for `PMT`. Since you intend to pay out the entire loan, `FV` is 0. Using either the interactive TVM solver, or the [tvm_Pmt](/tvm) command, we get a value of about -$733.76 for `PMT`.
+Now, we use the finance solver to solve for <tt>PMT</tt>. Since you intend to pay out the entire loan, <tt>FV</tt> is 0. Using either the interactive TVM solver, or the <tt><a href="/tvm">tvm_Pmt</a></tt> command, we get a value of about -$733.76 for <tt>PMT</tt>.
 
-We are ready to use `ΣPrn(`. We are interested in the payments made during the first five years; that is, between the 1<sup>st</sup> payment and the 5*12=60<sup>th</sup> payment. `ΣPrn(1,60)` gives us the answer: -$4930.14 (the negative sign simply indicates the direction of cash flow)
+We are ready to use <tt>ΣPrn(</tt>. We are interested in the payments made during the first five years; that is, between the 1<sup>st</sup> payment and the 5*12=60<sup>th</sup> payment. <tt>ΣPrn(1,60)</tt> gives us the answer: -$4930.14 (the negative sign simply indicates the direction of cash flow)
 
 ## Formulas
 
-The formula that the calculator uses for `ΣPrn(` is in terms of [bal(](/bal):
+The formula that the calculator uses for <tt>ΣPrn(</tt> is in terms of <tt><a href="/bal">bal(</a></tt>:
 
 (1) $`\begin{align} \texttt{\Sigma Prn}(n_1,n_2)=\texttt{bal}(n_2)-\texttt{bal}(n_1) \end{align}`$ 
 
-When the _roundvalue_ argument isn't given, we can substitute the explicit formula for `bal(` and simplify to get the following formula:
+When the _roundvalue_ argument isn't given, we can substitute the explicit formula for <tt>bal(</tt> and simplify to get the following formula:
 
 (2) $`\begin{align} \texttt{\Sigma Prn}(n_1,n_2)=\left(\texttt{PV}-\frac{\texttt{PMT}}{I\%/100}\right)\left[\left(1-\frac{I\%}{100}\right)^{n_1}-\left(1-\frac{I\%}{100}\right)^{n_2}\right] \end{align}`$ 
 
@@ -65,9 +65,9 @@ When the _roundvalue_ argument isn't given, we can substitute the explicit formu
 
 ## Related Commands
 
-*   [bal(](/bal)
-*   [ΣInt(](/sigmaint)
-*   [tvm_Pmt](/tvm)
+*   <tt><a href="/bal">bal(</a></tt>
+*   <tt><a href="/sigmaint">ΣInt(</a></tt>
+*   <tt><a href="/tvm">tvm_Pmt</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

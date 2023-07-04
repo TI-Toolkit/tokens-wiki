@@ -29,11 +29,11 @@ Returns hyperbolic arccosine of a real number, expression, or list.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `cosh`
 <hr>
 
-The `coshֿ¹(` function gives the inverse hyperbolic cosine of a value. `coshֿ¹(x)` is the number y such that x = `cosh(y)`.
+The <tt>coshֿ¹(</tt> function gives the inverse hyperbolic cosine of a value. <tt>coshֿ¹(x)</tt> is the number y such that x = <tt>cosh(y)</tt>.
 
-Although `coshֿ¹(x)` can be defined for all real and complex numbers, it assumes real values only for x≥1. Since hyperbolic functions in the Z80 calculators are restricted only to real values, [ERR:DOMAIN](/errors#domain) is thrown when x<1.
+Although <tt>coshֿ¹(x)</tt> can be defined for all real and complex numbers, it assumes real values only for x≥1. Since hyperbolic functions in the Z80 calculators are restricted only to real values, [ERR:DOMAIN](/errors#domain) is thrown when x<1.
 
-The `coshֿ¹(` command also works for lists.
+The <tt>coshֿ¹(</tt> command also works for lists.
 
 ```ti-basic
 coshֿ¹(1)
@@ -48,11 +48,11 @@ coshֿ¹({2,3})
 
 ## Related Commands
 
-*   [sinh(](/sinh)
-*   [sinhֿ¹(](/arsinh)
-*   [cosh(](/cosh)
-*   [tanh(](/tanh)
-*   [tanhֿ¹(](/artanh)
+*   <tt><a href="/sinh">sinh(</a></tt>
+*   <tt><a href="/arsinh">sinhֿ¹(</a></tt>
+*   <tt><a href="/cosh">cosh(</a></tt>
+*   <tt><a href="/tanh">tanh(</a></tt>
+*   <tt><a href="/artanh">tanhֿ¹(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

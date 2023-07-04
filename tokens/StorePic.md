@@ -27,18 +27,18 @@ Stores current picture in picture `Picn`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>draw</kbd>, `STO`, `1:StorePic`
 <hr>
 
-`StorePic` saves the graph screen to a picture (to recall it later, use `RecallPic`). Every detail of the graph screen will be stored as it appears, with the sole exception of X and Y labels on the axes (if they are shown).
+<tt>StorePic</tt> saves the graph screen to a picture (to recall it later, use <tt>RecallPic</tt>). Every detail of the graph screen will be stored as it appears, with the sole exception of X and Y labels on the axes (if they are shown).
 
-The number passed to `StorePic` must be one of 0 through 9. It has to be a number: `StorePic X` will not work, even if X contains a value 0 through 9.
+The number passed to <tt>StorePic</tt> must be one of 0 through 9. It has to be a number: <tt>StorePic X</tt> will not work, even if X contains a value 0 through 9.
 
 ## Advanced Uses
 
-A combination of `StorePic` and `RecallPic` can be used to maintain a background over which another [sprite](/glossary#s) moves:
+A combination of <tt>StorePic</tt> and <tt>RecallPic</tt> can be used to maintain a background over which another [sprite](/glossary#s) moves:
 
-First, draw the background, and save it to a picture file with `StorePic`.  
+First, draw the background, and save it to a picture file with <tt>StorePic</tt>.  
 Next, draw the sprite to the screen.  
-When you want to move the sprite, erase it, then use `RecallPic` to draw the background again.  
-Then draw the sprite to its new location on the screen again (this can be done before or after using `RecallPic`).
+When you want to move the sprite, erase it, then use <tt>RecallPic</tt> to draw the background again.  
+Then draw the sprite to its new location on the screen again (this can be done before or after using <tt>RecallPic</tt>).
 
 Also, if a screen in your program takes more than a second to draw, and is displayed several times, you might want to consider storing it to a picture the first time it's drawn, and then recalling it every next time you want to draw it.
 
@@ -48,8 +48,8 @@ Also, if a screen in your program takes more than a second to draw, and is displ
 
 ## Related Commands
 
-*   [ClrDraw](/clrdraw)
-*   [RecallPic](/recallpic)
+*   <tt><a href="/clrdraw">ClrDraw</a></tt>
+*   <tt><a href="/recallpic">RecallPic</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

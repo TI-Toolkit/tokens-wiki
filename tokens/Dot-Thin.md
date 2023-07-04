@@ -19,7 +19,7 @@ Sets dot plotting mode; resets all Y=editor graph-style settings to Dot-Thin.
 <tt><kbd><b>mode</b></kbd></tt>, `Dot-Thin`
 <hr>
 
-The `Dot-Thin` command sets all lines in the current function type to be drawn using a series of individual pixels at each interval of `TraceStep`. The command can be called on the homescreen or within a program.
+The <tt>Dot-Thin</tt> command sets all lines in the current function type to be drawn using a series of individual pixels at each interval of <tt>TraceStep</tt>. The command can be called on the homescreen or within a program.
 
 ```ti-basic
 :ClrDraw
@@ -33,7 +33,7 @@ The `Dot-Thin` command sets all lines in the current function type to be drawn u
 
 ## Related Commands
 
-*   [Dot-Thick](/dot-thick)
+*   <tt><a href="/dot-thick">Dot-Thick</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

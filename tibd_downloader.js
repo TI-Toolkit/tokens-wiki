@@ -10,7 +10,7 @@ const turndownService = new TurndownService({
 
 TurndownService.prototype.escape = function (string) { return string; } // it's causing too many issues... ?
 
-turndownService.keep(['em', 'sup', 'sub']);
+turndownService.keep(['tt', 'em', 'sup', 'sub']);
 
 turndownService.addRule('fencedCodeBlock', {
     filter: function (node, options) {
@@ -22,15 +22,6 @@ turndownService.addRule('fencedCodeBlock', {
         return `\n\n${options.fence}ti-basic
 ${node.firstChild.textContent}
 ${options.fence}\n\n`;
-    }
-});
-
-turndownService.addRule('ttToInlineCode', {
-    filter: function (node, options) {
-        return node.nodeName === 'TT' && node.firstChild && node.firstChild.nodeType === 3; // TEXT_NODE
-    },
-    replacement: function (content, node, options) {
-        return `\`${node.firstChild.textContent}\``;
     }
 });
 

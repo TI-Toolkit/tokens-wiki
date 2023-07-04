@@ -19,9 +19,9 @@ Displays the graph.
 <tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `4:DispGraph`
 <hr>
 
-The `DispGraph` command displays the graph screen, along with everything drawn or graphed on it.
+The <tt>DispGraph</tt> command displays the graph screen, along with everything drawn or graphed on it.
 
-In many cases, this doesn't need to be done explicitly: commands from the 2nd DRAW menu, as well as many other graph screen commands, will display the graph screen automatically when they are used. Mainly, it's used for displaying the graphs of equations or plots in a program — you would define the variable in question, then use `DispGraph` to graph it. For example:
+In many cases, this doesn't need to be done explicitly: commands from the 2nd DRAW menu, as well as many other graph screen commands, will display the graph screen automatically when they are used. Mainly, it's used for displaying the graphs of equations or plots in a program — you would define the variable in question, then use <tt>DispGraph</tt> to graph it. For example:
 
 ```ti-basic
 :"sin(X)"→Y1
@@ -30,7 +30,7 @@ In many cases, this doesn't need to be done explicitly: commands from the 2nd DR
 
 ## Advanced Uses
 
-`DispGraph` can also be used to update the graph screen, even if it's already being displayed. For example, changing the value of a plot or equation variable doesn't update the graph immediately. Consider this program:
+<tt>DispGraph</tt> can also be used to update the graph screen, even if it's already being displayed. For example, changing the value of a plot or equation variable doesn't update the graph immediately. Consider this program:
 
 ```ti-basic
 :0→I
@@ -51,7 +51,7 @@ At first, it graphs the equation Y=Isin(X) with I=0. After this, I is cycled fro
 :End
 ```
 
-Now the `DispGraph` inside the loop ensures that the graph screen is updated every time, and the program will correctly display all eleven graphs.
+Now the <tt>DispGraph</tt> inside the loop ensures that the graph screen is updated every time, and the program will correctly display all eleven graphs.
 
 ## Error Conditions
 
@@ -59,8 +59,8 @@ Now the `DispGraph` inside the loop ensures that the graph screen is updated eve
 
 ## Related Commands
 
-*   [Disp](/disp)
-*   [DispTable](/disptable)
+*   <tt><a href="/disp">Disp</a></tt>
+*   <tt><a href="/disptable">DispTable</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

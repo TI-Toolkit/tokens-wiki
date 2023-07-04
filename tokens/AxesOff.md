@@ -19,17 +19,17 @@ Turns off the graph axes.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `AxesOff`
 <hr>
 
-The `AxesOff` command disables the X and Y axes on the graph screen, so that they aren't drawn. They can be enabled again with the [AxesOn](/axeson) command.
+The <tt>AxesOff</tt> command disables the X and Y axes on the graph screen, so that they aren't drawn. They can be enabled again with the <tt><a href="/axeson">AxesOn</a></tt> command.
 
-(the y=x line that is drawn when both [Seq](/seq-mode) and [Web](/web) modes are enabled is also controlled by this command)
+(the y=x line that is drawn when both <tt><a href="/seq-mode">Seq</a></tt> and <tt><a href="/web">Web</a></tt> modes are enabled is also controlled by this command)
 
-Generally, the `AxesOff` command should be used at the beginning of the program to disable the axes if the program is going to use the graph screen, since the axes get in the way. However, you should consider using [StoreGDB](/storegdb) and [RecallGDB](/recallgdb) to save this setting if that's the case.
+Generally, the <tt>AxesOff</tt> command should be used at the beginning of the program to disable the axes if the program is going to use the graph screen, since the axes get in the way. However, you should consider using <tt><a href="/storegdb">StoreGDB</a></tt> and <tt><a href="/recallgdb">RecallGDB</a></tt> to save this setting if that's the case.
 
 ## Related Commands
 
-*   [AxesOn](/axeson)
-*   [LabelOn](/labelon)
-*   [LabelOff](/labeloff)
+*   <tt><a href="/axeson">AxesOn</a></tt>
+*   <tt><a href="/labelon">LabelOn</a></tt>
+*   <tt><a href="/labeloff">LabelOff</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

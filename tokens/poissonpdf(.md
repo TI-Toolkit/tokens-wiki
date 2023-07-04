@@ -35,7 +35,7 @@ This command is used to calculate Poisson distribution probability. In plainer l
 2.  Each occurrence is independent of the time since the last occurrence
 3.  We're interested in the probability that the event occurs a specific number of times in a given time.
 
-The `poissonpdf(` command takes two arguments: The _mean_ is the average number of times the event will happen during the time interval we're interested in. The _value_ is the number of times we're interested in the event happening (so the output is the probability that the event happens _value_ times in the interval).
+The <tt>poissonpdf(</tt> command takes two arguments: The _mean_ is the average number of times the event will happen during the time interval we're interested in. The _value_ is the number of times we're interested in the event happening (so the output is the probability that the event happens _value_ times in the interval).
 
 For example, consider point on a city street where an average of 5 cars pass by each minute. What is the probability that in a given minute, 8 cars will drive by?
 
@@ -54,15 +54,15 @@ This will give about .065 when you run it, so there's a .065 probability that in
 
 ## Formulas
 
-The value of `poissonpdf(` is given by the formula
+The value of <tt>poissonpdf(</tt> is given by the formula
 
 (1) $`\begin{align} \texttt{poissonpdf}(\lambda,k) = \frac{e^{-\lambda}\lambda^k}{k!} \end{align}`$ 
 
 ## Related Commands
 
-*   [binompdf(](/binompdf)
-*   [binomcdf(](/binomcdf)
-*   [poissoncdf(](/poissoncdf)
+*   <tt><a href="/binompdf">binompdf(</a></tt>
+*   <tt><a href="/binomcdf">binomcdf(</a></tt>
+*   <tt><a href="/poissoncdf">poissoncdf(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

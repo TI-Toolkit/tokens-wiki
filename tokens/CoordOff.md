@@ -19,15 +19,15 @@ Turns off cursor coordinate value display.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>format</kbd>, `CoordOff`
 <hr>
 
-When moving a cursor on a screen, it's possible for the calculator to display the coordinates of the current point (either polar or rectangular coordinates, depending on which of [RectGC](/rectgc) or [PolarGC](/polargc) is set). The `CoordOff` command turns off this option.
+When moving a cursor on a screen, it's possible for the calculator to display the coordinates of the current point (either polar or rectangular coordinates, depending on which of <tt><a href="/rectgc">RectGC</a></tt> or <tt><a href="/polargc">PolarGC</a></tt> is set). The <tt>CoordOff</tt> command turns off this option.
 
-To turn it on, use the [CoordOn](/coordon) command.
+To turn it on, use the <tt><a href="/coordon">CoordOn</a></tt> command.
 
 ## Related Commands
 
-*   [CoordOn](/coordon)
-*   [RectGC](/rectgc)
-*   [PolarGC](/polargc)
+*   <tt><a href="/coordon">CoordOn</a></tt>
+*   <tt><a href="/rectgc">RectGC</a></tt>
+*   <tt><a href="/polargc">PolarGC</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

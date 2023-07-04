@@ -19,20 +19,20 @@ Identifies end of` For(`, `If`-`Then`-`Else`, `Repeat`, or `While` loop.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `7:End`
 <hr>
 
-The `End` command is used together with the different control structures, including the [If](/if) conditional, [While](/while) loop, [Repeat](/repeat) loop, and [For(](/for) loop, to indicate the _end_ of the code block for the respective control structure. In the case of the `If` conditional, you also need to add a [Then](/if) command, which is used to indicate the beginning of the control structure.
+The <tt>End</tt> command is used together with the different control structures, including the <tt><a href="/if">If</a></tt> conditional, <tt><a href="/while">While</a></tt> loop, <tt><a href="/repeat">Repeat</a></tt> loop, and <tt><a href="/for">For(</a></tt> loop, to indicate the _end_ of the code block for the respective control structure. In the case of the <tt>If</tt> conditional, you also need to add a <tt><a href="/if">Then</a></tt> command, which is used to indicate the beginning of the control structure.
 
 ## Advanced Uses
 
-You can prematurely end a control structure by using a single `If` conditional and then having `End` be its executed command. Because the calculator stores the positions of the `End` commands, it will take this `End` command to be the `End` command of the control structure.
+You can prematurely end a control structure by using a single <tt>If</tt> conditional and then having <tt>End</tt> be its executed command. Because the calculator stores the positions of the <tt>End</tt> commands, it will take this <tt>End</tt> command to be the <tt>End</tt> command of the control structure.
 
 ```ti-basic
 :If <condition>
 :End
 ```
 
-One of the most important features of the `End` command is putting multiple control structures inside of each other (known as nesting). While you typically nest `If` conditionals inside of loops, you can actually nest any control structure inside of any other control structure — this even works when using the same control structure, such as a `While` loop inside of another `While` loop.
+One of the most important features of the <tt>End</tt> command is putting multiple control structures inside of each other (known as nesting). While you typically nest <tt>If</tt> conditionals inside of loops, you can actually nest any control structure inside of any other control structure — this even works when using the same control structure, such as a <tt>While</tt> loop inside of another <tt>While</tt> loop.
 
-When nesting control structures, you need to remember to put the appropriate number of `End` commands to close the appropriate structure. The easiest way to keep track of lots of nested control structures is to code the first part, add an `End` immediately after the beginning, and then hit 2nd DEL on the line with the `End`, then hit ENTER a lot of times.
+When nesting control structures, you need to remember to put the appropriate number of <tt>End</tt> commands to close the appropriate structure. The easiest way to keep track of lots of nested control structures is to code the first part, add an <tt>End</tt> immediately after the beginning, and then hit 2nd DEL on the line with the <tt>End</tt>, then hit ENTER a lot of times.
 
 ## Error Conditions
 
@@ -41,11 +41,11 @@ When nesting control structures, you need to remember to put the appropriate num
 
 ## Related Commands
 
-*   [If](/if)
-*   [Then](/then)
-*   [While](/while)
-*   [Repeat](/repeat)
-*   [For(](/for)
+*   <tt><a href="/if">If</a></tt>
+*   <tt><a href="/then">Then</a></tt>
+*   <tt><a href="/while">While</a></tt>
+*   <tt><a href="/repeat">Repeat</a></tt>
+*   <tt><a href="/for">For(</a></tt>
 
 ## History
 | Calculator | OS Version | Description |

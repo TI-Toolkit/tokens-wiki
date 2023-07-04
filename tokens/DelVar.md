@@ -27,9 +27,9 @@ Deletes from memory the contents of `variable`.
 <tt><kbd><b>prgm</b></kbd></tt>, `CTL`, `G:DelVar`
 <hr>
 
-The `DelVar` command deletes the contents of a [variable](/variables) (and thus the variable itself) from memory. You can use the `DelVar` command with any variable: reals, lists, matrices, strings, pictures, etc. However, you cannot use `DelVar` on specific elements of a matrix or string; it will actually throw a [ERR:SYNTAX](/errors#syntax) error. (It also does not work on programs, unfortunately.)
+The <tt>DelVar</tt> command deletes the contents of a [variable](/variables) (and thus the variable itself) from memory. You can use the <tt>DelVar</tt> command with any variable: reals, lists, matrices, strings, pictures, etc. However, you cannot use <tt>DelVar</tt> on specific elements of a matrix or string; it will actually throw a [ERR:SYNTAX](/errors#syntax) error. (It also does not work on programs, unfortunately.)
 
-If the `DelVar` command is used with a real variable, the variable is not only deleted from memory but automatically set to zero the next time it is used. This is equivalent to using [store](/store) (`→`) to manually set the variable yourself. Because the `DelVar` command is two bytes instead of one, there is no size difference between the two.
+If the <tt>DelVar</tt> command is used with a real variable, the variable is not only deleted from memory but automatically set to zero the next time it is used. This is equivalent to using <tt><a href="/store">store</a></tt> (<tt>→</tt>) to manually set the variable yourself. Because the <tt>DelVar</tt> command is two bytes instead of one, there is no size difference between the two.
 
 ```ti-basic
 :0→A
@@ -37,19 +37,19 @@ same as
 :DelVar A
 ```
 
-While there is no size difference between the two, `DelVar` does have some problems that go along with using it. If used in a [For](/for) loop to delete the counter variable or used to delete the variable and/or value in the [IS>(](/is) or [DS<(](/ds) commands before using them, it will cause an [ERR:UNDEFINED](/errors#undefined) error.
+While there is no size difference between the two, <tt>DelVar</tt> does have some problems that go along with using it. If used in a <tt><a href="/for">For</a></tt> loop to delete the counter variable or used to delete the variable and/or value in the <tt><a href="/is">IS&gt;(</a></tt> or <tt><a href="/ds">DS&lt;(</a></tt> commands before using them, it will cause an [ERR:UNDEFINED](/errors#undefined) error.
 
-This is a result of the way that the interpreter in TI-Basic is designed, so there is nothing you can do about it. You just need to be cognizant of it when using `DelVar` in a `For(` loop or together with `IS>(` or `DS<(`.
+This is a result of the way that the interpreter in TI-Basic is designed, so there is nothing you can do about it. You just need to be cognizant of it when using <tt>DelVar</tt> in a <tt>For(</tt> loop or together with <tt>IS&gt;(</tt> or <tt>DS&lt;(</tt>.
 
 ## Advanced Uses
 
-When you are done using variables, you should delete them at the end of the program with the `DelVar` command to [cleanup](/cleanup). Each variable takes up a set amount of space (for example, a real variable is 15 bytes), and the more variables you can delete the more free memory is available. Free memory helps your programs run faster and allows you to pack more things on your calculator.
+When you are done using variables, you should delete them at the end of the program with the <tt>DelVar</tt> command to [cleanup](/cleanup). Each variable takes up a set amount of space (for example, a real variable is 15 bytes), and the more variables you can delete the more free memory is available. Free memory helps your programs run faster and allows you to pack more things on your calculator.
 
-Because the `DelVar` command doesn't update the [Ans](/ans) variable, you can use `DelVar` and the current value in `Ans` will still be preserved for later use.
+Because the <tt>DelVar</tt> command doesn't update the <tt><a href="/ans">Ans</a></tt> variable, you can use <tt>DelVar</tt> and the current value in <tt>Ans</tt> will still be preserved for later use.
 
 ## Optimizations
 
-The `DelVar` command does not need a line break or colon (which indicates a new line of code) following the variable name. This allows you to make chains of variables (organized in whatever order you want), and it saves a byte for each line break or colon removed.
+The <tt>DelVar</tt> command does not need a line break or colon (which indicates a new line of code) following the variable name. This allows you to make chains of variables (organized in whatever order you want), and it saves a byte for each line break or colon removed.
 
 ```ti-basic
 :DelVar A
@@ -58,7 +58,7 @@ can be
 :DelVar ADelVar B
 ```
 
-Besides making chains of variables, the `DelVar` command also allows you to take the command from the next line and put it immediately after the `DelVar` command.
+Besides making chains of variables, the <tt>DelVar</tt> command also allows you to take the command from the next line and put it immediately after the <tt>DelVar</tt> command.
 
 ```ti-basic
 :DelVar A
@@ -69,10 +69,10 @@ can be
 
 There are, however, two cases in which the following statement will be ignored, so you should add a newline:
 
-*   The [End](/end) from an [If](/if), [Then](/then) block.
-*   A [Lbl](/lbl) command.
+*   The <tt><a href="/end">End</a></tt> from an <tt><a href="/if">If</a></tt>, <tt><a href="/then">Then</a></tt> block.
+*   A <tt><a href="/lbl">Lbl</a></tt> command.
 
-`DelVar` also does not count as a line with respect to `IS>(`, `DS<(`, and single-line `If` statements.
+<tt>DelVar</tt> also does not count as a line with respect to <tt>IS&gt;(</tt>, <tt>DS&lt;(</tt>, and single-line <tt>If</tt> statements.
 
 ```ti-basic
 :If B
@@ -87,17 +87,17 @@ can be
 
 ## Command Timings
 
-The speed of the `DelVar` command depends on the circumstance where it is used. When the variable already exists, `DelVar` is slower because it has to deallocate the variable from the RAM. `DelVar` is also significantly slower for zeroing real variables when compared to using [→](/store) to set the variable to 0. The speed difference becomes apparent when the value is reset many times but is not a major factor if only used sparingly.
+The speed of the <tt>DelVar</tt> command depends on the circumstance where it is used. When the variable already exists, <tt>DelVar</tt> is slower because it has to deallocate the variable from the RAM. <tt>DelVar</tt> is also significantly slower for zeroing real variables when compared to using <tt><a href="/store">→</a></tt> to set the variable to 0. The speed difference becomes apparent when the value is reset many times but is not a major factor if only used sparingly.
 
 ## Error Conditions
 
-*   **[ERR:SYNTAX](/errors#syntax)** is thrown when trying to delete a system variable (e.g. `DelVar` Xmin) or a program, even though this is syntactically correct.
-*   **[ERR:UNDEFINED](/errors#undefined)** is thrown if you delete the loop variable while inside the loop, or delete the variable used in [IS>(](/is) or [DS<(](/ds).
-*   **[ERR:ARCHIVED](/errors#archived)** is thrown if you use `DelVar` on an archived variable.
+*   **[ERR:SYNTAX](/errors#syntax)** is thrown when trying to delete a system variable (e.g. <tt>DelVar</tt> Xmin) or a program, even though this is syntactically correct.
+*   **[ERR:UNDEFINED](/errors#undefined)** is thrown if you delete the loop variable while inside the loop, or delete the variable used in <tt><a href="/is">IS&gt;(</a></tt> or <tt><a href="/ds">DS&lt;(</a></tt>.
+*   **[ERR:ARCHIVED](/errors#archived)** is thrown if you use <tt>DelVar</tt> on an archived variable.
 
 ## Related Commands
 
-*   [ClrList](/clrlist)
+*   <tt><a href="/clrlist">ClrList</a></tt>
 
 ## See Also
 
