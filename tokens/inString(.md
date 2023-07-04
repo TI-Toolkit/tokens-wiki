@@ -21,7 +21,7 @@ Returns the character position in `string` of the first character of `substring 
 
 <tr><td><b>string</b></td><td>string</td><td></td></tr>
 
-<tr><td><b>substring</b></td><td></td><td></td></tr>
+<tr><td><b>substring</b></td><td>string</td><td></td></tr>
 
 <tr><td>start</td><td></td><td>Yes</td></tr>
 

@@ -397,7 +397,7 @@ for(let i = 0; i < 26; i++)
                 args[idx][1] = 'list'
             } else if (argName.includes('matrix')) {
                 args[idx][1] = 'matrix'
-            } else if (argName === 'string' || argName.startsWith('text')) {
+            } else if (argName.endsWith('string') || argName.startsWith('text')) {
                 args[idx][1] = 'string'
             } else if (argName === 'color#') {
                 args[idx][1] = 'colorNum'
