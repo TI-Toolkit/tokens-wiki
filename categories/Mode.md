@@ -12,7 +12,7 @@
  * <a href="../tokens/Param.md" title="0x77">Param</a>
  * <a href="../tokens/Polar.md" title="0x78">Polar</a>
  * <a href="../tokens/Radian.md" title="0x64">Radian</a>
- * <a href="../tokens/re^θ𝑖.md" title="0xBB4E">re^θ𝑖</a>
+ * <a href="../tokens/r𝑒^θ𝑖.md" title="0xBB4E">r𝑒^θ𝑖</a>
  * <a href="../tokens/Real.md" title="0xBB4D">Real</a>
  * <a href="../tokens/Sci.md" title="0x67">Sci</a>
  * <a href="../tokens/Seq.md" title="0x79">Seq</a>

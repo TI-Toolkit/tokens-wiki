@@ -211,10 +211,10 @@
  * <a href="../tokens/₁₀^(.md" title="0xC1">₁₀^(</a>
  * <a href="../tokens/³√(.md" title="0xBD">³√(</a>
  * <a href="../tokens/e_(BB31).md" title="0xBB31">e</a>
- * <a href="../tokens/e^(.md" title="0xBF">e^(</a>
+ * <a href="../tokens/𝑒^(.md" title="0xBF">𝑒^(</a>
  * <a href="../tokens/ᴇ.md" title="0x3B">ᴇ</a>
  * <a href="../tokens/𝑖.md" title="0x2C">𝑖</a>
- * <a href="../tokens/𝒏.md" title="0x6221">𝒏</a>
+ * <a href="../tokens/𝑛.md" title="0x6221">𝑛</a>
  * <a href="../tokens/ˣ√.md" title="0xF1">ˣ√</a>
  * <a href="../tokens/π.md" title="0xAC">π</a>
 
@@ -223,7 +223,7 @@
  * <a href="../tokens/ nCr.md" title="0x95"> nCr </a>
  * <a href="../tokens/ nPr.md" title="0x94"> nPr </a>
  * <a href="../tokens/►Nom(.md" title="0xBB05">►Nom(</a>
- * <a href="../tokens/𝒏.md" title="0x6221">𝒏</a>
+ * <a href="../tokens/𝑛.md" title="0x6221">𝑛</a>
  * <a href="../tokens/nDeriv(.md" title="0x25">nDeriv(</a>
  * <a href="../tokens/Normal.md" title="0x66">Normal</a>
  * <a href="../tokens/normalcdf(.md" title="0xBB10">normalcdf(</a>
@@ -294,7 +294,7 @@
  * <a href="../tokens/randInt(.md" title="0xBB0A">randInt(</a>
  * <a href="../tokens/randM(.md" title="0x20">randM(</a>
  * <a href="../tokens/randNorm(.md" title="0xBB1F">randNorm(</a>
- * <a href="../tokens/re^θ𝑖.md" title="0xBB4E">re^θ𝑖</a>
+ * <a href="../tokens/r𝑒^θ𝑖.md" title="0xBB4E">r𝑒^θ𝑖</a>
  * <a href="../tokens/Real.md" title="0xBB4D">Real</a>
  * <a href="../tokens/real(.md" title="0xBB26">real(</a>
  * <a href="../tokens/RecallGDB.md" title="0x9B">RecallGDB </a>

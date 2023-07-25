@@ -1,19 +1,20 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6305`|
-| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ U/V/W](<../categories/Variables.md#Window ➤ U/V/W>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `v(𝒏Min)`</li></ul> |
+| Hex Value     | `$EF88`|
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Sequences](<../categories/Variables.md#Sequences>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `u(𝑛)`</li></ul> |
 
-# `v(𝒏Min)`
+# `u(𝑛)`
 
 ## Overview
 
 
+<b>Comment</b>:CE OS 5.2+
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`v(𝒏Min)`
+`u(𝑛)`
 
 <hr>
 
@@ -41,8 +42,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | `V𝒏Start` added |
-| <b>TI-83</b> | 0.01013 | Renamed `V𝒏Start` to `v(𝒏Min)`
+| <b>TI-84+CE</b> | 5.2.0 | Added |
 
 ## Related Commands
 

@@ -1,20 +1,19 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$EF8D`|
-| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Sequences](<../categories/Variables.md#Sequences>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `w(𝒏+1)`</li></ul> |
+| Hex Value     | `$631F`|
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ U/V/W](<../categories/Variables.md#Window ➤ U/V/W>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `𝑛Min`</li></ul> |
 
-# `w(𝒏+1)`
+# `𝑛Min`
 
 ## Overview
 
 
-<b>Comment</b>:CE OS 5.2+
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`w(𝒏+1)`
+`𝑛Min`
 
 <hr>
 
@@ -42,7 +41,8 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-84+CE</b> | 5.2.0 | Added |
+| <b>TI-82</b> | 1.0 | `𝑛Start` added |
+| <b>TI-83</b> | 0.01013 | Renamed `𝑛Start` to `𝑛Min`
 
 ## Related Commands
 

@@ -34,7 +34,7 @@ The <tt>a+b𝑖</tt> command puts the calculator into rectangular complex number
 *   Taking square roots of negative numbers, and similar operations, no longer returns an error.
 *   Complex results are displayed in the form <tt>a+b𝑖</tt> (hence the name of the command)
 
-This is the standard way of displaying complex numbers, though they can also be displayed in polar form (see <tt><a href="re^θ𝑖.md">re^θ𝑖</a></tt> for more details). To extract the coefficients a and b, use the <tt><a href="real(.md">real(</a></tt> and <tt><a href="imag(.md">imag(</a></tt> commands.
+This is the standard way of displaying complex numbers, though they can also be displayed in polar form (see <tt><a href="r𝑒^θ𝑖.md">r𝑒^θ𝑖</a></tt> for more details). To extract the coefficients a and b, use the <tt><a href="real(.md">real(</a></tt> and <tt><a href="imag(.md">imag(</a></tt> commands.
 
 ## Advanced Uses
 
@@ -52,7 +52,7 @@ Real
 ## Related Commands
 
 *   <tt><a href="Real.md">Real</a></tt>
-*   <tt><a href="re^θ𝑖.md">re^θ𝑖</a></tt>
+*   <tt><a href="r𝑒^θ𝑖.md">r𝑒^θ𝑖</a></tt>
 
 ## See Also
 

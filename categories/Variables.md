@@ -42,18 +42,18 @@
 
 ## Sequences
 
- * <a href="../tokens/u(𝒏-2).md" title="0xEF82">u(𝒏-2)</a>
- * <a href="../tokens/v(𝒏-2).md" title="0xEF83">v(𝒏-2)</a>
- * <a href="../tokens/w(𝒏-2).md" title="0xEF84">w(𝒏-2)</a>
- * <a href="../tokens/u(𝒏-1).md" title="0xEF85">u(𝒏-1)</a>
- * <a href="../tokens/v(𝒏-1).md" title="0xEF86">v(𝒏-1)</a>
- * <a href="../tokens/w(𝒏-1).md" title="0xEF87">w(𝒏-1)</a>
- * <a href="../tokens/u(𝒏).md" title="0xEF88">u(𝒏)</a>
- * <a href="../tokens/v(𝒏).md" title="0xEF89">v(𝒏)</a>
- * <a href="../tokens/w(𝒏).md" title="0xEF8A">w(𝒏)</a>
- * <a href="../tokens/u(𝒏+1).md" title="0xEF8B">u(𝒏+1)</a>
- * <a href="../tokens/v(𝒏+1).md" title="0xEF8C">v(𝒏+1)</a>
- * <a href="../tokens/w(𝒏+1).md" title="0xEF8D">w(𝒏+1)</a>
+ * <a href="../tokens/u(𝑛-2).md" title="0xEF82">u(𝑛-2)</a>
+ * <a href="../tokens/v(𝑛-2).md" title="0xEF83">v(𝑛-2)</a>
+ * <a href="../tokens/w(𝑛-2).md" title="0xEF84">w(𝑛-2)</a>
+ * <a href="../tokens/u(𝑛-1).md" title="0xEF85">u(𝑛-1)</a>
+ * <a href="../tokens/v(𝑛-1).md" title="0xEF86">v(𝑛-1)</a>
+ * <a href="../tokens/w(𝑛-1).md" title="0xEF87">w(𝑛-1)</a>
+ * <a href="../tokens/u(𝑛).md" title="0xEF88">u(𝑛)</a>
+ * <a href="../tokens/v(𝑛).md" title="0xEF89">v(𝑛)</a>
+ * <a href="../tokens/w(𝑛).md" title="0xEF8A">w(𝑛)</a>
+ * <a href="../tokens/u(𝑛+1).md" title="0xEF8B">u(𝑛+1)</a>
+ * <a href="../tokens/v(𝑛+1).md" title="0xEF8C">v(𝑛+1)</a>
+ * <a href="../tokens/w(𝑛+1).md" title="0xEF8D">w(𝑛+1)</a>
 
 ## String
 
@@ -85,12 +85,12 @@
 
 ## Window ➤ U/V/W
 
- * <a href="../tokens/u(𝒏Min).md" title="0x6304">u(𝒏Min)</a>
- * <a href="../tokens/v(𝒏Min).md" title="0x6305">v(𝒏Min)</a>
+ * <a href="../tokens/u(𝑛Min).md" title="0x6304">u(𝑛Min)</a>
+ * <a href="../tokens/v(𝑛Min).md" title="0x6305">v(𝑛Min)</a>
  * <a href="../tokens/PlotStart.md" title="0x631B">PlotStart</a>
- * <a href="../tokens/𝒏Max.md" title="0x631D">𝒏Max</a>
- * <a href="../tokens/𝒏Min.md" title="0x631F">𝒏Min</a>
- * <a href="../tokens/w(𝒏Min).md" title="0x6332">w(𝒏Min)</a>
+ * <a href="../tokens/𝑛Max.md" title="0x631D">𝑛Max</a>
+ * <a href="../tokens/𝑛Min.md" title="0x631F">𝑛Min</a>
+ * <a href="../tokens/w(𝑛Min).md" title="0x6332">w(𝑛Min)</a>
  * <a href="../tokens/PlotStep.md" title="0x6334">PlotStep</a>
 
 ## Window ➤ X/Y

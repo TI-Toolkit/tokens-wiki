@@ -2,9 +2,9 @@
 |---------------|-------|
 | Hex Value     | `$EF8F`|
 | Categories    | <ul></ul> |
-| Localizations | <ul><li><b>FR</b>: `SUITE(𝒏)`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `SUITE(𝑛)`</li></ul> |
 
-# `SEQ(𝒏)`
+# `SEQ(𝑛)`
 
 ## Overview
 In sequence mode, SEQ(`n`) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable `n`.   Can also be set from the Y= editor in SEQ mode.

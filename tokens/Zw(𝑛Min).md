@@ -1,20 +1,18 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$EF88`|
-| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Sequences](<../categories/Variables.md#Sequences>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `u(𝒏)`</li></ul> |
+| Hex Value     | `$6333`|
+| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Zw(𝑛Min)`</li></ul> |
 
-# `u(𝒏)`
+# `Zw(𝑛Min)`
 
 ## Overview
 
 
-<b>Comment</b>:CE OS 5.2+
 
-<b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`u(𝒏)`
+`Zw(𝑛Min)`
 
 <hr>
 
@@ -42,7 +40,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-84+CE</b> | 5.2.0 | Added |
+| <b>TI-83</b> | 0.01013 | Added |
 
 ## Related Commands
 

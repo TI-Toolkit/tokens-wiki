@@ -29,7 +29,7 @@ Displays `complex value` in polar format.
 
 ## Description
 
-The ►Polar command can be used when displaying a complex number on the home screen, or with the [Disp](Disp.md) and [Pause](Pause.md) commands. It will then format the number as though [re^θ𝑖](re-thetai) mode were enabled. It also works with lists.
+The ►Polar command can be used when displaying a complex number on the home screen, or with the [Disp](Disp.md) and [Pause](Pause.md) commands. It will then format the number as though [r𝑒^θ𝑖](re-thetai) mode were enabled. It also works with lists.
 
 ```ti-basic
 i

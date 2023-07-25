@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6307`|
+| Hex Value     | `$6308`|
 | Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `V𝒏-₁`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Zu(𝑛Min)`</li></ul> |
 
-# `V𝒏-₁`
+# `Zu(𝑛Min)`
 
 ## Overview
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`V𝒏-₁`
+`Zu(𝑛Min)`
 
 <hr>
 
@@ -40,9 +40,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | `V𝒏-₁` added |
-| <b>TI-83</b> | 0.01013 | `V𝒏-₁` removed |
-| <b>TI-83</b> | 1.010 | `V𝒏-₁` added |
+| <b>TI-82</b> | 1.0 | Added |
 
 ## Related Commands
 

@@ -2417,7 +2417,7 @@
     }
   },
   "0xBF": {
-    "name": "e^(",
+    "name": "𝑒^(",
     "type": "function",
     "categories": [
       "Catalog > Misc",
@@ -2459,14 +2459,14 @@
       }
     ],
     "localizations": {
-      "FR": "e^("
+      "FR": "𝑒^("
     },
     "since": {
-      "TI-82": "1.0|e^",
+      "TI-82": "1.0|𝑒^",
       "TI-83": "0.01013"
     },
     "until": {
-      "TI-83": "0.01013|e^"
+      "TI-83": "0.01013|𝑒^"
     }
   },
   "0x3B": {
@@ -2991,7 +2991,7 @@
       "FR": "𝐅FRép("
     },
     "since": {
-      "TI-83": "0.01013"
+      "TI-83": "0.01013|𝙵cdf("
     }
   },
   "0xEF31": {
@@ -3531,7 +3531,7 @@
       "FR": "𝐅fdp("
     },
     "since": {
-      "TI-83": "0.01013"
+      "TI-83": "0.01013|𝙵pdf("
     }
   },
   "0x03": {
@@ -9058,7 +9058,7 @@
     }
   },
   "0xBB4E": {
-    "name": "re^θ𝑖",
+    "name": "r𝑒^θ𝑖",
     "type": "command",
     "categories": [
       "Catalog > R",
@@ -9092,7 +9092,7 @@
       }
     ],
     "localizations": {
-      "FR": "re^θ𝑖"
+      "FR": "r𝑒^θ𝑖"
     },
     "since": {
       "TI-83": "0.01013"
@@ -9955,7 +9955,7 @@
       "FR": "2-Comp𝐅Test( "
     },
     "since": {
-      "TI-83": "0.01013"
+      "TI-83": "0.01013|2-Samp𝙵Test "
     }
   },
   "0xBB49": {
@@ -10739,7 +10739,7 @@
     }
   },
   "0xEF8F": {
-    "name": "SEQ(𝒏)",
+    "name": "SEQ(𝑛)",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -10762,14 +10762,14 @@
       }
     ],
     "localizations": {
-      "FR": "SUITE(𝒏)"
+      "FR": "SUITE(𝑛)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF90": {
-    "name": "SEQ(𝒏+1)",
+    "name": "SEQ(𝑛+1)",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -10792,14 +10792,14 @@
       }
     ],
     "localizations": {
-      "FR": "SUITE(𝒏+1)"
+      "FR": "SUITE(𝑛+1)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF91": {
-    "name": "SEQ(𝒏+2)",
+    "name": "SEQ(𝑛+2)",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -10822,7 +10822,7 @@
       }
     ],
     "localizations": {
-      "FR": "SUITE(𝒏+2)"
+      "FR": "SUITE(𝑛+2)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
@@ -11264,7 +11264,7 @@
       "FR": "Ombre𝐅("
     },
     "since": {
-      "TI-83": "0.01013"
+      "TI-83": "0.01013|Shade𝙵("
     }
   },
   "0xBB35": {
@@ -17366,7 +17366,7 @@
       "FR": "n"
     },
     "since": {
-      "TI-82": "1.0|[n]"
+      "TI-82": "1.0"
     }
   },
   "0x6203": {
@@ -18032,7 +18032,7 @@
     }
   },
   "0x6221": {
-    "name": "𝒏",
+    "name": "𝑛",
     "type": "variable",
     "categories": [
       "Catalog > Misc",
@@ -18040,7 +18040,7 @@
     ],
     "syntaxes": [
       {
-        "syntax": "𝒏",
+        "syntax": "𝑛",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -18049,7 +18049,7 @@
       }
     ],
     "localizations": {
-      "FR": "𝒏"
+      "FR": "𝑛"
     },
     "since": {
       "TI-82": "1.0"
@@ -18744,14 +18744,14 @@
     }
   },
   "0x6304": {
-    "name": "u(𝒏Min)",
+    "name": "u(𝑛Min)",
     "type": "variable",
     "categories": [
       "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
-        "syntax": "u(𝒏Min)",
+        "syntax": "u(𝑛Min)",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -18760,7 +18760,7 @@
       }
     ],
     "localizations": {
-      "FR": "u(𝒏Min)"
+      "FR": "u(𝑛Min)"
     },
     "since": {
       "TI-82": "1.0|UnStart",
@@ -18771,14 +18771,14 @@
     }
   },
   "0x6305": {
-    "name": "v(𝒏Min)",
+    "name": "v(𝑛Min)",
     "type": "variable",
     "categories": [
       "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
-        "syntax": "v(𝒏Min)",
+        "syntax": "v(𝑛Min)",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -18787,25 +18787,25 @@
       }
     ],
     "localizations": {
-      "FR": "v(𝒏Min)"
+      "FR": "v(𝑛Min)"
     },
     "since": {
-      "TI-82": "1.0|V𝒏Start",
+      "TI-82": "1.0|VnStart",
       "TI-83": "0.01013"
     },
     "until": {
-      "TI-83": "0.01013|V𝒏Start"
+      "TI-83": "0.01013|VnStart"
     }
   },
   "0x6306": {
-    "name": "U𝒏-₁",
+    "name": "U𝑛-₁",
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
-        "syntax": "U𝒏-₁",
+        "syntax": "U𝑛-₁",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -18813,7 +18813,7 @@
       }
     ],
     "localizations": {
-      "FR": "U𝒏-₁"
+      "FR": "U𝑛-₁"
     },
     "since": {
       "TI-82": "1.0",
@@ -18824,14 +18824,14 @@
     }
   },
   "0x6307": {
-    "name": "V𝒏-₁",
+    "name": "V𝑛-₁",
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
-        "syntax": "V𝒏-₁",
+        "syntax": "V𝑛-₁",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -18839,7 +18839,7 @@
       }
     ],
     "localizations": {
-      "FR": "V𝒏-₁"
+      "FR": "V𝑛-₁"
     },
     "since": {
       "TI-82": "1.0",
@@ -18850,14 +18850,14 @@
     }
   },
   "0x6308": {
-    "name": "Zu(𝒏Min)",
+    "name": "Zu(𝑛Min)",
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
-        "syntax": "Zu(𝒏Min)",
+        "syntax": "Zu(𝑛Min)",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -18865,21 +18865,21 @@
       }
     ],
     "localizations": {
-      "FR": "Zu(𝒏Min)"
+      "FR": "Zu(𝑛Min)"
     },
     "since": {
       "TI-82": "1.0"
     }
   },
   "0x6309": {
-    "name": "Zv(𝒏Min)",
+    "name": "Zv(𝑛Min)",
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
-        "syntax": "Zv(𝒏Min)",
+        "syntax": "Zv(𝑛Min)",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -18887,7 +18887,7 @@
       }
     ],
     "localizations": {
-      "FR": "Zv(𝒏Min)"
+      "FR": "Zv(𝑛Min)"
     },
     "since": {
       "TI-82": "1.0"
@@ -19053,7 +19053,7 @@
       "FR": "θMin"
     },
     "since": {
-      "TI-82": "1.0"
+      "TI-82": "1.0|θmin"
     }
   },
   "0x6311": {
@@ -19076,7 +19076,7 @@
       "FR": "θMax"
     },
     "since": {
-      "TI-82": "1.0"
+      "TI-82": "1.0|θmax"
     }
   },
   "0x6312": {
@@ -19306,11 +19306,11 @@
       "FR": "PlotStart"
     },
     "since": {
-      "TI-82": "1.0|𝒏Min",
+      "TI-82": "1.0|𝑛Min",
       "TI-83": "0.01013"
     },
     "until": {
-      "TI-83": "0.01013|𝒏Min"
+      "TI-83": "0.01013|𝑛Min"
     }
   },
   "0x631C": {
@@ -19336,14 +19336,14 @@
     }
   },
   "0x631D": {
-    "name": "𝒏Max",
+    "name": "𝑛Max",
     "type": "variable",
     "categories": [
       "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
-        "syntax": "𝒏Max",
+        "syntax": "𝑛Max",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -19352,21 +19352,21 @@
       }
     ],
     "localizations": {
-      "FR": "𝒏Max"
+      "FR": "𝑛Max"
     },
     "since": {
       "TI-82": "1.0"
     }
   },
   "0x631E": {
-    "name": "Z𝒏Max",
+    "name": "Z𝑛Max",
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
-        "syntax": "Z𝒏Max",
+        "syntax": "Z𝑛Max",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -19374,21 +19374,21 @@
       }
     ],
     "localizations": {
-      "FR": "Z𝒏Max"
+      "FR": "Z𝑛Max"
     },
     "since": {
       "TI-82": "1.0"
     }
   },
   "0x631F": {
-    "name": "𝒏Min",
+    "name": "𝑛Min",
     "type": "variable",
     "categories": [
       "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
-        "syntax": "𝒏Min",
+        "syntax": "𝑛Min",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -19397,25 +19397,25 @@
       }
     ],
     "localizations": {
-      "FR": "𝒏Min"
+      "FR": "𝑛Min"
     },
     "since": {
-      "TI-82": "1.0|nStart",
+      "TI-82": "1.0|𝑛Start",
       "TI-83": "0.01013"
     },
     "until": {
-      "TI-83": "0.01013|nStart"
+      "TI-83": "0.01013|𝑛Start"
     }
   },
   "0x6320": {
-    "name": "Z𝒏Min",
+    "name": "Z𝑛Min",
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
-        "syntax": "Z𝒏Min",
+        "syntax": "Z𝑛Min",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -19423,7 +19423,7 @@
       }
     ],
     "localizations": {
-      "FR": "Z𝒏Min"
+      "FR": "Z𝑛Min"
     },
     "since": {
       "TI-82": "1.0"
@@ -19449,7 +19449,7 @@
       "FR": "∆Tbl"
     },
     "since": {
-      "TI-82": "1.0"
+      "TI-82": "1.0|ΔTbl"
     }
   },
   "0x6322": {
@@ -19563,7 +19563,7 @@
       "FR": "∆X"
     },
     "since": {
-      "TI-82": "1.0"
+      "TI-82": "1.0|ΔX"
     }
   },
   "0x6327": {
@@ -19586,7 +19586,7 @@
       "FR": "∆Y"
     },
     "since": {
-      "TI-82": "1.0"
+      "TI-82": "1.0|ΔY"
     }
   },
   "0x6328": {
@@ -19812,14 +19812,14 @@
     }
   },
   "0x6332": {
-    "name": "w(𝒏Min)",
+    "name": "w(𝑛Min)",
     "type": "variable",
     "categories": [
       "Variables > Window ➤ U/V/W"
     ],
     "syntaxes": [
       {
-        "syntax": "w(𝒏Min)",
+        "syntax": "w(𝑛Min)",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -19828,21 +19828,21 @@
       }
     ],
     "localizations": {
-      "FR": "w(𝒏Min)"
+      "FR": "w(𝑛Min)"
     },
     "since": {
       "TI-83": "0.01013"
     }
   },
   "0x6333": {
-    "name": "Zw(𝒏Min)",
+    "name": "Zw(𝑛Min)",
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
     ],
     "syntaxes": [
       {
-        "syntax": "Zw(𝒏Min)",
+        "syntax": "Zw(𝑛Min)",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -19850,7 +19850,7 @@
       }
     ],
     "localizations": {
-      "FR": "Zw(𝒏Min)"
+      "FR": "Zw(𝑛Min)"
     },
     "since": {
       "TI-83": "0.01013"
@@ -20693,7 +20693,7 @@
       "FR": "e"
     },
     "since": {
-      "TI-83": "0.01013|[e]"
+      "TI-83": "0.01013|𝑒"
     }
   },
   "0xBB6A": {
@@ -22091,7 +22091,7 @@
       "FR": "|π"
     },
     "since": {
-      "TI-83+": "1.03"
+      "TI-83+": "1.03|π"
     }
   },
   "0xBBA8": {
@@ -22205,7 +22205,7 @@
       "FR": "ṗ"
     },
     "since": {
-      "TI-83+": "1.03"
+      "TI-83+": "1.03|p̂"
     }
   },
   "0xBBAE": {
@@ -22250,7 +22250,7 @@
       "FR": "𝐅"
     },
     "since": {
-      "TI-83+": "1.03"
+      "TI-83+": "1.03|𝙵"
     }
   },
   "0xBBB0": {
@@ -22915,7 +22915,7 @@
       "FR": "~"
     },
     "since": {
-      "TI-83+": "1.15||~"
+      "TI-83+": "1.15"
     }
   },
   "0xBBD1": {
@@ -23677,7 +23677,7 @@
       "FR": "🡅"
     },
     "since": {
-      "TI-83+": "1.16"
+      "TI-83+": "1.16|🡁"
     }
   },
   "0xBBF3": {
@@ -23699,7 +23699,7 @@
       "FR": "🡇"
     },
     "since": {
-      "TI-83+": "1.16"
+      "TI-83+": "1.16|🠿"
     }
   },
   "0xBBF4": {
@@ -23743,7 +23743,7 @@
       "FR": "⌸"
     },
     "since": {
-      "TI-83+": "1.16"
+      "TI-83+": "1.16|⍯"
     }
   },
   "0xBC": {
@@ -23895,7 +23895,7 @@
       "FR": "⬚"
     },
     "since": {
-      "TI-84+": "2.53"
+      "TI-84+": "2.53|."
     }
   },
   "0xEF2E": {
@@ -23939,7 +23939,7 @@
       "FR": "ᵤ"
     },
     "since": {
-      "TI-84+": "2.53"
+      "TI-84+": "2.53|󸏵"
     }
   },
   "0xEF36": {
@@ -24284,7 +24284,7 @@
       "FR": "GRIS MOY"
     },
     "since": {
-      "TI-84+CSE": "4.0|MedGray"
+      "TI-84+CSE": "4.0"
     }
   },
   "0xEF4E": {
@@ -24330,7 +24330,7 @@
       "FR": "GRIS FON"
     },
     "since": {
-      "TI-84+CSE": "4.0|DarkGray"
+      "TI-84+CSE": "4.0"
     }
   },
   "0xEF50": {
@@ -24645,7 +24645,7 @@
       "FR": "·"
     },
     "since": {
-      "TI-84+CSE": "4.0"
+      "TI-84+CSE": "4.0|."
     }
   },
   "0xEF7A": {
@@ -24712,14 +24712,14 @@
     }
   },
   "0xEF82": {
-    "name": "u(𝒏-2)",
+    "name": "u(𝑛-2)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "u(𝒏-2)",
+        "syntax": "u(𝑛-2)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24728,21 +24728,21 @@
       }
     ],
     "localizations": {
-      "FR": "u(𝒏-2)"
+      "FR": "u(𝑛-2)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF83": {
-    "name": "v(𝒏-2)",
+    "name": "v(𝑛-2)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "v(𝒏-2)",
+        "syntax": "v(𝑛-2)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24751,21 +24751,21 @@
       }
     ],
     "localizations": {
-      "FR": "v(𝒏-2)"
+      "FR": "v(𝑛-2)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF84": {
-    "name": "w(𝒏-2)",
+    "name": "w(𝑛-2)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "w(𝒏-2)",
+        "syntax": "w(𝑛-2)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24774,21 +24774,21 @@
       }
     ],
     "localizations": {
-      "FR": "w(𝒏-2)"
+      "FR": "w(𝑛-2)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF85": {
-    "name": "u(𝒏-1)",
+    "name": "u(𝑛-1)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "u(𝒏-1)",
+        "syntax": "u(𝑛-1)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24797,21 +24797,21 @@
       }
     ],
     "localizations": {
-      "FR": "u(𝒏-1)"
+      "FR": "u(𝑛-1)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF86": {
-    "name": "v(𝒏-1)",
+    "name": "v(𝑛-1)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "v(𝒏-1)",
+        "syntax": "v(𝑛-1)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24820,21 +24820,21 @@
       }
     ],
     "localizations": {
-      "FR": "v(𝒏-1)"
+      "FR": "v(𝑛-1)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF87": {
-    "name": "w(𝒏-1)",
+    "name": "w(𝑛-1)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "w(𝒏-1)",
+        "syntax": "w(𝑛-1)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24843,21 +24843,21 @@
       }
     ],
     "localizations": {
-      "FR": "w(𝒏-1)"
+      "FR": "w(𝑛-1)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF88": {
-    "name": "u(𝒏)",
+    "name": "u(𝑛)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "u(𝒏)",
+        "syntax": "u(𝑛)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24866,21 +24866,21 @@
       }
     ],
     "localizations": {
-      "FR": "u(𝒏)"
+      "FR": "u(𝑛)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF89": {
-    "name": "v(𝒏)",
+    "name": "v(𝑛)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "v(𝒏)",
+        "syntax": "v(𝑛)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24889,21 +24889,21 @@
       }
     ],
     "localizations": {
-      "FR": "v(𝒏)"
+      "FR": "v(𝑛)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF8A": {
-    "name": "w(𝒏)",
+    "name": "w(𝑛)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "w(𝒏)",
+        "syntax": "w(𝑛)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24912,21 +24912,21 @@
       }
     ],
     "localizations": {
-      "FR": "w(𝒏)"
+      "FR": "w(𝑛)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF8B": {
-    "name": "u(𝒏+1)",
+    "name": "u(𝑛+1)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "u(𝒏+1)",
+        "syntax": "u(𝑛+1)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24935,21 +24935,21 @@
       }
     ],
     "localizations": {
-      "FR": "u(𝒏+1)"
+      "FR": "u(𝑛+1)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF8C": {
-    "name": "v(𝒏+1)",
+    "name": "v(𝑛+1)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "v(𝒏+1)",
+        "syntax": "v(𝑛+1)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24958,21 +24958,21 @@
       }
     ],
     "localizations": {
-      "FR": "v(𝒏+1)"
+      "FR": "v(𝑛+1)"
     },
     "since": {
       "TI-84+CE": "5.2.0"
     }
   },
   "0xEF8D": {
-    "name": "w(𝒏+1)",
+    "name": "w(𝑛+1)",
     "type": "variable",
     "categories": [
       "Variables > Sequences"
     ],
     "syntaxes": [
       {
-        "syntax": "w(𝒏+1)",
+        "syntax": "w(𝑛+1)",
         "comment": "CE OS 5.2+",
         "arguments": [],
         "description": "",
@@ -24981,7 +24981,7 @@
       }
     ],
     "localizations": {
-      "FR": "w(𝒏+1)"
+      "FR": "w(𝑛+1)"
     },
     "since": {
       "TI-84+CE": "5.2.0"

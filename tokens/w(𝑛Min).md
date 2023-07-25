@@ -1,20 +1,19 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$EF84`|
-| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Sequences](<../categories/Variables.md#Sequences>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `w(𝒏-2)`</li></ul> |
+| Hex Value     | `$6332`|
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ U/V/W](<../categories/Variables.md#Window ➤ U/V/W>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `w(𝑛Min)`</li></ul> |
 
-# `w(𝒏-2)`
+# `w(𝑛Min)`
 
 ## Overview
 
 
-<b>Comment</b>:CE OS 5.2+
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`w(𝒏-2)`
+`w(𝑛Min)`
 
 <hr>
 
@@ -42,7 +41,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-84+CE</b> | 5.2.0 | Added |
+| <b>TI-83</b> | 0.01013 | Added |
 
 ## Related Commands
 

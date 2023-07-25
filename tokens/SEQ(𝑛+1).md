@@ -2,9 +2,9 @@
 |---------------|-------|
 | Hex Value     | `$EF90`|
 | Categories    | <ul></ul> |
-| Localizations | <ul><li><b>FR</b>: `SUITE(𝒏+1)`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `SUITE(𝑛+1)`</li></ul> |
 
-# `SEQ(𝒏+1)`
+# `SEQ(𝑛+1)`
 
 ## Overview
 In sequence mode, SEQ(`n+1`) sets the sequence editor type to enter sequence functions, u, v, or w, as a function of the independent variable `n+1`.   Can also be set from the Y= editor in SEQ mode.

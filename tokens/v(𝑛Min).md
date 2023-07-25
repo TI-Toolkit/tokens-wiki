@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$631D`|
+| Hex Value     | `$6305`|
 | Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ U/V/W](<../categories/Variables.md#Window ➤ U/V/W>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `𝒏Max`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `v(𝑛Min)`</li></ul> |
 
-# `𝒏Max`
+# `v(𝑛Min)`
 
 ## Overview
 
@@ -13,7 +13,7 @@
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`𝒏Max`
+`v(𝑛Min)`
 
 <hr>
 
@@ -41,7 +41,8 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | Added |
+| <b>TI-82</b> | 1.0 | `VnStart` added |
+| <b>TI-83</b> | 0.01013 | Renamed `VnStart` to `v(𝑛Min)`
 
 ## Related Commands
 

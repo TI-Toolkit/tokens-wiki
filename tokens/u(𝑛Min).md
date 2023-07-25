@@ -1,20 +1,19 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$EF8B`|
-| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Sequences](<../categories/Variables.md#Sequences>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `u(𝒏+1)`</li></ul> |
+| Hex Value     | `$6304`|
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ U/V/W](<../categories/Variables.md#Window ➤ U/V/W>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `u(𝑛Min)`</li></ul> |
 
-# `u(𝒏+1)`
+# `u(𝑛Min)`
 
 ## Overview
 
 
-<b>Comment</b>:CE OS 5.2+
 
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`u(𝒏+1)`
+`u(𝑛Min)`
 
 <hr>
 
@@ -42,7 +41,8 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-84+CE</b> | 5.2.0 | Added |
+| <b>TI-82</b> | 1.0 | `UnStart` added |
+| <b>TI-83</b> | 0.01013 | Renamed `UnStart` to `u(𝑛Min)`
 
 ## Related Commands
 

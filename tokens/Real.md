@@ -41,7 +41,7 @@ Real
 ## Related Commands
 
 *   [a+bi](a+bi.md)
-*   [re^θ𝑖](re^θ𝑖.md)
+*   [r𝑒^θ𝑖](r𝑒^θ𝑖.md)
 
 ## See Also
 

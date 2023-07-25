@@ -1,18 +1,19 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6320`|
-| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `Z𝒏Min`</li></ul> |
+| Hex Value     | `$631D`|
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Window ➤ U/V/W](<../categories/Variables.md#Window ➤ U/V/W>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `𝑛Max`</li></ul> |
 
-# `Z𝒏Min`
+# `𝑛Max`
 
 ## Overview
 
 
 
+<b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`Z𝒏Min`
+`𝑛Max`
 
 <hr>
 

@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6333`|
+| Hex Value     | `$631E`|
 | Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `Zw(𝒏Min)`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `Z𝑛Max`</li></ul> |
 
-# `Zw(𝒏Min)`
+# `Z𝑛Max`
 
 ## Overview
 
@@ -12,7 +12,7 @@
 
 
 ## Syntax
-`Zw(𝒏Min)`
+`Z𝑛Max`
 
 <hr>
 
@@ -40,7 +40,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-83</b> | 0.01013 | Added |
+| <b>TI-82</b> | 1.0 | Added |
 
 ## Related Commands
 

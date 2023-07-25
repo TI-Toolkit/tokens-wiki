@@ -66,7 +66,7 @@ try {
         }
         tok.__name = tok.__name.replace('ñ', '⁻¹').replace('å', '►').replace('â', '𝗡').replace('ã', '𝐅').replace('Æ', 'Σ')
                                .replace('ë', 'e').replace('ä', 'χ').replace('Ü', '²').replace('ü', '→').replace('Á', 'θ')
-                               .replace('û', 'ᴇ').replace('ë', 'e').replace('à', '𝑖').replace('¾', '∆');
+                               .replace('û', 'ᴇ').replace('ë', 'e').replace('à', '𝑖').replace('¾', '∆').replace('e^', '𝑒^');
         if (tok.__name === 'sinh⁻¹') { tok.__name = 'sinh⁻¹('; } // sigh
         else if (/^∆[XY]$/.test(tok.__name)) { tok.categories.category = 'Variables > Window ➤ X/Y'; } // was "Unassigned"
         dict[tok.__name] = tok;
@@ -121,7 +121,7 @@ const mergeSinceUntilFromTkXML = function(entry, match, enName) {
         for (const which of ['since', 'until']) {
             for (const [model, ver] of Object.entries(tok[which] ?? [])) {
                 const cleanedName = tok.enName.replace(/^\[(.{2,})\]$/g, '$1');
-                const nameIsDifferent = (tok.enName !== enName && cleanedName !== enName);
+                const nameIsDifferent = (tok.enName !== enName && tok.enAccessible !== enName && cleanedName !== enName);
                 (entry[which] ??= {})[model] = ver + (nameIsDifferent ? `|${cleanedName}` : '');
             }
         }
@@ -133,36 +133,37 @@ try {
 
     const fillTkXML = function(bytes, data) {
         (tkXML[bytes] ??= []).push({
-            enName: decodeHtmlEntity(String(data.lang[0].name[0])), // todo properly
-            since: data.since ? { [data.since.model]: data.since.version } : undefined,
-            until: data.until ? { [data.until.model]: data.until.version } : undefined,
+            enName: decodeHtmlEntity(String(data.lang[0].display)),
+            enAccessible: decodeHtmlEntity(String(data.lang[0].accessible)),
+            enVariants: data.lang[0].variant ? data.lang[0].variant.map((str) => decodeHtmlEntity(str)) : undefined,
+            since: data.since ? { [data.since.model]: String(data.since['os-version']) } : undefined,
+            until: data.until ? { [data.until.model]: String(data.until['os-version']) } : undefined,
         });
     }
 
     const isArray = (name, jpath, isLeafNode, isAttribute) => {
 
-        const alwaysArray = [ "tokens.byte.token", "tokens.byte.byte.token",
-                              "tokens.byte.token.lang", "tokens.byte.byte.token.lang",
-                              "tokens.byte.token.lang.name", "tokens.byte.byte.token.lang.name" ];
+        const alwaysArray = [ "tokens.two-byte.token.version", "tokens.token.version",
+                              "tokens.two-byte.token.version.lang", "tokens.token.version.lang",
+                              "tokens.two-byte.token.version.lang.variant", "tokens.token.version.lang.variant"];
         if (alwaysArray.indexOf(jpath) !== -1) return true;
     }
     const {tokens} = new XMLParser({ignoreAttributes: false, trimValues: false, attributeNamePrefix: "__", isArray: isArray,
-                                    tagValueProcessor: (tagName, tagValue, jPath) => jPath.endsWith('.version') ? null : tagValue}
+                                    tagValueProcessor: (tagName, tagValue, jPath) => jPath.endsWith('.os-version') ? null : tagValue}
                                   ).parse(fileContents);
-    if(tokens.byte) {
-        for (let tok of tokens.byte) {
-            if (tok.byte) {
-                for (const {token, __value} of tok.byte) {
-                    for (const tokAlt of token) {
-                        const bytes = `0x${tok.__value.substring(1)}${__value.substring(1)}`;
-                        fillTkXML(bytes, tokAlt);
-                    }
+    if(tokens['two-byte'] || tokens.token) {
+        for (let tok of (tokens['two-byte'] ?? [])) {
+            for (const {version, __value} of tok.token) {
+                for (const tokData of version) {
+                    const bytes = `0x${tok.__value.substring(1)}${__value.substring(1)}`;
+                    fillTkXML(bytes, tokData);
                 }
-            } else {
-                for (const tokAlt of tok.token) {
-                    const bytes = `0x${tok.__value.substring(1)}`;
-                    fillTkXML(bytes, tokAlt);
-                }
+            }
+        }
+        for (const {version, __value} of (tokens.token ?? [])) {
+            for (const tokData of version) {
+                const bytes = `0x${__value.substring(1)}`;
+                fillTkXML(bytes, tokData);
             }
         }
     } else {
@@ -226,7 +227,7 @@ for(let i = 0; i < 26; i++)
         // ...misc
             .replaceAll('‑', '-') // really...?
             .replaceAll('► <span class="Function">F </span> ◄► <span class="Function">D</span>', '►F◄►D')
-            .replaceAll('<span class="Function">r</span> <span class="Variable">e</span> <span class="Function">^</span> θ <span class="Variable">i</span>', 're^θ𝑖')
+            .replaceAll('<span class="Function">r</span> <span class="Variable">e</span> <span class="Function">^</span> θ <span class="Variable">i</span>', 'r𝑒^θ𝑖')
             .replaceAll('<span class="Function">6:R</span> ► <span class="Function">P</span> θ <span class="Function">(</span>', '6:R►Pθ(');
     }
 
@@ -258,13 +259,14 @@ for(let i = 0; i < 26; i++)
             else if (name === 'summation Σ('){name = 'Σ('; }
             else if (name === 'sinh⁻¹ (')   { name = 'sinh⁻¹('; }
             else if (name === 'a+bi')       { name = 'a+b𝑖'; }
-            else if (name === 're^θi')      { name = 're^θ𝑖'; }
+            else if (name === 're^θi')      { name = 'r𝑒^θ𝑖'; }
             else if (name === '►F ◄►D')     { name = '►F◄►D'; }
             else if (name === '►n⁄d ◄►Un⁄d'){ name = '►n⁄d◄►Un⁄d'; }
             else if (name === 'i')          { name = '𝑖'; }
-            else if (name === 'SEQ(n')      { name = 'SEQ(𝒏)'; }
-            else if (name === 'SEQ(n+1')    { name = 'SEQ(𝒏+1)'; }
-            else if (name === 'SEQ(n+2')    { name = 'SEQ(𝒏+2)'; }
+            else if (name === 'SEQ(n')      { name = 'SEQ(𝑛)'; }
+            else if (name === 'SEQ(n+1')    { name = 'SEQ(𝑛+1)'; }
+            else if (name === 'SEQ(n+2')    { name = 'SEQ(𝑛+2)'; }
+            else if (name === 'e^(')        { name = '𝑒^('; }
             else if (name === 'DEC Answers'){ name = 'DEC'; }
             else if (name === 'AUTO Answer'){ name = 'AUTO'; }
             else if (name === 'Plot1( Plot2( Plot3(') { name = 'Plot1('; }

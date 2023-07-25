@@ -41,8 +41,8 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | `𝒏Min` added |
-| <b>TI-83</b> | 0.01013 | Renamed `𝒏Min` to `PlotStart`
+| <b>TI-82</b> | 1.0 | `𝑛Min` added |
+| <b>TI-83</b> | 0.01013 | Renamed `𝑛Min` to `PlotStart`
 
 ## Related Commands
 

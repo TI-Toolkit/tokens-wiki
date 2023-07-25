@@ -2,9 +2,9 @@
 |---------------|-------|
 | Hex Value     | `$BB4E`|
 | Categories    | <ul><li>[Catalog](<../categories/Catalog.md>) > [R](<../categories/Catalog.md#R>)</li><li>[Mode](<../categories/Mode.md>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `re^θ𝑖`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `r𝑒^θ𝑖`</li></ul> |
 
-# `re^θ𝑖`
+# `r𝑒^θ𝑖`
 
 ## Overview
 Sets the mode to polar complex number mode (`re``^`θ`i`).
@@ -44,10 +44,10 @@ Of course, that has a lot to do with how you define imaginary exponents, which i
 
 An equivalent form to polar form is the form r[cos(θ)+𝑖sin(θ)].
 
-Unfortunately, the calculator seems to have some confusion about the use of [degree](degree-mode) and [radian](radian-mode) angle measures for θ in this mode (the answer is: you can only use radians — degrees make no sense with complex exponents). When calculating a value re^(θ𝑖) by using the [e^(](e-exponent) command and plugging in numbers, the calculator assumes θ is a radian angle, whether it's in Degree or Radian mode. However, when _displaying_ a complex number as re^(θ𝑖), the calculator will display θ in radian or degree measure, whichever is enabled. This may lead to such pathological output as:
+Unfortunately, the calculator seems to have some confusion about the use of [degree](degree-mode) and [radian](radian-mode) angle measures for θ in this mode (the answer is: you can only use radians — degrees make no sense with complex exponents). When calculating a value re^(θ𝑖) by using the [e^(](𝑒^(.md) command and plugging in numbers, the calculator assumes θ is a radian angle, whether it's in Degree or Radian mode. However, when _displaying_ a complex number as re^(θ𝑖), the calculator will display θ in radian or degree measure, whichever is enabled. This may lead to such pathological output as:
 
 ```ti-basic
-Degree:re^θ𝑖
+Degree:r𝑒^θ𝑖
         Done
 e^(πi)
         1e^(180i)

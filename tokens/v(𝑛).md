@@ -1,18 +1,20 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$6309`|
-| Categories    | <ul><li>[Other (non-catalog)](<../categories/Other (non-catalog).md>) > [Other](<../categories/Other (non-catalog).md#Other>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `Zv(𝒏Min)`</li></ul> |
+| Hex Value     | `$EF89`|
+| Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Sequences](<../categories/Variables.md#Sequences>)</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `v(𝑛)`</li></ul> |
 
-# `Zv(𝒏Min)`
+# `v(𝑛)`
 
 ## Overview
 
 
+<b>Comment</b>:CE OS 5.2+
 
+<b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`Zv(𝒏Min)`
+`v(𝑛)`
 
 <hr>
 
@@ -40,7 +42,7 @@ code 2
 ## History
 | Calculator | OS Version | Description |
 |------------|------------|-------------|
-| <b>TI-82</b> | 1.0 | Added |
+| <b>TI-84+CE</b> | 5.2.0 | Added |
 
 ## Related Commands
 

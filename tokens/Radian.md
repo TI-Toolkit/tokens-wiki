@@ -39,15 +39,15 @@ The output is differently expressed:
 *   [angle(](angle\(.md)
 *   [R►Pθ(](R►Pθ\(.md)
 *   [sinֿ¹(](arcsin), [cosֿ¹(](arccos), [tanֿ¹(](arctan)
-*   [►Polar](polar-display) (and complex numbers when in [re^θ𝑖](re-thetai) mode)
+*   [►Polar](polar-display) (and complex numbers when in [r𝑒^θ𝑖](re-thetai) mode)
 *   <sup><a href="ʳ.md">ʳ</a></sup>, [°](°.md)
 
 However, some commands are notably unaffected by angle mode, even though they involve angles, and this may cause confusion. This happens with the [SinReg](SinReg.md) command, which assumes that the calculator is in Radian mode even when it's not. As a result, the regression model it generates will graph incorrectly in Degree mode.
 
-Also, complex numbers in polar form are an endless source of confusion. The angle( command, as well as the polar display format, are affected by angle mode. However, complex exponentials (see the [e^(](e-exponent) command), defined as $e^{i\theta}=\cos\theta+i\sin\theta$, are evaluated as though in Radian mode, regardless of the angle mode. This gives mysterious results like the following:
+Also, complex numbers in polar form are an endless source of confusion. The angle( command, as well as the polar display format, are affected by angle mode. However, complex exponentials (see the [e^(](𝑒^(.md) command), defined as $e^{i\theta}=\cos\theta+i\sin\theta$, are evaluated as though in Radian mode, regardless of the angle mode. This gives mysterious results like the following:
 
 ```ti-basic
-Degree:re^θ𝑖
+Degree:r𝑒^θ𝑖
         Done
 e^(πi)
         1e^(180i)

@@ -1,10 +1,10 @@
 | Property      | Value |
 |---------------|-------|
-| Hex Value     | `$EF89`|
+| Hex Value     | `$EF8A`|
 | Categories    | <ul><li>[Variables](<../categories/Variables.md>) > [Sequences](<../categories/Variables.md#Sequences>)</li></ul> |
-| Localizations | <ul><li><b>FR</b>: `v(𝒏)`</li></ul> |
+| Localizations | <ul><li><b>FR</b>: `w(𝑛)`</li></ul> |
 
-# `v(𝒏)`
+# `w(𝑛)`
 
 ## Overview
 
@@ -14,7 +14,7 @@
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`v(𝒏)`
+`w(𝑛)`
 
 <hr>
 

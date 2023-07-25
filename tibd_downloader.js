@@ -122,7 +122,7 @@ const pages = [
     ["DrawF",null],
     ["DrawInv",null],
     ["DS(",null],
-    ["e-exponent","e^("],
+    ["e-exponent","𝑒^("],
     ["e-ten","E"],
     ["e-value","e"],
     ["Else",null],
@@ -271,7 +271,7 @@ const pages = [
     ["randM(",null],
     ["randNorm(",null],
     ["Rcl",null],
-    ["re-thetai","re^θ𝑖"],
+    ["re-thetai","r𝑒^θ𝑖"],
     ["real-func","real("],
     ["real-mode","Real"],
     ["RecallGDB",null],
@@ -445,7 +445,7 @@ for (const page of pages) {
     // Discard the sidebar content (ends at the token size thing), remove the empty end, resize titles, and do some cleanup.
     articleHTML = articleHTML
         .replace(/.*Token Size<\/a><\/strong><\/p>\n<p>(?:N\/A|\d bytes?(?: \(\w+\))?)<\/p>\n(?:<p><sub>\*OS [\d.]{1,10} or later<\/sub><\/p>\n)?<\/div>\n/s, '')
-        .replaceAll('re^θi', 're^θ𝑖')
+        .replaceAll('re^θi', 'r𝑒^θ𝑖')
         .replaceAll('<a class="newpage" href="/"></a>', '')
         .replaceAll('<a href="http://tibasicdev.wikidot.com/', '<a href="')
         .replaceAll('<a href="/', '<a href="')
@@ -470,6 +470,8 @@ for (const page of pages) {
     const markdown = turndownService.turndown(articleHTML)
         .replaceAll(/____$/gm, '')
         .replaceAll('\\(.md">', '(.md">') // fix up bad link stuff after "escaping" transformation above
+        .replaceAll('](e-exponent)', '](𝑒^(.md)')
+        .replaceAll('"e^(.md"', '"𝑒^(.md"')
         .replaceAll('[°](degree-symbol)', '[°](°.md)')
         .replaceAll('<a href="degree-symbol">°</a>', '<a href="°.md">°</a>')
         .replaceAll(/<a href="([^"]*)[<>]([^"]*)\.md">/gmi, '<a href="$1$2.md">')

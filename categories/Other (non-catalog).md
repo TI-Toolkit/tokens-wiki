@@ -17,19 +17,19 @@
  * <a href="../tokens/[factorMS].md" title="0x6239">[factorMS]</a>
  * <a href="../tokens/[errordf].md" title="0x623A">[errordf]</a>
  * <a href="../tokens/[errorMS].md" title="0x623C">[errorMS]</a>
- * <a href="../tokens/U𝒏-₁.md" title="0x6306">U𝒏-₁</a>
- * <a href="../tokens/V𝒏-₁.md" title="0x6307">V𝒏-₁</a>
- * <a href="../tokens/Zu(𝒏Min).md" title="0x6308">Zu(𝒏Min)</a>
- * <a href="../tokens/Zv(𝒏Min).md" title="0x6309">Zv(𝒏Min)</a>
+ * <a href="../tokens/U𝑛-₁.md" title="0x6306">U𝑛-₁</a>
+ * <a href="../tokens/V𝑛-₁.md" title="0x6307">V𝑛-₁</a>
+ * <a href="../tokens/Zu(𝑛Min).md" title="0x6308">Zu(𝑛Min)</a>
+ * <a href="../tokens/Zv(𝑛Min).md" title="0x6309">Zv(𝑛Min)</a>
  * <a href="../tokens/Zθmin.md" title="0x6316">Zθmin</a>
  * <a href="../tokens/Zθmax.md" title="0x6317">Zθmax</a>
  * <a href="../tokens/ZPlotStart.md" title="0x631C">ZPlotStart</a>
- * <a href="../tokens/Z𝒏Max.md" title="0x631E">Z𝒏Max</a>
- * <a href="../tokens/Z𝒏Min.md" title="0x6320">Z𝒏Min</a>
+ * <a href="../tokens/Z𝑛Max.md" title="0x631E">Z𝑛Max</a>
+ * <a href="../tokens/Z𝑛Min.md" title="0x6320">Z𝑛Min</a>
  * <a href="../tokens/Zθstep.md" title="0x6325">Zθstep</a>
  * <a href="../tokens/XFact.md" title="0x6328">XFact</a>
  * <a href="../tokens/YFact.md" title="0x6329">YFact</a>
- * <a href="../tokens/Zw(𝒏Min).md" title="0x6333">Zw(𝒏Min)</a>
+ * <a href="../tokens/Zw(𝑛Min).md" title="0x6333">Zw(𝑛Min)</a>
  * <a href="../tokens/ZPlotStep.md" title="0x6335">ZPlotStep</a>
  * <a href="../tokens/Xres.md" title="0x6336">Xres</a>
  * <a href="../tokens/TraceStep.md" title="0x6338">TraceStep</a>

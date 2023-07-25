@@ -22,7 +22,7 @@
  * <a href="../tokens/√(.md" title="0xBC">√(</a>
  * <a href="../tokens/³√(.md" title="0xBD">³√(</a>
  * <a href="../tokens/ln(.md" title="0xBE">ln(</a>
- * <a href="../tokens/e^(.md" title="0xBF">e^(</a>
+ * <a href="../tokens/𝑒^(.md" title="0xBF">𝑒^(</a>
  * <a href="../tokens/log(.md" title="0xC0">log(</a>
  * <a href="../tokens/₁₀^(.md" title="0xC1">₁₀^(</a>
 
