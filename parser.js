@@ -278,6 +278,8 @@ for(let i = 0; i < 26; i++)
 
         const tokenEntry = {
             name: name,
+            accessibleName: undefined,
+            nameVariants: undefined,
             type: undefined,
             categories: [],
             syntaxes: [],
@@ -460,6 +462,13 @@ for(let i = 0; i < 26; i++)
         }
 
         if (tkXML[bytes]) {
+            const lastTkData = tkXML[bytes][tkXML[bytes].length - 1];
+            if (lastTkData.enAccessible && tokenEntry.name !== lastTkData.enAccessible) {
+                tokenEntry.accessibleName = lastTkData.enAccessible;
+            }
+            if (lastTkData.enVariants) {
+                tokenEntry.nameVariants = lastTkData.enVariants;
+            }
             mergeSinceUntilFromTkXML(tokenEntry, tkXML[bytes], name);
         }
 
@@ -496,6 +505,8 @@ for (let [ bytes, { enName, frName, type, comment } ] of Object.entries(csv_from
 
     const entry = {
         name: enName,
+        accessibleName: undefined,
+        nameVariants: undefined,
         type: type ?? 'function',
         categories: [],
         syntaxes: [{
@@ -513,6 +524,13 @@ for (let [ bytes, { enName, frName, type, comment } ] of Object.entries(csv_from
     };
 
     if (tkXML[bytes]) {
+        const lastTkData = tkXML[bytes][tkXML[bytes].length - 1];
+        if (lastTkData.enAccessible && entry.name !== lastTkData.enAccessible) {
+            entry.accessibleName = lastTkData.enAccessible;
+        }
+        if (lastTkData.enVariants) {
+            entry.nameVariants = lastTkData.enVariants;
+        }
         mergeSinceUntilFromTkXML(entry, tkXML[bytes], enName);
     }
 

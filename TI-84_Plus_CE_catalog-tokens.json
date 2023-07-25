@@ -301,6 +301,7 @@
   },
   "0xEF3B": {
     "name": "AUTO",
+    "accessibleName": "[AUTO]",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -388,6 +389,7 @@
   },
   "0xBB4F": {
     "name": "a+b𝑖",
+    "accessibleName": "a+bi",
     "type": "command",
     "categories": [
       "Catalog > A",
@@ -707,6 +709,11 @@
   },
   "0xBB13": {
     "name": "χ²cdf(",
+    "accessibleName": "chi^2cdf(",
+    "nameVariants": [
+      "χ^2cdf(",
+      "chi²cdf("
+    ],
     "type": "function",
     "categories": [
       "Catalog > C",
@@ -756,6 +763,11 @@
   },
   "0xBB1D": {
     "name": "χ²pdf(",
+    "accessibleName": "chi^2pdf(",
+    "nameVariants": [
+      "χ^2pdf(",
+      "chi²pdf("
+    ],
     "type": "function",
     "categories": [
       "Catalog > P",
@@ -800,6 +812,11 @@
   },
   "0xBB40": {
     "name": "χ²-Test(",
+    "accessibleName": "chi^2-Test(",
+    "nameVariants": [
+      "χ^2-Test(",
+      "chi²-Test("
+    ],
     "type": "function",
     "categories": [
       "Catalog > T",
@@ -853,6 +870,11 @@
   },
   "0xEF14": {
     "name": "χ²GOF-Test(",
+    "accessibleName": "chi^2GOF-Test(",
+    "nameVariants": [
+      "χ^2GOF-Test(",
+      "chi²GOF-Test("
+    ],
     "type": "function",
     "categories": [],
     "syntaxes": [
@@ -969,6 +991,7 @@
   },
   "0xEF38": {
     "name": "CLASSIC",
+    "accessibleName": "[CLASSIC]",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -1347,6 +1370,7 @@
   },
   "0xC5": {
     "name": "cos⁻¹(",
+    "accessibleName": "cos^-1(",
     "type": "function",
     "categories": [
       "Catalog > C",
@@ -1424,6 +1448,7 @@
   },
   "0xCB": {
     "name": "cosh⁻¹(",
+    "accessibleName": "cosh^-1(",
     "type": "function",
     "categories": [
       "Catalog > C"
@@ -1649,6 +1674,7 @@
   },
   "0xEF3C": {
     "name": "DEC",
+    "accessibleName": "[DEC]",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -1672,6 +1698,7 @@
   },
   "0x02": {
     "name": "►Dec",
+    "accessibleName": ">Dec",
     "type": "conversion",
     "categories": [
       "Catalog > D",
@@ -2183,6 +2210,7 @@
   },
   "0x01": {
     "name": "►DMS",
+    "accessibleName": ">DMS",
     "type": "conversion",
     "categories": [
       "Angle",
@@ -2418,6 +2446,7 @@
   },
   "0xBF": {
     "name": "𝑒^(",
+    "accessibleName": "e^(",
     "type": "function",
     "categories": [
       "Catalog > Misc",
@@ -2471,6 +2500,7 @@
   },
   "0x3B": {
     "name": "ᴇ",
+    "accessibleName": "|E",
     "type": "function",
     "categories": [
       "Catalog > E",
@@ -2582,6 +2612,7 @@
   },
   "0xBB06": {
     "name": "►Eff(",
+    "accessibleName": ">Eff(",
     "type": "function",
     "categories": [
       "Catalog > E",
@@ -2699,6 +2730,7 @@
   },
   "0xBB55": {
     "name": "Equ►String(",
+    "accessibleName": "Equ>String(",
     "type": "function",
     "categories": [
       "Catalog > E"
@@ -2941,6 +2973,10 @@
   },
   "0xBB14": {
     "name": "𝐅cdf(",
+    "accessibleName": "Fcdf(",
+    "nameVariants": [
+      "𝐅cdf("
+    ],
     "type": "function",
     "categories": [
       "Catalog > C",
@@ -2996,6 +3032,7 @@
   },
   "0xEF31": {
     "name": "►F◄►D",
+    "accessibleName": ">F<>D",
     "type": "postfix operator",
     "categories": [],
     "syntaxes": [
@@ -3486,6 +3523,10 @@
   },
   "0xBB1E": {
     "name": "𝐅pdf(",
+    "accessibleName": "Fpdf(",
+    "nameVariants": [
+      "𝐅pdf("
+    ],
     "type": "function",
     "categories": [
       "Catalog > F",
@@ -3536,6 +3577,7 @@
   },
   "0x03": {
     "name": "►Frac",
+    "accessibleName": ">Frac",
     "type": "conversion",
     "categories": [
       "Catalog > F",
@@ -4386,6 +4428,7 @@
   },
   "0x2C": {
     "name": "𝑖",
+    "accessibleName": "[i]",
     "type": "constant",
     "categories": [
       "Catalog > I",
@@ -4835,6 +4878,7 @@
   },
   "0xBB04": {
     "name": "ΣInt(",
+    "accessibleName": "SigmaInt(",
     "type": "function",
     "categories": [
       "Catalog > I",
@@ -5197,6 +5241,11 @@
   },
   "0xEB": {
     "name": "ʟ",
+    "accessibleName": "smallL",
+    "nameVariants": [
+      "⌊",
+      "|L"
+    ],
     "type": "other",
     "categories": [],
     "syntaxes": [
@@ -5686,6 +5735,7 @@
   },
   "0xBB2C": {
     "name": "ΔList(",
+    "accessibleName": "DeltaList(",
     "type": "function",
     "categories": [],
     "syntaxes": [
@@ -5722,6 +5772,7 @@
   },
   "0xBB3A": {
     "name": "List►matr(",
+    "accessibleName": "List>matr(",
     "type": "function",
     "categories": [
       "Catalog > L",
@@ -6012,6 +6063,7 @@
   },
   "0xEF37": {
     "name": "MATHPRINT",
+    "accessibleName": "[MATHPRINT]",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -6034,6 +6086,7 @@
   },
   "0xBB39": {
     "name": "Matr►list(",
+    "accessibleName": "Matr>list(",
     "type": "function",
     "categories": [
       "Catalog > M",
@@ -6668,6 +6721,7 @@
   },
   "0xEF39": {
     "name": "n⁄d",
+    "accessibleName": "[n/d]",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -6740,6 +6794,11 @@
   },
   "0xEF30": {
     "name": "►n⁄d◄►Un⁄d",
+    "accessibleName": ">n/d<>Un/d",
+    "nameVariants": [
+      "►n/d◄►Un/d",
+      ">n⁄d<>Un⁄d"
+    ],
     "type": "postfix operator",
     "categories": [],
     "syntaxes": [
@@ -6772,6 +6831,7 @@
   },
   "0xBB05": {
     "name": "►Nom(",
+    "accessibleName": ">Nom(",
     "type": "function",
     "categories": [
       "Catalog > N",
@@ -7813,6 +7873,7 @@
   },
   "0xBB30": {
     "name": "►Polar",
+    "accessibleName": ">Polar",
     "type": "conversion",
     "categories": [
       "Catalog > P",
@@ -7906,6 +7967,7 @@
   },
   "0xBB03": {
     "name": "ΣPrn(",
+    "accessibleName": "SigmaPrn(",
     "type": "function",
     "categories": [
       "Catalog > P",
@@ -8616,6 +8678,7 @@
   },
   "0x1D": {
     "name": "P►Rx(",
+    "accessibleName": "P>Rx(",
     "type": "function",
     "categories": [
       "Angle",
@@ -8656,6 +8719,7 @@
   },
   "0x1E": {
     "name": "P►Ry(",
+    "accessibleName": "P>Ry(",
     "type": "function",
     "categories": [
       "Angle",
@@ -9059,6 +9123,12 @@
   },
   "0xBB4E": {
     "name": "r𝑒^θ𝑖",
+    "accessibleName": "re^thetai",
+    "nameVariants": [
+      "re^θ𝑖",
+      "re^θi",
+      "re^theta𝑖"
+    ],
     "type": "command",
     "categories": [
       "Catalog > R",
@@ -9227,6 +9297,7 @@
   },
   "0xBB2F": {
     "name": "►Rect",
+    "accessibleName": ">Rect",
     "type": "conversion",
     "categories": [
       "Catalog > R",
@@ -9755,6 +9826,7 @@
   },
   "0x1B": {
     "name": "R►Pr(",
+    "accessibleName": "R>Pr(",
     "type": "function",
     "categories": [
       "Angle",
@@ -9795,6 +9867,11 @@
   },
   "0x1C": {
     "name": "R►Pθ(",
+    "accessibleName": "R>Ptheta(",
+    "nameVariants": [
+      "R►Ptheta(",
+      "R>Pθ("
+    ],
     "type": "function",
     "categories": [
       "Angle",
@@ -9838,6 +9915,10 @@
   },
   "0xBB47": {
     "name": "2-Samp𝐅Test ",
+    "accessibleName": "2-SampFTest ",
+    "nameVariants": [
+      "2-Samp𝐅Test "
+    ],
     "type": "command",
     "categories": [
       "Catalog > S",
@@ -10740,6 +10821,10 @@
   },
   "0xEF8F": {
     "name": "SEQ(𝑛)",
+    "accessibleName": "SEQ(n)",
+    "nameVariants": [
+      "SEQ(𝒏)"
+    ],
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -10770,6 +10855,10 @@
   },
   "0xEF90": {
     "name": "SEQ(𝑛+1)",
+    "accessibleName": "SEQ(n+1)",
+    "nameVariants": [
+      "SEQ(𝒏+1)"
+    ],
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -10800,6 +10889,10 @@
   },
   "0xEF91": {
     "name": "SEQ(𝑛+2)",
+    "accessibleName": "SEQ(n+2)",
+    "nameVariants": [
+      "SEQ(𝒏+2)"
+    ],
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -11154,6 +11247,11 @@
   },
   "0xBB37": {
     "name": "Shadeχ²(",
+    "accessibleName": "Shadechi^2(",
+    "nameVariants": [
+      "Shadeχ^2(",
+      "Shadechi²("
+    ],
     "type": "function",
     "categories": [
       "Catalog > S",
@@ -11209,6 +11307,10 @@
   },
   "0xBB38": {
     "name": "Shade𝐅(",
+    "accessibleName": "ShadeF(",
+    "nameVariants": [
+      "Shade𝐅("
+    ],
     "type": "function",
     "categories": [
       "Catalog > S",
@@ -11438,6 +11540,7 @@
   },
   "0xC3": {
     "name": "sin⁻¹(",
+    "accessibleName": "sin^-1(",
     "type": "function",
     "categories": [
       "Catalog > S",
@@ -11515,6 +11618,7 @@
   },
   "0xC9": {
     "name": "sinh⁻¹(",
+    "accessibleName": "sinh^-1(",
     "type": "function",
     "categories": [
       "Catalog > S"
@@ -11930,6 +12034,7 @@
   },
   "0x04": {
     "name": "→",
+    "accessibleName": "->",
     "type": "store",
     "categories": [
       "Catalog > Misc",
@@ -12040,6 +12145,7 @@
   },
   "0xBB56": {
     "name": "String►Equ(",
+    "accessibleName": "String>Equ(",
     "type": "function",
     "categories": [
       "Catalog > S"
@@ -12168,6 +12274,7 @@
   },
   "0xEF33": {
     "name": "Σ(",
+    "accessibleName": "Sigma(",
     "type": "function",
     "categories": [],
     "syntaxes": [
@@ -12241,6 +12348,7 @@
   },
   "0xC7": {
     "name": "tan⁻¹(",
+    "accessibleName": "tan^-1(",
     "type": "function",
     "categories": [
       "Catalog > T",
@@ -12367,6 +12475,7 @@
   },
   "0xCD": {
     "name": "tanh⁻¹(",
+    "accessibleName": "tanh^-1(",
     "type": "function",
     "categories": [
       "Catalog > T"
@@ -13097,6 +13206,7 @@
   },
   "0xBB23": {
     "name": "tvm_𝗡",
+    "accessibleName": "tvm_N",
     "type": "userfunction",
     "categories": [
       "Finance > Calc"
@@ -13312,6 +13422,7 @@
   },
   "0xEF3A": {
     "name": "Un⁄d",
+    "accessibleName": "[Un/d]",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -13837,6 +13948,7 @@
   },
   "0xEF18": {
     "name": "ZFrac1⁄2",
+    "accessibleName": "ZFrac1/2",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -13861,6 +13973,7 @@
   },
   "0xEF19": {
     "name": "ZFrac1⁄3",
+    "accessibleName": "ZFrac1/3",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -13885,6 +13998,7 @@
   },
   "0xEF1A": {
     "name": "ZFrac1⁄4",
+    "accessibleName": "ZFrac1/4",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -13909,6 +14023,7 @@
   },
   "0xEF1B": {
     "name": "ZFrac1⁄5",
+    "accessibleName": "ZFrac1/5",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -13933,6 +14048,7 @@
   },
   "0xEF1C": {
     "name": "ZFrac1⁄8",
+    "accessibleName": "ZFrac1/8",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -13957,6 +14073,7 @@
   },
   "0xEF1D": {
     "name": "ZFrac1⁄10",
+    "accessibleName": "ZFrac1/10",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -14602,6 +14719,7 @@
   },
   "0x0A": {
     "name": "ʳ",
+    "accessibleName": "^^r",
     "type": "postfix operator",
     "categories": [
       "Operators"
@@ -14625,6 +14743,7 @@
   },
   "0x0B": {
     "name": "°",
+    "accessibleName": "^^o",
     "type": "postfix operator",
     "categories": [
       "Operators"
@@ -14648,6 +14767,10 @@
   },
   "0x0C": {
     "name": "⁻¹",
+    "accessibleName": "^^-1",
+    "nameVariants": [
+      "ˉ¹"
+    ],
     "type": "postfix operator",
     "categories": [
       "Operators"
@@ -14671,6 +14794,7 @@
   },
   "0x0D": {
     "name": "²",
+    "accessibleName": "^^2",
     "type": "postfix operator",
     "categories": [
       "Operators"
@@ -14694,6 +14818,7 @@
   },
   "0x0E": {
     "name": "ᵀ",
+    "accessibleName": "^^T",
     "type": "postfix operator",
     "categories": [
       "Operators"
@@ -14717,6 +14842,7 @@
   },
   "0x0F": {
     "name": "³",
+    "accessibleName": "^^3",
     "type": "postfix operator",
     "categories": [
       "Operators"
@@ -15779,6 +15905,7 @@
   },
   "0x5B": {
     "name": "θ",
+    "accessibleName": "theta",
     "type": "variable",
     "categories": [
       "Char > Greek",
@@ -16023,6 +16150,7 @@
   },
   "0x5D00": {
     "name": "L₁",
+    "accessibleName": "L1",
     "type": "variable",
     "categories": [
       "Keypad",
@@ -16047,6 +16175,7 @@
   },
   "0x5D01": {
     "name": "L₂",
+    "accessibleName": "L2",
     "type": "variable",
     "categories": [
       "Keypad",
@@ -16071,6 +16200,7 @@
   },
   "0x5D02": {
     "name": "L₃",
+    "accessibleName": "L3",
     "type": "variable",
     "categories": [
       "Keypad",
@@ -16095,6 +16225,7 @@
   },
   "0x5D03": {
     "name": "L₄",
+    "accessibleName": "L4",
     "type": "variable",
     "categories": [
       "Keypad",
@@ -16119,6 +16250,7 @@
   },
   "0x5D04": {
     "name": "L₅",
+    "accessibleName": "L5",
     "type": "variable",
     "categories": [
       "Keypad",
@@ -16143,6 +16275,7 @@
   },
   "0x5D05": {
     "name": "L₆",
+    "accessibleName": "L6",
     "type": "variable",
     "categories": [
       "Keypad",
@@ -16167,6 +16300,7 @@
   },
   "0x5E10": {
     "name": "Y₁",
+    "accessibleName": "{Y1}",
     "type": "variable",
     "categories": [
       "Y= Functions > Function"
@@ -16189,6 +16323,7 @@
   },
   "0x5E11": {
     "name": "Y₂",
+    "accessibleName": "{Y2}",
     "type": "variable",
     "categories": [
       "Y= Functions > Function"
@@ -16211,6 +16346,7 @@
   },
   "0x5E12": {
     "name": "Y₃",
+    "accessibleName": "{Y3}",
     "type": "variable",
     "categories": [
       "Y= Functions > Function"
@@ -16233,6 +16369,7 @@
   },
   "0x5E13": {
     "name": "Y₄",
+    "accessibleName": "{Y4}",
     "type": "variable",
     "categories": [
       "Y= Functions > Function"
@@ -16255,6 +16392,7 @@
   },
   "0x5E14": {
     "name": "Y₅",
+    "accessibleName": "{Y5}",
     "type": "variable",
     "categories": [
       "Y= Functions > Function"
@@ -16277,6 +16415,7 @@
   },
   "0x5E15": {
     "name": "Y₆",
+    "accessibleName": "{Y6}",
     "type": "variable",
     "categories": [
       "Y= Functions > Function"
@@ -16299,6 +16438,7 @@
   },
   "0x5E16": {
     "name": "Y₇",
+    "accessibleName": "{Y7}",
     "type": "variable",
     "categories": [
       "Y= Functions > Function"
@@ -16321,6 +16461,7 @@
   },
   "0x5E17": {
     "name": "Y₈",
+    "accessibleName": "{Y8}",
     "type": "variable",
     "categories": [
       "Y= Functions > Function"
@@ -16343,6 +16484,7 @@
   },
   "0x5E18": {
     "name": "Y₉",
+    "accessibleName": "{Y9}",
     "type": "variable",
     "categories": [
       "Y= Functions > Function"
@@ -16365,6 +16507,7 @@
   },
   "0x5E19": {
     "name": "Y₀",
+    "accessibleName": "{Y0}",
     "type": "variable",
     "categories": [
       "Y= Functions > Function"
@@ -16387,6 +16530,7 @@
   },
   "0x5E20": {
     "name": "X₁ᴛ",
+    "accessibleName": "{X1T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16409,6 +16553,7 @@
   },
   "0x5E21": {
     "name": "Y₁ᴛ",
+    "accessibleName": "{Y1T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16431,6 +16576,7 @@
   },
   "0x5E22": {
     "name": "X₂ᴛ",
+    "accessibleName": "{X2T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16453,6 +16599,7 @@
   },
   "0x5E23": {
     "name": "Y₂ᴛ",
+    "accessibleName": "{Y2T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16475,6 +16622,7 @@
   },
   "0x5E24": {
     "name": "X₃ᴛ",
+    "accessibleName": "{X3T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16497,6 +16645,7 @@
   },
   "0x5E25": {
     "name": "Y₃ᴛ",
+    "accessibleName": "{Y3T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16519,6 +16668,7 @@
   },
   "0x5E26": {
     "name": "X₄ᴛ",
+    "accessibleName": "{X4T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16541,6 +16691,7 @@
   },
   "0x5E27": {
     "name": "Y₄ᴛ",
+    "accessibleName": "{Y4T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16563,6 +16714,7 @@
   },
   "0x5E28": {
     "name": "X₅ᴛ",
+    "accessibleName": "{X5T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16585,6 +16737,7 @@
   },
   "0x5E29": {
     "name": "Y₅ᴛ",
+    "accessibleName": "{Y5T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16607,6 +16760,7 @@
   },
   "0x5E2A": {
     "name": "X₆ᴛ",
+    "accessibleName": "{X6T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16629,6 +16783,7 @@
   },
   "0x5E2B": {
     "name": "Y₆ᴛ",
+    "accessibleName": "{Y6T}",
     "type": "variable",
     "categories": [
       "Y= Functions > Parametric"
@@ -16651,6 +16806,7 @@
   },
   "0x5E40": {
     "name": "r₁",
+    "accessibleName": "{r1}",
     "type": "variable",
     "categories": [
       "Y= Functions > Polar"
@@ -16673,6 +16829,7 @@
   },
   "0x5E41": {
     "name": "r₂",
+    "accessibleName": "{r2}",
     "type": "variable",
     "categories": [
       "Y= Functions > Polar"
@@ -16695,6 +16852,7 @@
   },
   "0x5E42": {
     "name": "r₃",
+    "accessibleName": "{r3}",
     "type": "variable",
     "categories": [
       "Y= Functions > Polar"
@@ -16717,6 +16875,7 @@
   },
   "0x5E43": {
     "name": "r₄",
+    "accessibleName": "{r4}",
     "type": "variable",
     "categories": [
       "Y= Functions > Polar"
@@ -16739,6 +16898,7 @@
   },
   "0x5E44": {
     "name": "r₅",
+    "accessibleName": "{r5}",
     "type": "variable",
     "categories": [
       "Y= Functions > Polar"
@@ -16761,6 +16921,7 @@
   },
   "0x5E45": {
     "name": "r₆",
+    "accessibleName": "{r6}",
     "type": "variable",
     "categories": [
       "Y= Functions > Polar"
@@ -17325,6 +17486,7 @@
   },
   "0x6201": {
     "name": "RegEQ",
+    "accessibleName": "[RegEQ]",
     "type": "variable",
     "categories": [
       "Catalog > R",
@@ -17349,6 +17511,7 @@
   },
   "0x6202": {
     "name": "n",
+    "accessibleName": "[n]",
     "type": "variable",
     "categories": [
       "Statistics > XY"
@@ -17371,6 +17534,10 @@
   },
   "0x6203": {
     "name": "x̄",
+    "accessibleName": "[xhat]",
+    "nameVariants": [
+      "ẋ"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > XY"
@@ -17393,6 +17560,7 @@
   },
   "0x6204": {
     "name": "Σx",
+    "accessibleName": "[Sigmax]",
     "type": "variable",
     "categories": [
       "Statistics > Σ"
@@ -17415,6 +17583,11 @@
   },
   "0x6205": {
     "name": "Σx²",
+    "accessibleName": "[Sigmax^2]",
+    "nameVariants": [
+      "Σx^2",
+      "sigmax²"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > Σ"
@@ -17459,6 +17632,7 @@
   },
   "0x6207": {
     "name": "σx",
+    "accessibleName": "[sigmax]",
     "type": "variable",
     "categories": [
       "Statistics > XY"
@@ -17569,6 +17743,7 @@
   },
   "0x620C": {
     "name": "ȳ",
+    "accessibleName": "[yhat]",
     "type": "variable",
     "categories": [
       "Statistics > XY"
@@ -17591,6 +17766,7 @@
   },
   "0x620D": {
     "name": "Σy",
+    "accessibleName": "[Sigmay]",
     "type": "variable",
     "categories": [
       "Statistics > Σ"
@@ -17613,6 +17789,11 @@
   },
   "0x620E": {
     "name": "Σy²",
+    "accessibleName": "[Sigmay^2]",
+    "nameVariants": [
+      "Σy^2",
+      "sigmay²"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > Σ"
@@ -17657,6 +17838,7 @@
   },
   "0x6210": {
     "name": "σy",
+    "accessibleName": "[sigmay]",
     "type": "variable",
     "categories": [
       "Statistics > XY"
@@ -17679,6 +17861,7 @@
   },
   "0x6211": {
     "name": "Σxy",
+    "accessibleName": "[Sigmaxy]",
     "type": "variable",
     "categories": [
       "Statistics > Σ"
@@ -17747,6 +17930,10 @@
   },
   "0x6214": {
     "name": "Q₁",
+    "accessibleName": "[Q1]",
+    "nameVariants": [
+      "[Q₁]"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > Points"
@@ -17769,6 +17956,10 @@
   },
   "0x6215": {
     "name": "Q₃",
+    "accessibleName": "[Q3]",
+    "nameVariants": [
+      "[Q₃]"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > Points"
@@ -17901,6 +18092,7 @@
   },
   "0x621B": {
     "name": "x₁",
+    "accessibleName": "[x1]",
     "type": "variable",
     "categories": [
       "Statistics > Points"
@@ -17923,6 +18115,7 @@
   },
   "0x621C": {
     "name": "x₂",
+    "accessibleName": "[x2]",
     "type": "variable",
     "categories": [
       "Statistics > Points"
@@ -17945,6 +18138,7 @@
   },
   "0x621D": {
     "name": "x₃",
+    "accessibleName": "[x3]",
     "type": "variable",
     "categories": [
       "Statistics > Points"
@@ -17967,6 +18161,7 @@
   },
   "0x621E": {
     "name": "y₁",
+    "accessibleName": "[y1]",
     "type": "variable",
     "categories": [
       "Statistics > Points"
@@ -17989,6 +18184,7 @@
   },
   "0x621F": {
     "name": "y₂",
+    "accessibleName": "[y2]",
     "type": "variable",
     "categories": [
       "Statistics > Points"
@@ -18011,6 +18207,7 @@
   },
   "0x6220": {
     "name": "y₃",
+    "accessibleName": "[y3]",
     "type": "variable",
     "categories": [
       "Statistics > Points"
@@ -18033,6 +18230,10 @@
   },
   "0x6221": {
     "name": "𝑛",
+    "accessibleName": "[recursiven]",
+    "nameVariants": [
+      "[𝒏]"
+    ],
     "type": "variable",
     "categories": [
       "Catalog > Misc",
@@ -18123,6 +18324,11 @@
   },
   "0x6225": {
     "name": "χ²",
+    "accessibleName": "[chi^2]",
+    "nameVariants": [
+      "χ^2",
+      "chi²"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18189,6 +18395,11 @@
   },
   "0x6228": {
     "name": "p̂",
+    "accessibleName": "[phat]",
+    "nameVariants": [
+      "[p̂]",
+      "[ṗ]"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18211,6 +18422,13 @@
   },
   "0x6229": {
     "name": "p̂₁",
+    "accessibleName": "[phat1]",
+    "nameVariants": [
+      "p̂1",
+      "ṗ₁",
+      "ṗ1",
+      "phat₁"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18233,6 +18451,13 @@
   },
   "0x622A": {
     "name": "p̂₂",
+    "accessibleName": "[phat2]",
+    "nameVariants": [
+      "p̂2",
+      "ṗ₂",
+      "ṗ2",
+      "phat₂"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18255,6 +18480,12 @@
   },
   "0x622B": {
     "name": "x̄₁",
+    "accessibleName": "[xhat1]",
+    "nameVariants": [
+      "ẋ₁",
+      "ẋ1",
+      "xhat₁"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18277,6 +18508,7 @@
   },
   "0x622C": {
     "name": "Sx₁",
+    "accessibleName": "[Sx1]",
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18299,6 +18531,7 @@
   },
   "0x622D": {
     "name": "n₁",
+    "accessibleName": "[n1]",
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18321,6 +18554,13 @@
   },
   "0x622E": {
     "name": "x̄₂",
+    "accessibleName": "[xhat2]",
+    "nameVariants": [
+      "x̄2",
+      "ẋ₂",
+      "ẋ2",
+      "xhat₂"
+    ],
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18343,6 +18583,7 @@
   },
   "0x622F": {
     "name": "Sx₂",
+    "accessibleName": "[Sx2]",
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18365,6 +18606,7 @@
   },
   "0x6230": {
     "name": "n₂",
+    "accessibleName": "[n2]",
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18387,6 +18629,7 @@
   },
   "0x6231": {
     "name": "Sxp",
+    "accessibleName": "[Sxp]",
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18409,6 +18652,7 @@
   },
   "0x6232": {
     "name": "lower",
+    "accessibleName": "[lower]",
     "type": "variable",
     "categories": [
       "Catalog > L",
@@ -18433,6 +18677,7 @@
   },
   "0x6233": {
     "name": "upper",
+    "accessibleName": "[upper]",
     "type": "variable",
     "categories": [
       "Statistics > Test"
@@ -18477,6 +18722,7 @@
   },
   "0x6235": {
     "name": "r²",
+    "accessibleName": "[r^2]",
     "type": "variable",
     "categories": [
       "Statistics > EQ"
@@ -18499,6 +18745,7 @@
   },
   "0x6236": {
     "name": "R²",
+    "accessibleName": "[R^2]",
     "type": "variable",
     "categories": [
       "Statistics > EQ"
@@ -18745,6 +18992,10 @@
   },
   "0x6304": {
     "name": "u(𝑛Min)",
+    "accessibleName": "u(nMin)",
+    "nameVariants": [
+      "u(𝒏Min)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Window ➤ U/V/W"
@@ -18772,6 +19023,10 @@
   },
   "0x6305": {
     "name": "v(𝑛Min)",
+    "accessibleName": "v(nMin)",
+    "nameVariants": [
+      "v(𝒏Min)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Window ➤ U/V/W"
@@ -18799,6 +19054,11 @@
   },
   "0x6306": {
     "name": "U𝑛-₁",
+    "accessibleName": "Un-1",
+    "nameVariants": [
+      "U𝒏-₁",
+      "Un-₁"
+    ],
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
@@ -18825,6 +19085,11 @@
   },
   "0x6307": {
     "name": "V𝑛-₁",
+    "accessibleName": "Vn-1",
+    "nameVariants": [
+      "V𝒏-₁",
+      "Vn-₁"
+    ],
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
@@ -18851,6 +19116,11 @@
   },
   "0x6308": {
     "name": "Zu(𝑛Min)",
+    "accessibleName": "Zu(nMin)",
+    "nameVariants": [
+      "Zu(𝒏Min)",
+      "Zu(nmin)"
+    ],
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
@@ -18873,6 +19143,11 @@
   },
   "0x6309": {
     "name": "Zv(𝑛Min)",
+    "accessibleName": "Zv(nMin)",
+    "nameVariants": [
+      "Zv(𝒏Min)",
+      "Zv(nmin)"
+    ],
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
@@ -19035,6 +19310,10 @@
   },
   "0x6310": {
     "name": "θMin",
+    "accessibleName": "thetaMin",
+    "nameVariants": [
+      "θMin"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Window ➤ T/θ"
@@ -19058,6 +19337,10 @@
   },
   "0x6311": {
     "name": "θMax",
+    "accessibleName": "thetaMax",
+    "nameVariants": [
+      "θMax"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Window ➤ T/θ"
@@ -19173,6 +19456,7 @@
   },
   "0x6316": {
     "name": "Zθmin",
+    "accessibleName": "Zthetamin",
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
@@ -19195,6 +19479,7 @@
   },
   "0x6317": {
     "name": "Zθmax",
+    "accessibleName": "Zthetamax",
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
@@ -19337,6 +19622,10 @@
   },
   "0x631D": {
     "name": "𝑛Max",
+    "accessibleName": "nMax",
+    "nameVariants": [
+      "𝒏Max"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Window ➤ U/V/W"
@@ -19360,6 +19649,10 @@
   },
   "0x631E": {
     "name": "Z𝑛Max",
+    "accessibleName": "ZnMax",
+    "nameVariants": [
+      "Z𝒏Max"
+    ],
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
@@ -19382,6 +19675,10 @@
   },
   "0x631F": {
     "name": "𝑛Min",
+    "accessibleName": "nMin",
+    "nameVariants": [
+      "𝒏Min"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Window ➤ U/V/W"
@@ -19409,6 +19706,10 @@
   },
   "0x6320": {
     "name": "Z𝑛Min",
+    "accessibleName": "ZnMin",
+    "nameVariants": [
+      "Z𝒏Min"
+    ],
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
@@ -19431,6 +19732,10 @@
   },
   "0x6321": {
     "name": "∆Tbl",
+    "accessibleName": "DeltaTbl",
+    "nameVariants": [
+      "∆Tbl"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Table"
@@ -19477,6 +19782,7 @@
   },
   "0x6323": {
     "name": "θstep",
+    "accessibleName": "thetastep",
     "type": "variable",
     "categories": [
       "Variables > Window ➤ T/θ"
@@ -19523,6 +19829,7 @@
   },
   "0x6325": {
     "name": "Zθstep",
+    "accessibleName": "Zthetastep",
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
@@ -19545,6 +19852,10 @@
   },
   "0x6326": {
     "name": "∆X",
+    "accessibleName": "DeltaX",
+    "nameVariants": [
+      "∆X"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Window ➤ X/Y"
@@ -19568,6 +19879,10 @@
   },
   "0x6327": {
     "name": "∆Y",
+    "accessibleName": "DeltaY",
+    "nameVariants": [
+      "∆Y"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Window ➤ X/Y"
@@ -19659,6 +19974,10 @@
   },
   "0x632B": {
     "name": "𝗡",
+    "accessibleName": "|N",
+    "nameVariants": [
+      "|𝗡"
+    ],
     "type": "variable",
     "categories": [
       "Char > Other"
@@ -19813,6 +20132,10 @@
   },
   "0x6332": {
     "name": "w(𝑛Min)",
+    "accessibleName": "w(nMin)",
+    "nameVariants": [
+      "w(𝒏Min)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Window ➤ U/V/W"
@@ -19836,6 +20159,10 @@
   },
   "0x6333": {
     "name": "Zw(𝑛Min)",
+    "accessibleName": "Zw(nMin)",
+    "nameVariants": [
+      "Zw(𝒏Min)"
+    ],
     "type": "variable",
     "categories": [
       "Other (non-catalog) > Other"
@@ -20043,6 +20370,7 @@
   },
   "0x6D": {
     "name": "≤",
+    "accessibleName": "<=",
     "type": "infix operator",
     "categories": [
       "Catalog > Misc",
@@ -20067,6 +20395,7 @@
   },
   "0x6E": {
     "name": "≥",
+    "accessibleName": ">=",
     "type": "infix operator",
     "categories": [
       "Catalog > Misc",
@@ -20091,6 +20420,7 @@
   },
   "0x6F": {
     "name": "≠",
+    "accessibleName": "!=",
     "type": "infix operator",
     "categories": [
       "Catalog > Misc",
@@ -20184,6 +20514,10 @@
   },
   "0x7F": {
     "name": "□",
+    "accessibleName": "squareplot",
+    "nameVariants": [
+      "plotsquare"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Catalog > Misc",
@@ -20208,6 +20542,10 @@
   },
   "0x80": {
     "name": "﹢",
+    "accessibleName": "crossplot",
+    "nameVariants": [
+      "plotcross"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Catalog > Misc",
@@ -20232,6 +20570,10 @@
   },
   "0x81": {
     "name": "·",
+    "accessibleName": "dotplot",
+    "nameVariants": [
+      "plotdot"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Catalog > Misc",
@@ -20577,6 +20919,7 @@
   },
   "0xAC": {
     "name": "π",
+    "accessibleName": "pi",
     "type": "constant",
     "categories": [
       "Catalog > Misc",
@@ -20649,6 +20992,10 @@
   },
   "0xB0": {
     "name": "⁻",
+    "accessibleName": "|-",
+    "nameVariants": [
+      "~"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Catalog > Misc",
@@ -20674,6 +21021,7 @@
   },
   "0xBB31": {
     "name": "e",
+    "accessibleName": "[e]",
     "type": "constant",
     "categories": [
       "Catalog > Misc",
@@ -21775,6 +22123,10 @@
   },
   "0xBB9A": {
     "name": "´",
+    "accessibleName": "|'",
+    "nameVariants": [
+      "^^'"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Char > International"
@@ -21798,6 +22150,10 @@
   },
   "0xBB9B": {
     "name": "`",
+    "nameVariants": [
+      "|`",
+      "^^`"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Char > International"
@@ -21821,6 +22177,10 @@
   },
   "0xBB9C": {
     "name": "¨",
+    "accessibleName": "|:",
+    "nameVariants": [
+      "^^:"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Char > International"
@@ -21844,6 +22204,7 @@
   },
   "0xBB9D": {
     "name": "¿",
+    "accessibleName": "|?",
     "type": "text/symbol only",
     "categories": [
       "Char > International"
@@ -21867,6 +22228,7 @@
   },
   "0xBB9E": {
     "name": "¡",
+    "accessibleName": "|!",
     "type": "text/symbol only",
     "categories": [
       "Char > International"
@@ -21890,6 +22252,7 @@
   },
   "0xBB9F": {
     "name": "α",
+    "accessibleName": "alpha",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -21913,6 +22276,7 @@
   },
   "0xBBA0": {
     "name": "β",
+    "accessibleName": "beta",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -21936,6 +22300,7 @@
   },
   "0xBBA1": {
     "name": "γ",
+    "accessibleName": "gamma",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -21959,6 +22324,7 @@
   },
   "0xBBA2": {
     "name": "Δ",
+    "accessibleName": "Delta",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -21982,6 +22348,7 @@
   },
   "0xBBA3": {
     "name": "δ",
+    "accessibleName": "delta",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -22005,6 +22372,7 @@
   },
   "0xBBA4": {
     "name": "ε",
+    "accessibleName": "epsilon",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -22028,6 +22396,7 @@
   },
   "0xBBA5": {
     "name": "λ",
+    "accessibleName": "lambda",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -22051,6 +22420,7 @@
   },
   "0xBBA6": {
     "name": "μ",
+    "accessibleName": "mu",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -22074,6 +22444,10 @@
   },
   "0xBBA7": {
     "name": "|π",
+    "accessibleName": "greek_pi",
+    "nameVariants": [
+      "|π"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Other (non-catalog) > Other"
@@ -22096,6 +22470,7 @@
   },
   "0xBBA8": {
     "name": "ρ",
+    "accessibleName": "rho",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -22119,6 +22494,7 @@
   },
   "0xBBA9": {
     "name": "Σ",
+    "accessibleName": "Sigma",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -22142,6 +22518,7 @@
   },
   "0xBBAB": {
     "name": "Φ",
+    "accessibleName": "Phi",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -22165,6 +22542,7 @@
   },
   "0xBBAC": {
     "name": "Ω",
+    "accessibleName": "Omega",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -22188,6 +22566,10 @@
   },
   "0xBBAD": {
     "name": "ṗ",
+    "accessibleName": "phat",
+    "nameVariants": [
+      "ṗ"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -22210,6 +22592,7 @@
   },
   "0xBBAE": {
     "name": "χ",
+    "accessibleName": "chi",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -22233,6 +22616,11 @@
   },
   "0xBBAF": {
     "name": "𝐅",
+    "accessibleName": "|F",
+    "nameVariants": [
+      "𝐅",
+      "|𝐅"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -22830,6 +23218,7 @@
   },
   "0xBBCB": {
     "name": "σ",
+    "accessibleName": "sigma",
     "type": "text/symbol only",
     "categories": [
       "Catalog > G"
@@ -22853,6 +23242,7 @@
   },
   "0xBBCC": {
     "name": "τ",
+    "accessibleName": "tau",
     "type": "text/symbol only",
     "categories": [
       "Char > Greek"
@@ -22898,6 +23288,7 @@
   },
   "0xBBCF": {
     "name": "~",
+    "accessibleName": "|~",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23012,6 +23403,7 @@
   },
   "0xBBD5": {
     "name": "‛",
+    "accessibleName": "`",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23166,6 +23558,7 @@
   },
   "0xBBDB": {
     "name": "…",
+    "accessibleName": "...",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23188,6 +23581,7 @@
   },
   "0xBBDC": {
     "name": "∠",
+    "accessibleName": "|<",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23210,6 +23604,7 @@
   },
   "0xBBDD": {
     "name": "ß",
+    "accessibleName": "sharps",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23232,6 +23627,7 @@
   },
   "0xBBDE": {
     "name": "ˣ",
+    "accessibleName": "^^x",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23254,6 +23650,7 @@
   },
   "0xBBDF": {
     "name": "ᴛ",
+    "accessibleName": "smallT",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23276,6 +23673,7 @@
   },
   "0xBBE0": {
     "name": "₀",
+    "accessibleName": "small0",
     "type": "text/symbol only",
     "categories": [
       "Char > Digits"
@@ -23299,6 +23697,7 @@
   },
   "0xBBE1": {
     "name": "₁",
+    "accessibleName": "small1",
     "type": "text/symbol only",
     "categories": [
       "Char > Digits"
@@ -23322,6 +23721,7 @@
   },
   "0xBBE2": {
     "name": "₂",
+    "accessibleName": "small2",
     "type": "text/symbol only",
     "categories": [
       "Char > Digits"
@@ -23345,6 +23745,7 @@
   },
   "0xBBE3": {
     "name": "₃",
+    "accessibleName": "small3",
     "type": "text/symbol only",
     "categories": [
       "Char > Digits"
@@ -23368,6 +23769,7 @@
   },
   "0xBBE4": {
     "name": "₄",
+    "accessibleName": "small4",
     "type": "text/symbol only",
     "categories": [
       "Char > Digits"
@@ -23391,6 +23793,7 @@
   },
   "0xBBE5": {
     "name": "₅",
+    "accessibleName": "small5",
     "type": "text/symbol only",
     "categories": [
       "Char > Digits"
@@ -23414,6 +23817,7 @@
   },
   "0xBBE6": {
     "name": "₆",
+    "accessibleName": "small6",
     "type": "text/symbol only",
     "categories": [
       "Char > Digits"
@@ -23437,6 +23841,7 @@
   },
   "0xBBE7": {
     "name": "₇",
+    "accessibleName": "small7",
     "type": "text/symbol only",
     "categories": [
       "Char > Digits"
@@ -23460,6 +23865,7 @@
   },
   "0xBBE8": {
     "name": "₈",
+    "accessibleName": "small8",
     "type": "text/symbol only",
     "categories": [
       "Char > Digits"
@@ -23483,6 +23889,7 @@
   },
   "0xBBE9": {
     "name": "₉",
+    "accessibleName": "small9",
     "type": "text/symbol only",
     "categories": [
       "Char > Digits"
@@ -23506,6 +23913,7 @@
   },
   "0xBBEA": {
     "name": "₁₀",
+    "accessibleName": "small10",
     "type": "text/symbol only",
     "categories": [
       "Other (non-catalog) > Other"
@@ -23528,6 +23936,7 @@
   },
   "0xBBEB": {
     "name": "◄",
+    "accessibleName": "<|",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23550,6 +23959,7 @@
   },
   "0xBBEC": {
     "name": "►",
+    "accessibleName": "|>",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23572,6 +23982,7 @@
   },
   "0xBBED": {
     "name": "↑",
+    "accessibleName": "uparrow",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23594,6 +24005,7 @@
   },
   "0xBBEE": {
     "name": "↓",
+    "accessibleName": "downarrow",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23616,6 +24028,7 @@
   },
   "0xBBF0": {
     "name": "×",
+    "accessibleName": "xmark",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23638,6 +24051,7 @@
   },
   "0xBBF1": {
     "name": "∫",
+    "accessibleName": "integral",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23660,6 +24074,10 @@
   },
   "0xBBF2": {
     "name": "🡅",
+    "accessibleName": "bolduparrow",
+    "nameVariants": [
+      "🡅"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23682,6 +24100,10 @@
   },
   "0xBBF3": {
     "name": "🡇",
+    "accessibleName": "bolddownarrow",
+    "nameVariants": [
+      "🡇"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23704,6 +24126,7 @@
   },
   "0xBBF4": {
     "name": "√",
+    "accessibleName": "squareroot",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23726,6 +24149,10 @@
   },
   "0xBBF5": {
     "name": "⌸",
+    "accessibleName": "invertedequal",
+    "nameVariants": [
+      "⌸"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23748,6 +24175,7 @@
   },
   "0xBC": {
     "name": "√(",
+    "accessibleName": "sqrt(",
     "type": "function",
     "categories": [
       "Catalog > Misc",
@@ -23777,6 +24205,7 @@
   },
   "0xBD": {
     "name": "³√(",
+    "accessibleName": "cuberoot(",
     "type": "function",
     "categories": [
       "Catalog > Misc",
@@ -23805,6 +24234,7 @@
   },
   "0xC1": {
     "name": "₁₀^(",
+    "accessibleName": "10^",
     "type": "function",
     "categories": [
       "Catalog > Misc",
@@ -23878,6 +24308,10 @@
   },
   "0xEF1E": {
     "name": "⬚",
+    "accessibleName": "mathprintbox",
+    "nameVariants": [
+      "⬚"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23900,6 +24334,7 @@
   },
   "0xEF2E": {
     "name": "⁄",
+    "accessibleName": "n/d",
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23922,6 +24357,10 @@
   },
   "0xEF2F": {
     "name": "ᵤ",
+    "accessibleName": "Un/d",
+    "nameVariants": [
+      "ᵤ"
+    ],
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -23964,6 +24403,7 @@
   },
   "0xEF3D": {
     "name": "FRAC-APPROX",
+    "accessibleName": "[FRAC-APPROX]",
     "type": "action",
     "categories": [
       "Other (non-catalog) > Other"
@@ -23990,6 +24430,9 @@
   },
   "0xEF41": {
     "name": "BLUE",
+    "nameVariants": [
+      "Blue"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24013,6 +24456,9 @@
   },
   "0xEF42": {
     "name": "RED",
+    "nameVariants": [
+      "Red"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24036,6 +24482,9 @@
   },
   "0xEF43": {
     "name": "BLACK",
+    "nameVariants": [
+      "Black"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24059,6 +24508,9 @@
   },
   "0xEF44": {
     "name": "MAGENTA",
+    "nameVariants": [
+      "Magenta"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24082,6 +24534,9 @@
   },
   "0xEF45": {
     "name": "GREEN",
+    "nameVariants": [
+      "Green"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24105,6 +24560,9 @@
   },
   "0xEF46": {
     "name": "ORANGE",
+    "nameVariants": [
+      "Orange"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24128,6 +24586,9 @@
   },
   "0xEF47": {
     "name": "BROWN",
+    "nameVariants": [
+      "Brown"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24151,6 +24612,9 @@
   },
   "0xEF48": {
     "name": "NAVY",
+    "nameVariants": [
+      "Navy"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24174,6 +24638,9 @@
   },
   "0xEF49": {
     "name": "LTBLUE",
+    "nameVariants": [
+      "LtBlue"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24197,6 +24664,9 @@
   },
   "0xEF4A": {
     "name": "YELLOW",
+    "nameVariants": [
+      "Yellow"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24220,6 +24690,9 @@
   },
   "0xEF4B": {
     "name": "WHITE",
+    "nameVariants": [
+      "White"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24243,6 +24716,11 @@
   },
   "0xEF4C": {
     "name": "LTGRAY",
+    "nameVariants": [
+      "LtGray",
+      "LTGREY",
+      "LtGrey"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24266,6 +24744,11 @@
   },
   "0xEF4D": {
     "name": "MEDGRAY",
+    "nameVariants": [
+      "MedGray",
+      "MEDGREY",
+      "MedGrey"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24289,6 +24772,11 @@
   },
   "0xEF4E": {
     "name": "GRAY",
+    "nameVariants": [
+      "Gray",
+      "GREY",
+      "Grey"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24312,6 +24800,11 @@
   },
   "0xEF4F": {
     "name": "DARKGRAY",
+    "nameVariants": [
+      "DarkGray",
+      "DARKGREY",
+      "DarkGrey"
+    ],
     "type": "action",
     "categories": [
       "Drawing > Colors"
@@ -24628,6 +25121,10 @@
   },
   "0xEF73": {
     "name": "·",
+    "accessibleName": "plottinydot",
+    "nameVariants": [
+      "·"
+    ],
     "type": "other",
     "categories": [
       "Char > Other"
@@ -24691,6 +25188,7 @@
   },
   "0xEF81": {
     "name": "Quartiles Setting…",
+    "accessibleName": "Quartiles Setting...",
     "type": "action",
     "categories": [
       "Other (non-catalog) > Other"
@@ -24713,6 +25211,10 @@
   },
   "0xEF82": {
     "name": "u(𝑛-2)",
+    "accessibleName": "u(n-2)",
+    "nameVariants": [
+      "u(𝒏-2)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24736,6 +25238,10 @@
   },
   "0xEF83": {
     "name": "v(𝑛-2)",
+    "accessibleName": "v(n-2)",
+    "nameVariants": [
+      "v(𝒏-2)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24759,6 +25265,10 @@
   },
   "0xEF84": {
     "name": "w(𝑛-2)",
+    "accessibleName": "w(n-2)",
+    "nameVariants": [
+      "w(𝒏-2)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24782,6 +25292,10 @@
   },
   "0xEF85": {
     "name": "u(𝑛-1)",
+    "accessibleName": "u(n-1)",
+    "nameVariants": [
+      "u(𝒏-1)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24805,6 +25319,10 @@
   },
   "0xEF86": {
     "name": "v(𝑛-1)",
+    "accessibleName": "v(n-1)",
+    "nameVariants": [
+      "v(𝒏-1)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24828,6 +25346,10 @@
   },
   "0xEF87": {
     "name": "w(𝑛-1)",
+    "accessibleName": "w(n-1)",
+    "nameVariants": [
+      "w(𝒏-1)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24851,6 +25373,10 @@
   },
   "0xEF88": {
     "name": "u(𝑛)",
+    "accessibleName": "u(n)",
+    "nameVariants": [
+      "u(𝒏)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24874,6 +25400,10 @@
   },
   "0xEF89": {
     "name": "v(𝑛)",
+    "accessibleName": "v(n)",
+    "nameVariants": [
+      "v(𝒏)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24897,6 +25427,10 @@
   },
   "0xEF8A": {
     "name": "w(𝑛)",
+    "accessibleName": "w(n)",
+    "nameVariants": [
+      "w(𝒏)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24920,6 +25454,10 @@
   },
   "0xEF8B": {
     "name": "u(𝑛+1)",
+    "accessibleName": "u(n+1)",
+    "nameVariants": [
+      "u(𝒏+1)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24943,6 +25481,10 @@
   },
   "0xEF8C": {
     "name": "v(𝑛+1)",
+    "accessibleName": "v(n+1)",
+    "nameVariants": [
+      "v(𝒏+1)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -24966,6 +25508,10 @@
   },
   "0xEF8D": {
     "name": "w(𝑛+1)",
+    "accessibleName": "w(n+1)",
+    "nameVariants": [
+      "w(𝒏+1)"
+    ],
     "type": "variable",
     "categories": [
       "Variables > Sequences"
@@ -25190,6 +25736,7 @@
   },
   "0xF1": {
     "name": "ˣ√",
+    "accessibleName": "xroot",
     "type": "infix operator",
     "categories": [
       "Catalog > Misc",
