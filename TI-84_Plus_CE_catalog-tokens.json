@@ -1371,6 +1371,11 @@
   "0xC5": {
     "name": "cos⁻¹(",
     "accessibleName": "cos^-1(",
+    "nameVariants": [
+      "cos⁻¹(",
+      "arccos(",
+      "acos("
+    ],
     "type": "function",
     "categories": [
       "Catalog > C",
@@ -1449,6 +1454,11 @@
   "0xCB": {
     "name": "cosh⁻¹(",
     "accessibleName": "cosh^-1(",
+    "nameVariants": [
+      "cosh⁻¹(",
+      "arccosh(",
+      "acosh("
+    ],
     "type": "function",
     "categories": [
       "Catalog > C"
@@ -2446,7 +2456,7 @@
   },
   "0xBF": {
     "name": "𝑒^(",
-    "accessibleName": "e^(",
+    "accessibleName": "e^^(",
     "type": "function",
     "categories": [
       "Catalog > Misc",
@@ -11541,6 +11551,11 @@
   "0xC3": {
     "name": "sin⁻¹(",
     "accessibleName": "sin^-1(",
+    "nameVariants": [
+      "sin⁻¹(",
+      "arcsin(",
+      "asin("
+    ],
     "type": "function",
     "categories": [
       "Catalog > S",
@@ -11619,6 +11634,11 @@
   "0xC9": {
     "name": "sinh⁻¹(",
     "accessibleName": "sinh^-1(",
+    "nameVariants": [
+      "sinh⁻¹(",
+      "arcsinh(",
+      "asinh("
+    ],
     "type": "function",
     "categories": [
       "Catalog > S"
@@ -12349,6 +12369,11 @@
   "0xC7": {
     "name": "tan⁻¹(",
     "accessibleName": "tan^-1(",
+    "nameVariants": [
+      "tan⁻¹(",
+      "arctan(",
+      "atan("
+    ],
     "type": "function",
     "categories": [
       "Catalog > T",
@@ -12476,6 +12501,11 @@
   "0xCD": {
     "name": "tanh⁻¹(",
     "accessibleName": "tanh^-1(",
+    "nameVariants": [
+      "tanh⁻¹(",
+      "arctanh(",
+      "atanh("
+    ],
     "type": "function",
     "categories": [
       "Catalog > T"
@@ -20992,9 +21022,9 @@
   },
   "0xB0": {
     "name": "⁻",
-    "accessibleName": "|-",
+    "accessibleName": "~",
     "nameVariants": [
-      "~"
+      "|-"
     ],
     "type": "text/symbol only",
     "categories": [
@@ -24234,7 +24264,7 @@
   },
   "0xC1": {
     "name": "₁₀^(",
-    "accessibleName": "10^",
+    "accessibleName": "10^^(",
     "type": "function",
     "categories": [
       "Catalog > Misc",
@@ -24255,7 +24285,11 @@
       "FR": "₁₀^("
     },
     "since": {
-      "TI-82": "1.0"
+      "TI-82": "1.0|₁₀^",
+      "TI-83": "0.01013"
+    },
+    "until": {
+      "TI-83": "0.01013|₁₀^"
     }
   },
   "0xED": {
