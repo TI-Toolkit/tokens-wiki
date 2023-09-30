@@ -1,6 +1,6 @@
 # Keypad
 
- * <a href="../tokens/-.md" title="0x71">-</a>
+ * <a href="../tokens/-_(71).md" title="0x71">-</a>
  * <a href="../tokens/0x82.md" title="0x82">*</a>
  * <a href="../tokens/0x83.md" title="0x83">/</a>
  * <a href="../tokens/^.md" title="0xF0">^</a>
