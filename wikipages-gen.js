@@ -13,7 +13,8 @@ const emptyDir = function(dir) {
 }
 
 const cleanTokNameForFile = function(tokName, bytes, extraSuffix, isAlias) {
-    tokName = tokName.replace(/\/Y$/, '_Y').replace(/^\|$/, '(pipe_symbol)');
+    tokName = tokName.replace(/\/Y$/, '_Y').replace(/^\|$/, '(pipe_symbol)').replace(/^>/, 'to');
+    tokName = tokName.replace(/^¨/u, '(diaeresis)').replace(/^´/u, '(acute_acc)').replace(/^'/, '(apostrophe)').replace(/^_/, '(underscore)');
     return (isAlias || /^\[?\|(.*?)\]?$/.test(tokName))
         ? (sanitize(`${tokName.replace(/^\[?\|(.*?)\]?$/, '$1')}_${extraSuffix}`) || bytes)
         : (sanitize(tokName) || bytes);
@@ -137,8 +138,17 @@ ${info.specialCategory}
     if (token.name !== cleanName && `${cleanName} ` !== token.name) {
         // console.log(`[Warning] name difference for bytes ${bytes} : [${token.name ?? '???'}] vs [${cleanName}]`);
     }
-    if (filenamesUsedSoFar[cleanName]) {
+    if (filenamesUsedSoFar[cleanName.toLocaleLowerCase()]) {
         cleanName += `_(${bytes.substring(2)})`;
+    }
+
+    let cleanAccessibleName = null;
+    if (token.accessibleName) {
+        cleanAccessibleName = cleanTokNameForFile(token.accessibleName, bytes, (token?._mainCatForFilename ?? bytes), token.isAlias);
+        if (filenamesUsedSoFar[cleanAccessibleName.toLocaleLowerCase()]) {
+            cleanAccessibleName += `_(${bytes.substring(2)})`;
+        }
+        cleanAccessibleName = cleanAccessibleName.replace(/^¨/u, '(diaeresis)').replace(/^´/u, '(acute_acc)').replace(/^'/, '(apostrophe)').replace(/^_/, '(underscore)');
     }
 
     // tibd stuff
@@ -213,8 +223,21 @@ code 2
     }
 
     bytes2filename[bytes] = cleanName;
+
     filenamesUsedSoFar[cleanName.toLocaleLowerCase()] = true;
-    fs.writeFileSync(`output/wikipages/tokens/${cleanName}.md`, page.trimStart());
+    fs.writeFileSync(`output/wikipages/tokens/${bytes}.md`, page.trimStart());
+    if (bytes !== cleanName) {
+        fs.symlinkSync(`${bytes}.md`, `output/wikipages/tokens/${cleanName}.md`);
+    }
+    if (cleanAccessibleName) {
+        filenamesUsedSoFar[cleanAccessibleName.toLocaleLowerCase()] = true;
+        if (bytes !== cleanAccessibleName && cleanName !== cleanAccessibleName) {
+            const linkName = `output/wikipages/tokens/${cleanAccessibleName}.md`;
+            if (!fs.existsSync(linkName)) {
+                fs.symlinkSync(`${bytes}.md`, linkName);
+            }
+        }
+    }
 }
 
 let catIndexPage = '# Categories\n\n';
@@ -238,9 +261,8 @@ for (const [ cat, entries ] of Object.entries(pagesByCat).sort((a, b) => a[0].lo
             const subCat = subCatOrBytes;
             catPage += `\n## ${subCat}\n\n`;
             for (const [ bytes, tokName ] of Object.entries(val).sort((a, b) => a[cat === 'Catalog' ? 1 : 0].localeCompare(b[cat === 'Catalog' ? 1 : 0]))) {
-                const cleanTokFileName = bytes2filename[bytes];
-                if (fs.existsSync(`./output/wikipages/tokens/${cleanTokFileName}.md`)) {
-                    catPage += ` * <a href="../tokens/${cleanTokFileName}.md" title="${bytes}">${tokName || ('<i>( '+bytes+' )</i>')}</a>\n`;
+                if (fs.existsSync(`./output/wikipages/tokens/${bytes}.md`)) {
+                    catPage += ` * <a href="../tokens/${bytes}.md" title="${bytes}">${tokName || ('<i>( '+bytes+' )</i>')}</a>\n`;
                 } else {
                     console.warn(`[val object] page doesn't exist for bytes = ${bytes} tokName = ${tokName}`);
                     catPage += ` * <span title="${bytes}">${tokName}</span>\n`;
