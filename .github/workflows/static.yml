@@ -54,9 +54,10 @@ jobs:
           icon: calculator
           
       - name: Fix links to Markdown pages
-        run: |
-          cd ./html
-          sudo find . -name "*.html" -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
+        run: sudo find ./html -name "*.html" -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
+          
+      - name: Remove hex names from Tokens dropdown
+        run: sudo find ./html -name "*.html" -type f -exec perl -0777pe "s/<li class=\"md-nav__item\">\s*<a href=\"tokens/0x.*?</li>/ /s" {} \;
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
