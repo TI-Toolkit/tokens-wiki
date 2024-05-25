@@ -53,6 +53,11 @@ jobs:
           cd ./html
           sudo find . -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
           
+      - name: Hide TEMPLATE
+        run: |
+          cd ./html
+          sudo rm -f TEMPLATE.html
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
