@@ -27,14 +27,19 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          # Includes history for MkDocs plugin
           fetch-depth: 0
+          
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        
       - name: Generate HTML from Markdown
         uses: ldeluigi/markdown-docs@latest
         with:
@@ -42,11 +47,22 @@ jobs:
           dst: html
           title: TI Toolkit Tokens Wiki
           icon: calculator
+          
+      - name: Fix links to Markdown pages
+        run: |
+          cd ./html
+          find . -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
+          
+      - name: Remove TEMPLATE
+        run: |
+          cd ./html
+          rm TEMPLATE.html
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
           path: 'html'
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
