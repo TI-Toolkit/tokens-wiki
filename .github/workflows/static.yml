@@ -53,10 +53,10 @@ jobs:
           cd ./html
           find . -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
           
-      - name: Remove TEMPLATE
+      - name: Hide TEMPLATE
         run: |
           cd ./html
-          rm TEMPLATE.html
+          rm -f TEMPLATE.html
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
