@@ -37,8 +37,10 @@ jobs:
           # Includes history for MkDocs plugin
           fetch-depth: 0
       
-      - name: Hide TEMPLATE
-        run: sudo rm -f TEMPLATE.md
+      - name: Hide redundant pages
+        run: |
+          sudo rm -f TEMPLATE.md
+          sudo rm -f categories.md
           
       - name: Setup Pages
         uses: actions/configure-pages@v5
