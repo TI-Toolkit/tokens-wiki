@@ -36,6 +36,9 @@ jobs:
         with:
           # Includes history for MkDocs plugin
           fetch-depth: 0
+      
+      - name: Hide TEMPLATE
+        run: sudo rm -f TEMPLATE.md
           
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -51,7 +54,7 @@ jobs:
       - name: Fix links to Markdown pages
         run: |
           cd ./html
-          sudo find . -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
+          sudo find . -name "*.html" -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
