@@ -51,7 +51,7 @@ jobs:
       - name: Fix links to Markdown pages
         run: |
           cd ./html
-          find . -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
+          sudo find . -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
