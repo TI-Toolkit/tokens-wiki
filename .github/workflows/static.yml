@@ -56,9 +56,6 @@ jobs:
       - name: Fix links to Markdown pages
         run: sudo find ./html -name "*.html" -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
           
-      - name: Remove hex names from Tokens dropdown
-        run: sudo find ./html -name "*.html" -type f -exec  sed -e '1h;2,$H;$!d;g' -e 's:\s::g' -r -e 's:<liclass="md-nav__item"><ahref=.*?0x[0-9A-Fa-f]+\.html.*?</li>::g' {} \;
-          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
