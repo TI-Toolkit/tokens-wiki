@@ -7405,7 +7405,7 @@
       {
         "syntax": "Pause",
         "arguments": [],
-        "description": "Suspends program execution until you press Í.",
+        "description": "Suspends program execution until you press 【enter】.",
         "inEditorOnly": true,
         "location": [
           "【prgm】",
@@ -7422,7 +7422,7 @@
             true
           ]
         ],
-        "description": "Displays `value`; suspends program execution until you press Í.",
+        "description": "Displays `value`; suspends program execution until you press 【enter】.",
         "inEditorOnly": true,
         "location": [
           "【prgm】",
