@@ -12235,6 +12235,23 @@
           "[catalog]",
           "sub("
         ]
+      },
+      {
+        "syntax": "sub(value)",
+        "arguments": [
+          [
+            "value",
+            "real|expression|real[]",
+            false
+          ]
+        ],
+        "description": "Divides a real number, expression, or list by 100.",
+        "inEditorOnly": false,
+        "location": [
+          "【2nd】",
+          "[catalog]",
+          "sub("
+        ]
       }
     ],
     "localizations": {

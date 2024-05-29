@@ -31,6 +31,27 @@ Returns a string that is a subset of another `string`, from `begin` to `length`.
 <tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `sub(`
 <hr>
 
+## Overview
+Divides a real number, expression, or list by 100.
+
+
+<b>Availability</b>: Token available everywhere.
+
+## Syntax
+`sub(value)`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td><b>value</b></td><td>real|expression|real[]</td><td></td></tr>
+
+</table>
+
+## Location
+<tt><kbd><b>2nd</b></kbd></tt>, <kbd>catalog</kbd>, `sub(`
+<hr>
+
 ## Description
 
 The sub( command is used to get a substring, or a specific part of a string. It takes three arguments: _string_ is the source string to get the substring from, _start_ is the index of the token to start from, and _length_ is the length of the substring you want. For example:

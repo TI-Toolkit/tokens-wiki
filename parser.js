@@ -8,6 +8,7 @@ import { parse as CSVParse } from 'csv-parse/sync';
 const tkXML= {}; // input
 const csv  = {}; // input
 const dict = {}; // input
+const manualOverrides = {}; // input
 const json = {}; // output
 
 // temp maps used for manual matching of other tokens
@@ -126,6 +127,15 @@ const mergeSinceUntilFromTkXML = function(entry, match, enName) {
             }
         }
     }
+}
+
+try {
+    const data = JSON.parse(fs.readFileSync('./input/manual_overrides.json', 'utf8'));
+    for (const [ bytes, overrides ] of Object.entries(data)) {
+        manualOverrides[bytes] = overrides;
+    }
+} catch (e) {
+    console.error(e);
 }
 
 try {
@@ -486,6 +496,18 @@ for(let i = 0; i < 26; i++)
             location: location.length && location[0].length ? location : [`[${name.replace(/\($/,'')}]`],
             specialCategory: specialCategory.length ? specialCategory : undefined,
         });
+
+        if (manualOverrides[bytes]) {
+            for (const [ what, override ] of Object.entries(manualOverrides[bytes])) {
+                if (typeof(json[bytes][what]) === 'undefined') {
+                    json[bytes][what] = override;
+                } else if (typeof(override) === 'object') {
+                    json[bytes][what].push(...override)
+                } else {
+                    console.error("override type not handled: " + typeof(override));
+                }
+            }
+        }
 
         name2bytes[name] = bytes;
     }
