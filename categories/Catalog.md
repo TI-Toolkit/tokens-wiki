@@ -210,7 +210,7 @@
  * <a href="../tokens/0xBBD3.md" title="0xBBD3">$</a>
  * <a href="../tokens/0xC1.md" title="0xC1">₁₀^(</a>
  * <a href="../tokens/0xBD.md" title="0xBD">³√(</a>
- * <a href="../tokens/0xBB31.md" title="0xBB31">e</a>
+ * <a href="../tokens/0xBB31.md" title="0xBB31">𝑒</a>
  * <a href="../tokens/0xBF.md" title="0xBF">𝑒^(</a>
  * <a href="../tokens/0x3B.md" title="0x3B">ᴇ</a>
  * <a href="../tokens/0x2C.md" title="0x2C">𝑖</a>

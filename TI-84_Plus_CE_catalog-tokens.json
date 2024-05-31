@@ -21067,7 +21067,7 @@
     }
   },
   "0xBB31": {
-    "name": "e",
+    "name": "𝑒",
     "accessibleName": "[e]",
     "type": "constant",
     "categories": [
@@ -21076,7 +21076,7 @@
     ],
     "syntaxes": [
       {
-        "syntax": "e",
+        "syntax": "𝑒",
         "comment": "",
         "arguments": [],
         "description": "",
@@ -21085,10 +21085,10 @@
       }
     ],
     "localizations": {
-      "FR": "e"
+      "FR": "𝑒"
     },
     "since": {
-      "TI-83": "0.01013|𝑒"
+      "TI-83": "0.01013"
     }
   },
   "0xBB6A": {

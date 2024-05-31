@@ -15,7 +15,7 @@
  * <a href="../tokens/Ans.md" title="0x72">Ans</a>
  * <a href="../tokens/cos(.md" title="0xC4">cos(</a>
  * <a href="../tokens/cos⁻¹(.md" title="0xC5">cos⁻¹(</a>
- * <a href="../tokens/e_(BB31).md" title="0xBB31">e</a>
+ * <a href="../tokens/𝑒.md" title="0xBB31">𝑒</a>
  * <a href="../tokens/𝑒^(.md" title="0xBF">𝑒^(</a>
  * <a href="../tokens/ᴇ.md" title="0x3B">ᴇ</a>
  * <a href="../tokens/𝑖.md" title="0x2C">𝑖</a>
