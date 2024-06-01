@@ -33,7 +33,7 @@ Sets the mode to polar complex number mode (`re``^`θ`i`).
 
 ## Description
 
-The re^θ𝑖 command puts the calculator into polar complex number mode. This means that:
+The r𝑒^θ𝑖 command puts the calculator into polar complex number mode. This means that:
 
 *   Taking square roots of negative numbers, and similar operations, no longer returns an error.
 *   Complex results are displayed in the form r𝑒^(θ𝑖) (hence the name of the command)
@@ -55,12 +55,12 @@ Ans=𝑒^(180i)
         0 (false)
 ```
 
-It's recommended, then, to use [Radian](radian-mode) mode whenever you're in re^θ𝑖 mode.
+It's recommended, then, to use [Radian](radian-mode) mode whenever you're in r𝑒^θ𝑖 mode.
 
 ## Related Commands
 
 *   [Real](Real.md)
-*   [a+bi](a+bi.md)
+*   [a+b𝑖](a+b𝑖.md)
 
 * * *
 

@@ -29,7 +29,7 @@ Displays `complex value` or list in rectangular format.
 
 ## Description
 
-The ►Rect command can be used when displaying a complex number on the home screen, or with the [Disp](Disp.md) and [Pause](Pause.md) commands. It will then format the number as though [a+bi](a-bi) mode were enabled, even when it's not. It also works with lists.
+The ►Rect command can be used when displaying a complex number on the home screen, or with the [Disp](Disp.md) and [Pause](Pause.md) commands. It will then format the number as though [a+b𝑖](a-bi) mode were enabled, even when it's not. It also works with lists.
 
 ```ti-basic
 i►Polar
