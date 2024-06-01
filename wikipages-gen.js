@@ -7,6 +7,7 @@ const capitalizeFirstLetter = function(str) {
 }
 
 const emptyDir = function(dir) {
+    if (!fs.existsSync(dir)) { return; }
     for (const file of fs.readdirSync(dir)) {
         fs.unlinkSync(`${dir}/${file}`);
     }
@@ -14,7 +15,7 @@ const emptyDir = function(dir) {
 
 const cleanTokNameForFile = function(tokName, bytes, extraSuffix, isAlias) {
     tokName = tokName.replace(/\/Y$/, '_Y').replace(/^\|$/, '(pipe_symbol)').replace(/^>/, 'to');
-    tokName = tokName.replace(/^¨/u, '(diaeresis)').replace(/^´/u, '(acute_acc)').replace(/^'/, '(apostrophe)').replace(/^_/, '(underscore)');
+    tokName = tokName.replace(/^~/u, '(tilde)').replace(/^¨/u, '(diaeresis)').replace(/^´/u, '(acute_acc)').replace(/^'/, '(apostrophe)').replace(/^_/, '(underscore)');
     return (isAlias || /^\[?\|(.*?)\]?$/.test(tokName))
         ? (sanitize(`${tokName.replace(/^\[?\|(.*?)\]?$/, '$1')}_${extraSuffix}`) || bytes)
         : (sanitize(tokName) || bytes);
@@ -24,6 +25,9 @@ const tokens = JSON.parse(fs.readFileSync('./output/TI-84_Plus_CE_catalog-tokens
 
 emptyDir('./output/wikipages/categories');
 emptyDir('./output/wikipages/tokens');
+
+fs.mkdirSync('output/wikipages/tokens');
+fs.mkdirSync('output/wikipages/categories');
 
 const pagesByCat = {};
 const bytes2filename = {};
@@ -148,7 +152,8 @@ ${info.specialCategory}
         if (filenamesUsedSoFar[cleanAccessibleName.toLocaleLowerCase()]) {
             cleanAccessibleName += `_(${bytes.substring(2)})`;
         }
-        cleanAccessibleName = cleanAccessibleName.replace(/^¨/u, '(diaeresis)').replace(/^´/u, '(acute_acc)').replace(/^'/, '(apostrophe)').replace(/^_/, '(underscore)');
+        cleanAccessibleName = cleanAccessibleName.replace(/^~/u, '(tilde)').replace(/^¨/u, '(diaeresis)')
+                                                 .replace(/^´/u, '(acute_acc)').replace(/^'/, '(apostrophe)').replace(/^_/, '(underscore)');
     }
 
     // tibd stuff

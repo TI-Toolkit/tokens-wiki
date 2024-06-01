@@ -2828,8 +2828,8 @@
     }
   },
   "0xEF12": {
-    "name": "ExecLib",
-    "type": "action",
+    "name": "ExecLib ",
+    "type": "execlib",
     "categories": [
       "Libraries"
     ],
@@ -2845,7 +2845,7 @@
       }
     ],
     "localizations": {
-      "FR": "ExécBiblio"
+      "FR": "ExécBiblio "
     },
     "since": {
       "TI-84+": "0.01"
@@ -11948,6 +11948,7 @@
   },
   "0xEF40": {
     "name": "STATWIZARD OFF",
+    "accessibleName": "[STATWIZARD OFF]",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -11965,10 +11966,14 @@
     ],
     "localizations": {
       "FR": "STATWIZARD OFF"
+    },
+    "since": {
+      "TI-84+": "2.55"
     }
   },
   "0xEF3F": {
     "name": "STATWIZARD ON",
+    "accessibleName": "[STATWIZARD ON]",
     "type": "action",
     "categories": [],
     "syntaxes": [
@@ -11986,6 +11991,9 @@
     ],
     "localizations": {
       "FR": "STATWIZARD ON"
+    },
+    "since": {
+      "TI-84+": "2.55"
     }
   },
   "0xBB0D": {
@@ -22174,8 +22182,8 @@
   },
   "0xBB9B": {
     "name": "`",
+    "accessibleName": "|`",
     "nameVariants": [
-      "|`",
       "^^`"
     ],
     "type": "text/symbol only",
@@ -24197,9 +24205,6 @@
   "0xBBF5": {
     "name": "⌸",
     "accessibleName": "invertedequal",
-    "nameVariants": [
-      "⌸"
-    ],
     "type": "text/symbol only",
     "categories": [
       "Char > Other"
@@ -24217,7 +24222,7 @@
       "FR": "⌸"
     },
     "since": {
-      "TI-83+": "1.16|⍯"
+      "TI-83+": "1.16"
     }
   },
   "0xBC": {
