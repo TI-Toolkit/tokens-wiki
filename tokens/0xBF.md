@@ -13,7 +13,7 @@ Returns `e` raised to `power`.
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`e^(power)`
+`𝑒^(power)`
 
 ## Arguments
 <table>
@@ -34,7 +34,7 @@ Returns a list of `e` raised to a `list` of powers.
 <b>Availability</b>: Token available everywhere.
 
 ## Syntax
-`e^(list)`
+`𝑒^(list)`
 
 ## Arguments
 <table>
@@ -57,11 +57,11 @@ The trigonometric and hyperbolic functions can be expressed, and in fact are usu
 <tt><em>e</em>^(</tt> accepts numbers and lists (but unfortunately not matrices) as arguments. It also works, and is often used for, complex numbers (in fact, one of the standard forms of complex numbers on TI-83 series calculators is <tt><a href="r𝑒^θ𝑖.md">r𝑒^θ𝑖</a></tt>, which uses the <tt><em>e</em>^(</tt> function<tt>)</tt>
 
 ```ti-basic
-e^(2)
+𝑒^(2)
         7.389056099
-e^(πi)
+𝑒^(πi)
         -1
-e^({-1,0,1})
+𝑒^({-1,0,1})
         {.3678794412 1 2.718281828}
 ```
 

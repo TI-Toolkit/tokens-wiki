@@ -33,7 +33,7 @@ The ►Rect command can be used when displaying a complex number on the home scr
 
 ```ti-basic
 i►Polar
-    1e^(1.570796327i)
+    1𝑒^(1.570796327i)
 Ans►Rect
     i
 ```

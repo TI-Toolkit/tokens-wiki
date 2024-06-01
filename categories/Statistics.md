@@ -34,7 +34,6 @@
  * <a href="../tokens/0x621A.md" title="0x621A">[|e]</a>
  * <a href="../tokens/0x6235.md" title="0x6235">r²</a>
  * <a href="../tokens/0x6236.md" title="0x6236">R²</a>
- * <a href="../tokens/0xBBB4.md" title="0xBBB4">e</a>
 
 ## Operations
 

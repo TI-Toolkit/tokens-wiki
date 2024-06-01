@@ -2429,17 +2429,19 @@
       "TI-82": "1.0"
     }
   },
-  "0xBBB4": {
-    "name": "e",
+  "0xBB31": {
+    "name": "𝑒",
+    "accessibleName": "[e]",
     "type": "constant",
     "categories": [
-      "Statistics > EQ"
+      "Catalog > Misc",
+      "Keypad"
     ],
     "syntaxes": [
       {
-        "syntax": "e",
+        "syntax": "𝑒",
         "arguments": [],
-        "description": "Returns decimal approximation of the constant `e`.",
+        "description": "Returns decimal approximation of the constant `𝑒`.",
         "inEditorOnly": false,
         "location": [
           "【2nd】",
@@ -2448,10 +2450,10 @@
       }
     ],
     "localizations": {
-      "FR": "e"
+      "FR": "𝑒"
     },
     "since": {
-      "TI-83+": "1.03"
+      "TI-83": "0.01013"
     }
   },
   "0xBF": {
@@ -2465,7 +2467,7 @@
     ],
     "syntaxes": [
       {
-        "syntax": "e^(power)",
+        "syntax": "𝑒^(power)",
         "arguments": [
           [
             "power",
@@ -2481,7 +2483,7 @@
         ]
       },
       {
-        "syntax": "e^(list)",
+        "syntax": "𝑒^(list)",
         "arguments": [
           [
             "list",
@@ -21066,31 +21068,6 @@
       "TI-82": "1.0"
     }
   },
-  "0xBB31": {
-    "name": "𝑒",
-    "accessibleName": "[e]",
-    "type": "constant",
-    "categories": [
-      "Catalog > Misc",
-      "Keypad"
-    ],
-    "syntaxes": [
-      {
-        "syntax": "𝑒",
-        "comment": "",
-        "arguments": [],
-        "description": "",
-        "inEditorOnly": false,
-        "location": ""
-      }
-    ],
-    "localizations": {
-      "FR": "𝑒"
-    },
-    "since": {
-      "TI-83": "0.01013"
-    }
-  },
   "0xBB6A": {
     "name": "Asm(",
     "type": "function",
@@ -22775,6 +22752,29 @@
     ],
     "localizations": {
       "FR": "d"
+    },
+    "since": {
+      "TI-83+": "1.03"
+    }
+  },
+  "0xBBB4": {
+    "name": "e",
+    "type": "text/symbol only",
+    "categories": [
+      "Char > Letters"
+    ],
+    "syntaxes": [
+      {
+        "syntax": "e",
+        "comment": "",
+        "arguments": [],
+        "description": "",
+        "inEditorOnly": false,
+        "location": ""
+      }
+    ],
+    "localizations": {
+      "FR": "e"
     },
     "since": {
       "TI-83+": "1.03"

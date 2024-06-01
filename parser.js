@@ -66,8 +66,8 @@ try {
             continue;
         }
         tok.__name = tok.__name.replace('ñ', '⁻¹').replace('å', '►').replace('â', '𝗡').replace('ã', '𝐅').replace('Æ', 'Σ')
-                               .replace('ë', 'e').replace('ä', 'χ').replace('Ü', '²').replace('ü', '→').replace('Á', 'θ')
-                               .replace('û', 'ᴇ').replace('ë', 'e').replace('à', '𝑖').replace('¾', '∆').replace('e^', '𝑒^');
+                               .replace('ë', '𝑒').replace('ä', 'χ').replace('Ü', '²').replace('ü', '→').replace('Á', 'θ')
+                               .replace('û', 'ᴇ').replace('Ë', 'x̄').replace('à', '𝑖').replace('¾', '∆').replace('e^', '𝑒^');
         if (tok.__name === 'sinh⁻¹') { tok.__name = 'sinh⁻¹('; } // sigh
         else if (/^∆[XY]$/.test(tok.__name)) { tok.categories.category = 'Variables > Window ➤ X/Y'; } // was "Unassigned"
         dict[tok.__name] = tok;
