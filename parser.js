@@ -142,13 +142,17 @@ try {
     const fileContents = fs.readFileSync('./input/ti-toolkit_tokens_8X.xml', 'utf8');
 
     const fillTkXML = function(bytes, data) {
-        (tkXML[bytes] ??= []).push({
-            enName: decodeHtmlEntity(String(data.lang[0].display)),
-            enAccessible: decodeHtmlEntity(String(data.lang[0].accessible)),
-            enVariants: data.lang[0].variant ? data.lang[0].variant.map((str) => decodeHtmlEntity(str)) : undefined,
+        const enData = data.lang[0];
+        const tok = {
+            enName: decodeHtmlEntity(String(enData.display)),
+            enAccessible: decodeHtmlEntity(String(enData.accessible)),
+            enVariants: enData.variant?.map((str) => decodeHtmlEntity(str)) ?? [],
             since: data.since ? { [data.since.model]: String(data.since['os-version']) } : undefined,
             until: data.until ? { [data.until.model]: String(data.until['os-version']) } : undefined,
-        });
+        };
+        tok.enVariants = tok.enVariants.filter((v) => v !== tok.enName);
+        if (tok.enVariants.length === 0) { delete tok.enVariants; }
+        (tkXML[bytes] ??= []).push(tok);
     }
 
     const isArray = (name, jpath, isLeafNode, isAttribute) => {

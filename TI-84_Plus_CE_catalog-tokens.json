@@ -1372,7 +1372,6 @@
     "name": "cos⁻¹(",
     "accessibleName": "cos^-1(",
     "nameVariants": [
-      "cos⁻¹(",
       "arccos(",
       "acos("
     ],
@@ -1455,7 +1454,6 @@
     "name": "cosh⁻¹(",
     "accessibleName": "cosh^-1(",
     "nameVariants": [
-      "cosh⁻¹(",
       "arccosh(",
       "acosh("
     ],
@@ -11554,7 +11552,6 @@
     "name": "sin⁻¹(",
     "accessibleName": "sin^-1(",
     "nameVariants": [
-      "sin⁻¹(",
       "arcsin(",
       "asin("
     ],
@@ -11637,7 +11634,6 @@
     "name": "sinh⁻¹(",
     "accessibleName": "sinh^-1(",
     "nameVariants": [
-      "sinh⁻¹(",
       "arcsinh(",
       "asinh("
     ],
@@ -12397,7 +12393,6 @@
     "name": "tan⁻¹(",
     "accessibleName": "tan^-1(",
     "nameVariants": [
-      "tan⁻¹(",
       "arctan(",
       "atan("
     ],
@@ -12529,7 +12524,6 @@
     "name": "tanh⁻¹(",
     "accessibleName": "tanh^-1(",
     "nameVariants": [
-      "tanh⁻¹(",
       "arctanh(",
       "atanh("
     ],
