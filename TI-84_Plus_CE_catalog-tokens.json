@@ -15336,6 +15336,9 @@
   },
   "0x3F": {
     "name": "\n",
+    "nameVariants": [
+      "\r\n"
+    ],
     "type": "delimiter",
     "categories": [
       "Char > Other"
