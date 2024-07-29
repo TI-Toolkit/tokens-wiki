@@ -42,37 +42,64 @@ fPart(‾4/5)
               ‾.8
 ```
 
-## Advanced Uses
+<tt>fPart</tt> is sometimes used with it's corresponding partner <tt><a href="iPart.md">iPart</a></tt>. While <tt>iPart</tt> trims off the part _before_ the decimal point, <tt>fPart</tt> trims off the part _after_ it.
 
-<tt>fPart(</tt>, along with <tt><a href="int(.md">int(</a></tt> or <tt><a href="iPart(.md">iPart(</a></tt>, can be used for integer [compression](compression.md).
-
-* * *
-
-Also, <tt>fPart(</tt> is an easy way to find A mod B (the positive remainder when A is divided by B).
+## Watch Out For Precision Issues
 
 ```ti-basic
-:B(A<0)+iPart(BfPart(A/B))
+1/3*3→X   // X is expected to be 1
+X         // Displays 1, but is actually 0.99999999999999 in memory
+iPart(X)  // Displays 0
+fPart(X)  // Displays 1, but is actually 0.99999999999999 in memory
+```
+
+Somewhat unintuitively, the code above displays the results 1, 0 and 1. This is due to the calculator storing values to 14 digits of precision, but rounding the value to 10 digits to fit on the home screen. Because of this, <tt>fPart()</tt> can _appear_ to return values of <tt>1</tt> or <tt>-1</tt>.
+
+_Tip:_ If you enter a value in the list editor screen, you will be able to see all 14 digits of precision. This can help you troubleshoot issues like these.
+
+One workaround is to [round](round.md) the numbers prior to calling <tt>iPart()</tt> or <tt>fPart()</tt>, if you don't mind the slight loss in precision from 14 significant digits to 9 decimal places:
+
+```ti-basic
+1/3*3→X
+iPart(round(X,9))   // Displays the expected result 1
+fPart(round(X,9))   // Displays the expected result 0
+```
+
+(The parameter 9 is not technically required here since 9 is the default, but is shown for clarity and in case you want to customize the level of precision.)
+
+## Advanced Uses
+
+#### Modulus
+
+<tt>fPart(</tt> is an easy way to find A mod B (the positive remainder when A is divided by B).
+
+```ti-basic
+B(A<0)+iPart(BfPart(A/B))
 ```
 
 If A is guaranteed to be positive, the following shorter code can be used, omitting <tt>B(A&lt;0)</tt>:
 
 ```ti-basic
-:iPart(BfPart(A/B))
+iPart(BfPart(A/B))
 ```
 
-* * *
+#### Detect Whole Numbers
 
-Finally, the easiest way to check if a number is a whole number is <tt>not(fPart(X</tt>:
+The easiest way to check if a number is a whole number is <tt>not(fPart(X</tt>:
 
 ```ti-basic
-:If not(fPart(X:Then
-: // X is an integer
-:Else
-: // X is not an integer
-:End
+If not(fPart(X:Then
+  // X is an integer
+Else
+  // X is not an integer
+End
 ```
 
-This can be used, for example, to check if a number is divisible by another: if X is divisible by N, then X/N is a whole number. This is useful for finding the [factors](factorization) of a number. Warning: when storing values with repeating decimals and later multiplying them to see if a number makes it an integer it can return a value of 1 or -1 instead of 0 even if it is an integer do rounding errors. Example: storing 1/3 to X and computing<tt>fPart(3X)</tt> will return 1 instead of 0. This is because <tt>fPart(.999…)</tt> results in .999… and then rounds to 1 when displaying rather than rounding to 1.0 and then displaying the <tt>fPart(</tt> as 0.
+This can be used, for example, to check if a number is divisible by another: if X is divisible by N, then X/N is a whole number. This is useful for finding the [factors](factorization) of a number.
+
+#### Compression
+
+<tt>fPart(</tt>, along with <tt><a href="int(.md">int(</a></tt> or <tt><a href="iPart(.md">iPart(</a></tt>, can be used for integer [compression](compression.md).
 
 ## Related Commands
 

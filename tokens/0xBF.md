@@ -57,7 +57,7 @@ The trigonometric and hyperbolic functions can be expressed, and in fact are usu
 <tt><em>e</em>^(</tt> accepts numbers and lists (but unfortunately not matrices) as arguments. It also works, and is often used for, complex numbers (in fact, one of the standard forms of complex numbers on TI-83 series calculators is <tt><a href="r𝑒^θ𝑖.md">r𝑒^θ𝑖</a></tt>, which uses the <tt><em>e</em>^(</tt> function<tt>)</tt>
 
 ```ti-basic
-𝑒^(2)
+e^(2)
         7.389056099
 𝑒^(πi)
         -1

@@ -29,7 +29,7 @@ Returns hyperbolic cosine of a real number, expression, or list.
 
 ## Description
 
-Calculates the hyperbolic cosine of a value. The hyperbolic trig functions <tt><a href="sinh(.md">sinh(</a></tt>, <tt>cosh(</tt>, and <tt><a href="tanh(.md">tanh(</a></tt> are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of <tt><a href="𝑒.md">𝑒</a></tt>, and don't depend on the [Degree](degree-mode) or [Radian](radian-mode) mode setting.
+Calculates the hyperbolic cosine of a value. The hyperbolic trig functions <tt><a href="sinh(.md">sinh(</a></tt>, <tt>cosh(</tt>, and <tt><a href="tanh(.md">tanh(</a></tt> are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of <tt><a href="e.md">e</a></tt>, and don't depend on the [Degree](degree-mode) or [Radian](radian-mode) mode setting.
 
 ```ti-basic
 cosh(0)

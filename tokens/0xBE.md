@@ -29,7 +29,7 @@ Returns the natural logarithm of a real or complex number, expression, or list.
 
 ## Description
 
-The ln( command computes the natural logarithm of a value — the exponent to which the constant _[e](e-value)_ must be raised, to get that value. This makes it the inverse of the _[𝑒^(](𝑒^(.md)_ command.
+The ln( command computes the natural logarithm of a value — the exponent to which the constant _[e](e-value)_ must be raised, to get that value. This makes it the inverse of the _[e^(](𝑒^\(.md)_ command.
 
 ln( is a real number for all positive real values. For negative numbers, ln( is an imaginary number (so taking ln( of a negative number will cause [ERR:NONREAL ANS](errors#nonrealans) to be thrown in [Real](real-mode) mode), and of course it's a complex number for complex values. ln( is not defined at 0, even if you're in a complex mode.
 
@@ -59,7 +59,7 @@ This is the exponent to which B must be raised, to get X.
 ## Related Commands
 
 *   _[e](e-value)_
-*   _[𝑒^(](𝑒^(.md)_
+*   _[e^(](𝑒^\(.md)_
 *   [log(](log\(.md)
 *   [logBASE(](logBASE\(.md)
 

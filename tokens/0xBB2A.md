@@ -29,42 +29,62 @@ Converts the character string contained in `string` to an expression and execute
 
 ## Description
 
-The expr( command is used to evaluate an expression that's stored in a string (an expression is merely anything that returns a value - of any type). Expressions are occasionally stored to strings, rather than evaluated outright, so that their value has the capacity to change when the variables stored inside them change. The expr( command's result depends on the kind of expression that's in the string you pass it — it may return a number, a list, a matrix, or even another string.
+The <tt>expr(</tt> command is used to evaluate an expression that's stored in a string (an expression is merely anything that returns a value - of any type). Expressions are occasionally stored to strings, rather than evaluated outright, so that their value has the capacity to change when the variables stored inside them change. The <tt>expr(</tt> command's result depends on the kind of expression that's in the string you pass it — it may return a number, a list, a matrix, or even another string.
 
-As a special case of an expression, the expr( command can also be used to convert a string like "123" to the number 123. Going in the reverse direction (123 to "123") is [more complicated](number-to-string).
+As a special case of an expression, the <tt>expr(</tt> command can also be used to convert a string like <tt>"123"</tt> to the number <tt>123</tt>. Going in the reverse direction (<tt>123</tt> to <tt>"123"</tt>) is [more complicated](number-to-string).
 
-The expr( command has limitations. Here are the situations in which expr( will not work:
+The <tt>expr(</tt> command has limitations. Here are the situations in which <tt>expr(</tt> will not work:
 
-*   When the code in the string does not return an answer, and thus is not an expression: e.g. expr("Line(0,0,1,1" or expr("prgmHELLO" is invalid
-*   When the expression in the string contains an expr( command itself, e.g. expr("expr(Str1" — this will throw an [ERR:ILLEGAL NEST](errors#illegalnest) error.
-*   In place of a variable (rather than an expression), e.g. 5→expr("X" isn't a substitute for 5→X because expr("X" evaluates to the value of X and not to X itself.
+*   When the code in the string does not return an answer, and thus is not an expression: e.g. <tt>expr("Line(0,0,1,1"</tt> or <tt>expr("prgmHELLO"</tt> is invalid
 
-## Advanced Uses
+*   When the expression in the string contains an <tt>expr(</tt> command itself, e.g. <tt>expr("expr(Str1"</tt> — this will throw an [ERR:ILLEGAL NEST](errors#illegalnest) error.
 
-expr( is often used in conjunction with the [Input](Input.md) command to prompt the user to enter a list. Although the Input command can already handle lists, it requires the user to enter the opening bracket that signifies a list. With expr(, this can be avoided.
+*   In place of a variable (rather than an expression), e.g. <tt>5→expr("X"</tt> isn't a substitute for <tt>5→X</tt> because <tt>expr("X"</tt> evaluates to the value of <tt>X</tt> and not to <tt>X</tt> itself.
 
-Instead of:
+## Advanced Usage with Lists
+
+<tt>expr(</tt> is often used in conjunction with the <tt><a href="Input.md">Input</a></tt> command to prompt the user to enter a list. Although the <tt>Input</tt> command can already handle lists, it requires the user to enter the opening bracket that signifies a list. With <tt>expr(</tt>, this can be avoided.
+
+If you want the user to enter a list separated by commas, instead of:
 
 ```ti-basic
-:Input L1
+Input L₁
 ```
 
-  
 Use this:
 
 ```ti-basic
-:Input Str1
-:expr("{"+Str1→L1
+Input Str1
+expr("{"+Str1→L₁
+```
+
+This will automatically put the curly bracket in so the user does not have to.
+
+Just be aware that you _cannot_ access individual list items directly after the <tt>expr()</tt> function, unlike how you can with <tt><a href="Ans.md">Ans</a></tt>. The following code will _multiply_ the entire list by 2 rather than return the second item:
+
+```ti-basic
+expr("{1,2}")(2)
+```
+
+Instead, to access the second item in the list you could split this across two lines and use <tt>Ans</tt>:
+
+```ti-basic
+expr("{1,2}")
+Ans(2)
 ```
 
 ## Optimization
 
-Evaluating an expression inside a string is more complicated than evaluating a normal expression; you should therefore try to take as much out of an expr( statement as possible to speed up your code. For example:
+Evaluating an expression inside a string is more complicated than evaluating a normal expression; you should therefore try to take as much out of an <tt>expr(</tt> statement as possible to speed up your code. For example:
 
 ```ti-basic
-:expr("sum({"+Str1
-can be
-:sum(expr("{"+Str1
+expr("sum({"+Str1
+```
+
+can be:
+
+```ti-basic
+sum(expr("{"+Str1
 ```
 
 ## Error Conditions

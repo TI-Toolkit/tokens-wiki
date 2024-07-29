@@ -445,7 +445,8 @@ for (const page of pages) {
     // Discard the sidebar content (ends at the token size thing), remove the empty end, resize titles, and do some cleanup.
     articleHTML = articleHTML
         .replace(/.*Token Size<\/a><\/strong><\/p>\n<p>(?:N\/A|\d bytes?(?: \(\w+\))?)<\/p>\n(?:<p><sub>\*OS [\d.]{1,10} or later<\/sub><\/p>\n)?<\/div>\n/s, '')
-        .replaceAll('re^θi', 'r𝑒^θ𝑖')
+        .replaceAll('θi', 'θ𝑖').replaceAll('re^θ𝑖', 'r𝑒^θ𝑖').replaceAll('1e^', '1𝑒^').replaceAll(/^e\^/gm, '𝑒^')
+        .replaceAll('e^(πi)', '𝑒^(π𝑖)').replaceAll('e^(180i)', '𝑒^(180𝑖)').replaceAll('a+bi', 'a+b𝑖')
         .replaceAll('<a class="newpage" href="/"></a>', '')
         .replaceAll('<a href="http://tibasicdev.wikidot.com/', '<a href="')
         .replaceAll('<a href="/', '<a href="')
@@ -470,8 +471,9 @@ for (const page of pages) {
     const markdown = turndownService.turndown(articleHTML)
         .replaceAll(/____$/gm, '')
         .replaceAll('\\(.md">', '(.md">') // fix up bad link stuff after "escaping" transformation above
-        .replaceAll('](e-exponent)', '](𝑒^(.md)')
         .replaceAll('"e^(.md"', '"𝑒^(.md"')
+        .replaceAll('\\\\(.md)', '\\(.md)') // fix up bad link stuff after "escaping" transformation above
+        .replaceAll('](e-exponent)', '](𝑒^\\(.md)')
         .replaceAll('[°](degree-symbol)', '[°](°.md)')
         .replaceAll('<a href="degree-symbol">°</a>', '<a href="°.md">°</a>')
         .replaceAll(/<a href="([^"]*)[<>]([^"]*)\.md">/gmi, '<a href="$1$2.md">')

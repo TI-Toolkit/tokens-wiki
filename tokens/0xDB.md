@@ -127,7 +127,7 @@ Note, however, that a quirk in the <tt><a href="For(.md">For(</a></tt> command (
 
 ## Related Commands
 
-*   <tt><a href="IS(.md">IS&gt;(</a></tt>
+*   <tt><a href="IS&gt;(.md">IS&gt;(</a></tt>
 *   <tt><a href="If.md">If</a></tt>
 
 * * *
