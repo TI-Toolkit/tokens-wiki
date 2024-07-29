@@ -144,7 +144,7 @@ try {
     const fillTkXML = function(bytes, data) {
         const enData = data.lang[0];
         const tok = {
-            enName: decodeHtmlEntity(String(enData.display)),
+            enName: decodeHtmlEntity(String(enData.__display)),
             enAccessible: decodeHtmlEntity(String(enData.accessible)),
             enVariants: enData.variant?.map((str) => decodeHtmlEntity(str)) ?? [],
             since: data.since ? { [data.since.model]: String(data.since['os-version']) } : undefined,
