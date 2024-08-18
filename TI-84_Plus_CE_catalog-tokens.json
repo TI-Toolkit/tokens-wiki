@@ -5251,10 +5251,10 @@
   },
   "0xEB": {
     "name": "ʟ",
-    "accessibleName": "smallL",
+    "accessibleName": "|L",
     "nameVariants": [
       "⌊",
-      "|L"
+      "smallL"
     ],
     "type": "other",
     "categories": [],
@@ -14987,6 +14987,10 @@
   },
   "0x2A": {
     "name": "\"",
+    "nameVariants": [
+      "“",
+      "”"
+    ],
     "type": "delimiter",
     "categories": [
       "Angle",
@@ -19192,7 +19196,11 @@
       "FR": "Zu(𝑛Min)"
     },
     "since": {
-      "TI-82": "1.0"
+      "TI-82": "1.0|ZUnStart",
+      "TI-83": "0.01013"
+    },
+    "until": {
+      "TI-83": "0.01013|ZUnStart"
     }
   },
   "0x6309": {
@@ -19219,7 +19227,11 @@
       "FR": "Zv(𝑛Min)"
     },
     "since": {
-      "TI-82": "1.0"
+      "TI-82": "1.0|ZVnStart",
+      "TI-83": "0.01013"
+    },
+    "until": {
+      "TI-83": "0.01013|ZVnStart"
     }
   },
   "0x630A": {
