@@ -4778,6 +4778,28 @@
         ]
       },
       {
+        "syntax": "Input [\"text\",variable]",
+        "arguments": [
+          [
+            "text",
+            "string",
+            true
+          ],
+          [
+            "variable",
+            "",
+            true
+          ]
+        ],
+        "description": "Prompts for value to store to `variable`.",
+        "inEditorOnly": true,
+        "location": [
+          "【prgm】",
+          "I/O",
+          "2:Input"
+        ]
+      },
+      {
         "syntax": "Input [Strn,variable]",
         "arguments": [
           [
@@ -4964,6 +4986,34 @@
           ],
           [
             "tail",
+            "",
+            false
+          ]
+        ],
+        "description": "Computes the inverse cumulative normal distribution function for a given area under the normal distribution curve specified by μ and s.. The optional argument tail can be LEFT (-∞,-a), CENTER [-a,a] or RIGHT (a, ∞) for Real a.\nThe tokens LEFT, CENTER and RIGHT can be found in [catalog].",
+        "inEditorOnly": false,
+        "location": [
+          "【2nd】",
+          "[distr]",
+          "DISTR",
+          "3:invNorm("
+        ]
+      },
+      {
+        "syntax": "tail [catalog]: LEFT, CENTER, RIGHT",
+        "arguments": [
+          [
+            "tail catalog: LEFT",
+            "",
+            false
+          ],
+          [
+            "CENTER",
+            "",
+            false
+          ],
+          [
+            "RIGHT",
             "",
             false
           ]

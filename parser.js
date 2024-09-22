@@ -345,161 +345,163 @@ for(let i = 0; i < 26; i++)
             description = descRaw.map(el => el.textContent.trim()).join("\n").replace('``', '');
         }
 
-        const syntaxLine = token.querySelector('tbody p.SyntaxLine');
-
-        let wholeSyntaxLine = (syntaxLine?.textContent ?? '').replace(',[,','[,').replace(/ +/g,' ').replace(/ +/g,' ').trim();
-        if (comment) {
-            if (/^\(.*\)$/.test(comment)) {
-                wholeSyntaxLine = wholeSyntaxLine.replace(new RegExp(escapeRegExp(comment) + '$'), ''); // remove potential comment at the end
-                comment = comment.substring(1, comment.length-1);
-            } else if (wholeSyntaxLine.endsWith(comment)) {
-                comment = undefined;
-            }
-        }
-
-        let optionalSinceIdx = (wholeSyntaxLine.startsWith(`${name}[`) || wholeSyntaxLine.startsWith(`${name.trim()}[`)) ? 0 : null;
-        let _argIdx = 0;
-        let args = [...syntaxLine.childNodes]
-                    .filter(el => el.nodeType !== 8 /*COMMENT_NODE*/ && el.textContent !== '→' && el.textContent.trim().length &&
-                           (!el.classList?.contains('Function') || el.textContent === ',' || el.getAttribute("style")?.includes('font-weight: normal')))
-                    .filter((el, idx) => {
-                        const str = el.textContent.trim();
-                        if (str === '►') { return false; }
-                        const strOrFirstPart = str.split(' ')[0];
-                        return (idx > 0) || (strOrFirstPart !== name.trim() && (strOrFirstPart + '(') !== name.trim());
-                    })
-                    .map((el,idx,arr) => {
-                        const argStr = el.textContent.trim().replace(',[,','[,');
-                        if (optionalSinceIdx === null && /^\[,?$/.test(argStr)) {
-                            optionalSinceIdx = _argIdx
-                            if (optionalSinceIdx === 0 && name.endsWith('(')) {
-                                optionalSinceIdx = 1;
-                            }
-                            // console.log(`    optional args start now => ${optionalSinceIdx} ; ${wholeSyntaxLine}`)
-                        }
-                        if (el.textContent === ',' || el.classList?.contains('Variable')) {
-                            _argIdx += 1 + (argStr.replace(/(^,|,$)/g, '').match(/,/g) || []).length
-                        }
-                        return argStr;
-                    })
-                    .filter(el => el && el.textContent !== ',')
-                    .map((el) => [ el.replace(/(^,*|[\[\]\(\)]|,*$)/g, ''), '', false ])
-                    .map((el,idx,arr) => [ el[0], '', optionalSinceIdx !== null && idx >= optionalSinceIdx ])
-                    .filter(n => n && n[0].length && !/^[\[\]\(\)]$/.test(n[0]));
-
+        const syntaxLines = token.querySelectorAll('tbody p.SyntaxLine');
+        for (const syntaxLine of syntaxLines)
         {
-            let newArgs = [];
-            for (const [idx, [argName, argType, isOptional]] of Object.entries(args)) {
-                if (argName.includes(',')) {
-                    // console.warn(`    arg ${idx} wasn't split correctly: "${argName}". args was: ${JSON.stringify(args)}`);
-                    for (const [idx2, arg] of Object.entries(argName.split(','))) {
-                        newArgs.push([arg.replace(/^\(/, '').trim(), argType, isOptional])
+            let wholeSyntaxLine = (syntaxLine?.textContent ?? '').replace(',[,','[,').replace(/ +/g,' ').replace(/ +/g,' ').trim();
+            if (comment) {
+                if (/^\(.*\)$/.test(comment)) {
+                    wholeSyntaxLine = wholeSyntaxLine.replace(new RegExp(escapeRegExp(comment) + '$'), ''); // remove potential comment at the end
+                    comment = comment.substring(1, comment.length-1);
+                } else if (wholeSyntaxLine.endsWith(comment)) {
+                    comment = undefined;
+                }
+            }
+
+            let optionalSinceIdx = (wholeSyntaxLine.startsWith(`${name}[`) || wholeSyntaxLine.startsWith(`${name.trim()}[`)) ? 0 : null;
+            let _argIdx = 0;
+            let args = [...syntaxLine.childNodes]
+                        .filter(el => el.nodeType !== 8 /*COMMENT_NODE*/ && el.textContent !== '→' && el.textContent.trim().length &&
+                               (!el.classList?.contains('Function') || el.textContent === ',' || el.getAttribute("style")?.includes('font-weight: normal')))
+                        .filter((el, idx) => {
+                            const str = el.textContent.trim();
+                            if (str === '►') { return false; }
+                            const strOrFirstPart = str.split(' ')[0];
+                            return (idx > 0) || (strOrFirstPart !== name.trim() && (strOrFirstPart + '(') !== name.trim());
+                        })
+                        .map((el,idx,arr) => {
+                            const argStr = el.textContent.trim().replace(',[,','[,');
+                            if (optionalSinceIdx === null && /^\[,?$/.test(argStr)) {
+                                optionalSinceIdx = _argIdx
+                                if (optionalSinceIdx === 0 && name.endsWith('(')) {
+                                    optionalSinceIdx = 1;
+                                }
+                                // console.log(`    optional args start now => ${optionalSinceIdx} ; ${wholeSyntaxLine}`)
+                            }
+                            if (el.textContent === ',' || el.classList?.contains('Variable')) {
+                                _argIdx += 1 + (argStr.replace(/(^,|,$)/g, '').match(/,/g) || []).length
+                            }
+                            return argStr;
+                        })
+                        .filter(el => el && el.textContent !== ',')
+                        .map((el) => [ el.replace(/(^,*|[\[\]\(\)]|,*$)/g, ''), '', false ])
+                        .map((el,idx,arr) => [ el[0], '', optionalSinceIdx !== null && idx >= optionalSinceIdx ])
+                        .filter(n => n && n[0].length && !/^[\[\]\(\)]$/.test(n[0]));
+
+            {
+                let newArgs = [];
+                for (const [idx, [argName, argType, isOptional]] of Object.entries(args)) {
+                    if (argName.includes(',')) {
+                        // console.warn(`    arg ${idx} wasn't split correctly: "${argName}". args was: ${JSON.stringify(args)}`);
+                        for (const [idx2, arg] of Object.entries(argName.split(','))) {
+                            newArgs.push([arg.replace(/^\(/, '').trim(), argType, isOptional])
+                        }
+                    } else {
+                        newArgs.push([argName, argType, isOptional]);
                     }
-                } else {
-                    newArgs.push([argName, argType, isOptional]);
+                }
+                args = newArgs;
+            }
+
+            // args misc. cleanup and type determination...
+            args = args.filter(el => el && el[0].length);
+            for (const [idx, [argName]] of Object.entries(args)) {
+                if (argName === "Plot#type") {
+                    wholeSyntaxLine = wholeSyntaxLine.replace(new RegExp('^' + escapeRegExp(name)), '').trim();
+                    args[idx] = [ 'type', `${name} token`, false ];
+                }
+                if (/^listname\d/i.test(argName)) {
+                    args[idx][1] = 'listName'
+                } else if (argName.includes('list')) {
+                    args[idx][1] = 'list'
+                } else if (argName.includes('matrix')) {
+                    args[idx][1] = 'matrix'
+                } else if (argName.endsWith('string') || argName.startsWith('text')) {
+                    args[idx][1] = 'string'
+                } else if (argName === 'color#') {
+                    args[idx][1] = 'colorNum'
+                } else if (/^(length|rows|columns|linestyle#)$/.test(argName)) {
+                    args[idx][1] = 'integer'
+                } else if (argName === 'expression') {
+                    args[idx][1] = 'expression'
+                } else if (argName === 'complex value') {
+                    args[idx][1] = 'complex'
+                }
+
+                // some overrides...
+                if (description.includes('`valueA` and `valueB`, which can be real numbers or lists') // gcd/lcm, expressions work fine
+                        || description.includes('`valueA` and `valueB` can be real numbers, expressions, or lists')) {
+                    args[idx][1] = 'real|expression|real[]'
+                } else if (description.includes('of a real number, expression, or list')) {
+                    args[idx][1] = 'real|expression|real[]'
+                } else if (description.includes('of a real number, expression, list, or matrix')) {
+                    args[idx][1] = 'real|expression|real[]|matrix'
+                } else if (description.includes('of a complex number or list')) {
+                    args[idx][1] = 'complex|complex[]'
+                }
+                //console.log(idx, argName, arguments[idx][1])
+            }
+
+            // remove last arg if it's just a comment that got there somehow (not an actual arg)
+            if (comment && args.length && new RegExp('^\\(?' + comment + '$').test(args[args.length-1][0])) {
+                args.pop();
+            }
+
+            const rawLocation = token.querySelector('tbody p.MenuName > span')?.parentElement;
+            const location = [ ...(rawLocation?.children ?? []) ]
+                             .map(el => el.textContent.trim())
+                             .filter(el => el)
+                             .map(el => menuReplacements[el] ?? el);
+            if (location.length >= 2) {
+                if (name.includes('►')) {
+                    const [ part1, part2 ] = name.split('►');
+                    if (location[location.length-1] === part2 && (new RegExp('^([A-Z\d]:)?' + escapeRegExp(part1) + '$').test(location[location.length-2]))) {
+                        location[location.length-2] += '►' + location.pop();
+                    }
+                }
+                if (/^[A-Z\d]:$/.test(location[location.length-2])) {
+                    location[location.length-2] += location.pop();
                 }
             }
-            args = newArgs;
-        }
 
-        // args misc. cleanup and type determination...
-        args = args.filter(el => el && el[0].length);
-        for (const [idx, [argName]] of Object.entries(args)) {
-            if (argName === "Plot#type") {
-                wholeSyntaxLine = wholeSyntaxLine.replace(new RegExp('^' + escapeRegExp(name)), '').trim();
-                args[idx] = [ 'type', `${name} token`, false ];
-            }
-            if (/^listname\d/i.test(argName)) {
-                args[idx][1] = 'listName'
-            } else if (argName.includes('list')) {
-                args[idx][1] = 'list'
-            } else if (argName.includes('matrix')) {
-                args[idx][1] = 'matrix'
-            } else if (argName.endsWith('string') || argName.startsWith('text')) {
-                args[idx][1] = 'string'
-            } else if (argName === 'color#') {
-                args[idx][1] = 'colorNum'
-            } else if (/^(length|rows|columns|linestyle#)$/.test(argName)) {
-                args[idx][1] = 'integer'
-            } else if (argName === 'expression') {
-                args[idx][1] = 'expression'
-            } else if (argName === 'complex value') {
-                args[idx][1] = 'complex'
-            }
-
-            // some overrides...
-            if (description.includes('`valueA` and `valueB`, which can be real numbers or lists') // gcd/lcm, expressions work fine
-                    || description.includes('`valueA` and `valueB` can be real numbers, expressions, or lists')) {
-                args[idx][1] = 'real|expression|real[]'
-            } else if (description.includes('of a real number, expression, or list')) {
-                args[idx][1] = 'real|expression|real[]'
-            } else if (description.includes('of a real number, expression, list, or matrix')) {
-                args[idx][1] = 'real|expression|real[]|matrix'
-            } else if (description.includes('of a complex number or list')) {
-                args[idx][1] = 'complex|complex[]'
-            }
-            //console.log(idx, argName, arguments[idx][1])
-        }
-
-        // remove last arg if it's just a comment that got there somehow (not an actual arg)
-        if (comment && args.length && new RegExp('^\\(?' + comment + '$').test(args[args.length-1][0])) {
-            args.pop();
-        }
-
-        const rawLocation = token.querySelector('tbody p.MenuName > span')?.parentElement;
-        const location = [ ...(rawLocation?.children ?? []) ]
-                         .map(el => el.textContent.trim())
-                         .filter(el => el)
-                         .map(el => menuReplacements[el] ?? el);
-        if (location.length >= 2) {
-            if (name.includes('►')) {
-                const [ part1, part2 ] = name.split('►');
-                if (location[location.length-1] === part2 && (new RegExp('^([A-Z\d]:)?' + escapeRegExp(part1) + '$').test(location[location.length-2]))) {
-                    location[location.length-2] += '►' + location.pop();
-                }
-            }
-            if (/^[A-Z\d]:$/.test(location[location.length-2])) {
-                location[location.length-2] += location.pop();
-            }
-        }
-
-        let specificName = undefined;
-        if (!bytes) {
-            bytes = {
-                'If Then End':      name2bytes['If '],
-                'If Then Else End': name2bytes['If '],
-            }[name];
-            specificName = name;
+            let specificName = undefined;
             if (!bytes) {
-                throw `bytes not defined for token name: [${name}]`;
+                bytes = {
+                    'If Then End':      name2bytes['If '],
+                    'If Then Else End': name2bytes['If '],
+                }[name];
+                specificName = name;
+                if (!bytes) {
+                    throw `bytes not defined for token name: [${name}]`;
+                }
             }
-        }
 
-        if (tkXML[bytes]) {
-            const lastTkData = tkXML[bytes][tkXML[bytes].length - 1];
-            if (lastTkData.enAccessible && tokenEntry.name !== lastTkData.enAccessible) {
-                tokenEntry.accessibleName = lastTkData.enAccessible;
+            if (tkXML[bytes]) {
+                const lastTkData = tkXML[bytes][tkXML[bytes].length - 1];
+                if (lastTkData.enAccessible && tokenEntry.name !== lastTkData.enAccessible) {
+                    tokenEntry.accessibleName = lastTkData.enAccessible;
+                }
+                if (lastTkData.enVariants) {
+                    tokenEntry.nameVariants = lastTkData.enVariants;
+                }
+                mergeSinceUntilFromTkXML(tokenEntry, tkXML[bytes], name);
             }
-            if (lastTkData.enVariants) {
-                tokenEntry.nameVariants = lastTkData.enVariants;
+
+            if (comment && comment.startsWith('Alias')) {
+                tokenEntry.isAlias = true;
             }
-            mergeSinceUntilFromTkXML(tokenEntry, tkXML[bytes], name);
-        }
 
-        if (comment && comment.startsWith('Alias')) {
-            tokenEntry.isAlias = true;
+            (json[bytes] ??= tokenEntry).syntaxes.push({
+                specificName: specificName,
+                syntax: wholeSyntaxLine,
+                comment: comment,
+                arguments: args,
+                description: description,
+                inEditorOnly: (token.querySelector('tbody p.MenuName')?.textContent ?? '').includes('†'),
+                location: location.length && location[0].length ? location : [`[${name.replace(/\($/,'')}]`],
+                specialCategory: specialCategory.length ? specialCategory : undefined,
+            });
         }
-
-        (json[bytes] ??= tokenEntry).syntaxes.push({
-            specificName: specificName,
-            syntax: wholeSyntaxLine,
-            comment: comment,
-            arguments: args,
-            description: description,
-            inEditorOnly: (token.querySelector('tbody p.MenuName')?.textContent ?? '').includes('†'),
-            location: location.length && location[0].length ? location : [`[${name.replace(/\($/,'')}]`],
-            specialCategory: specialCategory.length ? specialCategory : undefined,
-        });
 
         if (manualOverrides[bytes]) {
             for (const [ what, override ] of Object.entries(manualOverrides[bytes])) {

@@ -41,6 +41,29 @@ Prompts for value to store to `variable`.
 <hr>
 
 ## Overview
+Prompts for value to store to `variable`.
+
+
+<b>Availability</b>: Token only available from within the Basic editor.
+
+## Syntax
+`Input ["text",variable]`
+
+## Arguments
+<table>
+<tr><th>Name</th><th>Type</th><th>Optional</th></tr>
+
+<tr><td>text</td><td>string</td><td>Yes</td></tr>
+
+<tr><td>variable</td><td></td><td>Yes</td></tr>
+
+</table>
+
+## Location
+<tt><kbd><b>prgm</b></kbd></tt>, `I/O`, `2:Input`
+<hr>
+
+## Overview
 Displays `Strn` and stores entered value to `variable`.
 
 
