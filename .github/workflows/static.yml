@@ -57,6 +57,10 @@ jobs:
         run: |
           sudo find ./html -name "*.html" -type f -exec sed -i -r "s:\.md:\.html:g" {} \;
           sudo sed -i -r "s:github\.com/TI-Toolkit/tokens-wiki/blob/main:ti-toolkit\.github\.io/tokens-wiki:g" ./html/index.html
+
+      - name: Patch Polyfill
+        run: |
+          sudo find ./html -name "*.html" -type f -exec sed -i -r "s/polyfill.io/cdnjs.cloudflare.com\/polyfill/g" {} \;
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
