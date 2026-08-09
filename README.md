@@ -5,3 +5,9 @@ Welcome to the tokens wiki! This project aims to collect and organize documentat
 While several documentation sites have emerged over the years, many are no longer actively maintained. The tokens wiki is intended to fill in these gaps, as well as provide documentation that is both human- and machine-readable.
 
 You can view the pages either directly on [GitHub](https://github.com/TI-Toolkit/tokens-wiki) or on [GitHub Pages](https://ti-toolkit.github.io/tokens-wiki/). Each token is indexed by its bytes (e.g. ``Ox14``) and readable name (e.g. ``augment(``), with some escaping to make the names web-safe. Our sources are listed [here](https://github.com/TI-Toolkit/tokens-wiki/blob/main/sources.md), with attributions found at the bottom of each page. Contributions welcome!
+
+## Token inspector
+
+The [TI 8x token inspector](./inspector.md) displays the token bytes and human-readable representation of programs, equations, and strings. It supports both pre-Evo and Evo files, English and French token names, and processes files entirely in your browser.
+
+Select any displayed token to open its documentation page.
